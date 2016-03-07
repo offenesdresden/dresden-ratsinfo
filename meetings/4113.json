@@ -1,11 +1,11 @@
 {
   "shortName": "KG/004/2015",
-  "organization": [
-    "Kleingartenbeirat"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "4. Sitzung des Kleingartenbeirates",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "22"
+  ],
   "start": "2015-05-27T16:00:00+02:00",
   "end": "2015-05-27T18:00:00+02:00",
   "resultsProtocol": "215682",
@@ -39,7 +39,10 @@
       "name": "Umgang mit Kleingartenanlagen im Abflussbereich der Elbe",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9014",
+      "consultation": {
+        "parentID": "9014",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "215682",
       "auxiliaryFile": [
         "229559",
@@ -57,7 +60,10 @@
       "name": "Damit Dresden weiter summt! Aktionsplan gegen das Bienensterben",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8135",
+      "consultation": {
+        "parentID": "8135",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "160007",
         "185323",

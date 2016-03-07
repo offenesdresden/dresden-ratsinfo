@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/015/2015",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf/Langebrück, Zweitstandort Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Langebrück",
   "name": "15. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2015-10-27T19:00:00+01:00",
   "end": "2015-10-27T21:38:00+01:00",
   "resultsProtocol": "236178",
@@ -52,7 +52,10 @@
       "name": "Satzung über eine städtebauliche Sanierungsmaßnahme Langebrück \"Ortsmitte\" nach §§ 136 ff. BauGB",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10395",
+      "consultation": {
+        "parentID": "10395",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "236178",
       "auxiliaryFile": [
         "226624",

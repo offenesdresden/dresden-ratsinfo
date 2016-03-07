@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/033/2012",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  Beratungsraum im Bürgerhaus (ehem. Gemeindeamt)\nSeifersdorfer Straße 6, 01465 Dresden OT Schönborn",
   "name": "33. Sitzung des Ortschaftsrates Schönborn",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2012-02-15T19:30:00+01:00",
   "end": "2012-02-15T22:00:00+01:00",
   "auxiliaryFile": [
@@ -20,7 +20,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2012/2013",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5151",
+      "consultation": {
+        "parentID": "5151",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "85670",
         "83758",

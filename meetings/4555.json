@@ -1,11 +1,11 @@
 {
   "shortName": "OSR MB/010/2015",
-  "organization": [
-    "Ortschaftsrat Mobschatz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im \"Dorfklub Mobschatz\", Sitzungssaal,\nAm Tummelsgrund 7 b, 01156 Dresden",
   "name": "10. Sitzung des Ortschaftsrates Mobschatz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "45"
+  ],
   "start": "2015-05-21T19:00:00+02:00",
   "end": "2015-05-21T21:00:00+02:00",
   "auxiliaryFile": [
@@ -48,7 +48,10 @@
       "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
       "number": "8.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9668",
+      "consultation": {
+        "parentID": "9668",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "199997",
         "232126"

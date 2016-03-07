@@ -1,11 +1,11 @@
 {
   "shortName": "OSR OW/053/2014",
-  "organization": [
-    "Ortschaftsrat Oberwartha"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Ortschaft Oberwartha, Versammlungsraum,\nMax-Schwan-Straße 4, 01156 Dresden",
   "name": "53. Sitzung des Ortschaftsrates Oberwartha",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "52"
+  ],
   "start": "2014-03-18T18:30:00+01:00",
   "end": "2014-03-18T20:30:00+01:00",
   "resultsProtocol": "176454",
@@ -39,7 +39,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2014/2015",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8054",
+      "consultation": {
+        "parentID": "8054",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "176454",
       "auxiliaryFile": [
         "191449",

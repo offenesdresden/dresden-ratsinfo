@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/019/2011",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "19. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2011-09-28T17:30:00+02:00",
   "end": "2011-09-28T19:30:00+02:00",
   "auxiliaryFile": [
@@ -41,7 +41,10 @@
       "name": "Parkraumkonzept Blasewitz - Schillerplatz",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4276",
+      "consultation": {
+        "parentID": "4276",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "73455",
         "65557",

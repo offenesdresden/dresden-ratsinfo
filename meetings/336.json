@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/014/2010",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Kulturhaus Scheune,\nAlaunstraße 36-40, 01099 Dresden",
   "name": "14. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2010-11-09T17:30:00+01:00",
   "end": "2010-11-09T22:15:00+01:00",
   "auxiliaryFile": [
@@ -37,7 +37,10 @@
       "name": "Konzept Kleingartenpark Hansastraße\n18:30 Uhr",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2637",
+      "consultation": {
+        "parentID": "2637",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "44293",
         "121015",

@@ -1,11 +1,11 @@
 {
   "shortName": "UK/FH/001/2014",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofswesen)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "1. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofswesen)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "130"
+  ],
   "start": "2014-11-03T16:30:00+01:00",
   "end": "2014-11-03T21:00:00+01:00",
   "auxiliaryFile": [
@@ -20,7 +20,10 @@
       "name": "Masterplan Lärmminderung 2014",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8558",
+      "consultation": {
+        "parentID": "8558",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "191651",
         "182838",

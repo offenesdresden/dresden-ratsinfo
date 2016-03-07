@@ -1,11 +1,11 @@
 {
   "shortName": "OSR GP/015/2010",
-  "organization": [
-    "Ortschaftsrat Gompitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Gemeindezentrum Gompitz, Gemeindesaal,\nAltnossener Straße 46 a, 01156 Dresden, OT Pennrich",
   "name": "15. Sitzung des Ortschaftsrates Gompitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "9"
+  ],
   "start": "2010-08-09T19:30:00+02:00",
   "end": "2010-08-09T21:30:00+02:00",
   "auxiliaryFile": [
@@ -35,7 +35,10 @@
       "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2112",
+      "consultation": {
+        "parentID": "2112",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "31143"
       ]
@@ -44,7 +47,10 @@
       "name": "Drohender Grundschulnotstand in Dresden",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2113",
+      "consultation": {
+        "parentID": "2113",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "31142",
         "31225"
@@ -54,7 +60,10 @@
       "name": "Widerspruch der Landeshauptstadt Dresden gegen Verwendung personenbezogener Daten durch \"Google Streetview\"",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2251",
+      "consultation": {
+        "parentID": "2251",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "57363",
       "auxiliaryFile": [
         "33437"

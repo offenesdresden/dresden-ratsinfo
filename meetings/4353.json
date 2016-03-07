@@ -1,11 +1,11 @@
 {
   "shortName": "SP/010/2015",
-  "organization": [
-    "Ausschuss für Sport (Eigenbetrieb Sportstätten)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "10. Sitzung des Ausschusses für Sport (Eigenbetrieb Sportstätten)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "131"
+  ],
   "start": "2015-07-02T16:00:00+02:00",
   "end": "2015-07-02T18:20:00+02:00",
   "resultsProtocol": "214849",
@@ -30,7 +30,10 @@
       "name": "Errichtung eines Kunstrasengroßspielfeldes auf der Sportanlage Dohnaer Str. 154 in Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9870",
+      "consultation": {
+        "parentID": "9870",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "214849",
       "auxiliaryFile": [
         "211114",
@@ -47,7 +50,10 @@
       "name": "Ersatzneubau des Sportfunktionsgebäudes auf der Sportanlage Ruderhaus Cotta, Hamburger Straße 74 a, 01157 Dresden",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9871",
+      "consultation": {
+        "parentID": "9871",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "214850",
       "auxiliaryFile": [
         "211113",

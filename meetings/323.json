@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Alt/010/2010",
-  "organization": [
-    "Ortsbeirat Altstadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "10. Sitzung des Ortsbeirates Altstadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "8"
+  ],
   "start": "2010-06-21T17:30:00+02:00",
   "end": "2010-06-21T20:30:00+02:00",
   "auxiliaryFile": [
@@ -49,7 +49,10 @@
       "name": "Fahrradfreundliche Innenstadt Dresden - Radverkehrskonzept 26er Ring",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "798",
+      "consultation": {
+        "parentID": "798",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "32463",
         "114162",
@@ -74,7 +77,10 @@
       "name": "Postplatz weiter denken - von der Idee zur Identität",
       "number": "3.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2090",
+      "consultation": {
+        "parentID": "2090",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "30829",
         "155605"

@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pl/001/2009",
-  "organization": [
-    "Ortsbeirat Plauen"
-  ],
   "locality": null,
   "name": "1. Sitzung des Ortsbeirates Plauen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "42"
+  ],
   "start": "2009-10-06T18:00:00+02:00",
   "end": "2009-10-06T21:20:00+02:00",
   "auxiliaryFile": [
@@ -38,7 +38,10 @@
       "name": "Trägerschaftswechsel der Kindertageseinrichtung Bayreuther Straße 20, 01187 Dresden vom Träger Katholische Pfarrei Sankt Paulus zum Träger Caritasverband für Dresden e. V.",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "128",
+      "consultation": {
+        "parentID": "128",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "6979",
         "3024",
@@ -57,7 +60,10 @@
       "name": "Alternative Maßnahmen für die aus der EFRE-Förderung nach V2982 ausgeschiedenen Teile der Entwicklungsgebiete in Löbtau und Plauen",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "136",
+      "consultation": {
+        "parentID": "136",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3137",
         "3141"

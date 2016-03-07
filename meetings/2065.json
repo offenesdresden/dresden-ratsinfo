@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/031/2012",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal,\nBürgerstraße 63, 01127 Dresden",
   "name": "31. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2012-10-09T18:00:00+02:00",
   "end": "2012-10-09T19:30:00+02:00",
   "resultsProtocol": "114690",
@@ -25,7 +25,10 @@
       "name": "Bebauungsplan Nr. 390, Dresden-Trachenberge Nr. 3, Hellerhofstraße/Weinbergstraße\n\nhier:\n1. Aufstellungsbeschluss Bebauungsplan\n2. Grenzen des räumlichen Geltungsbereiches des Bebauungsplanes",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6270",
+      "consultation": {
+        "parentID": "6270",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "114690",
       "auxiliaryFile": [
         "110679",

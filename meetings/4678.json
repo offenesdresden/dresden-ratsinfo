@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/009/2015",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "9. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2015-10-07T17:30:00+02:00",
   "end": "2015-10-07T20:00:00+02:00",
   "resultsProtocol": "233036",
@@ -39,7 +39,10 @@
       "name": "Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Fachförderrichtlinie der Ortsämter)",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9782",
+      "consultation": {
+        "parentID": "9782",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "233036",
       "auxiliaryFile": [
         "220058",
@@ -52,7 +55,10 @@
       "name": "Grundhafte Instandsetzung einschließlich kompletter Erneuerung des Farbanstriches des Blauen Wunders",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10280",
+      "consultation": {
+        "parentID": "10280",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244172",
       "auxiliaryFile": [
         "221815",
@@ -66,7 +72,10 @@
       "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
       "number": "2.3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10239",
+      "consultation": {
+        "parentID": "10239",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "215210",
         "244117"

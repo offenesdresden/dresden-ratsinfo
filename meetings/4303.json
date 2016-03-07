@@ -1,11 +1,11 @@
 {
   "shortName": "FL/SE/009/2015",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "9. Sitzung des Ausschusses für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "129"
+  ],
   "start": "2015-05-18T16:00:00+02:00",
   "end": "2015-05-18T19:25:00+02:00",
   "resultsProtocol": "209159",
@@ -27,7 +27,10 @@
       "name": "Verkauf des Grundstückes Kümmelschänkenweg 2",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9473",
+      "consultation": {
+        "parentID": "9473",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "209159",
       "auxiliaryFile": [
         "221248",
@@ -41,7 +44,10 @@
       "name": "Weitere Umsetzung des Gesetzes zur Finanzierung des Ausbildungsverkehrs im öffentlichen Personennahverkehr (ÖPNVFinAusG) in der Landeshauptstadt Dresden",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9592",
+      "consultation": {
+        "parentID": "9592",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "209161",
       "auxiliaryFile": [
         "217554",

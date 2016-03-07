@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/019/2011",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Beratungsraum der Verwaltungsstelle Langebrück\nWeißiger Str. 5\n01465 Dresden OT Langebrück",
   "name": "19. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2011-01-11T18:30:00+01:00",
   "end": "2011-01-11T21:46:00+01:00",
   "auxiliaryFile": [
@@ -46,7 +46,10 @@
       "name": "\"Dresdner Sortimentsliste\" zur Feinsteuerung von Einzelhandelsvorhaben",
       "number": "4.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "28",
+      "consultation": {
+        "parentID": "28",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "13303",
         "20180",
@@ -58,7 +61,10 @@
       "name": "Dauerhafte Sicherung der Raumkapazitäten des Gymnasium Klotzsche und der 82. Mittelschule Klotzsche",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3257",
+      "consultation": {
+        "parentID": "3257",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "57345",
       "auxiliaryFile": [
         "49868"

@@ -1,11 +1,11 @@
 {
   "shortName": "B/006/2015",
-  "organization": [
-    "Beirat für Menschen mit Behinderungen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "6. Sitzung des Beirates für Menschen mit Behinderungen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "147"
+  ],
   "start": "2015-12-09T16:30:00+01:00",
   "end": "2015-12-09T18:45:00+01:00",
   "resultsProtocol": "244175",
@@ -32,7 +32,10 @@
       "name": "Sanierung der Brückenrampe der Augustusbrücke (Innere Neustadt)",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10400",
+      "consultation": {
+        "parentID": "10400",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244175",
       "auxiliaryFile": [
         "226628",
@@ -50,7 +53,10 @@
       "name": "Schulbauleitlinien der Stadt Dresden",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10506",
+      "consultation": {
+        "parentID": "10506",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "222454"
       ],

@@ -1,11 +1,11 @@
 {
   "shortName": "K/024/2011",
-  "organization": [
-    "Ausschuss für Kultur"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "24. Sitzung des Ausschusses für Kultur",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "14"
+  ],
   "start": "2011-02-01T16:00:00+01:00",
   "end": "2011-02-01T18:00:00+01:00",
   "auxiliaryFile": [
@@ -19,7 +19,10 @@
       "name": "Konzept \"Dresden und die Zeitgenössischen Künste\"",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1873",
+      "consultation": {
+        "parentID": "1873",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "34895",
         "28017",

@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/010/2015",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "10. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2015-05-12T18:30:00+02:00",
   "end": "2015-05-12T20:50:00+02:00",
   "auxiliaryFile": [
@@ -47,7 +47,10 @@
       "name": "Neufassung der Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9009",
+      "consultation": {
+        "parentID": "9009",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "201298",
         "200750",
@@ -104,7 +107,10 @@
       "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
       "number": "8.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9668",
+      "consultation": {
+        "parentID": "9668",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "199997",
         "232126"

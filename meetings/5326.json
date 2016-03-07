@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/019/2016",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "19. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2016-01-18T19:33:00+01:00",
   "end": "2016-01-18T05:00:00+01:00",
   "auxiliaryFile": [
@@ -54,7 +54,10 @@
       "name": "Stadtbahn 2020 - Teilprojekt 2 Bühlau - Weißig BE: GB6",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10377",
+      "consultation": {
+        "parentID": "10377",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "234794",
         "232201",

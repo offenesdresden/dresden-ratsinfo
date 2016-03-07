@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/004/2010",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "4. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2010-01-27T17:30:00+01:00",
   "end": "2010-01-27T20:15:00+01:00",
   "auxiliaryFile": [
@@ -32,7 +32,10 @@
       "name": "Erhalt des \"Blauen Wunders\" und Aufwertung des Schiller- und Körnerplatzes",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1001",
+      "consultation": {
+        "parentID": "1001",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "14719",
         "123870",
@@ -48,7 +51,10 @@
       "name": "Vorhabenbezogener Bebauungsplan Nr. 665, Dresden-Gruna, Fraunhofer-Institutszentrum\n\nhier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\n\t2. Grenzen des vorhabenbezogenen Bebauungsplanes",
       "number": "1.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "905",
+      "consultation": {
+        "parentID": "905",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "14956",
         "14577",

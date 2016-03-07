@@ -1,11 +1,11 @@
 {
   "shortName": "OSR AF/045/2013",
-  "organization": [
-    "Ortschaftsrat Altfranken"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortschaftszentrum Altfranken, Sitzungssaal,\nOtto-Harzer-Straße 2 b, 01156 Dresden",
   "name": "45. Sitzung des Ortschaftsrates Altfranken",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "49"
+  ],
   "start": "2013-06-10T19:00:00+02:00",
   "end": "2013-06-10T20:10:00+02:00",
   "auxiliaryFile": [
@@ -39,7 +39,10 @@
       "name": "Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6948",
+      "consultation": {
+        "parentID": "6948",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127995",
         "211033",

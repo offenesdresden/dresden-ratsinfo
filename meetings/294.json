@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/010/2010",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "10. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2010-10-27T17:30:00+02:00",
   "end": "2010-10-27T20:00:00+02:00",
   "resultsProtocol": "58912",
@@ -28,7 +28,10 @@
       "name": "Änderung der Satzung der Landeshauptstadt Dresden über Erlaubnisse und Gebühren für Sondernutzungen der öffentlichen Straßen in Dresden (Sondernutzungssatzung)",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2216",
+      "consultation": {
+        "parentID": "2216",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "58912",
       "auxiliaryFile": [
         "33287",

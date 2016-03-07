@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/063/2014",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Dresden OT Langebrück",
   "name": "63. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2014-03-18T18:02:00+01:00",
   "end": "2014-03-18T23:03:00+01:00",
   "resultsProtocol": "176454",
@@ -49,7 +49,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2014/2015",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8054",
+      "consultation": {
+        "parentID": "8054",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "176454",
       "auxiliaryFile": [
         "191449",

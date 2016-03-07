@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pl/002/2009",
-  "organization": [
-    "Ortsbeirat Plauen"
-  ],
   "locality": null,
   "name": "2. Sitzung des Ortsbeirates Plauen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "42"
+  ],
   "start": "2009-11-03T18:00:00+01:00",
   "end": "2009-11-03T21:15:00+01:00",
   "auxiliaryFile": [
@@ -36,7 +36,10 @@
       "name": "Überprüfung der Lärmschutzmaßnahmen entlang der Bundesautobahn 17 im Stadtgebiet Dresden",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "175",
+      "consultation": {
+        "parentID": "175",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3356",
         "3360",
@@ -47,7 +50,10 @@
       "name": "Verkehrsbaumaßnahme Potschappler Straße zwischen Karlsruher Straße und Stadtgrenze",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "40",
+      "consultation": {
+        "parentID": "40",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "4950",
         "123302",

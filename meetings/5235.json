@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/018/2016",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal,\nBürgerstraße 63, 01127 Dresden",
   "name": "18. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2016-03-08T18:00:00+01:00",
   "auxiliaryFile": [
     "241009",
@@ -30,7 +30,10 @@
       "name": "Bebauungsplan Nr. 206, Dresden-Neustadt Nr. 24, Leipziger Vorstadt/Alter Schlachthof\n\nhier:\nAufhebung des Aufstellungsbeschlusses zum Bebauungsplan",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11866",
+      "consultation": {
+        "parentID": "11866",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "241009",
         "240589",
@@ -43,7 +46,10 @@
       "name": "Sicherstellung verkehrsberuhigender Maßnahmen Peschelstraße",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11950",
+      "consultation": {
+        "parentID": "11950",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "239458"
       ]

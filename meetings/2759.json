@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/037/2013",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "37. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2013-03-20T17:30:00+01:00",
   "end": "2013-03-20T20:10:00+01:00",
   "resultsProtocol": "132046",
@@ -38,7 +38,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2013/2014",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6639",
+      "consultation": {
+        "parentID": "6639",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "132046",
       "auxiliaryFile": [
         "128904",

@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/030/2012",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "30. Sitzung des Ortsbeirates Blasewitz (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2012-07-11T18:30:00+02:00",
   "end": "2012-07-11T20:45:00+02:00",
   "resultsProtocol": "105351",
@@ -36,7 +36,10 @@
       "name": "Verkehrsbaumaßnahme Schandauer Straße zwischen Bergmannstraße und Lauensteiner Straße, Planung am Pohlandplatz",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5815",
+      "consultation": {
+        "parentID": "5815",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "105351",
       "auxiliaryFile": [
         "100706",
@@ -58,7 +61,10 @@
       "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+\n- Phase 2, Grundlagen und Zukunftsthemen -",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5798",
+      "consultation": {
+        "parentID": "5798",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "105356",
       "auxiliaryFile": [
         "158635",

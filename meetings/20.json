@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Leu/001/2009",
-  "organization": [
-    "Ortsbeirat Leuben"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Leuben, Bürgersaal\nHertzstraße 23, 01257 Dresden",
   "name": "1. Sitzung des Ortsbeirates Leuben",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "44"
+  ],
   "start": "2009-09-30T18:00:00+02:00",
   "end": "2009-09-30T20:30:00+02:00",
   "auxiliaryFile": [
@@ -33,7 +33,10 @@
       "name": "Trägerschaftswechsel der Kindertageseinrichtung Johannes-Brahms-Straße 52 in 01259 Dresden vom Träger KILALOMA e. V. zum Träger Kinderladen Lotte & Max e. V.",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "54",
+      "consultation": {
+        "parentID": "54",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "6923",
         "2292",

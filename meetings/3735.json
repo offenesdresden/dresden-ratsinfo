@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/065/2014",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf/Langebrück, \nZweitstandort Langebrück\nBeratungsraum,\nWeißiger Straße 5, 01465 Langebrück",
   "name": "65. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2014-05-13T18:38:00+02:00",
   "end": "2014-05-13T22:25:00+02:00",
   "resultsProtocol": "176456",
@@ -55,7 +55,10 @@
       "name": "Konzept zur Förderung des bürgerschaftlichen Engagements in der Landeshauptstadt Dresden",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8113",
+      "consultation": {
+        "parentID": "8113",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "176456",
       "auxiliaryFile": [
         "191450",
@@ -85,7 +88,10 @@
       "name": "Bibliotheksentwicklungsplan 2014 - 2017",
       "number": "8",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8065",
+      "consultation": {
+        "parentID": "8065",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "228334",
         "170544",

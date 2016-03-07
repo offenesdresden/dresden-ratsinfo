@@ -1,11 +1,11 @@
 {
   "shortName": "SB/002/2009",
-  "organization": [
-    "Ausschuss für Stadtentwicklung und Bau"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Technischen Rathaus, Beratungsraum, 4. Etage, Raum 4014\nHamburger Straße 19, 01067 Dresden",
   "name": "2. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "11"
+  ],
   "start": "2009-09-16T16:00:00+02:00",
   "end": "2009-09-16T17:15:00+02:00",
   "auxiliaryFile": [
@@ -21,7 +21,10 @@
       "name": "Fahrradstraße Alaunstraße",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "137",
+      "consultation": {
+        "parentID": "137",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3144",
         "3148"
@@ -31,7 +34,10 @@
       "name": "Schaffung einer attraktiven Fahrradverbindung zwischen Dresdner Heide und Elbradweg",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "138",
+      "consultation": {
+        "parentID": "138",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3150",
         "3154"
@@ -41,7 +47,10 @@
       "name": "Verkehrsberuhigung Äußere Neustadt",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "148",
+      "consultation": {
+        "parentID": "148",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3159",
         "3163"

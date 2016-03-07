@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/006/2015",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Sitzung fällt aus!",
   "name": "6. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2015-04-15T17:30:00+02:00",
   "auxiliaryFile": [
     "201298",
@@ -23,7 +23,10 @@
       "name": "Neufassung der Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9009",
+      "consultation": {
+        "parentID": "9009",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "201298",
         "200750",

@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Leu/002/2009",
-  "organization": [
-    "Ortsbeirat Leuben"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Leuben, Bürgersaal\nHertzstraße 23, 01257 Dresden",
   "name": "2. Sitzung des Ortsbeirates Leuben",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "44"
+  ],
   "start": "2009-12-02T19:00:00+01:00",
   "end": "2009-12-02T20:40:00+01:00",
   "auxiliaryFile": [
@@ -26,7 +26,10 @@
       "name": "Anmietung und Betreibung einer neu zu errichtenden Kindertageseinrichtung auf dem Grundstück Dieselstraße in 01257 Dresden-Leuben",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "706",
+      "consultation": {
+        "parentID": "706",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "12428",
         "11474",

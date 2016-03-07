@@ -1,11 +1,11 @@
 {
   "shortName": "OSR MB/034/2012",
-  "organization": [
-    "Ortschaftsrat Mobschatz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im \"Dorfklub Mobschatz\", Sitzungssaal,\nAm Tummelsgrund 7 b, 01156 Dresden",
   "name": "34. Sitzung des Ortschaftsrates Mobschatz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "45"
+  ],
   "start": "2012-03-15T19:30:00+01:00",
   "end": "2012-03-15T22:45:00+01:00",
   "resultsProtocol": "104879",
@@ -46,7 +46,10 @@
       "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5506",
+      "consultation": {
+        "parentID": "5506",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "104879",
       "auxiliaryFile": [
         "206796",

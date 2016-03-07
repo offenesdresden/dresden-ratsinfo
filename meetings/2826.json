@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/039/2013",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal,\nBürgerstraße 63, 01127 Dresden",
   "name": "39. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2013-08-20T18:00:00+02:00",
   "end": "2013-08-20T19:00:00+02:00",
   "resultsProtocol": "145583",
@@ -44,7 +44,10 @@
       "name": "Bebauungsplan Nr. 3001, Dresden-Neustadt Nr. 39, Gehestraße\n\nhier:\n1. Aufstellungsbeschluss zum Bebauungsplan\n2. Grenzen des räumlichen Geltungsbereiches des Bebauungsplanes",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7389",
+      "consultation": {
+        "parentID": "7389",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "145583",
       "auxiliaryFile": [
         "140165",
@@ -57,7 +60,10 @@
       "name": "Entwicklung von Schulstandorten in Dresden-Pieschen für die 145. Mittelschule und das Gymnasium Dresden-Pieschen",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7314",
+      "consultation": {
+        "parentID": "7314",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "145579",
       "auxiliaryFile": [
         "168790",

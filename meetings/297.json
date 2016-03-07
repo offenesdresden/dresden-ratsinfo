@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/003/2010",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "3. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2010-01-20T17:00:00+01:00",
   "end": "2010-01-20T18:45:00+01:00",
   "auxiliaryFile": [
@@ -33,7 +33,10 @@
       "name": "Erhalt des \"Blauen Wunders\" und Aufwertung des Schiller- und Körnerplatzes",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1001",
+      "consultation": {
+        "parentID": "1001",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "14719",
         "123870",

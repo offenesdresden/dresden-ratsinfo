@@ -1,11 +1,11 @@
 {
   "shortName": "ISF/042/2014",
-  "organization": [
-    "Betriebsausschuss für IT-Dienstleistungen, Stadtentwässerung und Friedhofswesen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "42. Sitzung des Betriebsausschusses für IT-Dienstleistungen, Stadtentwässerung und Friedhofswesen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "15"
+  ],
   "start": "2014-03-19T16:30:00+01:00",
   "end": "2014-03-19T17:30:00+01:00",
   "resultsProtocol": "164718",
@@ -27,7 +27,10 @@
       "name": "Erneuerung der Telekommunikationstechnik Neues Rathaus und Modernisierung Corporate Network (CN) der Landeshauptstadt Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8161",
+      "consultation": {
+        "parentID": "8161",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "164718",
       "auxiliaryFile": [
         "211271",

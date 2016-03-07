@@ -1,11 +1,11 @@
 {
   "shortName": "OSR AF/007/2015",
-  "organization": [
-    "Ortschaftsrat Altfranken"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortschaftszentrum Altfranken, Sitzungssaal,\nOtto-Harzer-Straße 2 b, 01156 Dresden",
   "name": "7. Sitzung des Ortschaftsrates Altfranken",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "49"
+  ],
   "start": "2015-03-09T19:30:00+01:00",
   "end": "2015-03-09T21:00:00+01:00",
   "auxiliaryFile": [
@@ -16,7 +16,10 @@
       "name": "Satzung über die Bereitstellung, Benutzung und Betreibung von Unterbringungseinrichtungen für Asylbewerber sowie Flüchtlinge nach § 3 SächsFlüAG",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9415",
+      "consultation": {
+        "parentID": "9415",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "193874"
       ]

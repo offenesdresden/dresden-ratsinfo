@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/024/2012",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal,\nBürgerstraße 63, 01127 Dresden",
   "name": "24. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2012-02-07T18:00:00+01:00",
   "end": "2012-02-07T20:30:00+01:00",
   "auxiliaryFile": [
@@ -38,7 +38,10 @@
       "name": "Errichtung einer Fuß- und Fahrradbrücke in Dresden",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5171",
+      "consultation": {
+        "parentID": "5171",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "82320",
         "149757",
@@ -52,7 +55,10 @@
       "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
       "number": "3.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5186",
+      "consultation": {
+        "parentID": "5186",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "82335"
       ],

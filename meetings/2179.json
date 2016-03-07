@@ -1,11 +1,11 @@
 {
   "shortName": "OSR GP/035/2012",
-  "organization": [
-    "Ortschaftsrat Gompitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Gemeindezentrum Gompitz, Gemeindesaal,\nAltnossener Straße 46 a, 01156 Dresden, OT Pennrich",
   "name": "35. Sitzung des Ortschaftsrates Gompitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "9"
+  ],
   "start": "2012-05-14T19:30:00+02:00",
   "end": "2012-05-14T20:55:00+02:00",
   "auxiliaryFile": [
@@ -43,7 +43,10 @@
       "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5639",
+      "consultation": {
+        "parentID": "5639",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92888",
         "112253"
@@ -64,7 +67,10 @@
       "name": "Patenschaften für Baumscheiben",
       "number": "8",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5633",
+      "consultation": {
+        "parentID": "5633",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92834",
         "92828"
@@ -75,7 +81,10 @@
       "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
       "number": "9",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5634",
+      "consultation": {
+        "parentID": "5634",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92885"
       ],

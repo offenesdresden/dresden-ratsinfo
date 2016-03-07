@@ -1,11 +1,11 @@
 {
   "shortName": "UK/049/2013",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Haus An der Kreuzkirche, 4. Etage, Raum 412,\nAn der Kreuzkirche 6, 01067 Dresden",
   "name": "49. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "13"
+  ],
   "start": "2013-01-28T16:30:00+01:00",
   "end": "2013-01-28T19:10:00+01:00",
   "auxiliaryFile": [
@@ -20,7 +20,10 @@
       "name": "Ausgestaltung der Ausschreibung \"Verwertung der Bioabfälle aus Dresdner Haushalten ab 2016\"",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6379",
+      "consultation": {
+        "parentID": "6379",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "120754",
         "120430",

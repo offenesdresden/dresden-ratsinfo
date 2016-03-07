@@ -1,11 +1,11 @@
 {
   "shortName": "UK/058/2013",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "58. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "13"
+  ],
   "start": "2013-09-30T16:30:00+02:00",
   "end": "2013-09-30T18:55:00+02:00",
   "resultsProtocol": "145963",
@@ -20,7 +20,10 @@
       "name": "Ausgestaltung der Ausschreibung \"Verwertung der Bioabfälle aus Dresdner Haushalten ab 2016\"",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7351",
+      "consultation": {
+        "parentID": "7351",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "145963",
       "auxiliaryFile": [
         "176284",

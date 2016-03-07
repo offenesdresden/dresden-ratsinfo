@@ -1,11 +1,11 @@
 {
   "shortName": "OSR MB/009/2015",
-  "organization": [
-    "Ortschaftsrat Mobschatz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im \"Dorfklub Mobschatz\", Sitzungssaal,\nAm Tummelsgrund 7 b, 01156 Dresden",
   "name": "9. Sitzung des Ortschaftsrates Mobschatz (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "45"
+  ],
   "start": "2015-04-16T19:30:00+02:00",
   "end": "2015-04-16T21:30:00+02:00",
   "resultsProtocol": "229705",
@@ -34,7 +34,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2015/2016",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9416",
+      "consultation": {
+        "parentID": "9416",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "229705",
       "auxiliaryFile": [
         "241557",

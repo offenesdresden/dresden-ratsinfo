@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/014/2015",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "14. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2015-12-16T17:30:00+01:00",
   "end": "2015-12-16T19:15:00+01:00",
   "resultsProtocol": "240269",
@@ -31,7 +31,10 @@
       "name": "Bedarfsgerechte Bereitstellung von Schulplätzen für die 32. Oberschule und das Gymnasium Tolkewitz im Ortsamt Blasewitz",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11602",
+      "consultation": {
+        "parentID": "11602",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "240269",
       "auxiliaryFile": [
         "231092",

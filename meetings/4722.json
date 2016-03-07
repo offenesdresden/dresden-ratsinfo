@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/006/2015",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "6. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2015-03-10T17:30:00+01:00",
   "end": "2015-03-10T19:00:00+01:00",
   "auxiliaryFile": [
@@ -26,7 +26,10 @@
       "name": "Lustgarten 2015 auf dem ehemaligen \"Russensportplatz\"",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9477",
+      "consultation": {
+        "parentID": "9477",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "194782",
         "210454",

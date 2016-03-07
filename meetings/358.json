@@ -1,11 +1,11 @@
 {
   "shortName": "FL/009/2010",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "9. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2010-01-18T16:00:00+01:00",
   "end": "2010-01-18T20:25:00+01:00",
   "auxiliaryFile": [
@@ -20,7 +20,10 @@
       "name": "Herstellung von dringend erforderlichen Radverkehrsanlagen aus zusätzlich bereitgestellten Stellplatzablösemitteln",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "655",
+      "consultation": {
+        "parentID": "655",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "13981",
         "9263",

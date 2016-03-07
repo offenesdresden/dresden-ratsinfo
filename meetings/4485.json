@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/010/2015",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Versammlungsraum im Bürgerhaus Schönborn,\nSeifersdorfer Straße 6, 01465 Schönborn",
   "name": "10. Sitzung des Ortschaftsrates Schönborn",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2015-04-22T19:30:00+02:00",
   "end": "2015-04-22T21:30:00+02:00",
   "resultsProtocol": "229705",
@@ -41,7 +41,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2015/2016",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9416",
+      "consultation": {
+        "parentID": "9416",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "229705",
       "auxiliaryFile": [
         "241557",
@@ -58,7 +61,10 @@
       "name": "Neufassung der Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9009",
+      "consultation": {
+        "parentID": "9009",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "201298",
         "200750",
@@ -80,7 +86,10 @@
       "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
       "number": "4.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9668",
+      "consultation": {
+        "parentID": "9668",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "199997",
         "232126"

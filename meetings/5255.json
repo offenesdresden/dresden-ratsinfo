@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/011/2016",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "11. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2016-01-13T17:30:00+01:00",
   "end": "2016-01-13T19:45:00+01:00",
   "auxiliaryFile": [
@@ -44,7 +44,10 @@
       "name": "Stadtbahn 2020 - Teilprojekt 2 Bühlau - Weißig",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10377",
+      "consultation": {
+        "parentID": "10377",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "234794",
         "232201",

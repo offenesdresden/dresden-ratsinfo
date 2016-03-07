@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pl/005/2010",
-  "organization": [
-    "Ortsbeirat Plauen"
-  ],
   "locality": null,
   "name": "5. Sitzung des Ortsbeirates Plauen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "42"
+  ],
   "start": "2010-03-02T18:00:00+01:00",
   "end": "2010-03-02T20:15:00+01:00",
   "auxiliaryFile": [
@@ -41,7 +41,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1315",
+      "consultation": {
+        "parentID": "1315",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "21931",
         "19492",
@@ -66,7 +69,10 @@
       "name": "\"Dresdner Sortimentsliste\" zur Feinsteuerung von Einzelhandelsvorhaben",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "28",
+      "consultation": {
+        "parentID": "28",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "13303",
         "20180",

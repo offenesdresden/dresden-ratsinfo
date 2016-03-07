@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pl/009/2015",
-  "organization": [
-    "Ortsbeirat Plauen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Plauen, Ratssaal,\nNöthnitzer Straße 2, 01187 Dresden",
   "name": "9. Sitzung des Ortsbeirates Plauen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "42"
+  ],
   "start": "2015-09-08T17:30:00+02:00",
   "end": "2015-09-08T19:30:00+02:00",
   "auxiliaryFile": [
@@ -28,7 +28,10 @@
       "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10239",
+      "consultation": {
+        "parentID": "10239",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "215210",
         "244117"

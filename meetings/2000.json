@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/036/2012",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "36. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2012-11-13T17:30:00+01:00",
   "end": "2012-11-13T20:50:00+01:00",
   "resultsProtocol": "117116",
@@ -40,7 +40,10 @@
       "name": "Bebauungsplan Nr. 391, Dresden-Neustadt Nr. 38, DREWAG-Areal Lößnitzstraße\n\nhier:\t\n1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\n2. Grenzen des räumlichen Geltungsbereichs des vorhabenbezogenen Bebauungsplanes",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6412",
+      "consultation": {
+        "parentID": "6412",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "117116",
       "auxiliaryFile": [
         "154456",

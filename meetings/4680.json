@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/010/2015",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "10. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2015-12-02T17:30:00+01:00",
   "end": "2015-12-02T21:00:00+01:00",
   "resultsProtocol": "234922",
@@ -39,7 +39,10 @@
       "name": "Finanzierung von Maßnahmen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen in den Jahren 2015/2016",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11719",
+      "consultation": {
+        "parentID": "11719",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "234922",
       "auxiliaryFile": [
         "233668",
@@ -81,7 +84,10 @@
       "name": "Verkauf des Grundstücks Grundstraße 101 b",
       "number": "6.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10380",
+      "consultation": {
+        "parentID": "10380",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "234253",
       "auxiliaryFile": [
         "242390",

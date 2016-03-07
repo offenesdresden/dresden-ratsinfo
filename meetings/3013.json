@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/043/2013",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "43. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2013-04-15T19:31:00+02:00",
   "end": "2013-04-15T20:55:00+02:00",
   "resultsProtocol": "134363",
@@ -50,7 +50,10 @@
       "name": "Betreibung der Kindertageseinrichtungen Hauptstraße 4 in 01328 Dresden-Weißig unter der Trägerschaft des Trägers Malwina e. V.",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6701",
+      "consultation": {
+        "parentID": "6701",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "134363",
       "auxiliaryFile": [
         "146256",

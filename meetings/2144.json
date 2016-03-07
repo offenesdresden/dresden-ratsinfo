@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pl/019/2012",
-  "organization": [
-    "Ortsbeirat Plauen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Plauen, Ratssaal,\nNöthnitzer Straße 2, 01187 Dresden",
   "name": "19. Sitzung des Ortsbeirates Plauen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "42"
+  ],
   "start": "2012-01-03T17:30:00+01:00",
   "end": "2012-01-03T20:30:00+01:00",
   "resultsProtocol": "90252",
@@ -33,7 +33,10 @@
       "name": "Vorhabenbezogener Bebauungsplan Nr. 684, Dresden-Altstadt II, Strehlener Straße - Haus der Bahn\n\nhier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\n\t2. Grenzen des räumlichen Geltungsbereiches des vorhabenbezogenen Bebauungs-\n\tplanes",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5130",
+      "consultation": {
+        "parentID": "5130",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "90252",
       "auxiliaryFile": [
         "81273",
@@ -52,7 +55,10 @@
       "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
       "number": "2.3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5186",
+      "consultation": {
+        "parentID": "5186",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "82335"
       ],

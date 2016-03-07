@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/022/2011",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "22. Sitzung des Ortsbeirates Neustadt (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2011-07-12T17:30:00+02:00",
   "end": "2011-07-12T19:20:00+02:00",
   "resultsProtocol": "77636",
@@ -42,7 +42,10 @@
       "name": "Ausbau der Königsbrücker Straße - Veränderung der Planfeststellungsunterlagen zur Herstellung der Förderfähigkeit im Abschnitt zwischen dem Albertplatz und der Stauffenbergallee",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4397",
+      "consultation": {
+        "parentID": "4397",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "77636",
       "auxiliaryFile": [
         "84005",

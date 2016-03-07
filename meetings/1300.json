@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/022/2011",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "im Vereinsraum des Feuerwehr- und Heimatvereins Niederwartha e. V.,\nWeistropper Straße 6, 01156 Dresden",
   "name": "22. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2011-09-12T18:30:00+02:00",
   "end": "2011-09-12T20:00:00+02:00",
   "auxiliaryFile": [
@@ -42,7 +42,10 @@
       "name": "Parken in stadtwärtiger Richtung auf der Friedrich-August-Straße in Niederwartha",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4304",
+      "consultation": {
+        "parentID": "4304",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "66236"
       ],

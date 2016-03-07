@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pl/012/2011",
-  "organization": [
-    "Ortsbeirat Plauen"
-  ],
   "locality": null,
   "name": "12. Sitzung des Ortsbeirates Plauen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "42"
+  ],
   "start": "2011-03-08T17:30:00+01:00",
   "end": "2011-03-08T21:20:00+01:00",
   "resultsProtocol": "56861",
@@ -46,7 +46,10 @@
       "name": "Instandsetzung der Brücke Budapester Straße, Brückenzug C",
       "number": "4.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3122",
+      "consultation": {
+        "parentID": "3122",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "56861",
       "auxiliaryFile": [
         "55814",

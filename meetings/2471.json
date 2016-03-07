@@ -1,11 +1,11 @@
 {
   "shortName": "FL/077/2013",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "77. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2013-04-29T16:00:00+02:00",
   "end": "2013-04-29T17:10:00+02:00",
   "resultsProtocol": "130666",
@@ -25,7 +25,10 @@
       "name": "Neubau Speiseraum für das Pestalozzi-Gymnasium, Pestalozziplatz 22 in 01127 Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6875",
+      "consultation": {
+        "parentID": "6875",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "130666",
       "auxiliaryFile": [
         "147559",

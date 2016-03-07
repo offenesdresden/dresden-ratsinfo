@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Alt/003/2009",
-  "organization": [
-    "Ortsbeirat Altstadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "3. Sitzung des Ortsbeirates Altstadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "8"
+  ],
   "start": "2009-11-02T18:00:00+01:00",
   "end": "2009-11-02T20:30:00+01:00",
   "auxiliaryFile": [
@@ -69,7 +69,10 @@
       "name": "Planung und Durchführung der Baumaßnahme Marie-Curie-Gymnasium, Zirkusstraße 7, 01069 Dresden",
       "number": "3.2 Nachtrag: 28.10.2009 Nummer 1 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "608",
+      "consultation": {
+        "parentID": "608",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "11080",
         "163362",
@@ -86,7 +89,10 @@
       "name": "Straßenbahnanbindung Messe/Ostragehege aus Richtung Friedrichstadt",
       "number": "3.3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "546",
+      "consultation": {
+        "parentID": "546",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "11213",
         "7772",
@@ -112,7 +118,10 @@
       "name": "Sofortige Aussetzung der Wettbewerbsrealisierung \"Seetor\"",
       "number": "3.4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "415",
+      "consultation": {
+        "parentID": "415",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "8530",
         "5924"

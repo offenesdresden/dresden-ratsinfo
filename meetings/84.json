@@ -1,11 +1,11 @@
 {
   "shortName": "FL/001/2009",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "1. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2009-08-31T16:00:00+02:00",
   "end": "2009-08-31T16:45:00+02:00",
   "auxiliaryFile": [
@@ -17,7 +17,10 @@
       "name": "Finanzielle Absicherung der Herstellung eines Hochwasserschutzes für ein 500-jährliches Hochwasser der Weißeritz im Stadtgebiet von Dresden, Baulose 1 und 4",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "57",
+      "consultation": {
+        "parentID": "57",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3143",
         "2470"

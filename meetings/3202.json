@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/054/2013",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Dresden OT Langebrück",
   "name": "54. Sitzung des Ortschaftsrates Langebrück (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2013-06-27T17:30:00+02:00",
   "end": "2013-06-27T18:25:00+02:00",
   "auxiliaryFile": [
@@ -25,7 +25,10 @@
       "name": "Übertragung des Waldbades Langebrück an die Dresdner Bäder GmbH",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7170",
+      "consultation": {
+        "parentID": "7170",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "135002",
         "134483",

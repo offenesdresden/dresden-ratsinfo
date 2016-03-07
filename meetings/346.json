@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/015/2010",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Beratungsraumder Verwaltungsstelle Langebrück\nWeißiger Str. 5\n01465 Langebrück",
   "name": "15. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2010-10-12T20:00:00+02:00",
   "end": "2010-10-12T23:15:00+02:00",
   "auxiliaryFile": [
@@ -34,7 +34,10 @@
       "name": "Vorlage der Oberbürgermeisterin der Landeshauptstadt Dresden V0672/10",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2439",
+      "consultation": {
+        "parentID": "2439",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "41884",
         "118819",
@@ -45,7 +48,10 @@
       "name": "Antrag der Fraktion DIE LINKE, Antrags-Nr.: A0221/10 v. 05.10.2010",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2569",
+      "consultation": {
+        "parentID": "2569",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "43598"
       ]

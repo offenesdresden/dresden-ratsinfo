@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/050/2013",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "50. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2013-12-04T18:04:00+01:00",
   "end": "2013-12-04T19:14:00+01:00",
   "resultsProtocol": "159108",
@@ -51,7 +51,10 @@
       "name": "Bebauungsplan Nr. 342, Dresden-Weißig Nr. 18, Wohnen am Querweg\n\nhier:\t\n1. Änderung Grenze des Bebauungsplanes\n2. Billigung des Entwurfs zum Bebauungsplan\n3. Billigung der Begründung zum Bebauungsplan-Entwurf\n4. Öffentliche Auslegung des Entwurfs zum Bebauungsplan",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7823",
+      "consultation": {
+        "parentID": "7823",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "159108",
       "auxiliaryFile": [
         "152037",

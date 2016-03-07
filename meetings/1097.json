@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/018/2011",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Plenarsaal,\nRathausplatz 1, 01067 Dresden",
   "name": "18. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2011-04-21T18:00:00+02:00",
   "end": "2011-04-21T20:40:00+02:00",
   "resultsProtocol": "61935",
@@ -43,7 +43,10 @@
       "name": "Förderung von Angeboten der Träger der freien Jugendhilfe 2011",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3350",
+      "consultation": {
+        "parentID": "3350",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61935",
       "auxiliaryFile": [
         "62553",

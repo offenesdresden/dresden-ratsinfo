@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pl/011/2010",
-  "organization": [
-    "Ortsbeirat Plauen"
-  ],
   "locality": null,
   "name": "11. Sitzung des Ortsbeirates Plauen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "42"
+  ],
   "start": "2010-12-07T17:30:00+01:00",
   "end": "2010-12-07T22:00:00+01:00",
   "resultsProtocol": "61082",
@@ -37,7 +37,10 @@
       "name": "Optimierung der Struktur und der Dienstleistungsqualität des Bürgerservice in der Landeshauptstadt Dresden",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2884",
+      "consultation": {
+        "parentID": "2884",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61082",
       "auxiliaryFile": [
         "48114",

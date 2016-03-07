@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/012/2010",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Klotzsche, Bürgersaal,\nKieler Straße 52, 01109 Dresden",
   "name": "12. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2010-10-04T19:00:00+02:00",
   "end": "2010-10-04T20:45:00+02:00",
   "resultsProtocol": "58912",
@@ -31,7 +31,10 @@
       "name": "Änderung der Satzung der Landeshauptstadt Dresden über Erlaubnisse und Gebühren für Sondernutzungen der öffentlichen Straßen in Dresden (Sondernutzungssatzung)",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2216",
+      "consultation": {
+        "parentID": "2216",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "58912",
       "auxiliaryFile": [
         "33287",
@@ -57,7 +60,10 @@
       "name": "Änderung der Satzung der Landeshauptstadt Dresden über die Entschädigung ehrenamtlich Tätiger (Entschädigungssatzung)",
       "number": "5.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2323",
+      "consultation": {
+        "parentID": "2323",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "40159",
         "40135",

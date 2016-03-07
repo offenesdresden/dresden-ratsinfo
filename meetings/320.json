@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Alt/007/2010",
-  "organization": [
-    "Ortsbeirat Altstadt"
-  ],
   "locality": "in der Aula der Sächsischen Bildungsgesellschaft für Umweltschutz und Chemieberufe Dresden mbH,\nGutenbergstraße 6, 01307 Dresden",
   "name": "7. Sitzung des Ortsbeirates Altstadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "8"
+  ],
   "start": "2010-03-15T16:00:00+01:00",
   "end": "2010-03-15T19:30:00+01:00",
   "auxiliaryFile": [
@@ -35,7 +35,10 @@
       "name": "Sanierung und Instandsetzung der Albertbrücke einschließlich der Umgestaltung und des grundhaften Ausbaus des Rosa-Luxemburg-Platzes und des Sachsenplatzes",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1198",
+      "consultation": {
+        "parentID": "1198",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "23278",
         "120551",

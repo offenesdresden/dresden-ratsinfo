@@ -1,11 +1,11 @@
 {
   "shortName": "OSR OW/056/2014",
-  "organization": [
-    "Ortschaftsrat Oberwartha"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Ortschaft Oberwartha, Versammlungsraum,\nMax-Schwan-Straße 4, 01156 Dresden",
   "name": "56. Sitzung des Ortschaftsrates Oberwartha",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "52"
+  ],
   "start": "2014-06-24T18:30:00+02:00",
   "end": "2014-06-24T21:30:00+02:00",
   "resultsProtocol": "176459",
@@ -44,7 +44,10 @@
       "name": "Ereignisanalyse zu den Hochwasserereignissen im Mai und Juni 2013 und zusätzliche Maßnahmen zur Verbesserung der Hochwasservorsorge",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8174",
+      "consultation": {
+        "parentID": "8174",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "176459",
       "auxiliaryFile": [
         "194279",

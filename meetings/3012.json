@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/042/2013",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "42. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2013-03-18T19:32:00+01:00",
   "end": "2013-03-18T21:14:00+01:00",
   "resultsProtocol": "132046",
@@ -58,7 +58,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2013/2014",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6639",
+      "consultation": {
+        "parentID": "6639",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "132046",
       "auxiliaryFile": [
         "128904",

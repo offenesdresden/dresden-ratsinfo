@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Leu/038/2014",
-  "organization": [
-    "Ortsbeirat Leuben"
-  ],
   "locality": "Sitzung fällt aus!",
   "name": "Sitzung fällt aus!\n\n38. Sitzung des Ortsbeirates Leuben",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "44"
+  ],
   "start": "2014-02-12T19:00:00+01:00",
   "auxiliaryFile": [
     "157544",
@@ -23,7 +23,10 @@
       "name": "Konzept zur Verwendung der Gagfah-Mittel für soziale Projekte",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8052",
+      "consultation": {
+        "parentID": "8052",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "157544",
         "191441",

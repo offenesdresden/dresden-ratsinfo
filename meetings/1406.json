@@ -1,11 +1,11 @@
 {
   "shortName": "SB/023/2010",
-  "organization": [
-    "Ausschuss für Stadtentwicklung und Bau"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "23. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "11"
+  ],
   "start": "2010-12-08T16:00:00+01:00",
   "end": "2010-12-08T21:15:00+01:00",
   "auxiliaryFile": [
@@ -28,7 +28,10 @@
       "name": "Bestätigung der Stellungnahme der Stadt zum Vorentwurf der Fortschreibung der Teilfortschreibung Wind des Regionalplanes Oberes Elbtal/Osterzgebirge (09/2010)",
       "number": "7 Nachtrag: 08.12.2010 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3194",
+      "consultation": {
+        "parentID": "3194",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "48728",
         "47648",

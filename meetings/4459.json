@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/009/2015",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf/Langebrück, Zweitstandort Langebrück, \nBeratungsraum, Weißiger Straße 5, 01465 Langebrück",
   "name": "9. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2015-04-21T19:01:00+02:00",
   "end": "2015-04-21T22:45:00+02:00",
   "resultsProtocol": "229705",
@@ -32,7 +32,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2015/2016",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9416",
+      "consultation": {
+        "parentID": "9416",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "229705",
       "auxiliaryFile": [
         "241557",
@@ -84,7 +87,10 @@
       "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
       "number": "10",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9668",
+      "consultation": {
+        "parentID": "9668",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "199997",
         "232126"

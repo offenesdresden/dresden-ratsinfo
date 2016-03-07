@@ -1,11 +1,11 @@
 {
   "shortName": "S/032/2014",
-  "organization": [
-    "Seniorenbeirat"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "32. Sitzung des Seniorenbeirates",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "6"
+  ],
   "start": "2014-05-05T09:00:00+02:00",
   "end": "2014-05-05T12:45:00+02:00",
   "auxiliaryFile": [
@@ -22,7 +22,10 @@
       "name": "Dresdner Standard - Gestaltungshandbuch öffentlicher Raum, Stand 2013",
       "number": "",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7377",
+      "consultation": {
+        "parentID": "7377",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "166708",
         "166362",

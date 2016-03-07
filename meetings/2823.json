@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/036/2013",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal,\nBürgerstraße 63, 01127 Dresden",
   "name": "36. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2013-04-16T18:00:00+02:00",
   "end": "2013-04-16T20:15:00+02:00",
   "resultsProtocol": "130666",
@@ -35,7 +35,10 @@
       "name": "Neubau Speiseraum für das Pestalozzi-Gymnasium, Pestalozziplatz 22 in 01127 Dresden",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6875",
+      "consultation": {
+        "parentID": "6875",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "130666",
       "auxiliaryFile": [
         "147559",

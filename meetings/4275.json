@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/012/2015",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "12. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2015-07-14T18:30:00+02:00",
   "end": "2015-07-14T19:45:00+02:00",
   "resultsProtocol": "214614",
@@ -45,7 +45,10 @@
       "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9447",
+      "consultation": {
+        "parentID": "9447",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "214614",
       "auxiliaryFile": [
         "224457",
@@ -61,7 +64,10 @@
       "name": "Erster Sachstandsbericht zur Fortschreibung der Sportentwicklungsplanung (FoSep 2025)",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9718",
+      "consultation": {
+        "parentID": "9718",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "207533",
         "207102",

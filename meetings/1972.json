@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pro/024/2012",
-  "organization": [
-    "Ortsbeirat Prohlis"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Vereinsheim des SG Gebergrund Goppeln e.V.\nWittgensdorfer Straße 30\n01257 Dresden",
   "name": "24. Sitzung des Ortsbeirates Prohlis",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "41"
+  ],
   "start": "2012-05-14T17:00:00+02:00",
   "end": "2012-05-14T18:50:00+02:00",
   "auxiliaryFile": [
@@ -40,7 +40,10 @@
       "name": "Patenschaften für Baumscheiben",
       "number": "4.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5633",
+      "consultation": {
+        "parentID": "5633",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92834",
         "92828"
@@ -51,7 +54,10 @@
       "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
       "number": "4.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5634",
+      "consultation": {
+        "parentID": "5634",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92885"
       ],

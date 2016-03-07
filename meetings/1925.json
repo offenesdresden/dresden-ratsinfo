@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/022/2011",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Haus An der Kreuzkirche 6, Rudolf-Mauersberg-Saal,\nAn der Kreuzkirche 6, 01067 Dresden",
   "name": "22. Sitzung des Jugendhilfeausschusses (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2011-07-07T18:00:00+02:00",
   "end": "2011-07-07T18:50:00+02:00",
   "resultsProtocol": "68977",
@@ -33,7 +33,10 @@
       "name": "Vergabe von Leistungen der Schulsozialarbeit an Dresdner Schulen",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4398",
+      "consultation": {
+        "parentID": "4398",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "68977",
       "auxiliaryFile": [
         "68075",
@@ -44,7 +47,10 @@
       "name": "Maßnahmeplan zur Schaffung zusätzlicher Kindertagesbetreuungsplätze in den Jahren 2011 bis 2014",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4010",
+      "consultation": {
+        "parentID": "4010",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "69752",
       "auxiliaryFile": [
         "68006",

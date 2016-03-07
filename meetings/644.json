@@ -1,11 +1,11 @@
 {
   "shortName": "K/018/2010",
-  "organization": [
-    "Ausschuss für Kultur"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "18. Sitzung des Ausschusses für Kultur",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "14"
+  ],
   "start": "2010-09-14T16:00:00+02:00",
   "end": "2010-09-14T16:45:00+02:00",
   "auxiliaryFile": [
@@ -18,7 +18,10 @@
       "name": "Nachberufung in den Kulturbeirat der Landeshauptstadt Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2445",
+      "consultation": {
+        "parentID": "2445",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "38501",
         "36245",

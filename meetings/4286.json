@@ -1,11 +1,11 @@
 {
   "shortName": "UK/FH/003/2015",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofswesen)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "3. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofswesen)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "130"
+  ],
   "start": "2015-01-05T16:30:00+01:00",
   "end": "2015-01-05T17:30:00+01:00",
   "resultsProtocol": "242447",
@@ -24,7 +24,10 @@
       "name": "Entscheidung über die Widmung, Einziehung sowie die Veränderungen gewidmeter Grünanlagen gemäß § 2 der Satzung der LHD über Erlaubnisse und Gebühren für Sondernutzungen und zum Schutz der öffentlichen Grün- und Erholungsanlagen (Grünanlagensatzung)",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8933",
+      "consultation": {
+        "parentID": "8933",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "242447",
       "auxiliaryFile": [
         "185325",

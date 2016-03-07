@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/035/2012",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltg.-stelle Langebrück, Beratungsraum,\nWeißiger Str. 5, 01465 Dresden OT Langebrück\n(öffentll. Sitzg. v. 17:30 Uhr - ca. 18:00 Uhr\nWorkshop nichtöffentl. Sitzg. v.ca. 18:00 Uhr - ca. 20:00 Uhr\nnichtöffentl. Sitzg. ab ca. 20:00 Uhr)",
   "name": "35. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2012-03-20T17:33:00+01:00",
   "end": "2012-03-20T22:03:00+01:00",
   "resultsProtocol": "104879",
@@ -61,7 +61,10 @@
       "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5506",
+      "consultation": {
+        "parentID": "5506",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "104879",
       "auxiliaryFile": [
         "206796",

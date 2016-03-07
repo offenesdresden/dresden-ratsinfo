@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/011/2010",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Klotzsche, Bürgersaal,\nKieler Straße 52, 01109 Dresden",
   "name": "11. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2010-09-06T19:00:00+02:00",
   "end": "2010-09-06T21:30:00+02:00",
   "auxiliaryFile": [
@@ -27,7 +27,10 @@
       "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat); Änderung der Geschäftsordnung des Stadtrates",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2007",
+      "consultation": {
+        "parentID": "2007",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "35729",
         "35532",
@@ -40,7 +43,10 @@
       "name": "Widerspruch der Landeshauptstadt Dresden gegen Verwendung personenbezogener Daten durch \"Google Streetview\"",
       "number": "1.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2251",
+      "consultation": {
+        "parentID": "2251",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "57363",
       "auxiliaryFile": [
         "33437"

@@ -1,11 +1,11 @@
 {
   "shortName": "S/006/2015",
-  "organization": [
-    "Seniorenbeirat"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "6. Sitzung des Seniorenbeirates",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "6"
+  ],
   "start": "2015-11-10T09:00:00+01:00",
   "end": "2015-11-10T12:15:00+01:00",
   "resultsProtocol": "232759",
@@ -50,7 +50,10 @@
       "name": "Fortschreibung des Aktionsplanes: Gesundes und aktives Altern in Dresden auf Basis des Aktionsprogrammes \"Gesundes und aktives Altern\" von 2008",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10264",
+      "consultation": {
+        "parentID": "10264",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "232759",
       "auxiliaryFile": [
         "221810",
@@ -73,7 +76,10 @@
       "name": "Sanierung der Brückenrampe der Augustusbrücke (Innere Neustadt)",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10400",
+      "consultation": {
+        "parentID": "10400",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244175",
       "auxiliaryFile": [
         "226628",

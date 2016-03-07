@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/033/2012",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "33. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2012-11-28T17:30:00+01:00",
   "end": "2012-11-28T19:45:00+01:00",
   "auxiliaryFile": [
@@ -29,7 +29,10 @@
       "name": "Bebauungsplan Nr. 394, Dresden-Reick Nr. 4, Gewerbepark Breitscheidstraße\n\nhier:\n1. Aufstellungsbeschluss Bebauungsplan\n2. Grenzen des räumlichen Geltungsbereiches des Bebauungsplanes",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6461",
+      "consultation": {
+        "parentID": "6461",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "115185",
         "114390",

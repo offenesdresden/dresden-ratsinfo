@@ -1,11 +1,11 @@
 {
   "shortName": "K/015/2015",
-  "organization": [
-    "Ausschuss für Kultur"
-  ],
   "locality": "Beratungsraum der DMG, Messering 7, 01067 Dresden",
   "name": "15. Sitzung des Ausschusses für Kultur",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "14"
+  ],
   "start": "2015-11-03T16:00:00+01:00",
   "end": "2015-11-03T19:00:00+01:00",
   "resultsProtocol": "237152",
@@ -23,7 +23,10 @@
       "name": "Ausschreibung und Verfahren zur Neubesetzung der Intendanz HELLERAU - Europäisches Zentrum der Künste Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9675",
+      "consultation": {
+        "parentID": "9675",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "237152",
       "auxiliaryFile": [
         "236750",

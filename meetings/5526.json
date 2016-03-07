@@ -1,11 +1,11 @@
 {
   "shortName": "FL/020/2016",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Kulturrathaus, Fritz-Löffler-Saal, 1. Etage,\nKönigstraße 15, 01097 Dresden",
   "name": "20. Sitzung des Ausschusses für Finanzen und Liegenschaften (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2016-02-25T15:00:00+01:00",
   "end": "2016-02-25T15:50:00+01:00",
   "resultsProtocol": "244012",
@@ -21,7 +21,10 @@
       "name": "Erhöhung der Kapitaleinlage in die Kommunale Immobilien Dresden GmbH & Co. KG",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11734",
+      "consultation": {
+        "parentID": "11734",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244012",
       "auxiliaryFile": [
         "238570",

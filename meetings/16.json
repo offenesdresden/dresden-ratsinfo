@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/002/2009",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage\nGrundstraße 3, 01326 Dresden",
   "name": "2. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2009-12-02T17:00:00+01:00",
   "end": "2009-12-02T18:30:00+01:00",
   "auxiliaryFile": [
@@ -25,7 +25,10 @@
       "name": "Außenbereichssatzung Nr. 423, Dresden-Bühlau Nr. 1, Crostauer Weg/Gründelsteig\n\nhier: Aufhebung des Aufstellungsbeschlusses zur Außenbereichssatzung",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "897",
+      "consultation": {
+        "parentID": "897",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "13313",
         "13079",

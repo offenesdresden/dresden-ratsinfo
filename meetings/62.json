@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/004/2009",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209\nBautzner Landstraße 291, 01328 Dresden",
   "name": "4. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2009-11-16T19:30:00+01:00",
   "end": "2009-11-16T22:00:00+01:00",
   "auxiliaryFile": [
@@ -51,7 +51,10 @@
       "name": "Bebauungsplan Nr. 213, Dresden-Weißig Nr. 15, Wohnbebauung Heinrich-Lange-Straße\n\nhier:\t1. Abwägungsbeschluss\n\t2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden \tErklärung nach § 10 Abs. 4 BauGB zum Bebauungsplan",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "884",
+      "consultation": {
+        "parentID": "884",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "12653",
         "12626",

@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/037/2012",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "37. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2012-10-15T19:35:00+02:00",
   "end": "2012-10-15T20:46:00+02:00",
   "resultsProtocol": "120306",
@@ -41,7 +41,10 @@
       "name": "Haushaltssatzung 2013/2014",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6310",
+      "consultation": {
+        "parentID": "6310",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "120306",
       "auxiliaryFile": [
         "123358",

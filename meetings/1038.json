@@ -1,11 +1,11 @@
 {
   "shortName": "SP/018/2011",
-  "organization": [
-    "Betriebsausschuss für Sportstätten und Bäder"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "18. Sitzung des Betriebsausschusses für Sportstätten und Bäder",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "16"
+  ],
   "start": "2011-01-20T16:00:00+01:00",
   "end": "2011-01-20T19:15:00+01:00",
   "auxiliaryFile": [
@@ -18,7 +18,10 @@
       "name": "Jurymitglieder zur Vergabe des Sport- und Förderpreises der Landeshauptstadt Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3299",
+      "consultation": {
+        "parentID": "3299",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "51777",
         "50800",

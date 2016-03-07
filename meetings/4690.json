@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/017/2015",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "17. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2015-11-09T19:33:00+01:00",
   "end": "2015-11-09T22:00:00+01:00",
   "resultsProtocol": "234574",
@@ -54,7 +54,10 @@
       "name": "Bebauungsplan Nr. 329, Dresden-Pappritz Nr. 4, Am Mieschenhang\n\nhier:\t\n1. Grenze des Bebauungsplanes\n2. Billigung des Entwurfs zum Bebauungsplan\n3. Billigung der Begründung zum Bebauungsplan-Entwurf\n4. Öffentliche Auslegung des Entwurfs zum Bebauungsplan",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10357",
+      "consultation": {
+        "parentID": "10357",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "234574",
       "auxiliaryFile": [
         "225435",

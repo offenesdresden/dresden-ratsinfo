@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Co/044/2014",
-  "organization": [
-    "Ortsbeirat Cotta"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Cotta, großer Sitzungssaal, 2. Etage, Raum 201,\nLübecker Straße 121, 01157 Dresden",
   "name": "44. Sitzung des Ortsbeirates Cotta (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "37"
+  ],
   "start": "2014-04-29T18:30:00+02:00",
   "end": "2014-04-29T20:30:00+02:00",
   "resultsProtocol": "171266",
@@ -47,7 +47,10 @@
       "name": "Vorplanung Stadtbahn 2020, Straßenbahn-Neubaustrecke Löbtau Â Südvorstadt Â Strehlen, Teilstrecke 1.2: Nossener Brücke Â Nürnberger Straße",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8333",
+      "consultation": {
+        "parentID": "8333",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "171266",
       "auxiliaryFile": [
         "176996",

@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Alt/005/2010",
-  "organization": [
-    "Ortsbeirat Altstadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "5. Sitzung des Ortsbeirates Altstadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "8"
+  ],
   "start": "2010-01-21T17:30:00+01:00",
   "end": "2010-01-21T21:30:00+01:00",
   "auxiliaryFile": [
@@ -53,7 +53,10 @@
       "name": "Verkehrsbaumaßnahme Fetscherstraße zwischen Fiedlerstraße und Pfotenhauerstraße",
       "number": "3.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "612",
+      "consultation": {
+        "parentID": "612",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "27664",
         "129815",
@@ -67,7 +70,10 @@
       "name": "Vorhabenbezogener Bebauungsplan Nr. 667, Dresden-Altstadt I, Erweiterung Serumwerk\n\nhier:\t1. Abwägungsbeschluss\n\t2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden\n\tErklärung nach § 10 Abs. 4 BauGB zum vorhabenbezogenenBebauungsplan",
       "number": "3.3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1142",
+      "consultation": {
+        "parentID": "1142",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "17533",
         "16967",

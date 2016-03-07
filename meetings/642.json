@@ -1,11 +1,11 @@
 {
   "shortName": "UK/018/2010",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "18. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "13"
+  ],
   "start": "2010-09-13T16:30:00+02:00",
   "end": "2010-09-13T20:00:00+02:00",
   "auxiliaryFile": [
@@ -21,7 +21,10 @@
       "name": "1. Änderung der Zweckvereinbarung über die Wahrnehmung von Aufgaben der Gewerbeabfallentsorgung",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2544",
+      "consultation": {
+        "parentID": "2544",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "39524",
         "37356",
@@ -34,7 +37,10 @@
       "name": "Bildung eines Lenkungskreises \"Innovatives, nachhaltiges und ganzheitliches Energie- und Mobilitätskonzept für Dresden\"",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2234",
+      "consultation": {
+        "parentID": "2234",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "33381"
       ]

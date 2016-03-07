@@ -1,11 +1,11 @@
 {
   "shortName": "FL/088/2014",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "88. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2014-01-20T16:00:00+01:00",
   "end": "2014-01-20T18:40:00+01:00",
   "resultsProtocol": "158325",
@@ -25,7 +25,10 @@
       "name": "Verkauf eines Grundstückes in Hosterwitz",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7447",
+      "consultation": {
+        "parentID": "7447",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "158325",
       "auxiliaryFile": [
         "170127",
@@ -39,7 +42,10 @@
       "name": "Alaunpark vollständig erwerben",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7596",
+      "consultation": {
+        "parentID": "7596",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "143858",
         "168403",

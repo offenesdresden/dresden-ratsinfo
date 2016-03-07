@@ -1,11 +1,11 @@
 {
   "shortName": "OSR MB/009/2010",
-  "organization": [
-    "Ortschaftsrat Mobschatz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im \"Dorfklub Mobschatz\", Sitzungssaal,\nAm Tummelsgrund 7 b, 01156 Dresden",
   "name": "9. Sitzung des Ortschaftsrates Mobschatz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "45"
+  ],
   "start": "2010-03-11T19:30:00+01:00",
   "end": "2010-03-11T21:30:00+01:00",
   "auxiliaryFile": [
@@ -41,7 +41,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1315",
+      "consultation": {
+        "parentID": "1315",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "21931",
         "19492",
@@ -61,7 +64,10 @@
       "name": "\"Dresdner Sortimentsliste\" zur Feinsteuerung von Einzelhandelsvorhaben",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "28",
+      "consultation": {
+        "parentID": "28",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "13303",
         "20180",

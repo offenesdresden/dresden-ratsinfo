@@ -1,11 +1,11 @@
 {
   "shortName": "GS/002/2015",
-  "organization": [
-    "Beirat Gesunde Städte"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "2. Sitzung des Beirates Gesunde Städte",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "20"
+  ],
   "start": "2015-05-04T16:30:00+02:00",
   "end": "2015-05-04T18:15:00+02:00",
   "resultsProtocol": "215667",
@@ -31,7 +31,10 @@
       "name": "Strategiepapier zur Suchtprävention in Dresden",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9514",
+      "consultation": {
+        "parentID": "9514",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "215667",
       "auxiliaryFile": [
         "238847",

@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/030/2012",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "30. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2012-02-06T19:30:00+01:00",
   "end": "2012-02-06T21:50:00+01:00",
   "resultsProtocol": "93333",
@@ -55,7 +55,10 @@
       "name": "Bebauungsplan Nr. 329, Dresden-Pappritz Nr. 4, \"Am Mieschenhang\"\n\nhier:\t1. Aufstellungsbeschluss Bebauungsplan\n\t2. Grenzen des Bebauungsplanes\nBE: Vertreter Stadtplanungsamt",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5310",
+      "consultation": {
+        "parentID": "5310",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "93333",
       "auxiliaryFile": [
         "85939",
@@ -69,7 +72,10 @@
       "name": "Anmietung einer Kindertageseinrichtung auf dem Grundstück Hauptstraße 4 in 01328 Dresden-Weißig",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5263",
+      "consultation": {
+        "parentID": "5263",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "97324",
       "auxiliaryFile": [
         "140706",

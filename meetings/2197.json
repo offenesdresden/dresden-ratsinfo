@@ -1,11 +1,11 @@
 {
   "shortName": "OSR MB/031/2012",
-  "organization": [
-    "Ortschaftsrat Mobschatz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im \"Dorfklub Mobschatz\", Sitzungssaal,\nAm Tummelsgrund 7 b, 01156 Dresden",
   "name": "31. Sitzung des Ortschaftsrates Mobschatz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "45"
+  ],
   "start": "2012-01-19T19:30:00+01:00",
   "end": "2012-01-19T21:15:00+01:00",
   "auxiliaryFile": [
@@ -27,7 +27,10 @@
       "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5186",
+      "consultation": {
+        "parentID": "5186",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "82335"
       ],

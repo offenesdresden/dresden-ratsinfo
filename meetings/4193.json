@@ -1,11 +1,11 @@
 {
   "shortName": "AV/IT/001/2014",
-  "organization": [
-    "Ausschuss für Allgemeine Verwaltung, Ordnung und Sicherheit (Eigenbetrieb IT-Dienstleistungen)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "1. Sitzung des Ausschusses für Allgemeine Verwaltung, Ordnung und Sicherheit\n(Eigenbetrieb IT-Dienstleistungen)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "128"
+  ],
   "start": "2014-11-03T16:30:00+01:00",
   "end": "2014-11-03T20:40:00+01:00",
   "auxiliaryFile": [
@@ -22,7 +22,10 @@
       "name": "Stellungnahme der Landeshauptstadt Dresden zum Anhörungsschreiben der Landesdirektion Sachsen vom 24. September 2014 (Gz. DD21-2211/2/6)",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9086",
+      "consultation": {
+        "parentID": "9086",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "182731"
       ],

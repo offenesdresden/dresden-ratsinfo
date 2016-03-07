@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Leu/003/2015",
-  "organization": [
-    "Ortsbeirat Leuben"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Leuben, Bürgersaal,\nHertzstraße 23, 01257 Dresden",
   "name": "3. Sitzung des Ortsbeirates Leuben",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "44"
+  ],
   "start": "2015-01-14T19:00:00+01:00",
   "end": "2015-01-14T22:30:00+01:00",
   "resultsProtocol": "198346",
@@ -37,7 +37,10 @@
       "name": "Vorplanung Hochwasserschadensbeseitigung, Verkehrsbauvorhaben Wehlener Straße - Alttolkewitz - Österreicher Straße zwischen Schlömilchstraße und Leubener Straße",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9098",
+      "consultation": {
+        "parentID": "9098",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "198346",
       "auxiliaryFile": [
         "198010",

@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pro/010/2010",
-  "organization": [
-    "Ortsbeirat Prohlis"
-  ],
   "locality": "Ortsamt Prohlis, Prohliser Allee 10, 01239 Dresden, Bürgersaal",
   "name": "10. Sitzung des Ortsbeirates Prohlis",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "41"
+  ],
   "start": "2010-09-20T17:00:00+02:00",
   "end": "2010-09-20T19:40:00+02:00",
   "auxiliaryFile": [
@@ -32,7 +32,10 @@
       "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat); Änderung der Geschäftsordnung des Stadtrates",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2007",
+      "consultation": {
+        "parentID": "2007",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "35729",
         "35532",
@@ -45,7 +48,10 @@
       "name": "Widerspruch der Landeshauptstadt Dresden gegen Verwendung personenbezogener Daten durch \"Google Streetview\"",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2251",
+      "consultation": {
+        "parentID": "2251",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "57363",
       "auxiliaryFile": [
         "33437"

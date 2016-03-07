@@ -1,11 +1,11 @@
 {
   "shortName": "WF/079/2013",
-  "organization": [
-    "Ausschuss für Wirtschaftsförderung"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "79. Sitzung des Ausschusses für Wirtschaftsförderung (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "12"
+  ],
   "start": "2013-09-19T15:30:00+02:00",
   "end": "2013-09-19T15:45:00+02:00",
   "resultsProtocol": "144731",
@@ -19,7 +19,10 @@
       "name": "Vergabenummer: 2012-654-000217 \nUmbau und Sanierung Hans-Erlwein-Gymnasium\nEibenstocker Straße 30 in Dresden\nLos 12-2 Naturstein- und Putzarbeiten, Fassade - Nachtrag",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7593",
+      "consultation": {
+        "parentID": "7593",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "144731"
     }
   ],

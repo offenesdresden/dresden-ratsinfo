@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/002/2009",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Dresden",
   "name": "2. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2009-09-15T18:30:00+02:00",
   "end": "2009-09-15T21:05:00+02:00",
   "auxiliaryFile": [
@@ -83,7 +83,10 @@
       "name": "Verkehrsbaumaßnahme Knotenpunkt Klotzscher Straße/Lessingstraße in Langebrück",
       "number": "13",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "208",
+      "consultation": {
+        "parentID": "208",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3686",
         "156235",

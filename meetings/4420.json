@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/002/2014",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "2. Sitzung des Ortsbeirates Neustadt (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2014-11-18T17:30:00+01:00",
   "end": "2014-11-18T18:55:00+01:00",
   "auxiliaryFile": [
@@ -27,7 +27,10 @@
       "name": "Stadtteilverträgliche Sanierung Königsbrücker Straße",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9128",
+      "consultation": {
+        "parentID": "9128",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "186383",
         "184149",

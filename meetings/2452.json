@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/040/2013",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Stadtmuseum, Festsaal, 3. Etage,\nWilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
   "name": "40. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2013-03-28T18:00:00+01:00",
   "end": "2013-03-28T21:20:00+01:00",
   "resultsProtocol": "127677",
@@ -47,7 +47,10 @@
       "name": "\"Erster Dresdner Kinderschutzbericht\" (Planungsbericht)",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6208",
+      "consultation": {
+        "parentID": "6208",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "127677",
       "auxiliaryFile": [
         "233775",
@@ -73,7 +76,10 @@
       "name": "Erstattung der Mehraufwendungen für das gemeinschaftliche Mittagessen im Hort während der Schulferien an Berechtigte für das Bildungs- und Teilhabepaket",
       "number": "6 Nachtrag: 22.03.2013 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6897",
+      "consultation": {
+        "parentID": "6897",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127028",
         "137050",

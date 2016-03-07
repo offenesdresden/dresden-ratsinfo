@@ -1,11 +1,11 @@
 {
   "shortName": "SR/004/2009",
-  "organization": [
-    "Stadtrat"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Plenarsaal,\nRathausplatz 1, 01067 Dresden",
   "name": "4. Sitzung des Stadtrates",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "1"
+  ],
   "start": "2009-10-22T16:00:00+02:00",
   "end": "2009-10-22T17:30:00+02:00",
   "auxiliaryFile": [
@@ -27,7 +27,10 @@
       "name": "Wahl der Mitglieder des Verwaltungsrates der Ostsächsischen Sparkasse Dresden",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "118",
+      "consultation": {
+        "parentID": "118",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "5521",
         "3069"

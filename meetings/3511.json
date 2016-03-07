@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/050/2014",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "50. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2014-02-10T17:30:00+01:00",
   "end": "2014-02-10T18:15:00+01:00",
   "auxiliaryFile": [
@@ -38,7 +38,10 @@
       "name": "Verkauf sofort stoppen\nFeuerwache Katharinenstraße 11-13 für Kultur und Kreativwirtschaft sichern",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8051",
+      "consultation": {
+        "parentID": "8051",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "157540",
         "177861",

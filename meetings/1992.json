@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/028/2012",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "28. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2012-03-19T17:30:00+01:00",
   "end": "2012-03-19T21:30:00+01:00",
   "resultsProtocol": "104879",
@@ -51,7 +51,10 @@
       "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft\n18:35 Uhr",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5506",
+      "consultation": {
+        "parentID": "5506",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "104879",
       "auxiliaryFile": [
         "206796",

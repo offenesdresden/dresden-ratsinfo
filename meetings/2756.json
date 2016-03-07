@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/046/2013",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "46. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2013-12-09T18:30:00+01:00",
   "end": "2013-12-09T21:20:00+01:00",
   "resultsProtocol": "160941",
@@ -45,7 +45,10 @@
       "name": "Aufhebung der Sanierungssatzung für das Sanierungsgebiet Cossebaude - Altstadt",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7631",
+      "consultation": {
+        "parentID": "7631",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "160941",
       "auxiliaryFile": [
         "165969",

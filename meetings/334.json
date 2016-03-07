@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/012/2010",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "12. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2010-09-07T17:30:00+02:00",
   "end": "2010-09-07T23:00:00+02:00",
   "auxiliaryFile": [
@@ -38,7 +38,10 @@
       "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat); Änderung der Geschäftsordnung des Stadtrates",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2007",
+      "consultation": {
+        "parentID": "2007",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "35729",
         "35532",
@@ -56,7 +59,10 @@
       "name": "Lichtmasterplan Dresden Innenstadt",
       "number": "2.3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "487",
+      "consultation": {
+        "parentID": "487",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "38078"
       ],
@@ -66,7 +72,10 @@
       "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
       "number": "2.4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2112",
+      "consultation": {
+        "parentID": "2112",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "31143"
       ]
@@ -75,7 +84,10 @@
       "name": "Prioritätenliste zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftiger Fußwege",
       "number": "2.5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2178",
+      "consultation": {
+        "parentID": "2178",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "33382",
         "138849",
@@ -86,7 +98,10 @@
       "name": "Widerspruch der Landeshauptstadt Dresden gegen Verwendung personenbezogener Daten durch \"Google Streetview\"",
       "number": "2.6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2251",
+      "consultation": {
+        "parentID": "2251",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "57363",
       "auxiliaryFile": [
         "33437"

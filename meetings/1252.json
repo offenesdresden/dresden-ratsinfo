@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Alt/016/2011",
-  "organization": [
-    "Ortsbeirat Altstadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "16. Sitzung des Ortsbeirates Altstadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "8"
+  ],
   "start": "2011-01-13T17:30:00+01:00",
   "end": "2011-01-13T21:30:00+01:00",
   "auxiliaryFile": [
@@ -60,7 +60,10 @@
       "name": "Rahmenplan Nr. 735.1 Dresden-Altstadt I, Südliche Pirnaische Vorstadt/Lingner-Park-Stadt",
       "number": "3.1 Nachtrag: 05.01.2011 Nummer 1 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1913",
+      "consultation": {
+        "parentID": "1913",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "57629",
         "116200",
@@ -79,7 +82,10 @@
       "name": "Instandsetzung der Brücke Budapester Straße, Brückenzug C",
       "number": "3.2 Nachtrag: 05.01.2011 Nummer 1 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3122",
+      "consultation": {
+        "parentID": "3122",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "56861",
       "auxiliaryFile": [
         "55814",
@@ -93,7 +99,10 @@
       "name": "Grundhafte Erneuerung der Tiergartenstraße zwischen der Franz-Liszt-Straße und der Karcherallee sowie Neubau der Durchlässe des Kaitzbaches und des Kaitzbachabschlages am Knoten Oskarstraße",
       "number": "3.3 Nachtrag: 05.01.2011 Nummer 1 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3076",
+      "consultation": {
+        "parentID": "3076",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "56865",
       "auxiliaryFile": [
         "51739",

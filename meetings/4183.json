@@ -1,11 +1,11 @@
 {
   "shortName": "OSR GP/010/2015",
-  "organization": [
-    "Ortschaftsrat Gompitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Gemeindezentrum Gompitz, Gemeindesaal,\nAltnossener Straße 46 a, 01156 Dresden, OT Pennrich",
   "name": "10. Sitzung des Ortschaftsrates Gompitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "9"
+  ],
   "start": "2015-05-04T19:30:00+02:00",
   "end": "2015-05-04T21:20:00+02:00",
   "auxiliaryFile": [
@@ -43,7 +43,10 @@
       "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
       "number": "4.1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9668",
+      "consultation": {
+        "parentID": "9668",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "199997",
         "232126"

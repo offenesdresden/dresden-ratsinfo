@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/037/2013",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "37. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2013-10-09T17:30:00+02:00",
   "end": "2013-10-09T20:20:00+02:00",
   "resultsProtocol": "188223",
@@ -31,7 +31,10 @@
       "name": "Verkehrsentwicklungsplan 2025plus (VEP 2025plus)",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7487",
+      "consultation": {
+        "parentID": "7487",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "188223",
       "auxiliaryFile": [
         "214643",

@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/015/2010",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  im ehemaligen Gemeindehaus Schönborn, Beratungsraum,\nSeifersdorfer Straße 6, 01465 Dresden",
   "name": "15. Sitzung des Ortschaftsrates Schönborn",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2010-10-27T19:30:00+02:00",
   "end": "2010-10-27T21:30:00+02:00",
   "resultsProtocol": "61090",
@@ -33,7 +33,10 @@
       "name": "Erhalt und Entwicklung eines strukturreichen Altbaumbestandes auf dem Gebiet der Landeshauptstadt Dresden",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2243",
+      "consultation": {
+        "parentID": "2243",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61090",
       "auxiliaryFile": [
         "33428",

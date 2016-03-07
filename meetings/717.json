@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/012/2010",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Festsaal,\nRathausplatz 1, 01067 Dresden",
   "name": "12. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2010-11-04T18:00:00+01:00",
   "end": "2010-11-04T20:00:00+01:00",
   "auxiliaryFile": [
@@ -31,7 +31,10 @@
       "name": "Auflösung kommunaler Streetworkbüros in Dresden",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3080",
+      "consultation": {
+        "parentID": "3080",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "45656"
       ]
@@ -40,7 +43,10 @@
       "name": "Förderung der Träger der freien Jugendhilfe im Haushaltsjahr 2010 - \nBewegliche Sachen des Anlagevermögens",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2518",
+      "consultation": {
+        "parentID": "2518",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "41125",
         "40323",
@@ -61,7 +67,10 @@
       "name": "Musikalische Bildung",
       "number": "8",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2240",
+      "consultation": {
+        "parentID": "2240",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "63740",
       "auxiliaryFile": [
         "33386"

@@ -1,11 +1,11 @@
 {
   "shortName": "KG/008/2016",
-  "organization": [
-    "Kleingartenbeirat"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "8. Sitzung des Kleingartenbeirates",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "22"
+  ],
   "start": "2016-02-24T16:00:00+01:00",
   "end": "2016-02-24T17:30:00+01:00",
   "resultsProtocol": "244507",
@@ -36,7 +36,10 @@
       "name": "Rahmenplanung Nr. 787 ÂSeidnitz/TolkewitzÂ\nhier: Aufstellungsbeschluss",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10401",
+      "consultation": {
+        "parentID": "10401",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244507",
       "auxiliaryFile": [
         "230930",

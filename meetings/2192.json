@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/040/2012",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Dresden OT Langebrück",
   "name": "40. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2012-07-17T18:34:00+02:00",
   "end": "2012-07-17T21:30:00+02:00",
   "resultsProtocol": "105356",
@@ -52,7 +52,10 @@
       "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+\n- Phase 2, Grundlagen und Zukunftsthemen -",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5798",
+      "consultation": {
+        "parentID": "5798",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "105356",
       "auxiliaryFile": [
         "158635",
@@ -72,7 +75,10 @@
       "name": "Verkehrsentwicklungsplan 2025plus - Szenario für die weitere Bearbeitung",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5728",
+      "consultation": {
+        "parentID": "5728",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "109499",
       "auxiliaryFile": [
         "156193",

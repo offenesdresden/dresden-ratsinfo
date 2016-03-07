@@ -1,11 +1,11 @@
 {
   "shortName": "FL/019/2016",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "19. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2016-02-01T16:00:00+01:00",
   "end": "2016-02-01T17:55:00+01:00",
   "resultsProtocol": "244012",
@@ -26,7 +26,10 @@
       "name": "Erhöhung der Kapitaleinlage in die Kommunale Immobilien Dresden GmbH & Co. KG",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11734",
+      "consultation": {
+        "parentID": "11734",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244012",
       "auxiliaryFile": [
         "238570",
@@ -40,7 +43,10 @@
       "name": "Verwendung des Ertrages aus der Minderzuteilung Liegenschaftsamt im Umlegungsverfahren Nr. 13 Markuspassage zur Finanzierung der Erschließung Markuspassage (B-Plan Nr. 167)",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11638",
+      "consultation": {
+        "parentID": "11638",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "241215",
       "auxiliaryFile": [
         "236731",

@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/028/2012",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "28. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2012-04-16T18:30:00+02:00",
   "end": "2012-04-16T21:30:00+02:00",
   "resultsProtocol": "104879",
@@ -56,7 +56,10 @@
       "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5506",
+      "consultation": {
+        "parentID": "5506",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "104879",
       "auxiliaryFile": [
         "206796",

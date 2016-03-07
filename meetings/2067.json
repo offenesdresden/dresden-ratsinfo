@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/032/2012",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal,\nBürgerstraße 63, 01127 Dresden",
   "name": "32. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2012-12-11T18:00:00+01:00",
   "end": "2012-12-11T20:00:00+01:00",
   "auxiliaryFile": [
@@ -30,7 +30,10 @@
       "name": "Wiedereinrichtung des Radwegs zwischen Altkaditz und der Autobahnbrücke",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6409",
+      "consultation": {
+        "parentID": "6409",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "112972",
         "115334"
@@ -40,7 +43,10 @@
       "name": "Einrichtung und Neubau der 144. Grundschule in Dresden-Pieschen",
       "number": "1.2 Nachtrag: 03.12.2012 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6398",
+      "consultation": {
+        "parentID": "6398",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "121636",
       "auxiliaryFile": [
         "158648",

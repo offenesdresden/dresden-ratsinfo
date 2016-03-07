@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/013/2015",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "13. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2015-09-08T18:30:00+02:00",
   "end": "2015-09-08T21:50:00+02:00",
   "auxiliaryFile": [
@@ -39,7 +39,10 @@
       "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10239",
+      "consultation": {
+        "parentID": "10239",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "215210",
         "244117"
@@ -50,7 +53,10 @@
       "name": "Elberadweg dauerhaft und verbindlich öffentlich-rechtlich sichern!",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9905",
+      "consultation": {
+        "parentID": "9905",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "206358"
       ]

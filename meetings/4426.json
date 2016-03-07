@@ -1,11 +1,11 @@
 {
   "shortName": "OSR WX/010/2015",
-  "organization": [
-    "Ortschaftsrat Weixdorf"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf, Sitzungssaal,\nWeixdorfer Rathausplatz 2, 01108 Dresden",
   "name": "10. Sitzung des Ortschaftsrates Weixdorf",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "47"
+  ],
   "start": "2015-06-15T19:00:00+02:00",
   "end": "2015-06-15T20:45:00+02:00",
   "resultsProtocol": "215678",
@@ -52,7 +52,10 @@
       "name": "Vorgaben der Landeshauptstadt Dresden für die anstehende Neukonzessionierung der Straßenbahn- und Buslinien sowie einer Direktvergabe an die Dresdner Verkehrsbetriebe (DVB) AG",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9741",
+      "consultation": {
+        "parentID": "9741",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "215678",
       "auxiliaryFile": [
         "207531",
@@ -69,7 +72,10 @@
       "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9447",
+      "consultation": {
+        "parentID": "9447",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "214614",
       "auxiliaryFile": [
         "224457",

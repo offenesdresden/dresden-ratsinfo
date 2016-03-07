@@ -1,11 +1,11 @@
 {
   "shortName": "K/008/2010",
-  "organization": [
-    "Ausschuss für Kultur"
-  ],
   "locality": "Beratungsraum im Stadtarchiv, Elisabeth-Boer-Straße 1 \n01099 Dresden",
   "name": "8. Sitzung des Ausschusses für Kultur",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "14"
+  ],
   "start": "2010-01-12T16:00:00+01:00",
   "end": "2010-01-12T19:45:00+01:00",
   "auxiliaryFile": [
@@ -19,7 +19,10 @@
       "name": "Besetzung der Kunstkommission für Kunst im öffentlichen Raum",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "942",
+      "consultation": {
+        "parentID": "942",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "16734",
         "15848",

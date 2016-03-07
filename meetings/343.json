@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/012/2010",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Beratungssraum der Verwaltungsstelle Langebrück\nWeißiger Straße 5\n01465 Langebrück",
   "name": "12. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2010-06-08T18:35:00+02:00",
   "end": "2010-06-08T21:55:00+02:00",
   "auxiliaryFile": [
@@ -48,7 +48,10 @@
       "name": "Verkehrsbaumaßnahme Knotenpunkt Klotzscher Straße/Lessingstraße in Langebrück",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "208",
+      "consultation": {
+        "parentID": "208",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3686",
         "156235",

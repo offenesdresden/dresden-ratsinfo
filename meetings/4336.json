@@ -1,11 +1,11 @@
 {
   "shortName": "G/KH/005/2015",
-  "organization": [
-    "Ausschuss für Gesundheit (Eigenbetriebe der Krankenhäuser)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Stadtmuseum, Festsaal, 3. Etage,\nWilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
   "name": "5. Sitzung des Ausschusses für Gesundheit (Eigenbetriebe der Krankenhäuser)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "136"
+  ],
   "start": "2015-03-11T16:00:00+01:00",
   "end": "2015-03-11T19:00:00+01:00",
   "auxiliaryFile": [
@@ -23,7 +23,10 @@
       "name": "Crystalspezifische Präventionsstrategie für Dresden",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8394",
+      "consultation": {
+        "parentID": "8394",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "167650",
         "180224",

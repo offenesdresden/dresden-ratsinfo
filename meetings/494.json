@@ -1,11 +1,11 @@
 {
   "shortName": "OSR WX/009/2010",
-  "organization": [
-    "Ortschaftsrat Weixdorf"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf, Sitzungssaal,\nWeixdorfer Rathausplatz 2, 01108 Dresden",
   "name": "9. Sitzung des Ortschaftsrates Weixdorf",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "47"
+  ],
   "start": "2010-05-31T19:00:00+02:00",
   "end": "2010-05-31T21:00:00+02:00",
   "auxiliaryFile": [
@@ -36,7 +36,10 @@
       "name": "Bebauungsplan Nr. 352, Dresden-Weixdorf Nr. 12, Mittelschule Alte Dresdner Straße",
       "number": "4 Nachtrag: 27.05.2010 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2125",
+      "consultation": {
+        "parentID": "2125",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "31578",
         "31468",

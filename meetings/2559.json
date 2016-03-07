@@ -1,11 +1,11 @@
 {
   "shortName": "FL/059/2012",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "im Neuen Rathaus, Lichthof,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "59. Sitzung des Ausschusses für Finanzen und Liegenschaften (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2012-05-24T14:30:00+02:00",
   "end": "2012-05-24T15:45:00+02:00",
   "resultsProtocol": "99494",
@@ -26,7 +26,10 @@
       "name": "Finanzierung der Schadensbeseitigung/Wiederherstellung des Daches der EnergieVerbund Arena",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5860",
+      "consultation": {
+        "parentID": "5860",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "99494",
       "auxiliaryFile": [
         "118400",

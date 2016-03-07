@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Co/028/2012",
-  "organization": [
-    "Ortsbeirat Cotta"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,\nLübecker Straße 121, 01157 Dresden",
   "name": "28. Sitzung des Ortsbeirates Cotta (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "37"
+  ],
   "start": "2012-08-30T18:00:00+02:00",
   "end": "2012-08-30T18:45:00+02:00",
   "resultsProtocol": "111099",
@@ -32,7 +32,10 @@
       "name": "Neuordnung der gemeinsamen Schulbezirke Ortsamt Cotta und Ortschaften 1 und Ortsamt Cotta 2 der Landeshauptstadt Dresden",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6019",
+      "consultation": {
+        "parentID": "6019",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "111099",
       "auxiliaryFile": [
         "122523",

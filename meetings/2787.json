@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/038/2013",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "38. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2013-01-21T17:30:00+01:00",
   "end": "2013-01-21T18:55:00+01:00",
   "resultsProtocol": "124770",
@@ -41,7 +41,10 @@
       "name": "Aufnahme der Kindertageseinrichtung Marienallee 12 in 01099 Dresden in den Bedarfsplan Kindertageseinrichtungen Dresden unter der Trägerschaft des Trägers DRK Kreisverband Dresden e. V.",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6431",
+      "consultation": {
+        "parentID": "6431",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "124770",
       "auxiliaryFile": [
         "137811",
@@ -63,7 +66,10 @@
       "name": "Veränderungssperre für den Bebauungsplan Nr. 357, Dresden-Neustadt Nr. 33, Leipziger Vorstadt\n\nhier:\nSatzungsbeschluss zur ersten Verlängerung der Geltungsdauer der Veränderungssperre im Bebauungsplangebiet",
       "number": "1.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6624",
+      "consultation": {
+        "parentID": "6624",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "125097",
       "auxiliaryFile": [
         "119346",

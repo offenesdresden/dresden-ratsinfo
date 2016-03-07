@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/013/2015",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "13. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2015-10-05T17:30:00+02:00",
   "end": "2015-10-05T19:05:00+02:00",
   "resultsProtocol": "231522",
@@ -46,7 +46,10 @@
       "name": "Um- und Neugestaltung der Martin-Luther-Straße und Pulsnitzer Straße im Sanierungsgebiet Äußere Neustadt",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10231",
+      "consultation": {
+        "parentID": "10231",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "231522",
       "auxiliaryFile": [
         "222753",
@@ -65,7 +68,10 @@
       "name": "Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Fachförderrichtlinie der Ortsämter)",
       "number": "3.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9782",
+      "consultation": {
+        "parentID": "9782",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "233036",
       "auxiliaryFile": [
         "220058",

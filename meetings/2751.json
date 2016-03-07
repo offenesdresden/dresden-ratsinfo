@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/040/2013",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "40. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2013-06-24T18:30:00+02:00",
   "end": "2013-06-24T21:30:00+02:00",
   "auxiliaryFile": [
@@ -49,7 +49,10 @@
       "name": "Übertragung des Stauseebades Cossebaude an die Dresdner Bäder GmbH",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7168",
+      "consultation": {
+        "parentID": "7168",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "134143",
         "133861",
@@ -62,7 +65,10 @@
       "name": "Bürgerbeteiligung stärken Â Einrichtung einer Plattform für E-Petitionen auf der Stadt-Website",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7019",
+      "consultation": {
+        "parentID": "7019",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "129669",
         "176192",

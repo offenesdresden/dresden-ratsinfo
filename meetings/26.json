@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Co/002/2009",
-  "organization": [
-    "Ortsbeirat Cotta"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103\nLübecker Straße 121, 01157 Dresden",
   "name": "2. Sitzung des Ortsbeirates Cotta",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "37"
+  ],
   "start": "2009-11-05T18:00:00+01:00",
   "end": "2009-11-05T22:40:00+01:00",
   "auxiliaryFile": [
@@ -39,7 +39,10 @@
       "name": "Vorhabenbezogener Bebauungsplan Nr. 675, Dresden-Cotta, Einkaufszentrum Hamburger Straße\n\nhier:\t1. Abwägungsbeschluss\n\t2. Satzungsbeschluss sowie Billigung der Begründung",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "710",
+      "consultation": {
+        "parentID": "710",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "10339",
         "10086",
@@ -67,7 +70,10 @@
       "name": "Zentralhaltestelle Kesselsdorfer Straße jetzt bauen",
       "number": "4.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "166",
+      "consultation": {
+        "parentID": "166",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3297",
         "114244",
@@ -92,7 +98,10 @@
       "name": "Alternative Maßnahmen für die aus der EFRE-Förderung nach V2982 ausgeschiedenen Teile der Entwicklungsgebiete in Löbtau und Plauen",
       "number": "4.4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "136",
+      "consultation": {
+        "parentID": "136",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3137",
         "3141"

@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pro/022/2012",
-  "organization": [
-    "Ortsbeirat Prohlis"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Prohlis, Bürgersaal,\nProhliser Allee 10, 01239 Dresden",
   "name": "22. Sitzung des Ortsbeirates Prohlis",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "41"
+  ],
   "start": "2012-03-05T17:00:00+01:00",
   "end": "2012-03-05T19:40:00+01:00",
   "auxiliaryFile": [
@@ -28,7 +28,10 @@
       "name": "Erhöhung der Verkehrssicherheit vor der Kindertagesstätte Heidenauer Straße",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5276",
+      "consultation": {
+        "parentID": "5276",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "84716",
         "118025"

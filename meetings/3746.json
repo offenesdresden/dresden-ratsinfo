@@ -1,11 +1,11 @@
 {
   "shortName": "OSR MB/002/2014",
-  "organization": [
-    "Ortschaftsrat Mobschatz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im \"Dorfklub Mobschatz\", Sitzungssaal,\nAm Tummelsgrund 7 b, 01156 Dresden",
   "name": "2. Sitzung des Ortschaftsrates Mobschatz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "45"
+  ],
   "start": "2014-10-09T19:30:00+02:00",
   "end": "2014-10-09T21:15:00+02:00",
   "resultsProtocol": "190728",
@@ -55,7 +55,10 @@
       "name": "Haushaltssatzung 2015/2016",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8835",
+      "consultation": {
+        "parentID": "8835",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "190728",
       "auxiliaryFile": [
         "190166",

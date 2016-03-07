@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/038/2013",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "38. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2013-04-17T17:30:00+02:00",
   "end": "2013-04-17T19:40:00+02:00",
   "resultsProtocol": "131886",
@@ -42,7 +42,10 @@
       "name": "Gesamtsanierung der 6. Grundschule ÂAm Großen Garten\", Fetscherstraße 2 in 01307 Dresden",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6780",
+      "consultation": {
+        "parentID": "6780",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "131886",
       "auxiliaryFile": [
         "143073",
@@ -59,7 +62,10 @@
       "name": "Teilsanierung der 107. Mittelschule, Hepkestraße 26 in 01309 Dresden",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6863",
+      "consultation": {
+        "parentID": "6863",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "131887",
       "auxiliaryFile": [
         "144037",

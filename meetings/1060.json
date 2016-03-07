@@ -1,11 +1,11 @@
 {
   "shortName": "UK/025/2011",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "25. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "13"
+  ],
   "start": "2011-03-07T16:30:00+01:00",
   "end": "2011-03-07T19:00:00+01:00",
   "auxiliaryFile": [
@@ -19,7 +19,10 @@
       "name": "Maßnahmen zur Reduktion von Luftschadstoffen in der Königsbrücker Straße",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3037",
+      "consultation": {
+        "parentID": "3037",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "44792"
       ]
@@ -28,7 +31,10 @@
       "name": "Folgen des Energiekonzepts der Bundesregierung für die Landeshauptstadt Dresden und die DREWAG",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3402",
+      "consultation": {
+        "parentID": "3402",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "57193",
       "auxiliaryFile": [
         "52192",

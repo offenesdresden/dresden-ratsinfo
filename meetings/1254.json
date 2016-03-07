@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Alt/018/2011",
-  "organization": [
-    "Ortsbeirat Altstadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "18. Sitzung des Ortsbeirates Altstadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "8"
+  ],
   "start": "2011-03-17T17:30:00+01:00",
   "end": "2011-03-17T19:00:00+01:00",
   "resultsProtocol": "61690",
@@ -30,7 +30,10 @@
       "name": "Neumarkt Dresden - Wiederaufbau Hotel Stadt Rom prüfen",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3581",
+      "consultation": {
+        "parentID": "3581",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61690",
       "auxiliaryFile": [
         "54778"
@@ -45,7 +48,10 @@
       "name": "Brachfläche gegenüber der Frauenkirche aufwerten - Erscheinungsbild des Quartiers VI am Neumarkt verbessern",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3590",
+      "consultation": {
+        "parentID": "3590",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "57405",
       "auxiliaryFile": [
         "54837"
@@ -55,7 +61,10 @@
       "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes (INSEK 2002)",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3388",
+      "consultation": {
+        "parentID": "3388",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "63656",
       "auxiliaryFile": [
         "57703",

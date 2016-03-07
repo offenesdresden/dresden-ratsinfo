@@ -1,11 +1,11 @@
 {
   "shortName": "KT/019/2016",
-  "organization": [
-    "Ausschuss für Kultur und Tourismus"
-  ],
   "locality": "im Großen Saal des Festspielhauses Hellerau, Karl-Liebknecht-Str. 56\n01109 Dresden",
   "name": "19. Sitzung des Ausschusses für Kultur und Tourismus",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "152"
+  ],
   "start": "2016-03-01T16:00:00+01:00",
   "end": "2016-03-01T18:35:00+01:00",
   "resultsProtocol": "244224",
@@ -21,7 +21,10 @@
       "name": "Förderung von Großveranstaltungen 2016",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11645",
+      "consultation": {
+        "parentID": "11645",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244224",
       "auxiliaryFile": [
         "240184",

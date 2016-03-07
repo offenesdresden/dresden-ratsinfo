@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/036/2013",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Klotzsche, Bürgersaal,\nKieler Straße 52, 01109 Dresden",
   "name": "36. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2013-04-15T19:00:00+02:00",
   "end": "2013-04-15T20:10:00+02:00",
   "auxiliaryFile": [
@@ -24,7 +24,10 @@
       "name": "Sicherung des Gewerbestandorts am Augustusweg unter Beachtung naturschutzfachlicher Aspekte",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6871",
+      "consultation": {
+        "parentID": "6871",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "125601",
         "154283",

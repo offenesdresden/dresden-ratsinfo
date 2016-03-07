@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/007/2015",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "7. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2015-06-10T17:30:00+02:00",
   "end": "2015-06-10T19:15:00+02:00",
   "resultsProtocol": "215678",
@@ -34,7 +34,10 @@
       "name": "Vorgaben der Landeshauptstadt Dresden für die anstehende Neukonzessionierung der Straßenbahn- und Buslinien sowie einer Direktvergabe an die Dresdner Verkehrsbetriebe (DVB) AG",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9741",
+      "consultation": {
+        "parentID": "9741",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "215678",
       "auxiliaryFile": [
         "207531",

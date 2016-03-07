@@ -1,11 +1,11 @@
 {
   "shortName": "SG/027/2011",
-  "organization": [
-    "Ausschuss für Soziales, Gesundheit und Wohnen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "27. Sitzung des Ausschusses für Soziales, Gesundheit und Wohnen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "18"
+  ],
   "start": "2011-06-09T16:00:00+02:00",
   "end": "2011-06-09T17:55:00+02:00",
   "auxiliaryFile": [
@@ -17,7 +17,10 @@
       "name": "Geriatrie-Konzept für die Stadt Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2041",
+      "consultation": {
+        "parentID": "2041",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "76872"
       ],

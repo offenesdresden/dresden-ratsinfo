@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pro/033/2013",
-  "organization": [
-    "Ortsbeirat Prohlis"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Prohlis, Bürgersaal,\nProhliser Allee 10, 01239 Dresden",
   "name": "33. Sitzung des Ortsbeirates Prohlis",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "41"
+  ],
   "start": "2013-05-13T17:00:00+02:00",
   "end": "2013-05-13T19:20:00+02:00",
   "auxiliaryFile": [
@@ -35,7 +35,10 @@
       "name": "Beratung über die Durchführung einer Einwohnerversammlung zur geplanten Straßenbahnverbindung Tiergartenstraße - Oskarstraße und zur Umgestaltung der Oskarstraße/Wasaplatz",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6927",
+      "consultation": {
+        "parentID": "6927",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127469",
         "146850",
@@ -48,7 +51,10 @@
       "name": "Gründung des Gymnasiums Dresden-Prohlis",
       "number": "3 Nachtrag: 06.05.2013 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6953",
+      "consultation": {
+        "parentID": "6953",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "138574",
       "auxiliaryFile": [
         "242350",

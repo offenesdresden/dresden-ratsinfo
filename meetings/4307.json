@@ -1,11 +1,11 @@
 {
   "shortName": "FL/SE/013/2015",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "13. Sitzung des Ausschusses für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "129"
+  ],
   "start": "2015-09-14T16:00:00+02:00",
   "end": "2015-09-14T19:40:00+02:00",
   "resultsProtocol": "222648",
@@ -33,7 +33,10 @@
       "name": "Überplanmäßige Bereitstellung von Verpflichtungsermächtigungen im Regiebetrieb Zentrale Technische Dienstleistungen mit Bereitstellung aus dem Schulverwaltungsamt",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9961",
+      "consultation": {
+        "parentID": "9961",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "222648",
       "auxiliaryFile": [
         "229295",
@@ -47,7 +50,10 @@
       "name": "Verkauf eines Grundstückes in Dresden-Neustadt",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9932",
+      "consultation": {
+        "parentID": "9932",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "226751",
       "auxiliaryFile": [
         "231153",

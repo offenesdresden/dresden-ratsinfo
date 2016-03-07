@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/014/2011",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal,\nBürgerstraße 63, 01127 Dresden",
   "name": "14. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2011-02-08T18:00:00+01:00",
   "end": "2011-02-08T19:10:00+01:00",
   "auxiliaryFile": [
@@ -31,7 +31,10 @@
       "name": "Wiedereinrichtung der Fährverbindung zwischen Gohlis und Kaditz",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3335",
+      "consultation": {
+        "parentID": "3335",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "52496"
       ]

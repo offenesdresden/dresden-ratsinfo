@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/019/2016",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "19. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2016-03-14T17:30:00+01:00",
   "auxiliaryFile": [
     "241009",
@@ -41,7 +41,10 @@
       "name": "Bebauungsplan Nr. 206, Dresden-Neustadt Nr. 24, Leipziger Vorstadt/Alter Schlachthof\n\nhier:\nAufhebung des Aufstellungsbeschlusses zum Bebauungsplan",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11866",
+      "consultation": {
+        "parentID": "11866",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "241009",
         "240589",
@@ -54,7 +57,10 @@
       "name": "Satzung BID Barockviertel Dresden",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10235",
+      "consultation": {
+        "parentID": "10235",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "240992",
         "240586",
@@ -73,7 +79,10 @@
       "name": "Verordnung über die Aufhebung der Polizeiverordnung über das Verbot der Alkoholabgabe an jedermann über die Straße durch Schank- und Speisewirtschaften in der Äußeren Neustadt",
       "number": "2.3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11796",
+      "consultation": {
+        "parentID": "11796",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "234849"
       ]

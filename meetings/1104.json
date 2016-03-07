@@ -1,11 +1,11 @@
 {
   "shortName": "SP/022/2011",
-  "organization": [
-    "Betriebsausschuss für Sportstätten und Bäder"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "22. Sitzung des Betriebsausschusses für Sportstätten und Bäder",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "16"
+  ],
   "start": "2011-05-05T16:00:00+02:00",
   "end": "2011-05-05T19:00:00+02:00",
   "resultsProtocol": "62932",
@@ -18,7 +18,10 @@
       "name": "Erhalt Sportanlage Eibenstocker Straße 1",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3414",
+      "consultation": {
+        "parentID": "3414",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "62932",
       "auxiliaryFile": [
         "52604",

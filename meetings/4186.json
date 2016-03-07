@@ -1,11 +1,11 @@
 {
   "shortName": "OSR GP/013/2015",
-  "organization": [
-    "Ortschaftsrat Gompitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Gemeindezentrum Gompitz, Gemeindesaal,\nAltnossener Straße 46 a, 01156 Dresden, OT Pennrich",
   "name": "13. Sitzung des Ortschaftsrates Gompitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "9"
+  ],
   "start": "2015-09-07T19:30:00+02:00",
   "end": "2015-09-07T20:50:00+02:00",
   "auxiliaryFile": [
@@ -23,7 +23,10 @@
       "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10239",
+      "consultation": {
+        "parentID": "10239",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "215210",
         "244117"

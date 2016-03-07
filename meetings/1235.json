@@ -1,11 +1,11 @@
 {
   "shortName": "AB/018/2011",
-  "organization": [
-    "Ausländerbeirat"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Altstadt, 3. Etage, Raum 339,\nTheaterstraße 11, 01067 Dresden",
   "name": "18. Sitzung des Ausländerbeirates",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "19"
+  ],
   "start": "2011-12-07T19:00:00+01:00",
   "end": "2011-12-07T22:15:00+01:00",
   "resultsProtocol": "84045",
@@ -21,7 +21,10 @@
       "name": "Gleichberechtigter Zugang zum Bildungspaket für junge Menschen nach § 3 Asylbewerberleistungsgesetz (AsylbLG)",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5050",
+      "consultation": {
+        "parentID": "5050",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "84045",
       "auxiliaryFile": [
         "81395",

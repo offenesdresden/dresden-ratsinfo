@@ -1,11 +1,11 @@
 {
   "shortName": "OSR GP/011/2015",
-  "organization": [
-    "Ortschaftsrat Gompitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Gemeindezentrum Gompitz, Gemeindesaal,\nAltnossener Straße 46 a, 01156 Dresden, OT Pennrich",
   "name": "11. Sitzung des Ortschaftsrates Gompitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "9"
+  ],
   "start": "2015-06-01T19:30:00+02:00",
   "end": "2015-06-01T21:50:00+02:00",
   "auxiliaryFile": [
@@ -47,7 +47,10 @@
       "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9668",
+      "consultation": {
+        "parentID": "9668",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "199997",
         "232126"
@@ -68,7 +71,10 @@
       "name": "Vorgaben der Landeshauptstadt Dresden für die anstehende Neukonzessionierung der Straßenbahn- und Buslinien sowie einer Direktvergabe an die Dresdner Verkehrsbetriebe (DVB) AG",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9741",
+      "consultation": {
+        "parentID": "9741",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "215678",
       "auxiliaryFile": [
         "207531",

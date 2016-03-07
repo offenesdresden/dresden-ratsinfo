@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/002/2014",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf/Langebrück, Zweitstandort Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Langebrück",
   "name": "2. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2014-11-04T18:30:00+01:00",
   "end": "2014-11-04T22:38:00+01:00",
   "resultsProtocol": "190728",
@@ -90,7 +90,10 @@
       "name": "Haushaltssatzung 2015/2016",
       "number": "13",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8835",
+      "consultation": {
+        "parentID": "8835",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "190728",
       "auxiliaryFile": [
         "190166",

@@ -1,11 +1,11 @@
 {
   "shortName": "FL/044/2011",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "44. Sitzung des Ausschusses für Finanzen und Liegenschaften (Sondersitzung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2011-07-11T16:00:00+02:00",
   "end": "2011-07-11T19:00:00+02:00",
   "auxiliaryFile": [
@@ -18,7 +18,10 @@
       "name": "Verlängerung der Werbeverträge Ströer City-Marketing GmbH und JCDecaux International S.A.",
       "number": "1 Nachtrag: 11.07.2011 Nummer 1 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4090",
+      "consultation": {
+        "parentID": "4090",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "69224",
         "121005"

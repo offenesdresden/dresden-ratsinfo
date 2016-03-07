@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Alt/013/2010",
-  "organization": [
-    "Ortsbeirat Altstadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "13. Sitzung des Ortsbeirates Altstadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "8"
+  ],
   "start": "2010-10-12T17:30:00+02:00",
   "end": "2010-10-12T18:30:00+02:00",
   "auxiliaryFile": [
@@ -25,7 +25,10 @@
       "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2112",
+      "consultation": {
+        "parentID": "2112",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "31143"
       ]
@@ -34,7 +37,10 @@
       "name": "Änderung der Satzung der Landeshauptstadt Dresden über Erlaubnisse und Gebühren für Sondernutzungen der öffentlichen Straßen in Dresden (Sondernutzungssatzung)",
       "number": "1.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2216",
+      "consultation": {
+        "parentID": "2216",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "58912",
       "auxiliaryFile": [
         "33287",
@@ -45,7 +51,10 @@
       "name": "Skulpturenpaar \"Undine kommt\" und \"Undine geht\" von Angela Hampel",
       "number": "1.3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2591",
+      "consultation": {
+        "parentID": "2591",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "38090"
       ]

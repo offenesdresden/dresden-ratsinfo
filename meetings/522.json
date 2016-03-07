@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/016/2010",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "16. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2010-12-07T18:00:00+01:00",
   "end": "2010-12-07T19:20:00+01:00",
   "resultsProtocol": "61082",
@@ -57,7 +57,10 @@
       "name": "Optimierung der Struktur und der Dienstleistungsqualität des Bürgerservice in der Landeshauptstadt Dresden",
       "number": "8",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2884",
+      "consultation": {
+        "parentID": "2884",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61082",
       "auxiliaryFile": [
         "48114",

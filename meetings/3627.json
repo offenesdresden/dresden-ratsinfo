@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/040/2014",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "40. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2014-01-22T17:30:00+01:00",
   "end": "2014-01-22T19:45:00+01:00",
   "auxiliaryFile": [
@@ -37,7 +37,10 @@
       "name": "Außenbereichssatzung Nr. 442, Dresden-Bühlau Nr. 2, Quohrener Straße/Am Stallteich",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7909",
+      "consultation": {
+        "parentID": "7909",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "160570",
         "155198",
@@ -52,7 +55,10 @@
       "name": "Namensgebung der 88. Oberschule, Dresdner Straße 50 in 01326 Dresden",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7821",
+      "consultation": {
+        "parentID": "7821",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "159529",
       "auxiliaryFile": [
         "154290",

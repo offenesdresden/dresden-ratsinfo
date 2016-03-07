@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pi/003/2009",
-  "organization": [
-    "Ortsbeirat Pieschen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Rathaus Pieschen, Bürgersaal\nBürgerstraße 63, 01127 Dresden",
   "name": "3. Sitzung des Ortsbeirates Pieschen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "40"
+  ],
   "start": "2009-12-15T18:00:00+01:00",
   "end": "2009-12-15T19:00:00+01:00",
   "auxiliaryFile": [
@@ -33,7 +33,10 @@
       "name": "Bebauungsplan Nr. 359, Dresden-Trachenberge Nr. 1, Döbelner Straße/Weinbergstraße\nhier: \t1. Aufstellungsbeschluss Bebauungsplan\n\t2. Grenzen des Bebauungsplan",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "984",
+      "consultation": {
+        "parentID": "984",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "14957",
         "14438",

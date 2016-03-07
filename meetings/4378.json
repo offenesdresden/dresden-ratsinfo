@@ -1,11 +1,11 @@
 {
   "shortName": "UK/FH/009/2015",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofswesen)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "9. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofswesen)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "130"
+  ],
   "start": "2015-06-01T16:30:00+02:00",
   "end": "2015-06-01T17:30:00+02:00",
   "resultsProtocol": "211068",
@@ -24,7 +24,10 @@
       "name": "Teilgebiets-Lärmaktionsplan Äußere Neustadt",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8629",
+      "consultation": {
+        "parentID": "8629",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "211068",
       "auxiliaryFile": [
         "211066",

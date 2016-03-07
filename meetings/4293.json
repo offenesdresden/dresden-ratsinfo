@@ -1,11 +1,11 @@
 {
   "shortName": "FL/SE/004/2015",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung)"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "4. Sitzung des Ausschusses für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung)",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "129"
+  ],
   "start": "2015-01-12T16:00:00+01:00",
   "end": "2015-01-12T18:50:00+01:00",
   "resultsProtocol": "192919",
@@ -27,7 +27,10 @@
       "name": "Verkauf des Grundstückes Bramschstraße",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9010",
+      "consultation": {
+        "parentID": "9010",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "192919",
       "auxiliaryFile": [
         "203324",
@@ -41,7 +44,10 @@
       "name": "Beleuchtung Kuppelhalle Neues Rathaus",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8570",
+      "consultation": {
+        "parentID": "8570",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "172082",
         "180217",

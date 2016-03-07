@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/010/2015",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Klotzsche, Bürgersaal,\nKieler Straße 52, 01109 Dresden",
   "name": "10. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2015-07-06T18:30:00+02:00",
   "end": "2015-07-06T20:12:00+02:00",
   "auxiliaryFile": [
@@ -42,7 +42,10 @@
       "name": "Erster Sachstandsbericht zur Fortschreibung der Sportentwicklungsplanung (FoSep 2025)",
       "number": "6.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9718",
+      "consultation": {
+        "parentID": "9718",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "207533",
         "207102",

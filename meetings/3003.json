@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/052/2013",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Dresden OT Langebrück",
   "name": "52. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2013-05-28T18:45:00+02:00",
   "end": "2013-05-28T22:00:00+02:00",
   "auxiliaryFile": [
@@ -81,7 +81,10 @@
       "name": "Bürgerbeteiligung stärken Â Einrichtung einer Plattform für E-Petitionen auf der Stadt-Website",
       "number": "10",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7019",
+      "consultation": {
+        "parentID": "7019",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "129669",
         "176192",
@@ -98,7 +101,10 @@
       "name": "Änderung der Wahlwerbesatzung",
       "number": "11",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6941",
+      "consultation": {
+        "parentID": "6941",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127963",
         "142841"
@@ -109,7 +115,10 @@
       "name": "Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
       "number": "12",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6948",
+      "consultation": {
+        "parentID": "6948",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127995",
         "211033",

@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/053/2014",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Kulturrathaus, Clara-Schumann-Saal, 1. Etage,\nKönigstraße 15, 01097 Dresden",
   "name": "53. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2014-04-03T18:00:00+02:00",
   "end": "2014-04-03T20:00:00+02:00",
   "resultsProtocol": "170984",
@@ -42,7 +42,10 @@
       "name": "Satzung der Landeshauptstadt Dresden über die Erhebung von Elternbeiträgen (Elternbeitragssatzung)",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7724",
+      "consultation": {
+        "parentID": "7724",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "170984",
       "auxiliaryFile": [
         "173165",

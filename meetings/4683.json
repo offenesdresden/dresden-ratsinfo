@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/008/2015",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "8. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2015-03-16T19:31:00+01:00",
   "end": "2015-03-16T21:57:00+01:00",
   "auxiliaryFile": [
@@ -64,7 +64,10 @@
       "name": "Satzung über die Bereitstellung, Benutzung und Betreibung von Unterbringungseinrichtungen für Asylbewerber sowie Flüchtlinge nach § 3 SächsFlüAG",
       "number": "8",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9415",
+      "consultation": {
+        "parentID": "9415",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "193874"
       ]
@@ -78,7 +81,10 @@
       "name": "Konzept zur Integration von Menschen mit Migrationshintergrund in der Landeshauptstadt Dresden (Integrationskonzept 2015 - 2020)\nHinweis: Diese Unterlagen wurden bereits zugestellt!",
       "number": "9",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9226",
+      "consultation": {
+        "parentID": "9226",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "210054",
       "auxiliaryFile": [
         "217530",

@@ -1,11 +1,11 @@
 {
   "shortName": "FL/002/2009",
-  "organization": [
-    "Ausschuss für Finanzen und Liegenschaften"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "2. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "3"
+  ],
   "start": "2009-09-21T16:00:00+02:00",
   "end": "2009-09-21T18:10:00+02:00",
   "auxiliaryFile": [
@@ -25,7 +25,10 @@
       "name": "Veränderungen im Verwaltungs- und Vermögenshaushalt für die Teilnahme der Landeshauptstadt Dresden am Programm \"Lernen vor Ort\" - gemeinsame Initiative des Bundesministeriums für Bildung und Forschung mit deutschen Stiftungen",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "412",
+      "consultation": {
+        "parentID": "412",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "6756",
         "5860",
@@ -39,7 +42,10 @@
       "name": "Durchführungsbeschluss zur Einführung des Bundesprogramms \"Kommunal-Kombi\" in der Landeshauptstadt Dresden (LH Dresden)",
       "number": "8 Nachtrag: 21.09.2009 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "220",
+      "consultation": {
+        "parentID": "220",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "7027",
         "6509",

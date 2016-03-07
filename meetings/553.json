@@ -1,11 +1,11 @@
 {
   "shortName": "SP/006/2010",
-  "organization": [
-    "Betriebsausschuss für Sportstätten und Bäder"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "6. Sitzung des Betriebsausschusses für Sportstätten und Bäder",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "16"
+  ],
   "start": "2010-02-18T16:00:00+01:00",
   "end": "2010-02-18T18:00:00+01:00",
   "auxiliaryFile": [
@@ -16,7 +16,10 @@
       "name": "Rankingliste - Tennenplätze",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1270",
+      "consultation": {
+        "parentID": "1270",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "18731"
       ]

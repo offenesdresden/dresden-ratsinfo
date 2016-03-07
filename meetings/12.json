@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/002/2009",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Gymnasium Klotzsche\nKarl-Marx-Straße 44, 01109 Dresden",
   "name": "2. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2009-11-02T19:00:00+01:00",
   "end": "2009-11-02T20:45:00+01:00",
   "auxiliaryFile": [
@@ -35,7 +35,10 @@
       "name": "Bebauungsplan Nr. 356, Dresden-Klotzsche Nr. 13, Traubelstraße\n\nhier:\t1. Aufstellungsbeschluss Bebauungsplan\n\t2. Grenzen des Bebauungsplanes",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "707",
+      "consultation": {
+        "parentID": "707",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "10184",
         "9909",
@@ -46,7 +49,10 @@
       "name": "Verbesserung des touristischen Leitsystems für Hellerau",
       "number": "3.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "165",
+      "consultation": {
+        "parentID": "165",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3291",
         "3295"

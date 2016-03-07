@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/016/2010",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Beratungsraum der Verwaltungsstelle Langebrück,\nWeißiger Str. 5\n01465 Dresden OT Langebrück",
   "name": "16. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2010-10-30T10:00:00+02:00",
   "end": "2010-10-30T16:40:00+02:00",
   "resultsProtocol": "61082",
@@ -97,7 +97,10 @@
       "name": "Optimierung der Struktur und der Dienstleistungsqualität des Bürgerservice in der Landeshauptstadt Dresden",
       "number": "16",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2884",
+      "consultation": {
+        "parentID": "2884",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61082",
       "auxiliaryFile": [
         "48114",

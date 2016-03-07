@@ -1,11 +1,11 @@
 {
   "shortName": "SW/001/2014",
-  "organization": [
-    "Ausschuss für Soziales und Wohnen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "1. Sitzung des Ausschusses für Soziales und Wohnen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "134"
+  ],
   "start": "2014-11-04T16:00:00+01:00",
   "end": "2014-11-04T18:00:00+01:00",
   "auxiliaryFile": [
@@ -27,7 +27,10 @@
       "name": "Qualifizierung der Beschlussvorlage zum Rahmenkonzept Wohnen",
       "number": "",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8756",
+      "consultation": {
+        "parentID": "8756",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "183381",
         "182743",

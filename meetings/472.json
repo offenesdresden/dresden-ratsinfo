@@ -1,11 +1,11 @@
 {
   "shortName": "OSR AF/010/2010",
-  "organization": [
-    "Ortschaftsrat Altfranken"
-  ],
   "locality": "Ortschaftszentrum Altfranken\nOtto-Harzer-Str. 2 b, Sitzungssaal\n01156 Dresden",
   "name": "10. Sitzung des Ortschaftsrates Altfranken",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "49"
+  ],
   "start": "2010-05-10T19:00:00+02:00",
   "end": "2010-05-10T20:30:00+02:00",
   "auxiliaryFile": [
@@ -32,7 +32,10 @@
       "name": "Plan Hochwasservorsorge Dresden (PHD) - Plan zur Verbesserung der Hochwasservorsorge in der Landeshauptstadt Dresden für die Elbe, die Vereinigte Weißeritz, den Lockwitzbach, die Gewässer zweiter Ordnung, das Grundwasser sowie das abwassertechnischeSystem",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1376",
+      "consultation": {
+        "parentID": "1376",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "27201",
         "149724",

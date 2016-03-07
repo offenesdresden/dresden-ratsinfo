@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pro/019/2011",
-  "organization": [
-    "Ortsbeirat Prohlis"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Prohlis, Bürgersaal,\nProhliser Allee 10, 01239 Dresden",
   "name": "19. Sitzung des Ortsbeirates Prohlis",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "41"
+  ],
   "start": "2011-11-07T17:00:00+01:00",
   "end": "2011-11-07T20:02:00+01:00",
   "resultsProtocol": "84019",
@@ -35,7 +35,10 @@
       "name": "Gesamtsanierung und Erweiterung der 90. Grundschule, Kleinlugaer Straße 25, 01259 Dresden, mit Neubau einer integrierten Einfeldsporthalle",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4665",
+      "consultation": {
+        "parentID": "4665",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "84019",
       "auxiliaryFile": [
         "123310",
@@ -52,7 +55,10 @@
       "name": "Prüfauftrag -Tempo 30 im Lockwitzgrund",
       "number": "4 Nachtrag: 27.10.2011 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "4964",
+      "consultation": {
+        "parentID": "4964",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "76487"
       ]

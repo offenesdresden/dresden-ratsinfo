@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Co/038/2013",
-  "organization": [
-    "Ortsbeirat Cotta"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,\nLübecker Straße 121, 01157 Dresden",
   "name": "38. Sitzung des Ortsbeirates Cotta",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "37"
+  ],
   "start": "2013-11-14T18:00:00+01:00",
   "end": "2013-11-14T20:50:00+01:00",
   "auxiliaryFile": [
@@ -33,7 +33,10 @@
       "name": "KREATIVES DRESDEN - Räume für die Kreativwirtschaft",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7566",
+      "consultation": {
+        "parentID": "7566",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "143203",
         "180092",
@@ -45,7 +48,10 @@
       "name": "Einführung der Ortschaftsverfassung für das gesamte Stadtgebiet Dresdens",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7669",
+      "consultation": {
+        "parentID": "7669",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "146072",
         "244116",

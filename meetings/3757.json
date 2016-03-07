@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SW/002/2014",
-  "organization": [
-    "Ortschaftsrat Schönfeld-Weißig"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,\nBautzner Landstraße 291, 01328 Dresden",
   "name": "2. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "48"
+  ],
   "start": "2014-10-13T19:35:00+02:00",
   "end": "2014-10-13T20:54:00+02:00",
   "auxiliaryFile": [
@@ -60,7 +60,10 @@
       "name": "Bebauungsplan Nr. 3003, Dresden-Schullwitz Nr. 3, Aspichring\n\nhier:\n1. Aufstellungsbeschluss Bebauungsplan\n2. Grenzen des räumlichen Geltungsbereichs des Bebauungsplanes\n3. Entfallen des frühzeitigen Beteiligungsverfahrens",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8852",
+      "consultation": {
+        "parentID": "8852",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "196937",
         "179801",
@@ -73,7 +76,10 @@
       "name": "Haushaltssatzung 2015/2016",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8835",
+      "consultation": {
+        "parentID": "8835",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "190728",
       "auxiliaryFile": [
         "190166",

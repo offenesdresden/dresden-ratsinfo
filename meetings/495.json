@@ -1,11 +1,11 @@
 {
   "shortName": "OSR WX/010/2010",
-  "organization": [
-    "Ortschaftsrat Weixdorf"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf, Sitzungssaal,\nWeixdorfer Rathausplatz 2, 01108 Dresden",
   "name": "10. Sitzung des Ortschaftsrates Weixdorf",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "47"
+  ],
   "start": "2010-06-21T19:00:00+02:00",
   "end": "2010-06-21T21:00:00+02:00",
   "auxiliaryFile": [
@@ -31,7 +31,10 @@
       "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
       "number": "4 Nachtrag: 17.06.2010 *",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2112",
+      "consultation": {
+        "parentID": "2112",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "31143"
       ]

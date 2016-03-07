@@ -1,11 +1,11 @@
 {
   "shortName": "OSR GP/009/2015",
-  "organization": [
-    "Ortschaftsrat Gompitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Gemeindezentrum Gompitz, Gemeindesaal,\nAltnossener Straße 46 a, 01156 Dresden, OT Pennrich",
   "name": "9. Sitzung des Ortschaftsrates Gompitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "9"
+  ],
   "start": "2015-04-13T19:30:00+02:00",
   "end": "2015-04-13T22:15:00+02:00",
   "resultsProtocol": "229705",
@@ -68,7 +68,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2015/2016",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9416",
+      "consultation": {
+        "parentID": "9416",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "229705",
       "auxiliaryFile": [
         "241557",
@@ -105,7 +108,10 @@
       "name": "Neufassung der Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
       "number": "6.1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9009",
+      "consultation": {
+        "parentID": "9009",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "201298",
         "200750",

@@ -1,11 +1,11 @@
 {
   "shortName": "SB/001/2009",
-  "organization": [
-    "Ausschuss für Stadtentwicklung und Bau"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Technischen Rathaus, Beratungsraum, 4. Etage, Raum 4014\nHamburger Straße 19, 01067 Dresden",
   "name": "1. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "11"
+  ],
   "start": "2009-08-26T16:00:00+02:00",
   "end": "2009-08-26T18:00:00+02:00",
   "auxiliaryFile": [
@@ -20,7 +20,10 @@
       "name": "Vorhabenbezogener Bebauungsplan Nr. 690, Dresden-Nickern, Ansiedlung Bauhaus-Baumakrt\nhier:\n1.\tAufstellungsbeschluss vorhabenbezogener Bebauungsplan\n2.\tGrenzen des vorhabenbezogenen Bebauungsplans",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "207",
+      "consultation": {
+        "parentID": "207",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3671"
       ]
@@ -29,7 +32,10 @@
       "name": "Online-Kinder- und Jugendstadtplan der Landeshauptstadt Dresden",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "154",
+      "consultation": {
+        "parentID": "154",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3166",
         "3170"
@@ -39,7 +45,10 @@
       "name": "Verbesserung der Einkaufsmöglichkeiten in der Radeberger Vorstadt",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "159",
+      "consultation": {
+        "parentID": "159",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "3220",
         "3224"

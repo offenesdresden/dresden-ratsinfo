@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/037/2012",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Dresden OT Langebrück",
   "name": "37. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2012-05-22T18:30:00+02:00",
   "end": "2012-05-22T22:15:00+02:00",
   "auxiliaryFile": [
@@ -45,7 +45,10 @@
       "name": "Patenschaften für Baumscheiben",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5633",
+      "consultation": {
+        "parentID": "5633",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92834",
         "92828"
@@ -56,7 +59,10 @@
       "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5634",
+      "consultation": {
+        "parentID": "5634",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92885"
       ],

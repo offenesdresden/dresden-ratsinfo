@@ -1,11 +1,11 @@
 {
   "shortName": "OSR OW/033/2012",
-  "organization": [
-    "Ortschaftsrat Oberwartha"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Ortschaft Oberwartha, Versammlungsraum,\nMax-Schwan-Straße 4, 01156 Dresden",
   "name": "33. Sitzung des Ortschaftsrates Oberwartha",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "52"
+  ],
   "start": "2012-05-24T18:30:00+02:00",
   "end": "2012-05-24T21:00:00+02:00",
   "auxiliaryFile": [
@@ -33,7 +33,10 @@
       "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5639",
+      "consultation": {
+        "parentID": "5639",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92888",
         "112253"
@@ -54,7 +57,10 @@
       "name": "Patenschaften für Baumscheiben",
       "number": "6.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5633",
+      "consultation": {
+        "parentID": "5633",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92834",
         "92828"
@@ -65,7 +71,10 @@
       "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
       "number": "6.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5634",
+      "consultation": {
+        "parentID": "5634",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "92885"
       ],

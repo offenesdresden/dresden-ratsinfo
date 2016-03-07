@@ -1,11 +1,11 @@
 {
   "shortName": "UK/026/2011",
-  "organization": [
-    "Ausschuss für Umwelt und Kommunalwirtschaft"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "26. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "13"
+  ],
   "start": "2011-03-28T16:00:00+02:00",
   "end": "2011-03-28T19:55:00+02:00",
   "auxiliaryFile": [
@@ -17,7 +17,10 @@
       "name": "Maßnahmen zur Reduktion von Luftschadstoffen in der Königsbrücker Straße",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3791",
+      "consultation": {
+        "parentID": "3791",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "57712"
       ]
@@ -26,7 +29,10 @@
       "name": "Entwicklung von Handlungszielen aus der Unterzeichnung der City Climate Conference Hamburg 2009",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1718",
+      "consultation": {
+        "parentID": "1718",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "65710"
     },
     {

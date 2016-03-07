@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/002/2014",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "2. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2014-12-17T17:30:00+01:00",
   "end": "2014-12-17T20:00:00+01:00",
   "auxiliaryFile": [
@@ -39,7 +39,10 @@
       "name": "Verkehrsbaumaßnahme Knotenpunkt Marienberger Straße/Altenberger Straße",
       "number": "4.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8785",
+      "consultation": {
+        "parentID": "8785",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "180833",
         "180394",

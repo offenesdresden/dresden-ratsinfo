@@ -1,11 +1,11 @@
 {
   "shortName": "OSR AF/006/2015",
-  "organization": [
-    "Ortschaftsrat Altfranken"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortschaftszentrum Altfranken, Sitzungssaal,\nOtto-Harzer-Straße 2 b, 01156 Dresden",
   "name": "6. Sitzung des Ortschaftsrates Altfranken",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "49"
+  ],
   "start": "2015-02-09T19:30:00+01:00",
   "end": "2015-02-09T21:15:00+01:00",
   "resultsProtocol": "210054",
@@ -43,7 +43,10 @@
       "name": "Konzept zur Integration von Menschen mit Migrationshintergrund in der Landeshauptstadt Dresden (Integrationskonzept 2015 - 2020)",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9226",
+      "consultation": {
+        "parentID": "9226",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "210054",
       "auxiliaryFile": [
         "217530",
@@ -59,7 +62,10 @@
       "name": "Zweite Fortschreibung Spielplatzentwicklungskonzeption",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9052",
+      "consultation": {
+        "parentID": "9052",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "207503",
       "auxiliaryFile": [
         "234249",

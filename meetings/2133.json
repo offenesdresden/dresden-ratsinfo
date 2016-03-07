@@ -1,11 +1,11 @@
 {
   "shortName": "OSR OW/031/2012",
-  "organization": [
-    "Ortschaftsrat Oberwartha"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Ortschaft Oberwartha, Versammlungsraum,\nMax-Schwan-Straße 4, 01156 Dresden",
   "name": "31. Sitzung des Ortschaftsrates Oberwartha",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "52"
+  ],
   "start": "2012-03-15T18:30:00+01:00",
   "end": "2012-03-15T20:15:00+01:00",
   "resultsProtocol": "104879",
@@ -53,7 +53,10 @@
       "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5506",
+      "consultation": {
+        "parentID": "5506",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "104879",
       "auxiliaryFile": [
         "206796",
@@ -82,7 +85,10 @@
       "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5186",
+      "consultation": {
+        "parentID": "5186",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "82335"
       ],

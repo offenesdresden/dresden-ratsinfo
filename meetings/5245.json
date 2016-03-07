@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/016/2016",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Klotzsche, Bürgersaal,\nKieler Straße 52, 01109 Dresden",
   "name": "16. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2016-02-08T18:30:00+01:00",
   "end": "2016-02-08T20:15:00+01:00",
   "auxiliaryFile": [
@@ -31,7 +31,10 @@
       "name": "Grundhafter Ausbau der Stauffenbergallee (West) im Abschnitt zwischen Königsbrücker Straße und Radeburger Straße",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "11732",
+      "consultation": {
+        "parentID": "11732",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "236792",
         "236507",

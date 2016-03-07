@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/042/2012",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Langebrück, Beratungsraum,\nWeißiger Straße 5, 01465 Dresden OT Langebrück",
   "name": "42. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2012-10-09T18:31:00+02:00",
   "end": "2012-10-09T20:55:00+02:00",
   "resultsProtocol": "120306",
@@ -43,7 +43,10 @@
       "name": "Haushaltssatzung 2013/2014",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6310",
+      "consultation": {
+        "parentID": "6310",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "120306",
       "auxiliaryFile": [
         "123358",
@@ -57,7 +60,10 @@
       "name": "Weitere Anwendung der Gehölzschutzsatzung vom 16. Juni 1995 bei kommunalen Vorhaben",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5945",
+      "consultation": {
+        "parentID": "5945",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "100850"
       ],

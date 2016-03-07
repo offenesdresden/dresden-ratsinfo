@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Bl/011/2015",
-  "organization": [
-    "Ortsbeirat Blasewitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Blasewitz, Ratssaal,\nNaumannstraße 5, 01309 Dresden",
   "name": "11. Sitzung des Ortsbeirates Blasewitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "39"
+  ],
   "start": "2015-10-28T17:30:00+01:00",
   "end": "2015-10-28T19:30:00+01:00",
   "resultsProtocol": "244172",
@@ -39,7 +39,10 @@
       "name": "Grundhafte Instandsetzung einschließlich kompletter Erneuerung des Farbanstriches des Blauen Wunders",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10280",
+      "consultation": {
+        "parentID": "10280",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "244172",
       "auxiliaryFile": [
         "221815",
@@ -53,7 +56,10 @@
       "name": "Bebauungsplan Nr. 398.B, Dresden-Reick/Strehlen, Wissenschaftsstandort Dresden-Ost, Teilbereich 1.B\n\nhier:\n1. Aufstellungsbeschluss Bebauungsplan\n2. Grenzen des räumlichen Geltungsbereichs des Bebauungsplanes",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10185",
+      "consultation": {
+        "parentID": "10185",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "234570",
       "auxiliaryFile": [
         "218702",

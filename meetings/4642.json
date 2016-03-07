@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/011/2015",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Klotzsche, Bürgersaal,\nKieler Straße 52, 01109 Dresden",
   "name": "11. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2015-09-07T18:30:00+02:00",
   "end": "2015-09-07T20:51:00+02:00",
   "resultsProtocol": "225601",
@@ -34,7 +34,10 @@
       "name": "Sanierung und Erweiterung der 82. Oberschule \"Am Flughafen\" Korolenkostraße 6 in 01109 Dresden mit Neubau einer Einfeldschulsporthalle, Sanierung der denkmalgeschützten Bestandssporthalle sowie Neugestaltung der Freianlagen.",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10298",
+      "consultation": {
+        "parentID": "10298",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "225601",
       "auxiliaryFile": [
         "243277",
@@ -48,7 +51,10 @@
       "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10239",
+      "consultation": {
+        "parentID": "10239",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "215210",
         "244117"

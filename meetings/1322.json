@@ -1,11 +1,11 @@
 {
   "shortName": "OSR OW/021/2011",
-  "organization": [
-    "Ortschaftsrat Oberwartha"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Ortschaft Oberwartha, Versammlungsraum,\nMax-Schwan-Straße 4, 01156 Dresden",
   "name": "21. Sitzung des Ortschaftsrates Oberwartha",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "52"
+  ],
   "start": "2011-04-21T18:30:00+02:00",
   "end": "2011-04-21T21:15:00+02:00",
   "auxiliaryFile": [
@@ -32,7 +32,10 @@
       "name": "Finanzmittel für Bank am Friedensplatz",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3971",
+      "consultation": {
+        "parentID": "3971",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "60562"
       ]
@@ -41,7 +44,10 @@
       "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes (INSEK 2002)",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3388",
+      "consultation": {
+        "parentID": "3388",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "63656",
       "auxiliaryFile": [
         "57703",

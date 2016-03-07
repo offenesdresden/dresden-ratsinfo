@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/021/2012",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "21. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2012-01-18T17:00:00+01:00",
   "end": "2012-01-18T19:15:00+01:00",
   "resultsProtocol": "94681",
@@ -46,7 +46,10 @@
       "name": "Hochwasserschutz Laubegast - Weiteres Vorgehen einschließlich Umgang mit den Ergebnissen des Beteiligungsprozesses",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5022",
+      "consultation": {
+        "parentID": "5022",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "94681",
       "auxiliaryFile": [
         "129804",
@@ -73,7 +76,10 @@
       "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5186",
+      "consultation": {
+        "parentID": "5186",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "82335"
       ],

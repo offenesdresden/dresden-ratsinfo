@@ -1,11 +1,11 @@
 {
   "shortName": "KG/001/2015",
-  "organization": [
-    "Kleingartenbeirat"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "1. Sitzung des Kleingartenbeirates",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "22"
+  ],
   "start": "2015-01-14T16:00:00+01:00",
   "end": "2015-01-14T17:30:00+01:00",
   "resultsProtocol": "198003",
@@ -34,7 +34,10 @@
       "name": "Bebauungsplan Nr. 35.3, Dresden-Nickern Nr. 2, ehemaliges Kasernengelände\n\nhier:\t\n1. Abwägungsbeschluss\n2. Satzungsbeschluss sowie Billigung der Begründung",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8851",
+      "consultation": {
+        "parentID": "8851",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "198003",
       "auxiliaryFile": [
         "213748",

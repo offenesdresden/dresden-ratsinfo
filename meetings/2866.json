@@ -1,11 +1,11 @@
 {
   "shortName": "OSR OW/045/2013",
-  "organization": [
-    "Ortschaftsrat Oberwartha"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Ortschaft Oberwartha, Versammlungsraum,\nMax-Schwan-Straße 4, 01156 Dresden",
   "name": "45. Sitzung des Ortschaftsrates Oberwartha",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "52"
+  ],
   "start": "2013-06-27T18:30:00+02:00",
   "end": "2013-06-27T20:30:00+02:00",
   "resultsProtocol": "138818",
@@ -42,7 +42,10 @@
       "name": "Prioritätenprogramm zum Bau von Gehwegen im Dresdner Straßennetz",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6989",
+      "consultation": {
+        "parentID": "6989",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "138818",
       "auxiliaryFile": [
         "172286",

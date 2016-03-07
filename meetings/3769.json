@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/002/2014",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgerhaus Schönborn, Versammlungsraum,\nSeifersdorfer Straße 6, 01465 Schönborn",
   "name": "2. Sitzung des Ortschaftsrates Schönborn",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2014-10-15T19:30:00+02:00",
   "end": "2014-10-15T22:30:00+02:00",
   "resultsProtocol": "190728",
@@ -35,7 +35,10 @@
       "name": "Haushaltssatzung 2015/2016",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8835",
+      "consultation": {
+        "parentID": "8835",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "190728",
       "auxiliaryFile": [
         "190166",

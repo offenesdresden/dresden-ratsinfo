@@ -1,11 +1,11 @@
 {
   "shortName": "K/001/2009",
-  "organization": [
-    "Ausschuss für Kultur"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "1. Sitzung des Ausschusses für Kultur",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "14"
+  ],
   "start": "2009-08-25T15:00:00+02:00",
   "end": "2009-08-25T16:40:00+02:00",
   "auxiliaryFile": [
@@ -26,7 +26,10 @@
       "name": "Museumskonzept der Städtischen Museen Dresden",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "14",
+      "consultation": {
+        "parentID": "14",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "2111",
         "123927",

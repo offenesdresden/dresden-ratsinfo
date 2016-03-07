@@ -1,11 +1,11 @@
 {
   "shortName": "SP/051/2013",
-  "organization": [
-    "Betriebsausschuss für Sportstätten und Bäder"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "51. Sitzung des Betriebsausschusses für Sportstätten und Bäder",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "16"
+  ],
   "start": "2013-10-16T16:00:00+02:00",
   "end": "2013-10-16T19:50:00+02:00",
   "resultsProtocol": "148024",
@@ -20,7 +20,10 @@
       "name": "Verwendung der zusätzlichen Mittel Sportförderung lt. Stadtratsbeschluss V1898/12 Ziff. 22g",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7569",
+      "consultation": {
+        "parentID": "7569",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "148024",
       "auxiliaryFile": [
         "146555",

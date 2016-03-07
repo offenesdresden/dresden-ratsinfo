@@ -1,11 +1,11 @@
 {
   "shortName": "OSR WX/015/2010",
-  "organization": [
-    "Ortschaftsrat Weixdorf"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf, Sitzungssaal,\nWeixdorfer Rathausplatz 2, 01108 Dresden",
   "name": "15. Sitzung des Ortschaftsrates Weixdorf",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "47"
+  ],
   "start": "2010-12-15T19:00:00+01:00",
   "end": "2010-12-15T21:00:00+01:00",
   "resultsProtocol": "58863",
@@ -39,7 +39,10 @@
       "name": "Neue Autobahnanschlussstelle an die BAB A 4 in Dresden-Weixdorf zwischen Autobahndreieck Dresden-Nord und Autobahnanschlussstelle Hermsdorf (Arbeitstitel: AS Promigberg)",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2524",
+      "consultation": {
+        "parentID": "2524",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "58863",
       "auxiliaryFile": [
         "46785",
@@ -64,7 +67,10 @@
       "name": "Optimierung der Struktur und der Dienstleistungsqualität des Bürgerservice in der Landeshauptstadt Dresden",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2884",
+      "consultation": {
+        "parentID": "2884",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61082",
       "auxiliaryFile": [
         "48114",

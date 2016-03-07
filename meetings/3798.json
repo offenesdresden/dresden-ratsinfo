@@ -1,11 +1,11 @@
 {
   "shortName": "SP/056/2014",
-  "organization": [
-    "Betriebsausschuss für Sportstätten"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "56. Sitzung des Betriebsausschusses für Sportstätten",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "119"
+  ],
   "start": "2014-03-18T16:00:00+01:00",
   "end": "2014-03-18T18:30:00+01:00",
   "auxiliaryFile": [
@@ -18,7 +18,10 @@
       "name": "Aktualisierung der Rankingliste - Tennenplätze",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8043",
+      "consultation": {
+        "parentID": "8043",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "157519",
         "175542"

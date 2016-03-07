@@ -1,11 +1,11 @@
 {
   "shortName": "SB/012/2015",
-  "organization": [
-    "Ausschuss für Stadtentwicklung und Bau"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "12. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "11"
+  ],
   "start": "2015-08-19T16:00:00+02:00",
   "end": "2015-08-19T22:15:00+02:00",
   "auxiliaryFile": [
@@ -26,7 +26,10 @@
       "name": "Stadtumbaugebiet Westlicher Innenstadtrand - Revitalisierung ehemaliges Heizkraftwerk Mitte - Teilbereich der Kultur- und Kreativwirtschaft - Instandsetzung der Gebäude 2.1 bis 2.4",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9804",
+      "consultation": {
+        "parentID": "9804",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "234917",
         "214174",

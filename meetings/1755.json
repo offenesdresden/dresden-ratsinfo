@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/038/2012",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Stadtmuseum, Festsaal, 3. Etage,\nWilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
   "name": "38. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2012-11-29T18:00:00+01:00",
   "end": "2012-11-29T19:30:00+01:00",
   "resultsProtocol": "118837",
@@ -45,7 +45,10 @@
       "name": "Richtlinie der Landeshauptstadt Dresden zur Förderung von Kindern in Kindertagespflege",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5367",
+      "consultation": {
+        "parentID": "5367",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "118837",
       "auxiliaryFile": [
         "155612",

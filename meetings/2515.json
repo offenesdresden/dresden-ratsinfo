@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/044/2013",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Stadtmuseum, Festsaal, 3. Etage,\nWilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
   "name": "44. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2013-06-27T18:00:00+02:00",
   "end": "2013-06-27T20:35:00+02:00",
   "resultsProtocol": "138281",
@@ -48,7 +48,10 @@
       "name": "Aufstellung der Vorschlagsliste für Jugendschöffinnen und Jugendschöffen für die Amtsperiode 2014 bis 2018",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7000",
+      "consultation": {
+        "parentID": "7000",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "138281",
       "auxiliaryFile": [
         "141381",
@@ -70,7 +73,10 @@
       "name": "Übertragung der investiven Budgetreste vom Haushaltsjahr 2012 nach 2013 sowie Übertragung mit Umverteilung investiver Budgetreste kleiner 150 TEUR vom Haushaltsjahr 2012 nach 2013",
       "number": "9.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7158",
+      "consultation": {
+        "parentID": "7158",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "136583",
         "136525",

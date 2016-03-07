@@ -1,11 +1,11 @@
 {
   "shortName": "OSR LB/011/2010",
-  "organization": [
-    "Ortschaftsrat Langebrück"
-  ],
   "locality": "Beratungsraum der Verwaltungsstelle Langebrück, Weißiger Str. 5, 01465 Langebrück",
   "name": "11. Sitzung des Ortschaftsrates Langebrück",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "51"
+  ],
   "start": "2010-05-11T18:32:00+02:00",
   "end": "2010-05-11T20:52:00+02:00",
   "auxiliaryFile": [
@@ -57,7 +57,10 @@
       "name": "Vorlage der Oberbürgermeisterin der Landeshauptstadt Dresden V0431/10 v. 13.04.2010\nPlan z. Hochwasservorsorge i. d. Landeshauptstadt Dresden",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1376",
+      "consultation": {
+        "parentID": "1376",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "27201",
         "149724",

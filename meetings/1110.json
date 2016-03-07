@@ -1,11 +1,11 @@
 {
   "shortName": "K/028/2011",
-  "organization": [
-    "Ausschuss für Kultur"
-  ],
   "locality": "im Beratungsraum WTC, Freiberger Straße 33, 01067 Dresden,\nTreffpunkt Haupteingang Bibliothek",
   "name": "28. Sitzung des Ausschusses für Kultur",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "14"
+  ],
   "start": "2011-05-17T16:00:00+02:00",
   "end": "2011-05-17T19:00:00+02:00",
   "resultsProtocol": "64012",
@@ -17,7 +17,10 @@
       "name": "Gewährung von mindestens zweijähriger institutioneller Förderung",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2929",
+      "consultation": {
+        "parentID": "2929",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "64012",
       "auxiliaryFile": [
         "43040"

@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Leu/009/2010",
-  "organization": [
-    "Ortsbeirat Leuben"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Leuben, Bürgersaal,\nHertzstraße 23, 01257 Dresden",
   "name": "9. Sitzung des Ortsbeirates Leuben",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "44"
+  ],
   "start": "2010-10-20T19:00:00+02:00",
   "end": "2010-10-20T22:30:00+02:00",
   "auxiliaryFile": [
@@ -28,7 +28,10 @@
       "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat); Änderung der Geschäftsordnung des Stadtrates",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2007",
+      "consultation": {
+        "parentID": "2007",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "35729",
         "35532",
@@ -41,7 +44,10 @@
       "name": "Änderung der Satzung der Landeshauptstadt Dresden über Erlaubnisse und Gebühren für Sondernutzungen der öffentlichen Straßen in Dresden (Sondernutzungssatzung)",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2216",
+      "consultation": {
+        "parentID": "2216",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "58912",
       "auxiliaryFile": [
         "33287",

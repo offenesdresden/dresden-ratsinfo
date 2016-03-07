@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/031/2012",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "31. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2012-05-21T18:00:00+02:00",
   "end": "2012-05-21T21:50:00+02:00",
   "auxiliaryFile": [
@@ -34,7 +34,10 @@
       "name": "Städtebaulicher Rahmenplan für den Bischofsplatz",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5735",
+      "consultation": {
+        "parentID": "5735",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "94915",
         "108807",

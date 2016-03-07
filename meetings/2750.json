@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/039/2013",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "39. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2013-05-13T18:30:00+02:00",
   "end": "2013-05-13T21:15:00+02:00",
   "auxiliaryFile": [
@@ -67,7 +67,10 @@
       "name": "Änderung der Wahlwerbesatzung",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6941",
+      "consultation": {
+        "parentID": "6941",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127963",
         "142841"
@@ -78,7 +81,10 @@
       "name": "Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6948",
+      "consultation": {
+        "parentID": "6948",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127995",
         "211033",

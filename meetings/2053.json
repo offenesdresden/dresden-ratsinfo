@@ -1,11 +1,11 @@
 {
   "shortName": "OSR CB/034/2012",
-  "organization": [
-    "Ortschaftsrat Cossebaude"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgersaal der Verwaltungsstelle Cossebaude,\nDresdner Straße 3, 01156 Dresden",
   "name": "34. Sitzung des Ortschaftsrates Cossebaude",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "46"
+  ],
   "start": "2012-11-12T18:30:00+01:00",
   "end": "2012-11-12T20:30:00+01:00",
   "resultsProtocol": "120306",
@@ -31,7 +31,10 @@
       "name": "Haushaltssatzung 2013/2014",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6310",
+      "consultation": {
+        "parentID": "6310",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "120306",
       "auxiliaryFile": [
         "123358",

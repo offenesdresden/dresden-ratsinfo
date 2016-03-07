@@ -1,11 +1,11 @@
 {
   "shortName": "OSR WX/042/2013",
-  "organization": [
-    "Ortschaftsrat Weixdorf"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf, Sitzungssaal,\nWeixdorfer Rathausplatz 2, 01108 Dresden",
   "name": "42. Sitzung des Ortschaftsrates Weixdorf",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "47"
+  ],
   "start": "2013-03-25T19:00:00+01:00",
   "end": "2013-03-25T21:30:00+01:00",
   "resultsProtocol": "132046",
@@ -38,7 +38,10 @@
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2013/2014",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6639",
+      "consultation": {
+        "parentID": "6639",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "132046",
       "auxiliaryFile": [
         "128904",

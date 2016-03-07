@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/032/2012",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  Beratungsraum im Bürgerhaus (ehem. Gemeindeamt)\nSeifersdorfer Straße 6, 01465 Dresden OT Schönborn",
   "name": "32. Sitzung des Ortschaftsrates Schönborn",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2012-01-25T19:30:00+01:00",
   "end": "2012-01-25T22:00:00+01:00",
   "auxiliaryFile": [
@@ -27,7 +27,10 @@
       "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5186",
+      "consultation": {
+        "parentID": "5186",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "82335"
       ],

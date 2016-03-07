@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/047/2013",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Stadtmuseum, Festsaal, 3. Etage,\nWilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
   "name": "47. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2013-10-10T18:00:00+02:00",
   "end": "2013-10-10T19:30:00+02:00",
   "resultsProtocol": "148776",
@@ -57,7 +57,10 @@
       "name": "Aufnahme des Hortes der Melli-Beese-Grundschule, Marienallee 12 in 01099 Dresden, in den Bedarfsplan Kindertageseinrichtungen Dresden unter der Trägerschaft des Trägers Gemeinnützige Gesellschaft TÜV Rheinland Bildungswerk mbH",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7294",
+      "consultation": {
+        "parentID": "7294",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "148776",
       "auxiliaryFile": [
         "166484",
@@ -74,7 +77,10 @@
       "name": "Gleiche Förderung von Kindern mit Behinderung in Wohnheimen",
       "number": "8",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7140",
+      "consultation": {
+        "parentID": "7140",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "132355",
         "132347"

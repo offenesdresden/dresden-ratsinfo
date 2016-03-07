@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/033/2012",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "33. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2012-07-16T17:35:00+02:00",
   "end": "2012-07-16T19:25:00+02:00",
   "auxiliaryFile": [
@@ -45,7 +45,10 @@
       "name": "Hau weg den Dreck Â pfiffige Müllbeseitigung im Alaunpark",
       "number": "4.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5952",
+      "consultation": {
+        "parentID": "5952",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "100901",
         "191648",
@@ -61,7 +64,10 @@
       "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+\n- Phase 2, Grundlagen und Zukunftsthemen -",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5798",
+      "consultation": {
+        "parentID": "5798",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "105356",
       "auxiliaryFile": [
         "158635",

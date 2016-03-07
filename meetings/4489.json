@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/015/2015",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Beratungsraum im Bürgerhaus Schönborn,\nSeifersdorfer Straße 6, 01465 Schönborn",
   "name": "15. Sitzung des Ortschaftsrates Schönborn\n\nmit vorangehender Ortsbegehung (Teil 2)\nTreffpunkt zur Ortsbegehung 18:30 Uhr am Ortsausgang Oberdorf/Richtung Marienmühle",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2015-08-19T19:30:00+02:00",
   "end": "2015-08-19T21:30:00+02:00",
   "auxiliaryFile": [
@@ -38,7 +38,10 @@
       "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "10239",
+      "consultation": {
+        "parentID": "10239",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "215210",
         "244117"

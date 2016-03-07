@@ -1,11 +1,11 @@
 {
   "shortName": "OSR WX/008/2010",
-  "organization": [
-    "Ortschaftsrat Weixdorf"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf, Sitzungssaal,\nWeixdorfer Rathausplatz 2, 01108 Dresden",
   "name": "8. Sitzung des Ortschaftsrates Weixdorf",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "47"
+  ],
   "start": "2010-04-26T19:00:00+02:00",
   "end": "2010-04-26T21:00:00+02:00",
   "auxiliaryFile": [
@@ -44,7 +44,10 @@
       "name": "Plan Hochwasservorsorge Dresden (PHD) - Plan zur Verbesserung der Hochwasservorsorge in der Landeshauptstadt Dresden für die Elbe, die Vereinigte Weißeritz, den Lockwitzbach, die Gewässer zweiter Ordnung, das Grundwasser sowie das abwassertechnischeSystem",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1376",
+      "consultation": {
+        "parentID": "1376",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "27201",
         "149724",
@@ -69,7 +72,10 @@
       "name": "Empfehlung zur Aufnahme der Staatsstraßen in Weixdorf in die Straßenreinigungsgebührensatzung 2011",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1408",
+      "consultation": {
+        "parentID": "1408",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "27094"
       ]
@@ -78,7 +84,10 @@
       "name": "Straßenunterhaltung 2010",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1832",
+      "consultation": {
+        "parentID": "1832",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "27360"
       ]

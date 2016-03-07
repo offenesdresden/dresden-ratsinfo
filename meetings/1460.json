@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Lo/012/2011",
-  "organization": [
-    "Ortsbeirat Loschwitz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Loschwitz, Beratungsraum, 2. Etage,\nGrundstraße 3, 01326 Dresden",
   "name": "12. Sitzung des Ortsbeirates Loschwitz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "38"
+  ],
   "start": "2011-01-19T17:00:00+01:00",
   "end": "2011-01-19T20:00:00+01:00",
   "resultsProtocol": "69625",
@@ -41,7 +41,10 @@
       "name": "Ausbau des Elberadwegenetzes in Dresden",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "3306",
+      "consultation": {
+        "parentID": "3306",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "69625",
       "auxiliaryFile": [
         "50112",
@@ -68,7 +71,10 @@
       "name": "Optimierung der Struktur und der Dienstleistungsqualität des Bürgerservice in der Landeshauptstadt Dresden",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2884",
+      "consultation": {
+        "parentID": "2884",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "61082",
       "auxiliaryFile": [
         "48114",

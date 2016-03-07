@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Kl/022/2011",
-  "organization": [
-    "Ortsbeirat Klotzsche"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Klotzsche, Bürgersaal,\nKieler Straße 52, 01109 Dresden",
   "name": "22. Sitzung des Ortsbeirates Klotzsche",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "43"
+  ],
   "start": "2011-11-14T19:00:00+01:00",
   "end": "2011-11-14T22:00:00+01:00",
   "resultsProtocol": "84182",
@@ -35,7 +35,10 @@
       "name": "Standortentwicklung Gymnasium Dresden-Klotzsche, Karl-Marx-Straße 44 in 01109 Dresden",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5048",
+      "consultation": {
+        "parentID": "5048",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "84182",
       "auxiliaryFile": [
         "113083",

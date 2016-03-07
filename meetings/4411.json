@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Leu/004/2015",
-  "organization": [
-    "Ortsbeirat Leuben"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Leuben, Bürgersaal,\nHertzstraße 23, 01257 Dresden",
   "name": "4. Sitzung des Ortsbeirates Leuben",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "44"
+  ],
   "start": "2015-02-04T19:00:00+01:00",
   "end": "2015-02-04T21:43:00+01:00",
   "resultsProtocol": "207503",
@@ -40,7 +40,10 @@
       "name": "Zweite Fortschreibung Spielplatzentwicklungskonzeption, Unterlagen wurden bereits ausgereicht",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9052",
+      "consultation": {
+        "parentID": "9052",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "207503",
       "auxiliaryFile": [
         "234249",

@@ -1,11 +1,11 @@
 {
   "shortName": "OSR WX/001/2014",
-  "organization": [
-    "Ortschaftsrat Weixdorf"
-  ],
   "locality": "Landeshauptstadt Dresden,  in der Verwaltungsstelle Weixdorf, Sitzungssaal,\nWeixdorfer Rathausplatz 2, 01108 Dresden",
   "name": "1. Sitzung des Ortschaftsrates Weixdorf",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "47"
+  ],
   "start": "2014-09-15T19:00:00+02:00",
   "end": "2014-09-15T21:45:00+02:00",
   "resultsProtocol": "190728",
@@ -70,7 +70,10 @@
       "name": "Haushaltssatzung 2015/2016",
       "number": "9",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8835",
+      "consultation": {
+        "parentID": "8835",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "190728",
       "auxiliaryFile": [
         "190166",

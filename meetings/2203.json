@@ -1,11 +1,11 @@
 {
   "shortName": "OSR MB/039/2012",
-  "organization": [
-    "Ortschaftsrat Mobschatz"
-  ],
   "locality": "Landeshauptstadt Dresden,  im \"Dorfklub Mobschatz\", Sitzungssaal,\nAm Tummelsgrund 7 b, 01156 Dresden",
   "name": "39. Sitzung des Ortschaftsrates Mobschatz",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "45"
+  ],
   "start": "2012-07-19T19:30:00+02:00",
   "end": "2012-07-19T21:45:00+02:00",
   "resultsProtocol": "109499",
@@ -65,7 +65,10 @@
       "name": "Verkehrsentwicklungsplan 2025plus - Szenario für die weitere Bearbeitung",
       "number": "9",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "5728",
+      "consultation": {
+        "parentID": "5728",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "109499",
       "auxiliaryFile": [
         "156193",

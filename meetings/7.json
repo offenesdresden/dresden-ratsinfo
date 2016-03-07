@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/004/2009",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal, 2. Etage, Zi: 215\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "4. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2009-12-15T17:30:00+01:00",
   "end": "2009-12-15T21:00:00+01:00",
   "auxiliaryFile": [
@@ -29,7 +29,10 @@
       "name": "Sanierungsgebiet Äußere Neustadt - 2. Fortschreibung des Städtebaulichen Erneuerungskonzeptes",
       "number": "1.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "459",
+      "consultation": {
+        "parentID": "459",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "7643",
         "6706",

@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/049/2013",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Beratungsraum im Bürgerhaus Schönborn,\nSeifersdorfer Str. 6, 01465 Dresden OT Schönborn",
   "name": "49. Sitzung des Ortschaftsrates Schönborn",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2013-05-29T19:30:00+02:00",
   "end": "2013-05-29T19:40:00+02:00",
   "auxiliaryFile": [
@@ -56,7 +56,10 @@
       "name": "Änderung der Wahlwerbesatzung",
       "number": "5",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6941",
+      "consultation": {
+        "parentID": "6941",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127963",
         "142841"
@@ -67,7 +70,10 @@
       "name": "Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
       "number": "6",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "6948",
+      "consultation": {
+        "parentID": "6948",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "127995",
         "211033",
@@ -84,7 +90,10 @@
       "name": "Bürgerbeteiligung stärken Â Einrichtung einer Plattform für E-Petitionen auf der Stadt-Website",
       "number": "7",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7019",
+      "consultation": {
+        "parentID": "7019",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "129669",
         "176192",

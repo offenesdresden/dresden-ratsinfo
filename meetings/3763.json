@@ -1,11 +1,11 @@
 {
   "shortName": "OSR SB/064/2014",
-  "organization": [
-    "Ortschaftsrat Schönborn"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Bürgerhaus Schönborn, Beratungsraum,\nSeifersdorfer Straße 6, 01465 Schönborn",
   "name": "64. Sitzung des Ortschaftsrates Schönborn",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "50"
+  ],
   "start": "2014-04-16T19:30:00+02:00",
   "end": "2014-04-16T22:30:00+02:00",
   "resultsProtocol": "176456",
@@ -40,7 +40,10 @@
       "name": "Konzept zur Förderung des bürgerschaftlichen Engagements in der Landeshauptstadt Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8113",
+      "consultation": {
+        "parentID": "8113",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "176456",
       "auxiliaryFile": [
         "191450",
@@ -60,7 +63,10 @@
       "name": "Bibliotheksentwicklungsplan 2014 - 2017",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8065",
+      "consultation": {
+        "parentID": "8065",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "228334",
         "170544",
@@ -76,7 +82,10 @@
       "name": "UrbanArt (StreetArt und Graffiti) in Dresden",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "8268",
+      "consultation": {
+        "parentID": "8268",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "163502",
         "180188",

@@ -1,11 +1,11 @@
 {
   "shortName": "KK/058/2014",
-  "organization": [
-    "Betriebsausschuss für Städtische Krankenhäuser und Kindertageseinrichtungen"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,\nDr.-Külz-Ring 19, 01067 Dresden",
   "name": "58. Sitzung des Betriebsausschusses für Städtische Krankenhäuser und Kindertageseinrichtungen",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "17"
+  ],
   "start": "2014-03-19T16:30:00+01:00",
   "end": "2014-03-19T18:15:00+01:00",
   "resultsProtocol": "164304",
@@ -29,7 +29,10 @@
       "name": "Anmietung einer neu zu errichtenden Kindertageseinrichtung auf dem Grundstück Münzteichweg 19 in 01217 Dresden",
       "number": "1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7923",
+      "consultation": {
+        "parentID": "7923",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "164304",
       "auxiliaryFile": [
         "231387",

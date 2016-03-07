@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Pro/002/2014",
-  "organization": [
-    "Ortsbeirat Prohlis"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Prohlis, Bürgersaal,\nProhliser Allee 10, 01239 Dresden",
   "name": "2. Sitzung des Ortsbeirates Prohlis",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "41"
+  ],
   "start": "2014-12-01T17:00:00+01:00",
   "end": "2014-12-01T19:23:00+01:00",
   "resultsProtocol": "207503",
@@ -45,7 +45,10 @@
       "name": "Zweite Fortschreibung Spielplatzentwicklungskonzeption",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "9052",
+      "consultation": {
+        "parentID": "9052",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "207503",
       "auxiliaryFile": [
         "234249",

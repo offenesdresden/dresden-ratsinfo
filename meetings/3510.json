@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Neu/049/2014",
-  "organization": [
-    "Ortsbeirat Neustadt"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Neustadt, Bürgersaal,\nHoyerswerdaer Straße 3, 01099 Dresden",
   "name": "49. Sitzung des Ortsbeirates Neustadt",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "36"
+  ],
   "start": "2014-01-13T17:30:00+01:00",
   "end": "2014-01-13T20:55:00+01:00",
   "auxiliaryFile": [
@@ -36,7 +36,10 @@
       "name": "Einrichtung von Fahrradabstellanlagen an Bahnhöfen und S-Bahn-Haltepunkten",
       "number": "3.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7897",
+      "consultation": {
+        "parentID": "7897",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "153449",
         "203685",

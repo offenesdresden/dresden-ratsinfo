@@ -1,11 +1,11 @@
 {
   "shortName": "JHA/010/2010",
-  "organization": [
-    "Jugendhilfeausschuss"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Neuen Rathaus, Festsaal,\nRathausplatz 1, 01067 Dresden",
   "name": "10. Sitzung des Jugendhilfeausschusses",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "10"
+  ],
   "start": "2010-09-16T18:00:00+02:00",
   "end": "2010-09-16T19:20:00+02:00",
   "auxiliaryFile": [
@@ -35,7 +35,10 @@
       "name": "Anmietung und Betreibung einer neu zu errichtenden Kindertageseinrichtung auf dem Grundstück Hauptstraße 4 in 01328 Dresden-Weißig",
       "number": "2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "960",
+      "consultation": {
+        "parentID": "960",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "35119",
         "34040",
@@ -54,7 +57,10 @@
       "name": "Auflösung kommunaler Streetworkbüros in Dresden",
       "number": "3",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "1047",
+      "consultation": {
+        "parentID": "1047",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "auxiliaryFile": [
         "15407",
         "15416"
@@ -64,7 +70,10 @@
       "name": "Musikalische Bildung",
       "number": "4",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "2240",
+      "consultation": {
+        "parentID": "2240",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "63740",
       "auxiliaryFile": [
         "33386"

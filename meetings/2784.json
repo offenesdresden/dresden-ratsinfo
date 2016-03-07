@@ -1,11 +1,11 @@
 {
   "shortName": "OBR Co/037/2013",
-  "organization": [
-    "Ortsbeirat Cotta"
-  ],
   "locality": "Landeshauptstadt Dresden,  im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,\nLübecker Straße 121, 01157 Dresden",
   "name": "37. Sitzung des Ortsbeirates Cotta",
   "type": "https://oparl.org/schema/1.0/Meeting",
+  "organization": [
+    "37"
+  ],
   "start": "2013-10-10T18:00:00+02:00",
   "end": "2013-10-10T20:10:00+02:00",
   "resultsProtocol": "188223",
@@ -42,7 +42,10 @@
       "name": "Verkehrsentwicklungsplan 2025plus (VEP 2025plus)",
       "number": "2.1",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7487",
+      "consultation": {
+        "parentID": "7487",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "188223",
       "auxiliaryFile": [
         "214643",
@@ -61,7 +64,10 @@
       "name": "Standortverlagerung des Beruflichen Schulzentrums für Wirtschaft ÂFranz Ludwig GeheÂ (derzeit: Berthelsdorfer Weg 2, 01279 Dresden)",
       "number": "2.2",
       "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": "7501",
+      "consultation": {
+        "parentID": "7501",
+        "type": "https://oparl.org/schema/1.0/Consultation"
+      },
       "resolutionFile": "153352",
       "auxiliaryFile": [
         "158500",
