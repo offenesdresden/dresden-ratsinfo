@@ -1,0 +1,1316 @@
+Stadt Kassel
+Verkehrssimulation
+Friedrich-Ebert-Straße/Goethestraße
+
+Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+– Bericht zum Projekt Nr. 0806 –
+
+Auftraggeber:
+Stadt Kassel
+
+Auftragnehmer:
+SHP Ingenieure
+Plaza de Rosalia 1
+30449 Hannover
+Tel.: 0511.3584-450
+Fax: 0511.3584-477
+info@shp-ingenieure.de
+www.shp-ingenieure.de
+
+Projektleitung:
+Prof. Dr.-Ing. Wolfgang Haller
+
+Bearbeitung:
+Dipl.-Ing. René Strahl
+Dipl.-Ing. Kathrin Gerland
+
+Hannover, Juni 2009
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+Inhalt
+Seite
+1
+
+Problemstellung und Zielsetzung
+
+1
+
+2
+
+Aufbau des Simulationsmodells
+
+2
+
+3
+3.1
+3.2
+
+Methodische Grundlagen
+Ermittlung der Verkehrsqualität
+Bewertung der Verkehrsqualität
+
+6
+6
+7
+
+4
+
+Beurteilung des Verkehrsablaufs
+
+9
+
+5
+5.1
+5.2
+
+Überprüfung von Sonderfällen
+Erhöhung der Verkehrsbelastungen
+Erhöhung der ÖPNV-Frequenz
+
+16
+16
+19
+
+6
+
+Zusammenfassung und Empfehlung
+
+20
+
+Anlage
+
+23
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+1
+
+Problemstellung und Zielsetzung
+
+Der Straßenzug Friedrich-Ebert-Straße/Goethestraße zwischen dem Ständeplatz und dem August-Bebel-Platz bzw. der Germaniastraße wird derzeit
+planerisch überarbeitet. Unter Beteiligung der örtlichen Akteure wurde in
+einem ersten Planungsschritt ein Gestaltungskonzept erstellt, das stufenweise zu einer abgestimmten Vorplanung weiterentwickelt wurde. Eine
+wesentliche Zielsetzung der Planung ist die abschnittsweise Stärkung des
+Quartiers in seiner Wohn-, Geschäfts- und Aufenthaltsfunktion.
+Die bis jetzt vorliegenden Konzepte zeigen, dass die Zielsetzung nur bei
+einer Beschränkung der Flächen für den Kraftfahrzeugverkehr und bei einer Überlagerung der Fahrwege mit dem Öffentlichen Personennahverkehr
+erreichbar ist. Die Straßenbahn soll dabei als Pulkführerin weitgehend behinderungsfrei fahren. Die möglicherweise bei dieser Konzeption trotzdem
+auftretenden Behinderungen zwischen den Verkehrsarten sollen mit Hilfe
+der Verkehrssimulation überprüft und bewertet werden.
+Die Verkehrssimulation erfolgt mit dem Programmsystem VISSIM. Die für
+den angestrebten Verkehrsablauf erforderlichen Signalprogramme werden
+entwickelt, anschließend erfolgt die Überprüfung der Verkehrsqualitäten
+mit Hilfe des Bewertungsmaßstabes des Handbuchs für die Bemessung
+von Straßenverkehrsanlagen (HBS). Die Verkehrssimulation trägt zur Optimierung des vorliegenden Gestaltungsplanes bei und ist eine wesentliche
+Grundlage für weitere Diskussion mit den örtlichen Akteuren sowie zur
+Förderung der Maßnahme nach dem Entflechtungsgesetz.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+1
+
+2
+
+Aufbau des Simulationsmodells
+
+Allgemeines
+Ziel der Verkehrssimulation ist es zu überprüfen, ob auf Grundlage des
+vorgeschlagenen Gestaltungskonzeptes (vgl. Abb. 1) ausreichende Verkehrsqualitäten im fließenden Kraftfahrzeugverkehr unter Berücksichtigung
+einer vollen Priorisierung des ÖPNV erreicht werden können. Kennzeichnend für das Gestaltungskonzept ist ein über die gesamte Länge der Friedrich-Ebert-Straße durchlaufender Mittelstreifen, der auch außerhalb der
+signalisierten Furten ein Überqueren der Fahrbahn erleichtert. Dadurch
+können Lichtsignalanlagen eingespart werden.
+
+Abb. 1
+
+Zugrunde gelegter Querschnitt für das Simulationsmodell
+
+Es sind sowohl die baulichen Parameter wie Geometrie, Fahrstreifenzahl
+und –breite, als auch betriebliche Parameter wie Vorfahrtregelungen,
+Fahrstreifenaufteilungen und Geschwindigkeitsbeschränkungen im Modell
+enthalten. Im Simulationsmodell werden vorlaufend zusätzlich 30 Minuten
+berücksichtigt, um das Modell mit Fahrzeugen zu füllen. In diesem Zeitraum erfolgt keine Auswertung.
+Planungsraum
+Das Simulationsmodell umfasst den Abschnitt der Friedrich-Ebert-Straße
+vom
+Ständeplatz
+bis
+zum
+Knotenpunkt
+Friedrich-EbertStraße/Goethestraße (Abschnitt I). Ferner berücksichtigt das Simulationsmodell
+die
+vorfahrtsgeregelten
+Knotenpunkte
+Friedrich-EbertStraße/Friedrich-Engels-Straße, Friedrich-Ebert-Straße/Bismarckstraße und
+Friedrich-Ebert-Straße/Westend-straße (vgl. Abb. 2).
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+2
+
+Friedrich-Ebert-Straße/
+Goethestraße/
+Annastraße
+
+Friedrich-Ebert-Straße/
+Bürgermeister-BrunnerStraße
+
+Friedrich-Ebert-Straße/
+Ständeplatz
+
+Abb. 2
+
+Darstellung des betrachteten Verkehrsnetzes für das Simulationsmodell
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+3
+
+Verkehrsstärken
+Die Belastungssituation entlang der Friedrich-Ebert-Straße konnte mit Hilfe
+einer Verkehrserhebung am Dienstag, dem 10.06.2008, im Zeitraum von
+15:00 Uhr bis 19:00 Uhr ermittelt werden. Dabei hat sich herausgestellt,
+dass die Spitzenstunde (die höchste Tagesbelastung) für den untersuchten
+Straßenzug zwischen 16:30 Uhr und 17:30 Uhr liegt. Für das Simulationsmodell wurde höchste stündliche Verkehrsbelastung an einem Werktag
+– also die Spitzenstunde zwischen 16:30 Uhr und 17:30 Uhr – verwendet. Die stündliche Spitzenbelastung für die Friedrich-Ebert-Straße ist in
+Abb. 3 dargestellt.
+
+Abb. 3
+
+Analyseverkehrsstärken zur Spitzenstunde im untersuchten
+Planungsraum [Kfz/Sp-h]
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+4
+
+ÖPNV
+Neben den verwendeten Analyseverkehrsstärken wurde der gesamte
+ÖPNV im Zeitbereich der Spitzenstunde eingepflegt. Grundlage hierfür war
+der aktuelle Fahrplan der auf der Friedrich-Ebert-Straße verkehrenden Straßenbahnlinien 4, 7 und 8.
+Lichtsignalanlagen
+Für die Knotenpunkte Bürgermeister-Brunner-Straße/Friedrich-Ebert-Straße
+und Friedrich-Ebert-Straße/Goethestraße wurden neue Signalprogramme
+entwickelt, die eine vollständige Priorisierung des ÖPNV beinhalten. Die
+heutige
+Lichtsignalsteuerung
+am
+Knotenpunkt
+Friedrich-EbertStraße/Ständeplatz bleibt mit einer Umlaufzeit von 100 s erhalten.
+Die Knotenpunkte Friedrich-Ebert-Straße/Ständeplatz und Friedrich-EbertStraße/Bürgermeister-Brunner-Straße sind aufgrund des kurzen Knotenpunktabstandes und der abzuwickelnden Verkehrsstärken koordiniert und
+weisen daher wie im Bestand eine Umlaufzeit von 100 s auf. Die Einbeziehung des Knotenpunktes Friedrich-Ebert-Straße/Goethestraße in die
+Koordinierung ist wegen des großen Knotenpunktabstandes und der möglichen Verkehrsstörungen durch Park-, Liefer- oder Abbiegevorgänge nicht
+zu empfehlen.
+Für den Knotenpunkt Friedrich-Ebert-Straße/Goethestraße konnte mit Hilfe
+des HBS1 eine wartzeitoptimale Umlaufzeit von 80 s ermittelt werden.
+Auch an diesem Knotenpunkt findet eine vollständige Priorisierung des
+ÖPNV statt.
+Die Phasen- und Signalzeitenpläne für die beiden signalisierten Knotenpunkte Friedrich-Ebert-Straße/Bürgermeister-Brunner-Straße und FriedrichEbert-Straße/Goethestraße sind der Anlage 1 und Anlage 2 zu entnehmen.
+
+1
+
+Forschungsgesellschaft für Straßen- und Verkehrswesen
+Handbuch für die Bemessung von Straßenverkehrsanlagen (HBS)
+Köln, Ausgabe 2001, Fassung 2005
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+5
+
+3
+
+Methodische Grundlagen
+
+3.1
+
+Ermittlung der Verkehrsqualität
+
+Die Verkehrssimulation ist in der Verkehrsplanung und der Verkehrstechnik zu einem unverzichtbaren Instrument zur Beurteilung komplexer Verkehrsabläufe geworden. Dabei unterscheiden sich die Möglichkeiten der
+Verkehrssimulation deutlich von anderen in der Verkehrsplanung angewandten Verfahren.
+Herkömmliche Verfahren der verkehrstechnischen Bemessung, wie das
+HBS-Verfahren, beruhen in der Regel auf Daten, die in der realen Umgebung mit bestimmten Randbedingungen empirisch ermittelt wurden. Bei
+der Verkehrssimulation hingegen sind im Wesentlichen nur fahrdynamische, fahrgeometrische und verhaltensabhängige Daten aus der Realität
+hinterlegt. Die Randbedingungen werden in der Simulation festgelegt und
+das daraus resultierende Verhalten aller Verkehrsteilnehmer simuliert. Die
+Ergebnisse werden statistisch innerhalb der Simulation ermittelt und ausgewertet.
+
+Abb. 4
+
+Ausschnitt aus der Verkehrssimulation
+
+Dadurch ist es mit der Verkehrssimulation möglich, auch Randbedingungen differenziert zu berücksichtigen, die in anderen Verfahren nur pauschal oder gar nicht erfasst sind. Insbesondere die Abhängigkeiten komplexer Knotenpunktsysteme im Zuge von verkehrlich bedeutenden Straßenzügen lassen sich mit herkömmlichen Verfahren überhaupt nicht oder
+nur unzulänglich bewerten.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+6
+
+Die Verkehrssimulation ermöglicht gegenüber anderen Verfahren zusätzlich die Berücksichtigung folgender Aspekte:
+Verkehrsabhängige Signalsteuerungen mit festen oder variablen Umlaufzeiten,
+Teilsignalisierungen von Knotenpunkten,
+Koordinierung der Signalsteuerungen mehrerer Knotenpunkte,
+Auswirkungen von Fahrstreifenwechseln sowie Einfädelungs- und Verflechtungsvorgängen auf die Qualität des Verkehrsablaufs,
+Berücksichtigung des Vorrangs von Fußgängern und Radfahrern gegenüber abbiegenden Kraftfahrzeugen,
+Wechselwirkungen durch Rückstau, Pulkbildung, etc. sowie
+Einflüsse der Geometrie im Lageplan.
+Vor diesem Hintergrund sind von der Verkehrssimulation genauere und
+detailliertere Ergebnisse zu erwarten, als dies bei klassischen Bemessungsverfahren in Einzelfallanwendung der Fall ist.
+
+3.2
+
+Bewertung der Verkehrsqualität
+
+Die Verkehrsqualität wird nach dem Handbuch für die Bemessung von
+Straßenverkehrsanlagen (HBS) in sechs Stufen (vgl. Tab. 1) eingeteilt.
+Bewertet wird die Verkehrssituation zum Zeitpunkt der Spitzenstundenbelastung im Tagesverlauf. Die Stufengrenzen sind in erster Linie im Hinblick
+auf die Ansprüche der Verkehrsteilnehmer an die Bewegungsfreiheit festgelegt. Bei den Stufen A bis D liegt ein stabiler Verkehrsablauf vor. In Stufe A werden Verkehrsteilnehmer äußerst selten von anderen beeinflusst,
+bei Stufe D kommt es durch die hohe Verkehrsbelastung zu deutlichen
+Beeinträchtigungen in der Bewegungsfreiheit der Verkehrsteilnehmer. Bei
+Stufe E treten ständig gegenseitige Behinderungen zwischen den Verkehrsteilnehmern auf. Der Verkehr bewegt sich im Bereich zwischen Stabilität und Instabilität, wobei bereits kleine Verschlechterungen der Einflussgrößen zum Zusammenbruch des Verkehrsflusses führen können. Bei
+Stufe F ist die Nachfrage größer als die Kapazität. Die Verkehrsanlage ist
+überlastet. Bei den Stufen A bis D liegt eine ausreichende Verkehrsqualität
+vor.
+QualitätsStufe (HBS)
+A
+B
+C
+D
+E
+F
+
+Tab. 1
+
+signalisierter vorfahrtgeregelter
+Knotenpunkt
+Knotenpunkt
+20s
+10s
+35s
+20s
+30s
+50s
+70s
+100s
+>100s
+
+45s
+>45s
+Auslastung>1
+
+ausreichende
+Verkehrsqualität
+nicht mehr ausreichende
+Verkehrsqualität
+
+HBS-Verkehrsqualitätsstufen und mittlere Wartezeiten
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+7
+
+Die Qualitätsstufen sind im HBS wie folgt definiert:
+Stufe A:
+Stufe B:
+Stufe C:
+
+Stufe D:
+Stufe E:
+
+Stufe F:
+
+Die Mehrzahl der Verkehrsteilnehmer kann ungehindert den
+Knotenpunkt passieren. Die Wartezeiten sind sehr kurz.
+Alle während der Sperrzeit ankommenden Verkehrsteilnehmer
+können in der nachfolgenden Freigabezeit weiterfahren oder
+–gehen. Die Wartezeiten sind kurz.
+Nahezu alle während der Sperrzeit ankommenden Verkehrsteilnehmer können in der nachfolgenden Freigabezeit weiterfahren
+oder -gehen. Die Wartezeiten sind spürbar. Beim Kraftfahrzeugverkehr tritt im Mittel nur geringer Stau am Ende der Freigabezeit auf.
+Im Kraftfahrzeugverkehr ist ständiger Rückstau vorhanden. Die
+Wartezeiten für alle Verkehrsteilnehmer sind beträchtlich. Der
+Verkehrszustand ist noch stabil.
+Die Verkehrsteilnehmer stehen in erheblicher Konkurrenz zueinander. Im Kraftfahrzeugverkehr stellt sich allmählich wachsender Stau ein. Die Wartezeiten sind sehr lang. Die Kapazität wird
+erreicht.
+Die Nachfrage ist größer als die Kapazität. Die Fahrzeuge müssen bis zu ihrer Abfertigung mehrfach vorrücken. Der Stau
+wächst stetig. Die Wartezeiten sind extrem lang. Die Anlage ist
+überlastet.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+8
+
+4
+
+Beurteilung des Verkehrsablaufs
+
+Der Verkehrsablauf wird im Wesentlichen durch die signalisierten Knotenpunkte Friedrich-Ebert-Straße/Bürgermeister-Brunner-Straße und FriedrichEbert-Straße/Goethestraße bestimmt. Die vorfahrtsgeregelten Knotenpunkte Friedrich-Ebert-Straße/Westendstraße, Friedrich-Ebert-Straße/ Bismarckstraße und Friedrich-Ebert-Straße/Friedrich-Engels-Straße haben einen vergleichsweise geringen Einfluss auf den Verkehrsablauf.
+Es ist anzumerken, dass die erreichten Verkehrsqualitäten an den betrachteten Knotenpunkten die Verkehrsqualität zur Spitzenstunde – also der
+höchsten Verkehrsbelastung am Tag – darstellen. Bei Betrachtung des
+gesamten Tagesverlaufs werden deutlich bessere Verkehrsqualitäten für
+alle Verkehrsströme aufgrund der geringeren Verkehrsstärken erreicht.
+Knotenpunkt Friedrich-Ebert-Straße/Bürgermeister-Brunner-Straße
+Der verkehrsabhängig geregelte Knotenpunkt, der eine Umlaufzeit von
+100 s aufweist und mit dem Knotenpunkt Ständeplatz koordiniert ist,
+weist insgesamt ausreichende Verkehrsqualitäten auf (vgl. Abb. 5).
+QualitätsStufe (HBS)
+A
+B
+C
+D
+E
+F
+
+signalisierter
+Knotenpunkt
+20 s
+35 s
+50 s
+70 s
+100 s
+>100 s
+
+36 mittlere Rückstaulängen [m]
+
+17
+
+mittlere Verlustzeit [s]
+
+Bürgermeister-Brunner-Straße
+
+58
+28
+Friedrich-Ebert-Straße
+
+15 19
+
+56 15
+28 29
+
+11 43
+
+3
+
+7
+
+56 36
+
+Karthäuserstraße
+
+Abb. 5
+
+Mittlere Verlustzeiten [s] und mittlere Rückstaulängen [m] am
+Knotenpunkt
+Bürgermeister-Brunner-Straße/Karthäuserstraße/
+Friedrich-Ebert-Straße
+
+Die maximale Rückstaulänge am Knotenpunkt tritt für die westliche Knotenpunktzufahrt (Friedrich-Ebert-Straße stadteinwärts) mit etwa 175 m
+auf, was einer Anzahl von etwa 29 Fahrzeugen entspricht. Diese maximale Rückstaulänge resultiert unter anderem aus dem Einfluss des ÖPNV, ist
+von kurzer Zeitdauer und tritt nicht bei jedem ÖPNV-Eingriff auf. Aufgrund
+der erreichten Verkehrsqualitäten können Rückstaus zügig abgebaut werden.
+Für die östliche Knotenpunktzufahrt (Friedrich-Ebert-Straße stadtauswärts)
+können maximale Rückstaulängen bis auf Höhe der vorgelagerten Fußgängerlichtsignalanlage auftreten. Diese Rückstaus sind aber ebenfalls von
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+9
+
+kurzer Zeitdauer und bauen sich innerhalb der nächsten Umläufe ab. Das
+Simulationsmodell zeigt ferner, dass ein Rückstau bis in den vorgelagerten
+signalisierten Knotenpunkt Friedrich-Ebert-Straße/Ständeplatz nicht stattfindet.
+Die Aufstelllänge für die Linksabbieger in die Bürgermeister-Brunner-Straße
+wurde auf 60 m verlängert. Hintergrund ist, dass bei einer Doppelanmeldung von zwei ÖPNV-Linien (Begegnungsfall) die Geradeausfahrstreifen
+geräumt werden müssen. Signifikante Behinderungen durch einen überstauten Linksabbiegfahrstreifen konnten für den ÖPNV während der Simulationsdurchläufe zwar nicht festgestellt werden, jedoch dient dies dem
+Sicherheitsaspekt bei unerwarteten Verkehrsstörungen. Bei einer Anmeldung eines einzelnen ÖPNV-Fahrzeugs erfolgt grundsätzlich auch eine
+Räumung der Linksabbiegefahrstreifen in Verbindung mit dem Geradeausstrom.
+Aufgrund der vollständigen Priorisierung der ÖPNV-Fahrzeuge kann eine
+schnelle Abwicklung der ÖPNV-Linien am Knotenpunkt erfolgen. Fahrtzeitverluste treten überwiegend durch die eigenen Beschleunigungs- und
+Verzögerungsprozesse auf. Die Beeinträchtigungen des ÖPNV durch den
+Kraftfahrzeugverkehr können als gering eingeschätzt werden. Kurzeitige
+Behinderungen wegen Park- und Liefervorgänge können aber auftreten.
+Die Fußgängerfurten am signalisierten Knotenpunkt bieten zusätzlich zum
+Mittelstreifen eine gute Überquerungsqualität und geringe Verlustzeiten.
+Die mittleren Verlustzeiten der einzelnen Furten liegen unterhalb des
+Grenzwertes von 60 s (Geduldsschwelle). Bei der Betrachtung aller vier
+Fußgängerfurten (bezogen auf alle Querungsrichtungen) kann eine mittlere
+Verlustzeit für den Fußgängerverkehr von 26 s erreicht werden.
+Die guten Verkehrsqualitäten für den Kraftfahrzeugverkehr wirken sich
+positiv auf die Verlustzeiten im Radverkehr aus, so dass die mittleren Verlustzeiten je nach Richtung (stadteinwärts bzw. –auswärts) zwischen 13 s
+und 25 s liegen.
+Unter Berücksichtigung einer vollständigen Priorisierung des ÖPNV erreicht
+der Knotenpunkt insgesamt ausreichende Verkehrsqualitäten im KfzVerkehr und kann somit als leistungsfähig beurteilt werden.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+10
+
+Knotenpunkt Friedrich-Engels-Straße/Friedrich-Ebert-Straße
+Der vorfahrtsgeregelte Knotenpunkt weist überwiegend sehr gute Verkehrsqualitäten (Qualitätsstufe A) auf. Lediglich der Rechtseinbieger aus
+der Friedrich-Engels-Straße (Süd) und der Linksabbieger von der FriedrichEbert-Straße erreichen die Qualitätsstufe B (vgl. Abb. 6).
+Qualitäts- vorfahrtgeregelter
+Stufe (HBS)
+Knotenpunkt
+A
+B
+C
+D
+E
+F
+
+4
+
+10 s
+20 s
+30 s
+
+0
+
+45 s
+>45 s
+Auslastung >1
+
+36 mittlere Rückstaulängen [m]
+
+17
+
+Friedrich-Engels-Straße (Nord)
+
+Friedrich-Ebert-Straße
+
+3
+
+6
+
+9
+
+3
+
+5
+14
+
+mittlere Verlustzeit [s]
+
+0
+
+15
+Friedrich-Engels-Straße (Süd)
+
+Abb. 6
+
+Mittlere Verlustzeiten [s] und mittlere Rückstaulängen [m] am
+Knotenpunkt Friedrich-Engels-Straße/Friedrich-Ebert-Straße
+
+Insgesamt ist der vorfahrtsgeregelte Knotenpunkt auch nach der Realisierung des vorgeschlagenen Gestaltungskonzeptes leistungsfähig.
+Knotenpunkt Friedrich-Ebert-Straße/Bismarckstraße
+Am vorfahrtgeregelten Knotenpunkt Friedrich-Ebert-Straße/Bismarckstraße
+wird für den fließenden Kraftfahrzeugverkehr durchweg die Qualitätsstufe
+A erreicht. Wesentliche Beeinträchtigungen finden weder für den Kraftfahrzeugverkehr noch für den Rad- und Fußgängerverkehr statt. Der Knotenpunkt ist daher als leistungsfähig zu bezeichnen.
+Qualitäts- vorfahrtgeregelter
+Stufe (HBS)
+Knotenpunkt
+A
+B
+C
+D
+E
+F
+
+Bismarckstraße
+
+10 s
+20 s
+30 s
+
+6
+0
+
+45 s
+>45 s
+Auslastung >1
+
+Friedrich-Ebert-Straße
+
+1
+
+36 mittlere Rückstaulängen [m]
+
+17
+
+mittlere Verlustzeit [s]
+
+Abb. 7
+
+2
+
+5
+
+0
+
+Mittlere Verlustzeiten [s] und mittlere Rückstaulängen [m] am
+Knotenpunkt Bismarckstraße/Friedrich-Ebert-Straße
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+11
+
+Knotenpunkt Friedrich-Ebert-Straße/Westendstraße
+Der vorfahrtgeregelte Knotenpunkt erreicht überwiegend sehr gute Verkehrsqualitäten (Qualitätsstufe A). Der Verkehrsablauf stellt sich daher für
+alle Knotenströme als unproblematisch dar. Beeinträchtigungen für den
+Rad- und Fußgängerverkehr sind im Wesentlichen nicht vorhanden. Insgesamt kann der Knotenpunkt als leistungsfähig beurteilt werden.
+Qualitäts- vorfahrtgeregelter
+Stufe (HBS)
+Knotenpunkt
+A
+10 s
+B
+20 s
+C
+30 s
+D
+45 s
+E
+>45 s
+Auslastung >1
+F
+
+36 mittlere Rückstaulängen [m]
+
+17
+
+mittlere Verlustzeit [s]
+
+Westendstraße (Nord)
+
+12
+0
+Friedrich-Ebert-Straße
+
+9
+
+0
+
+3
+
+0
+
+3
+
+10
+
+0
+
+4
+Westendstraße (Süd)
+
+Abb. 8
+
+Mittlere Verlustzeiten [s] und mittlere Rückstaulängen [m] am
+Knotenpunkt Westendstraße/Friedrich-Ebert-Straße
+
+Knotenpunkt Friedrich-Ebert-Straße/Goethestraße
+Der verkehrsabhängig geregelte Knotenpunkt Friedrich-Ebert-Straße/ Goethestraße weist eine wartezeitoptimale Umlaufzeit von 80 s auf. Auch an
+diesem Knotenpunkt kann aufgrund der erreichten Verkehrsqualitäten eine
+entsprechende Leistungsfähigkeit sichergestellt werden (vgl. Abb. 9).
+QualitätsStufe (HBS)
+
+signalisierter
+Knotenpunkt
+
+A
+B
+C
+D
+E
+F
+
+20 s
+35 s
+50 s
+70 s
+100 s
+>100 s
+
+36 mittlere Rückstaulängen [m]
+
+17
+
+Annastraße
+
+6
+0
+
+Friedrich-Ebert-Straße
+
+28 21
+
+32 13
+
+mittlere Verlustzeit [s]
+
+19
+
+31
+Goethestraße
+
+Abb. 9
+
+Mittlere Verlustzeiten [s] und mittlere Rückstaulängen [m] am
+Knotenpunkt Westendstraße/Friedrich-Ebert-Straße
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+12
+
+Für den Hauptstrom entlang der Friedrich-Ebert-Straße stadtauswärts wird
+mit einer mittleren Verlustzeit von 21 s und einer mittleren Rückstaulänge
+von 28 m die Qualitätsstufe B erreicht. Für den gegenläufigen Hauptstrom
+entlang der Friedrich-Ebert-Straße wird eine mittlere Verlustzeit von 32 s
+erreicht – dies entspricht der Qualitätsstufe B. Der Verkehrsstrom in Richtung Innenstadt weist ferner eine mittlere Rückstaulänge von 13 m auf.
+Die Verkehrssimulation zeigt, dass der Strom aus der Goethestraße mit
+einer mittleren Verlustzeit von 31 s die Qualitätsstufe B erreicht. Die mittlere Rückstaulänge liegt hier bei 19 m. Für die Knotenpunktzufahrt Annastraße, die nicht signalisiert ist, konnte mit einer mittleren Verlustzeit von
+6 s die Qualitätsstufe A erreicht werden.
+Die maximale Rückstaulänge tritt am Knotenpunkt Friedrich-EbertStraße/Goethestraße in der östlichen Knotenpunktzufahrt (Friedrich-EbertStraße stadtauswärts) auf und beträgt 162 m. Die ermittelte maximale
+Rückstaulänge wird vorrangig durch den ÖPNV-Eingriff hervorgerufen,
+baut sich aber zügig innerhalb der nächsten Umläufe wieder ab.
+Für den Fußgängerverkehr können unter Berücksichtigung der ÖPNVPriorisierung angemessene Verkehrsqualitäten erreicht werden. Diese liegen bei der Betrachtung aller Fußgängerfurten (bezogen auf alle Querungsrichtungen) bei einer mittleren Verlustzeit von 38 s. Der geplante Mittelstreifen trägt deutlich zur Überquerungsqualität bei. Somit kann davon
+ausgegangen werden, dass überwiegend der Mittelstreifen als Querungshilfe vom Fußgängerverkehr genutzt und die signalisierte Furt eher gering
+in Anspruch genommen wird.
+Im Radverkehr werden gute Verkehrsqualitäten erreicht. Bis auf die Radfahrbeziehung von der Friedrich-Ebert-Straße in die Goethestraße, die aufgrund des ÖPNV-Eingriffs und der beiden kurz hintereinanderliegenden
+Haltelinien eine mittlere Verlustzeit von 65 s aufweist, erreichen alle weiteren Radfahrbeziehungen eine mittlere Verlustzeit zwischen 10 s und
+25 s. Eine Minimierung der Verlustzeit für den Radverkehr in Richtung
+Goethestraße kann durch eine Verlegung des Radfahrstreifen (für Linksabbieger) in den Seitenraum erzielt werden. So kann vermieden werden,
+dass der linksabbiegende Radverkehr in die Goethestraße zwei unmittelbar
+hintereinanderliegende Haltelinien passieren muss und somit unnötige Verlustzeiten auftreten.
+Die ÖPNV-Fahrzeuge sind am Knotenpunkt priorisiert. Bei einer zeitgleichen Anmeldung von zwei ÖPNV-Fahrzeugen (Begegnungsfall) kann es zu
+gegenseitigen Beeinträchtigungen kommen. Grundsätzlich wird das ÖPNVFahrzeug zuerst abgewickelt, das sich zuerst angemeldet hat. Zusätzliche
+Halte an Lichtsignalanlagen können somit trotz der Priorisierung des ÖPNV
+auftreten.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+13
+
+Abb. 10
+
+Verkehrliche Situation am Knotenpunkt während der Haltestellenaufenthaltszeit (stadteinwärts)
+
+Zusammenfassend
+kann
+der
+Knotenpunkt
+Friedrich-EbertStraße/Goethestraße mit den erreichten Verkehrsqualitäten als ausreichend leistungsfähig beurteilt werden.
+Reisezeiten
+Aufgrund der Bedeutung der Friedrich-Ebert-Straße im gesamten Straßennetz der Stadt Kassel wurde eine Überprüfung der Reisezeiten mit Hilfe
+des Simulationsmodells durchgeführt. Gegenüberzustellen sind die heutigen Reisezeiten entlang der Friedrich-Ebert-Straße (Goethestraße bis Ständeplatz). Dazu wurden mit Unterstützung der Stadt Kassel Reisezeitmessungen im Zeitraum der Spitzenstunde durchgeführt. Für einen Vergleich
+wurden die mittleren Reiszeiten herangezogen.
+Es zeigt sich, dass die Abwicklung des Kraftfahrzeugverkehrs und des
+ÖPNV auf einer gemeinsamen Verkehrsfläche zu keinen signifikanten Veränderungen der Reisezeiten führt (vgl. Abb. 11). Eine geringe Reisezeiterhöhung trat lediglich für die Fahrtbeziehung vom Ständeplatz in Richtung
+Friedrich-Ebert-Straße (West) mit 18 s auf. Dagegen konnte die Reiszeit
+von der Goethestraße in Richtung Ständeplatz geringfügig verbessert werden. Insgesamt sind die ermittelten Reisezeiten aus dem Simulationsmodell mit den heutigen Reisezeiten vergleichbar.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+14
+
+Start
+Ständeplatz
+Routen Kfz- Ständeplatz
+Verkehr Friedrich-Ebert-Straße (West)
+Goethestraße
+
+Abb. 11
+
+Ziel
+
+Reisezeit Reisezeit
+Planung Bestand
+[s]
+[s]
+
+Friedrich-Ebert-Straße (West)
+
+118
+
+Goethestraße
+
+117
+
+100
+117
+
+Ständeplatz
+
+181
+
+178
+
+Ständeplatz
+
+169
+
+174
+
+Reisezeitvergleich zwischen dem Bestand und dem aktuellen
+Gestaltungsvorschlag
+
+Linksabbiegeverkehr
+Das Linksabbiegen von der Friedrich-Ebert-Straße in die Westendstraße
+(Nord) und in die Friedrich-Engels-Straße (Süd) führt zu keiner wesentlichen Beeinträchtigung des Kraftfahrzeugverkehrs entlang der FriedrichEbert-Straße. Fahrtzeitverluste für den ÖPNV aufgrund der Linksabbieger
+konnten nicht festgestellt werden. Grundsätzlich wird aber empfohlen, die
+Entwicklung zu beobachten und gegebenenfalls mit verkehrsordnerischen
+Maßnahmen zu reagieren.
+Park- und Liefervorgänge
+Die Park- und Liefervorgänge wurden soweit wie möglich im Simulationsmodell berücksichtigt. Das für die Untersuchung herangezogene Programmsystem VISSIM berücksichtigt derzeit nur das Vorwärtseinparken.
+Dadurch konnten keine detaillierten Ergebnisse in Bezug auf das Rückwärtseinparken ermittelt werden. Der Einfluss auf den fließenden Kraftfahrzeugverkehr und auf den ÖPNV kann aber als geringfügig eingeschätzt
+werden. Grundsätzlich können aber Beeinträchtigungen des fließenden
+Kraftfahrzeugverkehrs aufgrund von Park- und Liefervorgänge nicht vollständig ausgeschlossen werden.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+15
+
+5
+
+Überprüfung von Sonderfällen
+
+5.1
+
+Erhöhung der Verkehrsbelastungen
+
+Zur Überprüfung der Leistungsfähigkeit der Friedrich-Ebert-Straße (Abschnitt I) wurden im Simulationsmodell die Analyseverkehrsstärken aus
+dem Jahr 2008 herangezogen. Um die verkehrliche Situation bzw. die
+Leistungsfähigkeit auch bei höheren Verkehrsstärken entlang der FriedrichEbert-Straße beurteilen zu können, wurde eine schrittweise Erhöhung der
+verwendeten Verkehrsstärken im Simulationsmodell durchgeführt. Dabei
+wurden die neu entwickelten Lichtsignalprogramme und die vollständige
+Priorisierung des ÖPNV beibehalten.
+Erhöhung der Analyseverkehrsstärken um 10 %
+Bei einer Steigerung der Analyseverkehrsstärken (vgl. Kapitel 2, Abb. 3)
+um 10 % zeigen sich keine wesentlichen Änderungen in der Leistungsfähigkeit der betrachteten Knotenpunkte. Es werden geringfügig höhere Verlustzeiten an einzelnen Knotenpunktzufahrten erreicht, wobei die maximalen Rückstaulängen mit den Analysebelastung vergleichbar bleiben. Demnach kommt es an den signalgeregelten Knotenpunkten zu keinen Rückstaulängen, die eine Beeinträchtigung der vorgelagerten signalisierten Knotenpunkte mit sich bringen würde.
+Die Leistungsfähigkeit des Gestaltungskonzepts der Friedrich-Ebert-Straße
+bleibt auch bei einer Erhöhung der Analyseverkehrsstärken um 10 % erhalten.
+Erhöhung der Analyseverkehrsstärken um 20 %
+Die Erhöhung der Analyseverkehrsstärken (vgl. Kapitel 2, Abb. 3) um 20
+% zeigt die Grenze zwischen stabilen und instabilen Verkehrsablauf auf.
+Insgesamt erhöhen sich die Verlustzeiten spürbar. Am Knotenpunkt Goethestraße/Friedrich-Ebert-Straße werden trotz der Erhöhung der Verkehrsbelastungen überwiegend gute Verkehrsqualitäten (Qualitätsstufe B) erreicht. Am Knotenpunkt Bürgermeister-Brunner-Straße/Friedrich-EbertStraße überwiegt die ausreichende Qualitätsstufe D. Lediglich in der nördlichen Knotenpunktzufahrt (Bürgermeister-Brunner-Straße) wird die
+schlechte Qualitätsstufe E erreicht. Die vorfahrtgeregelten Knotenpunkte
+weisen trotz einer deutlichen Zunahme der Verkehrsbelastungen noch immer gute bis sehr gute Verkehrsqualitäten auf.
+Grundsätzlich zeigen nicht die erreichten Verkehrsqualitäten die Grenzen
+der Leistungsfähigkeit auf, sondern die Rückstaulängen. Das System
+bricht zwar nicht zusammen, jedoch sind die Rückstaulängen als kritisch
+zu bewerten. Zeitweise führen die erreichten Rückstaulängen zu Beeinträchtigungen von vorgelagerten signalisierten Knotenpunkten.
+Im Folgenden sind die erreichten Verkehrsqualitäten bei einer allgemeinen
+Verkehrszunahme von 10 % bzw. 20 % für die signalgeregelten Knotenpunkte Friedrich-Ebert-Straße/Bürgermeister-Brunner-Straße und FriedrichEbert-Straße/Goethestraße dargestellt (vgl. Abb. 12 und Abb. 13). Die
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+16
+
+vorfahrtsgeregelten Knotenpunkte erreichen in allen Knotenpunktzufahrten
+durchweg die Qualitätsstufe B und sind daher als unproblematisch zu beurteilen.
+Bürgermeister-Brunner-Straße
+
+Analyse 2009 +10%
+
+51
+26
+
+QualitätsStufe (HBS)
+
+signalisierter
+Knotenpunkt
+
+A
+B
+C
+D
+E
+F
+
+20 s
+35 s
+50 s
+
+36
+
+70 s
+100 s
+>100 s
+
+Friedrich-Ebert-Straße
+
+67
+29
+
+19
+
+24
+
+15
+
+35
+
+20
+47
+
+Friedrich-Ebert-Straße
+3
+
+mittlere Rückstaulängen [m]
+
+7
+
+53 33
+
+17 mittlere Verlustzeit [s]
+
+Karthäuserstraße
+Bürgermeister-Brunner-Straße
+
+Analyse 2009 +20%
+
+84
+61
+
+Friedrich-Ebert-Straße
+
+60
+30
+
+27
+22
+
+19
+
+40
+
+26
+55
+
+Friedrich-Ebert-Straße
+4 10
+
+63 39
+Karthäuserstraße
+
+Abb. 12
+
+Verkehrsqualitäten am Knotenpunkt Friedrich-Ebert-Straße/
+Bürgermeister-Brunner-Straße bei Erhöhung der Analyseverkehrsstärken von 10 % bzw. 20 %
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+17
+
+Annastraße
+
+Analyse 2009 +10%
+
+8
+0
+
+QualitätsStufe (HBS)
+
+signalisierter
+Knotenpunkt
+
+A
+B
+C
+D
+E
+F
+
+20 s
+35 s
+50 s
+
+36
+
+70 s
+100 s
+>100 s
+
+Friedrich-Ebert-Straße
+37
+
+36
+
+23
+
+18
+
+Friedrich-Ebert-Straße
+19
+
+mittlere Rückstaulängen [m]
+
+28
+
+17 mittlere Verlustzeit [s]
+Goethestraße
+Annastraße
+
+Analyse 2009 +20%
+
+8
+0
+
+Friedrich-Ebert-Straße
+35
+
+64
+
+21
+
+52
+
+Friedrich-Ebert-Straße
+29
+
+35
+Goethestraße
+
+Abb. 13
+
+Verkehrsqualitäten am Knotenpunkt Friedrich-Ebert-Straße/
+Bürgermeister-Brunner-Straße bei Erhöhung der Analyseverkehrsstärken von 10 % bzw. 20 %
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+18
+
+5.2
+
+Erhöhung der ÖPNV-Frequenz
+
+Die Friedrich-Ebert-Straße wird derzeit von drei ÖPNV-Linien befahren. Im
+Simulationsmodell wurde das heutige Fahrplanangebot zur Spitzenstunde
+hinterlegt und entsprechend simuliert. Verspätungen werden nur in geringem Maße berücksichtigt. Ferner weisen alle ÖPNV-Linien die gleiche Taktung von 15 Minuten auf.
+Damit unterschiedliche Begegnungsfälle der einzelnen ÖPNV-Linien an
+Knotenpunkten und auf der Strecke, deutliche Verspätungen und eventuelle Änderungen im Fahrplanangebot berücksichtigt werden können, wurde die Taktfrequenz der einzelnen ÖPNV-Linien erhöht. Die Einspeisung
+der ÖPNV-Linien erfolgt nun alle 9 min, 11 min und 13 min. Somit werden
+nicht nur deutlich mehr Fahrzeuge des ÖPNV in das System eingespeist,
+sondern auch unterschiedliche Begegnungsfälle und Verspätungen (zwei
+aufeinanderfolgende Bahnen) berücksichtigt.
+Die Lichtsignalsteuerungen und die vollständige ÖPNV-Priorisierung entlang der Friedrich-Ebert-Straße bleiben auch im betrachteten Sonderfall
+erhalten. Damit es aufgrund der ÖPNV-Priorisierung zu keinen kritischen
+Erhöhungen der Verlustzeiten im Kfz-Verkehr kommt, wird eine Deckelung
+der Rotzeit auf maximal 100 s festgelegt. Sobald die Rotzeit für einen
+Verkehrsstrom größer 100 s ist, wird die Priorisierung der Bahn unterbrochen und der entsprechende Verkehrsstrom kurz freigegeben. Anschließend erfolgt sofort wieder die Freigabe des Verkehrsstroms mit ÖPNVAnforderung. Die zusätzlichen Verlustzeiten sind somit als gering einzustufen und wirken sich nicht auf das Fahrplanangebot (wesentliche Verspätungen) aus.
+Die Ergebnisse zeigen insgesamt trotz der deutlich erhöhten Anzahl an
+ÖPNV-Fahrzeugen einen unproblematischen Verkehrsablauf. Die deutlich
+erhöhte Frequenz der ÖPNV-Linien führt zu keinen deutlichen Verschlechterungen im Verkehrsablauf, was im Wesentlichen durch die Rotzeitbegrenzung erreicht wird. Erhöhte Rückstaulängen im Kfz-Verkehr können
+auftreten, jedoch ohne vorgelagerte signalisierte Knotenpunkte zu beeinträchtigen. Die ÖPNV Fahrzeuge können die signalisierten Knotenpunkte
+überwiegend ohne zusätzlichen Halt passieren.
+Zusammenfassend ist der Verkehrsablauf auch mit einer deutlichen Erhöhung der ÖPNV-Frequenz als stabil und somit als unproblematisch zu bezeichnen.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+19
+
+6
+
+Zusammenfassung und Empfehlung
+
+Der Straßenzug Friedrich-Ebert-Straße/Goethestraße zwischen dem Ständeplatz und dem August-Bebel-Platz bzw. der Germaniastraße wird derzeit
+planerisch überarbeitet. Unter Beteiligung der örtlichen Akteure wurde ein
+Gestaltungsvorschlag entwickelt, bei dem die Flächen für den Kraftfahrzeugverkehr mit den Fahrwegen des öffentlichen Personennahverkehrs
+überlagert werden. Die Straßenbahn soll dabei als Pulkführerin weitgehend
+behinderungsfrei fahren. Die möglicherweise bei dieser Konzeption trotzdem auftretenden Behinderungen zwischen den Verkehrsarten sollen mit
+Hilfe der Verkehrssimulation überprüft und bewertet werden.
+Das Simulationsmodell legt den aktuellen Gestaltungsvorschlag (vgl. Abb.
+1) und die Analyseverkehrsstärken zur Spitzenstunde (vgl. Abb. 3) entlang
+der Friedrich-Ebert-Straße zwischen Ständeplatz und Goethestraße zu
+Grunde. Ferner wurde das aktuelle Fahrplanangebot der auf der FriedrichEbert-Straße verkehrenden ÖPNV-Linien eingepflegt.
+Aufgrund der neuen straßenräumlichen Situation bzw. der neuen funktionalen Aufteilung der Verkehrsflächen wurden die Lichtsignalprogramme
+für die Knotenpunkte Friedrich-Ebert-Straße/Bürgermeister-Brunner-Straße
+und Friedrich-Ebert-Straße/Goethestraße überarbeitet. Im Vordergrund
+steht dabei die vollständige Priorisierung des ÖPNV (Pulkführer). Der Knotenpunkt Friedrich-Ebert-Straße/Bürgermeister-Brunner-Straße weist auch
+künftig eine Umlaufzeit von 100 s auf, da dieser weiterhin mit dem Knotenpunkt Friedrich-Ebert-Straße/Ständeplatz koordiniert ist. Für den Knotenpunkt Friedrich-Ebert-Straße/Goethestraße wurde eine wartezeitoptimale Umlaufzeit von 80 s verwendet.
+Die Ergebnisse der Verkehrssimulation zeigen, dass eine Abwicklung des
+gesamten Kraftfahrzeugverkehrs unter Berücksichtigung einer vollständigen Priorisierung der auf der Friedrich-Ebert-Straße verkehrenden ÖPNVLinien mit ausreichenden Verkehrsqualitäten erfolgen kann. Die Abwicklung des Rad- und Fußgängerverkehrs kann ebenfalls mit einer guten Verkehrsqualität erfolgen. Es ist jedoch zu berücksichtigen, dass nicht nur die
+Fußgängerfurten mit den entsprechenden Verlustzeiten die Querungsqualität bestimmen, sondern vielmehr der Mittelstreifen zur Querungsqualität
+beiträgt.
+Sowohl die Park- und Liefervorgänge als auch der Linksabbiegeverkehr
+entlang der Friedrich-Ebert-Straße verursachen Verkehrsstörungen. Diese
+führen aber zu keinen signifikanten Beeinträchtigungen. Die leistungsfähige Abwicklung aller Verkehrsteilnehmer entlang des Straßenzuges Friedrich-Ebert-Straße ist möglich.
+Aufgrund der vollständigen ÖPNV-Priorisierung kann der Straßenbahnverkehr flüssig abgewickelt werden. Abgesehen von der Aufenthaltszeit an
+den Haltestellen können die Straßenbahnen die Friedrich-Ebert-Straße im
+untersuchten Abschnitt zügig passieren. Gegenseitige Beeinträchtigungen
+der ÖPNV-Fahrzeuge (zeitgleiche Anmeldung von zwei ÖPNV-Fahrzeugen)
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+20
+
+können an signalisierten Knotenpunkten auftreten. Die dadurch auftretenden zusätzlichen Verlustzeiten können aber als gering beurteilt werden.
+Es wird empfohlen, die Führung Radverkehrs von der Friedrich-EbertStraße in die Goethestraße im Seitenraum erfolgen zu lassen. Dadurch
+können höhere Verlustzeiten aufgrund der zwei unmittelbar hintereinanderliegenden Haltelinien vermieden werden.
+Ferner wird am Knotenpunkt Friedrich-Ebert-Straße/Bürgermeister-BrunnerStraße eine Verlängerung der Aufstellfläche für Linksabbieger von der
+Friedrich-Ebert-Straße in die Bürgermeister-Brunner-Straße auf 60 m empfohlen. Bei einer Doppelanmeldung von zwei ÖPNV-Fahrzeugen (Begegnungsfall) werden die Hauptströme entlang der Friedrich-Ebert-Straße freigegeben. Durch eine Verlängerung der Aufstellfläche kann eine Beeinträchtigung durch einen eventuell überstauten Linksabbiegefahrstreifen
+vermieden werden. Sollte sich nur ein ÖPNV-Fahrzeug am Knotenpunkt
+anmelden, so erfolgt grundsätzlich auch eine Räumung der Linksabbiegefahrstreifen in Verbindung mit dem Geradeausstrom.
+Ferner wurde untersucht, wie sich eine Erhöhung der Verkehrsstärken um
+10 % bzw. 20 % auf die Abwicklung des Kraftfahrzeugverkehrs und des
+ÖPNV entlang der Friedrich-Ebert-Straße auswirkt. Die Erhöhung der Analyseverkehrsstärken um 10 % zeigt keine wesentlichen Auswirkungen auf
+die Abwicklung aller Verkehrsarten. Es werden an allen Knotenpunkten
+ausreichende Verkehrsqualitäten erreicht. Eine Erhöhung der Verkehrsstärken um 20 % zeigt dagegen die Grenze der abzuwickelnden Verkehrsmengen auf. Der Verkehrsablauf bricht zwar nicht zusammen, jedoch befindet sich das System aufgrund der größeren Rückstaulängen an der
+Grenze zur Instabilität. Zeitweise führen die Rückstaus zu Behinderungen
+an vorgelagerten signalisierten Knotenpunkten.
+Außerdem wurde die Erhöhung der Frequenz des ÖPNV in Verbindung mit
+einer Rotzeitbegrenzung für den Kraftfahrzeugverkehr von maximal 100 s
+untersucht. Durch die Erhöhung des Taktes werden deutlich mehr ÖPNVFahrzeuge in das System eingespeist. Weiterhin können größere Verspätungen berücksichtigt werden (zwei aufeinanderfolgende ÖPNVFahrzeuge). In der Gesamtheit kann der Verkehrsablauf als unproblematisch beurteilt werden. Die auftretenden Analyseverkehrsstärken können
+nach wie vor abgewickelt werden. Aufgrund der Rotzeitbegrenzung für
+den Kraftfahrzeugverkehr können zusätzliche Verlustzeiten an signalisierten Knotenpunkten für den ÖPNV auftreten. Eine flüssige Abwicklung des
+ÖPNV ist auch unter diesen Randbedingungen gegeben.
+Die Umsetzung des vorgeschlagenen Gestaltungskonzeptes führt unter
+Berücksichtigung der aufgeführten Empfehlungen zu einem für alle Verkehrsteilnehmer zufriedenstellenden Verkehrsablauf und ermöglicht eine
+Beschleunigung des ÖPNV, indem die Straßenbahn als Pulkführer den
+Straßenzug weitgehend störungsfrei passieren kann. Der vertieften Untersuchung ist zu entnehmen, dass den Bedürfnissen aller Verkehrsteilnehmer Rechnung getragen wird. Die Befürchtung das eine Reduzierung der
+Leistungsfähigkeit aufgrund der Mischverkehrsfläche (Kfz-Verkehr und
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+21
+
+ÖPNV auf einer Fahrbahn) eintritt, konnte mit Hilfe des Simulationsmodells widerlegt werden. Die Friedrich-Ebert-Straße erfüllt auch weiterhin
+ihre verkehrliche Funktion im Straßennetz der Stadt Kassel. Das vorgeschlagene Gestaltungskonzept schöpft das Potential des Straßenraums
+aus, so dass nicht nur eine bedeutende städtebauliche Aufwertung erfolgt, sondern auch „neue Wege“ für den Rad- und Fußgängerverkehr ermöglicht werden. Aus diesen Gründen wird eine Umsetzung des vorgeschlagenen Gestaltungskonzeptes auch aus verkehrlicher Sicht empfohlen.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+22
+
+Anlagen:
+
+Anlage 1: Phasen- und Signalzeitenplan für den
+KP Bürgermeister-Brunner-Straße/
+Friedrich-Ebert-Straße
+Anlage 2: Phasen- und Signalzeitenplan für den
+KP Bürgermeister-Brunner-Straße/
+Friedrich-Ebert-Straße
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+23
+
+Anlage
+
+1:
+
+Knotenpunkt
+Straße
+
+Friedrich-Ebert-Straße/Bürgermeister-Brunner-
+
+B.-Brunner-Straße/
+F.-Ebert-Straße
+Phase 1
+Bgm.-Brunner-Str.
+
+F.-Ebert-Straße (Ost)
+
+F.-Ebert-Straße (West)
+Karthäuserstraße
+
+Phase 2
+Bgm.-Brunner-Str.
+
+F.-Ebert-Straße (Ost)
+
+F.-Ebert-Straße (West)
+Karthäuserstraße
+
+Phase 3
+Bgm.-Brunner-Str.
+
+F.-Ebert-Straße (Ost)
+
+F.-Ebert-Str aße (West)
+Karthäuserstraße
+
+Phase 4
+Bgm.-Brunner-Str.
+
+F.-Ebert-Straße (Ost)
+
+F.-Ebert-Straße (West)
+Karthäuserstraße
+
+Abb. 14
+
+Phasenplan
+für
+den
+Knotenpunkt
+Straße/Bürgermeister-Brunner-Straße
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+Friedrich-Ebert-
+
+24
+
+Bgm.-Brunner-Str.
+SG3
+
+SG22
+
+FES (West)
+
+SG31
+SG2
+
+SG21
+
+SG23
+
+SG1
+
+SG4
+SG5
+
+SG32
+SG24
+
+FES (Ost)
+
+SG6
+Karthäuserstraße
+
+Abb. 15
+
+Signalzeitenplan
+für
+den
+Knotenpunkt
+Straße/Bürgermeister-Brunner-Straße
+
+Friedrich-Ebert-
+
+Dabei ist für den Knotenpunkt Friedrich-Ebert-Straße/BürgermeisterBrunner-Straße folgendes zu berücksichtigen:
+Bei Anmeldung des ÖPNV erfolgt grundsätzlich die Schaltung der Phase 2 bzw. der Phase 4 zur Räumung eines eventuell überstauten
+Linksabbiegefahrtsreifens.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+25
+
+Bei einer gleichzeitigen Anmeldung von zwei ÖPNV Fahrzeugen (Begegnungsfall: stadtauswärts und stadteinwärts) erfolgt die Schaltung
+der Phase 1, solange die jeweiligen Linksabbiegefahrstreifen nicht überstaut sind.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+26
+
+Anlage 2: Knotenpunkt Friedrich-Ebert-Straße/Goethestraße
+
+Goethestraße/
+F.-Ebert-Straße
+Phase 1
+F.-Ebert-Straße (West)
+
+F.-Ebert-Straße (Ost)
+
+Annastraße
+
+Goethestraße
+
+Phase 2
+F.-Ebert-Straße (West)
+
+F.-Ebert-Straße (Ost)
+
+Annastraße
+
+Goethestraße
+
+Phase 3
+F.-Ebert-Straße (West)
+
+F.-Ebert-Straße (Ost)
+
+Annastraße
+
+Goethestraße
+
+Phase 4 (Sonderphase Bahn)
+F.-Ebert-Straße (West)
+
+F.-Ebert-Straße (Ost)
+
+Annastraße
+
+Goethestraße
+
+Abb. 16
+
+Phasenplan
+für
+Straße/Goethestraße
+
+den
+
+Knotenpunkt
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+Friedrich-Ebert-
+
+27
+
+Annastraße
+
+FES (West)
+
+SG311
+
+SG31
+SG22
+
+SG2
+
+SG23
+
+SG1
+SG32
+SG21
+
+SG3
+
+FES (Ost)
+
+SG33
+
+Goethestraße
+
+Abb. 17
+
+Signalzeitenplan
+für
+Straße/Goethestraße
+
+den
+
+Knotenpunkt
+
+Friedrich-Ebert-
+
+Für den Knotenpunkt Friedrich-Ebert-Straße/Goethestraße ist folgendes zu
+berücksichtigen:
+Ohne Anforderung seitens des ÖPNV werden die regulären Phasen 1
+bis 3 geschaltet.
+Für die Phasen 1 und 2 erfolgt eine Feigabezeitanpassung in Abhängigkeit der Zeitlücken im Kraftfahrzeugverkehr, die aber über einen festen Rahmenplan definiert ist.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+28
+
+Die Phase 3 wird ausschließlich für den Rad- und Fußgängerverkehr
+geschaltet (Querung der Friedrich-Ebert-Straße in einem Zug).
+Für eine effektive Ausnutzung der Haltestellenaufenthaltszeit (ÖPNVFahrzeug stadtauswärts) werden die Phasen 3 und 2 als Zwischenphasen geschaltet. Beim Verlassen des Haltestellenbereiches erfolgt der
+Wechsel in Phase 1.
+Während der Haltestellenaufenthaltszeit (ÖPNV-Fahrzeug stadteinwärts) wird aufgrund der Verkehrsführung die Sonderphase 4 geschaltet. Sobald das ÖPNV-Fahrzeug den Haltestellenbereich verlässt, wird
+als Nachlauf die Phase 2 geschaltet.
+
+Kassel – Verkehrssimulation Friedrich-Ebert-Straße/Goethestraße
+
+29
+
+
