@@ -26,7 +26,10 @@
         }
       ],
       "role": "zur Information",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
@@ -37,20 +40,29 @@
         }
       ],
       "role": "zur Information",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "338",
       "role": "beratend",
-      "public": true
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "541",
       "role": "beschließend",
       "authoritative": true,
-      "public": true
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     }
   ],
   "id": "1017"

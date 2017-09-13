@@ -6,8 +6,8 @@
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2009-10-29",
   "auxiliaryFile": [
-    "12667",
-    "11581"
+    "11581",
+    "12667"
   ],
   "consultation": [
     {
@@ -19,7 +19,10 @@
         }
       ],
       "role": "beratend",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
@@ -30,14 +33,20 @@
         }
       ],
       "role": "beratend",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "141",
       "role": "beschließend",
       "authoritative": true,
-      "public": true
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     }
   ],
   "id": "808"

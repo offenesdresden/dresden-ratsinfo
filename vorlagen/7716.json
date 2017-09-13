@@ -32,7 +32,10 @@
         }
       ],
       "role": "beratend",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
@@ -43,32 +46,47 @@
         }
       ],
       "role": "beratend",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "3008",
       "role": "beratend",
-      "public": true
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "2614",
       "role": "zur Information",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "2611",
       "role": "beratend       (federführend)",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "2621",
       "role": "beschließend",
       "authoritative": true,
-      "public": true
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     }
   ],
   "id": "7716"

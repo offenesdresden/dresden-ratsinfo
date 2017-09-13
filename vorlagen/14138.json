@@ -14,14 +14,20 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "6388",
       "role": "1. Lesung (beschließendes Gremium)",
-      "public": false
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "6389",
       "role": "beschließend",
       "authoritative": true,
-      "public": true
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
     }
   ],
   "id": "14138"
