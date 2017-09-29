@@ -6,7 +6,8 @@
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2017-09-07",
   "auxiliaryFile": [
-    "313719"
+    "313719",
+    "316464"
   ],
   "consultation": [
     {
@@ -82,6 +83,30 @@
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "5765",
+      "role": "beschließend",
+      "authoritative": true,
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "6384",
+      "role": "beratend       (federführend)",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "organization": [
+        {
+          "name": "02.11.2017 Stadtrat",
+          "type": "https://oparl.org/schema/1.0/Organization"
+        }
+      ],
       "role": "beschließend",
       "authoritative": true,
       "agendaItem": {
