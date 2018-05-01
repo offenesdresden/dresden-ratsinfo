@@ -1,0 +1,2468 @@
+Open Data Portal der Stadt Dresden
+Technisches Konzept ­ DRAFT ­ Version 1.4 ­ 12.08.2016
+Autoren:
+
+Dr. Michael Martin
+(Institut für Angewandte Informatik (InfAI) e.V., An­Institut an der Universität
+Leipzig)
+Dr. Sebastian Tramp
+(eccenca GmbH, Leipzig)
+
+Versionshistorie des Dokumentes
+Beitragende(r)
+
+Datum
+
+Version
+
+Bemerkungen
+
+M.Martin
+
+28.05.2016
+
+0.1
+
+Erzeugung einer initialen Version und Integration der wiederverwendbaren
+Teile des Konzeptes der Stadt Leipzig, Integration der Vorbemerkungen
+
+M.Martin
+
+06.06.2016
+
+0.2
+
+Neuschreibung der Einleitung und Erklärungen zum Kapitel CKAN
+
+S.Tramp
+
+10.06.2016
+
+0.3
+
+Technische Infrastruktur
+
+M.Martin
+
+13.06.2016
+
+0.4
+
+Überarbeitung der technischen Infrastruktur und der technischen
+Anforderungen
+
+S.Tramp
+
+14.06.2016
+
+0.5
+
+Umstrukturierung und kleinere Änderungen
+
+M.Martin
+
+14.06.2016
+
+0.6
+
+Erzeugung der Grafik zur technischen Infrastruktur, Überarbeitung von
+Glossar, Open Data Formate und Lebenszyklus der Daten
+
+M.Martin
+
+15.06.2016
+
+0.7
+
+Überarbeitung des Kapitels zum Thema Anpassungen der graphischen
+Benutzeroberfläche des Portals sowie des Kapitels zur Beschreibung des
+Open Data Metadaten­Vokabulars, Kategorien und Lizenzen
+
+S.Tramp
+
+15.06.2016
+
+0.8
+
+Allgemeine Überarbeitung
+
+A.Martin
+
+16.06.2016
+
+0.9
+
+Sprachliche Überarbeitung
+
+M.Martin
+
+17.06.2016
+
+0.9.1
+
+M.Martin
+
+21.06.2016
+
+1.0
+
+Verschieben des Kapitels zum Harvesten Dresdener Bestandssysteme
+inklusive Einleitungskapitel und Subkapitel zur Integration weiterer
+Bestandssysteme
+
+M.Martin
+
+22.06.2016
+
+1.1
+
+Überarbeitung des Kapitels über Datenlizenzen
+
+A.Martin
+
+23.06.2016
+
+1.2
+
+Sprachliche Überarbeitung
+
+S.Tramp
+
+27.06.2016
+
+1.3
+
+Überarbeitung Kapitel 2.3 / Bearbeitung restlicher Issues
+
+S.Tramp
+
+12.08.2016
+
+1.4
+
+Neues Kapitel 4.7 (Arbeitsaufwände), Erweiterung von Kapitel 4.4 (Anbindung
+von Bestandsystemen), Kleine Erweiterung von Kapitel 4.6 (Paketierung)
+
+Einarbeitung der Kommentare aus Besprechung vom EB und InfAI
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 1
+
+Inhaltsverzeichnis
+Vorbemerkung
+1 Einleitung
+2 CKAN
+2.1
+Datasets und Ressourcen
+2.2
+Nutzer, Organisationen und Autorisierung
+2.3
+Harvesting von Bestandsdaten
+Überblick
+Technische Umsetzung
+Arbeitsschritte beim Harvesten
+2.4.
+Statische Seiten und Publikation von Anwendungen
+3 Technische Infrastruktur
+4 Technische Anforderungen
+4.1
+Aufbau der hardware­technischen Infrastruktur
+4.1.1
+Portal­Web­Server „opendata.dresden.de“
+4.1.2
+Portal­Daten­Server
+4.2
+Erweiterbarkeit
+4.3
+Netzwerkumgebung
+4.4 Anbindung von Bestandssystemen städtischer Verwaltungsbereiche
+4.4.1
+DUVA
+4.4.2
+Kommis
+4.4.3
+Anbinden weiterer Fremdsysteme
+4.5
+Aufsetzen des Open Data Portals
+4.5.1 Erweiterbarer Datenkatalog
+4.5.1.1 OGD­Meta­Daten­Katalog
+4.5.1.2 Kategorien
+4.5.1.3 Lizenz der zu veröffentlichenden Daten
+4.5.2
+Anpassung der graphischen Benutzeroberfläche des Portals
+4.5.3
+Anpassung der Browserunterstützung
+4.5.4
+Login für Sachbearbeiter
+4.5.5
+Speicherung der Daten
+4.5.6
+Internationalisierbarkeit
+4.4.7
+Bereitstellung der Datensatz­Metadaten
+4.6
+Paketierung, Deployment, Übergabe
+4.6.1
+Bereitstellung und Konfiguration der Betriebsumgebung
+4.6.2
+Erstellung und Installation von Softwarepaketen
+4.6.3
+Finaler Test der Plattform und Demonstration
+5 Organisation und technische Infrastruktur der Daten
+6 Lebenszyklus der Daten
+7 Glossar
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 2
+
+Vorbemerkung
+Durch den Stadtratsbeschluss ​A0076/15 der Stadt Dresden wurde der Oberbürgermeister
+beauftragt, ein Open Data­Konzept zu erstellen und vorzulegen. Der Beschluss macht enge
+Vorgaben hinsichtlich verschiedener Konzepteigenschaften, wie Lizenzbedingungen und
+Datenaufbereitung.
+Die IT­Tochter der Stadt Leipzig, die Lecos GmbH, hat gemeinsam mit dem Institut für
+Angewandte Informatik e. V. an der Universität Leipzig (InfAI e.V.)1 ein Open Data Konzept
+für die Stadt Leipzig erstellt. Nach einer Vorprüfung entspricht die Ausrichtung des
+Konzeptes weitestgehend den im o.g. Dresdner Stadtratsbeschluss formulierten
+Bedingungen. Auf Basis dessen wurde das InfAI für die Erstellung resp. Anpassung des
+Leipziger Open Data Portal­Konzeptes an die angestrebte Open Data Portal­Lösung der
+Landeshauptstadt Dresden beauftragt.
+
+1
+
+​http://infai.org/
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 3
+
+1
+
+Einleitung
+
+Ziel des Vorhabens ist die Konzeption und Umsetzung der Online­Bereitstellung offener
+Daten aus behördlichen Verfahren und Datenbeständen der Stadtverwaltung Dresden zur
+freien Nutzung durch verschiedene Interessengruppen (z.B. Bürger, gewerbliche Nutzer
+und Mitarbeiter der öffentlichen Verwaltung).
+Derartige Bestrebungen sind eine Folge der Zielvereinbarungen von Open (Government)
+Data (Bundesministerium des Inneren)2:
+●
+●
+●
+
+●
+
+Transparenz erhöhen, z.B. durch die Veröffentlichung der Verwendung von
+Haushaltsmitteln,
+Teilhabe fördern, z.B. indem offene Daten als Grundlage bei Beteiligungsverfahren
+für Infrastrukturmaßnahmen dienen,
+neue Kooperationsformen ermöglichen, z.B. in Form von Wirtschaft oder
+Zivilgesellschaft, welche auf Basis von Geo­ oder Umweltdaten neue Anwendungen
+für Bürgerinnen und Bürger entwickeln und
+einen Austausch innerhalb der Verwaltung stärken, z.B. durch die Nutzung von
+bislang unbekannten Daten anderer Behörden.
+
+Aus diesen Zielvereinbarungen werden folgende Anforderungen an die zu implementierende
+Online­Bereitstellung abgeleitet, die direkten Einfluss auf das hier dargestellte technische
+Konzept haben:
+●
+●
+
+●
+
+Verfügbarkeit und freier Zugang: Verfügbarkeit der Daten als Ganzes (unter
+zumutbaren Vervielfältigungskosten und in zweckmäßigem Format),
+Wiederverwendung und Weitergabe: Veröffentlichung unter Bedingungen, welche
+eine Wiederverwendung und Weitergabe ermöglichen (auch in Kombination mit
+anderen Daten) und
+Universelle Beteiligung: Jeder muss in der Lage sein, diese Daten zu nutzen / zu
+verarbeiten und weiter zu verteilen – ohne Benachteiligung von einzelnen Personen,
+Gruppen oder Anwendungszwecken.
+
+Dieses Dokument stellt das technische Konzept dar, anhand dessen die Implementierung
+und Integration in die spätere Laufzeitumgebung ausgerichtet wird und dient somit als
+Vorgabe für alle an der Umsetzung Beteiligten.
+Es berücksichtigt keine organisatorischen Festlegungen oder Verfahrensweisen, sondern
+beschränkt sich auf die technischen Aspekte der Plattform.
+Als Grundlage der technischen Umsetzung wird die Software “Comprehensive Knowledge
+Archive Network” 3 (CKAN) verwendet, die zur Publikation von ausgewählten
+Datenressourcen und den zugehörigen Metadaten eingesetzt werden kann.
+2
+
+http://www.verwaltung­innovativ.de/DE/E_Government/Open_Government/Open_Government_node.ht
+ml
+3
+​http://ckan.org/
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 4
+
+Im Folgenden wird eine kurze Beschreibung der Grundfunktionalitäten von CKAN in Kapitel
+2 beschrieben. Anschließend werden in Kapitel 3 und 4 die technische Infrastruktur und
+deren Anforderungen an die Laufzeitumgebung inkl. Deployment und Betrieb dargestellt.
+Kapitel 5 und 6 behandeln die Konzepte der technischen Dateninfrastruktur und den damit
+verbunden Lebenszyklus der Daten. Abschließend wird ein kurzes Glossar präsentiert.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 5
+
+2
+
+CKAN
+
+CKAN ist eine auf Publikationsprozesse für Open Data spezialisierte Portalsoftware. Im
+Vergleich zu bestehenden Softwarekonzepten lässt sich CKAN als eine Mischung aus
+“Content Management­System” (CMS) und “Dokumenten­Management­System” (DMS)
+beschreiben. Im Allgemeinen wird CKAN als Metadaten­Portal betrieben, welches jedoch
+auch die Daten selbst hosten kann.
+Das Ziel der Open Data Initiative der Kommune ist es u.a., bestehende aber auch neu
+hinzukommende Datensammlungen, Web­Services und evtl. auch zur öffentlichen
+Publikation ausgewählte Dokumente mittels CKAN als zentralen Zugriffspunkt öffentlich
+bereitzustellen. Dabei sollen die Bestandsdaten allerdings nicht zwingend dupliziert werden,
+um diese mittels CKAN neu zu veröffentlichen. Um den Aufwand der Publikation zu
+minimieren, Bestandssystem beizubehalten und entsprechende Verwaltungsprozesse nicht
+durch die Open Data Initiative in erheblichem Maße zu ändern, ist die Wiederverwendung
+eben dieser Bestandssysteme sowie eine automatisierte Veröffentlichung über CKAN
+inhärentes Ziel dieses Projektes. Dies ist einer der Ansprüche, der durch CKAN als Software
+erheblich unterstützt und durch Einsatz von Metadaten4 als Beschreibungsebene für
+Datenbestände ermöglicht wird.
+Ein weiteres Ziel der Open Data Initiative ist es, die zur Veröffentlichung selektierten Daten
+in einer Form zu veröffentlichen, die direkt oder zumindest mit geringem Aufwand
+wiederverwendet (automatisiert digital prozessiert) werden können. Hierfür eigenen sich
+besondere zweckmäßige Formate (z.B. in tabellarischer Form oder Baum­ und
+Graph­basiert), in denen die Datenbestände vorliegen sollten (Rohdaten).
+Unabhängig davon, ob Rohdaten­Dateien (z.B. Haushaltsdaten im CSV­Format) oder
+Services direkt von CKAN oder auf Fremdsystemen verwaltet werden, werden im CKAN
+Daten­Ressourcen (CKAN­Datasets) erzeugt und mit Hilfe eines definierten
+Metadaten­Vokabulares beschrieben. Hierzu können unter anderem Autoren­ und
+Versions­Informationen, Lizenzbestimmungen, Aktualisierungs­Informationen und die
+entsprechende Referenz (Link) auf die Rohdaten selbst zur Verfügung gestellt werden.
+Die so gestalteten Metadaten helfen den entsprechenden Interessengruppen, Rohdaten zu
+finden und Informationen über deren Erzeugungsprozesse sowie Nutzungsbedingungen in
+Erfahrung zu bringen. Weiterhin werden der kommunalen Verwaltung durch die so gestaltete
+Online­Präsentation der Daten Hinweise zu deren Benutzung gegeben sowie Anliegen und
+Zweck der Bereitstellung von Open Data aus Sicht der Stadt Dresden erläutert.
+Im Folgenden wird auf spezielle Aspekte der (Meta­)Datenverwaltung in CKAN
+eingegangen.
+
+4
+
+Metadaten können grob als “Daten über Daten” skizziert werden.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 6
+
+2.1 Datasets und Ressourcen
+Konzeptionell beschreibt CKAN Daten in Form von zwei Konzepten:
+●
+●
+
+Ein Dataset stellt eine Sammlung von Daten dar, welche einen gemeinsamen Zweck
+oder Ursprung haben und als solches gemeinsam gepflegt werden.
+Eine Ressource stellt eine technische Repräsentation konkreter Daten dar (z.B. eine
+CSV­Datei). Ressourcen sind Teil von Datasets und ein Dataset kann mehrere
+Ressourcen umfassen.
+
+Ein Dataset ist ein eher abstraktes Konzept und dient hauptsächlich als
+Metadaten­Container, während eine Ressource ein konkret verarbeitbares Asset darstellt.
+CKAN verwaltet alle Metadaten von Datasets sowie Ressourcen und kann darüber hinaus
+die Ressourcen (die konkrete Datei) selbst auch speichern und bereitstellen.
+Diese Bereitstellung von Ressourcen ist als optional zu sehen, da CKAN auch Links zu
+Ressourcen mit den Metadaten verwalten kann.
+Ein CKAN­Dataset mit Ressourcen umfasst dabei folgende Metadaten:
+1. Metadaten über das Dataset, wie beispielsweise:
+● den Titel der Daten,
+● den Herausgeber,
+● das Datum der Veröffentlichung,
+● das verfügbare Format der Daten sowie
+● das den Daten zugrundeliegende Lizenzmodell.
+2. Eine Anzahl von „Ressourcen“, die Daten selbst beinhalten:
+● Eine „Ressource“ kann beispielsweise
+○ eine CSV­Datei,
+○ eine XML­Datei,
+○ ein PDF­Dokument, ein Bild oder
+○ eine Menge verlinkter Daten im RDF­Format sein.
+Wie oben beschrieben, kann CKAN die Ressourcen intern oder als Link zu einer anderen,
+entfernt liegenden Ressource speichern. Ein CKAN­Dataset kann beliebig viele Ressourcen
+enthalten.
+Metadaten, oder besser das Metadatenvokabular, sind aus technischer Sicht (CKAN), nicht
+als statisch zu betrachten. Hierzu wird allerdings empfohlen, Festlegungen zu treffen,
+welche Metadaten vom Datenverwalter bei der Publikation von Datenbeständen beigetragen
+werden. Eine spätere Änderung der Festlegung ist allerdings aufgrund des flexiblen
+Datenmodells von CKAN möglich.
+Die Lecos GmbH hat in Zusammenarbeit mit der Stadt Leipzig für den initialen Start des
+Open Data Portal Leipzig einen Metadaten­Katalog verabschiedet. Insofern dieser von der
+Stadt Dresden ebenfalls als brauchbar empfunden wird, ist dieser in CKAN entsprechend
+einzurichten/zu implementieren. Dieser Metadaten­Katalog ist in Kapitel 4.4.1.1 dargestellt.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 7
+
+2.2 Nutzer, Organisationen und Autorisierung
+CKAN­Administratoren können Nutzer­Accounts anlegen und sich einloggen. Auf den
+meisten Portalen ist dies zum Suchen und Auffinden der Daten nicht notwendig, jedoch ist
+es für die Publikation und das Bearbeiten der Datenbestände durch den Bereitsteller mit
+entsprechenden Rechten notwendig.
+Im Normalfall gehört jedes Dataset zu einer Organisation. Eine CKAN­Instanz (Installation
+der Software) kann beliebig viele Organisationen enthalten. Diese können zum Beispiel
+Organisationseinheiten der Stadtverwaltung sein, welche Daten publizieren. Jede
+Organisation kann ihren eigenen Workflow und ihre eigenen Rechte bei der Veröffentlichung
+von Daten gestalten.
+Ein Organisations­Administrator kann Benutzer in unterschiedlichen Rollen sowie den
+entsprechenden Berechtigungsgrad der Organisation hinzufügen. Der Benutzer kann
+Datasets für eine Organisation anlegen. Die Freigabe der Daten kann durch einen Benutzer
+in einer höheren Rolle erfolgen.
+Obwohl dies technisch möglich ist, sollten CKAN­Datasets nicht ohne Bezug zur
+veröffentlichenden Organisationen angelegt werden.
+
+2.3 Harvesting von Bestandsdaten
+Überblick
+CKAN ermöglicht die manuelle Bereitstellung von Metadaten für CKAN­Datasets sowie das
+Hosting von Rohdaten im CKAN­Portal selbst. Als Beispiel kann ein Datenverwalter des
+Straßen­ und Tiefbauamtes einen Datensatz über aktuell geplante Änderungen am
+Verkehrsnetz in CKAN manuell anlegen, Titel, Datumsangaben, Lizenzinformationen
+eingeben und die entsprechende Rohdatendatei (z.B. im CSV­Format) über ein spezielles
+Formular hochladen.
+CKAN bietet allerdings auch Komponenten, mit Hilfe derer Daten und/oder Metadaten aus
+Bestandssystemen extrahiert werden können (Harvester), um diese darauffolgend
+automatisiert im Portal­Web­Server als CKAN­Datasets anzulegen oder bestehende
+CKAN­Datasets zu aktualisieren. Für häufig verwendete Metadaten­Formate, wie
+beispielsweise CSW und CKAN, können existierende Harvestingkomponenten
+wiederverwendet oder erweitert werden. Insofern spezielle Formate aus Bestandssystemen
+zu extrahieren sind, bietet CKAN eine Schnittstelle (API) an, auf Basis derer weitere
+Formate durch neu zu entwickelnde Komponenten verarbeitet werden können.
+
+Technische Umsetzung
+Harvester als managebare Entitäten sind im CKAN Portal unter den Datensätzen einer
+Organisation sichtbar (privat, nur für Mitglieder der Organisation). Sie unterscheiden sich
+von Datensätzen aber dadurch, dass sie eine spezielle Administrations­UI haben, welche die
+Konfiguration des Harvesters, sowie ein Logbuch und eine Übersicht bereitstellt.
+Die folgendenden Screenshots zeigen beispielhaft Übersicht, Logbuch (Jobs) und
+Konfiguration (Bearbeiten) eines beispielhaften Harvesters. Die Konfiguration eines
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 8
+
+Harvesters enthält dabei auch veränderbare Parameter, wie ID des Ziel­Datensatzes oder
+eine URL. Diese Daten sind Harvester­spezifisch.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite 9
+
+Arbeitsschritte beim Harvesten
+Soll ein Harvester im CKAN Portal benutzt werden, müssen folgende Arbeitsschritte
+durchgeführt werden:
+1. Installation des Harvesters im CKAN Portal (System­Administrator) ­ der (Python)
+Der Quellcode des Harvesters wird dem CKAN­Portal bereitgestellt. In den meisten
+Fällen bedeutet dies, den Quellcode auf dem CKAN Portal­Server zu downloaden,
+die pip­Installationsroutine auszuführen und danach das python Setup script zu
+starten. Näheres wird in der Dokumentation des Harvesters beschrieben.
+2. Erstellung und Konfiguration einer “Harvest Source”
+Es handelt sich dabei um eine konkrete Instanz des Harvesters für eine Organisation
+(CKAN Administrator) ­ nach diesem Schritt ist der Harvester für Nutzer verfügbar.
+3. Benutzung und Konfiguration des Harvesters (Fachbereich, CKAN Nutzer)
+in den meisten Fällen sind die Harvester so konfiguriert, dass sie ganze
+Dataset­Kataloge harvesten. Erneutes Harvesten würde die CKAN­Datensätze
+aktualisieren, neue Datensätze hinzufügen und nicht mehr existierende löschen. In
+manchen Fällen muss die Konfiguration eines Harvesters pro Job geändert werden
+(siehe Screenshot oben). Dies kann die Konfiguration eines Ziel­Datasets sein oder
+die Änderung einer Dataset­URL. Die Konfiguration ist Harvester­spezifisch.
+
+2.4. Statische Seiten und Publikation von Anwendungen
+In CKAN können zusätzlich zu den Funktionen zur Suche und Betrachtung von
+Datensätzen, zum manuellen/automatisierten Management von Datensätzen sowie zu
+administrativen Aufgaben des Portals auch statische Seiten verwaltet werden. An dieser
+Stelle zeigt sich auch der CMS­Aspekt der Portalsoftware. Diese Funktionsgruppe ist
+notwendig, um sich selten ändernde Inhalte des Portals zu verwalten. Hierzu zählen
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+10
+
+Informationsbereiche wie beispielsweise juristische Informationen (Impressumsangaben,
+AGBs, ANBs), aber auch erklärende Beschreibungen zur Benutzung des Portals.
+Weiterhin könnten durch die Nutzung statischer Seiten auch Anwendungen von Dritten
+beschrieben und verlinkt werden, die im Portal bereitgestellte Daten nutzen. Dies wird in
+verschiedenen Open Data Portalen (bspw. das der Europäischen Kommission5 und des
+Britischen Governments6 betrieben) und dient gewissermaßen als Feedbackschleife. Hierfür
+kann ein Workflow zur Einreichung und Auswahl von Anwendungen integriert werden, ohne
+diese Anwendungen in der Folge auf städtischer Seite hosten zu müssen.
+
+5
+6
+
+​https://data.europa.eu
+​https://data.gov.uk/
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+11
+
+3
+
+Technische Infrastruktur
+
+Das Basissystem des Open­Data­Portals folgt vereinfacht beschrieben dem klassischen
+Konzept einer 3­Schichten­Architektur (Präsentationsschicht, Anwendungsschicht und
+Datenhaltungsschicht), die physikalisch auf 2 Server abgebildet wird.
+Ein Server hält dabei die Präsentations­ und Anwendungsschicht. Die Präsentationsschicht
+wird in Form eines Web­Servers („Portal­Web­Server“) zur Publikation und Präsentation der
+veröffentlichten Daten bereitgestellt. Die Anwendungsschicht hält all die Komponenten, die
+zur Steuerung des Portals, zum Management der Daten und Benutzergruppen sowie zum
+Harvesten der Daten aus Fremdsystemen benötigt werden.
+Ein zweiter Server repräsentiert die Datenhaltungsschicht, die sämtliche Datenspeicher
+(„Portal­Daten­Server“) des Systems verwaltet.
+Die Präsentation der Daten erfolgt auf einem Portal­Web­Server mit einer an das Layout des
+Internet­Auftritts der Stadt Dresden angepassten Benutzeroberfläche. Als Portal­Basis
+kommt auf diesem Portal­Web­Server CKAN in der Version 2.x zum Einsatz.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+12
+
+4
+
+Technische Anforderungen
+
+Über die für den Erfolg des Open­Data­Portals erforderlichen organisatorischen
+Anforderungen an die Bereitstellung der Daten durch die Organisationseinheiten der
+Stadtverwaltung hinaus, sind alle in diesem Abschnitt beschriebenen technischen
+Anforderungen an das System zu erfüllen.
+
+4.1 Aufbau der hardware­technischen Infrastruktur
+Das Gesamtsystem des Portals besteht aus 2 virtuellen Servern. Auf den Servern ist das
+Betriebssystem Ubuntu in der Version „14.04 LTS Server“ installiert.
+Im Einzelnen sind die Server wie folgt zu charakterisieren:
+
+4.1.1 Portal­Web­Server „opendata.dresden.de“
+Dieser Server ist über eine öffentliche IP­Adresse direkt oder über einen Proxy für alle
+Nutzer zur Datenabfrage erreichbar und stellt den zentralen Zugriffspunkt des Systems dar.
+Interne Benutzer aus den Organisationseinheiten der Stadtverwaltung werden zum Zweck
+der Datenpublikation über ein spezielles Routing über die interne IP­Adresse des Servers
+gelenkt.
+Er ist mit folgenden Ressourcen ausgestattet:
+Virtuelles System auf einem ESX Host
+Arbeitsspeicher
+
+8GB
+
+Anzahl der CPUs
+
+4
+
+Größe des Datenspeichers (HDD)
+
+100GB
+
+Netzwerkschnittstellen
+
+2 (Public und Management)
+
+Die Festplattenkapazität dieses Servers ist für die Bereitstellung der Anwendung mehr als
+ausreichend dimensioniert. Ein Anwachsen des Datenvolumens auf diesem Server ist nicht
+zu erwarten, da hier keine Arbeitsdaten vorgehalten werden.
+Auf diesem Server wird die CKAN­Server­Software installiert, welche ein Python­basiertes
+Webportal ist.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+13
+
+4.1.2 Portal­Daten­Server
+Dieser Server stellt den Host für den FileStore und den Datenkatalog. Er ist mit folgenden
+Ressourcen ausgestattet:
+Virtuelles System auf einem ESX Host
+Arbeitsspeicher
+
+8GB
+
+Anzahl der CPUs
+
+2
+
+Größe des Datenspeichers (HDD)
+
+100GB SAN (erweiterbar)
+
+Netzwerkschnittstellen
+
+2 (Public und Management)
+
+Auf diesem Server werden die CKAN­Datenbank (Postgres 9.37) und der CKAN Full Text
+Index (Apache Solr 4.10) installiert, welche die Daten des Portals halten. Außerdem stellt
+dieser Server eine NFS­Freigabe zum Portal Server für die direkt bereitgestellten
+Daten­Ressourcen bereit. Wie aus den Vorbesprechungen hervorgeht, sollen vorerst
+ausschließlich verlinkte Ressourcen bereitgestellt werden.
+
+4.2 Erweiterbarkeit
+Die Vorgaben zur Anzahl der CPU’s und Arbeitsspeicher stellen eine Startgröße dar, die, bei
+sich abzeichnender zu hoher Belastung, jederzeit über die virtuelle Infrastruktur erweitert
+werden kann. Insbesondere die Kapazität des SAN­Speichers ist als erweiterbar konzipiert
+und kann bei Bedarf erhöht werden.
+Dieser Speicher wird in allererster Linie für die Datenbanken und den FileStore benötigt. Der
+FileStore­Bedarf wächst in besonderem Maße, wenn auf diesen Server Datenbestände
+hochgeladen werden. Durch Verlinkung der Daten auf bereits vorhandene Datenbestände
+kann der Bedarf an Speicherplatz gering gehalten werden. Wie in Kapitel 2.3 beschrieben,
+wird zumindest zum Start des Open Data Portals ein Harvesting von Bestandsdaten aus
+Fremdsystemen angestrebt. Hierbei werden ausschließlich Metadaten in den CKAN­eigenen
+Datenkatalog übernommen, die eigentlichen Rohdaten aber auf dem Fremdsystem
+belassen. Aktuell wird davon ausgegangen, dass dies keinen resp. nur geringen Einfluss auf
+die Speicherbelegung des Portal­Daten­Servers hat.
+
+4.3 Netzwerkumgebung
+Die beiden Server Portal­Web­Server und Portal­Daten­Server können netztechnisch in
+verschiedenen Zonen untergebracht werden, um eventuellen Sicherheitsaspekten der
+IT­Administration genüge zu leisten. Dabei kann der Portal­Web­Server in einer Art
+„Bereitstellungs­Zone“ untergebracht werden, die speziell für Internet­Zugriffe konfiguriert
+wurde und somit das interne Netz vor Angriffen schützt (DMZ). Dieser Server würde in Folge
+7
+
+Zum aktuellen Zeitpunkt kann das CKAN Datenportal nicht mit anderen relationalen Datenbanken
+(MySQL, Oracle) betrieben werden.
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+14
+
+mit dem Portal­Daten­Server kommunizieren, der wiederum in einer „Internen Zone“ stehen
+kann (konkret, via NFS sowie die Ports von Postgres und Solr).
+Aktuell ist bei der in der folgenden Abbildung dargestellten Netzwerkumgebung DUVA in der
+Internen Zone platziert, was bedeutet, dass dieses Portal nicht der breiten Öffentlichkeit zur
+Verfügung gestellt wurde. Dies bedeutet aus administrativer Sicht, dass eine entsprechende
+Netzwerkkonfiguration nicht nur für die Kommunikation zwischen Portal­Web­Server und
+Portal­Daten­Server, sondern auch zwischen Portal­Web­Server und DUVA bedacht und
+erzeugt werden muss. Insofern DUVA bei Veröffentlichung des Open Data Portals ebenfalls
+öffentlichen Zugang erhält, ist dies natürlich hinfällig.
+
+Die Kommunikation zwischen Benutzern und der Plattform erfolgt vorraussichtlich über eine
+Transportverschlüsselung (https). Ein dafür notwendiges Server­Zertifikat ist zu beschaffen
+und auf dem Portal­Web­Server zu installieren.
+
+4.4 Anbindung von
+Verwaltungsbereiche
+
+Bestandssystemen
+
+städtischer
+
+Wie in Kapitel 2.3 beschrieben, enthält CKAN eine Software­Komponente, die das Einbinden
+von Harvestern ermöglicht. Diese Harvester werden verwendet, um Bestandsdaten resp.
+deren Metadaten abzufragen und in den CKAN­eigenen Datenkatalog zu übernehmen.
+Aktuell stehen zwei Bestandssysteme der Dresdner Stadtverwaltung bereit, um Daten für
+das Open Data Portal der Stadt Dresden zu liefern. Beide Bestandssysteme werden
+nachfolgend beschrieben.
+Diese Harvester greifen vom Portal­Web­Server aktiv auf Intranet oder Internet Ressourcen
+zu, um die Daten zu beschaffen. Technisch läuft dies über einen python Prozess ab, welcher
+HTTP Requests sendet. Die meisten Harvester nutzen hierfür Python Standard Bibliotheken
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+15
+
+und können somit HTTPS Verbindungen aufbauen. Ausgehende Verbindungen sollten nur
+zu den konkret angebundenen Zielsystemen erlaubt werden. Die Kommunikation zwischen
+Portal Server und angebundenen Systemen muss unter dem Aspekt der Sicherheit durch
+den EB­IT bewertet werden.
+
+4.4.1 DUVA
+Dieses System verwaltet statistische Informationen und kann Informationen über eine
+Schnittstelle im CKAN­Metadaten­Format bereitstellen. Auf Basis dieser Schnittstelle können
+Daten mittels des CKAN­Harvesters automatisiert extrahiert und im Open Data Portal zur
+Verfügung gestellt werden.
+Aktuell werden über DUVA 387 Themen verschiedener Verwaltungsbereiche gehostet,
+welche aus Open Data­Sicht voraussichtlich 387 eigene CKAN­Datensätze repräsentieren
+können. Zu jedem der 387 Themen existieren auch spezielle interaktive Visualisierungen,
+die über einen eindeutigen Identifizierer adressiert werden können. Diese Identifizierer
+können in den Metadatenbestand der jeweiligen CKAN­Ressource übernommen werden,
+um Benutzer direkt auf das entsprechende Portal mit der jeweiligen Visualisierung
+hinzuweisen. Inhaltlich wird die Visualisierung des Datensatzes als eigene Repräsentation
+und damit als verlinkte Ressource behandelt.
+Weiterhin lassen sich auch Datenbestände zusammenfassen, z.B. um eine entsprechende
+“Zeitscheibe” zu repräsentieren. Aktuell ist das Portal noch nicht öffentlich erreichbar und
+müsste ­ insofern Visualisierungen verlinkt werden ­ im Rahmen der Veröffentlichung des
+Open Data Portals der Öffentlichkeit zugänglich gemacht werden.
+
+4.4.2 Kommis
+Kommis ist ebenfalls ein Bestandsystem der kommunalen Verwaltung und hostet Daten mit
+Geodaten­Bezug.
+Kommis
+hält
+gleichfalls
+Datensätze
+aus
+verschiedenen
+8
+Verwaltungsbereichen der Stadt bereit und ist als Themenstadtplan der Stadt Dresden einer
+breiten Öffentlichkeit zur Verfügung gestellt.
+Auch dieses Webportal ist mit einer API ausgestattet, die durch den GeoMIS­Harvester von
+CKAN verwendet werden kann. Weiterhin können Links zum MapControl in den
+entsprechenden CKAN­Datensatz integriert werden. Nach aktuellen Recherchen kann mit
+ca. 400 Datensätzen kalkuliert werden, die aus diesem Bestandssystem extrahiert und im
+Open Data Portal integriert/referenziert werden können
+
+4.4.3 Anbinden weiterer Fremdsysteme
+Für den initialen Start des Portals sind ca. 800 Datensätze eine gute Ausgangsbasis.
+Optimalerweise werden aber auch zur Laufzeit des Portals (nach öffentlicher
+Bekanntgabe/Freischaltung des Portals für die breite Öffentlichkeit) weitere
+Bestandssysteme mit angebunden. Um evtl. weitere Systeme anzubinden, sind folgende
+Szenarien möglich:
+1. Es erfolgt das Anbinden eines Systems, das Daten in einem bekannten Format
+bereitstellt, die im WWW erreichbar sind und durch bestehende
+Harvester­Implementierungen direkt abgerufen werden können. Je nach
+8
+
+​http://stadtplan.dresden.de/
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+16
+
+Konfigurationsaufwand und evtl. Anpassungen der empfangenen Daten ist der
+Integrationsaufwand als sehr gering einzustufen (zw. 1 und 5 Personentagen).
+2. Denkbar wäre ein System ähnlich wie in Punkt 1, allerdings mit der Einschränkung,
+dass dieses System nicht öffentlich erreichbar ist. In dieser Situation können die zu
+publizierenden Daten nicht referenziert werden, sondern müssen zusätzlich an einer
+öffentlich zugänglichen Stelle gespeichert werden. Dies kann durch den
+CKAN­FileStore übernommen werden, hat aber Auswirkungen auf die technischen
+Parameter des Systems, welche evtl. entsprechend zu ändern sind. An dieser Stelle
+werden nicht nur Metadaten geharvestet, sondern auch die (zuvor selektierten)
+eigentlichen Daten. Der zusätzliche Arbeitsaufwand bei diesem Szenario variiert je
+nach Größe des Datenaufkommens, ist aber ähnlich wie bei Szenario 1.
+3. Ein weiteres Szenario ergibt sich, wenn Bestandsysteme angebunden werden, für
+die keine Harvester­Implementierung für CKAN zur Verfügung steht. Hierbei ist mit
+einem entsprechenden Entwicklungsaufwand zu rechnen, der je nach Komplexität
+der anzubindenden Schnittstelle und des resultierenden Metadatenformats
+bemessen werden muss. Eine verlässliche Aussage über den Aufwand kann an
+dieser Stelle nicht getroffen werden. Der Einarbeitungsaufwand in die
+Programmierung von CKAN­Harvestern ist allerdings aufgrund der sehr
+umfangreichen Dokumentation der API als gering einzustufen (Je nach
+Vorkenntnissen des Entwicklers ist mit einem Einarbeitungsaufwand von 3 ­ 5 Tagen
+zu kalkulieren.).
+4. Insofern das anzubindende Bestandssystem über keine zugreifbaren Schnittstellen
+verfügt, die Metadaten in einem verarbeitbaren Format zur Verfügung stellen, so ist
+eine entsprechende Schnittstelle zu entwickeln und zu integrieren. Bei diesem
+Szenario hängt der zu kalkulierende Aufwand von der Komplexität des
+Bestandssystems ab und ist mit den Aufwänden aus einem der ersten drei Szenarien
+zu kombinieren. Erfahrungen aus früheren Projekten zeigen, dass bei einem
+komplett neuem Harvester von Projekt­Größen von 15 ­ 30 Tagen ausgegangen
+werden muss. Dies ist stark abhängig davon, wie gut der Zugriff auf den
+Ziel­Daten­Katalog und das Ziel­Datensatz­Format dokumentiert ist.
+
+4.5 Aufsetzen des Open Data Portals
+4.5.1 Erweiterbarer Datenkatalog
+Es ist ein erweiterbarer Datenkatalog auf Basis CKAN v2.3 aufzubauen. Der Datenkatalog
+ist integriert in die CKAN­API und das Autorisierungssystem. Er arbeitet parallel zum
+DataPusher, welcher als Dienst automatisch Daten aus dem FileStore oder aus extern
+verlinkten Datenbeständen in den Datenkatalog lädt. Die Daten im FileStore wurden zuvor
+von Benutzern verlinkt.
+Der Datenkatalog existiert ergänzend zum FileStore, welcher die Dateien in physischer Form
+vorhält und durch Benutzer nicht direkt erreichbar ist. Er stellt eine Art Datenbank dar, die
+von Benutzern durchsucht werden kann. Softwaretechnische Voraussetzung für den
+Datenkatalog ist eine Instanz einer PostgreSQL 9.3­Installation auf dem Portal­Daten­Server
+(2).
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+17
+
+4.5.1.1
+
+OGD­Meta­Daten­Katalog
+
+In der Grundinstallation ist der durch das Fraunhofer Institut für offene
+Kommunikationssysteme
+(FOKUS)
+empfohlene
+OGD­Meta­Daten­Katalog
+zu
+implementieren. Die vereinfachte Beschreibung der Metadaten­Felder ist in nachfolgender
+Tabelle aufgeführt. Informationen über technische Bezeichner im JSON­Format,
+Bezeichner­Hierarchien, Datentypen und Format­Pattern sind im offiziellen und frei
+zugänglichen Entwicklungs­Repositorium von GOVDATA einsehbar9. Weiterhin ist zu
+bedenken, dass sich das Metadatenschema unter iterativer Entwicklung befindet und mit
+hoher Wahrscheinlichkeit in Zukunft wiederkehrend ändern wird. Informationen hierzu sind
+auf der entsprechenden GOVDATA­Webseite 10 zu finden.
+Metadaten Eintrag
+
+Pflicht
+
+Beschreibung
+
+Name
+
+X
+
+Der Name ist ein für Menschen lesbarer Bezeichner des
+Datensatzes, des Dokuments oder der Apps, der für eine
+Identifizierung genutzt werden kann (einfache
+ASCII­Präsentation des Titels, auch für die Pretty­Link­URL,
+Linked Data URIs). Um Dopplungen zu vermeiden, wird
+empfohlen, dem eigentlichen Namen Land, Bundesland und
+ggf. feinerer Gebietskörperschaft einen ISO 3166­1 und ­2
+Code voranzustellen, z.B. de­mv­rostock­polizeidienststellen.
+
+Titel
+
+X
+
+Der Titel beschreibt den Datensatz, das Dokument oder die
+App prägnant und wird z. B. in Suchergebnissen und Listen
+angezeigt.
+
+Veröffentlichende Stelle
+
+X
+
+Diese ist die Behörde, von der die Daten stammen oder im
+Falle von Apps der App­Hersteller.
+
+Veröffentlichende Stelle (Email)
+
+Es handelt sich um die Email­Adresse oder das
+Kontaktformular der veröffentlichenden Stelle.
+
+Datenverantwortliche Stelle
+
+Dieser Ansprechpartner kann bei Fragen und Anmerkungen
+zu den Daten kontaktiert werden.
+
+Datenverantwortliche Stelle
+(Email)
+
+Es handelt sich um die Email­Adresse oder das
+Kontaktformular der datenverantwortlichen Stelle.
+
+Beschreibung
+
+X
+
+Diese beinhaltet eine Beschreibung und weitere Informationen
+zum Datensatz, zum Dokument oder zur App, wird auf der
+Detailseite dargestellt und kann mehrere Absätze umfassen.
+
+Kategorien
+
+X
+
+Diese beinhalten Kategorien für die Datensätze und
+Dokumente. Die Kategorien sind statisch und werden vom
+Portalbetreiber langfristig gepflegt
+
+Schlagwörter
+
+Es handelt sich um freie Schlüsselwörter des Datensatzes,
+des Dokuments oder der App.
+
+Website
+
+Diese ist die ursprüngliche Webadresse des Datensatzes,
+Dokuments oder der App, um zu weiteren Informationen über
+
+​https://github.com/GovDataOfficial/OGD­1.1​ bzw.
+http://htmlpreview.github.io/?https://github.com/GovDataOfficial/OGD­1.1/blob/master/OGPD_JSON_Sc
+hema.html
+10
+​https://www.govdata.de/metadatenschema
+9
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+18
+
+diese Komponenten zu gelangen und wird auf der Detailseite
+als Link angezeigt.
+Typ
+
+X
+
+Dieser zeigt an, ob ein Datensatz, ein Dokument, eine App
+beschrieben wird und entscheidet darüber, in welchem
+Bereich diese Metadaten angezeigt werden.
+
+Ressourcen
+
+X
+
+Folgende Felder können für jede Ressource individuell
+angegeben werden.
+
+URL
+
+X
+
+Dies dient als Verweis auf die eigentliche Datendatei, das
+Dokument oder die Anwendung.
+
+Format
+
+X
+
+Dieses stellt den Typ der Ressource (MIME Types) dar.
+
+Beschreibung
+
+Sie enthält eine Erläuterung, welche Rolle die Ressource für
+den Datensatz, das Dokument bzw. die App spielt (z. B. ob es
+sich dabei um eine bestimmte Zeitscheibe oder Schlüsselliste
+handelt. Der Beschreibungstext wird mit dem Link zur
+Ressource unterlegt.)
+
+Sprache
+
+Die Sprache, in der die Ressource verfasst ist, besteht aus
+einem ISO 639­1­Code.
+
+Prüfsumme
+
+Diese ist bei statischen Dateien die SHA2­Prüfsumme bzw. bei
+dynamischen Daten ein Zertifikat zur Überprüfung der
+Integrität.
+
+Lizenz­ID
+
+X
+
+Die Lizenz stammt aus einer festen Liste.
+
+Extras
+
+X
+
+Zusätzliche Angaben
+
+Kontakte
+
+Es findet sich eine Liste der Kontakte zu Metadaten, Daten,
+Dokument bzw. App.
+
+Rolle
+
+X
+
+Es wird die Rolle definiert, die dieser Kontakt für das
+Metadatum innehat. Unter der veröffentlichenden Stelle wird
+die zuständige Behörde bzw. Organisationseinheit verstanden.
+Diese Angabe wird auch für den Filter 'nach Bereitsteller'
+genutzt. Der 'Ansprechpartner' soll dagegen von den
+Datennutzern bei Fragen und Kommentaren kontaktiert
+werden, daher können auch Funktionstitel und
+Funktions­Email­Adressen angegeben werden.
+
+Name
+
+X
+
+Dieser ist der Name der Person oder Funktion.
+
+Website
+
+Es handelt sich um die Webseite des Kontakts.
+
+Email
+
+Die Email­Adresse des Kontakts (wird auch für
+Benachrichtigungen genutzt).
+
+Adresse
+
+Hierbei handelt es sich um die postalische Adresse des
+Kontakts.
+
+Kalender­Daten
+
+X
+
+Es sind Erstellungs­, Veröffentlichungs­ und
+Aktualisierungsdaten von Daten, Dokumenten, Apps und ihren
+Metadaten aufgeführt, die in der Oberfläche so angezeigt
+werden, dass Datennutzer einen Eindruck von der Aktualität
+der Daten bekommen.
+
+Rolle
+
+Es wird die Rolle eines Datums für den Datensatz definiert.
+
+Datum
+
+Hier wird das Kalender­Datum ausgewiesen.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+19
+
+Nutzungsbestimmungen
+
+Es erfolgt eine Festlegung der spezifischen
+Nutzungsbestimmungen des Datensatzes, des Dokuments
+oder der App.
+
+Freitext
+
+Der die Nutzungsbestimmungen (falls diese keiner allgemein
+bekannten Lizenz entsprechen) festlegende Freitext kann
+genutzt werden.
+
+URL
+
+Diese ist jene URL, auf der die Lizenz des Datensatzes,
+Dokuments oder der App beschrieben und erklärt ist.
+
+Namensnennungs­Text
+
+Der exakte Text ist hierin auffindbar, der im Rahmen der
+Namensnennung anzugeben ist.
+
+Nutzungsfreiheit
+
+Die Information, ob der Datensatz/das Dokument/die App
+kostenfrei und zweckoffen ist, findet sich hier und muss
+gesetzt werden, wenn Freitext bei der Lizenzangabe genutzt
+wird.
+
+Unterkategorien
+
+Es handelt sich um Unterkategorien für die Datensätze und
+Dokumente. Im Gegensatz zu den Kategorien werden hier
+genau die (fachlichen) Kategorien der Datenbereitsteller
+genutzt, d.h. jeder neu angeschlossene Datenbereitsteller
+kann hier benötigte Unterkategorien hinzufügen,
+beispielsweise aus INSPIRE oder EVAS.
+Unterkategorien werden auch für die Navigation und für Filter
+genutzt.
+
+Original­Metadaten­Portal
+
+Es ist die URL des Portals gemeint, von dem der
+Metadateneintrag des Datensatzes oder des Dokuments
+geharvestet wurde.
+
+Original­Metadaten­Schlüssel
+
+Der Identifier des ursprünglichen Metadateneintrags der
+Datensätze oder der Dokumente ist hierin angegeben. Damit
+kann schnell die Originalposition von geharvesteten
+Datensätzen oder Dokumenten nachvollzogen und Dubletten
+erkannt werden. Er wird nicht in der Oberfläche angezeigt.
+
+Original­Metadaten­XML
+
+Die URL des Original­Metadateneintrags liegt in der
+ursprünglichen Form vor. Der Dateneintrag wird nicht in der
+Oberfläche angezeigt und erscheint als Link in der Detailseite.
+
+Original­Metadaten­HTML
+
+Hier steht die URL des Original­Metadateneintrags in der
+HTML­Repräsentationsform. Der Dateneintrag erscheint als
+Link in der Detailseite.
+
+Metadaten­Transformator
+
+Dubletten von transformierten Metadaten werden über die
+'metadata_original_id' identifiziert. In diesem Fall werden
+durch den Autor bereitgestellte Metadaten bevorzugt.
+
+Abdeckung in Koordinaten
+
+Die geographische Abdeckung des Datensatzes erfolgt in
+WGS 84­Koordinaten nach GeoJSON ​http://geojson.org​. und
+wird später für eine geographische Suche verwendet.
+
+Art der Form
+
+Hier ist zunächst nur Polygon vorgesehen, andere wären
+vorstellbar.
+
+Koordinaten
+
+Eine Liste von LinearRing Koordinaten. Dabei ist zu beachten,
+dass der erste Eintrag den äußeren Ring darstellt und die
+folgenden Einträge innere Ringe oder Löcher darstellen.
+
+Räumliche Abdeckung der
+Datensätze
+
+Diese kann durch verschiedene Nomenklaturen oder
+Standards beschrieben werden.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+20
+
+ags
+
+Es handelt sich um eine geographische Abdeckung durch den
+Amtlichen Gemeindeschlüssel (AGS).
+
+nuts
+
+Das beschreibt die geographische Abdeckung durch den
+NUTS­Code.
+
+uri
+
+Dies ist eine Linked Data Ressource, die per URI identifiziert
+ist und der geographischen Abdeckung entspricht.
+
+text
+
+Die Abdeckung erfolgt als Freitext, falls keine der
+Nomenklaturen oder Standards verwendet werden können.
+
+Räumliche Auflösung
+
+Die geographische Granularität des Datensatzes, eines
+Dokuments, einer App. ist hierin abgebildet und wird später
+zum Filtern verwendet.
+
+Start­Datum
+
+Der Zeitpunkt, von dem an der Datensatz, das Dokument oder
+die App einschließlich Daten enthält. Wird insb. zum Filtern
+verwendet.
+
+End­Datum
+
+Das ist der Zeitpunkt, bis zu dem der Datensatz, das
+Dokument oder die App valide Daten enthält. Diese
+Information wird insb. zum Filtern verwendet.
+
+Zeitliche Auflösung
+
+Hier findet sich die zeitliche Auflösung der enthaltenen Daten,
+des Dokuments oder der App. Diese Information wird später
+zum Filtern verwendet.
+
+Faktor für zeitliche Auflösung
+
+Mit diesem Faktor kann die zeitliche Auflösung auf n­mal
+temporal_granularity festgelegt werden, z.B. 15 Minuten.
+
+Verwendete Datensätze
+
+Hier sind die verwendeten Datensätze von Apps mithilfe einer
+Liste mit URLs auf Metadaten gelistet. Diese werden auf der
+Detailseite von Apps angezeigt und ausgewertet, um
+festzustellen, ob Open Data in der App Verwendung findet.
+
+Sektor
+
+Der Sektor zeigt an, ob eine App oder ein Dokument aus dem
+öffentlichen, dem privaten oder einem anderen Bereich
+stammt. Er wird in Form eines Piktogramms auf der
+Detailseite illustriert.
+
+Bilder
+
+Hier finden sich Links zu Bildern, die zu den Metadaten
+zählen, z.B. Vorschau oder Screenshot.
+
+Struktur­Version
+
+Diese zeigt an, in welcher Version (der OGD
+Metadaten­Struktur) das Metadatum geschrieben ist und wird
+nur intern verwendet, um nach Änderungen dieser Struktur
+festzustellen, ob die Metadaten schon angepasst wurden.
+
+4.5.1.2
+
+Kategorien
+
+Nachfolgend ist die Liste der möglichen Werte von Kategorien für die Befüllung der
+Meta­Daten „groups“ und „subgroups“ des Meta­Daten­Katalogs aufgeführt. Die Kategorien,
+wie diese bei GOVDATA zum Einsatz kommen, können im entsprechenden Eintrag des
+Repositoriums nachgelesen werden11.
+
+ID
+11
+
+Titel
+
+​https://github.com/GovDataOfficial/OGD­1.1/blob/master/kategorien/deutschland.json
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+21
+
+Bevoelkerung
+
+Bevölkerung
+
+bildung_wissenschaft
+
+Bildung und Wissenschaft
+
+Geo
+
+Geographie, Geologie und Geo­Basisdaten
+
+gesetze_justiz
+
+Gesetze und Justiz
+
+Gesundheit
+
+Gesundheit
+
+infrastruktur_bauen_wohnen
+
+Infrastruktur, Bauen und Wohnen
+
+kultur_freizeit_sport_tourismus
+
+Kultur, Freizeit, Sport und Tourismus
+
+politik_wahlen
+
+Politik und Wahlen
+
+Soziales
+
+Soziales
+
+transport_verkehr
+
+Transport und Verkehr
+
+umwelt_klima
+
+Umwelt und Klima
+
+verbraucher
+
+Verbraucherschutz
+
+verwaltung
+
+Öffentliche Verwaltung, Haushalt und Steuern
+
+wirtschaft_arbeit
+
+Wirtschaft und Arbeit
+
+4.5.1.3
+
+Lizenz der zu veröffentlichenden Daten
+
+Während der Veröffentlichung von Datensätzen ist darauf zu achten, dass
+Lizenzinformationen im Rahmen der Metadatenbeschreibung mitgeliefert und vom
+Datenverantwortlichen verpflichtend abgefragt werden. Ohne diese Information ist die
+Nachnutzung der Daten nur eingeschränkt möglich.
+Im Folgenden wird eine Liste mit möglichen Lizenzen präsentiert, die zur Auswahl stehen.
+
+ID
+
+Titel
+
+URL
+
+dl­de­by­1.0
+
+Datenlizenz
+Deutschland
+Namensnennung
+
+dl­de­by­2.0
+
+Klassifizierung
+
+Für
+Daten
+
+https://www.govd
+ata.de/dl­de/by­1­
+0
+
+offen
+
+X
+
+Datenlizenz
+Deutschland
+Namensnennung
+2.0
+
+https://www.govd
+ata.de/dl­de/by­2­
+0
+
+offen
+
+X
+
+official­work
+
+Amtliches Werk,
+lizenzfrei nach
+§5 Abs. 1 UrhG
+
+http://www.gesetz
+e­im­internet.de/u
+rhg/__5.html
+
+offen
+
+X
+
+geonutzv­de­
+2013­03­19
+
+Nutzungs­
+bestimmungen für
+
+http://www.geoda
+tenzentrum.de/do
+
+offen
+
+X
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Für
+Apps
+
+Seite
+22
+
+die Bereitstellung
+von Geodaten des
+Bundes
+
+cpdf/geonutzv.pdf
+
+cc­by
+
+Creative Commons
+Namensnennung
+(CC­BY)
+
+http://www.opend
+efinition.org/licens
+es/cc­by
+
+offen
+
+X
+
+cc­by­4.0
+
+Creative Commons
+Namensnennung
+(CC BY 4.0)
+
+http://creativecom
+mons.org/licenses/
+by/4.0/
+
+offen
+
+X
+
+cc­zero
+
+Creative Commons
+Zero
+
+http://www.opend
+efinition.org/licens
+es/cc­zero
+
+offen
+
+X
+
+cc­by­sa
+
+Creative Commons
+Attribution
+Weitergabe unter
+gleichen
+Bedingungen
+(CC­BY­SA)
+
+http://www.opend
+efinition.org/licens
+es/cc­by­sa
+
+offen
+
+X
+
+cc­by­sa­4.0
+
+Creative Commons
+Attribution
+Weitergabe unter
+gleichen
+Bedingungen (CC
+BY­SA 4.0)
+
+http://creativecom
+mons.org/licenses/
+by­sa/4.0/
+
+offen
+
+X
+
+odc­odbl
+
+Open Data
+Commons Open
+Database License
+(ODbL)
+
+http://www.opend
+efinition.org/licens
+es/odc­odbl
+
+offen
+
+X
+
+odc­by
+
+Open Data
+Commons
+Namensnennung
+
+http://www.opend
+efinition.org/licens
+es/odc­by
+
+offen
+
+X
+
+odc­pddl
+
+Open Data
+Commons Public
+Domain Dedication
+and Licence (PDDL)
+
+http://www.opend
+efinition.org/licens
+es/odc­pddl
+
+offen
+
+X
+
+cc­nc
+
+Creative Commons
+Nicht­Kommerziell
+(CC­NC)
+
+http://creativecom
+mons.org/licenses/
+by­nc/2.0/
+
+eingeschränkt
+
+X
+
+cc­by­nc­4.0
+
+Creative Commons
+Nicht­Kommerziell
+(CC BY­NC 4.0)
+
+http://creativecom
+mons.org/licenses/
+by­nc/4.0/
+
+eingeschränkt
+
+X
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+23
+
+cc­by­nd
+
+Creative Commons
+Keine Bearbeitung
+(CC­BY­ND)
+
+http://creativecom
+mons.org/licenses/
+by­nd/3.0/
+
+eingeschränkt
+
+X
+
+cc­by­nd­4.0
+
+Creative Commons
+Keine Bearbeitung
+(CC BY­ND)
+
+http://creativecom
+mons.org/licenses/
+by­nd/4.0/
+
+eingeschränkt
+
+X
+
+dl­de­by­nc­1
+.0
+
+Datenlizenz
+Deutschland
+Namensnennung
+nicht­kommerziell
+
+https://www.govd
+ata.de/dl­de/by­nc
+­1­0
+
+eingeschränkt
+
+X
+
+dl­de­by­nc­2
+.0
+
+Datenlizenz
+Deutschland
+Namensnennung
+nicht­kommerziell
+2.0
+
+https://www.govd
+ata.de/dl­de/zero­
+2­0
+
+eingeschränkt
+
+X
+
+geolizenz­v1.
+2.1­open
+
+GeoLizenz V1.2.1
+Open­räumlich und
+zeitlich
+unbeschränkte
+Einräumung aller
+Nutzungsrechte
+
+http://www.geoliz
+enz.org/modules/g
+eolizenz/docs/1.2.
+1/GeoLizenz_V1.2.
+1_Open_082213_
+DE.pdf
+
+offen
+
+X
+
+geolizenz­v1.
+2­1a
+
+GeoLizenz V1­2
+Ia­kommerziell­Weit
+erverarbeitung­oef
+fentliche_Netzwerk
+e
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+geolizenz­v1.
+2­1b
+
+GeoLizenz V1­2
+Ib­nicht­kommerziel
+l­Weiterverarbeitun
+g­oeffentliche_Netz
+werke
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+geolizenz­v1.
+2­2a
+
+GeoLizenz V1­2
+IIa­kommerziell­kein
+e­Weiterverar
+beitung­oeffentliche
+_Netzwerke
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+geolizenz­v1.
+2­2b
+
+GeoLizenz V1­2
+IIb­nicht­kommerzie
+ll­keine
+Weiterverarbeitung­
+oeffentliche_Netz
+werke
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+24
+
+geolizenz­v1.
+2­3a
+
+GeoLizenz V1­2
+IIIa­kommerziell­
+Weiterverarbeitung­
+nicht­oeffentliche_
+Netzwerke
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+geolizenz­v1.
+2­3b
+
+GeoLizenz V1­2
+IIIb­nicht­kommerzi
+ell­Weiterverar
+beitung­nicht­oeffe
+ntliche_Netzwerke
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+geolizenz­v1.
+2­4a
+
+GeoLizenz V1­2
+IVa­kommerziell­kei
+ne
+Weiterverarbeitung­
+nicht­oeffentliche_
+Netzwerke
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+geolizenz­v1.
+2­4b
+
+GeoLizenz V1­2
+IVb­nicht­kommer
+ziell­keine
+Weiterverarbeitung­
+nicht­oeffentliche_
+Netzwerke
+
+http://www.geoliz
+enz.org
+
+eingeschränkt
+
+X
+
+Apache
+
+Apache Lizenz
+
+http://www.apach
+e.org/licenses
+
+offen
+
+X
+
+app_commer
+cial
+
+Andere
+kommerzielle Lizenz
+
+eingeschränkt
+
+X
+
+app_freewar
+e
+
+Andere kostenfreie
+Lizenz
+
+eingeschränkt
+
+X
+
+app_openso
+urce
+
+Andere Open
+Source Lizenz
+
+offen
+
+X
+
+bsd­license
+
+BSD Lizenz
+
+http://www.opens
+ource.org/licenses
+/bsd­license.php
+
+offen
+
+X
+
+Gfdl
+
+GNU Free
+Documentation
+License
+
+http://www.opend
+efinition.org/licens
+es/gfdl
+
+offen
+
+gpl­3.0
+
+GNU General Public
+License version 3.0
+(GPLv3)
+
+http://www.opens
+ource.org/licenses
+/gpl­3.0.html
+
+offen
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+X
+
+X
+
+Seite
+25
+
+Mozilla
+
+Mozilla Public
+License 1.0 (MPL)
+
+http://www.mozill
+a.org/MPL
+
+offen
+
+X
+
+Auch wenn verschiedene Lizenzen zur Auswahl stehen und diese im Portal als Optionen bei
+der Eingabe von Daten angeboten werden könnten, wurde in Vorgesprächen mit dem
+Projektkonsortium des EB IT der Stadt Dresden die Deutschlandlizenz mit Namensnennung
+in der Version 2.012 als vorrangige Lizenz für die Auszeichnung von Datensätzen definiert.
+Im Folgenden werden die Inhalte zur Deutschlandlizenz­Namensnennung­V2.0 präsentiert
+und als Erweiterung der Deutschlandlizenz­Zero­V2.0 definiert, die wie folgt beschrieben ist:
+●
+Deutschlandlizenz­Zero­V2.0
+○
+Jede Nutzung ist ohne Einschränkungen oder Bedingungen zulässig.
+○
+Die bereitgestellten Daten und Metadaten dürfen für die kommerzielle und
+nicht kommerzielle Nutzung insbesondere
+■
+vervielfältigt, ausgedruckt, präsentiert, verändert, bearbeitet sowie an
+Dritte übermittelt werden und
+■
+mit eigenen Daten und Daten Anderer zusammengeführt und zu
+selbständigen neuen Datensätzen verbunden werden sowie
+■
+in interne und externe Geschäftsprozesse, Produkte und
+Anwendungen in öffentlichen und nicht öffentlichen elektronischen
+Netzwerken eingebunden werden.
+●
+Deutschlandlizenz­Namensnennung­V2.0
+○
+Es gelten die Bedingungen der Datenlizenz Deutschland­Zero­V2.0 mit
+folgenden Bedingungen:
+■
+Bei der Nutzung ist sicherzustellen, dass folgende Angaben als
+Quellenvermerk enthalten sind:
+●
+Bezeichnung des Bereitstellers nach dessen Maßgabe,
+●
+Vermerk „Datenlizenz Deutschland­Namensnennung­Version
+2.0" oder „dl­de/by­2­0" mit Verweis auf den Lizenztext unter
+www.govdata.de/dl­de/by­2­0​ sowie
+●
+Verweis auf den Datensatz (URI).
+■
+Dies gilt nur soweit die datenhaltende Stelle die oberen 3 Angaben
+zum Quellenvermerk bereitstellt.
+■
+Veränderungen, Bearbeitungen, neue Gestaltungen oder sonstige
+Abwandlungen sind im Quellenvermerk mit dem Hinweis zu versehen,
+dass die Daten geändert wurden.
+Gründe für die Beschränkung auf diese Lizenz sind:
+1. Diese Lizenz folgt den Definitionen von Open Data und ruft damit zur Nachnutzung
+auf (siehe Einleitung).
+2. Durch die Erweiterung “mit Namensnennung” schützt sie den Datenverwalter vor
+missbräuchlichen Veränderungen der Daten, ohne auf die Änderungen aufmerksam
+zu machen.
+
+12
+
+​https://www.govdata.de/dl­de/by­2­0
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+26
+
+3. Sie ist mit den ebenfalls geeigneten und im internationalen Raum gebräuchlichen
+Creative Commons Lizenzen cc­by​ und ​cc­by­sa vergleichbar und
+4. sie wird in anderen Open Data Portalen (Kommunen und Länder Deutschlands sowie
+Bund) entweder ausschließlich resp. teilweise verwendet / empfohlen.
+Noch zu definieren ist, ob diese Lizenz automatisch bei der Erstellung oder Aktualisierung
+eines CKAN­Datensatzes in die Meta­Daten mit aufgenommen wird oder vom
+Datenverwalter manuell zu setzen ist.
+
+4.5.2 Anpassung der graphischen Benutzeroberfläche des Portals
+Das Portal Frontend soll konform zu den Vorgaben für Webpräsenzen der Stadt Dresden
+gestaltet werden. Farben, Formen und Schriften sollen entsprechend angepasst werden.
+Hierzu ist unter anderem die „base.html“ des CKAN­Systems anzupassen und ein
+entsprechender Stylesheet zu integrieren. Ein besonderes Augenmerk ist hierbei auf die
+Barrierefreiheit der Webpräsenz zu legen. Detaillierte Informationen sind der
+CKAN­Dokumentation zu entnehmen.
+
+4.5.3 Anpassung der Browserunterstützung
+Durch entsprechende Tests und Anpassungen am System ist sicherzustellen, dass die
+aktuell mehrheitlich gebräuchlichen Browser unterstützt werden und einen für den Benutzer
+fehlerfreien Betrieb des Portals ermöglichen. Diese Browser sind im Einzelnen:
+●
+●
+●
+●
+
+Internet Explorer 10 oder höher,
+Firefox 46.0 oder höher,
+Chrome 50.0 oder höher sowie auch
+Safari 9.1 oder höher.
+
+4.5.4 Login für Sachbearbeiter
+In der Datenbasis von CKAN sind die Daten­publizierenden Organisationen anzulegen und
+die Organisations­Administrationen einzurichten. Diese richten Benutzer­Accounts der
+Sachbearbeiter zum Zwecke der Bereitstellung, Aktualisierung und Löschung von Daten ein.
+Für einen noch abzustimmenden Publikationsprozess sind weitere Nutzerrollen im System
+vorzuhalten, die durch die Benutzer wahrgenommen und über das Einstellen der Daten
+hinaus freigegeben oder gesperrt werden können. Eine Benutzerrolle im Sinne eines
+„Chefredakteurs“ ist einzurichten und zuzuweisen.
+Insbesondere werden diese Nutzer die Harvester des Systems konfigurieren und starten, um
+Metadaten aus den angebunden Daten­Portalen zu beschaffen, um daraus Datasets und
+Ressourcen im CKAN Portal anzulegen.
+
+4.5.5 Speicherung der Daten
+Die Verwaltung der Daten erfolgt einzig über das CKAN­Portal. Bezüglich der Speicherung
+und Auslieferung der Daten können unterschiedliche Szenarien angewendet werden.
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+27
+
+Entweder erfolgt die Speicherung und Auslieferung der Daten auf dem Portal­Daten­Server
+durch aktives Hochladen der Daten durch den Sachbearbeiter oder durch eine Verlinkung
+auf Fachbereichs­ oder Fremdsysteme.
+Im Moment des Hochladens oder der Verlinkung wird ein Dataset im Datenkatalog hinterlegt
+und, im Falle des Hochladens, die Datei im FileStore auf dem Portal­Daten­Server abgelegt.
+Auf Anforderung des Benutzers wird eine neue Version der Ressource angelegt. Bei einer
+Verlinkung von Ressourcen verbleiben die Daten auf dem verlinkten System. In den bereits
+vorgestellten Teilen zum Harvesten von Bestandsystemen (insbesondere DUVA und
+KOMMIS)
+werden
+Harvester
+verwendet,
+bei
+denen
+die
+entsprechenden
+Datenverantwortlichen die im CKAN verankerten Routinen zum automatisierten Harvesten
+und Aktualisieren der entsprechenden CKAN­Datensätze auslösen.
+
+4.5.6 Internationalisierbarkeit
+Für die Möglichkeit einer Mehrsprachigkeit des CKAN­Systems bei der Datenauslieferung ist
+die technische Infrastruktur vorzubereiten. Damit wird sichergestellt, dass Texte und Inhalte
+im Portal in verschiedenen Sprachen ausgeliefert werden können. Zunächst wird das
+System in Deutsch und Englisch vorbereitet. Weitere Sprachen können in kommenden
+Ausbaustufen folgen.
+
+4.4.7 Bereitstellung der Datensatz­Metadaten
+Das zu schaffende Portal steht idealerweise im Kontext von Datenportalen anderer
+Kommunen oder Institutionen. Dafür ist es notwendig, einen Metadaten­Austausch zwischen
+diesen Portalen zu ermöglichen. Um anderen Systemen die Metadaten­Informationen
+bereitstellen zu können, werden im System Funktionalitäten implementiert, die eine
+Bereitstellung des Datenkatalogs ermöglichen.
+CKAN stellt dafür Schnittstellen bereit, welche die Metadaten maschinell abfragbar machen.
+
+4.6 Paketierung, Deployment, Übergabe
+Die im Laufe des Installations­ und Konfigurationsprozesses erstellten Softwarepakete (z.B.
+in Form von Docker Container Images) sind so bereitzustellen, dass eine
+Nachvollziehbarkeit der Implementierung und deren Anpassung jederzeit gegeben ist. Es
+werden Maßnahmen getroffen, um eine Neuinstallation des konfigurierten Systems jederzeit
+durchführen zu können.
+
+4.6.1 Bereitstellung und Konfiguration der Betriebsumgebung
+Die in Kapitel 4.1 beschriebene hardware­technische Infrastruktur ist aufzusetzen und in die
+dafür vorgesehene Netzwerk­Struktur einzubinden. Es sind alle Maßnahmen zu treffen, die
+einen stabilen Betrieb der Plattform garantieren. Dazu zählen:
+● Einbindung der Server in das Monitoring sowie
+● Umsetzung des in der Implementierungs­Phase verabschiedeten Konzeptes zur
+Datensicherung.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+28
+
+4.6.2 Erstellung und Installation von Softwarepaketen
+Die durch Installation und Konfiguration bereitgestellten Softwarekomponenten, sind in
+Installations­Paketen derart zusammenzufassen, dass sie durch das Betriebspersonal
+selbständig und lückenlos im Falle eines Wiederanlaufs des Systems durchgeführt werden
+können. Dies beinhaltet auch eine entsprechende Dokumentation der in den Paketen
+enthaltenen Softwarekomponenten, der Reihenfolge der Installation und der dabei
+ausgegebenen Meldungen. Letzteres dient der Kontrolle auf Vollständigkeit und Erfolg der
+jeweiligen Installations­Routine.
+Anschließend wird auf Basis der erstellten Pakete vor der Inbetriebsetzung der Plattform
+eine Voll­Installation des Systems vorgenommen. Damit wird sichergestellt, dass die
+Installations­Pakete vollständig sind und gegenseitige Abhängigkeiten innerhalb der Pakete
+berücksichtigt wurden. Zudem wird gewährleistet, dass die Pakete etwaige Änderungen in
+den Konfigurationen der Softwarekomponenten beinhalten. Erst nach erfolgreichem
+Abschluss dieses Arbeitspaketes darf eine Inbetriebsetzung der Plattform erfolgen.
+
+4.6.3 Finaler Test der Plattform und Demonstration
+Mit Abschluss der Implementierung und dem Aufsetzen des Gesamtsystems unter
+Betriebsbedingungen erfolgt ein finaler Test des Gesamtsystems und der entsprechenden
+Kernfunktionalitäten.
+Hierzu werden die folgenden Funktionsbereiche als Kernfunktionalitäten betrachtet und sind
+entsprechend zu testen:
+1. Anmelden eines internen Benutzers einer Organisation mit Publikationsrechten in
+dieser Organisation (mit entsprechendem Negativ­Test),
+2. Publikation eines Datasets mit Eingabe der Metadaten durch einen Benutzer in der
+Rolle eines Redakteurs,
+3. Erzeugung von Datensätzen durch die Verwendung der bereitgestellten Harvester
+und
+4. Suche von Datensätzen durch anonyme und angemeldete Benutzer.
+
+4.7 Arbeitsaufwände
+Für die Einrichtung und den Betrieb des Open Data Portals entstehen Aufwände, welche in
+diesem Kapitel grob geschätzt werden. Diese Schätzung basiert auf Projekten mit der Lecos
+GmbH und der Stadt Leipzig für das Open Data Portal Leipzig.
+●
+
+●
+●
+
+Installation des Portal Datenservers und des Portal Webservers; Initiale Einrichtung
+und Konfiguration des CKAN Portals ohne eigene oder angepasste Harvester;
+Integration der CKAN Portals in eine Backup­Infrastruktur sowie Integration der
+Server in die gegebene Netzwerk­Infrastruktur; CSS / Style Anpassung des CKAN
+Frontends : ​einmalig 200 ­ 280 Stunden
+Betrieb des CKAN Portals incl. Backup, Nutzermanagement, Review von Logging
+Informationen etc.: ​monatlich 10 ­ 15 Stunden
+Erweiterung des CKAN Portals:
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+29
+
+○
+
+○
+
+Entwicklung eines einfachen web­basierten Harvesters für einen Dataset
+Katalog mit einer überschaubaren Anzahl von Metadaten­Attributen inkl.
+Import der Datensätze und lokaler Speicherung; Entwicklung, Testing,
+Dokumentation, Deployment: ​einmalig 120 ­ 200 Stunden
+Anpassung eines bestehenden (Open Source) Harvesters; Änderung und
+Erweiterung des existierenden Metadaten Attribut­Mappings; Testing,
+Dokumentation, Deployment: ​einmalig 100 ­ 130 Stunden
+
+5 Organisation und technische Infrastruktur der
+Daten
+Zum einen werden die Daten in Formaten veröffentlicht, die als offen betrachtet werden.
+Nicht akzeptabel sind Formate, die implizit die Benutzung bestimmter Programme oder
+Betriebssysteme vorschreiben, oder die durch Patente o.ä. davor geschützt werden, dass
+Dritte
+sie
+weiterentwickeln.
+Dazu
+gehören
+sowohl
+sämtliche Text­ und
+Tabellenkalkulations­Programme als auch GEO­Informations­Systeme.
+Zum anderen soll eine Daten­Repräsentation gewählt werden, die eine flexible und
+kostengünstige Variante der Bereitstellung von Daten für die Verwaltung ermöglicht. Dies ist
+besonders unter dem nachfolgend betrachteten Gesichtspunkt wichtig. Die einzelnen
+Fachverfahren verfügen in der Regel nur über dedizierte Datenbestände, einen eng
+eingegrenzten Sachverhalt betreffend. Um Inhaltsdaten vollständig beschreiben zu können,
+sind weitere Inhaltsdaten notwendig. Zur Publikation offener Daten über lediglich eine Quelle
+(respektive einen Dienst), sind durch die publizierende Stelle alle notwendigen Daten zu
+integrieren und danach zu veröffentlichen. Das Ziel muss es sein, eine ​vollständige
+Webintegration zu erreichen. Vollständige Webintegration bezieht sich in diesem
+Zusammenhang auf eine Bereitstellung von Diensten, die es wiederum einem anfragenden
+Dienst ermöglicht, die Daten in seinen fachlichen Kontext zu integrieren. Der Anfragende
+kann also selbst entscheiden, in welcher Detailtiefe oder in welcher Beziehung zueinander
+er die Daten wünscht. Ein Beispiel: Demographische Entwicklung je Stadtbezirk oder
+wirtschaftliche Entwicklung je Stadtbezirk.
+Um dieses Ziel zu erreichen, ist ein Datenformat zu wählen, welches die Inhalte beschreibt
+und weitere Inhaltsdaten zu dieser Beschreibung in Beziehung setzt. Ausgangsformat und
+Quelle der Daten sind die nativ in den Verfahren vorliegenden Bestände. Diese müssen in
+einer ersten Ausbaustufe strukturiert in Form von Datenbankschemata oder XML vorliegen.
+Dabei können auch JSON (eine XML­ähnliche Notation) oder CSV zum Einsatz kommen.
+Obwohl dies in der Fachwelt durchaus kontrovers diskutiert wird, so haben sich in der
+Vergangenheit einige Formate im Open Data­Umfeld etabliert. CKAN kann grundsätzlich mit
+allen Dateiformaten umgehen. Allerdings wird bei der Definition von Open Data und den
+Diskussion über die richtige Publikationsform der Begriff “Zweckmäßigkeit” eingeführt.
+Hierbei ist zu bedenken, dass Open Data zur Nachnutzung gedacht ist, allerdings den
+Kostenrahmen für deren Erzeugung nicht übersteigen sollte. Im Folgenden ist das 5­Sterne
+Schema13 nach Tim Berners­Lee zu sehen, welches eine Bewertung anhand der
+13
+
+​http://5stardata.info/en/
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+30
+
+größtmöglichen Vorteile bei der Nachnutzung für das zu wählende Dateiformat
+(Dateiformatklasse) beschreibt.
+
+Dieses Schema lässt sich wie folgt übersetzen:
+★
+Veröffentlichung mit einer offenen Lizenz ist besser als keine
+Veröffentlichung
+★★
+Veröffentlichung als strukturierte Daten (z.B. Excel anstatt eines Scans
+einer Tabelle)
+★★★
+Veröffentlichung in einem nicht proprietären Format (z.B. CSV statt Excel)
+★★★★
+★★★★★
+
+Verwendung von (global eindeutigen) URLs als Bezeichner für die
+beschriebenen Dinge statt lokalen Bezeichnern
+Verlinkung von Daten mit anderen Daten, um Kontextinformationen
+beizusteuern
+
+Im Folgenden wird eine Liste der gängigen Formate wiedergegeben, die aus Sicht der
+Nachnutzenden geringe Hürden darstellen, da diese Formate niedrige technische
+Schranken zum nutzen haben.
+OGD­Formate
+Abkürzung Format
+
+Beschreibung
+
+SAGA
+
+OGDP
+
+Austauschformate für Dokumente
+XML
+
+Extensible Markup
+Language (XML)
+Version 1.0
+
+Beschreibungssprache zur
+Dar​stellung von strukturierten
+Daten in lesbarer Form
+
+Empfohlen
+
+Empfohlen
+
+HTML
+
+Hypertext Markup
+Language (HTML)
+Version 4.01
+
+Beschreibungssprache zur
+Darstellung von Inhalten für
+Webbrowser
+
+Empfohlen
+
+Empfohlen
+
+TXT
+
+klassische Textdateien
+(TXT)
+
+Bildung aus darstellbaren
+Zeichen
+
+Empfohlen
+
+Empfohlen
+
+RDF
+
+Resource Description
+
+Bezeichnung für eine technische Keine
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Empfohlen
+Seite
+31
+
+Framework
+
+Heran​gehensweise im Internet
+zur Formulierung logischer
+Aussagen über beliebige Dinge
+(Ressourcen)
+
+Angaben
+
+Empfohlen
+
+Austauschformate für Tabellen
+CSV
+
+Comma Separated
+Value (CSV)
+
+Tabellen mit einfach
+strukturierten Daten
+
+Empfohlen
+
+JSON
+
+JavaScript Object
+Notation
+
+Datenaustauschformat in einfach genannt in
+Empfohlen
+lesbarer Textform
+ECMA Script
+Language
+Specification
+5th​
+​ Edition
+
+Austauschformate für Bilder
+JPEG
+
+Joint Photographic
+Experts Group ​(JPG,
+
+Format für die Speicherung und
+den Austausch von Fotos und
+Grafiken mit Farbverläufen
+
+Verbindlich
+
+Verbindlich
+
+Portable Network
+Graphics ​(PNG) Version
+
+Grafikformat, das 16 Mio.
+Farben, verlustfreie
+Kompression und eine
+inkrementelle Anzeige
+unterstützt
+
+Empfohlen
+
+Empfohlen
+
+JPEG)
+
+PNG
+
+1.2
+
+GIF
+
+Graphics Interchange
+Format mit Komprimierung für
+Format (​ GIF) Version v89a Bilder mit geringer Farbtiefe
+
+Empfohlen
+
+Empfohlen
+
+TIFF
+
+Tagged Image File
+Format zur Speicherung
+Format ​(TIFF, TIF) Version gerasterter Bilder
+
+Empfohlen
+
+Empfohlen
+
+Scalable Vector
+Graphics
+
+Beobachtet
+
+Beobachtet
+
+6.0
+
+SVG
+
+(SVG) Version 1.1
+
+Spezifikation zur Beschreibung
+von zweidimensionalen
+Vektorgrafiken
+
+Austauschformate für Geoinformationen
+GML
+
+Geography Markup
+Language (​ GML)
+
+Auszeichnungssprache zum
+Austausch und zum Speichern
+von geographischen
+Informationen im Vektorformat
+
+Verbindlich
+
+Verbindlich
+
+KML
+
+Keyhole Markup
+Language ​(KML/KMZ)
+
+XML­basierte Sprache für
+geographische Informationen
+zwecks Darstellung in
+3­D­Betrachtern
+
+Empfohlen
+
+Empfohlen
+
+GeoTIFF
+
+Geo­TIFF­Format
+
+Erweiterung von TIFF; Daten für Empfohlen
+die Georeferenzierung sind als
+Metadaten enthalten.
+
+Empfohlen
+
+(GeoTIFF, TIFF, TIF)
+
+Shape
+
+ESRI Shapefile Format Einfaches Geodatenformat im
+(SHP, SHX, DBF)
+Desktop­GIS­Umfeld
+
+Keine
+Angaben
+
+Empfohlen
+
+Geodienste
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+32
+
+CSW
+
+OpenGIS® Catalogue
+Services Specification­
+ISO Metadata
+Application Profile ​(ISO
+
+Spezifikation von Diensten zum
+Suchen von Metadaten über
+Geodaten, Geodienste und
+Geoanwendungen; Application
+
+Verbindlich
+
+Verbindlich
+
+19115/ISO 19119)
+
+WCS
+
+Web Coverage Service Downloaddienst, um
+(WCS)
+mehr​dimensionale gerasterte
+Geodaten bereitzustellen
+
+Verbindlich
+
+Verbindlich
+
+WFS
+
+Web Feature Service
+
+Downloaddienst optional zur
+Manipulation von Geodaten im
+Format GML
+
+Verbindlich
+
+Verbindlich
+
+Dienst, um Kartensichten auf
+geographische Informationen in
+Bildformaten anzuzeigen
+
+Verbindlich
+
+Verbindlich
+
+Sprache zur Beschreibung von
+Empfohlen
+Informationen über Ressourcen,
+die durch eindeutige Bezeichner
+(URIs) identifiziert werden
+
+Empfohlen
+
+(WFS)
+
+WMS
+
+Web Map Service
+(WMS)
+
+Spezifikation für Linked Open Data
+RDF
+
+Resource Description
+Framework
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+33
+
+6
+
+Lebenszyklus der Daten
+
+Eine OpenData­Plattform sollte den gesamten Lebenszyklus Offener Daten unterstützen. Er
+beginnt bei der Identifizierung geeigneter Daten in der Verwaltung und der Aufbereitung
+dieser Daten in offenen Standards. Dies schließt die Definition der Metadaten stets mit ein.
+
+Anschließend erfolgt eine Veröffentlichung der Daten. Aus den Daten muss in jedem Fall der
+Herausgeber und die verwendete Lizenz hervorgehen. Die Basis hierfür bildet der
+Datenkatalog im CKAN.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+34
+
+7
+
+Glossar
+
+CKAN (​Comprehensive Knowledge Archiv Network) ist ein Open Source System zum
+Speichern und Verteilen von Daten, siehe: h
+​ ttp://ckan.org/.
+CMS (​Content Management System) ist eine Software zur gemeinschaftlichen Bearbeitung
+von Webseiten.
+Linked Open Data ​bezeichnet die im Internet verfügbaren Daten, die per Uniform Resource
+Identifier (URI) identifiziert sind, darüber direkt per HTTP abgerufen werden können und
+ebenfalls
+per
+URI
+auf
+andere
+Daten
+verweisen,
+siehe:
+http://de.wikipedia.org/wiki/Linked_Open_Data.
+Metadaten ​sind ergänzende Informationen zu den Datensätzen und beschreiben die
+Eigenschaften in einer festgelegten Struktur, wie beispielsweise Titel, inhaltliche
+Beschreibung, Kategorie, Datenformat, Lizenzbestimmung, Aktualisierungszeitpunkt,
+Versionierung und Kontakt.
+Open Government Data ​(OGD) beschreibt in erster Linie Datenbestände des öffentlichen
+Sektors, die von Politik und Verwaltung im Interesse der Allgemeinheit ohne jedwede
+Einschränkung zur freien Nutzung, zur Weiterverbreitung und zur Weiterverwendung für
+externe Dritte zugänglich gemacht werden.
+Open Source (​Quelloffene) Software ist eine solche, deren Lizenzbestimmungen besagen,
+dass man mit deren Empfang auch den dazugehörigen Software­Quelltext erhält und dieser
+beliebig kopiert, verbreitet und genutzt werden kann.
+
+Technisches Konzept des Open Data Portals der Stadt Dresden
+
+Seite
+35
+
+
