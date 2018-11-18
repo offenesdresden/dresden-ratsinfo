@@ -6,7 +6,11 @@
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2017-09-14",
   "auxiliaryFile": [
-    "315422"
+    "315422",
+    "324709",
+    "333919",
+    "349640",
+    "323744"
   ],
   "consultation": [
     {
@@ -83,10 +87,19 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
-          "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
+          "name": "Dienstberatung des Oberbürgermeisters",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
+      "role": "beratend",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "6385",
       "role": "1. Lesung",
       "agendaItem": {
         "public": false,
@@ -95,26 +108,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "23.10.2017 Ausschuss für Finanzen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ortsbeirat Neustadt",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "5991",
       "role": "beratend",
       "agendaItem": {
         "public": true,
@@ -123,12 +117,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ortsbeirat Pieschen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "5699",
       "role": "beratend",
       "agendaItem": {
         "public": true,
@@ -137,26 +126,16 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
+      "meeting": "5992",
+      "role": "beratend",
       "agendaItem": {
-        "public": false,
+        "public": true,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
       }
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "5767",
       "role": "beschließend",
       "authoritative": true,
       "agendaItem": {

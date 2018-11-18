@@ -72,7 +72,7 @@
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "5879",
-      "role": "1. Lesung (beschließendes Gremium)",
+      "role": "1. Lesung    (beschließendes Gremium)",
       "agendaItem": {
         "public": true,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
@@ -124,6 +124,20 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
+          "name": "Unterausschuss Planung",
+          "type": "https://oparl.org/schema/1.0/Organization"
+        }
+      ],
+      "role": "Vorberatung für Jugendhilfeausschuss federführend",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "organization": [
+        {
           "name": "Unterausschuss Hilfen zur Erziehung",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
@@ -136,7 +150,41 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
+      "organization": [
+        {
+          "name": "Unterausschuss Planung",
+          "type": "https://oparl.org/schema/1.0/Organization"
+        }
+      ],
+      "role": "Vorberatung für Jugendhilfeausschuss federführend",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
       "meeting": "5880",
+      "role": "beschließend",
+      "authoritative": true,
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "5881",
+      "role": "beschließend",
+      "authoritative": true,
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "6564",
       "role": "beschließend",
       "authoritative": true,
       "agendaItem": {

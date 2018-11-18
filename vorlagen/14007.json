@@ -5,11 +5,14 @@
   "paperType": "Vorlage",
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2017-07-06",
-  "mainFile": "315675",
   "auxiliaryFile": [
+    "322287",
+    "377702",
+    "334261",
     "315182",
     "310908"
   ],
+  "mainFile": "315675",
   "consultation": [
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
@@ -78,12 +81,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "24.10.2017 Ausschuss für Bildung (Eigenbetrieb Kindertageseinrichtungen)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "5896",
       "role": "beratend",
       "agendaItem": {
         "public": false,
@@ -108,10 +106,19 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
-          "name": "09.11.2017 Jugendhilfeausschuss",
+          "name": "Unterausschuss Kindertagesbetreuung",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
+      "role": "Vorberatung für Jugendhilfeausschuss",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "5881",
       "role": "beschließend",
       "authoritative": true,
       "agendaItem": {

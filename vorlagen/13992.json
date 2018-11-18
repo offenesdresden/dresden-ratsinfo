@@ -5,8 +5,10 @@
   "paperType": "Vorlage",
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2017-07-03",
-  "mainFile": "312587",
   "auxiliaryFile": [
+    "324701",
+    "338271",
+    "356545",
     "312075",
     "309169",
     "311159",
@@ -14,8 +16,10 @@
     "311160",
     "306558",
     "306560",
-    "311123"
+    "311123",
+    "322283"
   ],
+  "mainFile": "312587",
   "consultation": [
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
@@ -93,12 +97,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "24.10.2017 Ausschuss für Bildung (Eigenbetrieb Kindertageseinrichtungen)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "5896",
       "role": "beratend",
       "agendaItem": {
         "public": false,
@@ -123,10 +122,19 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
-          "name": "09.11.2017 Jugendhilfeausschuss",
+          "name": "Unterausschuss Kindertagesbetreuung",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
+      "role": "Vorberatung für Jugendhilfeausschuss",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "5881",
       "role": "beratend       (federführend)",
       "agendaItem": {
         "public": true,
@@ -135,12 +143,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "5767",
       "role": "beschließend",
       "authoritative": true,
       "agendaItem": {
