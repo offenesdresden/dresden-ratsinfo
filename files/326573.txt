@@ -1,0 +1,2726 @@
+Ingenieurbüro Lohmeyer
+GmbH & Co. KG
+Immissionsschutz, Klima,
+Aerodynamik, Umweltsoftware
+Mohrenstraße 14, D - 01445 Radebeul
+Telefon: +49 (0) 351 / 8 39 14 - 0
+E-Mail: info.dd@lohmeyer.de
+URL:
+www.lohmeyer.de
+
+ERMITTLUNG DER WIRKUNG DER ZUSÄTZLICHEN
+BEBAUUNG DER NÖTHNITZER STRASSE
+(TECHNOLOGIEMEILE) AUF DIE
+LUFTSCHADSTOFFBELASTUNG DER
+BERGSTRASSE MIT BESONDERER BETRACHTUNG
+DER MESSSTATION BERGSTRASSE
+
+Auftraggeber: Landeshauptstadt Dresden
+Umweltamt
+Grunaer Straße 2
+01069 Dresden
+
+Dipl.-Met. A. Moldenhauer
+
+Dr. rer. nat. I. Düring
+
+Dipl.-Ing. (FH) E. Nitzsche
+
+Juni 2017
+Projekt 71197-15-02
+Berichtsumfang 50 Seiten
+
+Büro Karlsruhe: An der Roßweid 3, 76229 Karlsruhe, Tel.: +49 (0) 721 / 6 25 10 – 0, E-Mail: info.ka@lohmeyer.de
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+I
+
+INHALTSVERZEICHNIS
+1
+
+ZUSAMMENFASSUNG ........................................................................................3
+
+2
+
+AUFGABENSTELLUNG .......................................................................................6
+
+3
+
+VORGEHENSWEISE ............................................................................................7
+3.1 Betrachtete Schadstoffe...................................................................................7
+3.2 Zusammenfassung der Beurteilungsmaßstäbe für Luftschadstoffe .................7
+3.3 Berechnungsverfahren MISKAM .....................................................................8
+
+4
+
+EINGANGSDATEN .............................................................................................11
+4.1 Lage und Beschreibung des Untersuchungsgebietes....................................11
+4.2 Verkehrsdaten ...............................................................................................14
+4.3 Bebauungs- und Lärmschutzsituation ............................................................14
+4.4 Meteorologische Daten ..................................................................................18
+4.5 Hintergrundbelastung der Luft .......................................................................20
+
+5
+
+EMISSIONEN ......................................................................................................21
+5.1 Methode zur Bestimmung der Emissionsfaktoren ..........................................21
+5.2 Motorbedingte Emissionsfaktoren..................................................................21
+5.3 Nicht motorbedingte Emissionsfaktoren.........................................................23
+5.4 Berechnung der Emissionsfaktoren für größere Streckenlängsneigungen ....26
+5.5 Emissionen des untersuchten Straßennetzes................................................27
+
+6
+
+IMMISSIONEN.....................................................................................................31
+6.1 Stickstoffdioxid (NO2) .....................................................................................31
+6.2 Feinstaub (PM10) ..........................................................................................35
+
+7
+
+LITERATUR ........................................................................................................38
+
+A N H A N G A1: BEURTEILUNGSWERTE FÜR
+LUFTSCHADSTOFFKONZENTRATIONEN AN KFZ-STRASSEN ....................43
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+II
+
+A N H A N G A2: BESCHREIBUNG DES NUMERISCHEN VERFAHRENS ZUR
+IMMISSIONS-ERMITTLUNG UND FEHLERDISKUSSION ................................47
+
+Hinweise:
+Vorliegender Bericht darf ohne schriftliche Zustimmung des Ingenieurbüros Lohmeyer GmbH
+& Co. KG nicht auszugsweise vervielfältigt werden.
+Die Tabellen und Abbildungen sind kapitelweise durchnummeriert.
+Literaturstellen sind im Text durch Name und Jahreszahl zitiert. Im Kapitel Literatur findet
+sich dann die genaue Angabe der Literaturstelle.
+Es werden Dezimalpunkte (= wissenschaftliche Darstellung) verwendet, keine Dezimalkommas. Eine Abtrennung von Tausendern erfolgt durch Leerzeichen.
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+1
+
+ERLÄUTERUNG VON FACHAUSDRÜCKEN
+Emission / Immission
+Als Emission bezeichnet man die von einem Fahrzeug ausgestoßene Luftschadstoffmenge
+in Gramm Schadstoff pro Kilometer oder bei anderen Emittenten in Gramm pro Stunde. Die
+in die Atmosphäre emittierten Schadstoffe werden vom Wind verfrachtet und führen im umgebenden Gelände zu Luftschadstoffkonzentrationen, den so genannten Immissionen. Diese
+Immissionen stellen Luftverunreinigungen dar, die sich auf Menschen, Tiere, Pflanzen und
+andere Schutzgüter überwiegend nachteilig auswirken. Die Maßeinheit der Immissionen am
+Untersuchungspunkt ist µg (oder mg) Schadstoff pro m³ Luft (µg/m³ oder mg/m³).
+Hintergrundbelastung / Zusatzbelastung / Gesamtbelastung
+Als Hintergrundbelastung werden im Folgenden die Immissionen bezeichnet, die bereits
+ohne die Emissionen des Straßenverkehrs auf den betrachteten Straßen an den Untersuchungspunkten vorliegen. Die Zusatzbelastung ist diejenige Immission, die ausschließlich
+vom Verkehr auf dem zu untersuchenden Straßennetz oder der zu untersuchenden Straße
+hervorgerufen wird. Die Gesamtbelastung ist die Summe aus Hintergrundbelastung und Zusatzbelastung und wird in µg/m³ oder mg/m³ angegeben.
+Grenzwerte / Vorsorgewerte
+Grenzwerte sind zum Schutz der menschlichen Gesundheit vom Gesetzgeber vorgeschriebene Beurteilungswerte für Luftschadstoffkonzentrationen, die nicht überschritten werden
+dürfen, siehe z. B. Neununddreißigste Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes. Vorsorgewerte stellen zusätzliche Beurteilungsmaßstäbe dar, die zahlenmäßig niedriger als Grenzwerte sind und somit im Konzentrationsbereich unterhalb der
+Grenzwerte eine differenzierte Beurteilung der Luftqualität ermöglichen.
+Jahresmittelwert / Kurzzeitwert (Äquivalentwert)
+An den betrachteten Untersuchungspunkten unterliegen die Konzentrationen der Luftschadstoffe in Abhängigkeit von Windrichtung, Windgeschwindigkeit, Verkehrsaufkommen etc.
+ständigen Schwankungen. Die Immissionskenngrößen Jahresmittelwert und weitere Kurzzeitwerte charakterisieren diese Konzentrationen. Der Jahresmittelwert stellt den über das
+Jahr gemittelten Konzentrationswert dar. Eine Einschränkung hinsichtlich Beurteilung der
+Luftqualität mit Hilfe des Jahresmittelwertes besteht darin, dass er nichts über Zeiträume mit
+hohen Konzentrationen aussagt. Eine das ganze Jahr über konstante Konzentration kann
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+2
+
+zum gleichen Jahresmittelwert führen wie eine zum Beispiel tagsüber sehr hohe und nachts
+sehr niedrige Konzentration.
+Die Neununddreißigste Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (39. BImSchV) fordert die Einhaltung von Kurzzeitwerten in Form des Stundenmittelwertes der NO2-Konzentrationen von 200 µg/m³, der nicht mehr als 18 Stunden pro Jahr
+überschritten werden darf, und des Tagesmittelwertes der PM10-Konzentration von
+50 µg/m³, der maximal an 35 Tagen überschritten werden darf. Da diese Werte derzeit nicht
+direkt berechnet werden können, erfolgt die Beurteilung hilfsweise anhand von abgeleiteten
+Äquivalentwerten auf Basis der Jahresmittelwerte bzw. 98-Perzentilwerte (Konzentrationswert, der in 98 % der Zeit des Jahres unterschritten wird). Diese Äquivalentwerte sind aus
+Messungen abgeleitete Kennwerte, bei deren Unterschreitung auch eine Unterschreitung der
+Kurzzeitwerte erwartet wird.
+Verkehrssituation
+Emissionen und Kraftstoffverbrauch der Kraftfahrzeuge (Kfz) hängen in hohem Maße vom
+Fahrverhalten ab, das durch unterschiedliche Betriebszustände wie Leerlauf im Stand, Beschleunigung, Fahrt mit konstanter Geschwindigkeit, Bremsverzögerung etc. charakterisiert
+ist. Das typische Fahrverhalten kann zu so genannten Verkehrssituationen zusammengefasst werden. Verkehrssituationen sind durch die Merkmale eines Straßenabschnitts wie Geschwindigkeitsbeschränkung, Ausbaugrad, Vorfahrtregelung etc. charakterisiert. In der vom
+Umweltbundesamt herausgegebenen Datenbank „Handbuch für Emissionsfaktoren des
+Straßenverkehrs HBEFA“ sind für verschiedene Verkehrssituationen Angaben über Schadstoffemissionen angegeben.
+Feinstaub / PM10 / PM2.5
+Mit Feinstaub bzw. PM10/PM2.5 werden alle Partikel bezeichnet, die einen größenselektierenden Lufteinlass passieren, der für einen aerodynamischen Partikeldurchmesser von
+10 µm bzw. 2.5 µm eine Abscheidewirksamkeit von 50 % aufweist. Die PM10-Fraktion wird
+auch als inhalierbarer Staub bezeichnet. Die PM2.5-Fraktion gelangt bei Inhalation vollständig bis in die Alveolen der Lunge; sie umfasst auch den wesentlichen Masseanteil des anthropogen erzeugten Aerosols, wie Partikel aus Verbrennungsvorgängen und Sekundärpartikel.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+3
+
+1 ZUSAMMENFASSUNG
+Für den Rahmenplan Südvorstadt wurden durch unser Büro ein Gutachten zur Änderung der
+Belüftung im Kaltluftfall für die Bereiche „Technologiemeile“ und „Neuer Pol“ erstellt
+(Lohmeyer, 2014).
+Dabei hat sich gezeigt, dass die geplanten Bebauungen im dort betrachteten Fall auch direkt
+auf die Bergstraße Auswirkungen haben werden, weil die Belüftung im Kaltluftfall abnimmt.
+Die Bergstraße stellt in dem Bereich zwischen Nöthnitzer Straße und Fritz-Förster-Platz eines der größten Luftreinhalteprobleme in Dresden dar, da an der Messstation Bergstraße
+schon ohne Bebauungserweiterung Grenzwertüberschreitungen für NO2 gemessen werden.
+Faktisch werden die Luftreinhaltebemühungen der Stadt anhand dieser Messstation bewertet.
+Es ist deshalb zu untersuchen, welche Luftschadstoffbelastung sich an der Bergstraße
+(100 m südlich des Knotenpunktes Nöthnitzer Straße bis zum Knotenpunkt Mommsenstraße)
+nach Umsetzung des Rahmenplanes einstellen wird.
+Betrachtet wurden folgende Fälle:
+
+
+Fall 1: ohne Bebauung des Rahmenplanes (= Prognose-Nullfall)
+
+
+
+Fall 2: mit Bebauung entsprechend Rahmenplan (= Planfall Rahmenplan).
+
+Betrachtet wurden die folgenden Komponenten: Stickstoffdioxid (NO2) und Feinstaub (PM10)
+als Straßenrandbelastung und an der Messstation Bergstraße. Die Beurteilung der Maßnahme erfolgte im Vergleich mit bestehenden Grenzwerten der 39. BImSchV.
+Die Bestimmung der Verkehrssituationen erfolgte aufbauend auf realistischen Fahrprofilen
+aus der Auswertung von Taxi-FCD-Daten.
+Die Berechnung der Emissionen erfolgt dann auf Basis der regionalspezifischen Dresdner
+Flottenzusammensetzung, basierend auf Bestandsdaten des Kraftfahrtbundesamtes (KBA)
+sowie aktueller Verkehrsdaten und Zusammensetzung (DTV, SV, Busse) für das Jahr 2018,
+die vom Auftraggeber zur Verfügung gestellt wurden.
+Mit dem Handbuch für Emissionsfaktoren (HBEFA) in seiner Version 3.3 (UBA, 2017) wurden mit PROKAS-E die verkehrsbedingten Emissionen für das Bezugsjahr 2018 ermittelt.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+4
+
+Die nicht motorbedingten PM10-Emissionen wurden auf der Grundlage vorliegender Systematisierungen aus der Literatur bestimmt.
+Die Ausbreitungsmodellierung erfolgte mit dem Modell MISKAM (Beschreibung siehe Anhang A2).
+Die so berechnete Zusatzbelastung, verursacht vom Kfz-Verkehr auf den berücksichtigten
+Straßen, wurde mit der großräumig vorhandenen Hintergrundbelastung überlagert. Die Hintergrundbelastung, die im Untersuchungsgebiet ohne die Emissionen auf den berücksichtigten Straßen vorläge, wurde in Abstimmung mit der zuständigen Immissionsschutzbehörde
+dem LfULG angesetzt. Die NO/NO2-Konversion wurde mit einem vereinfachten Chemiemodell durchgeführt. Diskutiert und bewertet wurde die Gesamtbelastung (Zusatzbelastung +
+Hintergrundbelastung).
+Ergebnisse
+Die Berechnungen ergaben, dass im Prognose-Nullfall und im Planfall unter Berücksichtigung der geplanten Bebauung des Rahmenplanes an der Messstelle in einer Messhöhe von
+3.5 m 46 µg NO2/m³ berechnet werden. Die Differenzbetrachtung zwischen dem Planfall und
+dem Prognose-Nullfall zeigt, dass im Bereich der Messstelle keine Veränderungen zu erwarten sind. Südlich der Messstelle ist insbesondere auf Grund der im Kreuzungsbereich
+Bergstraße/Nöthnitzer Straße geplanten geschlossen Bebauung und damit den veränderten
+Ausbreitungsbedingungen eine Erhöhung der NO2-Immissionen um maximal 2 µg NO2/m³ zu
+erwarten. Nördlich der Messstelle wird eine Abnahme der Immissionen erwartet.
+Auch bei der PM10-Gesamtbelastung werden unter Berücksichtigung der angesetzten Hintergrundbelastung von 21 µg/m³ an der Messstelle in 3.5 m Höhe für den Prognose-Nullfall
+und für den Planfall 2018 25 µg PM10/m³ berechnet.
+An der Messstelle sind somit keine Veränderungen auf Grund der geplanten Bebauung zu
+erwarten. Allerdings wir sowohl im Prognose-Nullfall als auch im Planfall 2018 weiterhin eine
+Überschreitung des geltenden Grenzwertes für den NO2-Jahresmittelwert prognostiziert.
+Auf Grund der Tatsache, dass zwischen dem Prognose-Nullfall, der die Bebauung im Istzustand berücksichtigt, und dem Planfall mit nahezu geschlossener Bebauung im Bereich der
+Bergstraße/Nöthnitzer Straße keine relevanten Unterschiede in der Schadstoffbelastung an
+der Messstelle Bergstraße auftreten, wurde auf die Berechnung einer weiteren Variante (op-
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+5
+
+timierter Planfall) verzichtet. Dieser optimierte Planfall hätte einen höheren Abstand der geplanten Bebauung zur B 170 sowie eine verringerte Höhe der Bebauung berücksichtigt.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+6
+
+2 AUFGABENSTELLUNG
+Für den Rahmenplan Südvorstadt wurden durch unser Büro ein Gutachten zur Änderung der
+Belüftung im Kaltluftfall für die Bereiche „Technologiemeile“ und „Neuer Pol“ erstellt
+(Lohmeyer, 2014).
+Dabei hat sich gezeigt, dass die geplanten Bebauungen im dort betrachteten Fall auch direkt
+auf die Bergstraße Auswirkungen haben werden, weil die Belüftung im Kaltluftfall abnimmt.
+Die Bergstraße stellt in dem Bereich zwischen Nöthnitzer Straße und Fritz-Förster-Platz eines der größten Luftreinhalteprobleme in Dresden dar, da an der Messstation Bergstraße
+schon ohne Bebauungserweiterung Grenzwertüberschreitungen für NO2 gemessen werden.
+Faktisch werden die Luftreinhaltebemühungen der Stadt anhand dieser Messstation bewertet.
+Es ist deshalb zu untersuchen, welche Luftschadstoffbelastung sich an der Bergstraße
+(100 m südlich des Knotenpunktes Nöthnitzer Straße bis zum Knotenpunkt Mommsenstraße)
+nach Umsetzung des Rahmenplanes einstellen wird. Betrachtet wurden folgende Fälle:
+
+
+Fall 1: ohne Bebauung des Rahmenplanes (= Prognose-Nullfall) für das Jahr 2018
+
+
+
+Fall 2: mit Bebauung entsprechend Rahmenplan (= Planfall Rahmenplan) für das
+Jahr 2018.
+
+Betrachtet werden die Jahresmittelwerte der NO2- und PM10-Gesamtbelastungen. Die Differenzen in den berechneten Immissionsgrößen werden dann in Bezug auf den Grenzwert
+bewertet.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+7
+
+3 VORGEHENSWEISE
+3.1 Betrachtete Schadstoffe
+Bei der Verbrennung des Kfz-Kraftstoffes wird eine Vielzahl von Schadstoffen freigesetzt, die
+die menschliche Gesundheit gefährden können. Im Rahmen des vorliegenden lufthygienischen Gutachtens ist zu prüfen, ob die durch die geplanten Baumaßnahmen verursachten
+Auswirkungen die Konzentrationen der Luftschadstoffe (Immissionen) unter Berücksichtigung der bereits vorhandenen Hintergrundbelastung in gesetzlich unzulässigem Maße erhöhen. Durch den Vergleich der Schadstoffkonzentrationen mit schadstoffspezifischen Beurteilungswerten, z. B. Grenzwerten, die vom Gesetzgeber zum Schutz der menschlichen Gesundheit festgelegt werden, werden Rückschlüsse auf die Luftqualität gezogen. Für die Beurteilung von Auswirkungen des Kfz-Verkehrs ist v. a. die 39. BImSchV relevant.
+Die Relevanz der Schadstoffe ist recht unterschiedlich. Immissionsgrenzwerte zum Schutz
+der menschlichen Gesundheit werden erfahrungsgemäß am ehesten bei NO2 und PM10
+erreicht. Die Konzentrationen für andere Luftschadstoffe wie Benzol, Blei, Schwefeldioxid
+(SO2) und Kohlenmonoxid (CO) sind im Vergleich zu ihren gesetzlichen Immissionsgrenzwerten von untergeordneter Bedeutung. Für Stickstoffmonoxid (NO) gibt es keine Beurteilungswerte. Da die 23. BImSchV seit Juli 2004 außer Kraft gesetzt ist, ist die Betrachtung der
+Schadstoffkomponente Ruß rechtlich nicht mehr erforderlich.
+Für die Beurteilung der Auswirkungen der Straßenverkehrsemissionen werden die Schadstoffe Stickstoffdioxid (NO2), Feinstaubpartikel mit den Korngrößen 10 und 2.5 µm (PM10)
+betrachtet.
+
+3.2 Zusammenfassung der Beurteilungsmaßstäbe für Luftschadstoffe
+In Tab. 3.1 werden die in der vorliegenden Studie verwendeten und im Anhang A1 erläuterten Beurteilungswerte für die relevanten Autoabgaskomponenten zusammenfassend dargestellt. Diese Beurteilungswerte sowie die entsprechende Nomenklatur werden im vorliegenden Gutachten durchgängig verwendet.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+8
+
+Schadstoff
+
+Beurteilungswert
+
+Zahlenwert in µg/m³
+Jahresmittel
+Kurzzeit
+
+NO2
+
+Grenzwert seit 2010
+
+40
+
+PM10
+
+Grenzwert seit 2005
+
+40
+
+200 (Stundenwert, maximal
+18 Überschreitungen/Jahr)
+50 (Tagesmittelwert, maximal
+35 Überschreitungen/Jahr)
+
+Tab. 3.1: Beurteilungsmaßstäbe für Luftschadstoffimmissionen nach 39. BImSchV (2010)
+Die Beurteilung der Schadstoffimmissionen erfolgt durch den Vergleich relativ zum jeweiligen
+Grenzwert. Neben den Jahresmittelwerten wird auch der PM10-Kurzzeitgrenzwert abgeleitet
+und bewertet.
+Weiter orientiert sich die Bewertung an der Einstufung von Schadstoffimmissionen (siehe
+Tab. 3.2) durch die Landesanstalt für Umweltschutz, Baden-Württemberg (LfU, 1993).
+
+Immissionen in % der entsprechenden
+Grenzwerte
+bis 10 %
+
+Bewertung
+sehr niedrige Konzentrationen
+
+über 10 % bis 25 %
+
+niedrige
+
+Konzentrationen
+
+über 25 % bis 50 %
+
+mittlere
+
+Konzentrationen
+
+über 50 % bis 75 %
+
+leicht erhöhte Konzentrationen
+
+über 75 % bis 90 %
+
+erhöhte
+
+Konzentrationen
+
+über 90 % bis 100 %
+
+hohe
+
+Konzentrationen
+
+über 100 % bis 110 %
+
+geringfügige Überschreitungen
+
+über 110 % bis 150 %
+
+deutliche
+
+Überschreitungen
+
+hohe
+
+Überschreitungen
+
+über 150 %
+
+Tab. 3.2: Bewertung von Immissionen nach LfU (1993)
+
+3.3 Berechnungsverfahren MISKAM
+Es werden Detailrechnungen mit MISKAM unter Berücksichtigung der Richtlinie VDI 3783
+Blatt 9 (Prognostische mikroskalige Windfeldmodelle) (VDI, 2005) durchgeführt. Mit MISKAM
+werden Windfelder berechnet, die die Umströmung der im Untersuchungsgebiet vorhandenen Gebäudekonfiguration modellieren.
+Auf der Grundlage der vom Auftraggeber zur Verfügung gestellten Aktivitätsdaten und Verkehrsmengen werden für das Prognosejahr 2018 die von den Kraftfahrzeugen emittierten
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+9
+
+Schadstoffmengen und -immissionen ermittelt. Die mittleren spezifischen Emissionen der
+Fahrzeuge einer Fahrzeugkategorie (Pkw, leichte Nutzfahrzeuge, Busse etc.) werden mit
+Hilfe des „Handbuchs für Emissionsfaktoren des Straßenverkehrs HBEFA“ Version 3.3
+(UBA, 2017) bestimmt. Die Emissionen der Feinstaubpartikel (PM10) des Straßenverkehrs
+aufgrund von Abrieb und Aufwirbelung werden im HBEFA nicht behandelt. Die Berechnung
+dieser Emissionen erfolgt auf der Grundlage der Ergebnisse von aktuellen Forschungsarbeiten (Düring und Lohmeyer, 2011; CORINAIR, 2007). Die Vorgehensweise zur Emissionsbestimmung entspricht somit dem Stand der Technik. Sie basiert auf der Richtlinie VDI 3782
+Blatt 7 (VDI, 2003).
+Die Immissionsberechnungen erfolgen mit dem Strömungs- und Ausbreitungsmodell
+MISKAM (Eichhorn, 2014). MISKAM gehört zu den prognostischen Modellen vom Eulertyp.
+Es besteht aus zwei Teilen, einem Strömungsteil für die Modellierung der Umströmungsverhältnisse der Gebäude und einem Ausbreitungsteil zur Berechnung des Immissionsfeldes.
+MISKAM iteriert jeweils solange, bis das Strömungs- bzw. Konzentrationsfeld quasi stationär
+ist. Bei den Berechnungen werden die Hinweise aus Eichhorn (2005) sowie der VDI-Richtlinie 3783, Blatt 9 für prognostische Modelle beachtet (VDI, 2005). Die Einhaltung des Kriteriums von VDI-RL 3783/9 wurde anhand von Sensitivitätsrechnungen für die Göttinger Straße
+in Hannover für ein Rechengebiet nachgewiesen, dass zusätzlich zum Untersuchungsgebiet
+einen Umkreis von ca. 400 m berücksichtigt. Das Rechengebiet ist somit deutlich größer als
+die Fläche des Untersuchungsgebietes.
+Das Rechengebiet wird mit einem nichtäquidistanten Netz überzogen, dessen horizontale
+Auflösung zwischen 1 m im Zentrum des Untersuchungsgebietes und ca. 10 m am Gebietsrand variiert. Die Höhe des Rechengebietes beträgt 500 m. Es werden 36 Strömungsrechnungen für die Windrichtungen 10o bis 360o sowie anschließend je 36 Ausbreitungsrechnungen für die betrachteten Schadstoffe durchgeführt. Dabei wird jeweils neutrale thermische
+Schichtung der Atmosphäre angenommen. Im Rahmen der Modellvalidierung hat sich gezeigt, dass die mit MISKAM berechneten Immissionsfelder in sehr guter Näherung mit der
+Windgeschwindigkeit skalierbar sind. Untersuchungen haben ferner gezeigt, dass in dicht
+bebautem Gelände aufgrund der hohen städtischen Rauigkeit genug mechanische Turbulenz erzeugt wird, sodass näherungsweise von einer neutralen Schichtung im Untersuchungsgebiet ausgegangen werden kann (unabhängig von der großräumigen thermischen
+Schichtung).
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+10
+
+Für jeden Schadstoff werden aus den jeweils 36 Immissionsfeldern mit der Programmoberfläche WinMISKAM (SFI, 2001) unter Verwendung der Windstatistik, der Emissionshäufigkeitsverteilung und der Schadstoffhintergrundbelastung flächendeckend die Jahresmittelwerte als Gesamtbelastung berechnet.
+Für die Berechnung der NO-NO2-Umwandlung wird das vereinfachte Chemiemodell nach
+Düring et al. (2011) verwendet.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+11
+
+4 EINGANGSDATEN
+Für die Emissions- bzw. Immissionsberechnungen sind als Eingangsgrößen die Lage des
+Straßennetzes im zu betrachtenden Untersuchungsgebiet und verkehrsspezifische Informationen von Bedeutung. Weitere Grundlagen der Immissionsberechnungen sind die basierend
+auf den Verkehrsdaten berechneten Schadstoffemissionen, die meteorologischen Daten und
+die Schadstoffhintergrundbelastung. Die der vorliegenden Untersuchung zugrunde liegenden
+Verkehrsdaten, die meteorologischen Daten und die Schadstoffhintergrundbelastung werden
+in den folgenden Abschnitten erläutert.
+Vom Auftraggeber wurden als Grundlage für das vorliegende Gutachten u. a. die nachfolgenden Unterlagen übergeben:
+
+
+Verkehrsbelegungsdaten für 2018 (Landeshauptstadt Dresden, Umweltamt; 2017a)
+
+
+
+Fahrmuster aus Rechnungen der LFULG (für das umliegende Straßennetz außer
+Bergstraße (Landeshauptstadt Dresden, Umweltamt; 2017a)
+
+
+
+Lage und Höhen von Gebäuden auf Grundlage verschiedener Planungen und
+Abstimmung (Landeshauptstadt Dresden, Stadtplanungsamt; 2017b und c).
+
+Folgende B-Pläne standen zur Verfügung:
+
+
+Wohnpark Nöthnitzer Straße, Dresden Baywobau Baubetreuung GmbH, (22.03.2017)
+
+
+
+Planungen für den Nürnberger Platz
+
+
+
+Rahmenplan Südvorstadt Dresden - Vertiefungsbereich Technologiemeile (letzte
+Änderung 02.05.2016)
+
+
+
+Rahmenplan Südvorstadt Dresden Bildung und Stadt im Dialog (letzte Änderung
+02.05.2016)
+
+
+
+Bebauungsplan Nr. 393, Dresden Räcknitz Nr. 3, Nöthnitzer Straße –Campus Süd,
+Zuarbeit
+
+von
+
+Gebäudehöhen
+
+(Landeshauptstadt
+
+Dresden,
+
+Stadtplanungsamt;
+
+15.05.2017).
+
+4.1 Lage und Beschreibung des Untersuchungsgebietes
+Das zu betrachtenden Untersuchungsgebiet befindet sich im Süden des Stadtgebietes von
+Dresden im Ortsamtsbereich Plauen (Teile der Gemarkung Altstadt II, Plauen und Räcknitz).
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+12
+
+Die Entfernungen von der Altstadt Dresden beträgt ca. 2.5 km. Das MISKAM-Auswertegebiet
+erstreckt sich südlich der Nöthitzer Straße (Höhe Alträcknitz bis Mommsenstraße). Das
+MISKAM-Rechengebiet ist deutlich größer und schließt die geplanten baulichen Änderungen
+ein.
+An der Bergstraße befindet sich eine Immissionsmessstelle des Landesamtes für Umwelt,
+Landwirtschaft und Geologie Sachsen (Abb. 4.1) die die Luftschadstoffbelastung auf zeichnet und sie wird als verkehrsbeeinflusste Station gelistet. Die Messstelle ist 9 m von der
+Hausfront entfernt. Die Messungen erfolgen in einer Höhe von 3.5 m. Vor dem dort befindlichen Café befindet sich eine Sichtschutzwand, die mit einer mittleren Höhe von 2 m berücksichtigt wurde.
+
+Abb. 4.1: Messstelle des Landesamtes für Umwelt, Landwirtschaft und Geologie in der Bergstraße in Dresden.
+Das berücksichtigte Straßennetz, die Messstelle sowie das Rechen-und Auswertegebiet sind
+in Abb. 4.2 dargestellt.
+Großräumig ist der Rahmenplan Südvorstadt dem Elbtal zuzuordnen. Die Ausrichtung des
+Elbtals ist in diesem Bereich Südost-Nordwest und besitzt eine Höhe von ca. 110 m ü NN.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+±
+Straße
+
+Rechengebiet
+
+Auswertegebiet
+
+k
+
+Messstelle
+
+k
+
+© OpenStreetMap (and) contributors, CC-BY-SA
+
+Abb. 4.2
+
+Übersicht
+
+0
+
+250
+
+500
+Meter
+
+71197-15-02
+
+Ingenieurbüro Lohmeyer
+GmbH & Co. KG
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+14
+
+Das Untersuchungsgebiet ist an der Südseite des Elbtals am Hang auf einer Höhe von ca.
+140 m bis 160 m ü NN gelegen. Nach Süden steigt das Gelände an, so dass an der Bergstraße teilweise Längsneigungen von 8 % vorherrschen.
+
+4.2 Verkehrsdaten
+Neben unterschiedlichen DTV-Werten weisen die einzelnen Straßenabschnitte unterschiedliche Schwerverkehrsanteile und unterschiedliche Verkehrssituationen (mittlere Geschwindigkeit, Standanteile, Konstantfahrten) auf, die bei der Bestimmung der Emissionen auf den
+betrachteten Straßenabschnitten entscheidenden Einfluss haben.
+Die Verkehrsdaten (Landeshauptstadt Dresden, 2017a), die vom Auftraggeber zur Verfügung gestellt wurden, liegen als mittlere Verkehrsstärke DTV für das Prognosejahr 2018 vor.
+Die Bergstraße und der Kreuzungsbereich mit der Nöthnitzer Straße wurden fahrtrichtungsgetrennt aufgenommen, dann überlagern sich die Signaturen in den Abbildungen. Sie sind
+für den Prognose-Nullfall und für den Planfall 2018 in Abb. 4.3 dargestellt.
+Auf der Bergstraße wurden die Linienbusse separat berücksichtigt, die auf Zählungen der
+Pegelzählstellen 2016 an der Bergstraße beruhen. (Landeshauptstadt Dresden, Umweltamt,
+2017a).
+Für die Berechnungen werden die Daten als mittlere Verkehrsstärken (DTV) verwendet, welche den Verkehr von Montag bis Sonntag abbilden. Die verwendeten Schwerverkehrszahlen
+(SV) beinhalten alle Fahrzeuge mit einem zulässigen Gesamtgewicht (zul. GG) größer 3.5 t.
+
+4.3 Bebauungs- und Lärmschutzsituation
+Bei der Ausbreitung der verkehrsbedingten Emissionen spielen die baulichen Gegebenheiten
+der Straße eine wesentliche Rolle. Die Gebäudedaten wurden aus den Untersuchungen für
+die Technologiemeile übernommen. Auf Grundlage eines Ortstermines und der vorliegenden
+Planungsdaten (siehe Abschnitt 4.1) erfolgten mehrere Abstimmungen mit dem Stadtplanungsamt, so dass die in Abb. 4.4 dargestellten Gebäude (im Prognose-Nullfall) und in
+Abb. 4.5 (im Planfall) zur Berechnung verwendet wurden.
+Bei den Strömungsrechnungen mit MISKAM wurden zwei Lärmschutzwände berücksichtigt.
+Zu einem handelte es sich dabei um die 2 m hohe Sichtschutzwand am Außenbereich des
+Cafes direkt vor der Messstelle zum anderen an der Bergstraße südlich der Nöthnitzer
+Straße mit einer Höhe von 3 m).
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+±
+
+11 700/3.5/0
+17 700/5.2/0
+
+17 700/5.2/0
+
+22 950/3/0
+9 100/3.7/0
+
+24 650/3.2/0
+
+23 800/3/0
+23 400/3/0
+
+7 800/3.5/0
+
+14 250/5/209
+
+12 950/5.2/209
+
+9 100/3/0
+
+14 250/5/209
+
+12 950/5.2/209
+
+9 500/3.5/0
+4 750/3.5/0
+
+1 525/1.6/0
+3 050/1.6/0
+
+4 750/3.5/0
+1 525/1.6/0
+16 400/4.8/209
+0
+
+250
+
+500
+Meter
+
+16 400/4.8/209
+
+Abb. 4.3
+
+71197-15-02
+
+Prognose-Nullfall und Planfall 2018
+Durchschnittliche Verkehrsstärke
+DTV Mo -So in Kfz pro Tag / SV >3.5 t
+in Prozent / Anzahl Linienbusse
+Ingenieurbüro Lohmeyer
+GmbH & Co. KG
+
+±
+tl'
+
+/
+
+.
+rHöhe [
+m ]
+
+~
+
+W~g.c
+
+Weg3
+Weg2
+w~,
+
+...
+
+'
+
+>50
+>40-50
+>30-40
+>25-30
+>20-25
+>15-20
+>12-15
+>9-12 ·~('
+>6-9
+>3-6
+≥1-3
+
+traB~
+
+i
+
+I
+.s
+
+-s"""
+"'
+
+S traße
+
+Rarkm""""he
+
+VitzthumGymnasium
+
+, Schor....
+
+-----...'---- Dresden •
+
+Auss~t
+e. V.
+
+•
+
+Fernbhck
+e. V.
+
+•
+
+© Ope nS tre e tMap (
+and)contributors,CCBYS A
+
+Abb. 4.4
+
+\
+0
+
+250
+
+500
+Me te r
+
+~
+
+p
+
+tJergsc~aße
+
+eV\
+
+~
+
+I
+
+•
+BOIIstra~-
+
+71
+1971502
+
+Prognose Nullfall 2018
+Ge bäude höhe n
+
+IIPIIIIiilill-'-:. . . . ....
+
+D
+
+I
+nge nie urbüro Lohm e ye r
+Gm bH&Co.KG
+
+±
+Rohrtsstr•S.
+
+tl'
+
+/
+
+Höhe[
+m ]
+
+u
+Rarkm""""he
+
+W~g.c
+
+Weg3
+Weg2
+
+- ~-----~ w~ 1
+
+>50
+>40-50
+>30-40
+>25-30
+>20-25
+>15-20
+>12-15
+>9-12
+>6-9
+>3-6
+≥1-3
+Straße
+
+VitzthumGymnasium
+
+, Schor....
+
+-----...'---- Dresden •
+
+Auss~t
+e. V.
+
+•
+
+Fernbhck
+e. V.
+
+•
+
+© Open StreetMap (
+an d)c
+on tri
+butors,CCBY SA
+
+Abb. 4.5
+
+\
+0
+
+250
+
+500
+Meter
+
+~
+
+p
+
+tJergsc~aße
+
+eV\
+
+~
+
+I
+
+•
+BOIIstra~-
+
+71
+1971502
+
+Plan fall 2018
+Gebäudehöhen
+
+IIPIIIIiilill-'-:. . . . ....
+
+D
+
+I
+n g en i
+eurbüroLohm eyer
+Gm bH&Co.KG
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+18
+
+4.4 Meteorologische Daten
+Für die Berechnung der Schadstoffimmissionen werden so genannte Ausbreitungsklassenstatistiken (AKS) benötigt. Das sind Angaben über die Häufigkeit verschiedener Ausbreitungsverhältnisse in den unteren Luftschichten, die durch Windrichtung, Windgeschwindigkeit und Stabilität der Atmosphäre definiert sind.
+Für die Ausbreitungsrechnungen wurden die Daten aus METEOKARTGIS für das Untersuchungsgebiet (Dresden-Bergstraße) direkt ausgelesen (Abb. 4.6). Damit ist es möglich, die
+topografische Gegebenheit, die Kaltluftsituation und die aerodynamische Rauigkeit im Untersuchungsgebiet mit zu berücksichtigen. Bei einer Anemometerhöhe von 10 m beträgt die
+mittlere Windgeschwindigkeit 2.2 m/s. Die häufigsten Windrichtungen sind Südost. Ein Nebenmaximum tritt in südwestlicher bis nordwestlicher Richtung auf. Die Landnutzungsunterschiede zwischen der Referenz-Messstation und dem Untersuchungsgebiet wirken sich auf
+die Windgeschwindigkeit aus. Aufgrund der aerodynamischen Rauigkeit im Untersuchungsgebiet werden die mittleren Windverhältnisse für den Standort angepasst. Die für die Ausbreitungsrechnungen verwendete Wind- und Ausbreitungsklassenstatistik ist in Abb. 4.6
+dargestellt.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+19
+
+Windverteilung in Prozent
+N
+
+NW
+
+NO
+
+sw
+
+so
+
+w
+
+s
+Station
+
+: i38j7
+
+Häufigkeit ABK
+
+kleiner 1.4 m/s
+
+Rechtswert
+
+: 4621574
+
+I
+
+: 21 .8%
+
+1.4 bis 2.3 m/s
+
+Hochwert
+
+: 5655996
+
+II
+
+:28.4%
+
+2.4 bis 3.8 m/s
+
+Messhöhe
+
+: 12.3 m
+
+111/1
+
+: 24.1%
+
+Windgeschw.
+
+:2.2 m/s
+
+111/2
+
+: 11 .9%
+
+IV
+
+:9.2%
+
+7.0 bis 10 m/s
+
+V
+
+: 4 .5%
+
+größer 10 m/s
+
+3.9 bis 6.9 m/s
+
+Abb. 4.6: Synthetische Wind- und Ausbreitungsklassenstatistik für den Untersuchungsstandort auf Basis prognostischer Windfeldmodellierungen aus dem METEOKARTGISSystem. Quelle: LfUG (2007).
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+20
+
+4.5 Hintergrundbelastung der Luft
+Die Immission eines Schadstoffes im Nahbereich von Straßen setzt sich aus der großräumig
+vorhandenen Hintergrundbelastung und der straßenverkehrsbedingten Zusatzbelastung zusammen. Die Hintergrundbelastung entsteht durch Überlagerung von Immissionen aus Industrie, Hausbrand, nicht detailliert betrachtetem Nebenstraßenverkehr und weiter entfernt
+fließendem Verkehr sowie überregionalem Ferntransport von Schadstoffen. Es ist die
+Schadstoffbelastung, die im Untersuchungsgebiet ohne Verkehr auf den explizit in die Untersuchung einbezogenen Straßen vorliegen würde.
+Stickoxide unterliegen auf dem Ausbreitungspfad chemischen Umwandlungsprozessen. Die
+Berechnung der NO2-Schadstoffbelastung erfolgt deshalb mit Hilfe eines Chemiemodells
+(siehe Anhang A2), welche als zusätzliche Hintergrundbelastungen NOX und O3 benötigt.
+Zur Bestimmung der Schadstoffhintergrundbelastung standen Werte der Berechnungen zum
+Immissionskataster Sachsen zur Verfügung. In Abstimmung mit dem LfULG (2017) werden
+die in Tab. 4.1 dargestellten Werte unverändert auch für das Bezugsjahr 2018 angesetzt.
+
+Schadstoff
+
+Jahresmittelwert [µg/m³]
+
+NO2
+
+17
+
+NOX
+
+27
+
+O3
+
+50
+
+PM10
+
+21
+
+Tab. 4.1: Schadstoffhintergrundbelastungen im Untersuchungsgebiet für das Bezugsjahr 2018
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+21
+
+5 EMISSIONEN
+5.1 Methode zur Bestimmung der Emissionsfaktoren
+Zur Ermittlung der Emissionen werden die Verkehrsdaten und für jeden Luftschadstoff so
+genannte Emissionsfaktoren benötigt. Die Emissionsfaktoren sind Angaben über die pro
+mittlerem Fahrzeug der Fahrzeugflotte und Straßenkilometer freigesetzten Schadstoffmengen. Im vorliegenden Gutachten werden die Emissionsfaktoren für die Fahrzeugarten Leichtverkehr (LV) und Schwerverkehr (SV) unterschieden. Die Fahrzeugart LV enthält dabei die
+Pkw, die leichten Nutzfahrzeuge (lNfz) inklusiv zeitlicher Entwicklung des Anteils am LV nach
+TREMOD (2010) und die Motorräder, die Fahrzeugart SV versteht sich inklusive Lastkraftwagen, Sattelschlepper, Busse usw.
+Die Emissionsfaktoren der Partikel (PM10) setzen sich aus „motorbedingten“ und „nicht motorbedingten“ (Reifenabrieb, Staubaufwirbelung etc.) Emissionsfaktoren zusammen. Die Ermittlung der motorbedingten Emissionen erfolgt entsprechend der VDI-Richtlinie „Kfz-Emissionsbestimmung“ (VDI, 2003).
+
+5.2 Motorbedingte Emissionsfaktoren
+Die motorbedingten Emissionsfaktoren der Fahrzeuge einer Fahrzeugkategorie (Pkw, leichte
+Nutzfahrzeuge, Busse etc.) werden mit Hilfe des „Handbuchs für Emissionsfaktoren des
+Straßenverkehrs HBEFA“ Version 3.3 (UBA, 2017) berechnet. Darin wurde eine Korrektur
+der Stickoxid-Basisemissionsfaktoren für EURO-4- und EURO-6-Diesel-PKW vorgenommen.
+Darüber hinaus wird in HBEFA 3.3 erstmals der Einfluss der Umgebungstemperatur berücksichtigt, der sich bei Temperaturen unter 20°C erhöhend auf die Stickoxid-Basisemissionsfaktoren auswirkt. Die Berücksichtigung dieses Temperatureinflusses erfolgt in HBEFA 3.3
+bei allen Diesel-PKW der Abgasnorm EURO-4 - EURO-6.
+Die Berechnung der Emissionsfaktoren erfolgte unter Verwendung der bundesdeutschen
+Jahresmitteltemperatur.
+Die motorbedingten Emissionen hängen für die Fahrzeugkategorien Pkw, lNfz, Lkw und
+Bussen im Wesentlichen ab von:
+
+
+den so genannten Verkehrssituationen („Fahrverhalten“), das heißt der Verteilung
+von Fahrgeschwindigkeit, Beschleunigung, Häufigkeit und Dauer von Standzeiten,
+
+
+
+der sich fortlaufend ändernden Fahrzeugflotte (Anteil Diesel etc.),
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+
+
+22
+
+der Zusammensetzung der Fahrzeugschichten (Fahrleistungsanteile der Fahrzeuge
+einer bestimmten Gewichts- bzw. Hubraumklasse und einem bestimmten Stand der
+Technik hinsichtlich Abgasemission, z. B. EURO 2, 3, ...) und damit vom Jahr, für
+welches der Emissionsfaktor bestimmt wird (= Bezugsjahr),
+
+
+
+der Längsneigung der Fahrbahn (mit zunehmender Längsneigung nehmen die
+Emissionen pro Fahrzeug und gefahrenem Kilometer entsprechend der Steigung
+deutlich zu, bei Gefällen weniger deutlich ab) und
+
+
+
+dem Prozentsatz der Fahrzeuge, die mit nicht betriebswarmem Motor betrieben werden und deswegen teilweise erhöhte Emissionen (Kaltstarteinfluss) haben.
+
+Die Zusammensetzung der Fahrzeuge innerhalb der Fahrzeugkategorien wird für das zu
+betrachtende Bezugsjahr dem HBEFA (UBA, 2014) entnommen. Darin ist die Gesetzgebung
+bezüglich Abgasgrenzwerten (EURO 2, 3, ...) berücksichtigt.
+Für die Untersuchungen erfolgte die Berechnung einer regionalspezifischen Dresdner PKWFlottenzusammensetzung für das Betrachtungsjahr 2018 auf Basis der aktuellen Bestandsdaten des Kraftfahrtbundesamtes (KBA) sowie der Fahrleistungsfaktoren (Verhältnis aus
+Fahrleistungsanteil und Bestandsanteil) und Annahmen zur Flottenentwicklung aus
+HBEFA 3.3. In Abstimmung mit der DVB AG wurde die Flottenzusammensetzung der Linienbusse zu jeweils 50 % aus Fahrzeugen mit Emissionsstandard EURO-V und EURO-VI angenommen1. Die Flottenzusammensetzungen der Nutzfahrzeuge und Reisebusse wurde
+entsprechend der bundesdeutschen Flottenzusammensetzungen im Jahre 2018 nach
+HBEFA 3.3 angenommen. Die Emissionsberechnung erfolgte auf Basis der somit gewichteten Emissionsfaktoren sowie aktueller Verkehrsdaten und Zusammensetzung (DTV, SV,
+Busse), die vom Auftraggeber zur Verfügung gestellt wurden.
+Die Staub-Fraktion der motorbedingten Emissionen kann nach vorliegenden Erkenntnissen
+(Klingenberg et al., 1991; Israël et al., 1994; Gehrig et al., 2003) zu 100 % der Partikelgrößen
+kleiner 1 μm (aerodynamischer Durchmesser) und damit auch der PM10- und PM2.5-Fraktion zugeordnet werden.
+
+1
+
+Auskunft DVB: Herr Gableske (Tel. 0351-857 3216) am 01.06.2017
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+23
+
+Die Längsneigung der Straßen ist aus Höhenplänen oder Lageplänen des Untersuchungsgebietes bekannt. Der Kaltstarteinfluss von NOX und Partikeln innerorts für Pkw und lNfz wird
+entsprechend HBEFA angesetzt, sofern er in Summe einen Zuschlag darstellt.
+Für diese Ausarbeitung werden folgende Verkehrssituationen herangezogen:
+IOS-FernC50
+
+Städtische Magistrale o. Ringstraße, Tempolimit 50 km/h, flüssiger Verkehr
+
+IOS-FernC50d Städtische Magistrale o. Ringstraße, Tempolimit 50 km/h, dichter Verkehr
+IOS-FernC50g Städtische Magistrale o. Ringstraße, Tempolimit 50 km/h, gesättigter Verkehr
+IOS-FernC50s Städtische Magistrale o. Ringstraße, Tempolimit 50 km/h, Stau
+IOS-HVS50d
+
+Städtische Hauptverkehrsstraße, Tempolimit 50 km/h, dichter Verkehr
+
+IOS-HVS50s
+
+Städtische Hauptverkehrsstraße, Tempolimit 50 km/h, Stau
+
+IOS-NS40g
+
+Städtische Erschließungs-, Nebenstraße, Tempolimit 40 km/h, gesättigter
+Verkehr
+
+IOS-NS40s
+
+Städtische Erschließungs-, Nebenstraße, Tempolimit 40 km/h, Stau
+
+IOS-Sam50g
+
+Städtische Sammelstraße, Tempolimit 50 km/h, gesättigter Verkehr
+
+5.3 Nicht motorbedingte Emissionsfaktoren
+Untersuchungen der verkehrsbedingten Partikelimmissionen zeigen, dass neben den Partikeln im Abgas auch nicht motorbedingte Partikelemissionen zu berücksichtigen sind, hervorgerufen durch Straßen- und Bremsbelagabrieb, Aufwirbelung von auf der Straße aufliegendem Staub etc. Diese Emissionen sind im HBEFA nicht enthalten, sie sind auch derzeit nicht
+mit zufrieden stellender Aussagegüte zu bestimmen. Die Ursache hierfür liegt in der Vielfalt
+der Einflussgrößen, die bisher noch nicht systematisch parametrisiert wurden und für die es
+derzeit auch keine verlässlichen Aussagen gibt.
+In der vorliegenden Untersuchung werden die PM10-Emissionen aus Abrieben (Reifen,
+Bremsen und Straßenbelag) und infolge der Wiederaufwirbelung (Resuspension) von Straßenstaub entsprechend Düring und Lohmeyer (2011) verwendet
+Die nicht motorbedingten PM2.5-Emissionen aus Abrieben (Reifen, Bremsen, Straßenbelag)
+werden in der vorliegenden Untersuchung entsprechend der im Emission Inventory Guidebook von EMEP/CORINAIR (CORINAIR, 2007) beschriebenen Vorgehensweise angesetzt.
+Eine Differenzierung nach verschiedenen Verkehrssituationen ist durch eine dort angegebene Geschwindigkeitsabhängigkeit (für Reifen und Bremsabrieb) möglich.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+24
+
+Die Resuspension von eingetragenem Straßenstaub gehört entsprechend derzeitigem
+Kenntnisstand eher der Partikelfraktion zwischen 2.5 µm und 10 µm an und wird deshalb bei
+der Betrachtung von PM2.5 nicht mit berücksichtigt.
+Abrieb von Kupplungsbelägen wird ebenfalls nicht berücksichtigt, da dieser weitestgehend in
+den Kupplungsgehäusen zurückgehalten wird.
+Es sei darauf verwiesen, dass insbesondere die Emissionsfaktoren für Straßenabrieb von
+den Autoren wegen fehlender systematischer Untersuchungen mit sehr großen Unsicherheiten bewertet werden. Palmgren et al. (2003) setzt z. B. die PM2.5-Straßenabriebsemissionen auf Basis von Untersuchungen von TNO aus dem Jahr 1997 zu Null. Um auf der sicheren Seite zu liegen, werden dennoch Emissionsfaktoren verwendet.
+Auf Grundlage der o. a. Datenbasis werden zur Berechnung der PM10- und PM2.5-Emissionen für die Summe aus Abrieben (Reifen, Bremsen, Straßenbelag) die in der Tab. 5.1, aufgeführten Emissionsfaktoren angesetzt.
+Straßenparameter
+
+spezifische Emissionsfaktoren je Kfz
+
+Längs-
+
+PM10/PM2.5
+
+NO2 (direkt)
+
+NOX
+
+[mg/km]
+
+[mg/km]
+
+Verkehrsnei-
+
+(nur Abgas)
+[mg/km]
+
+PM10
+(nur Abrieb und
+Aufwirbelung)
+[mg/km]
+
+situation
+gung
+LV
+
+SV
+
+LV
+
+SV
+
+LV
+
+SV
+
+LV
+
+SV
+
+IOS-FernC50
+
++6 %
+
+257
+
+403
+
+800
+
+3 194
+
+11.3
+
+47
+
+26
+
+100
+
+IOS-FernC50+8
+
+±0 %
+
+346
+
+529
+
+1066
+
+4 245
+
+12.9
+
+55.2
+
+26
+
+100
+
+IOS-FernC50
+
+-6 %
+
+34
+
+119
+
+110
+
+589
+
+3.1
+
+8
+
+26
+
+100
+
+IOS-FernC50-8
+
+±0 %
+
+34
+
+119
+
+110
+
+589
+
+3.1
+
+8
+
+26
+
+100
+
+IOS-FernC50d
+
+±0 %
+
+104
+
+259
+
+334
+
+2 058
+
+6.4
+
+27.5
+
+33
+
+350
+
+IOS-FernC50d
+
+±2 %
+
+108
+
+263
+
+344
+
+1 988
+
+6.6
+
+27.9
+
+33
+
+350
+
+IOS-FernC50d
+
++4 %
+
+181
+
+337
+
+577
+
+2 636
+
+9.6
+
+43.7
+
+33
+
+350
+
+IOS-FernC50d
+
+-2 %
+
+78
+
+251
+
+251
+
+1 829
+
+5.3
+
+19.8
+
+33
+
+350
+
+IOS-FernC50d
+
+-4 %
+
+59
+
+262
+
+189
+
+1 469
+
+4.4
+
+14.5
+
+33
+
+350
+
+IOS-FernC50g
+
++2 %
+
+146
+
+323
+
+466
+
+2 544
+
+8.1
+
+41
+
+40
+
+700
+
+IOS-FernC50g
+
++4 %
+
+196
+
+371
+
+621
+
+2 899
+
+9.9
+
+48.8
+
+40
+
+700
+
+IOS-FernC50g
+
++6 %
+
+262
+
+444
+
+825
+
+3 491
+
+12.1
+
+56.1
+
+40
+
+700
+
+IOS-FernC50g
+
+-4 %
+
+61
+
+372
+
+196
+
+1 944
+
+4.5
+
+17.4
+
+40
+
+700
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+Straßenparameter
+
+25
+
+spezifische Emissionsfaktoren je Kfz
+
+Längs-
+
+PM10/PM2.5
+
+NO2 (direkt)
+
+NOX
+
+[mg/km]
+
+[mg/km]
+
+Verkehrsnei-
+
+(nur Abgas)
+[mg/km]
+
+PM10
+(nur Abrieb und
+Aufwirbelung)
+[mg/km]
+
+situation
+gung
+LV
+
+SV
+
+LV
+
+SV
+
+LV
+
+SV
+
+LV
+
+SV
+
+IOS-FernC50g
+
+-6 %
+
+47
+
+278
+
+153
+
+1 392
+
+3.9
+
+14.3
+
+40
+
+700
+
+IOS-FernC50g-8
+
+±0 %
+
+47
+
+278
+
+153
+
+1 392
+
+3.9
+
+14.3
+
+40
+
+700
+
+IOS-FernC50s
+
++2 %
+
+209
+
+741
+
+660
+
+5 988
+
+12.9
+
+70.6
+
+45
+
+1 200
+
+IOS-FernC50s
+
++4 %
+
+244
+
+715
+
+769
+
+5 938
+
+14.4
+
+80.9
+
+45
+
+1 200
+
+IOS-FernC50s
+
++6 %
+
+287
+
+748
+
+899
+
+6 078
+
+15.9
+
+90.1
+
+45
+
+1 200
+
+IOS-FernC50s
+
+-2 %
+
+147
+
+979
+
+469
+
+5 795
+
+10.2
+
+51.6
+
+45
+
+1 200
+
+IOS-FernC50s
+
+-4 %
+
+129
+
+958
+
+409
+
+5 090
+
+9.4
+
+43.6
+
+45
+
+1 200
+
+IOS-FernC50s
+
+-6 %
+
+115
+
+808
+
+364
+
+4 157
+
+8.4
+
+38
+
+45
+
+1 200
+
+IOS-FernC50s-8
+
+±0 %
+
+115
+
+808
+
+364
+
+4 157
+
+8.4
+
+38
+
+45
+
+1 200
+
+IOS-HVS50d
+
+±0 %
+
+107
+
+316
+
+354
+
+2 532
+
+6.9
+
+31.3
+
+33
+
+350
+
+IOS-HVS50d
+
+±2 %
+
+111
+
+345
+
+367
+
+2 405
+
+7
+
+31.7
+
+33
+
+350
+
+IOS-HVS50s
+
+±0 %
+
+174
+
+839
+
+564
+
+6 020
+
+11.9
+
+61.1
+
+45
+
+1 200
+
+IOS-HVS50s
+
+±2 %
+
+178
+
+860
+
+575
+
+5 892
+
+11.9
+
+61.1
+
+45
+
+1 200
+
+IOS-NS40g
+
+±0 %
+
+136
+
+506
+
+485
+
+3 825
+
+9.6
+
+40.8
+
+45
+
+1 200
+
+IOS-NS40g
+
+±2 %
+
+141
+
+523
+
+498
+
+3 614
+
+9.6
+
+40.9
+
+45
+
+1 200
+
+IOS-NS40g
+
+±4 %
+
+149
+
+512
+
+523
+
+3 302
+
+9.8
+
+42.3
+
+45
+
+1 200
+
+IOS-NS40g
+
++2 %
+
+173
+
+466
+
+598
+
+3 742
+
+11
+
+50.1
+
+45
+
+1 200
+
+IOS-NS40g
+
+-2 %
+
+109
+
+581
+
+399
+
+3 485
+
+8.2
+
+31.7
+
+45
+
+1 200
+
+IOS-NS40s
+
+±2 %
+
+178
+
+860
+
+611
+
+5 892
+
+12.7
+
+61.1
+
+45
+
+1 200
+
+IOS-NS40s
+
++2 %
+
+209
+
+741
+
+706
+
+5 988
+
+14
+
+70.6
+
+45
+
+1 200
+
+IOS-NS40s
+
+-2 %
+
+147
+
+979
+
+516
+
+5 795
+
+11.3
+
+51.6
+
+45
+
+1 200
+
+IOS-Sam50g
+
+±0 %
+
+125
+
+377
+
+422
+
+2 887
+
+7.9
+
+33.5
+
+40
+
+700
+
+IOS-Sam50g
+
+±2 %
+
+129
+
+391
+
+434
+
+2 675
+
+8
+
+33.9
+
+40
+
+700
+
+IOS-Sam50g
+
++2 %
+
+161
+
+358
+
+535
+
+2 826
+
+9.3
+
+43.2
+
+40
+
+700
+
+IOS-Sam50g
+
+-2 %
+
+97
+
+425
+
+333
+
+2 524
+
+6.8
+
+24.5
+
+40
+
+700
+
+Tab. 5.1: Emissionsfaktoren je Kfz für die betrachteten Straßen im Untersuchungsgebiet für
+das Bezugsjahr 2018
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+26
+
+Die Bildung von so genannten sekundären Partikeln wird mit der angesetzten Hintergrundbelastung berücksichtigt, soweit dieser Prozess in großen Entfernungen (10 km bis 50 km)
+von den Schadstoffquellen relevant wird. Für die kleineren Entfernungen sind die sekundären Partikel in den aus Immissionsmessungen abgeleiteten nicht motorbedingten Emissionsfaktoren enthalten.
+
+5.4 Berechnung der Emissionsfaktoren für größere Streckenlängsneigungen
+In HBEFA 3.3 werden Emissionsfaktoren in Abhängigkeit von der Streckenlängsneigung bis
+zu einer Neigung von max. 6 % ausgewiesen. Die Bergstraße weist jedoch Steigungen von
+bis zu 8 % auf. Aus diesem Grunde wurden die Emissionsfaktoren für die Längsneigungsklassen 8 % extrapoliert.
+In Abb. 5.1 ist dieses Vorgehen am Beispiel der Verkehrssituation IOS-FernC50 dargestellt.
+Demnach wurde der Trend des Anstieg der Emissionsfaktoren bei Streckenlängsneigungen
+>0 auf die Längsneigungsklasse „+8 %“ übertragen. Der Trend zur Verringerung der Emissionsfaktoren bei Streckenlängsneigungen < 0 wurde jedoch im Sinne einer konservativen
+Betrachtung nicht extrapoliert, sodass die Emissionsfaktoren bei Streckenlängsneigungen
+≤6 % nicht weiter verringert wurden.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+27
+
+Abb. 5.1: Extrapolation der NOx- und PM10-Motor-Emissionsfaktoren 2018 der PKW und
+LNF (oben) und SNF (unten) für die Verkehrssituation IOS-FernC50
+
+5.5 Emissionen des untersuchten Straßennetzes
+Die Emissionen der betrachteten Schadstoffe NOX, NO2-direkt und PM10 werden für jeden der
+betrachteten Straßenabschnitte ermittelt. Dabei wirken sich sowohl die verschiedenen Verkehrsaufkommen und SV-Anteile als auch die unterschiedlichen Verkehrssituationen aus.
+Die Emissionsbestimmung erfolgte aufbauend auf realistischen Fahrprofilen aus der Auswertung von Taxi-FCD-Daten. Daraus wurden für die Bergstraße realitätsnahe Verkehrssituationen und Level of Service (LOS)-Anteile (fahrtrichtungsgetrennt) abgeleitet. Für die an-
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+28
+
+deren Straßen wurden die vom LfULG für Berechnungen für die Stadt Dresden verwendeten
+Verkehrssituationen, LOS-Anteile und Stop und Go-Anteile verwendet.
+Die Verkehrssituationen sind für den Prognose-Nullfall bzw. Planfall 2018 in Abb. 5.2 aufgezeigt. Die darin verwendeten Signaturen setzten sich aus folgenden Eigenschaften zusammen: eigentliche Verkehrssituation (Fahrmuster, siehe Abschnitt 5.2) und Längsneigung. Die
+Verkehrssituation wird durch die Farbe der Signatur wiedergegeben und die Strichstärke
+zeigt die Längsneigung an.
+Demzufolge bedeutet eine fett gezeichnete, rosafarbene Liniensignatur (vgl. Abb. 5.2) eine
+Verkehrssituation IOS-FernC50 mit dichtem Verkehr und einer Längsneigung >0 %.
+Zusätzlich werden Stauanteile dargestellt, welche im Nahbereich von Kreuzungen bzw.
+Lichtsignalanlagen den gestörten Verkehrsfluss gesondert berücksichtigen. Dort wird anteilig
+ein Stop&Go-Verkehr auf die tägliche Fahrleistung angesetzt. Dieser stellt den Anteil der
+jeweiligen Stau-Verkehrssituation, z. B. IOS-FernC50s zur verwendeten regulären Verkehrssituationen (IOS-FernC50) dar.
+Hinweis: Die im HBEFA aufgeführten Verkehrssituationen repräsentieren lange Straßenabschnitte, worin die Beschleunigungsvorgänge, z. B. beim Anfahren an Lichtsignalanlagen,
+nur einen geringen Anteil besitzen. Kreuzungsbereiche können innerhalb der Kategorie
+„Hauptverkehrsstraße“ durch das HBEFA nicht direkt abgebildet werden. Die dort ausgewiesenen Stauanteile stellen eine Rechengröße zur bestmöglichen Bestimmung der lokalen
+Emissionen dar. Sie müssen deshalb nicht zwangsläufig realen Stauhäufigkeiten entsprechen.
+Die Tab. 5.2 zeigt exemplarisch für den Straßenabschnitt der Bergstraße vor der Messstelle
+die Verkehrskenndaten und die berechneten Emissionen, ausgedrückt als Strecken und Zeit
+bezogene Emissionsdichten.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+±
+
+Verkehrssituation
+
+17
+
+IOS-FernC50g
+IOS-FernC50d
+IOS-FernC50
+IOS-HVS50d
+IOS-NS40g
+IOS-Sam50g
+
+7
+75 1
+
+26
+.4
+
+Längsneigung
+±0 %
+±2 %
+±4 %
+±6 %
+±8 %
+
+33
+
+27
+17
+
+Stauanteil in %
+11
+16
+
+29
+
+17
+26.4
+
+11
+
+27
+29
+33
+
+16
+
+51
+
+33
+
+33
+
+51
+60
+
+60
+
+0.75
+
+0
+
+250
+
+500
+Meter
+
+Abb. 5.2
+
+71197-15-02
+
+Prognose-Nullfall und Planfall 2018
+Verkehrssituation mit Angabe des
+Stauanteils in Prozent
+Ingenieurbüro Lohmeyer
+GmbH & Co. KG
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+DTV SV[Kfz/24 Anteil
+h]
+[%]
+
+Verkehrssituation
+
+30
+
+Stauanteil
+LBus
+NO2, direkt
+NOX
+PM10
+[%]
+[Kfz/24 h)] [mg/(m s)] [mg/(m s)] [mg/(m s)]
+Stadtauswärtige Richtung
+
+IOS12950
+
+5.2
+
+FernC50+8
+
+0
+
+209
+
+0.05438
+
+0.185612
+
+0.00667
+
+0.027301
+
+0.00631
+
+Stadteinwärtige Richtung
+IOS12 950
+
+5.2
+
+FernC50-8
+
+11
+
+209
+
+0.007705
+
+Tab. 5.2 Verkehrsdaten und berechnete, jahresmittlere Emissionsdichten für den Straßenabschnitt der Bergstraße vor der Messstelle
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+31
+
+6 IMMISSIONEN
+Für das Untersuchungsgebiet ist eine flächendeckende Auskunft über die Immissionssituation durch eine Vielzahl an Untersuchungspunkten gegeben.
+In die Berechnungen gehen die Emissionen der Kraftfahrzeuge (siehe Kapitel 5) des Betrachtungsjahres 2018 auf der Grundlage der jeweiligen Verkehrsstärken der berücksichtigten Straßen ein. Diese Emissionen verursachen die verkehrsbedingte Zusatzbelastung im
+Untersuchungsgebiet. Die Beurteilungswerte beziehen sich immer auf die Gesamtbelastung.
+Daher wird nur die Gesamtbelastung diskutiert, welche sich aus Zusatzbelastung und großräumig vorhandener Hintergrundbelastung zusammensetzt.
+Die Ergebnisse für die Leitkomponenten NO2 und, PM10 sind als Gesamtbelastungen (Hintergrundbelastung + verkehrsbedingte Zusatzbelastung) in den jeweiligen Abschnitten dargestellt. Die flächenhafte grafische Darstellung erfolgt in Form von farbigen Quadraten. Die
+Farben sind bestimmten Konzentrationsintervallen zugeordnet. Die Zuordnung zwischen
+Farbe und Konzentration ist jeweils in der Legende angegeben. Sofern in diese Stufen
+besondere Kennwerte fallen, werden diese dargestellt (z. B. beim NO2-Jahresmittelwert der
+Grenzwert von 40 µg/m³).
+
+6.1 Stickstoffdioxid (NO2)
+Die Gesamtbelastungen der NO2-Jahresmittelwerte sind flächendeckend in Abb. 6.1 für den
+Prognose-Nullfall 2018 und in Abb. 6.2 für den Planfall 2018 dargestellt. Unter Berücksichtigung der angesetzten Hintergrundbelastung von 17 µg NO2/m³ treten keine Überschreitungen des seit dem Jahr 2010 geltenden Grenzwertes für den NO2-Jahresmittelwerte von
+40 µg/m³ an den Fassaden der im Auswertegebiet liegenden Bebauungen auf.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+32
+
+Abb. 6.1: Jahresmittelwerte der NO2-Gesamtbelastung in 3.5 m über Grund im PrognoseNullfall 2018
+Graue Flächen = Gebäude; Graue Raster = Fahrbahn mit Emissionen, Schwarzer
+Punkt = Lage der Messstelle
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+33
+
+Abb. 6.2: Jahresmittelwerte der NO2-Gesamtbelastung 3.5 m über Grund im Planfall 2018
+Graue Flächen = Gebäude; Graue Raster = Fahrbahn mit Emissionen, Schwarzer
+Punkt = Lage der Messstelle
+Die Berechnungen ergaben weiterhin, dass im Prognose-Nullfall und im Planfall unter Berücksichtigung der in Abb. 4.3 und Abb. 4.4 aufgeführten Bebauung an der Messstelle in
+einer Messhöhe von 3.5 m jeweils 46 µg NO2/m³ berechnet werden. Die Abb. 6.3 zeigt die
+Differenz zwischen dem Planfall und dem Prognose-Nullfall. Dort ist im Bereich der Messstelle keine Veränderung zu erwarten. Südlich der Messstelle ist auf Grund der geplanten
+Bebauung des Rahmenplanes und insbesondere der geplanten geschlossenen Bebauung im
+Kreuzungsbereich Bergstraße/Nöthnitzer Straße und damit veränderten Ausbreitungsbedingungen eine Erhöhung der NO2-Immissionen um maximal 2 µg NO2/m³ zu erwarten. Nördlich
+der Messstelle wird eine leichte Abnahme der Immissionen prognostiziert. Dies ist bedingt
+durch geänderte Strömungsverhältnisse wegen der im Planfall berücksichtigten geplanten
+Bebauung u. a. in Richtung Fritz-Förster-Platz. Am höchst belasteten Punkt der Gebäudefront nördlich des Messstellenbereiches (= Wohnhäuser Bergstraße 68, 70, 72, 74 und 76)
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+34
+
+werden in ca. 3.5 m Höhe im Prognose-Nullfall 2018 gerundet 38 µg NO2/m³ bzw. im Planfall 2018 gerundet 37 µg NO2/m³ berechnet.
+An der westlich gelegenen Bebauung werden höhere Konzentrationen als an der östlich gelegenen Bebauung ermittelt. Außerdem ist deutlich erkennbar, dass die Immissionen an der
+nördlicheren geschlossenen Bebauung (Richtung Mommsenstraße) auch auf Grund der veränderten Emissionen höher sind.
+Auf Grund der Ergebnisse sind an der Messstelle keine Veränderungen auf Grund der geplanten Bebauung zu erwarten. Allerdings wird sowohl im Prognose-Nullfall als auch im
+Planfall 2018 weiterhin eine Überschreitung des geltenden Grenzwertes für den NO2-Jahresmittelwert prognostiziert.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+35
+
+Abb. 6.3: Absolute Differenz des Jahresmittelwertes der NO2-Gesamtbelastung 3.5 m zwischen Planfall und Prognose-Nullfall 2018
+Graue Flächen = Gebäude; Graue Raster = Fahrbahn mit Emissionen, Schwarzer
+Punkt = Lage der Messstelle
+
+6.2 Feinstaub (PM10)
+Einen Überblick über die flächendeckenden, bodennahen PM10-Jahresmittelwerte ist der
+Abb. 6.4 für den Prognose-Nullfall und der Abb. 6.5 für den Planfall zu entnehmen.
+Unter Berücksichtigung der angesetzten Hintergrundbelastung von 21 µg/m³ werden an der
+Messstelle in 3.5 m Höhe für den Prognose-Nullfall und Planfall 2018 25 µgPM10/m³ berechnet.
+Auch hier sind an der Messstelle keine Veränderungen zu erwarten.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+36
+
+Abb. 6.4: Jahresmittelwerte der PM10-Gesamtbelastung in 3.5 m über Grund im PrognoseNullfall 2018
+Graue Flächen = Gebäude; Graue Raster = Fahrbahn mit Emissionen, Schwarzer
+Punkt = Lage der Messstelle
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+37
+
+Abb. 6.5: Jahresmittelwerte der PM10-Gesamtbelastung in 3.5 m über Grund im Planfall 2018
+Graue Flächen = Gebäude; Graue Raster = Fahrbahn mit Emissionen, Schwarzer
+Punkt = Lage der Messstelle
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+38
+
+7 LITERATUR
+Bächlin et al. (2008): Untersuchungen zu Stickstoffdioxid-Konzentrationen, Los 1 Überprüfung der Rombergformel. Ingenieurbüro Lohmeyer GmbH & Co. KG, Karlsruhe. Projekt
+60976-04-01. Gutachten im Auftrag von: Landesamt für Natur, Umwelt und Verbraucherschutz Nordrhein-Westfalen, Recklinghausen.
+BASt (1986): Straßenverkehrszählungen 1985 in der Bundesrepublik Deutschland. Erhebungs- und Hochrechnungsmethodik. Schriftenreihe Straßenverkehrszählungen, H. 36.
+Im Auftrag des Bundesministers für Verkehr, Bergisch Gladbach, 1986. Hrsg.: Bundesanstalt für Straßenwesen, Bergisch Gladbach.
+BASt (2005): PM10-Emissionen an Außerortsstraßen mit Zusatzuntersuchung zum Vergleich
+der PM10-Konzentrationen aus Messungen an der A 1 Hamburg und Ausbreitungsrechnungen (Düring, I., Bösinger, R., Lohmeyer, A.). Berichte der Bundesanstalt für
+Straßenwesen, Verkehrstechnik Heft V 125, ISBN 3-86509-307-8, Bergisch-Gladbach,
+Juni 2005.
+22. BImSchV (2007): Zweiundzwanzigste Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (Verordnung über Immissionswerte für Schadstoffe in der Luft 22. BImSchV), Neufassung vom 4. Juni 2007. In: BGBl Jahrgang 2007 Teil I Nr. 25,
+ausgegeben zu Bonn am 12.06.2007 (nach Erscheinen der 39. BImSchV zurückgezogen).
+23. BImSchV (1996): Dreiundzwanzigste Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (Verordnung über die Festlegung von Konzentrationswerten 23. BImSchV). In: BGBl. I, Nr. 66, S. 1962 (mit Erscheinen der 33. BImSchV zurückgezogen).
+33. BImSchV (2004): Dreiunddreißigste Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (Verordnung zur Verminderung von Sommersmog, Versauerung
+und Nährstoffeinträgen - 33. BImSchV). BGBl I, Nr. 36, S. 1612-1625 vom 20.07.2004
+(nach Erscheinen der 39. BImSchV zurückgezogen).
+39. BImSchV (2010): Neununddreißigste Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (Verordnung über Luftqualitätsstandards und Emissionshöchstmengen – 39. BImSchV). BGBl I, Nr. 40, S. 1065-1104 vom 05.08.2010.
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+39
+
+CORINAIR (2007): EMEP/CORINAIR Emission Inventory Guidebook - 2007. EEA (European
+Environment Agency). Publish date: 5 Dec 2007. In: Technical report No 16/2007.
+Düring, I., Bächlin, W., Ketzel, M., Baum, A., Friedrich, U., Wurzler, S. (2011): A new simplified NO/NO2 conversion model under consideration of direct NO2-emissions. Meteorologische Zeitschrift, Vol. 20 067-073 (February 2011).
+Düring, I., Lohmeyer, A. (2011): Einbindung des HBEFA 3.1 in das FIS Umwelt und Verkehr
+sowie Neufassung der Emissionsfaktoren für Aufwirbelung und Abrieb des Straßenverkehrs. Ingenieurbüro Lohmeyer GmbH & Co. KG, Radebeul unter Mitarbeit der TU
+Dresden sowie der BEAK Consultants GmbH. Projekt 70675-09-10, Juni 2011. Gutachten im Auftrag von: Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie, Dresden.
+Eichhorn, J. (2014): MISKAM Handbuch zu Version 6.3. Giese-Eichhorn Umweltmeteorologische Software. Wackersheim, April 2014.
+Flassak, Th., Bächlin, W., Bösinger, R., Blazek, R., Schädler, G., Lohmeyer, A. (1996): Einfluss der Eingangsparameter auf berechnete Immissionswerte für Kfz-Abgase - Sensitivitätsanalyse. In: FZKA PEF-Bericht 150, Forschungszentrum Karlsruhe.
+Gehrig, R., Buchmann, B. (2003): Characterising seasonal variations and spatial distribution
+of ambient PM10 and PM2.5 concentrations based on long-term Swiss monitoring
+data. Atmospheric Environment 37 (2003).
+Israël, G.W., Schlums, C., Treffeisen, R. Pesch, M. (1994): Rußimmissionen in Berlin, Herkunftsbestimmung - Kfz-Flottenemissionsfaktoren – Vergleichbarkeit von Probenahmemethoden. Fortschrittberichte VDI, Reihe Umwelttechnik, Nr. 152.
+Klingenberg, H., Schürmann, D., Lies, K.-H. (1991): Dieselmotorabgas - Entstehung und
+Messung. In: VDI-Bericht Nr. 888, S. 119-131.
+Kühlwein, Jörg (2004): Unsicherheiten bei der rechnerischen Ermittlung von Schadstoffemissionen des Straßenverkehrs und Anforderungen an zukünftige Modelle. Dissertation,
+Institut für Energiewirtschaft und Rationelle Energieanwendung (IER) der Universität
+Stuttgart, 20. September 2004.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+40
+
+Kutzner, K., Diekmann, H. und Reichenbächer, W. (1995): Luftverschmutzung in Straßenschluchten - erste Messergebnisse nach der 23. BImSchV in Berlin. VDI-Bericht 1228,
+VDI-Verlag, Düsseldorf.
+LfU (1993): Die Luft in Baden-Württemberg, Jahresbericht 1992. Karlsruhe: Landesanstalt für
+Umweltschutz Baden-Württemberg.
+Landeshauptstadt Dresden, Umweltamt (2017a): E-Mail von Herrn Dietz vom 10.05.2017
+bezüglich Straßennetz, Verkehrsdaten und Fahrmuster.
+Landeshauptstadt Dresden, Stadtplanungsamt (2017b): E-Mail von Herrn Dietz (Umweltamt)
+vom 17.05.2017 mit Antworten Anmerkungen zur Bebauung zum Gutachten Bergstraße mit Bebauungsplänen und dem Schreiben vom 15.05.2017 vom Stadtplanungsamt.
+Landeshauptstadt Dresden, Stadtplanungsamt (2017c): E-Mail von Frau Leibnitz vom
+01.06.2017 zwecks Abstimmung der Gebäudehöhen für den Planfall.
+Landeshauptstadt Dresden, Umweltamt (2017a): E-Mail von Herrn Dietz vom 10.05.2017.
+LfULG - Landesamt für Umwelt, Landwirtschaft und Geologie (2017): Abstimmung der Hintergrundbelastungen für das Untersuchungsgebiet. Persönliche E-Mail von Herrn Wolf
+vom 06.06.2017.
+Lohmeyer, A., Nagel, T., Clai, G., Düring, I., Öttl, D. (2000): Bestimmung von Kurzzeitbelastungswerten - Immissionen gut vorhergesagt. In: Umwelt (kommunale ökologische
+Briefe) Nr. 01/05.01/2000.
+Lohmeyer (2014): Klimagutachten Rahmenplan Südvorstadt, Detaillierte Kaltluftrechnungen
+für Technologiemeile und Neuer Pol. Ingenieurbüro Lohmeyer GmbH & Co. KG, Radebeul. Projekt 71056-14-02, Dezember 2014. Gutachten im Auftrag von: Landeshauptstadt Dresden, Umweltamt.
+LUA NRW (2006): Jahresbericht 2005, Landesumweltamt Nordrhein-Westfalen, Essen, seit
+01.01.2007 Landesamt für Umwelt, Natur und Verbraucherschutz Nordrhein-Westfalen
+(LANUV NRW), Februar 2006, www.lanuv.nrw.de.
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+41
+
+Palmgren, F., Wahlin, P., Berkowicz, R., Ketzel, M., Illerup, J. B., Nielsen, M., Winther, M.,
+Glasius, M., Jensen, B. (2003): Aerosols in Danish Air (AIDA). Mid-term report 20002002. NERI Technical Report No. 460.
+http://www.dmu.dk/1_Viden/2_Publikationer/3_fagrapporter/rapporter/FR460.PDF.
+Romberg, E., Bösinger, R., Lohmeyer, A., Ruhnke, R., Röth, E. (1996): NO-NO2-Umwandlungsmodell für die Anwendung bei Immissionsprognosen für Kfz-Abgase. Hrsg.: Gefahrstoffe-Reinhaltung der Luft, Band 56, Heft 6, S. 215-218.
+Röckle, R., Richter, C.-J. (1995): Ermittlung des Strömungs- und Konzentrationsfeldes im
+Nahfeld typischer Gebäudekonfigurationen - Modellrechnungen -. Abschlußbericht PEF
+92/007/02, Forschungszentrum Karlsruhe.
+Schädler, G., Bächlin, W., Lohmeyer, A., van Wees, T. (1996): Vergleich und Bewertung
+derzeit verfügbarer mikroskaliger Strömungs- und Ausbreitungsmodelle. In: Berichte
+Umweltforschung Baden-Württemberg (FZKA-PEF 138).
+SFI (2001): Handbuch WinMISKAM. SFI GmbH Software für Immissionsberechnungen,
+Karlsruhe, Stand 01/2001 (www.sfi-software.de/zip/hb_winmisk.pdf).
+TREMOD (2010): TREMOD – Transport Emission Model: Fortschreibung und Erweiterung
+”Daten- und Rechenmodell: Energieverbrauch und Schadstoffemissionen des motorisierten Verkehrs in Deutschland 1960-2030”. Im Auftrag des Umweltbundesamtes,
+FKZ 3707 45 101, Version 5.1, ifeu - Institut für Energie- und Umweltforschung Heidelberg. 2010.
+TA Luft (1986): Erste Allgemeine Verwaltungsvorschrift zum Bundes-Immissionsschutzgesetz (Technische Anleitung zur Reinhaltung der Luft - TA Luft) vom 27. Februar 1986
+(GMBI., 37. J., Nr. 7, S. 95-143).
+TA Luft (2002): 1. Allg. Verwaltungsvorschrift zum Bundes-Immissionsschutzgesetz (Technische Anleitung zur Reinhaltung der Luft – TA Luft). GMBl. 2002, Heft 25 – 29, S. 511 –
+605.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+42
+
+UBA (2017): Handbuch Emissionsfaktoren des Straßenverkehrs, Version 3.3. (HBEFA 3.3)
+(aktualisierte Version vom 25.04.2017). Dokumentation zur Version Deutschland erarbeitet durch INFRAS AG Bern/Schweiz in Zusammenarbeit mit IFEU Heidelberg. Hrsg.:
+Umweltbundesamt Berlin.
+UMK (2004): Partikelemissionen des Straßenverkehrs. Endbericht der UMK AG „Umwelt und
+Verkehr“. Oktober 2004.
+VDI (2003): Umweltmeteorologie - Kfz-Emissionsbestimmung – Luftbeimengungen. VDIRichtlinie VDI 3782 Blatt 7. Hrsg.: Kommission Reinhaltung der Luft (KRdL) im VDI und
+DIN - Normenausschuss, Düsseldorf, November 2003.
+VDI (2005): Umweltmeteorologie. Prognostische mikroskalige Windfeldmodelle. Evaluierung
+für Gebäude- und Hindernisströmung. Richtlinie VDI 3783, Blatt 9. Hrsg.: Kommission
+Reinhaltung der Luft (KRdL) im VDI und DIN - Normenausschuss, Düsseldorf, November 2005.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+43
+
+A N H A N G A1:
+BEURTEILUNGSWERTE FÜR LUFTSCHADSTOFFKONZENTRATIONEN
+AN KFZ-STRASSEN
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+44
+
+A1 BEURTEILUNGSWERTE FÜR LUFTSCHADSTOFFKONZENTRATIONEN AN
+KFZ-STRASSEN
+A1.1 Grenzwerte
+Durch den Betrieb von Kraftfahrzeugen entstehen eine Vielzahl von Schadstoffen, welche
+die menschliche Gesundheit gefährden können, z. B. Stickoxide (NOx als Summe von NO
+und NO2), Kohlenmonoxid (CO), Schwefeldioxid (SO2), Benzol, Partikel, etc. Im vorliegenden
+Gutachten werden Konzentrationen bzw. Immissionen von Luftschadstoffen ermittelt. Deren
+Angabe allein vermittelt jedoch weder Informationen darüber, welche Schadstoffe die wichtigsten sind, noch einen Eindruck vom Ausmaß der Luftverunreinigung im Einflussbereich
+einer Straße. Erst ein Vergleich der Schadstoffkonzentrationen mit schadstoffspezifischen
+Beurteilungswerten, z. B. Grenz- oder Vorsorgewerten lässt Rückschlüsse auf die Luftqualität zu. Darauf wird im Folgenden eingegangen.
+Grenzwerte sind rechtlich verbindliche Beurteilungswerte zum Schutz der menschlichen Gesundheit, der Vegetation oder des Bodens, die einzuhalten sind und nicht überschritten werden dürfen. Die in Deutschland für den Einflussbereich von Straßen maßgebenden Grenzwerte sind in der 39. BImSchV (2010) benannt, dort als Immissionsgrenzwert bezeichnet.
+Bezüglich verkehrsbedingter Luftschadstoffe sind derzeit NO2, PM10 und PM2.5 von Bedeutung, gelegentlich werden zusätzlich noch die Schadstoffe Benzol und Kohlenmonoxid
+betrachtet. Ruß wird nicht betrachtet, weil es nach Erscheinen der 33. BImSchV (2004) und
+dem damit erfolgten Zurückziehen der 23. BImSchV (1996) dafür keinen gesetzlichen Beurteilungswert mehr gibt. Ruß ist Bestandteil von PM10 und wird damit indirekt erfasst. Die
+Grenzwerte der 39. BImSchV sind in Tab. A1.1 angegeben.
+Ergänzend zu diesen Grenzwerten nennt die 39. BImSchV Toleranzmargen; das sind in jährlichen Stufen abnehmende Werte, um die der jeweilige Grenzwert innerhalb festgesetzter
+Fristen überschritten werden darf, ohne in Deutschland die Erstellung von Luftreinhalteplänen zu bedingen. Diese Werte werden als Übergangsbeurteilungswerte bezeichnet, sofern
+sie aufgrund der zeitlichen Zusammenhänge in den Betrachtungen der Planungen Berücksichtigung finden.
+Zusätzliche Luftschadstoffe zu den genannten werden meist nicht betrachtet, da deren Immissionen in Deutschland typischerweise weit unterhalb der geltenden Grenzwerte liegen. In
+der 39. BImSchV (2010) werden auch Zielwerte für PM2.5, Arsen, Kadmium, Nickel und
+Benzo(a)pyren (BaP) in der Luft als Gesamtgehalt in der PM10-Fraktion über ein KalenderErmittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+45
+
+jahr gemittelt festgesetzt. Ein Zielwert ist die nach Möglichkeit in einem bestimmten Zeitraum
+zu erreichende Immissionskonzentration, um die schädlichen Einflüsse auf die menschliche
+Gesundheit und die Umwelt insgesamt zu vermeiden, zu verhindern oder zu verringern. Die
+verkehrsbedingten Zusatzbelastungen dieser genannten Schadstoffe liegen selbst an stark
+befahrenen Hauptverkehrsstraßen meist deutlich unterhalb der Hintergrundbelastung und
+werden deshalb ebenfalls nicht mitbetrachtet.
+Stoff
+
+Mittelungszeit
+
+Grenzwert
+
+Geltungszeitpunkt
+
+NO2
+
+Stundenmittelwert
+
+200 µg/m3 maximal 18
+Überschreitungen/Jahr
+
+seit 2010
+
+NO2
+
+Jahresmittelwert
+
+40 µg/m3
+
+seit 2010
+
+3
+
+Partikel (PM10)
+
+Tagesmittelwert
+
+50 µg/m maximal 35
+Überschreitungen / Jahr
+
+seit 2005
+
+Partikel (PM10)
+
+Jahresmittelwert
+
+40 µg/m3
+
+seit 2005
+
+Partikel (PM2.5)
+
+Jahresmittelwert
+
+25 µg/m³
+
+seit 2015
+
+Benzol
+
+Jahresmittelwert
+
+5 µg/m3
+
+seit 2010
+
+Kohlenmonoxid (CO) 8 h gleitender Wert
+
+10 mg/m3
+
+seit 2005
+
+Tab. A1.1: Immissionsgrenzwerte
+nach
+(verkehrsrelevante) Schadstoffe
+
+39. BImSchV
+
+(2010)
+
+für
+
+ausgewählte
+
+Der Inhalt der am 11. Juni 2008 in Kraft getretenen EU-Luftqualitätsrichtlinie 2008/50/EG ist
+mit der 39. BImSchV in nationales Recht umgesetzt. In der 39. BImSchV wurden u. a. die
+Inhalte der 22. BImSchV und 33. BImSchV zusammengefasst, sodass diese beiden BImSchV aufgehoben wurden. Ein neues Element der 39. BImSchV ist die Einführung eines Immissionsgrenzwertes für die Feinstaubfraktion PM2.5 (Partikel mit einem aerodynamischen
+Durchmesser von 2.5 µm), der seit dem 1. Januar 2015 einzuhalten ist.
+
+A1.2 Vorsorgewerte
+Da der Vergleich von Luftschadstoffkonzentrationen mit Grenzwerten allein noch nicht ausreichend ist, um eine Luftschadstoffkonzentration zu charakterisieren, gibt es zusätzlich zu
+den Grenzwerten so genannte Vorsorgewerte bzw. Zielwerte zur langfristigen Verbesserung
+der Luftqualität.
+Die 39. BImSchV weist als Zielwert einen PM2.5-Jahresmittelwert von 25 µg/m³ aus, der seit
+dem Jahr 2015 ein Grenzwert ist.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+46
+
+In der 39. BImSchV wird ergänzend zur Einhaltung des Grenzwertes als nationales Ziel gefordert, ab dem Jahr 2015 den Indikator für die durchschnittliche PM2.5-Exposition von
+20 µg/m³ im Jahresmittel einzuhalten. Die durchschnittliche PM2.5-Exposition für das Referenzjahr 2010 ist vom UBA festzustellen und basiert auf dem gleitenden Jahresmittelwert der
+Messstationen im städtischen und regionalen Hintergrund für die Jahre 2008 bis 2010. Ab
+dem Jahr 2020 soll als Zielwert eine reduzierte durchschnittliche PM2.5-Exposition eingehalten werden. Das Reduktionsziel beträgt in Abhängigkeit vom Ausgangswert im Referenzjahr 2010 bis zu 20 %, mindestens jedoch soll das Ziel von 18 µg/m³ im Jahr 2020 erreicht
+werden.
+
+A1.3 Europäische Richtlinien zur Bewertung von Luftschadstoffen
+Die EU-Luftqualitätsrichtlinie 2008/50/EG ist mit ihrer Veröffentlichung im Amtsblatt der Europäischen Union am 11. Juni 2008 in Kraft getreten. Mit der 39. BImSchV hat die Bundesregierung die EU-Richtlinie weitgehend in nationales Recht umgesetzt.
+Im Unterschied zur 39. BImSchV soll nach der EU-Luftqualitätsrichtlinie ab dem Jahr 2020
+ein PM2.5-Richtgrenzwert von 20 µg/m3 im Jahresmittel (Stufe 2 im Anhang XIV) zum
+Grenzwert werden.
+
+A1.4 Schutz der Vegetation
+Zum Schutz der Vegetation nennt die 39. BImSchV einen kritischen Wert für Stickstoffoxide
+(NOX) von 30 µg/m³ im Jahresmittel. Dieser „kritische Wert“ ist ein auf Grund wissenschaftlicher Erkenntnisse festgelegter Wert, dessen Überschreitung unmittelbare schädliche Auswirkungen für manche Rezeptoren wie Bäume, Pflanzen oder natürliche Ökosysteme haben
+kann. Die Erfassung und Anwendung ist für Bereiche vorbehalten, die mehr als 20 km von
+Ballungsräumen oder 5 km von anderen bebauten Gebieten, Industrieanlagen oder Bundesautobahnen oder Hauptstraßen mit einem täglichen Verkehrsaufkommen von mehr als
+50 000 Fahrzeugen entfernt sind.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+47
+
+A N H A N G A2:
+BESCHREIBUNG DES NUMERISCHEN VERFAHRENS ZUR IMMISSIONSERMITTLUNG UND FEHLERDISKUSSION
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+48
+
+A2 BESCHREIBUNG DES NUMERISCHEN VERFAHRENS ZUR IMMISSIONSERMITTLUNG UND FEHLERDISKUSSION
+A2.1 MISKAM
+Die Berechnungen erfolgen mit dem Strömungs- und Ausbreitungsmodell MISKAM in Version 6.3 (Eichhorn, 2014). MISKAM gehört zu den prognostischen Modellen vom Eulertyp.
+Es besteht aus zwei Teilen, einem Strömungsteil für die Modellierung der Umströmungsverhältnisse der Gebäude und einem Ausbreitungsteil zur Berechnung des Immissionsfeldes.
+MISKAM iteriert jeweils solange, bis das Strömungs- bzw. Konzentrationsfeld quasi stationär
+ist. Bei den Berechnungen wurden die Hinweise aus Eichhorn (2014) sowie der VDI-Richtlinie für prognostische Modelle (VDI, 2005) beachtet. Die Einhaltung des Kriteriums von VDIRL 3783/9 wurde anhand von Sensitivitätsrechnungen für die Göttinger Straße in Hannover
+für ein Rechengebiet nachgewiesen, dass zusätzlich zum Untersuchungsgebiet einen Umkreis von ca. 400 m berücksichtigt.
+
+A2.2 Fehlerdiskussion
+Immissionsprognosen als Folge der Emissionen des Kfz-Verkehrs sind ebenso wie Messungen der Schadstoffkonzentrationen fehlerbehaftet. Bei der Frage nach der Zuverlässigkeit
+der Berechnungen und der Güte der Ergebnisse stehen meistens die Ausbreitungsmodelle
+im Vordergrund. Die berechneten Immissionen sind aber nicht nur abhängig von den Ausbreitungsmodellen, sondern auch von einer Reihe von Eingangsinformationen, wobei jede
+Einzelne dieser Größen einen mehr oder weniger großen Einfluss auf die prognostizierten
+Konzentrationen hat. Wesentliche Eingangsgrößen sind die Emissionen, die Bebauungsstruktur, meteorologische Daten und die Hintergrundbelastung.
+Es ist nicht möglich, auf Basis der Fehlerbandbreiten aller Eingangsdaten und Rechenschritte eine klassische Fehlerberechnung durchzuführen, da die Fehlerbandbreite der einzelnen Parameter bzw. Teilschritte nicht mit ausreichender Sicherheit bekannt sind. Es können jedoch für die einzelnen Modelle Vergleiche zwischen Naturmessungen und Rechnungen gezeigt werden, anhand derer der Anwender einen Eindruck über die Güte der Rechenergebnisse erlangen kann.
+In einer Sensitivitätsstudie für das Projekt "Europäisches Forschungszentrum für Maßnahmen zur Luftreinhaltung - PEF" (Flassak et al., 1996) wird der Einfluss von Unschärfen der
+Eingangsgrößen betrachtet. Einen großen Einfluss auf die Immissionskenngrößen zeigen
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+49
+
+demnach die Eingangsparameter für die Emissionsberechnungen sowie die Bebauungsdichte, die lichten Abstände zwischen der Straßenrandbebauung und die Windrichtungsverteilung.
+Hinsichtlich der Fehlerabschätzung für die Kfz-Emissionen ist anzufügen, dass die Emissionen im Straßenverkehr bislang nicht direkt gemessen, sondern über Modellrechnungen ermittelt werden. Die Genauigkeit der Emissionen ist unmittelbar abhängig von den Fehlerbandbreiten der Basisdaten (d. h. Verkehrsmengen, Emissionsfaktoren, Fahrleistungsverteilung, Verkehrsablauf).
+Nach BASt (1986) liegt die Abweichung von manuell gezählten Verkehrsmengen (DTV) gegenüber simultan erhobenen Zähldaten aus automatischen Dauerzählstellen bei ca. 10 %.
+Für die statistische Fehlerbandbreite der NOx-Emissionsfaktoren mit warmem Motor findet
+man bei Kühlwein (2004) Abschätzungen von 10 % bis 20 % für Autobahnen bzw. Innerortsstraßen. Aussagen über die statistischen Fehler bei der Berücksichtigung von Kaltstartkorrekturen sind nach Angaben des Autors nicht möglich.
+Weitere Fehlerquellen liegen in der Fahrleistungsverteilung innerhalb der nach Fahrzeugschichten aufgeschlüsselten Fahrzeugflotte, dem Anteil der mit nicht betriebswarmem Motor
+gestarteten Fahrzeuge (Kaltstartanteil) und der Modellierung des Verkehrsablaufs. Je nach
+betrachtetem Schadstoff haben diese Eingangsdaten einen unterschiedlich großen Einfluss
+auf die Emissionen. Untersuchungen haben beispielsweise gezeigt, dass die Emissionen,
+ermittelt über Standardwerte für die Anteile von leichten und schweren Nutzfahrzeugen und
+für die Tagesganglinien im Vergleich zu Emissionen, ermittelt unter Berücksichtigung entsprechender Daten, die durch Zählung erhoben wurden, Differenzen im Bereich von 20 %
+aufweisen.
+Die Güte von Ausbreitungsmodellierungen war Gegenstand weiterer PEF-Projekte (Röckle &
+Richter, 1995 und Schädler et al., 1996). Schädler et al. führten einen ausführlichen Vergleich zwischen gemessenen Konzentrationskenngrößen in der Göttinger Straße, Hannover,
+und MISKAM-Rechenergebnissen durch. Die Abweichungen zwischen Mess- und Rechenergebnissen lagen im Bereich von 10 %, wobei die Eingangsdaten im Fall der Göttinger
+Straße sehr genau bekannt waren. Bei größeren Unsicherheiten in den Eingangsdaten sind
+höhere Rechenunsicherheiten zu erwarten. Dieser Vergleich zwischen Mess- und Rechenergebnissen dient der Validierung des Modells, wobei anzumerken ist, dass sowohl Messung
+als auch Rechnung fehlerbehaftet sind.
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+Ingenieurbüro Lohmeyer GmbH & Co. KG
+
+50
+
+Hinzuzufügen ist, dass der Fehler der Emissionen sich direkt auf die berechnete Zusatzbelastung auswirkt, nicht aber auf die Hintergrundbelastung, d. h. dass die Auswirkungen auf
+die Gesamtimmissionsbelastung geringer sind.
+
+Ermittlung der Wirkung der zusätzlichen Bebauung der Nöthnitzer Straße (Technologiemeile) auf
+die Luftschadstoffbelastung der Bergstraße mit besonderer Betrachtung der Messstation Bergstraße
+
+71197-15-02_neu.docx
+
+
