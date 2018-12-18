@@ -84,15 +84,24 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "08.01.2019 Ausschuss für Soziales und Wohnen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "7699",
       "role": "1. Lesung     (federführend)",
       "agendaItem": {
         "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "organization": [
+        {
+          "name": "14.01.2019 Seniorenbeirat",
+          "type": "https://oparl.org/schema/1.0/Organization"
+        }
+      ],
+      "role": "beratend",
+      "agendaItem": {
+        "public": true,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
       }
     },
@@ -128,20 +137,6 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
-          "name": "Seniorenbeirat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
           "name": "Beirat für Menschen mit Behinderungen",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
@@ -154,12 +149,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "09.01.2019 Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "7719",
       "role": "beratend",
       "agendaItem": {
         "public": false,
