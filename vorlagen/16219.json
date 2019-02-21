@@ -53,12 +53,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "05.03.2019 Stadtbezirksbeirat Altstadt",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "7661",
       "role": "beratend",
       "agendaItem": {
         "public": true,
@@ -95,13 +90,22 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "7721",
+      "role": "beratend",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
-          "name": "06.03.2019 Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
+          "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
-      "role": "beratend",
+      "role": "beratend       (federführend)",
       "agendaItem": {
         "public": false,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
@@ -118,20 +122,6 @@
       "role": "beratend",
       "agendaItem": {
         "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
       }
     },
