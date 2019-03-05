@@ -6,7 +6,8 @@
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2019-02-14",
   "auxiliaryFile": [
-    "395093"
+    "395093",
+    "397506"
   ],
   "consultation": [
     {
@@ -48,8 +49,17 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7721",
-      "role": "beratend       (federführend)",
+      "meeting": "7887",
+      "role": "beratend",
+      "agendaItem": {
+        "public": true,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "7742",
+      "role": "beratend",
       "agendaItem": {
         "public": false,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
@@ -57,10 +67,10 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7887",
-      "role": "beratend",
+      "meeting": "7721",
+      "role": "beratend       (federführend)",
       "agendaItem": {
-        "public": true,
+        "public": false,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
       }
     },
