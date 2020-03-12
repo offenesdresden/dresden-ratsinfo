@@ -5,6 +5,10 @@
   "paperType": "Antrag DIE LINKE.",
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2020-02-27",
+  "auxiliaryFile": [
+    "462123",
+    "461533"
+  ],
   "consultation": [
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
@@ -66,13 +70,27 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
+          "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
+          "type": "https://oparl.org/schema/1.0/Organization"
+        }
+      ],
+      "role": "beratend",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "organization": [
+        {
           "name": "Ausschuss für Finanzen",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
       "role": "beratend",
       "agendaItem": {
-        "public": true,
+        "public": false,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
       }
     },
@@ -95,20 +113,6 @@
       "organization": [
         {
           "name": "Ortschaftsrat Schönfeld-Weißig",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
