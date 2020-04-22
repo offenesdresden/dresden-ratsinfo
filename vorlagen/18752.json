@@ -5,9 +5,7 @@
   "paperType": "Vorlage",
   "type": "https://oparl.org/schema/1.0/Paper",
   "publishedDate": "2020-04-09",
-  "mainFile": "469177",
   "auxiliaryFile": [
-    "468977",
     "468944",
     "468697",
     "468698"
@@ -43,9 +41,18 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "8731",
+      "role": "beratend",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
-          "name": "Ausschuss für Soziales und Wohnen",
+          "name": "Unterausschuss Förderung",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
@@ -57,12 +64,7 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Jugendhilfeausschuss",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
+      "meeting": "8792",
       "role": "beratend",
       "agendaItem": {
         "public": true,
@@ -73,7 +75,7 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
-          "name": "Ausschuss für Finanzen",
+          "name": "04.05.2020 Ausschuss für Finanzen",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
       ],
@@ -94,5 +96,6 @@
       }
     }
   ],
-  "id": "18752"
+  "id": "18752",
+  "mainFile": "469177"
 }
