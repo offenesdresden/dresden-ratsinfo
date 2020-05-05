@@ -8,6 +8,7 @@
   "mainFile": "471347",
   "auxiliaryFile": [
     "471264",
+    "471487",
     "471244",
     "471245",
     "471250",
@@ -55,6 +56,20 @@
       "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
+          "name": "Unterausschuss Kindertagesbetreuung",
+          "type": "https://oparl.org/schema/1.0/Organization"
+        }
+      ],
+      "role": "Vorberatung für Jugendhilfeausschuss",
+      "agendaItem": {
+        "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "organization": [
+        {
           "name": "Unterausschuss Hilfen zur Erziehung",
           "type": "https://oparl.org/schema/1.0/Organization"
         }
@@ -81,15 +96,6 @@
     },
     {
       "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9492",
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
       "organization": [
         {
           "name": "Unterausschuss Planung",
@@ -99,6 +105,15 @@
       "role": "Vorberatung für Jugendhilfeausschuss federführend",
       "agendaItem": {
         "public": false,
+        "type": "https://oparl.org/schema/1.0/AgendaItem"
+      }
+    },
+    {
+      "type": "https://oparl.org/schema/1.0/Consultation",
+      "meeting": "9492",
+      "role": "beratend       (federführend)",
+      "agendaItem": {
+        "public": true,
         "type": "https://oparl.org/schema/1.0/AgendaItem"
       }
     },
