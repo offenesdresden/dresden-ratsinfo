@@ -1,98 +1,221 @@
 {
-  "shortName": "WF/010/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 25.03.2010 - 16:00-19:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/575",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "10. Sitzung des Ausschusses für Wirtschaftsförderung",
   "start": "2010-03-25T16:00:00+01:00",
   "end": "2010-03-25T19:55:00+01:00",
-  "invitation": "24734",
-  "resultsProtocol": "25883",
-  "auxiliaryFile": [
-    "25860",
-    "25881",
-    "25882"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
   ],
-  "verbatimProtocol": "26429",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/264",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/268",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/57",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/87"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/24734",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF_2010_03_25",
+    "fileName": "00024734.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-03-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00024734.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00024734.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/25860",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V0487_10_WF",
+    "fileName": "00025860.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-03-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00025860.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00025860.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Beschlussvorlagen zu VOB-Vergaben",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/24734",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF_2010_03_25",
+      "fileName": "00024734.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00024734.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00024734.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vergabe-Nr.: 010/2010Rahmenzeitvertrag für Bauunterhaltungsarbeiten 2010Los: 10, MalerarbeitenLV Beschichtungs- und Tapezierarbeiten",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/25860",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0487_10_WF",
+      "fileName": "00025860.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00025860.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00025860.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vergabe-Nr.: 010/2010Rahmenzeitvertrag für Bauunterhaltungsarbeiten 2010Los: 11, Bodenbelagsarbeiten",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/25881",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0488_10_WF",
+      "fileName": "00025881.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00025881.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00025881.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlussvorlagen zu VOL-Vergaben",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/25882",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0490_10_WF",
+      "fileName": "00025882.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00025882.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00025882.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vergabe-Nr.: 02.2/012/10Unterhalts-, Grund- und Glasreinigung, Hans-Erlwein-Gymnasium, Eibenstocker Str. 30, 01277 Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/25883",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0477_10_WF",
+      "fileName": "00025883.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00025883.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00025883.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorlagen in der Zuständigkeit des Geschäftsbereiches Wirtschaft",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Festlegung der Anbietergruppen zum Dresdner Striezelmarkt 2010",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/26429",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_WF_2010_03_25",
+      "fileName": "00026429.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-31",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00026429.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00026429.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "575",
-  "participant": [
-    "30",
-    "266",
-    "61",
-    "91",
-    "264",
-    "44",
-    "268",
-    "72",
-    "57",
-    "66",
-    "87"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/575",
+      "number": "1",
+      "order": "1",
+      "name": "Beschlussvorlagen zu VOB-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6959",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/575",
+      "number": "1.1",
+      "order": "2",
+      "name": "Vergabe-Nr.: 010/2010",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2748",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6963",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/575",
+      "number": "1.2",
+      "order": "3",
+      "name": "Vergabe-Nr.: 010/2010",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2753",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/575",
+      "number": "2",
+      "order": "4",
+      "name": "Beschlussvorlagen zu VOL-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7044",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/575",
+      "number": "2.1",
+      "order": "5",
+      "name": "Vergabe-Nr.: 02.2/012/10",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2756",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/575",
+      "number": "3",
+      "order": "6",
+      "name": "Vorlagen in der Zuständigkeit des Geschäftsbereiches Wirtschaft",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/575",
+      "number": "3.1",
+      "order": "7",
+      "name": "Festlegung der Anbietergruppen zum Dresdner Striezelmarkt 2010",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2666",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

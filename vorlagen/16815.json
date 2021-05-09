@@ -1,31 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16815",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Wahrnehmung der Aufgaben nach Aufgabenabgrenzungsrichtlinie; hier: Aufstellung von drei neuen Bankstandorten",
-  "shortName": "V-Pl0011/19",
   "reference": "V-Pl0011/19",
+  "date": "2019-04-10",
   "paperType": "Vorlage STB Plauen",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-04-10",
   "auxiliaryFile": [
-    "412428",
-    "406108",
-    "406078"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/406078",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 - Muster Banktyp \"Bitburg\"",
+      "fileName": "00406078.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00406078.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00406078.pdf",
+      "created": "2019-04-10T09:24:17+02:00",
+      "modified": "2019-05-15T07:51:41+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/406108",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 - Darstellung Bankstandorte",
+      "fileName": "00406108.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00406108.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00406108.pdf",
+      "created": "2019-04-10T12:45:25+02:00",
+      "modified": "2019-05-15T07:51:41+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/412428",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage V-Pl0011-19 mit Unterschrift",
+      "fileName": "00412428.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00412428.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00412428.pdf",
+      "created": "2019-05-15T07:51:17+02:00",
+      "modified": "2019-05-15T07:51:41+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/127"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37369",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16815",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/117846",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7904",
       "organization": [
-        {
-          "name": "18.06.2019 Stadtbezirksbeirat Plauen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/173"
       ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-05-20T10:00:55+02:00",
+      "modified": "2019-06-19T06:25:51+02:00"
     }
   ],
-  "id": "16815"
+  "created": "2019-04-10T08:54:18+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,80 +1,182 @@
 {
-  "shortName": "OSR WX/014/2020",
-  "locality": "Landeshauptstadt Dresden, in der Mehrzweckhalle der Oberschule Weixdorf, Alte Dresdner 22, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 12.10.2020 - 19:00-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9313",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "14. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2020-10-12T19:00:00+02:00",
   "end": "2020-10-12T21:45:00+02:00",
-  "invitation": "503845",
-  "resultsProtocol": "505679",
-  "verbatimProtocol": "508333",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/1265",
+    "http://oparl.dresden.de/bodies/0001/people/1992",
+    "http://oparl.dresden.de/bodies/0001/people/2002",
+    "http://oparl.dresden.de/bodies/0001/people/391",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/390",
+    "http://oparl.dresden.de/bodies/0001/people/1266",
+    "http://oparl.dresden.de/bodies/0001/people/2011",
+    "http://oparl.dresden.de/bodies/0001/people/2019",
+    "http://oparl.dresden.de/bodies/0001/people/2025",
+    "http://oparl.dresden.de/bodies/0001/people/2026"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/503845",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00503845.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00503845.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00503845.pdf",
+    "created": "2020-10-05T09:02:19+02:00",
+    "modified": "2020-10-05T09:12:17+02:00"
+  },
   "auxiliaryFile": [
-    "517285",
-    "506215"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/503845",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00503845.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00503845.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00503845.pdf",
+      "created": "2020-10-05T09:02:19+02:00",
+      "modified": "2020-10-05T09:12:17+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/505679",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_A-WX0010/20_oU",
+      "fileName": "00505679.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00505679.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00505679.pdf",
+      "created": "2020-10-13T12:46:44+02:00",
+      "modified": "2020-10-22T09:22:06+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/506215",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorschläge,Hinweise u. Anregungen an den OB_mU",
+      "fileName": "00506215.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00506215.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00506215.pdf",
+      "created": "2020-10-15T15:41:58+02:00",
+      "modified": "2020-11-12T16:41:40+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/508333",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00508333.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508333.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508333.pdf",
+      "created": "2020-10-27T14:41:44+01:00",
+      "modified": "2020-11-12T16:41:40+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/517285",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antwort OB, Vorschläge,Hinweise u. Anregungen",
+      "fileName": "00517285.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-12-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00517285.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00517285.pdf",
+      "created": "2020-12-08T14:14:09+01:00",
+      "modified": "2020-12-08T14:14:09+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137173",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9313",
+      "number": "1",
+      "order": "1",
       "name": "Bestätigung der Tagesordnung und Kenntnisnahme der Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-08-19T11:42:01+02:00",
+      "modified": "2020-09-30T07:22:36+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137174",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9313",
+      "number": "2",
+      "order": "2",
       "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-08-19T11:42:01+02:00",
+      "modified": "2020-09-30T07:22:36+02:00"
     },
     {
-      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/20221. Lesung",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20435",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519587",
-      "auxiliaryFile": [
-        "500152",
-        "500855",
-        "500856",
-        "500854",
-        "514253",
-        "509310",
-        "509311",
-        "516772",
-        "516771",
-        "516774",
-        "517688",
-        "517690",
-        "517691",
-        "518632",
-        "500859",
-        "518837",
-        "500860",
-        "516922",
-        "518905",
-        "518967",
-        "518966"
-      ],
-      "result": "1. Lesung abgeschlossen"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9313",
+      "number": "3",
+      "order": "3",
+      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45726",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2020-09-29T15:18:05+02:00",
+      "modified": "2020-11-03T15:05:09+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137176",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9313",
+      "number": "4",
+      "order": "4",
       "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-08-19T11:42:01+02:00",
+      "modified": "2020-09-30T07:22:36+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137177",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9313",
+      "number": "5",
+      "order": "5",
       "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-08-19T11:42:01+02:00",
+      "modified": "2020-09-30T07:22:36+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137178",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9313",
+      "number": "6",
+      "order": "6",
       "name": "Anfragen und Anregungen aus der Bürgerschaft",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-08-19T11:42:01+02:00",
+      "modified": "2020-09-30T07:22:36+02:00"
     }
   ],
-  "id": "9313"
+  "created": "2020-02-04T07:49:29+01:00",
+  "modified": "2021-02-15T10:34:28+01:00"
 }

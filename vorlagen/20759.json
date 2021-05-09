@@ -1,12 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/20759",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Änderung Beschluss Nr. A-CB0018/20 vom 11.02.2020",
-  "shortName": "V-CB0019/20",
   "reference": "V-CB0019/20",
+  "date": "2020-10-30",
   "paperType": "Vorlage OS Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/508796",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Cossebaude",
+    "fileName": "00508796.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508796.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508796.pdf",
+    "created": "2020-10-29T09:04:11+01:00",
+    "modified": "2020-10-30T08:04:38+01:00"
+  },
   "auxiliaryFile": [
-    "511763",
-    "508796"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/511763",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Cossebaude_V-CB0019/20",
+      "fileName": "00511763.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511763.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511763.pdf",
+      "created": "2020-11-11T12:36:38+01:00",
+      "modified": "2020-11-12T08:27:59+01:00"
+    }
   ],
-  "id": "20759"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/46436",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/20759",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/140746",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9212",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-10-29T09:13:44+01:00",
+      "modified": "2020-11-12T13:46:39+01:00"
+    }
+  ],
+  "created": "2020-10-29T09:03:15+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

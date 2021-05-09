@@ -1,128 +1,221 @@
 {
-  "shortName": "JHA/007/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 12.03.2020 - 18:00-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "7. Sitzung des Jugendhilfeausschusses",
   "start": "2020-03-12T18:00:00+01:00",
   "end": "2020-03-12T19:30:00+01:00",
-  "invitation": "457946",
-  "auxiliaryFile": [
-    "461247",
-    "464620",
-    "464814",
-    "453015"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
   ],
-  "verbatimProtocol": "466720",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/1931",
+    "http://oparl.dresden.de/bodies/0001/people/1351",
+    "http://oparl.dresden.de/bodies/0001/people/1927",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/449",
+    "http://oparl.dresden.de/bodies/0001/people/461",
+    "http://oparl.dresden.de/bodies/0001/people/540",
+    "http://oparl.dresden.de/bodies/0001/people/918",
+    "http://oparl.dresden.de/bodies/0001/people/1160",
+    "http://oparl.dresden.de/bodies/0001/people/468",
+    "http://oparl.dresden.de/bodies/0001/people/1288",
+    "http://oparl.dresden.de/bodies/0001/people/1291",
+    "http://oparl.dresden.de/bodies/0001/people/1685",
+    "http://oparl.dresden.de/bodies/0001/people/2092",
+    "http://oparl.dresden.de/bodies/0001/people/2129",
+    "http://oparl.dresden.de/bodies/0001/people/1297",
+    "http://oparl.dresden.de/bodies/0001/people/1879",
+    "http://oparl.dresden.de/bodies/0001/people/2063",
+    "http://oparl.dresden.de/bodies/0001/people/2086",
+    "http://oparl.dresden.de/bodies/0001/people/2095",
+    "http://oparl.dresden.de/bodies/0001/people/2096"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/457946",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH",
+    "fileName": "00457946.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00457946.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00457946.pdf",
+    "created": "2020-02-07T13:00:00+01:00",
+    "modified": "2020-02-27T09:13:48+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift vom 16. Januar 2020",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/453015",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Überweisung UA Pl_A0021-19",
+      "fileName": "00453015.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00453015.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00453015.pdf",
+      "created": "2020-01-14T11:18:08+01:00",
+      "modified": "2020-04-30T17:52:42+02:00"
     },
     {
-      "name": "Informationen/Fragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/457946",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH",
+      "fileName": "00457946.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00457946.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00457946.pdf",
+      "created": "2020-02-07T13:00:00+01:00",
+      "modified": "2020-02-27T09:13:48+01:00"
     },
     {
-      "name": "Förderung von Trägern der freien Jugendhilfe - Bauliche Maßnahmen bzw. Erhaltungsmaßnahmen 2020",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18038",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "464805",
-      "auxiliaryFile": [
-        "483704",
-        "516615",
-        "468575",
-        "453004",
-        "451560",
-        "444320",
-        "444321"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/461247",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JHA_2020_03_12_mU",
+      "fileName": "00461247.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461247.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461247.pdf",
+      "created": "2020-02-27T09:14:17+01:00",
+      "modified": "2020-04-30T17:52:42+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2020/2021",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18253",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "488332",
-      "auxiliaryFile": [
-        "516603",
-        "467969",
-        "458229",
-        "456905",
-        "452395",
-        "452397",
-        "454871",
-        "472226",
-        "482351",
-        "463974",
-        "485283"
-      ],
-      "result": "1. Lesung abgeschlossen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/464620",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö",
+      "fileName": "00464620.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464620.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464620.pdf",
+      "created": "2020-03-13T09:09:30+01:00",
+      "modified": "2020-03-16T10:21:27+01:00"
     },
     {
-      "name": "Förderung von Trägern der freien Jugendhilfe 2020 - Bewegliche Sachen des Anlagevermögens",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18342",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "460970",
-        "460456",
-        "455628",
-        "455629"
-      ],
-      "result": "1. Lesung abgeschlossen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/464814",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen bzw. Aufträge_JHA_2020_03_12",
+      "fileName": "00464814.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464814.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464814.pdf",
+      "created": "2020-03-16T09:06:44+01:00",
+      "modified": "2020-04-30T17:52:42+02:00"
     },
     {
-      "name": "Bereitschaft zur Annahme von unbegleiteten minderjährigen Geflüchteten aus Griechenland in Dresden",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18464",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "464807",
-      "auxiliaryFile": [
-        "482491",
-        "521693",
-        "458328",
-        "458330",
-        "461929",
-        "463411"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/466720",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00466720.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00466720.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00466720.pdf",
+      "created": "2020-03-27T06:55:23+01:00",
+      "modified": "2020-04-30T17:52:42+02:00"
     }
   ],
-  "id": "8790"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126907",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift vom 16. Januar 2020",
+      "public": true,
+      "created": "2020-01-27T11:49:00+01:00",
+      "modified": "2020-01-27T11:52:38+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen/Fragestunde",
+      "public": true,
+      "created": "2020-01-27T11:49:01+01:00",
+      "modified": "2020-01-27T11:52:47+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126912",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+      "number": "3",
+      "order": "3",
+      "name": "Förderung von Trägern der freien Jugendhilfe - Bauliche Maßnahmen bzw. Erhaltungsmaßnahmen 2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40037",
+      "result": "Zustimmung mit Änderung",
+      "created": "2020-01-27T11:59:56+01:00",
+      "modified": "2020-03-16T08:46:02+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126913",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+      "number": "4",
+      "order": "4",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2020/2021",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40534",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2020-01-27T12:00:48+01:00",
+      "modified": "2020-03-13T07:18:07+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127049",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+      "number": "5",
+      "order": "5",
+      "name": "Förderung von Trägern der freien Jugendhilfe 2020 - Bewegliche Sachen des Anlagevermögens",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40721",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2020-01-30T08:11:42+01:00",
+      "modified": "2020-03-13T07:18:16+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127697",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+      "number": "6",
+      "order": "6",
+      "name": "Bereitschaft zur Annahme von unbegleiteten minderjährigen Geflüchteten aus Griechenland in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41009",
+      "result": "Zustimmung mit Änderung",
+      "created": "2020-02-17T06:51:12+01:00",
+      "modified": "2020-03-16T08:53:42+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8790",
+      "number": "7",
+      "order": "7",
+      "name": "Berichte aus den Unterausschüssen",
+      "public": true,
+      "created": "2020-01-27T11:49:01+01:00",
+      "modified": "2020-02-20T13:00:19+01:00"
+    }
+  ],
+  "created": "2019-10-16T11:56:15+02:00",
+  "modified": "2021-01-05T10:27:58+01:00"
 }

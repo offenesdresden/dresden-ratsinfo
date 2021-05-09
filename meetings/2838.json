@@ -1,184 +1,235 @@
 {
-  "shortName": "OSR WX/047/2013",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 30.09.2013 - 19:00-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "47. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2013-09-30T19:00:00+02:00",
   "end": "2013-09-30T21:30:00+02:00",
-  "invitation": "144705",
-  "resultsProtocol": "146122",
-  "verbatimProtocol": "146110",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/381",
+    "http://oparl.dresden.de/bodies/0001/people/382",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/384",
+    "http://oparl.dresden.de/bodies/0001/people/385",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/387",
+    "http://oparl.dresden.de/bodies/0001/people/388",
+    "http://oparl.dresden.de/bodies/0001/people/390"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/144705",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00144705.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-09-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144705.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144705.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/146122",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung",
+    "fileName": "00146122.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-10-08",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00146122.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00146122.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/144705",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00144705.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144705.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144705.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/146110",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00146110.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00146110.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00146110.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorbeugender Hochwasserschutz braucht Vorrang: Nachhaltigen Hochwasserschutz gewährleisten",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7316",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "136722",
-        "140180",
-        "136718",
-        "136719",
-        "136721"
-      ],
-      "resolutionFile": "159557",
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bauplanungen in hochwassergefährdeten Gebieten überprüfen - Hochwasservorsorge ernst nehmen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7332",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "137276",
-        "158918",
-        "157042",
-        "158850"
-      ],
-      "resolutionFile": "159556",
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Auswertung Hochwasserereignisse Juni 2013",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7333",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "137277"
-      ],
-      "resolutionFile": "159558",
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999hier:\t1. Billigung der Abwägung über die Stellungnahmen aus der frühzeitigen Beteiligung2. Billigung des Entwurfes des Flächennutzungsplanes3. Billigung der Begründung mit Umweltbericht zum Entwurf des Flächennutzungsplanes4. Öffentliche Auslegung des Entwurfes des Flächennutzungsplanes",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "175398",
-      "auxiliaryFile": [
-        "182374",
-        "206715",
-        "228917",
-        "132554",
-        "132516",
-        "106470",
-        "266493",
-        "109725"
-      ],
-      "result": "erneute Beratung"
-    },
-    {
-      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4864",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "190527",
-        "133484",
-        "132956",
-        "127793",
-        "109571"
-      ],
-      "result": "erneute Beratung"
-    },
-    {
-      "name": "Zusammenlegung der Örtlichen Verwaltungsstellen Weixdorf und Langebrück, einschließlich Bauhöfe",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "einstimmig",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verfügungsmittel 2013- 3. Beschlussrunde",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 1,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/146122",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung",
+      "fileName": "00146122.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00146122.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00146122.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2838",
-  "participant": [
-    "298",
-    "382",
-    "384",
-    "381",
-    "66",
-    "385",
-    "383",
-    "387",
-    "388",
-    "386",
-    "390"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44802",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44803",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44804",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "3",
+      "order": "3",
+      "name": "Vorbeugender Hochwasserschutz braucht Vorrang: Nachhaltigen Hochwasserschutz gewährleisten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13427",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44805",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "4",
+      "order": "4",
+      "name": "Bauplanungen in hochwassergefährdeten Gebieten überprüfen - Hochwasservorsorge ernst nehmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13448",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44806",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "5",
+      "order": "5",
+      "name": "Auswertung Hochwasserereignisse Juni 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13470",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44808",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "6",
+      "order": "6",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10799",
+      "result": "erneute Beratung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44809",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "7",
+      "order": "7",
+      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10851",
+      "result": "erneute Beratung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44807",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "8",
+      "order": "8",
+      "name": "Zusammenlegung der Örtlichen Verwaltungsstellen Weixdorf und Langebrück, einschließlich Bauhöfe",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13634",
+      "result": "einstimmig",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44814",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "9",
+      "order": "9",
+      "name": "Verfügungsmittel 2013- 3. Beschlussrunde",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13799",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44810",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "10",
+      "order": "10",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2838",
+      "number": "11",
+      "order": "11",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

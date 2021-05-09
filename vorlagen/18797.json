@@ -1,44 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18797",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Aktuelle Stunde zum Thema \"Prioritäten des Doppelhaushalts 2021/2022 und der mittelfristigen Finanzplanung\"",
-  "shortName": "A0070/20",
   "reference": "A0070/20",
+  "date": "2020-04-17",
   "paperType": "Antrag CDU",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-04-16",
   "auxiliaryFile": [
-    "468965",
-    "469183"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/468965",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  CDU",
+      "fileName": "00468965.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468965.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468965.pdf",
+      "created": "2020-04-16T17:03:48+02:00",
+      "modified": "2020-04-20T07:31:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/469183",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "persönliche Notizen",
+      "fileName": "00469183.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00469183.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00469183.pdf",
+      "created": "2020-04-20T07:26:19+02:00",
+      "modified": "2020-04-20T07:31:55+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/81"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41910",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18797",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/132928",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8855",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-05-29T12:29:14+02:00",
+      "modified": "2020-06-26T12:43:34+02:00"
     }
   ],
-  "id": "18797"
+  "created": "2020-04-16T17:00:59+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

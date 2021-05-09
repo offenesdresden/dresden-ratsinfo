@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16130",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Stadtbezirksbeirat Plauen",
-  "shortName": "A0514/18",
   "reference": "A0514/18",
+  "date": "2018-11-30",
   "paperType": "Antrag DIE LINKE.",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-11-29",
   "auxiliaryFile": [
-    "386376",
-    "382981"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/382981",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  LINKE.",
+      "fileName": "00382981.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00382981.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00382981.pdf",
+      "created": "2018-11-30T11:11:39+01:00",
+      "modified": "2018-12-05T13:34:06+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/386376",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_A0514/18",
+      "fileName": "00386376.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00386376.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00386376.pdf",
+      "created": "2018-12-18T09:48:17+01:00",
+      "modified": "2018-12-18T09:48:19+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/83"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6515",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35449",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16130",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/111206",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6515",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-12-04T11:45:28+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "16130"
+  "created": "2018-11-29T12:27:44+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

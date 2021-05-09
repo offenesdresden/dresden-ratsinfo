@@ -1,120 +1,172 @@
 {
-  "shortName": "OBR Leu/018/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Leuben, Bürgersaal,Hertzstraße 23, 01257 Dresden",
-  "name": "Ortsbeirat Leuben - 02.11.2011 - 19:00-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "44"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "18. Sitzung des Ortsbeirates Leuben",
   "start": "2011-11-02T19:00:00+01:00",
   "end": "2011-11-02T21:30:00+01:00",
-  "invitation": "77954",
-  "verbatimProtocol": "79437",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/28",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hertzstraße 23",
+    "room": "Ortsamt Leuben, Bürgersaal",
+    "postalCode": "01257",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:04+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/44"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/506",
+    "http://oparl.dresden.de/bodies/0001/people/508",
+    "http://oparl.dresden.de/bodies/0001/people/510",
+    "http://oparl.dresden.de/bodies/0001/people/512",
+    "http://oparl.dresden.de/bodies/0001/people/516",
+    "http://oparl.dresden.de/bodies/0001/people/518",
+    "http://oparl.dresden.de/bodies/0001/people/520",
+    "http://oparl.dresden.de/bodies/0001/people/407",
+    "http://oparl.dresden.de/bodies/0001/people/526",
+    "http://oparl.dresden.de/bodies/0001/people/528",
+    "http://oparl.dresden.de/bodies/0001/people/530",
+    "http://oparl.dresden.de/bodies/0001/people/69",
+    "http://oparl.dresden.de/bodies/0001/people/515",
+    "http://oparl.dresden.de/bodies/0001/people/995"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/77954",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Leu_2011_11_02",
+    "fileName": "00077954.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-10-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00077954.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00077954.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/77954",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Leu_2011_11_02",
+      "fileName": "00077954.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-10-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00077954.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00077954.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 338, Dresden-Leuben Nr. 6, Berthold-Haupt-Straße/Rosenschulweghier:\t1. Grenze des Bebauungsplanes\t2. Billigung der Abwägung\t3. Billigung des Entwurfs zum Bebauungsplan\t4. Billigung der Begründung zum Bebauungsplan-Entwurf \t5. Öffentliche Auslegung des Entwurfs zum Bebauungsplan",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5007",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "79671",
-      "auxiliaryFile": [
-        "77867",
-        "77469",
-        "77245",
-        "77247",
-        "77248",
-        "77249",
-        "77250",
-        "77251"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 693Dresden-Großzschachwitz, Geschäfts- und Parkhaus Pirnaer Landstraßehier:\t1. Abwägungsbeschluss\t2. Satzungsbeschluss sowie Billigung der Begründung zum vorhabenbezogenen \t    Bebauungsplan",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5008",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "77868",
-        "77468",
-        "77225",
-        "77228",
-        "77229",
-        "77230",
-        "77231",
-        "77232",
-        "77233",
-        "77234",
-        "77235",
-        "77236"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 8,
-        "no": 5,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem regionalen Anlass an Sonntagen im Jahr 2012",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Umbenennung von mehrfach vorhandenen Straßennamen in Dresden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zur Verkehrsberuhigten Zone Altlaubegast",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/79437",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00079437.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-11-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00079437.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00079437.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1339",
-  "participant": [
-    "895",
-    "508",
-    "510",
-    "506",
-    "512",
-    "516",
-    "518",
-    "520",
-    "407",
-    "526",
-    "530",
-    "528",
-    "69",
-    "515",
-    "995"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "2",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 338, Dresden-Leuben Nr. 6, Berthold-Haupt-Straße/Rosenschulweg",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7863",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "3",
+      "order": "3",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 693,Dresden-Großzschachwitz, Geschäfts- und Parkhaus Pirnaer Landstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7858",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "4",
+      "order": "4",
+      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem regionalen Anlass an Sonntagen im Jahr 2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/24205",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "5",
+      "order": "5",
+      "name": "Umbenennung von mehrfach vorhandenen Straßennamen in Dresden",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/24193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "6",
+      "order": "6",
+      "name": "Information zur Verkehrsberuhigten Zone Altlaubegast",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "7",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1339",
+      "number": "8",
+      "order": "8",
+      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

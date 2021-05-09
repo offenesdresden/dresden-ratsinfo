@@ -1,232 +1,290 @@
 {
-  "shortName": "SBR Co/013/2020",
-  "locality": "Landeshauptstadt Dresden, im Stadtbezirksamt Cotta, großer Sitzungssaal, 2. Etage, Raum 201,Lübecker Straße 121, 01157 Dresden",
-  "name": "Stadtbezirksbeirat Cotta - 05.11.2020 - 18:00-20:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "168"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Stadtbezirksbeirates Cotta",
   "start": "2020-11-05T18:00:00+01:00",
   "end": "2020-11-05T20:10:00+01:00",
-  "invitation": "507577",
-  "auxiliaryFile": [
-    "507824",
-    "532414",
-    "514760"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3247",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Stadtbezirksamt Cotta, großer Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-06T08:49:39+02:00",
+    "modified": "2018-09-06T08:50:16+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/168"
   ],
-  "verbatimProtocol": "512016",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/1974",
+    "http://oparl.dresden.de/bodies/0001/people/2027",
+    "http://oparl.dresden.de/bodies/0001/people/1403",
+    "http://oparl.dresden.de/bodies/0001/people/1980",
+    "http://oparl.dresden.de/bodies/0001/people/822",
+    "http://oparl.dresden.de/bodies/0001/people/1428",
+    "http://oparl.dresden.de/bodies/0001/people/1939",
+    "http://oparl.dresden.de/bodies/0001/people/1960",
+    "http://oparl.dresden.de/bodies/0001/people/2091",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/1413",
+    "http://oparl.dresden.de/bodies/0001/people/2103",
+    "http://oparl.dresden.de/bodies/0001/people/1422",
+    "http://oparl.dresden.de/bodies/0001/people/2021",
+    "http://oparl.dresden.de/bodies/0001/people/771"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/507577",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SBR Co",
+    "fileName": "00507577.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00507577.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00507577.pdf",
+    "created": "2020-10-22T08:24:59+02:00",
+    "modified": "2020-10-22T11:47:22+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/507577",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Co",
+      "fileName": "00507577.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00507577.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00507577.pdf",
+      "created": "2020-10-22T08:24:59+02:00",
+      "modified": "2020-10-22T11:47:22+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat Cotta",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/507824",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_SBR Co",
+      "fileName": "00507824.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00507824.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00507824.pdf",
+      "created": "2020-10-23T09:52:30+02:00",
+      "modified": "2020-11-06T07:38:25+01:00"
     },
     {
-      "name": "Wahrnehmung der Aufgaben nach Aufgabenabgrenzungsrichtlinie; hier: „Rückbau von Wegeflächen, Neubau eines öffentlichen Weges und Wiederherstellung der Rasenflächen im weiteren Umfeld der Kita „Firlefanz“ zwischen Malterstraße und Braunsdorfer Straße“",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20433",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "514700",
-      "auxiliaryFile": [
-        "507879",
-        "494816",
-        "494817",
-        "494818"
-      ],
-      "result": "Vertagung auf Geschäftsordnungsantrag",
-      "vote": {
-        "yes": 7,
-        "no": 6,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/512016",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich  SBR Cotta",
+      "fileName": "00512016.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00512016.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00512016.pdf",
+      "created": "2020-11-12T12:38:16+01:00",
+      "modified": "2021-03-16T10:05:02+01:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/514760",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Aenderungsantrag_TOP 3_4_A0130/20_Freie Waehler_abgelehnt",
+      "fileName": "00514760.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514760.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514760.pdf",
+      "created": "2020-11-26T16:41:14+01:00",
+      "modified": "2021-02-08T14:45:52+01:00"
     },
     {
-      "name": "Aufhebung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen zur Förderung von Großveranstaltungen (Förderrichtlinie Großveranstaltungen) vom 21. März 2013",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19226",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "496429",
-        "495298",
-        "485642"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 5,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Zuwendung zur Betreibung des Zschonergrundbades 2021 und 2022",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20368",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "522163",
-      "auxiliaryFile": [
-        "502667",
-        "500507",
-        "492734",
-        "495781"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Vorplanung Erneuerung der Gleisanlagen Freiberger Straße zwischen Bauhofstraße und Ebertplatz",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19250",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "533581",
-      "auxiliaryFile": [
-        "502665",
-        "500106",
-        "486789",
-        "486790",
-        "486791",
-        "532058",
-        "532223",
-        "532413"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Aufwertung des beidseitigen Elberad- und Wanderweges",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20552",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "500097"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 7,
-        "no": 9,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20557",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542623",
-      "auxiliaryFile": [
-        "502778",
-        "521485"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 5,
-        "no": 7,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Stadtbezirksförderrichtlinie)",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20623",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "541424",
-        "504571",
-        "525165"
-      ],
-      "resolutionFile": "504428",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 15,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verkauf des Grundstückes Freiberger Straße (Baufeld 3)",
-      "number": "Ö 3.7 Nachtrag: 23.10.2020  Nummer 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20581",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "516822",
-      "auxiliaryFile": [
-        "533726",
-        "507785",
-        "507101",
-        "501096",
-        "506329"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Diskussion über geplante Maßnahmen im Stadtbezirk Cotta für das Jahr 2021 gemäß Aufgabenabgrenzungsrichtlinie",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "erledigt"
-    },
-    {
-      "name": "Anlage eines Zebrastreifens",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "510763",
-        "522215",
-        "510642"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/532414",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich SBR Cotta Einwand SBR Co/013/2020",
+      "fileName": "00532414.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00532414.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00532414.pdf",
+      "created": "2021-03-16T09:31:54+01:00",
+      "modified": "2021-03-16T10:04:47+01:00"
     }
   ],
-  "id": "9194"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2020-10-20T08:17:44+02:00",
+      "modified": "2020-10-20T08:17:44+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat Cotta",
+      "public": true,
+      "created": "2020-10-20T08:17:44+02:00",
+      "modified": "2020-10-20T08:18:17+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "2.1",
+      "order": "3",
+      "name": "Wahrnehmung der Aufgaben nach Aufgabenabgrenzungsrichtlinie; hier: „Rückbau von Wegeflächen, Neubau eines öffentlichen Weges und Wiederherstellung der Rasenflächen im weiteren Umfeld der Kita „Firlefanz“ zwischen Malterstraße und Braunsdorfer Straße“",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45498",
+      "result": "Vertagung auf Geschäftsordnungsantrag",
+      "created": "2020-10-20T08:17:44+02:00",
+      "modified": "2020-11-06T07:53:10+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140190",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3",
+      "order": "4",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2020-10-20T08:17:44+02:00",
+      "modified": "2020-10-20T08:18:28+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140192",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3.1",
+      "order": "5",
+      "name": "Aufhebung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen zur Förderung von Großveranstaltungen (Förderrichtlinie Großveranstaltungen) vom 21. März 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45559",
+      "result": "Zustimmung",
+      "created": "2020-10-20T08:17:44+02:00",
+      "modified": "2020-11-06T12:37:59+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140197",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3.2",
+      "order": "6",
+      "name": "Zuwendung zur Betreibung des Zschonergrundbades 2021 und 2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45346",
+      "result": "Vertagung",
+      "created": "2020-10-20T08:19:04+02:00",
+      "modified": "2020-11-06T07:54:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140204",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3.3",
+      "order": "7",
+      "name": "Vorplanung Erneuerung der Gleisanlagen Freiberger Straße zwischen Bauhofstraße und Ebertplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43012",
+      "result": "Vertagung",
+      "created": "2020-10-20T08:23:18+02:00",
+      "modified": "2020-11-06T07:54:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141094",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3.4",
+      "order": "8",
+      "name": "Aufwertung des beidseitigen Elberad- und Wanderweges",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45824",
+      "result": "Ablehnung",
+      "created": "2020-11-05T10:51:57+01:00",
+      "modified": "2020-11-06T07:56:33+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140200",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3.5",
+      "order": "9",
+      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45844",
+      "result": "Ablehnung",
+      "created": "2020-10-20T08:20:34+02:00",
+      "modified": "2020-11-06T07:57:30+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140201",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3.6",
+      "order": "10",
+      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Stadtbezirksförderrichtlinie)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46068",
+      "result": "Ablehnung",
+      "created": "2020-10-20T08:21:22+02:00",
+      "modified": "2020-11-06T08:12:09+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140453",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "3.7",
+      "order": "11",
+      "name": "Verkauf des Grundstückes Freiberger Straße (Baufeld 3)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45901",
+      "result": "Zustimmung",
+      "created": "2020-10-23T09:51:38+02:00",
+      "modified": "2020-11-10T14:52:29+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "4",
+      "order": "12",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2020-10-20T08:17:44+02:00",
+      "modified": "2020-11-11T15:52:53+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "4.1",
+      "order": "13",
+      "name": "Diskussion über geplante Maßnahmen im Stadtbezirk Cotta für das Jahr 2021 gemäß Aufgabenabgrenzungsrichtlinie",
+      "public": true,
+      "result": "erledigt",
+      "created": "2020-10-20T08:18:06+02:00",
+      "modified": "2020-11-06T07:57:45+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9194",
+      "number": "4.2",
+      "order": "14",
+      "name": "Anlage eines Zebrastreifens",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2020-11-06T08:04:15+01:00",
+      "modified": "2020-11-06T08:04:47+01:00"
+    }
+  ],
+  "created": "2019-12-18T14:09:50+01:00",
+  "modified": "2021-02-08T14:45:52+01:00"
 }

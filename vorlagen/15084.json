@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15084",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Ortsbeirat Klotzsche",
-  "shortName": "A0428/18",
   "reference": "A0428/18",
+  "date": "2018-04-04",
   "paperType": "Antrag FDP/FB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-04-04",
   "auxiliaryFile": [
-    "344828",
-    "341599"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/341599",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  FDP/FB",
+      "fileName": "00341599.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00341599.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00341599.pdf",
+      "created": "2018-04-04T10:09:34+02:00",
+      "modified": "2018-04-09T14:35:41+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/344828",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_A0428/18",
+      "fileName": "00344828.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344828.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344828.pdf",
+      "created": "2018-04-24T08:14:54+02:00",
+      "modified": "2018-04-24T08:14:55+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/96"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6507",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/32289",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15084",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/101306",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6507",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-04-05T08:07:17+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15084"
+  "created": "2018-04-04T08:55:05+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,62 +1,126 @@
 {
-  "shortName": "OSR SW/055/2018",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,Bautzner Landstraße 291, 01328 Dresden",
-  "name": "Ortschaftsrat Schönfeld-Weißig - 24.09.2018 - 19:31-21:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "48"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7522",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "55. Sitzung des Ortschaftsrates Schönfeld-Weißig (Sondersitzung)",
   "start": "2018-09-24T19:31:00+02:00",
   "end": "2018-09-24T21:20:00+02:00",
-  "invitation": "367145",
-  "verbatimProtocol": "382765",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/34",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bautzner Landstraße 291",
+    "room": "Ortschaft Schönfed-Weißig, Ratssaal",
+    "postalCode": "01328",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/363",
+    "http://oparl.dresden.de/bodies/0001/people/364",
+    "http://oparl.dresden.de/bodies/0001/people/367",
+    "http://oparl.dresden.de/bodies/0001/people/371",
+    "http://oparl.dresden.de/bodies/0001/people/372",
+    "http://oparl.dresden.de/bodies/0001/people/1149",
+    "http://oparl.dresden.de/bodies/0001/people/1260",
+    "http://oparl.dresden.de/bodies/0001/people/1261",
+    "http://oparl.dresden.de/bodies/0001/people/375",
+    "http://oparl.dresden.de/bodies/0001/people/377",
+    "http://oparl.dresden.de/bodies/0001/people/376",
+    "http://oparl.dresden.de/bodies/0001/people/1263"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/367145",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SW",
+    "fileName": "00367145.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-09-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00367145.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00367145.pdf",
+    "created": "2018-09-10T11:37:01+02:00",
+    "modified": "2018-09-10T11:38:59+02:00"
+  },
+  "resultsProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/385777",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Niederschrift öffentlich_mU",
+    "fileName": "00385777.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-12-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00385777.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00385777.pdf",
+    "created": "2018-12-14T07:29:40+01:00",
+    "modified": "2018-12-14T07:29:42+01:00"
+  },
   "auxiliaryFile": [
-    "385800",
-    "385777"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/367145",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SW",
+      "fileName": "00367145.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00367145.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00367145.pdf",
+      "created": "2018-09-10T11:37:01+02:00",
+      "modified": "2018-09-10T11:38:59+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/382765",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00382765.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00382765.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00382765.pdf",
+      "created": "2018-11-29T14:44:43+01:00",
+      "modified": "2018-12-14T06:46:13+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/385777",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_mU",
+      "fileName": "00385777.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00385777.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00385777.pdf",
+      "created": "2018-12-14T07:29:40+01:00",
+      "modified": "2018-12-14T07:29:42+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/385800",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage zur Niederschrift Powerpoint Haushaltsplanung 2019_2020",
+      "fileName": "00385800.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00385800.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00385800.pdf",
+      "created": "2018-12-14T08:16:15+01:00",
+      "modified": "2018-12-14T08:21:34+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/106943",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7522",
+      "number": "1",
+      "order": "1",
       "name": "Haushaltssatzung 2019/2020 und Wirtschaftspläne 2019 der Eigenbetriebe (erste Lesung)",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15581",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "386384",
-      "auxiliaryFile": [
-        "387283",
-        "405594",
-        "363418",
-        "365283",
-        "365184",
-        "365182",
-        "365183",
-        "373465",
-        "371833",
-        "379053",
-        "385531",
-        "386385",
-        "385520",
-        "385561",
-        "387766"
-      ],
-      "result": "Vertagung - nachträglich für Gremium erledigt"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/33979",
+      "result": "Vertagung - nachträglich für Gremium erledigt",
+      "created": "2018-09-10T11:36:05+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "7522",
-  "participant": [
-    "363",
-    "371",
-    "367",
-    "1260",
-    "372",
-    "1261",
-    "364",
-    "1149",
-    "375",
-    "377",
-    "376",
-    "1263"
-  ]
+  "created": "2018-08-30T10:11:50+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

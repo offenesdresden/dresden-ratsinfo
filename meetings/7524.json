@@ -1,68 +1,149 @@
 {
-  "shortName": "OSR OW/052/2019",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 29.01.2019 - 18:30-19:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7524",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "52. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2019-01-29T18:30:00+01:00",
   "end": "2019-01-29T19:45:00+01:00",
-  "invitation": "390694",
-  "resultsProtocol": "393260",
-  "verbatimProtocol": "393453",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/1256",
+    "http://oparl.dresden.de/bodies/0001/people/1654"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/390694",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00390694.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-01-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00390694.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00390694.pdf",
+    "created": "2019-01-22T16:16:22+01:00",
+    "modified": "2019-01-23T08:39:56+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/390694",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00390694.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00390694.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00390694.pdf",
+      "created": "2019-01-22T16:16:22+01:00",
+      "modified": "2019-01-23T08:39:56+01:00"
     },
     {
-      "name": "Bestätgung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 13.12.2018",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/393260",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0123/19_oU",
+      "fileName": "00393260.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393260.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393260.pdf",
+      "created": "2019-02-05T09:57:48+01:00",
+      "modified": "2019-02-06T06:31:22+01:00"
     },
     {
-      "name": "Leistungsqualität Buslinie 93",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Seniorenarbeit Ortschaften Dresdner Westen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzmittel 2019",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/393453",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00393453.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393453.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393453.pdf",
+      "created": "2019-02-05T15:34:08+01:00",
+      "modified": "2019-09-19T06:36:39+02:00"
     }
   ],
-  "id": "7524",
-  "participant": [
-    "354",
-    "351",
-    "350",
-    "1256"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/111993",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7524",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2018-12-28T10:40:10+01:00",
+      "modified": "2019-01-31T16:11:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/111994",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7524",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätgung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 13.12.2018",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2018-12-28T10:40:45+01:00",
+      "modified": "2019-01-31T16:12:11+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112796",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7524",
+      "number": "3",
+      "order": "3",
+      "name": "Leistungsqualität Buslinie 93",
+      "public": true,
+      "created": "2019-01-22T16:12:12+01:00",
+      "modified": "2019-01-22T16:12:12+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112797",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7524",
+      "number": "4",
+      "order": "4",
+      "name": "Seniorenarbeit Ortschaften Dresdner Westen",
+      "public": true,
+      "created": "2019-01-22T16:13:00+01:00",
+      "modified": "2019-01-22T16:13:00+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112798",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7524",
+      "number": "5",
+      "order": "5",
+      "name": "Finanzmittel 2019",
+      "public": true,
+      "created": "2019-01-22T16:13:20+01:00",
+      "modified": "2019-01-22T16:13:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/111995",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7524",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2018-12-28T10:41:09+01:00",
+      "modified": "2019-01-22T16:13:20+01:00"
+    }
+  ],
+  "created": "2018-09-03T09:49:54+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

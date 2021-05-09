@@ -1,55 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/6870",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Mehrjahres-/Leistungsvereinbarungen 2013 - 2015",
-  "shortName": "V2168/13",
   "reference": "V2168/13",
+  "date": "2013-04-03",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2013-03-08",
   "auxiliaryFile": [
-    "129976",
-    "128514",
-    "128046",
-    "125580"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/125580",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "bereits gefasster Beschlüsse V1329-11 und V1932-12",
+      "fileName": "00125580.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00125580.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00125580.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/125590",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 7 - IF 2013",
+      "fileName": "00125590.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00125590.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00125590.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/128046",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00128046.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-04-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00128046.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00128046.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/128514",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V2168/13 ö",
+      "fileName": "00128514.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-04-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00128514.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00128514.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/129976",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V2168/13_K",
+      "fileName": "00129976.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00129976.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00129976.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/44"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/12373",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/6870",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/39770",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2464",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/14"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "2464",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "6870"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

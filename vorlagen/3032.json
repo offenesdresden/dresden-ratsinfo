@@ -1,24 +1,42 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/3032",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Ausschuss für Wirtschaftsförderung",
-  "shortName": "A0289/10",
   "reference": "A0289/10",
+  "date": "2010-10-14",
   "paperType": "Antrag DIE LINKE.",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2010-10-14",
-  "auxiliaryFile": [
-    "44646"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/44646",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag LINKE.",
+    "fileName": "00044646.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-10-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00044646.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00044646.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/83"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "532",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/4833",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/3032",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/13532",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/532",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "3032"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

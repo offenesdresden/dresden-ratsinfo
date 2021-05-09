@@ -1,38 +1,91 @@
 {
-  "shortName": "W/006/2016",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Wohnbeirat - 14.03.2016 - 16:00-16:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "132"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4961",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Wohnbeirates",
   "start": "2016-03-14T16:00:00+01:00",
   "end": "2016-03-14T16:50:00+01:00",
-  "invitation": "243431",
-  "verbatimProtocol": "246774",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/14",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "3/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/132"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1532",
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/492",
+    "http://oparl.dresden.de/bodies/0001/people/494",
+    "http://oparl.dresden.de/bodies/0001/people/1447",
+    "http://oparl.dresden.de/bodies/0001/people/1475",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/1432"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/243431",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_W",
+    "fileName": "00243431.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-02-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243431.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243431.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Informationen/Sonstiges",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/243431",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_W",
+      "fileName": "00243431.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243431.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243431.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/246774",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00246774.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-03-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00246774.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00246774.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4961",
-  "participant": [
-    "1532",
-    "30",
-    "640",
-    "265",
-    "748",
-    "288",
-    "271",
-    "51",
-    "494",
-    "1447",
-    "1475",
-    "492",
-    "62",
-    "1432",
-    "64"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76088",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4961",
+      "number": "1",
+      "order": "1",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,110 +1,189 @@
 {
-  "shortName": "OBR Bl/016/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 24.02.2016 - 17:30-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "16. Sitzung des Ortsbeirates Blasewitz",
   "start": "2016-02-24T17:30:00+01:00",
   "end": "2016-02-24T20:45:00+01:00",
-  "invitation": "241867",
-  "verbatimProtocol": "247029",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/273",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/697",
+    "http://oparl.dresden.de/bodies/0001/people/703",
+    "http://oparl.dresden.de/bodies/0001/people/706",
+    "http://oparl.dresden.de/bodies/0001/people/1401",
+    "http://oparl.dresden.de/bodies/0001/people/1024",
+    "http://oparl.dresden.de/bodies/0001/people/1189",
+    "http://oparl.dresden.de/bodies/0001/people/1414",
+    "http://oparl.dresden.de/bodies/0001/people/717",
+    "http://oparl.dresden.de/bodies/0001/people/718",
+    "http://oparl.dresden.de/bodies/0001/people/905",
+    "http://oparl.dresden.de/bodies/0001/people/1417",
+    "http://oparl.dresden.de/bodies/0001/people/422",
+    "http://oparl.dresden.de/bodies/0001/people/1425",
+    "http://oparl.dresden.de/bodies/0001/people/1430",
+    "http://oparl.dresden.de/bodies/0001/people/1432",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/1434",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/727",
+    "http://oparl.dresden.de/bodies/0001/people/1486"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/241867",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00241867.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-02-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00241867.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00241867.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 15. Ortsbeiratssitzung am 27.01.2016",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/241867",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00241867.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-02-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00241867.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00241867.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Unterbringung von unbegleiteten ausländischen Minderjährigen (uaM ) in der Landeshauptstadt Dresden - Eine Information des Jugendamtes",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bewahrung des historischen Gebietscharakters in Blasewitz und Striesenhier:Aufhebung Beschlusspunkt 1 des Beschlusses A0632/12",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11767",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "250812",
-      "auxiliaryFile": [
-        "238584",
-        "237251",
-        "232332",
-        "232370",
-        "232371",
-        "232372",
-        "232373",
-        "232374",
-        "243521",
-        "247732"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 3,
-        "no": 10,
-        "neutral": 10,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorstellung der Informationsvorlage V0867/15 Sachstand der Untersuchung der verkehrlichen Auswirkungen der Waldschlößchenbrücke in den Stadtteilen Johannstadt, Striesen, Blasewitz, Gruna sowie Teilen von Altstadt und Strehlen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen der Ortsamtsleiterin",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sachstand Asyl im Ortsamtsgebiet",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Hinweise und Anfragen aus dem Ortsbeirat und der Bevölkerung",
-      "number": "Ö 5.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/247029",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00247029.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-03-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00247029.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00247029.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5266",
-  "participant": [
-    "706",
-    "420",
-    "697",
-    "273",
-    "1401",
-    "703",
-    "1414",
-    "1189",
-    "1024",
-    "1417",
-    "717",
-    "718",
-    "905",
-    "1425",
-    "422",
-    "1432",
-    "1430",
-    "408",
-    "1434",
-    "708",
-    "727",
-    "1486",
-    "712"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 15. Ortsbeiratssitzung am 27.01.2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "2",
+      "order": "2",
+      "name": "Unterbringung von unbegleiteten ausländischen Minderjährigen (uaM ) in der Landeshauptstadt Dresden - Eine Information des Jugendamtes",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "3.1",
+      "order": "4",
+      "name": "Bewahrung des historischen Gebietscharakters in Blasewitz und Striesen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23428",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "4",
+      "order": "5",
+      "name": "Vorstellung der Informationsvorlage V0867/15 Sachstand der Untersuchung der verkehrlichen Auswirkungen der Waldschlößchenbrücke in den Stadtteilen Johannstadt, Striesen, Blasewitz, Gruna sowie Teilne n von Altstadt und Strehlen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76197",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "5",
+      "order": "6",
+      "name": "Informationen der Ortsamtsleiterin",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76240",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "5.1",
+      "order": "7",
+      "name": "Sachstand Asyl im Ortsamtsgebiet",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76241",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "5.2",
+      "order": "8",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76242",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5266",
+      "number": "5.3",
+      "order": "9",
+      "name": "Hinweise und Anfragen aus dem Ortsbeirat und der Bevölkerung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

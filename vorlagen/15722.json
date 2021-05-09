@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15722",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
-  "shortName": "V-SW0183/18",
   "reference": "V-SW0183/18",
+  "date": "2018-08-30",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-08-30",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/365032",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00365032.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-08-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00365032.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00365032.pdf",
+    "created": "2018-08-30T05:47:33+02:00",
+    "modified": "2018-09-12T07:52:58+02:00"
+  },
   "auxiliaryFile": [
-    "365032",
-    "367649"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/367649",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0183/18_mU",
+      "fileName": "00367649.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00367649.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00367649.pdf",
+      "created": "2018-09-12T07:52:51+02:00",
+      "modified": "2018-09-12T07:52:58+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6983",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34150",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15722",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/106449",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6983",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-08-30T05:48:56+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15722"
+  "created": "2018-08-30T05:47:16+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

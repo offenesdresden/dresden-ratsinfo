@@ -1,125 +1,163 @@
 {
-  "shortName": "OBR Pi/007/2010",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 18.05.2010 - 18:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/410",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "7. Sitzung des Ortsbeirates Pieschen",
   "start": "2010-05-18T18:00:00+02:00",
   "end": "2010-05-18T20:00:00+02:00",
-  "invitation": "30280",
-  "verbatimProtocol": "31128",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/670",
+    "http://oparl.dresden.de/bodies/0001/people/672",
+    "http://oparl.dresden.de/bodies/0001/people/675",
+    "http://oparl.dresden.de/bodies/0001/people/679",
+    "http://oparl.dresden.de/bodies/0001/people/681",
+    "http://oparl.dresden.de/bodies/0001/people/683",
+    "http://oparl.dresden.de/bodies/0001/people/685",
+    "http://oparl.dresden.de/bodies/0001/people/689",
+    "http://oparl.dresden.de/bodies/0001/people/691",
+    "http://oparl.dresden.de/bodies/0001/people/909",
+    "http://oparl.dresden.de/bodies/0001/people/694",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/688"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/30280",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00030280.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-05-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00030280.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00030280.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 673, Dresden-Kaditz/Mickten, Erweiterung Hornbach Bau- und Gartenmarkthier:\t1. Abwägungsbeschluss\t2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1821",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "28298",
-        "27203",
-        "27204",
-        "27205",
-        "27206",
-        "27207",
-        "27208",
-        "27209",
-        "27210",
-        "27215",
-        "27216"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/30280",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00030280.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00030280.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00030280.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 365, Dresden-Pieschen Nr. 5, Trachenberger Platzhier:\t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplans",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1883",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "28782",
-        "28268",
-        "28267"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 8, Dresden-Mickten Nr. 3, Gleisschleife Übigauhier:\tAufhebung des Aufstellungsbeschlusses zum Bebauungsplan",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1882",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "28781",
-        "28264",
-        "28263",
-        "28265"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorstellung des Projektes der LandeshauptstadtDresdner Bildungsbahnen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Hinweise/Anregungen aus dem Ortsbeirat",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/31128",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00031128.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-06-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00031128.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00031128.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "410",
-  "participant": [
-    "298",
-    "670",
-    "672",
-    "675",
-    "402",
-    "679",
-    "681",
-    "683",
-    "685",
-    "689",
-    "691",
-    "909",
-    "694",
-    "696",
-    "688"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8588",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/410",
+      "number": "1",
+      "order": "1",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 673, Dresden-Kaditz/Mickten, Erweiterung Hornbach Bau- und Gartenmarkt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3035",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8590",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/410",
+      "number": "2",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 365, Dresden-Pieschen Nr. 5, Trachenberger Platz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3118",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8589",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/410",
+      "number": "3",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 8, Dresden-Mickten Nr. 3, Gleisschleife Übigau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3115",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8593",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/410",
+      "number": "4",
+      "order": "4",
+      "name": "Vorstellung des Projektes der Landeshauptstadt",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8598",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/410",
+      "number": "5",
+      "order": "5",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8597",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/410",
+      "number": "5.1",
+      "order": "6",
+      "name": "Informationen des Ortsamtsleiters",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8599",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/410",
+      "number": "5.2",
+      "order": "7",
+      "name": "Hinweise/Anregungen aus dem Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

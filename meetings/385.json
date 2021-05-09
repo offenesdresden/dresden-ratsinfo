@@ -1,30 +1,86 @@
 {
-  "shortName": "AV/008/2009",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Allgemeine Verwaltung, Ordnung und Sicherheit - 15.12.2009 - 16:00-17:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "2"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/385",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Ausschusses für Allgemeine Verwaltung, Ordnung und Sicherheit",
   "start": "2009-12-15T16:00:00+01:00",
   "end": "2009-12-15T17:20:00+01:00",
-  "invitation": "14776",
-  "resultsProtocol": "16753",
-  "agendaItem": [
-
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/2"
   ],
-  "id": "385",
   "participant": [
-    "7",
-    "289",
-    "45",
-    "67",
-    "271",
-    "79",
-    "34",
-    "44",
-    "57",
-    "275",
-    "73"
-  ]
+    "http://oparl.dresden.de/bodies/0001/people/7",
+    "http://oparl.dresden.de/bodies/0001/people/45",
+    "http://oparl.dresden.de/bodies/0001/people/67",
+    "http://oparl.dresden.de/bodies/0001/people/289",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/34",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/57",
+    "http://oparl.dresden.de/bodies/0001/people/73",
+    "http://oparl.dresden.de/bodies/0001/people/275"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/14776",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AV_2009_12_15",
+    "fileName": "00014776.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-12-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00014776.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00014776.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/16753",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V0264/09",
+    "fileName": "00016753.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-12-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00016753.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00016753.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/14776",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AV_2009_12_15",
+      "fileName": "00014776.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-12-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00014776.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00014776.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/16753",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0264/09",
+      "fileName": "00016753.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00016753.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00016753.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

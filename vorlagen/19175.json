@@ -1,12 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19175",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beschluss über Sitzungstermine 2021",
-  "shortName": "V-SB0123/20",
   "reference": "V-SB0123/20",
+  "date": "2020-07-01",
   "paperType": "Vorlage OS Schönborn",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/483519",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönborn",
+    "fileName": "00483519.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-06-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00483519.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00483519.pdf",
+    "created": "2020-06-30T12:11:59+02:00",
+    "modified": "2020-09-03T09:24:33+02:00"
+  },
   "auxiliaryFile": [
-    "486699",
-    "483519"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/486699",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönborn V-SB0123/20",
+      "fileName": "00486699.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00486699.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00486699.pdf",
+      "created": "2020-07-14T09:25:51+02:00",
+      "modified": "2020-09-03T09:24:33+02:00"
+    }
   ],
-  "id": "19175"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/39"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42865",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19175",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/134552",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-06-30T12:17:00+02:00",
+      "modified": "2020-07-14T14:28:23+02:00"
+    }
+  ],
+  "created": "2020-06-30T12:11:43+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

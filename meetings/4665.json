@@ -1,122 +1,202 @@
 {
-  "shortName": "OSR OW/014/2015",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 08.07.2015 - 18:30-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "14. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2015-07-08T18:30:00+02:00",
   "end": "2015-07-08T20:00:00+02:00",
-  "invitation": "213469",
-  "resultsProtocol": "215527",
-  "verbatimProtocol": "216286",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/352"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/213469",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00213469.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-06-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00213469.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00213469.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/215527",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung zu OW0020/15",
+    "fileName": "00215527.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-07-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00215527.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00215527.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/213469",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00213469.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-06-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00213469.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00213469.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 18.06.2015",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/215527",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung zu OW0020/15",
+      "fileName": "00215527.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-07-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00215527.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00215527.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzzuschüsse",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzmittel für Zeltboden im Festzelt Oberwartha",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel zur Anlagenveränderung Stromkasten an Gustav-Voigt-Straße Oberwarha",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für Sommersonnenwendfest 2015 in Oberwartha",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für 750 Jahr Feier in Oberwartha",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9447",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "214614",
-      "auxiliaryFile": [
-        "224457",
-        "204439",
-        "203914",
-        "209178",
-        "209177",
-        "202162",
-        "202954"
-      ],
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/216286",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00216286.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-07-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00216286.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00216286.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4665",
-  "participant": [
-    "354",
-    "352",
-    "351",
-    "350"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67728",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 18.06.2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67729",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "3",
+      "order": "3",
+      "name": "Finanzzuschüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67999",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "3.1",
+      "order": "4",
+      "name": "Finanzmittel für Zeltboden im Festzelt Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20422",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/68000",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "3.2",
+      "order": "5",
+      "name": "Finanzmittel zur Anlagenveränderung Stromkasten an Gustav-Voigt-Straße Oberwarha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20538",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/68001",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "3.3",
+      "order": "6",
+      "name": "Finanzmittel für Sommersonnenwendfest 2015 in Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20547",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/68014",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "3.4",
+      "order": "7",
+      "name": "Finanzmittel für 750 Jahr Feier in Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20558",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67935",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "4",
+      "order": "8",
+      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20117",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67730",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4665",
+      "number": "5",
+      "order": "9",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

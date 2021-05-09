@@ -1,98 +1,180 @@
 {
-  "shortName": "JHA/038/2012",
-  "locality": "Landeshauptstadt Dresden, im Stadtmuseum, Festsaal, 3. Etage,Wilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 29.11.2012 - 18:00-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1755",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "38. Sitzung des Jugendhilfeausschusses",
   "start": "2012-11-29T18:00:00+01:00",
   "end": "2012-11-29T19:30:00+01:00",
-  "invitation": "115488",
-  "auxiliaryFile": [
-    "117419",
-    "117708"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1727",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Wilsdruffer Straße 2",
+    "room": "Stadtmuseum, Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
   ],
-  "verbatimProtocol": "120416",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/93",
+    "http://oparl.dresden.de/bodies/0001/people/270",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/1037",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/435",
+    "http://oparl.dresden.de/bodies/0001/people/460",
+    "http://oparl.dresden.de/bodies/0001/people/918",
+    "http://oparl.dresden.de/bodies/0001/people/1032",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/468",
+    "http://oparl.dresden.de/bodies/0001/people/474",
+    "http://oparl.dresden.de/bodies/0001/people/475",
+    "http://oparl.dresden.de/bodies/0001/people/1015",
+    "http://oparl.dresden.de/bodies/0001/people/1078",
+    "http://oparl.dresden.de/bodies/0001/people/1079",
+    "http://oparl.dresden.de/bodies/0001/people/454",
+    "http://oparl.dresden.de/bodies/0001/people/473",
+    "http://oparl.dresden.de/bodies/0001/people/485",
+    "http://oparl.dresden.de/bodies/0001/people/1096"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/115488",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH_2012_11_29",
+    "fileName": "00115488.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-11-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00115488.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00115488.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/117419",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_V1479/12_JH",
+    "fileName": "00117419.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-12-03",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00117419.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00117419.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift vom 4. Oktober 2012",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/115488",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH_2012_11_29",
+      "fileName": "00115488.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00115488.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00115488.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen/Fragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/117419",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V1479/12_JH",
+      "fileName": "00117419.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-12-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00117419.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00117419.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Auszeichnung von Vereinen im Bereich Sport BE: Jugendamt",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/117708",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage zur Beschlussempfehlung V1479/12",
+      "fileName": "00117708.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-12-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00117708.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00117708.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Richtlinie der Landeshauptstadt Dresden zur Förderung von Kindern in Kindertagespflege",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5367",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "118837",
-      "auxiliaryFile": [
-        "155612",
-        "191319",
-        "235037",
-        "244965",
-        "93945",
-        "93480",
-        "92338",
-        "92334",
-        "92335",
-        "92336",
-        "92337",
-        "86718",
-        "88724",
-        "88723",
-        "88811"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/120416",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_JH_2012_11_29",
+      "fileName": "00120416.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00120416.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00120416.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1755",
-  "participant": [
-    "58",
-    "769",
-    "93",
-    "270",
-    "64",
-    "1037",
-    "46",
-    "918",
-    "435",
-    "1032",
-    "460",
-    "475",
-    "468",
-    "1078",
-    "1079",
-    "1015",
-    "474",
-    "28",
-    "485",
-    "1096",
-    "454",
-    "473"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36175",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1755",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift vom 4. Oktober 2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36183",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1755",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen/Fragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1755",
+      "number": "3",
+      "order": "3",
+      "name": "Auszeichnung von Vereinen im Bereich Sport BE: Jugendamt",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36180",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1755",
+      "number": "4",
+      "order": "4",
+      "name": "Richtlinie der Landeshauptstadt Dresden zur Förderung von Kindern in Kindertagespflege",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8812",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36182",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1755",
+      "number": "5",
+      "order": "5",
+      "name": "Berichte aus den Unterausschüssen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

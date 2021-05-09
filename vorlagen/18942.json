@@ -1,81 +1,65 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18942",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Einschränkung der Haushaltssperre gem. § 30 SächsKommHVO",
-  "shortName": "A0085/20",
   "reference": "A0085/20",
+  "date": "2020-05-14",
   "paperType": "Antrag Interfraktionell",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-05-14",
   "auxiliaryFile": [
-    "473921",
-    "474385"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/473921",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  Interfraktionell",
+      "fileName": "00473921.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00473921.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00473921.pdf",
+      "created": "2020-05-14T12:37:48+02:00",
+      "modified": "2020-05-19T06:19:25+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/474385",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "A0085-20_Unterschriften § 36",
+      "fileName": "00474385.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00474385.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00474385.pdf",
+      "created": "2020-05-15T11:24:36+02:00",
+      "modified": "2020-05-19T06:19:25+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/480483",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_F_A0085/20_ff",
+      "fileName": "00480483.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00480483.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00480483.pdf",
+      "created": "2020-06-17T05:31:59+02:00",
+      "modified": "2020-06-17T05:32:00+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42319",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18942",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/132917",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8855",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8807",
-      "role": "1. Lesung     (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "15.06.2020 Ausschuss für Finanzen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "25.06.2020 Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-05-29T12:17:06+02:00",
+      "modified": "2020-06-25T10:30:09+02:00"
     }
   ],
-  "id": "18942"
+  "created": "2020-05-14T12:28:08+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

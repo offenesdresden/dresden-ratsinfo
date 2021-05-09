@@ -1,158 +1,177 @@
 {
-  "shortName": "OBR Neu/033/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 03.04.2017 - 17:30-21:05 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "33. Sitzung des Ortsbeirates Neustadt",
   "start": "2017-04-03T17:30:00+02:00",
   "end": "2017-04-03T21:05:00+02:00",
-  "invitation": "292615",
-  "verbatimProtocol": "295856",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/641",
+    "http://oparl.dresden.de/bodies/0001/people/642",
+    "http://oparl.dresden.de/bodies/0001/people/1196",
+    "http://oparl.dresden.de/bodies/0001/people/1370",
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/1365",
+    "http://oparl.dresden.de/bodies/0001/people/1515",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/1361",
+    "http://oparl.dresden.de/bodies/0001/people/664",
+    "http://oparl.dresden.de/bodies/0001/people/1360",
+    "http://oparl.dresden.de/bodies/0001/people/1371",
+    "http://oparl.dresden.de/bodies/0001/people/1548",
+    "http://oparl.dresden.de/bodies/0001/people/1549"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/292615",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_2017_04_03",
+    "fileName": "00292615.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-03-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00292615.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00292615.pdf",
+    "created": "2017-03-21T11:54:18+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 32. Ortsbeiratssitzung am 06.03.2017",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/292615",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_2017_04_03",
+      "fileName": "00292615.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-03-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00292615.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00292615.pdf",
+      "created": "2017-03-21T11:54:18+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Planung und Durchführung investiver Schulbauvorhaben - Maßnahmepaket 1/2017",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13438",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "297135",
-      "auxiliaryFile": [
-        "307421",
-        "356859",
-        "422489",
-        "490922",
-        "516609",
-        "289925",
-        "289389",
-        "289098",
-        "289099",
-        "289100",
-        "289101",
-        "289070",
-        "289071",
-        "289073",
-        "287665",
-        "296018",
-        "296190",
-        "295674"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 11,
-        "no": 1,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Teilgebiets-Lärmaktionsplan Äußere Neustadt (2016)",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12973",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "311235",
-      "auxiliaryFile": [
-        "383723",
-        "447833",
-        "342437",
-        "291046",
-        "290594",
-        "304994",
-        "304993",
-        "286119",
-        "286120",
-        "288680",
-        "272168",
-        "272169",
-        "288681",
-        "286123",
-        "272920",
-        "302826",
-        "308690"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 15,
-        "no": 1,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstige Informationen und Anfragen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Variantenvergleich zur Errichtung eines Zentralen Omnibusbahnhofes (ZOB) in Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12876",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "291982",
-        "279073",
-        "291071",
-        "268896",
-        "268897",
-        "268898",
-        "268899",
-        "268900",
-        "268901",
-        "268902",
-        "268903",
-        "268904",
-        "278325"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/295856",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00295856.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00295856.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00295856.pdf",
+      "created": "2017-04-11T13:57:11+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5693",
-  "participant": [
-    "641",
-    "642",
-    "1370",
-    "1196",
-    "1365",
-    "650",
-    "653",
-    "1515",
-    "655",
-    "660",
-    "662",
-    "1361",
-    "664",
-    "1371",
-    "1360",
-    "1548",
-    "1549"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88401",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 32. Ortsbeiratssitzung am 06.03.2017",
+      "public": true,
+      "created": "2017-03-09T12:35:05+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2017-03-09T12:35:05+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88407",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "2.1",
+      "order": "3",
+      "name": "Planung und Durchführung investiver Schulbauvorhaben - Maßnahmepaket 1/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27791",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2017-03-09T12:39:41+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "2.2",
+      "order": "4",
+      "name": "Teilgebiets-Lärmaktionsplan Äußere Neustadt (2016)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26458",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2017-03-20T07:40:29+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88405",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "3",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2017-03-09T12:35:06+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88408",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "3.1",
+      "order": "6",
+      "name": "Aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2017-03-09T12:40:44+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88409",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "3.2",
+      "order": "7",
+      "name": "Sonstige Informationen und Anfragen",
+      "public": true,
+      "created": "2017-03-09T12:41:16+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5693",
+      "number": "4",
+      "order": "8",
+      "name": "Variantenvergleich zur Errichtung eines Zentralen Omnibusbahnhofes (ZOB) in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27902",
+      "result": "zur Kenntnis genommen",
+      "created": "2017-04-24T09:12:26+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

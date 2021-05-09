@@ -1,61 +1,129 @@
 {
-  "shortName": "OSR WX/005/2010",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 18.01.2010 - 19:00-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/490",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2010-01-18T19:00:00+01:00",
   "end": "2010-01-18T21:15:00+01:00",
-  "invitation": "18031",
-  "verbatimProtocol": "19243",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/18031",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung - OSR WX",
+    "fileName": "00018031.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-01-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018031.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018031.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/18031",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung - OSR WX",
+      "fileName": "00018031.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018031.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018031.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bericht zur Fertigstellung der Erschließung des Wohngebietes \"Weixdorf-Mitte\"BE: STESAD",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bericht zum Sachstand der Planungen zum Regenrückhaltebecken \"Schelstal\" und \"Seifzerbach\"BE: Umweltamt",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/19243",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00019243.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-02-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019243.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019243.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "490",
-  "participant": [
-    "298",
-    "382",
-    "384",
-    "381",
-    "66",
-    "385",
-    "383",
-    "391",
-    "387",
-    "388",
-    "386",
-    "390",
-    "389"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4874",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/490",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/490",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5056",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/490",
+      "number": "3",
+      "order": "3",
+      "name": "Bericht zur Fertigstellung der Erschließung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5057",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/490",
+      "number": "4",
+      "order": "4",
+      "name": "Bericht zum Sachstand der Planungen zum Regenrückhaltebecken",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4876",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/490",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/490",
+      "number": "6",
+      "order": "6",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

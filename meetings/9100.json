@@ -1,210 +1,358 @@
 {
-  "shortName": "OSR SW/012/2020",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,Bautzner Landstraße 291, 01328 Dresden",
-  "name": "Ortschaftsrat Schönfeld-Weißig - 14.09.2020 - 19:30-21:13 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "48"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "12. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "start": "2020-09-14T19:30:00+02:00",
   "end": "2020-09-14T21:13:00+02:00",
-  "invitation": "495349",
-  "auxiliaryFile": [
-    "498789",
-    "498790",
-    "498791",
-    "498645",
-    "498646",
-    "498643",
-    "504010",
-    "500130"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/34",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bautzner Landstraße 291",
+    "room": "Ortschaft Schönfed-Weißig, Ratssaal",
+    "postalCode": "01328",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
   ],
-  "resultsProtocol": "498639",
-  "verbatimProtocol": "500319",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/377",
+    "http://oparl.dresden.de/bodies/0001/people/364",
+    "http://oparl.dresden.de/bodies/0001/people/369",
+    "http://oparl.dresden.de/bodies/0001/people/371",
+    "http://oparl.dresden.de/bodies/0001/people/372",
+    "http://oparl.dresden.de/bodies/0001/people/1149",
+    "http://oparl.dresden.de/bodies/0001/people/1260",
+    "http://oparl.dresden.de/bodies/0001/people/1261",
+    "http://oparl.dresden.de/bodies/0001/people/1985",
+    "http://oparl.dresden.de/bodies/0001/people/1987",
+    "http://oparl.dresden.de/bodies/0001/people/2015",
+    "http://oparl.dresden.de/bodies/0001/people/375",
+    "http://oparl.dresden.de/bodies/0001/people/2029",
+    "http://oparl.dresden.de/bodies/0001/people/380",
+    "http://oparl.dresden.de/bodies/0001/people/1263",
+    "http://oparl.dresden.de/bodies/0001/people/2009"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/495349",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SW",
+    "fileName": "00495349.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-09-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00495349.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00495349.pdf",
+    "created": "2020-09-01T11:21:15+02:00",
+    "modified": "2020-09-02T11:16:44+02:00"
+  },
+  "resultsProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/504010",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Niederschrift-12.Sitzung_2020-09-14-öffentlich_mU",
+    "fileName": "00504010.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00504010.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00504010.pdf",
+    "created": "2020-10-06T06:20:53+02:00",
+    "modified": "2020-10-06T06:24:48+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/495349",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SW",
+      "fileName": "00495349.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00495349.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00495349.pdf",
+      "created": "2020-09-01T11:21:15+02:00",
+      "modified": "2020-09-02T11:16:44+02:00"
     },
     {
-      "name": "Bericht der Ortsvorsteherin",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/498639",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0336/20_oU",
+      "fileName": "00498639.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498639.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498639.pdf",
+      "created": "2020-09-15T07:57:07+02:00",
+      "modified": "2020-09-15T13:36:57+02:00"
     },
     {
-      "name": "Bürgerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/498643",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0343/20_oU",
+      "fileName": "00498643.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498643.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498643.pdf",
+      "created": "2020-09-15T07:58:34+02:00",
+      "modified": "2020-09-15T13:36:57+02:00"
     },
     {
-      "name": "Einwendungen zur öffentlichen Niederschrift der 11. Sitzung vom 13.07.2020",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/498645",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0340/20_oU",
+      "fileName": "00498645.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498645.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498645.pdf",
+      "created": "2020-09-15T07:59:55+02:00",
+      "modified": "2020-09-15T13:36:57+02:00"
     },
     {
-      "name": "Bekanntgabe nicht öffentlich gefasster Beschlüsse der 11. Sitzung vom 13.07.2020",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/498646",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0342/20_oU",
+      "fileName": "00498646.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498646.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498646.pdf",
+      "created": "2020-09-15T08:01:21+02:00",
+      "modified": "2020-09-15T13:36:57+02:00"
     },
     {
-      "name": "Evaluierung der Richtlinie der Landeshauptstadt Dresden über die Förderung des Sportes (Sportförderrichtlinie)",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18891",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "516498",
-      "auxiliaryFile": [
-        "480489",
-        "478514",
-        "479011",
-        "479012",
-        "475036",
-        "472324",
-        "472321",
-        "472322",
-        "472323",
-        "472320",
-        "514385"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 2,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/498789",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Schönfeld-Weißig_A0057/20_mU",
+      "fileName": "00498789.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498789.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498789.pdf",
+      "created": "2020-09-15T12:12:01+02:00",
+      "modified": "2020-10-06T06:24:48+02:00"
     },
     {
-      "name": "Neues Wohnen auf städtischen Flächen fördern - Wagenplätze in Dresden ermöglichen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18586",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "462818",
-        "496863",
-        "516800"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 2,
-        "no": 13,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/498790",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Schönfeld-Weißig_A0060/20_mU",
+      "fileName": "00498790.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498790.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498790.pdf",
+      "created": "2020-09-15T12:12:01+02:00",
+      "modified": "2020-10-06T06:24:48+02:00"
     },
     {
-      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "464644",
-        "496854",
-        "537498"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 2,
-        "no": 11,
-        "neutral": 3,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/498791",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Schönfeld-Weißig_V0380/20_mU",
+      "fileName": "00498791.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498791.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498791.pdf",
+      "created": "2020-09-15T12:12:02+02:00",
+      "modified": "2020-10-06T06:24:48+02:00"
     },
     {
-      "name": "Verwendung von Investitions- und Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/500130",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation_TOP-6__Sportförderrichtlinie",
+      "fileName": "00500130.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00500130.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00500130.pdf",
+      "created": "2020-09-21T15:41:44+02:00",
+      "modified": "2020-10-06T06:24:48+02:00"
     },
     {
-      "name": "Verwendung von Investitionsmitteln - Nachtrag Baumaßnahme Alter Bahndamm",
-      "number": "Ö 9.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19182",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "498792",
-      "auxiliaryFile": [
-        "527519",
-        "483804"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/500319",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00500319.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00500319.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00500319.pdf",
+      "created": "2020-09-22T13:00:09+02:00",
+      "modified": "2020-10-06T06:24:48+02:00"
     },
     {
-      "name": "Verwendung von Verfügungsmitteln - SG Weißig e. V. - Erbbaupachtzins 2020",
-      "number": "Ö 9.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20444",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "498793",
-      "auxiliaryFile": [
-        "504752",
-        "495336"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sitzungstermine des Ortschaftsrates Schönfeld-Weißig für das Jahr 2021",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19245",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "498794",
-      "auxiliaryFile": [
-        "486388"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 1,
-        "neutral": 2,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sitzungstermine der Ausschüsse BAU und KJS Schönfeld-Weißig für das Jahr 2021",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19246",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "486395"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/504010",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift-12.Sitzung_2020-09-14-öffentlich_mU",
+      "fileName": "00504010.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00504010.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00504010.pdf",
+      "created": "2020-10-06T06:20:53+02:00",
+      "modified": "2020-10-06T06:24:48+02:00"
     }
   ],
-  "id": "9100"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134149",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2020-06-24T08:48:52+02:00",
+      "modified": "2020-06-24T08:48:54+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "2",
+      "order": "2",
+      "name": "Bericht der Ortsvorsteherin",
+      "public": true,
+      "created": "2020-06-24T08:48:52+02:00",
+      "modified": "2020-06-24T08:48:54+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134151",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "3",
+      "order": "3",
+      "name": "Bürgerfragestunde",
+      "public": true,
+      "created": "2020-06-24T08:48:52+02:00",
+      "modified": "2020-06-24T08:48:54+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "4",
+      "order": "4",
+      "name": "Einwendungen zur öffentlichen Niederschrift der 11. Sitzung vom 13.07.2020",
+      "public": true,
+      "created": "2020-06-24T08:48:52+02:00",
+      "modified": "2020-06-24T08:57:14+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134153",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "5",
+      "order": "5",
+      "name": "Bekanntgabe nicht öffentlich gefasster Beschlüsse der 11. Sitzung vom 13.07.2020",
+      "public": true,
+      "created": "2020-06-24T08:48:52+02:00",
+      "modified": "2020-06-24T08:57:19+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134164",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "6",
+      "order": "6",
+      "name": "Evaluierung der Richtlinie der Landeshauptstadt Dresden über die Förderung des Sportes (Sportförderrichtlinie)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42202",
+      "result": "Zustimmung",
+      "created": "2020-06-24T08:49:58+02:00",
+      "modified": "2020-09-15T07:40:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134675",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "7",
+      "order": "7",
+      "name": "Neues Wohnen auf städtischen Flächen fördern - Wagenplätze in Dresden ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41487",
+      "result": "Ablehnung",
+      "created": "2020-07-02T09:08:06+02:00",
+      "modified": "2020-09-15T07:39:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134676",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "8",
+      "order": "8",
+      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41568",
+      "result": "Ablehnung",
+      "created": "2020-07-02T09:08:16+02:00",
+      "modified": "2020-09-15T07:40:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134154",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "9",
+      "order": "9",
+      "name": "Verwendung von Investitions- und Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
+      "public": true,
+      "created": "2020-06-24T08:48:52+02:00",
+      "modified": "2020-08-31T14:32:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/136406",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "9.1",
+      "order": "10",
+      "name": "Verwendung von Investitionsmitteln - Nachtrag Baumaßnahme Alter Bahndamm",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42873",
+      "result": "Zustimmung",
+      "created": "2020-07-28T12:22:23+02:00",
+      "modified": "2020-09-15T12:16:48+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "9.2",
+      "order": "11",
+      "name": "Verwendung von Verfügungsmitteln - SG Weißig e. V. - Erbbaupachtzins 2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45535",
+      "result": "Zustimmung",
+      "created": "2020-09-01T11:18:50+02:00",
+      "modified": "2020-09-15T12:18:24+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134964",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "10",
+      "order": "12",
+      "name": "Sitzungstermine des Ortschaftsrates Schönfeld-Weißig für das Jahr 2021",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43000",
+      "result": "Zustimmung",
+      "created": "2020-07-13T15:39:08+02:00",
+      "modified": "2020-09-15T07:41:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134965",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9100",
+      "number": "11",
+      "order": "13",
+      "name": "Sitzungstermine der Ausschüsse BAU und KJS Schönfeld-Weißig für das Jahr 2021",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43001",
+      "result": "zur Kenntnis genommen",
+      "created": "2020-07-13T15:51:39+02:00",
+      "modified": "2020-09-15T07:41:52+02:00"
+    }
+  ],
+  "created": "2019-12-05T15:33:15+01:00",
+  "modified": "2021-02-22T14:23:54+01:00"
 }

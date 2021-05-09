@@ -1,44 +1,110 @@
 {
-  "shortName": "WF/006/2009",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13, Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 26.11.2009 - 17:00-19:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/150",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ausschusses für Wirtschaftsförderung",
   "start": "2009-11-26T17:00:00+01:00",
   "end": "2009-11-26T19:00:00+01:00",
-  "invitation": "13417",
-  "verbatimProtocol": "15030",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/14",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "3/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/13417",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung - WF_2009_11_26",
+    "fileName": "00013417.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-11-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00013417.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00013417.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Geschäftsbereich Finanzen und Liegenschaften",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/13417",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung - WF_2009_11_26",
+      "fileName": "00013417.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00013417.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00013417.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlussvorlagen zu VOL-Vergaben",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/15017",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0322_09_WF",
+      "fileName": "00015017.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015017.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015017.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vergabe-Nr.: 02.2/058/09Abschluss einer Rahmenvereinbarung zur Lieferung, Installation und Inbetriebnahme von Arbeitsplatzcomputern, Monitoren, Notebooks (inkl. Software), Druckern, Scannern, Multifunktionsgeräten sowie Nachrüstungsgeräten sowie Nachrüstungskomponenten und ServiceLos: 1 Arbeitsplatzcomputer, Monitor, Notebook, Zubehör",
-      "number": "Ö 1.1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/15030",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_WF_2009_11_26",
+      "fileName": "00015030.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015030.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015030.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "150",
-  "participant": [
-    "26",
-    "36",
-    "266",
-    "290",
-    "61",
-    "91",
-    "264",
-    "268",
-    "72",
-    "57",
-    "267"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3468",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/150",
+      "number": "1",
+      "order": "1",
+      "name": "Geschäftsbereich Finanzen und Liegenschaften",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/2120",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/150",
+      "number": "1.1",
+      "order": "2",
+      "name": "Beschlussvorlagen zu VOL-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/150",
+      "number": "1.1.1",
+      "order": "3",
+      "name": "Abschluss (inkl.Software), Druckern, Scannern, Multifunktionsgeräten sowie Nachrüstungskomponenten und Service",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1634",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,99 +1,171 @@
 {
-  "shortName": "JHA/006/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 06.02.2020 - 18:00-18:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8789",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Jugendhilfeausschusses",
   "start": "2020-02-06T18:00:00+01:00",
   "end": "2020-02-06T18:35:00+01:00",
-  "invitation": "453857",
-  "auxiliaryFile": [
-    "454981"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
   ],
-  "verbatimProtocol": "460106",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/1351",
+    "http://oparl.dresden.de/bodies/0001/people/1927",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/449",
+    "http://oparl.dresden.de/bodies/0001/people/461",
+    "http://oparl.dresden.de/bodies/0001/people/540",
+    "http://oparl.dresden.de/bodies/0001/people/1160",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/464",
+    "http://oparl.dresden.de/bodies/0001/people/468",
+    "http://oparl.dresden.de/bodies/0001/people/1290",
+    "http://oparl.dresden.de/bodies/0001/people/1347",
+    "http://oparl.dresden.de/bodies/0001/people/1660",
+    "http://oparl.dresden.de/bodies/0001/people/1685",
+    "http://oparl.dresden.de/bodies/0001/people/2129",
+    "http://oparl.dresden.de/bodies/0001/people/1279",
+    "http://oparl.dresden.de/bodies/0001/people/1297",
+    "http://oparl.dresden.de/bodies/0001/people/2086",
+    "http://oparl.dresden.de/bodies/0001/people/2093"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/453857",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH",
+    "fileName": "00453857.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-01-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00453857.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00453857.pdf",
+    "created": "2020-01-17T10:26:19+01:00",
+    "modified": "2020-01-23T08:48:59+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift vom 28. November 2019 und 18. Dezember 2019",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/453857",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH",
+      "fileName": "00453857.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00453857.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00453857.pdf",
+      "created": "2020-01-17T10:26:19+01:00",
+      "modified": "2020-01-23T08:48:59+01:00"
     },
     {
-      "name": "Informationen/Fragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/454981",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JHA_2020_02_06",
+      "fileName": "00454981.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00454981.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00454981.pdf",
+      "created": "2020-01-23T08:44:20+01:00",
+      "modified": "2020-04-30T17:52:14+02:00"
     },
     {
-      "name": "Planungsrahmen der Kinder- und Jugendhilfe in Dresden - Spezifischer Teil (Teil IV), hier: Planungsberichte der Stadträume 1, 4, 5, 15 und 17",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17999",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "485240",
-      "auxiliaryFile": [
-        "484179",
-        "510432",
-        "454642",
-        "452742",
-        "448579",
-        "451876",
-        "448582",
-        "451882",
-        "451887",
-        "448589",
-        "450075",
-        "484141"
-      ],
-      "result": "1. Lesung abgeschlossen"
-    },
-    {
-      "name": "Förderung von Trägern der freien Jugendhilfe - Bauliche Maßnahmen bzw. Erhaltungsmaßnahmen 2020",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18038",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "464805",
-      "auxiliaryFile": [
-        "483704",
-        "516615",
-        "468575",
-        "453004",
-        "451560",
-        "444320",
-        "444321"
-      ],
-      "result": "1. Lesung abgeschlossen"
-    },
-    {
-      "name": "Strategische Planung zur Umsetzung inklusiver Kindertagesbetreuung in der Landeshauptstadt Dresden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18122",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "480265",
-      "auxiliaryFile": [
-        "508602",
-        "454957",
-        "454339",
-        "451826",
-        "451828",
-        "446656",
-        "456219"
-      ],
-      "result": "1. Lesung abgeschlossen"
-    },
-    {
-      "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/460106",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00460106.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00460106.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00460106.pdf",
+      "created": "2020-02-21T11:38:22+01:00",
+      "modified": "2020-04-30T17:52:14+02:00"
     }
   ],
-  "id": "8789"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126007",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8789",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift vom 28. November 2019 und 18. Dezember 2019",
+      "public": true,
+      "created": "2020-01-06T12:38:16+01:00",
+      "modified": "2020-01-06T12:39:00+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126009",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8789",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen/Fragestunde",
+      "public": true,
+      "created": "2020-01-06T12:38:17+01:00",
+      "modified": "2020-01-06T12:39:10+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126011",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8789",
+      "number": "3",
+      "order": "3",
+      "name": "Planungsrahmen der Kinder- und Jugendhilfe in Dresden - Spezifischer Teil (Teil IV), hier: Planungsberichte der Stadträume 1, 4, 5, 15 und 17",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40286",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2020-01-06T12:47:19+01:00",
+      "modified": "2020-02-07T13:04:13+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126012",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8789",
+      "number": "4",
+      "order": "4",
+      "name": "Förderung von Trägern der freien Jugendhilfe - Bauliche Maßnahmen bzw. Erhaltungsmaßnahmen 2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40035",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2020-01-06T12:48:13+01:00",
+      "modified": "2020-02-07T13:04:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126013",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8789",
+      "number": "5",
+      "order": "5",
+      "name": "Strategische Planung zur Umsetzung inklusiver Kindertagesbetreuung in der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40179",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2020-01-06T12:48:57+01:00",
+      "modified": "2020-02-07T13:04:26+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/126008",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8789",
+      "number": "6",
+      "order": "6",
+      "name": "Berichte aus den Unterausschüssen",
+      "public": true,
+      "created": "2020-01-06T12:38:17+01:00",
+      "modified": "2020-01-06T12:48:57+01:00"
+    }
+  ],
+  "created": "2019-10-16T11:53:48+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

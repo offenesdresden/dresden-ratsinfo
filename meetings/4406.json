@@ -1,186 +1,182 @@
 {
-  "shortName": "OBR Pro/009/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Prohlis, Bürgersaal,Prohliser Allee 10, 01239 Dresden",
-  "name": "Ortsbeirat Prohlis - 07.09.2015 - 17:00-20:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "41"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "9. Sitzung des Ortsbeirates Prohlis",
   "start": "2015-09-07T17:00:00+02:00",
   "end": "2015-09-07T20:25:00+02:00",
-  "invitation": "219545",
-  "verbatimProtocol": "222722",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1791",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Prohliser Allee 10",
+    "room": "Ortsamt Prohlis, Bürgersaal",
+    "postalCode": "01239",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:35+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/41"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/403",
+    "http://oparl.dresden.de/bodies/0001/people/533",
+    "http://oparl.dresden.de/bodies/0001/people/535",
+    "http://oparl.dresden.de/bodies/0001/people/536",
+    "http://oparl.dresden.de/bodies/0001/people/1397",
+    "http://oparl.dresden.de/bodies/0001/people/542",
+    "http://oparl.dresden.de/bodies/0001/people/543",
+    "http://oparl.dresden.de/bodies/0001/people/545",
+    "http://oparl.dresden.de/bodies/0001/people/552",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/1388",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/557",
+    "http://oparl.dresden.de/bodies/0001/people/563",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/1139",
+    "http://oparl.dresden.de/bodies/0001/people/1277",
+    "http://oparl.dresden.de/bodies/0001/people/1394"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/219545",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pro",
+    "fileName": "00219545.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-08-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00219545.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00219545.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellung der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 8. Ortsbeiratssitzung am 22.06.2015",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/219545",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pro",
+      "fileName": "00219545.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00219545.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00219545.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ersatzneubau Kinder- und Jugendhaus (KJH) \"Pixel\" und Abbruch Bestandsgebäude auf der Elsterwerdaer Straße 21, 01239 Dresden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10282",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "231408",
-      "auxiliaryFile": [
-        "241122",
-        "255696",
-        "267495",
-        "282549",
-        "300504",
-        "349103",
-        "220079",
-        "218137",
-        "219506",
-        "216032",
-        "216022",
-        "216023",
-        "216024",
-        "216025",
-        "216031",
-        "216021"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bereitstellung und Betreibung des Objektes Prohliser Allee 3 und 5 als Übergangswohnheim mit 20 Plätzen für ältere wohnungslose Menschen und Festsetzung des Kostensatzes zur Betreibung",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10260",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "225578",
-      "auxiliaryFile": [
-        "240152",
-        "219597",
-        "217782",
-        "218591",
-        "215183",
-        "217083"
-      ],
-      "result": "einstimmig",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Geplante Erweiterung des Palitzschhofes als Kulturzentrum in Prohlis umsetzen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10169",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "213599",
-        "218549",
-        "242849",
-        "261555",
-        "291087",
-        "334142",
-        "357353"
-      ],
-      "resolutionFile": "229717",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Einhaltung des Schulnetzplanes (SNP): Schulbeginn Gymnasium Prohlis 2016/2017, Einhaltung aller festgelegten Anzahlen an Zügen an Gymnasien laut SNP, Vitzthum-Gymnasium Dresden: 4 Züge bis zur Umsetzung der baulichen Erweiterung",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10109",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "211868",
-        "261443",
-        "273218",
-        "318441"
-      ],
-      "resolutionFile": "225586",
-      "result": "einstimmig",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10239",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "215210",
-        "244117",
-        "347007",
-        "288953",
-        "321207",
-        "387620"
-      ],
-      "resolutionFile": "236180",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 7,
-        "no": 9,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters (u. a. aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für bes. Bedarfsgruppen im Ortsamtsbereich)",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/222722",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00222722.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00222722.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00222722.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4406",
-  "participant": [
-    "535",
-    "533",
-    "1397",
-    "403",
-    "536",
-    "542",
-    "543",
-    "545",
-    "554",
-    "552",
-    "1390",
-    "1388",
-    "557",
-    "563",
-    "551",
-    "1139",
-    "1394",
-    "87",
-    "1277"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellung der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 8. Ortsbeiratssitzung am 22.06.2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69227",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "2",
+      "order": "2",
+      "name": "Ersatzneubau Kinder- und Jugendhaus (KJH) \"Pixel\" und Abbruch Bestandsgebäude auf der Elsterwerdaer Straße 21, 01239 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20832",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69523",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "3",
+      "order": "3",
+      "name": "Bereitstellung und Betreibung des Objektes Prohliser Allee 3 und 5 als Übergangswohnheim mit 20 Plätzen für ältere wohnungslose Menschen und Festsetzung des Kostensatzes zur Betreibung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20739",
+      "result": "einstimmig",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69228",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "4",
+      "order": "4",
+      "name": "Geplante Erweiterung des Palitzschhofes als Kulturzentrum in Prohlis umsetzen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20515",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69224",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "5",
+      "order": "5",
+      "name": "Einhaltung des Schulnetzplanes (SNP):",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20373",
+      "result": "einstimmig",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69225",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "6",
+      "order": "6",
+      "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20695",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69226",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "7",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4406",
+      "number": "8",
+      "order": "8",
+      "name": "Informationen des Ortsamtsleiters (u. a. aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für bes. Bedarfsgruppen im Ortsamtsbereich)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

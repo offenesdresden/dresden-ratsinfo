@@ -1,286 +1,283 @@
 {
-  "shortName": "SBR Kl/014/2020",
-  "locality": "Landeshauptstadt Dresden, im LuftRAUM des Conference Centers im Flughafen DresdenFlughafenstraße, 01109 Dresden",
-  "name": "Stadtbezirksbeirat Klotzsche - 07.12.2020 - 18:30-21:53 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "169"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "14. Sitzung des Stadtbezirksbeirates Klotzsche",
   "start": "2020-12-07T18:30:00+01:00",
   "end": "2020-12-07T21:53:00+01:00",
-  "invitation": "514207",
-  "verbatimProtocol": "530756",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3249",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Stadtbezirksamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-06T08:51:55+02:00",
+    "modified": "2018-09-06T08:52:06+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/169"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/2220",
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1347",
+    "http://oparl.dresden.de/bodies/0001/people/1730",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/2024",
+    "http://oparl.dresden.de/bodies/0001/people/1972",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/1994"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/514207",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SBR Klotzsche_2020_12_07",
+    "fileName": "00514207.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-11-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514207.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514207.pdf",
+    "created": "2020-11-25T07:48:12+01:00",
+    "modified": "2020-11-27T05:55:18+01:00"
+  },
+  "resultsProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/530756",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Niederschrift öffentlich_SBR Klotzsche_2020_12_07",
+    "fileName": "00530756.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-03-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00530756.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00530756.pdf",
+    "created": "2021-03-09T09:11:43+01:00",
+    "modified": "2021-03-09T09:12:00+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Allgemeine Informationen des Amtes für Kultur und Denkmalschutz zu denkmalschutzrechtlichen Themen im Stadtbezirk",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/514207",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Klotzsche_2020_12_07",
+      "fileName": "00514207.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514207.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514207.pdf",
+      "created": "2020-11-25T07:48:12+01:00",
+      "modified": "2020-11-27T05:55:18+01:00"
     },
     {
-      "name": "Vorlagen und Anträge zur Beschlussfassung durch den Stadtbezirksbeirat Klotzsche",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Priorisierung von örtlichen Straßenbaumaßnahmen im Stadtbezirk Klotzsche für das Jahr 2021",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20657",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "517235",
-      "auxiliaryFile": [
-        "537424",
-        "510143",
-        "506132",
-        "517560"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Antrag des Bürgerzentrum Waldschänke Hellerau e. V. zur Projektförderung \"Anbringen einer Verdunklung bzw. eines Sonnenschutzes an den Veranstaltungsräumen der Waldschänke\" gemäß Stadtbezirksförderrichtlinie",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20786",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "517234",
-      "auxiliaryFile": [
-        "521005",
-        "513642",
-        "513640",
-        "510200",
-        "510202",
-        "510203",
-        "510205"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Übertragung finanzieller Mittel an den Eigenbetrieb Sportstätten Dresden für die Durchführung einer Machbarkeitsstudie zur Erarbeitung einer Konzeption als Ersatz für die Sporthalle An der Wetterwarte",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20834",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "517232",
-      "auxiliaryFile": [
-        "522672",
-        "514140",
-        "514136",
-        "513135",
-        "513138",
-        "513143"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorlagen und Anträge zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einwendungen gegen den Entwurf der Haushaltssatzung 2021/2022 gemäß § 76 SächsGemO",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20694",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519508",
-      "auxiliaryFile": [
-        "530013",
-        "512495",
-        "511386",
-        "508090",
-        "512447",
-        "516775",
-        "517694",
-        "517695",
-        "515813",
-        "518727",
-        "520148"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20435",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519587",
-      "auxiliaryFile": [
-        "500152",
-        "500855",
-        "500856",
-        "500854",
-        "514253",
-        "509310",
-        "509311",
-        "516772",
-        "516771",
-        "516774",
-        "517688",
-        "517690",
-        "517691",
-        "518632",
-        "500859",
-        "518837",
-        "500860",
-        "516922",
-        "518905",
-        "518967",
-        "518966"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Stadtbezirksförderrichtlinie)",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20623",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "541424",
-        "504571",
-        "525165"
-      ],
-      "resolutionFile": "504428",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 9,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20557",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542623",
-      "auxiliaryFile": [
-        "502778",
-        "521485"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 9,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Stadtbezirksamtsleiters",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kleinprojektförderung des Klotzscher Verein e. V. im Rahmen der Stadtbezirksförderrichtlinie für das Projekt \"Unterstützung bei der Anschaffung von Aufhängungen für Galerieschienen\"",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20649",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "510097",
-      "auxiliaryFile": [
-        "521003",
-        "507633",
-        "507631",
-        "505116",
-        "505117"
-      ],
-      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie"
-    },
-    {
-      "name": "Kleinprojektförderung des Fördervereins der 84. Grundschule Dresden Hellerau e. V. im Rahmen der Stadtbezirksförderrichtlinie für das Projekt \"Bastelbogen: Ich bastele meine Schule\"",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20766",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "514474",
-      "auxiliaryFile": [
-        "521004",
-        "512601",
-        "512600",
-        "510253",
-        "509043"
-      ],
-      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie"
-    },
-    {
-      "name": "Umbenennung von Straßen in \"Robert-Bosch-Ring\"",
-      "number": "Ö 5.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "517065",
-        "518757",
-        "526194"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Parkplatz \"Park & Ride\" an der Grenzstraße in Dresden-Klotzsche",
-      "number": "Ö 5.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "517118",
-        "517244",
-        "528916"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/530756",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_SBR Klotzsche_2020_12_07",
+      "fileName": "00530756.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00530756.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00530756.pdf",
+      "created": "2021-03-09T09:11:43+01:00",
+      "modified": "2021-03-09T09:12:00+01:00"
     }
   ],
-  "id": "9146"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "1",
+      "order": "1",
+      "name": "Allgemeine Informationen des Amtes für Kultur und Denkmalschutz zu denkmalschutzrechtlichen Themen im Stadtbezirk",
+      "public": true,
+      "created": "2020-11-19T05:02:39+01:00",
+      "modified": "2020-11-27T05:21:00+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140943",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "2",
+      "order": "2",
+      "name": "Vorlagen und Anträge zur Beschlussfassung durch den Stadtbezirksbeirat Klotzsche",
+      "public": true,
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140950",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "2.1",
+      "order": "3",
+      "name": "Priorisierung von örtlichen Straßenbaumaßnahmen im Stadtbezirk Klotzsche für das Jahr 2021",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46159",
+      "result": "Zustimmung",
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-09T09:23:59+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141448",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "2.2",
+      "order": "4",
+      "name": "Antrag des Bürgerzentrum Waldschänke Hellerau e. V. zur Projektförderung \"Anbringen einer Verdunklung bzw. eines Sonnenschutzes an den Veranstaltungsräumen der Waldschänke\" gemäß Stadtbezirksförderrichtlinie",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46482",
+      "result": "Zustimmung",
+      "created": "2020-11-13T08:00:10+01:00",
+      "modified": "2020-12-09T09:04:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/142015",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "2.3",
+      "order": "5",
+      "name": "Übertragung finanzieller Mittel an den Eigenbetrieb Sportstätten Dresden für die Durchführung einer Machbarkeitsstudie zur Erarbeitung einer Konzeption als Ersatz für die Sporthalle An der Wetterwarte",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46605",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-11-25T07:30:42+01:00",
+      "modified": "2020-12-09T09:12:10+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140944",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "3",
+      "order": "6",
+      "name": "Vorlagen und Anträge zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141442",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "3.1",
+      "order": "7",
+      "name": "Einwendungen gegen den Entwurf der Haushaltssatzung 2021/2022 gemäß § 76 SächsGemO",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46401",
+      "result": "zur Kenntnis genommen",
+      "created": "2020-11-13T07:57:09+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141443",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "3.2",
+      "order": "8",
+      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45728",
+      "result": "zur Kenntnis genommen",
+      "created": "2020-11-13T07:57:22+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141446",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "3.3",
+      "order": "9",
+      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Stadtbezirksförderrichtlinie)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46062",
+      "result": "Ablehnung",
+      "created": "2020-11-13T07:58:48+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140948",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "3.4",
+      "order": "10",
+      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45845",
+      "result": "Ablehnung",
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140945",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "4",
+      "order": "11",
+      "name": "Informationen des Stadtbezirksamtsleiters",
+      "public": true,
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140946",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "5",
+      "order": "12",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140949",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "5.1",
+      "order": "13",
+      "name": "Kleinprojektförderung des Klotzscher Verein e. V. im Rahmen der Stadtbezirksförderrichtlinie für das Projekt \"Unterstützung bei der Anschaffung von Aufhängungen für Galerieschienen\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46133",
+      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie",
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-09T09:00:49+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140951",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "5.2",
+      "order": "14",
+      "name": "Kleinprojektförderung des Fördervereins der 84. Grundschule Dresden Hellerau e. V. im Rahmen der Stadtbezirksförderrichtlinie für das Projekt \"Bastelbogen: Ich bastele meine Schule\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46449",
+      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie",
+      "created": "2020-11-04T09:52:56+01:00",
+      "modified": "2020-12-09T09:02:33+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/142604",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "5.3",
+      "order": "15",
+      "name": "Umbenennung von Straßen in \"Robert-Bosch-Ring\"",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2020-12-08T09:11:41+01:00",
+      "modified": "2020-12-08T09:50:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/142605",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9146",
+      "number": "5.4",
+      "order": "16",
+      "name": "Parkplatz \"Park & Ride\" an der Grenzstraße in Dresden-Klotzsche",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2020-12-08T09:49:53+01:00",
+      "modified": "2020-12-08T09:50:33+01:00"
+    }
+  ],
+  "created": "2019-12-18T13:00:01+01:00",
+  "modified": "2021-03-16T08:38:44+01:00"
 }

@@ -1,55 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17501",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Wahl der Mitglieder des Stiftungsrats der \"Stadtstiftung Dresdner Kreuzchor\"",
-  "shortName": "V3288/19",
   "reference": "V3288/19",
+  "date": "2019-09-04",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-22",
-  "mainFile": "436959",
   "auxiliaryFile": [
-    "429108",
-    "429132",
-    "427247"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/427247",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Stellungnahme GLB",
+      "fileName": "00427247.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00427247.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00427247.pdf",
+      "created": "2019-08-26T11:55:13+02:00",
+      "modified": "2019-10-16T13:02:37+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/429108",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00429108.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00429108.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00429108.pdf",
+      "created": "2019-09-09T11:08:47+02:00",
+      "modified": "2019-10-16T13:02:37+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/429132",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage Auszug Stiftungssatzung",
+      "fileName": "00429132.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00429132.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00429132.pdf",
+      "created": "2019-09-09T11:49:26+02:00",
+      "modified": "2019-10-16T13:02:37+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/436959",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V3288/19",
+      "fileName": "00436959.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00436959.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00436959.pdf",
+      "created": "2019-10-16T13:02:31+02:00",
+      "modified": "2019-10-16T13:02:37+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443782",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V3288_19_mU",
+      "fileName": "00443782.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443782.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443782.pdf",
+      "created": "2019-11-18T08:38:31+01:00",
+      "modified": "2019-11-18T08:38:32+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38864",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17501",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/122099",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7549",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7549",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-09-27T08:25:43+02:00",
+      "modified": "2019-11-26T12:20:18+01:00"
     }
   ],
-  "id": "17501"
+  "created": "2019-08-22T11:11:35+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

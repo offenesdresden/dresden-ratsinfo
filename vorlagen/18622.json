@@ -1,31 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18622",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Wahrnehmung der Aufgaben nach Aufgabenabgrenzungsrichtlinie; hier: Südpark - Planung Waldspielplatz",
-  "shortName": "V-Pl00014/20",
   "reference": "V-Pl00014/20",
+  "date": "2020-03-11",
   "paperType": "Vorlage STB Plauen",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-03-11",
   "auxiliaryFile": [
-    "468027",
-    "464079",
-    "464080"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/464079",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 - Lageplan",
+      "fileName": "00464079.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464079.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464079.pdf",
+      "created": "2020-03-11T13:39:52+01:00",
+      "modified": "2020-04-08T06:43:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/464080",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 - Vorentwurf Skizze Waldspielplatz",
+      "fileName": "00464080.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464080.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464080.pdf",
+      "created": "2020-03-11T13:40:16+01:00",
+      "modified": "2020-04-08T06:43:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/468027",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage V-Pl00014-20 mit Unterschrift",
+      "fileName": "00468027.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468027.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468027.pdf",
+      "created": "2020-04-08T06:42:49+02:00",
+      "modified": "2020-04-08T06:43:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/485777",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Plauen_V-Pl00014/20",
+      "fileName": "00485777.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00485777.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00485777.pdf",
+      "created": "2020-07-09T11:38:00+02:00",
+      "modified": "2020-07-09T11:38:00+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/521502",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Plauen_V-Pl00014/20_2021_01_11_Zwischenbericht",
+      "fileName": "00521502.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00521502.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00521502.pdf",
+      "created": "2021-01-13T08:46:45+01:00",
+      "modified": "2021-01-13T08:46:45+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/127"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41523",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18622",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/133759",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9165",
       "organization": [
-        {
-          "name": "05.05.2020 Stadtbezirksbeirat Plauen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/173"
       ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-06-17T06:09:05+02:00",
+      "modified": "2020-07-09T15:00:37+02:00"
     }
   ],
-  "id": "18622"
+  "created": "2020-03-11T10:57:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

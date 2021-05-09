@@ -1,120 +1,178 @@
 {
-  "shortName": "OBR Bl/046/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 19.03.2014 - 17:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "46. Sitzung des Ortsbeirates Blasewitz",
   "start": "2014-03-19T17:30:00+01:00",
   "end": "2014-03-19T21:15:00+01:00",
-  "invitation": "162568",
-  "verbatimProtocol": "166677",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/704",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/697",
+    "http://oparl.dresden.de/bodies/0001/people/699",
+    "http://oparl.dresden.de/bodies/0001/people/701",
+    "http://oparl.dresden.de/bodies/0001/people/703",
+    "http://oparl.dresden.de/bodies/0001/people/706",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/710",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/714",
+    "http://oparl.dresden.de/bodies/0001/people/717",
+    "http://oparl.dresden.de/bodies/0001/people/718",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/724",
+    "http://oparl.dresden.de/bodies/0001/people/726",
+    "http://oparl.dresden.de/bodies/0001/people/727",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/730",
+    "http://oparl.dresden.de/bodies/0001/people/721",
+    "http://oparl.dresden.de/bodies/0001/people/888"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/162568",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00162568.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-03-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00162568.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00162568.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 45. Ortsbeiratssitzung am 12.02.2014",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/162568",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00162568.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-03-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00162568.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00162568.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Historische Gaslaternengebiete: Sofortprogramm zur Instandhaltung des technischen Kulturdenkmals - Ausleuchtung und Zustand der Fußwege verbessern",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8047",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "157539",
-        "191444",
-        "196719"
-      ],
-      "resolutionFile": "176448",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2014/2015",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8054",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "176454",
-      "auxiliaryFile": [
-        "191449",
-        "181629",
-        "162009",
-        "161666",
-        "161382",
-        "157896",
-        "157897",
-        "157898",
-        "157899",
-        "157900",
-        "159023",
-        "159169",
-        "175947"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen der Ortsamtsleiterin",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Auskünfte zum Schulstandort am Bertelsdorfer Weg 2",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Hinweise und Anfragen des Ortsbeirates und der Einwohner",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/166677",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00166677.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-04-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00166677.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00166677.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3638",
-  "participant": [
-    "704",
-    "420",
-    "697",
-    "701",
-    "703",
-    "699",
-    "708",
-    "710",
-    "712",
-    "714",
-    "722",
-    "724",
-    "727",
-    "726",
-    "408",
-    "730",
-    "888",
-    "721"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51345",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 45. Ortsbeiratssitzung am 12.02.2014",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51347",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51351",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "2.1",
+      "order": "3",
+      "name": "Historische Gaslaternengebiete: Sofortprogramm zur Instandhaltung des technischen Kulturdenkmals - Ausleuchtung und Zustand der Fußwege verbessern",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15030",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51350",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "2.2",
+      "order": "4",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2014/2015",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15075",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51349",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "3",
+      "order": "5",
+      "name": "Informationen der Ortsamtsleiterin",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51354",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "3.1",
+      "order": "6",
+      "name": "Interimsschulstandort am Bertelsdorfer Weg 2",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52361",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "3.2",
+      "order": "7",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51353",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3638",
+      "number": "4",
+      "order": "8",
+      "name": "Hinweise und Anfragen des Ortsbeirates und der Einwohner",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

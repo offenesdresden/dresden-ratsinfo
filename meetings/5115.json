@@ -1,184 +1,293 @@
 {
-  "shortName": "OSR CB/027/2016",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 13.12.2016 - 18:30-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "27. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2016-12-13T18:30:00+01:00",
   "end": "2016-12-13T20:45:00+01:00",
-  "invitation": "279401",
-  "resultsProtocol": "281605",
-  "auxiliaryFile": [
-    "281609",
-    "281613",
-    "281618",
-    "281601"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
   ],
-  "verbatimProtocol": "282283",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1073",
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/1071",
+    "http://oparl.dresden.de/bodies/0001/people/1244",
+    "http://oparl.dresden.de/bodies/0001/people/1070",
+    "http://oparl.dresden.de/bodies/0001/people/1245",
+    "http://oparl.dresden.de/bodies/0001/people/1246"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/279401",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00279401.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-11-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00279401.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00279401.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/281601",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung CB0112/16",
+    "fileName": "00281601.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-12-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281601.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281601.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/279401",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00279401.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00279401.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00279401.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 8.11.2016",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/281601",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung CB0112/16",
+      "fileName": "00281601.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281601.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281601.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwohnerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/281605",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung CB0108/16",
+      "fileName": "00281605.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281605.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281605.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung der Maßnahme am Pumpwerk \"Winkelwiesen\" durch die Stadtentwässerung Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/281609",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung CB0109/16",
+      "fileName": "00281609.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281609.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281609.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12664",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293251",
-      "auxiliaryFile": [
-        "293716",
-        "309032",
-        "356861",
-        "406008",
-        "500924",
-        "273919",
-        "273804",
-        "265662",
-        "265663",
-        "260552",
-        "261625",
-        "288956",
-        "286704",
-        "290087",
-        "289759"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/281613",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung CB0110/16",
+      "fileName": "00281613.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281613.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281613.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Breitbandausbau in den Dresdner Ortschaften",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/281618",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung CB0111/16",
+      "fileName": "00281618.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281618.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281618.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Stellungnahme zur Erweiterung des Angebotes im Kinder- und Jugendhaus \"Alte Feuerwehr\" Cossebaude gGmbH",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für Jahrgangsbaum 2015",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für Verfügungsfonds Ortsvorsteher Cossebaude 2016",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel zur Unterhaltung der Straßen und Wege in Cossebaude",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
-      "number": "Ö 11.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13017",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293717",
-      "auxiliaryFile": [
-        "306563",
-        "356554",
-        "424928",
-        "279629",
-        "279086",
-        "278226",
-        "277117",
-        "273800",
-        "275160",
-        "286708",
-        "289760"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/282283",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00282283.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282283.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282283.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5115",
-  "participant": [
-    "1073",
-    "309",
-    "308",
-    "310",
-    "1071",
-    "1244",
-    "307",
-    "1070",
-    "1245",
-    "1246"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85510",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85511",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 8.11.2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85512",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "3",
+      "order": "3",
+      "name": "Einwohnerfragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85515",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "4",
+      "order": "4",
+      "name": "Vorstellung der Maßnahme am Pumpwerk \"Winkelwiesen\" durch die Stadtentwässerung Dresden",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85513",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "5",
+      "order": "5",
+      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25608",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "6",
+      "order": "6",
+      "name": "Breitbandausbau in den Dresdner Ortschaften",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26943",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "7",
+      "order": "7",
+      "name": "Stellungnahme zur Erweiterung des Angebotes im Kinder- und Jugendhaus \"Alte Feuerwehr\" Cossebaude gGmbH",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26938",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "8",
+      "order": "8",
+      "name": "Finanzmittel für Jahrgangsbaum 2015",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26939",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85517",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "9",
+      "order": "9",
+      "name": "Finanzmittel für Verfügungsfonds Ortsvorsteher Cossebaude 2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26940",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "10",
+      "order": "10",
+      "name": "Finanzmittel zur Unterhaltung der Straßen und Wege in Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26941",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85519",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "11",
+      "order": "11",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85912",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5115",
+      "number": "11.1",
+      "order": "12",
+      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26595",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

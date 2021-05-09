@@ -1,101 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16266",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Jahresabschluss 2017 des Eigenbetriebes Sportstätten Dresden",
-  "shortName": "V2851/18",
   "reference": "V2851/18",
+  "date": "2019-01-16",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-12-27",
   "auxiliaryFile": [
-    "391922",
-    "391577",
-    "387328"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/387328",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V1958_17",
+      "fileName": "00387328.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00387328.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00387328.pdf",
+      "created": "2018-12-27T11:01:33+01:00",
+      "modified": "2019-01-29T13:24:12+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/391577",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00391577.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00391577.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00391577.pdf",
+      "created": "2019-01-28T15:35:45+01:00",
+      "modified": "2019-01-29T13:24:12+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/391922",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V2851/18 - ohne Anlagen",
+      "fileName": "00391922.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00391922.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00391922.pdf",
+      "created": "2019-01-29T13:24:10+01:00",
+      "modified": "2019-01-29T13:24:12+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/405933",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_SP_V2851/18_ff",
+      "fileName": "00405933.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00405933.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00405933.pdf",
+      "created": "2019-04-09T10:49:52+02:00",
+      "modified": "2019-04-09T10:49:53+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/407295",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V2851/18",
+      "fileName": "00407295.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00407295.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00407295.pdf",
+      "created": "2019-04-16T12:54:44+02:00",
+      "modified": "2019-04-16T12:54:46+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35775",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16266",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/114911",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7543",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Sport (Eigenbetrieb Sportstätten)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "1. Lesung     (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Finanzen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Sport (Eigenbetrieb Sportstätten)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-03-15T08:08:58+01:00",
+      "modified": "2019-04-11T16:59:04+02:00"
     }
   ],
-  "id": "16266"
+  "created": "2018-12-27T09:05:08+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

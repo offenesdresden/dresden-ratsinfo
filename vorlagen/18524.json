@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18524",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzzuschuss an Grundschule Cossebaude zum Einbau einer Verschattungsanlage am Gebäude der Grundschule Cossebaude",
-  "shortName": "A-CB0032/20",
   "reference": "A-CB0032/20",
+  "date": "2020-02-27",
   "paperType": "Antrag Ortschaft Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-02-27",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/461235",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Cossebaude",
+    "fileName": "00461235.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461235.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461235.pdf",
+    "created": "2020-02-27T08:28:32+01:00",
+    "modified": "2020-03-02T12:41:26+01:00"
+  },
   "auxiliaryFile": [
-    "461235",
-    "461804"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/461804",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag von GS CB zu A-CB0032/20",
+      "fileName": "00461804.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461804.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461804.pdf",
+      "created": "2020-03-02T12:40:59+01:00",
+      "modified": "2020-03-02T12:41:26+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/464539",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_ORS Cossebaude_A-CB0032/20",
+      "fileName": "00464539.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464539.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464539.pdf",
+      "created": "2020-03-12T16:08:57+01:00",
+      "modified": "2020-03-26T13:53:35+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9083",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41203",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18524",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/128423",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9083",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-02-27T09:01:35+01:00",
+      "modified": "2020-03-26T15:43:18+01:00"
     }
   ],
-  "id": "18524"
+  "created": "2020-02-27T08:25:33+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

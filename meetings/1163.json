@@ -1,41 +1,95 @@
 {
-  "shortName": "S/015/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Altstadt, 1. Etage, Raum 100,Theaterstraße 11, 01067 Dresden",
-  "name": "Seniorenbeirat - 29.08.2011 - 09:00-12:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "6"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1163",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Seniorenbeirates",
   "start": "2011-08-29T09:00:00+02:00",
   "end": "2011-08-29T12:20:00+02:00",
-  "invitation": "70721",
-  "auxiliaryFile": [
-    "70921"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1769",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Theaterstraße 11",
+    "room": "Ortsamt Altstadt, Raum 100",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:26+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/6"
   ],
-  "agendaItem": [
-
-  ],
-  "id": "1163",
   "participant": [
-    "87",
-    "402",
-    "403",
-    "404",
-    "405",
-    "166",
-    "406",
-    "407",
-    "276",
-    "408",
-    "411",
-    "420",
-    "414",
-    "419",
-    "413",
-    "415",
-    "418",
-    "416",
-    "417",
-    "970"
-  ]
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/403",
+    "http://oparl.dresden.de/bodies/0001/people/404",
+    "http://oparl.dresden.de/bodies/0001/people/405",
+    "http://oparl.dresden.de/bodies/0001/people/166",
+    "http://oparl.dresden.de/bodies/0001/people/406",
+    "http://oparl.dresden.de/bodies/0001/people/407",
+    "http://oparl.dresden.de/bodies/0001/people/276",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/411",
+    "http://oparl.dresden.de/bodies/0001/people/413",
+    "http://oparl.dresden.de/bodies/0001/people/414",
+    "http://oparl.dresden.de/bodies/0001/people/415",
+    "http://oparl.dresden.de/bodies/0001/people/416",
+    "http://oparl.dresden.de/bodies/0001/people/417",
+    "http://oparl.dresden.de/bodies/0001/people/418",
+    "http://oparl.dresden.de/bodies/0001/people/419",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/970"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/70721",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SenBR_2011_08_29",
+    "fileName": "00070721.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-08-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00070721.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00070721.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/70921",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_SenBR_2011_08_29",
+    "fileName": "00070921.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-08-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00070921.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00070921.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/70721",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SenBR_2011_08_29",
+      "fileName": "00070721.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00070721.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00070721.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/70921",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_SenBR_2011_08_29",
+      "fileName": "00070921.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00070921.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00070921.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

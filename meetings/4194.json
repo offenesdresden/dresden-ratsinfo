@@ -1,43 +1,116 @@
 {
-  "shortName": "AV/IT/002/2014",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Allgemeine Verwaltung, Ordnung und Sicherheit (Eigenbetrieb IT-Dienstleistungen) - 24.11.2014 - 16:30-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "128"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4194",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ausschusses für Allgemeine Verwaltung, Ordnung und Sicherheit\r\n(Eigenbetrieb IT-Dienstleistungen)",
   "start": "2014-11-24T16:30:00+01:00",
   "end": "2014-11-24T20:00:00+01:00",
-  "invitation": "185533",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/14",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "3/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/128"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/25",
+    "http://oparl.dresden.de/bodies/0001/people/27",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/648",
+    "http://oparl.dresden.de/bodies/0001/people/1231",
+    "http://oparl.dresden.de/bodies/0001/people/716",
+    "http://oparl.dresden.de/bodies/0001/people/1234",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/1235",
+    "http://oparl.dresden.de/bodies/0001/people/438",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/640"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/185533",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AV/IT_2014_11_24",
+    "fileName": "00185533.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185533.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185533.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/187494",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_V2999/14_AV/IT",
+    "fileName": "00187494.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187494.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187494.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "187503",
-    "187494"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/185533",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AV/IT_2014_11_24",
+      "fileName": "00185533.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185533.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185533.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/187494",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V2999/14_AV/IT",
+      "fileName": "00187494.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187494.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187494.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/187503",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V2998/14_AV/IT",
+      "fileName": "00187503.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187503.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187503.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
-      "name": "Informationen/SonstigesJahresabschluss 2013 des Eigenbetrieb IT- und Organisationsdienstleistungen DresdenV3058/14zur Information",
-      "number": "N 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59205",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4194",
+      "number": "10",
+      "order": "11",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4194",
-  "participant": [
-    "25",
-    "38",
-    "298",
-    "66",
-    "27",
-    "1231",
-    "1240",
-    "648",
-    "79",
-    "716",
-    "1234",
-    "1235",
-    "722",
-    "438",
-    "46",
-    "266",
-    "640"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

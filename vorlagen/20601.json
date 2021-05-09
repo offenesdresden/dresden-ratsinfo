@@ -1,12 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/20601",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Aufstellung von Abfallbehältern in der Ortschaft Cossebaude",
-  "shortName": "V-CB0014/20",
   "reference": "V-CB0014/20",
+  "date": "2020-09-30",
   "paperType": "Vorlage OS Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/502817",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Cossebaude",
+    "fileName": "00502817.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-09-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00502817.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00502817.pdf",
+    "created": "2020-09-29T11:40:38+02:00",
+    "modified": "2020-10-01T13:03:18+02:00"
+  },
   "auxiliaryFile": [
-    "506314",
-    "502817"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/506314",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Cossebaude_V-CB0014/20",
+      "fileName": "00506314.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00506314.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00506314.pdf",
+      "created": "2020-10-16T06:47:56+02:00",
+      "modified": "2020-10-16T06:47:58+02:00"
+    }
   ],
-  "id": "20601"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/45986",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/20601",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/139228",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9209",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-09-29T12:01:01+02:00",
+      "modified": "2020-10-19T04:24:27+02:00"
+    }
+  ],
+  "created": "2020-09-29T11:40:25+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

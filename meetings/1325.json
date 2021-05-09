@@ -1,64 +1,152 @@
 {
-  "shortName": "OSR OW/024/2011",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 11.08.2011 - 18:30-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1325",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2011-08-11T18:30:00+02:00",
   "end": "2011-08-11T20:00:00+02:00",
-  "invitation": "70477",
-  "resultsProtocol": "71376",
-  "verbatimProtocol": "71401",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/352",
+    "http://oparl.dresden.de/bodies/0001/people/353"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/70477",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00070477.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-08-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00070477.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00070477.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/71376",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung",
+    "fileName": "00071376.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-08-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00071376.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00071376.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/70477",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00070477.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00070477.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00070477.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung sowie der Niederschrift der Sitzung am 15.06.2011",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/71376",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung",
+      "fileName": "00071376.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00071376.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00071376.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel für die Wiederherstellung des Wanderweges \"Bierallee\"",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für die Planung zur Gestaltung des Friedensplatz",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/71401",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00071401.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00071401.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00071401.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1325",
-  "participant": [
-    "354",
-    "352",
-    "353",
-    "351"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/21744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1325",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/21745",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1325",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung sowie der Niederschrift der Sitzung am 15.06.2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/21746",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1325",
+      "number": "3",
+      "order": "3",
+      "name": "Finanzmittel für die Wiederherstellung des Wanderweges \"Bierallee\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7208",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/21747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1325",
+      "number": "3.1",
+      "order": "4",
+      "name": "Finanzmittel für die Planung zur Gestaltung des Friedensplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7209",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/21748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1325",
+      "number": "4",
+      "order": "5",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

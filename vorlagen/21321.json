@@ -1,12 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/21321",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verfügungsfonds Ortsvorsteher 2021",
-  "shortName": "V-CB0025/21",
   "reference": "V-CB0025/21",
+  "date": "2021-03-26",
   "paperType": "Vorlage OS Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/534179",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Cossebaude",
+    "fileName": "00534179.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-03-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00534179.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00534179.pdf",
+    "created": "2021-03-23T12:37:49+01:00",
+    "modified": "2021-03-26T08:50:09+01:00"
+  },
   "auxiliaryFile": [
-    "539174",
-    "534179"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/539174",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Cossebaude_V-CB0025/21",
+      "fileName": "00539174.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00539174.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00539174.pdf",
+      "created": "2021-04-16T06:35:01+02:00",
+      "modified": "2021-04-16T17:02:33+02:00"
+    }
   ],
-  "id": "21321"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/47936",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/21321",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/147280",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10176",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2021-03-25T16:29:17+01:00",
+      "modified": "2021-04-20T14:47:33+02:00"
+    }
+  ],
+  "created": "2021-03-23T12:34:27+01:00",
+  "modified": "2021-03-26T08:50:09+01:00"
 }

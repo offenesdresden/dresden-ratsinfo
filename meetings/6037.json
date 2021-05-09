@@ -1,41 +1,112 @@
 {
-  "shortName": "OSR OW/030/2017",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 19.01.2017 - 18:30-19:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6037",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "30. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2017-01-19T18:30:00+01:00",
   "end": "2017-01-19T19:50:00+01:00",
-  "invitation": "283767",
-  "verbatimProtocol": "285405",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/1256"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/283767",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00283767.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00283767.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00283767.pdf",
+    "created": "2017-01-10T16:29:21+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/283767",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00283767.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00283767.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00283767.pdf",
+      "created": "2017-01-10T16:29:21+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 13.12.2016",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beratung zu Finanzmitteln 2017",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/285405",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00285405.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285405.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285405.pdf",
+      "created": "2017-01-24T16:45:20+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "6037",
-  "participant": [
-    "351",
-    "350",
-    "1256"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6037",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2017-01-10T13:31:24+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86562",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6037",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 13.12.2016",
+      "public": true,
+      "created": "2017-01-10T13:32:58+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6037",
+      "number": "3",
+      "order": "3",
+      "name": "Beratung zu Finanzmitteln 2017",
+      "public": true,
+      "created": "2017-01-10T13:40:00+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86564",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6037",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2017-01-10T13:40:14+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,76 +1,116 @@
 {
-  "shortName": "OSR OW/020/2011",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 07.04.2011 - 18:30-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1642",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2011-04-07T18:30:00+02:00",
   "end": "2011-04-07T19:30:00+02:00",
-  "invitation": "59858",
-  "verbatimProtocol": "60559",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/352",
+    "http://oparl.dresden.de/bodies/0001/people/353"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/59858",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00059858.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-04-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00059858.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00059858.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststelung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/59858",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00059858.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-04-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00059858.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00059858.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem regionalen Anlass an Sonntagen im Jahr 2011",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3844",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "65610",
-      "auxiliaryFile": [
-        "59609",
-        "59888"
-      ],
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 3,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem Anlass an Sonntagen im Jahr 2011",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3845",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "65652",
-      "auxiliaryFile": [
-        "59605",
-        "58743",
-        "59887"
-      ],
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 3,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Allgemeines",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/60559",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00060559.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-04-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00060559.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00060559.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1642",
-  "participant": [
-    "352",
-    "353",
-    "350"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18585",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1642",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststelung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18586",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1642",
+      "number": "2",
+      "order": "2",
+      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem regionalen Anlass an Sonntagen im Jahr 2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5993",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18587",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1642",
+      "number": "3",
+      "order": "3",
+      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem Anlass an Sonntagen im Jahr 2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/6016",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18588",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1642",
+      "number": "4",
+      "order": "4",
+      "name": "Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

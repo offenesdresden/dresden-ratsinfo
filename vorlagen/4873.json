@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/4873",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Jugendhilfeausschuss",
-  "shortName": "A0460/11",
   "reference": "A0460/11",
+  "date": "2011-09-16",
   "paperType": "Antrag SPD",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2011-09-16",
   "auxiliaryFile": [
-    "76100",
-    "74475"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/74475",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  SPD",
+      "fileName": "00074475.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-09-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074475.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074475.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/76100",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_A0460/11",
+      "fileName": "00076100.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-10-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00076100.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00076100.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/85"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1186",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/7598",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/4873",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/23123",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1186",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4873"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

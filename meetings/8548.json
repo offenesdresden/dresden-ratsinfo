@@ -1,149 +1,350 @@
 {
-  "shortName": "OSR WX/002/2019",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 16.09.2019 - 19:00-22:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2019-09-16T19:00:00+02:00",
   "end": "2019-09-16T22:15:00+02:00",
-  "invitation": "428217",
-  "auxiliaryFile": [
-    "446415",
-    "446477",
-    "456715",
-    "432032",
-    "432028",
-    "432029",
-    "432030",
-    "432031",
-    "432025",
-    "432027",
-    "451680",
-    "441973"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
   ],
-  "resultsProtocol": "432026",
-  "verbatimProtocol": "432480",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/2002",
+    "http://oparl.dresden.de/bodies/0001/people/391",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/390",
+    "http://oparl.dresden.de/bodies/0001/people/1266",
+    "http://oparl.dresden.de/bodies/0001/people/2011",
+    "http://oparl.dresden.de/bodies/0001/people/2019",
+    "http://oparl.dresden.de/bodies/0001/people/2025",
+    "http://oparl.dresden.de/bodies/0001/people/2026"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/428217",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00428217.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-09-03",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00428217.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00428217.pdf",
+    "created": "2019-09-03T12:57:10+02:00",
+    "modified": "2019-09-03T14:12:16+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Kenntnisnahme der Niederschrift der letzten Sitzung",
-      "number": "Ö 1 Nachtrag: 03.09.2019  Nummer 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/428217",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00428217.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00428217.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00428217.pdf",
+      "created": "2019-09-03T12:57:10+02:00",
+      "modified": "2019-09-03T14:12:16+02:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2 Nachtrag: 03.09.2019  Nummer 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/432025",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX008019,Abschluss Fischereipachtvertrages.o.U.",
+      "fileName": "00432025.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432025.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432025.pdf",
+      "created": "2019-09-24T08:19:38+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Abschluss eines Fischereipachtvertrag für die Teichkette",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17413",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "432045",
-      "auxiliaryFile": [
-        "432044",
-        "425075",
-        "451671",
-        "425082"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/432026",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung _Ortschaftsrat Weixdorf_V-WX008019Abschluss Fischereipachtvertrag,m.U.",
+      "fileName": "00432026.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432026.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432026.pdf",
+      "created": "2019-09-24T08:20:27+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Information zum wasserrechtlichen Plangenehmigungsverfahren GH_I 86-00193- Renaturierung LausenbachBE: Umweltamt",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/432027",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX008319,Vereinsförderung- Antrag Schwimmverein.o.U.",
+      "fileName": "00432027.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432027.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432027.pdf",
+      "created": "2019-09-24T08:21:27+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Vereinsförderung IV 2019- Antrag des Schwimmverein Weixdorf/ Antrag der SG Weixdorf auf Verlängerung",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17571",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "432051",
-      "auxiliaryFile": [
-        "432046",
-        "427977",
-        "427998",
-        "428587"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 2,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/432028",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX008319,Vereinsförderung Schwimmverein,m.U",
+      "fileName": "00432028.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432028.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432028.pdf",
+      "created": "2019-09-24T08:22:16+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Investitionspauschale des Ortschaftsrates 2019- Verfügung der Restmittel",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17574",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "432056",
-      "auxiliaryFile": [
-        "432057",
-        "428075"
-      ],
-      "result": "punktweise Abstimmung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/432029",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-wx008419,Investitionspauschale des OSR 2019-Verfügung Restmittel,o.U.",
+      "fileName": "00432029.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432029.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432029.pdf",
+      "created": "2019-09-24T08:23:08+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Prüfung des Instandsetzungsbedarfes der Staatsstraße 59- Königsbrücker Landstraße in der Ortslage Weixdorf",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17203",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "432060",
-      "auxiliaryFile": [
-        "470887",
-        "530039",
-        "530040",
-        "432058",
-        "419087",
-        "419305"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/432030",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX008419,Investitionspauschale OSR WX2019-m.U.",
+      "fileName": "00432030.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432030.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432030.pdf",
+      "created": "2019-09-24T08:23:46+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 8 Nachtrag: 03.09.2019  Nummer 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/432031",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX007019, Prüfung Instandsetzungsbedarf Königsbrücker,o.U.",
+      "fileName": "00432031.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432031.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432031.pdf",
+      "created": "2019-09-24T08:24:37+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Anfragen und Anregungen der Ortschaftsräte",
-      "number": "Ö 9 Nachtrag: 03.09.2019  Nummer 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/432032",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX007019,Prüfung Instandsetzungsbedarf Königsbr.,m.U",
+      "fileName": "00432032.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432032.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432032.pdf",
+      "created": "2019-09-24T08:25:16+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
     },
     {
-      "name": "Anfragen und Anregungen von Bürgern",
-      "number": "Ö 10 Nachtrag: 05.09.2019  Nummer 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/432480",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00432480.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432480.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432480.pdf",
+      "created": "2019-09-25T11:26:01+02:00",
+      "modified": "2019-10-14T07:17:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/441973",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag zur Niederschrift",
+      "fileName": "00441973.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00441973.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00441973.pdf",
+      "created": "2019-11-11T09:48:14+01:00",
+      "modified": "2019-11-11T09:48:15+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/446415",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anfrage aus dem Ortschaftsrat WXAlte Moritzburger Straße 2",
+      "fileName": "00446415.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446415.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446415.pdf",
+      "created": "2019-11-28T13:15:33+01:00",
+      "modified": "2019-11-28T13:15:34+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/446477",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anfrage aus dem OSR offene Badestelle",
+      "fileName": "00446477.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446477.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446477.pdf",
+      "created": "2019-11-28T15:09:49+01:00",
+      "modified": "2019-11-28T15:09:50+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/451680",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK-V-WX008019_Abschluss eines Fischereipachtvertrag für die Teichkette",
+      "fileName": "00451680.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00451680.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00451680.pdf",
+      "created": "2020-01-07T09:23:12+01:00",
+      "modified": "2020-01-07T09:23:12+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/456715",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antwort Verkehrsberuhigung Alte Moritzburger Straße 2",
+      "fileName": "00456715.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00456715.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00456715.pdf",
+      "created": "2020-02-03T09:58:54+01:00",
+      "modified": "2020-02-03T09:58:55+01:00"
     }
   ],
-  "id": "8548"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Kenntnisnahme der Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2019-09-03T12:15:37+02:00",
+      "modified": "2019-09-12T12:58:19+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120762",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
+      "public": true,
+      "created": "2019-09-03T12:31:12+02:00",
+      "modified": "2019-09-12T12:58:19+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120771",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "3",
+      "order": "3",
+      "name": "Abschluss eines Fischereipachtvertrag für die Teichkette",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38641",
+      "result": "Zustimmung",
+      "created": "2019-09-03T13:47:21+02:00",
+      "modified": "2019-09-23T08:09:06+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120772",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "4",
+      "order": "4",
+      "name": "Information zum wasserrechtlichen Plangenehmigungsverfahren GH_I 86-00193- Renaturierung Lausenbach",
+      "public": true,
+      "created": "2019-09-03T13:48:57+02:00",
+      "modified": "2019-09-12T12:58:19+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120738",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "5",
+      "order": "5",
+      "name": "Vereinsförderung IV 2019- Antrag des Schwimmverein Weixdorf/ Antrag der SG Weixdorf auf Verlängerung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38991",
+      "result": "Zustimmung",
+      "created": "2019-09-02T08:22:42+02:00",
+      "modified": "2019-09-19T15:27:00+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120899",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "6",
+      "order": "6",
+      "name": "Investitionspauschale des Ortschaftsrates 2019- Verfügung der Restmittel",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39008",
+      "result": "punktweise Abstimmung",
+      "created": "2019-09-04T11:14:46+02:00",
+      "modified": "2019-09-23T13:11:41+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119916",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "7",
+      "order": "7",
+      "name": "Prüfung des Instandsetzungsbedarfes der Staatsstraße 59- Königsbrücker Landstraße in der Ortslage Weixdorf",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38114",
+      "result": "Zustimmung",
+      "created": "2019-08-08T06:47:19+02:00",
+      "modified": "2019-09-19T15:30:44+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120763",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "8",
+      "order": "8",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2019-09-03T12:35:45+02:00",
+      "modified": "2019-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120764",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "9",
+      "order": "9",
+      "name": "Anfragen und Anregungen der Ortschaftsräte",
+      "public": true,
+      "created": "2019-09-03T12:37:20+02:00",
+      "modified": "2019-09-17T15:38:51+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120960",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8548",
+      "number": "10",
+      "order": "10",
+      "name": "Anfragen und Anregungen von Bürgern",
+      "public": true,
+      "created": "2019-09-05T10:33:16+02:00",
+      "modified": "2019-09-17T15:38:51+02:00"
+    }
+  ],
+  "created": "2019-08-01T05:27:49+02:00",
+  "modified": "2021-05-07T12:12:37+02:00"
 }

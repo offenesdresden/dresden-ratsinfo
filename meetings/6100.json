@@ -1,121 +1,266 @@
 {
-  "shortName": "OSR SB/043/2017",
-  "locality": "Landeshauptstadt Dresden, im Versammlungsraum im Bürgerhaus Schönborn, Seifersdorfer Straße 6, 01465 Schönborn",
-  "name": "Ortschaftsrat Schönborn - 18.10.2017 - 19:35-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "43. Sitzung des Ortschaftsrates Schönborn",
   "start": "2017-10-18T19:35:00+02:00",
   "end": "2017-10-18T21:45:00+02:00",
-  "invitation": "317549",
-  "resultsProtocol": "319724",
-  "auxiliaryFile": [
-    "319728",
-    "319731",
-    "319733",
-    "320531",
-    "320532",
-    "320533",
-    "321617"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
   ],
-  "verbatimProtocol": "319477",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/362",
+    "http://oparl.dresden.de/bodies/0001/people/1257",
+    "http://oparl.dresden.de/bodies/0001/people/1258"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/317549",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00317549.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-10-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317549.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317549.pdf",
+    "created": "2017-10-11T12:18:53+02:00",
+    "modified": "2017-11-08T11:54:48+01:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/319724",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0059_17_oU",
+    "fileName": "00319724.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-10-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00319724.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00319724.pdf",
+    "created": "2017-10-26T06:50:24+02:00",
+    "modified": "2017-11-02T16:24:04+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung und Anwesenheit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/317549",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00317549.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317549.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317549.pdf",
+      "created": "2017-10-11T12:18:53+02:00",
+      "modified": "2017-11-08T11:54:48+01:00"
     },
     {
-      "name": "Vorstellung Mobile Jugendarbeit Dresden-Nord/Stadtjugendring Dresden e.V.",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/319477",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00319477.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00319477.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00319477.pdf",
+      "created": "2017-10-24T15:36:59+02:00",
+      "modified": "2017-11-06T09:00:08+01:00"
     },
     {
-      "name": "Verwendung Verfügungsmittel der Ortschaft Schönborn",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/319724",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0059_17_oU",
+      "fileName": "00319724.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00319724.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00319724.pdf",
+      "created": "2017-10-26T06:50:24+02:00",
+      "modified": "2017-11-02T16:24:04+01:00"
     },
     {
-      "name": "Verwendung  Investpauschale Ortschaft Schönborn",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/319728",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0060_17_oU",
+      "fileName": "00319728.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00319728.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00319728.pdf",
+      "created": "2017-10-26T06:52:30+02:00",
+      "modified": "2017-11-02T16:24:04+01:00"
     },
     {
-      "name": "Dämmung des Giebels am städtischen Gebäude Schönborn Seifersdofer Straße 1",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14372",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "317272",
-        "399257",
-        "354255",
-        "384858"
-      ],
-      "resolutionFile": "354254",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/319731",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0061/17_oU",
+      "fileName": "00319731.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00319731.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00319731.pdf",
+      "created": "2017-10-26T06:55:29+02:00",
+      "modified": "2017-11-02T16:24:04+01:00"
     },
     {
-      "name": "Allgemeines",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/319733",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0062/17_oU",
+      "fileName": "00319733.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00319733.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00319733.pdf",
+      "created": "2017-10-26T06:56:39+02:00",
+      "modified": "2017-11-06T13:09:34+01:00"
     },
     {
-      "name": "Nachrüstung eines zweiten Urinals in der Herrentoilette des Bürgerhauses Schönborn",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/320531",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0059_17_mU",
+      "fileName": "00320531.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-11-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00320531.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00320531.pdf",
+      "created": "2017-11-02T08:33:56+01:00",
+      "modified": "2017-11-06T09:00:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/320532",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0060_17_mU",
+      "fileName": "00320532.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-11-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00320532.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00320532.pdf",
+      "created": "2017-11-02T08:34:08+01:00",
+      "modified": "2017-11-06T09:00:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/320533",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0061_17_mU",
+      "fileName": "00320533.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-11-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00320533.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00320533.pdf",
+      "created": "2017-11-02T08:34:17+01:00",
+      "modified": "2017-11-06T09:00:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/321617",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0062_17_mU",
+      "fileName": "00321617.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-11-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00321617.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00321617.pdf",
+      "created": "2017-11-08T11:53:17+01:00",
+      "modified": "2017-11-08T11:54:38+01:00"
     }
   ],
-  "id": "6100",
-  "participant": [
-    "357",
-    "362",
-    "1258",
-    "361",
-    "359",
-    "355",
-    "1257"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95098",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung und Anwesenheit",
+      "public": true,
+      "created": "2017-10-10T06:55:54+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95118",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+      "number": "2",
+      "order": "2",
+      "name": "Vorstellung Mobile Jugendarbeit Dresden-Nord/Stadtjugendring Dresden e.V.",
+      "public": true,
+      "created": "2017-10-10T09:02:33+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95119",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+      "number": "3",
+      "order": "3",
+      "name": "Verwendung Verfügungsmittel der Ortschaft Schönborn",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/29980",
+      "result": "Zustimmung",
+      "created": "2017-10-10T09:03:09+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95120",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+      "number": "4",
+      "order": "4",
+      "name": "Verwendung  Investpauschale Ortschaft Schönborn",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30068",
+      "result": "Zustimmung",
+      "created": "2017-10-10T09:07:24+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95121",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+      "number": "5",
+      "order": "5",
+      "name": "Dämmung des Giebels am städtischen Gebäude Schönborn Seifersdofer Straße 1",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30294",
+      "result": "Zustimmung",
+      "created": "2017-10-10T09:08:40+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95122",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+      "number": "6",
+      "order": "6",
+      "name": "Allgemeines",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2017-10-10T09:09:17+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6100",
+      "number": "6.1",
+      "order": "7",
+      "name": "Nachrüstung eines zweiten Urinals in der Herrentoilette des Bürgerhauses Schönborn",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30345",
+      "result": "Zustimmung",
+      "created": "2017-10-25T11:19:08+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

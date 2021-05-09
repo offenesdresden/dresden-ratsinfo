@@ -1,68 +1,114 @@
 {
-  "shortName": "OBR Neu/002/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 18.11.2014 - 17:30-18:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4420",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ortsbeirates Neustadt (Sondersitzung)",
   "start": "2014-11-18T17:30:00+01:00",
   "end": "2014-11-18T18:55:00+01:00",
-  "invitation": "185699",
-  "verbatimProtocol": "186937",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/641",
+    "http://oparl.dresden.de/bodies/0001/people/950",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/657",
+    "http://oparl.dresden.de/bodies/0001/people/1365",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/1361",
+    "http://oparl.dresden.de/bodies/0001/people/980",
+    "http://oparl.dresden.de/bodies/0001/people/1370",
+    "http://oparl.dresden.de/bodies/0001/people/1371"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/185699",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_18.11.2014",
+    "fileName": "00185699.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185699.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185699.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/185699",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_18.11.2014",
+      "fileName": "00185699.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185699.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185699.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Stadtteilverträgliche Sanierung Königsbrücker Straße",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9128",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "186383",
-        "184149",
-        "205039",
-        "214447",
-        "249962",
-        "214718",
-        "295504",
-        "184020"
-      ],
-      "resolutionFile": "191431",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 2,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/186937",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_OBR Neu_18.11.2014",
+      "fileName": "00186937.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186937.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186937.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4420",
-  "participant": [
-    "641",
-    "950",
-    "1365",
-    "653",
-    "1366",
-    "657",
-    "655",
-    "660",
-    "662",
-    "1361",
-    "980",
-    "1371",
-    "1370"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59433",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4420",
+      "number": "1",
+      "order": "1",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59434",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4420",
+      "number": "1.1",
+      "order": "2",
+      "name": "Stadtteilverträgliche Sanierung Königsbrücker Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17658",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59437",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4420",
+      "number": "2",
+      "order": "3",
+      "name": "Informationen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

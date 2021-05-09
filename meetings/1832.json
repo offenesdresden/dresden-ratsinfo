@@ -1,35 +1,109 @@
 {
-  "shortName": "ISF/029/2012",
-  "locality": "Landeshauptstadt Dresden, im Haus An der Kreuzkirche, 4. Etage, Raum 412,An der Kreuzkirche 6, 01067 Dresden",
-  "name": "Betriebsausschuss für IT-Dienstleistungen, Stadtentwässerung und Friedhofswesen - 14.11.2012 - 16:30-18:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "15"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1832",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "29. Sitzung des Betriebsausschusses für IT-Dienstleistungen, Stadtentwässerung und Friedhofswesen",
   "start": "2012-11-14T16:30:00+01:00",
   "end": "2012-11-14T18:15:00+01:00",
-  "invitation": "114371",
-  "auxiliaryFile": [
-    "115661"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1906",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "An der Kreuzkirche 6",
+    "room": "Haus An der Kreuzkirche, Raum 412",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/15"
   ],
-  "verbatimProtocol": "115675",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/25",
+    "http://oparl.dresden.de/bodies/0001/people/45",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/291",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/95",
+    "http://oparl.dresden.de/bodies/0001/people/46"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/114371",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_ISF_2012_11_14",
+    "fileName": "00114371.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-11-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00114371.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00114371.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/115661",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_V1913_12_ISF",
+    "fileName": "00115661.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-11-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00115661.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00115661.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bekanntgabe nichtöffentlicher Beschlüsse",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/114371",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_ISF_2012_11_14",
+      "fileName": "00114371.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00114371.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00114371.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/115661",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V1913_12_ISF",
+      "fileName": "00115661.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00115661.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00115661.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/115675",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_2012_11_14_ISF",
+      "fileName": "00115675.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00115675.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00115675.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1832",
-  "participant": [
-    "25",
-    "45",
-    "61",
-    "88",
-    "291",
-    "91",
-    "274",
-    "95",
-    "46"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/34848",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1832",
+      "number": "1",
+      "order": "1",
+      "name": "Bekanntgabe nichtöffentlicher Beschlüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17169",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Durchführung des Dorffestes 2019 im Ortsteil Mobschatz",
-  "shortName": "V-MB0208/19",
   "reference": "V-MB0208/19",
+  "date": "2019-06-14",
   "paperType": "Vorlage OS Mobschatz",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/417419",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Mobschatz",
+    "fileName": "00417419.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-06-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00417419.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00417419.pdf",
+    "created": "2019-06-12T17:29:10+02:00",
+    "modified": "2019-06-14T13:34:15+02:00"
+  },
   "auxiliaryFile": [
-    "417419",
-    "419990"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/419990",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Mobschatz_V-MB0208-19_mU_Durchführung Dorffest 2019",
+      "fileName": "00419990.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00419990.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00419990.pdf",
+      "created": "2019-06-24T17:30:16+02:00",
+      "modified": "2019-06-24T17:43:53+02:00"
+    }
   ],
-  "id": "17169",
-  "publishedDate": "2019-06-12",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/41"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7960",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38047",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17169",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/118787",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7960",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/45"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-06-13T08:06:32+02:00",
+      "modified": "2019-06-26T09:40:24+02:00"
     }
-  ]
+  ],
+  "created": "2019-06-12T17:19:39+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

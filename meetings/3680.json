@@ -1,132 +1,245 @@
 {
-  "shortName": "OSR AF/056/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 16.06.2014 - 20:00-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "56. Sitzung des Ortschaftsrates Altfranken",
   "start": "2014-06-16T20:00:00+02:00",
   "end": "2014-06-16T21:45:00+02:00",
-  "invitation": "171250",
-  "resultsProtocol": "173465",
-  "verbatimProtocol": "174337",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/304",
+    "http://oparl.dresden.de/bodies/0001/people/305"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/171250",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00171250.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-05-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00171250.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00171250.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/173465",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V-AF0082/14",
+    "fileName": "00173465.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-06-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00173465.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00173465.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung des Projektes Kitabau in Altfranken nach Abschluss der Vorplanung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/171250",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00171250.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00171250.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00171250.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ereignisanalyse zu den Hochwasserereignissen im Mai und Juni 2013 und zusätzliche Maßnahmen zur Verbesserung der Hochwasservorsorge",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8174",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "176459",
-      "auxiliaryFile": [
-        "194279",
-        "218662",
-        "244420",
-        "268243",
-        "290192",
-        "335976",
-        "397077",
-        "464092",
-        "168719",
-        "163137",
-        "185007",
-        "162852",
-        "162451",
-        "162452",
-        "162453",
-        "162454",
-        "160930",
-        "175946"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/173465",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0082/14",
+      "fileName": "00173465.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00173465.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00173465.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verwendung der Finanzmittel 2014 des Ortschaftsrates Altfranken",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausbau des Spielplatzes Haufes Berg zur Nutzung für verschiedene Ballspielarten",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
-    },
-    {
-      "name": "Pflege des Altfrankener Parkes für das Jahr 2014",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Pflasterung des Fußweges zwischen Halankweg und Otto-Harzer-Straße",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
-    },
-    {
-      "name": "Instandsetzung des Weges neben der Autobahn",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Grundstücksangelegenheit Haufes Berg",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Auswertung der Bürgerbefragung",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Wahlergebnis",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenschäden",
-      "number": "Ö 4.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Gesamtkonzept Radverkehr",
-      "number": "Ö 4.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/174337",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00174337.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00174337.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00174337.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3680",
-  "participant": [
-    "300",
-    "304",
-    "302",
-    "305",
-    "301"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54070",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung des Projektes Kitabau in Altfranken nach Abschluss der Vorplanung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53808",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "2",
+      "order": "2",
+      "name": "Ereignisanalyse zu den Hochwasserereignissen im Mai und Juni 2013 und zusätzliche Maßnahmen zur Verbesserung der Hochwasservorsorge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15985",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53810",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "3",
+      "order": "3",
+      "name": "Verwendung der Finanzmittel 2014 des Ortschaftsrates Altfranken",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54242",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "3.1",
+      "order": "4",
+      "name": "Ausbau des Spielplatzes Haufes Berg zur Nutzung für verschiedene Ballspielarten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16201",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "3.2",
+      "order": "5",
+      "name": "Pflege des Altfrankener Parkes für das Jahr 2014",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16203",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "3.3",
+      "order": "6",
+      "name": "Pflasterung des Fußweges zwischen Halankweg und Otto-Harzer-Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16200",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53820",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "3.4",
+      "order": "7",
+      "name": "Instandsetzung des Weges neben der Autobahn",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54071",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "4",
+      "order": "8",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/55047",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "4.1",
+      "order": "9",
+      "name": "Grundstücksangelegenheit Haufes Berg",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/55048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "4.2",
+      "order": "10",
+      "name": "Auswertung der Bürgerbefragung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/55049",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "4.3",
+      "order": "11",
+      "name": "Wahlergebnis",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/55050",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "4.4",
+      "order": "12",
+      "name": "Straßenschäden",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/55051",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3680",
+      "number": "4.5",
+      "order": "13",
+      "name": "Gesamtkonzept Radverkehr",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

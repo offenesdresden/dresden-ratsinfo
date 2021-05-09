@@ -1,92 +1,132 @@
 {
-  "shortName": "OSR WX/007/2010",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 29.03.2010 - 19:00-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/849",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "7. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2010-03-29T19:00:00+02:00",
   "end": "2010-03-29T21:15:00+02:00",
-  "invitation": "24940",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/24940",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00024940.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-03-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00024940.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00024940.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1315",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "21931",
-        "19492",
-        "19493",
-        "21538",
-        "21539",
-        "21543",
-        "21547",
-        "21548",
-        "19496",
-        "19497",
-        "20364"
-      ],
-      "resolutionFile": "19503"
-    },
-    {
-      "name": "Vorstellung Neubau Kindertageseinrichtung  Lausaer Kirchgasse",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "\"Dresdner Sortimentsliste\" zur Feinsteuerung von Einzelhandelsvorhaben",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "28",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "13303",
-        "20180",
-        "20181",
-        "20182"
-      ]
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/24940",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00024940.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00024940.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00024940.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "849",
-  "participant": [
-    "298",
-    "384",
-    "381",
-    "66",
-    "385",
-    "383",
-    "391",
-    "387",
-    "388",
-    "386",
-    "390",
-    "389"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7054",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/849",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7055",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/849",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7056",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/849",
+      "number": "3",
+      "order": "3",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2241",
+      "result": "Beschlussempfehlung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7063",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/849",
+      "number": "4",
+      "order": "4",
+      "name": "Vorstellung Neubau Kindertageseinrichtung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7058",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/849",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/849",
+      "number": "5.1",
+      "order": "6",
+      "name": "\"Dresdner Sortimentsliste\" zur Feinsteuerung von Einzelhandelsvorhaben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/82",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7059",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/849",
+      "number": "6",
+      "order": "7",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

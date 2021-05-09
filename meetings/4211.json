@@ -1,133 +1,190 @@
 {
-  "shortName": "FL/SE/001/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Cotta, großer Sitzungssaal, 2. Etage, Raum 201,Lübecker Straße 121, 01157 Dresden",
-  "name": "Ausschuss für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung) - 10.11.2014 - 16:00-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "129"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4211",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Ausschusses für Finanzen und Liegenschaften (Eigenbetrieb Stadtentwässerung)",
   "start": "2014-11-10T16:00:00+01:00",
   "end": "2014-11-10T21:30:00+01:00",
-  "invitation": "184229",
-  "auxiliaryFile": [
-    "185590",
-    "184685",
-    "185758"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1965",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Ortsamt Cotta, großer Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:48+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/129"
   ],
-  "verbatimProtocol": "186866",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/1236",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/765"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/184229",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_FL/SE_2014_11_10",
+    "fileName": "00184229.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-10-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00184229.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00184229.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/184685",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_FL/SE_2014_11_10",
+    "fileName": "00184685.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00184685.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00184685.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Überplanmäßige Mittelbereitstellung für Mehraufwendungen in Höhe von 766.817,00 EUR an den Eigenbetrieb Sportstätten Dresden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8816",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "186435",
-      "auxiliaryFile": [
-        "193708",
-        "179444",
-        "179151",
-        "180221",
-        "177672"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/184229",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_FL/SE_2014_11_10",
+      "fileName": "00184229.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-10-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00184229.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00184229.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verkauf eines Grundstücks Josef-Hegenbarth-Weg",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8832",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "186436",
-      "auxiliaryFile": [
-        "193421",
-        "179922",
-        "180220",
-        "177834"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/184685",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_FL/SE_2014_11_10",
+      "fileName": "00184685.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00184685.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00184685.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Veränderung der Planwerte 2014 des Sanierungsgebietes Pieschen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8863",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "186437",
-      "auxiliaryFile": [
-        "195914",
-        "183388",
-        "182937",
-        "181568",
-        "178318"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/185590",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "2. Nachtrag_FL/SE_2014_11_10",
+      "fileName": "00185590.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185590.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185590.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beleuchtung Kuppelhalle Neues Rathaus",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8570",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "172082",
-        "180217",
-        "186062",
-        "206312",
-        "217258"
-      ],
-      "resolutionFile": "199393",
-      "result": "Verweisung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/185758",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V0106/14_FL",
+      "fileName": "00185758.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185758.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185758.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen/Sonstiges",
-      "number": "N 26",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/186866",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00186866.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186866.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186866.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4211",
-  "participant": [
-    "26",
-    "1230",
-    "37",
-    "38",
-    "277",
-    "1240",
-    "62",
-    "64",
-    "79",
-    "58",
-    "748",
-    "35",
-    "55",
-    "1236",
-    "98",
-    "765"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/57896",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4211",
+      "number": "5",
+      "order": "5",
+      "name": "Überplanmäßige Mittelbereitstellung für Mehraufwendungen in Höhe von 766.817,00 EUR an den Eigenbetrieb Sportstätten Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17031",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/57897",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4211",
+      "number": "6",
+      "order": "6",
+      "name": "Verkauf eines Grundstücks Josef-Hegenbarth-Weg",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17032",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58023",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4211",
+      "number": "7",
+      "order": "7",
+      "name": "Veränderung der Planwerte 2014 des Sanierungsgebietes Pieschen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17038",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58658",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4211",
+      "number": "8",
+      "order": "8",
+      "name": "Beleuchtung Kuppelhalle Neues Rathaus",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17029",
+      "result": "Verweisung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/57908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4211",
+      "number": "26",
+      "order": "27",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

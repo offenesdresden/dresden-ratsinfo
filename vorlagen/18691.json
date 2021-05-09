@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18691",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-65-00340, BSZ Bau und Technik - Ersatzneubau Zweifeld-Sporthalle, Güntzstraße 3-5, 01069 Dresden, Los 45 - Heizung- und Sanitärinstallation",
-  "shortName": "V0321/20",
   "reference": "V0321/20",
+  "date": "2020-03-25",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-03-25",
   "auxiliaryFile": [
-    "468196"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/468196",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V0321/20_mU",
+      "fileName": "00468196.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468196.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468196.pdf",
+      "created": "2020-04-09T07:20:22+02:00",
+      "modified": "2020-04-09T07:20:23+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8718",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41691",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18691",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/129637",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8718",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-03-25T15:13:30+01:00",
+      "modified": "2020-04-09T09:04:13+02:00"
     }
   ],
-  "id": "18691"
+  "created": "2020-03-25T10:02:39+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

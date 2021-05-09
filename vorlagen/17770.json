@@ -1,54 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17770",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Annahme und Verwendung von eingegangenen Spenden, Schenkungen und Zuwendungen für die Organisationseinheiten in der Landeshauptstadt Dresden im II. und III. Quartal 2019",
-  "shortName": "V0042/19",
   "reference": "V0042/19",
+  "date": "2019-11-13",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-02",
   "auxiliaryFile": [
-    "444615",
-    "443843",
-    "438534"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/438534",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V2759_14_SR",
+      "fileName": "00438534.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00438534.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00438534.pdf",
+      "created": "2019-10-25T06:22:50+02:00",
+      "modified": "2019-11-19T15:59:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443843",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00443843.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443843.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443843.pdf",
+      "created": "2019-11-18T09:52:49+01:00",
+      "modified": "2019-11-19T15:59:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/444615",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0042/19 - ohne Anlagen 1 bis 9",
+      "fileName": "00444615.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00444615.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00444615.pdf",
+      "created": "2019-11-19T15:59:23+01:00",
+      "modified": "2019-11-19T15:59:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/447417",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_F_V0042/19_mU",
+      "fileName": "00447417.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00447417.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00447417.pdf",
+      "created": "2019-12-04T09:24:10+01:00",
+      "modified": "2019-12-04T09:24:11+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39775",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17770",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/124307",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7750",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/156"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7750",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-11-13T14:23:50+01:00",
+      "modified": "2019-12-04T10:33:12+01:00"
     }
   ],
-  "id": "17770"
+  "created": "2019-10-02T13:08:55+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18217",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Potenzielle Gefahrenstellen entlang des Wanderweges im Zschonergrund",
-  "shortName": "V-GP0012/19",
   "reference": "V-GP0012/19",
+  "date": "2019-12-19",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-12-16",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/450242",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Gompitz",
+    "fileName": "00450242.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-12-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00450242.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00450242.pdf",
+    "created": "2019-12-16T16:41:07+01:00",
+    "modified": "2019-12-19T14:47:06+01:00"
+  },
   "auxiliaryFile": [
-    "450242",
-    "450992"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/450992",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage_Protokoll der Begehung OR",
+      "fileName": "00450992.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00450992.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00450992.pdf",
+      "created": "2019-12-19T14:46:00+01:00",
+      "modified": "2019-12-20T06:49:15+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/519114",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Gompitz_V-GP0012/19_11.05.2020_GB7_Abschlussbericht",
+      "fileName": "00519114.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-12-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00519114.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00519114.pdf",
+      "created": "2020-12-17T17:24:04+01:00",
+      "modified": "2020-12-17T17:24:04+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9087",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40366",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18217",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/125714",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9087",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-12-16T16:52:15+01:00",
+      "modified": "2020-01-21T10:55:25+01:00"
     }
   ],
-  "id": "18217"
+  "created": "2019-12-16T16:40:55+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,53 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18741",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Eilentscheidung des Oberbürgermeisters zum Schutz der Bediensteten der Stadtverwaltung Dresden vor Infektionen durch den neuartigen Corona-Virus SARS-CoV-2 (COVID-19)",
-  "shortName": "V0336/20",
   "reference": "V0336/20",
+  "date": "2020-04-08",
   "paperType": "Infovorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-04-07",
-  "mainFile": "468858",
   "auxiliaryFile": [
-    "468405",
-    "468019"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/468019",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage Dienstanweisung Corona",
+      "fileName": "00468019.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468019.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468019.pdf",
+      "created": "2020-04-07T16:21:39+02:00",
+      "modified": "2020-04-16T09:30:29+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/468405",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00468405.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468405.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468405.pdf",
+      "created": "2020-04-14T09:56:36+02:00",
+      "modified": "2020-04-16T09:30:29+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/468858",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0336/20",
+      "fileName": "00468858.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468858.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468858.pdf",
+      "created": "2020-04-16T09:29:48+02:00",
+      "modified": "2020-04-16T09:30:34+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41823",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18741",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/130098",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8852",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
+      "authoritative": true,
       "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8852",
-      "role": "zur Information",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2020-04-08T12:48:21+02:00",
+      "modified": "2020-04-23T15:17:20+02:00"
     }
   ],
-  "id": "18741"
+  "created": "2020-04-07T15:33:33+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

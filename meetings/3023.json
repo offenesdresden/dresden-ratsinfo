@@ -1,119 +1,202 @@
 {
-  "shortName": "OSR SB/047/2013",
-  "locality": "Landeshauptstadt Dresden, im Beratungsraum im Bürgerhaus SchönbornSeifersdorfer Straße 6, 01465 Dresden OT Schönborn",
-  "name": "Ortschaftsrat Schönborn - 20.03.2013 - 19:30-22:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3023",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "47. Sitzung des Ortschaftsrates Schönborn",
   "start": "2013-03-20T19:30:00+01:00",
   "end": "2013-03-20T22:30:00+01:00",
-  "invitation": "126246",
-  "auxiliaryFile": [
-    "126988",
-    "126987",
-    "126990",
-    "126991"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
   ],
-  "resultsProtocol": "126989",
-  "verbatimProtocol": "127855",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/358",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/362"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/126246",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00126246.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-03-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126246.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126246.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/126987",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung Vorlage_Kita_Fachplan",
+    "fileName": "00126987.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-03-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126987.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126987.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2013/2014",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6639",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "132046",
-      "auxiliaryFile": [
-        "128904",
-        "150763",
-        "123261",
-        "123074",
-        "122897",
-        "120288",
-        "120287",
-        "120289",
-        "120290",
-        "120291",
-        "121572",
-        "132199"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 1,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/126246",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00126246.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126246.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126246.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Mietvertrag Einplan e. V. - Sachstandsbericht",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/126987",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Vorlage_Kita_Fachplan",
+      "fileName": "00126987.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126987.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126987.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Jugendhilfeplanung für die Leistungsbereiche \"Kinder-, Jugend- und Familienarbeit\" und \"Andere Aufgaben/Jugendgerichtshilfe\" (§§ 11 bis 14, 16 und 52 SGB VIII i. V. m. JGG) für den Zeitraum 2013 bis 2016",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6499",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "132147",
-      "auxiliaryFile": [
-        "132164",
-        "142679",
-        "119139",
-        "120460",
-        "118973",
-        "120418",
-        "114770",
-        "131655",
-        "117566",
-        "114772",
-        "118657",
-        "114781",
-        "114774",
-        "114775",
-        "114776",
-        "114777",
-        "114778",
-        "116292",
-        "116225",
-        "117734",
-        "132206"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 1,
-        "no": 0,
-        "neutral": 6,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/126988",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Vorlage_Jugendhilfeplanung",
+      "fileName": "00126988.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126988.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126988.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Diskussion zum Entwurf 2. BA Offenlegung Schönborner Dorfbach",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/126989",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Anhörung_Streitvertretung",
+      "fileName": "00126989.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126989.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126989.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Allgemeines",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/126990",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Widerspruch_Abbruch_Zwischenbau_Seifersdorfer_1",
+      "fileName": "00126990.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126990.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126990.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/126991",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Zuwendungen_Vereine",
+      "fileName": "00126991.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00126991.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00126991.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/127855",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00127855.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-04-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00127855.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00127855.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3023",
-  "participant": [
-    "357",
-    "362",
-    "358",
-    "361",
-    "359",
-    "355"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/39580",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3023",
+      "number": "1",
+      "order": "1",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2013/2014",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11866",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/39581",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3023",
+      "number": "2",
+      "order": "2",
+      "name": "Mietvertrag Einplan e. V. - Sachstandsbericht",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/39582",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3023",
+      "number": "3",
+      "order": "3",
+      "name": "Jugendhilfeplanung für die Leistungsbereiche \"Kinder-, Jugend- und Familienarbeit\" und \"Andere Aufgaben/Jugendgerichtshilfe\" (§§ 11 bis 14, 16 und 52 SGB VIII i. V. m. JGG) für den Zeitraum 2013 bis 2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12013",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/39584",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3023",
+      "number": "4",
+      "order": "4",
+      "name": "Diskussion zum Entwurf 2. BA Offenlegung Schönborner Dorfbach",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/39585",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3023",
+      "number": "5",
+      "order": "5",
+      "name": "Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

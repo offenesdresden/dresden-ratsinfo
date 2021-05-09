@@ -1,47 +1,124 @@
 {
-  "shortName": "OSR AF/029/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 13.03.2017 - 19:00-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5801",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "29. Sitzung des Ortschaftsrates Altfranken",
   "start": "2017-03-13T19:00:00+01:00",
   "end": "2017-03-13T20:30:00+01:00",
-  "invitation": "290204",
-  "verbatimProtocol": "293058",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/305",
+    "http://oparl.dresden.de/bodies/0001/people/1242"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/290204",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00290204.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-03-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00290204.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00290204.pdf",
+    "created": "2017-03-06T08:40:16+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung des Konzeptes für die Kita in Altfranken",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/290204",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00290204.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-03-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00290204.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00290204.pdf",
+      "created": "2017-03-06T08:40:16+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Information zur Ortschaftsverfassung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Absprache zur Aktion Sauberes Altfanken",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bürgerhinweise",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/293058",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00293058.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-03-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00293058.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00293058.pdf",
+      "created": "2017-03-23T10:21:02+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5801",
-  "participant": [
-    "300",
-    "1242",
-    "302",
-    "305"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88040",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5801",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung des Konzeptes für die Kita in Altfranken",
+      "public": true,
+      "created": "2017-02-23T08:10:12+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88041",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5801",
+      "number": "2",
+      "order": "2",
+      "name": "Information zur Ortschaftsverfassung",
+      "public": true,
+      "created": "2017-02-23T08:10:12+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88043",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5801",
+      "number": "3",
+      "order": "3",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2017-02-23T08:10:13+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88586",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5801",
+      "number": "3.1",
+      "order": "4",
+      "name": "Absprache zur Aktion Sauberes Altfanken",
+      "public": true,
+      "created": "2017-03-14T11:21:12+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88587",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5801",
+      "number": "3.2",
+      "order": "5",
+      "name": "Bürgerhinweise",
+      "public": true,
+      "created": "2017-03-14T11:22:25+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

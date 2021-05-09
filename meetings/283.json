@@ -1,102 +1,238 @@
 {
-  "shortName": "OSR OW/013/2010",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Kulturraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 21.09.2010 - 18:30-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/283",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2010-09-21T18:30:00+02:00",
   "end": "2010-09-21T20:45:00+02:00",
-  "invitation": "41260",
-  "resultsProtocol": "42003",
-  "auxiliaryFile": [
-    "41967",
-    "41987",
-    "41971",
-    "41982"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
-  "verbatimProtocol": "43281",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/352",
+    "http://oparl.dresden.de/bodies/0001/people/353"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/41260",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00041260.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-09-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00041260.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00041260.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/41967",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung Finanzmittel Freundeskreis Alte Feuerwehr",
+    "fileName": "00041967.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-09-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00041967.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00041967.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/41260",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00041260.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00041260.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00041260.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung der Sitzung sowie der Niederschrift vom 25.08.2010",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/41967",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel Freundeskreis Alte Feuerwehr",
+      "fileName": "00041967.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00041967.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00041967.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/41971",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel zur Anschaffung eines Rasenmähers",
+      "fileName": "00041971.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00041971.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00041971.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel für den Freundeskreis Alte Feuerwehr Oberwartha e.V.",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/41982",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel zur Durchführung eines Weihnachtsmarktes",
+      "fileName": "00041982.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00041982.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00041982.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel zur Anschaffung eines Rasenmähers für das Grundstück Max-Schwan-Straße 4",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/41987",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel Verfügungsfonds Ortsvorsteher",
+      "fileName": "00041987.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00041987.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00041987.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel zur Durchführung eines Weihnachtsmarktes in der Ortschaft Oberwartha",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/42003",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Besetzung Schiedsstelle Cotta",
+      "fileName": "00042003.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00042003.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00042003.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel Verfügungsfonds Ortsvorsteher",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/43281",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00043281.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-10-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00043281.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00043281.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "283",
-  "participant": [
-    "354",
-    "352",
-    "353",
-    "351",
-    "350"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12555",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12556",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung der Sitzung sowie der Niederschrift vom 25.08.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12569",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "3",
+      "order": "3",
+      "name": "Finanzmittel",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12560",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "3.1",
+      "order": "4",
+      "name": "Finanzmittel für den Freundeskreis Alte Feuerwehr Oberwartha e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4473",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12570",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "3.2",
+      "order": "5",
+      "name": "Finanzmittel zur Anschaffung eines Rasenmähers für das Grundstück Max-Schwan-Straße 4",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4480",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12571",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "3.3",
+      "order": "6",
+      "name": "Finanzmittel zur Durchführung eines Weihnachtsmarktes in der Ortschaft Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4479",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "3.4",
+      "order": "7",
+      "name": "Finanzmittel Verfügungsfonds Ortsvorsteher",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4478",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12559",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/283",
+      "number": "4",
+      "order": "8",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

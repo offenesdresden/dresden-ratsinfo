@@ -1,17 +1,26 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1996",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Heinrich Raport",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Raport",
+  "givenName": "Heinrich",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9566",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1996",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/174",
       "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "174",
-      "startDate": "2019-08-21"
+      "votingRight": true,
+      "startDate": "2019-08-21",
+      "created": "2019-08-21T05:19:00+02:00",
+      "modified": "2020-05-06T13:33:54+02:00"
     }
   ],
-  "id": "1996"
+  "created": "2019-07-25T07:02:04+02:00",
+  "modified": "2021-05-06T14:10:52+02:00",
+  "web": ""
 }

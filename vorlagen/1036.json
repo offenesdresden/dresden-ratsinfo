@@ -1,102 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/1036",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beendigung des Mietvertrages Technisches Rathaus",
-  "shortName": "V0342/09",
   "reference": "V0342/09",
+  "date": "2009-12-03",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2009-11-30",
   "auxiliaryFile": [
-    "15472",
-    "15215",
-    "15147",
-    "15149",
-    "15433"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/15147",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 3 Beschluss V0263/09",
+      "fileName": "00015147.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015147.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015147.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/15149",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 Beschluss V2364-SR70-08",
+      "fileName": "00015149.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015149.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015149.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/15215",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 Vergleichsvereinbarung 01.12.2009",
+      "fileName": "00015215.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-12-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015215.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015215.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/15433",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 4 Zahlungstrom",
+      "fileName": "00015433.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-12-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015433.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015433.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/15472",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00015472.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-12-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015472.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015472.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/42"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/1795",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/1036",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/4295",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/161",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "388",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "10.12.2009 Ausschuss für Allgemeine Verwaltung, Ordnung und Sicherheit",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "384",
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "10.12.2009 Ausschuss für Finanzen und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "161",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "1036"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

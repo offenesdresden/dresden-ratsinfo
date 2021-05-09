@@ -1,58 +1,111 @@
 {
-  "shortName": "OBR Pi/001/2009",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, BürgersaalBürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 13.10.2009 - 18:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Ortsbeirates Pieschen",
   "start": "2009-10-13T18:00:00+02:00",
   "end": "2009-10-13T20:00:00+02:00",
-  "verbatimProtocol": "12174",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/694",
+    "http://oparl.dresden.de/bodies/0001/people/691",
+    "http://oparl.dresden.de/bodies/0001/people/693",
+    "http://oparl.dresden.de/bodies/0001/people/681",
+    "http://oparl.dresden.de/bodies/0001/people/683",
+    "http://oparl.dresden.de/bodies/0001/people/685",
+    "http://oparl.dresden.de/bodies/0001/people/687",
+    "http://oparl.dresden.de/bodies/0001/people/689",
+    "http://oparl.dresden.de/bodies/0001/people/679",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/670",
+    "http://oparl.dresden.de/bodies/0001/people/672",
+    "http://oparl.dresden.de/bodies/0001/people/675"
+  ],
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung der neuen Ortsbeiräte und deren Stellvertreter",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neugestaltung Alexander-Puschkin-PlatzBerichterstatter: Stadtentwicklung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neugestaltung Grünanlage Hubertusstraße zwischen Hubertus- und Rückertstraße",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungungen aus dem Ortsbeirat",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/12174",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00012174.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00012174.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00012174.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "8",
-  "participant": [
-    "298",
-    "670",
-    "672",
-    "675",
-    "402",
-    "679",
-    "681",
-    "683",
-    "685",
-    "687",
-    "689",
-    "691",
-    "693",
-    "694",
-    "696",
-    "678"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/1851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung der neuen Ortsbeiräte und deren Stellvertreter",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/2033",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8",
+      "number": "2",
+      "order": "2",
+      "name": "Neugestaltung Alexander-Puschkin-Platz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/2032",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8",
+      "number": "3",
+      "order": "3",
+      "name": "Neugestaltung Grünanlage Hubertusstraße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/1855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen des Ortsamtsleiters",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/1856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8",
+      "number": "5",
+      "order": "5",
+      "name": "Anfragen und Anregungungen aus dem Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

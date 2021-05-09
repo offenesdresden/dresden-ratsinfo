@@ -1,49 +1,70 @@
 {
-  "shortName": "K/028/2011",
-  "locality": "im Beratungsraum WTC, Freiberger Straße 33, 01067 Dresden,Treffpunkt Haupteingang Bibliothek",
-  "name": "Ausschuss für Kultur - 17.05.2011 - 16:00-19:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "14"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1110",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "28. Sitzung des Ausschusses für Kultur",
   "start": "2011-05-17T16:00:00+02:00",
   "end": "2011-05-17T19:00:00+02:00",
-  "invitation": "62767",
-  "agendaItem": [
+  "location": {
+    "description": "im Beratungsraum WTC, Freiberger Straße 33, 01067 Dresden,\r\nTreffpunkt Haupteingang Bibliothek"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/14"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/8",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/270",
+    "http://oparl.dresden.de/bodies/0001/people/273",
+    "http://oparl.dresden.de/bodies/0001/people/291",
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/73",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/271"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/62767",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_K_2011_05_17",
+    "fileName": "00062767.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-05-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00062767.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00062767.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Gewährung von mindestens zweijähriger institutioneller Förderung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2929",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "64012",
-      "auxiliaryFile": [
-        "43040"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/62767",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_K_2011_05_17",
+      "fileName": "00062767.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-05-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00062767.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00062767.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1110",
-  "participant": [
-    "8",
-    "273",
-    "83",
-    "291",
-    "270",
-    "287",
-    "44",
-    "284",
-    "55",
-    "73",
-    "60",
-    "271"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19293",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1110",
+      "number": "1",
+      "order": "1",
+      "name": "Gewährung von mindestens zweijähriger institutioneller Förderung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4667",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

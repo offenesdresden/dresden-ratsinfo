@@ -1,136 +1,241 @@
 {
-  "shortName": "OSR CB/001/2009",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle CossebaudeDresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 10.08.2009 - 18:30-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/29",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2009-08-10T18:30:00+02:00",
   "end": "2009-08-10T20:30:00+02:00",
-  "invitation": "3455",
-  "resultsProtocol": "4766",
-  "verbatimProtocol": "5585",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/314",
+    "http://oparl.dresden.de/bodies/0001/people/394",
+    "http://oparl.dresden.de/bodies/0001/people/313",
+    "http://oparl.dresden.de/bodies/0001/people/306",
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/311",
+    "http://oparl.dresden.de/bodies/0001/people/312"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/3455",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung",
+    "fileName": "00003455.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-07-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00003455.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00003455.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/4766",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung",
+    "fileName": "00004766.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-08-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00004766.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00004766.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Nichtannahme der Wahl eines Gewählten und Nachrücken eines Ersatzmitgliedes in den Ortschaftsrat Cossebaude für die SPD",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 2,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/3455",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung",
+      "fileName": "00003455.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-07-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00003455.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00003455.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Feststellung der Mitglieder des Ortschaftsrates und der Ersatzpersonen",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/4766",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung",
+      "fileName": "00004766.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-08-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00004766.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00004766.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verpflichtung des Ortschaftsrates gemäß §§ 19 und 37, Abs. 2 SächsGemO",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bildung eines Wahlausschusses",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Durchführung der Wahl des Ortsvorstehers und seines Stellvertreters",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "gewählt",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlussfassung zur Geschäftsordnung des Ortschaftsrates",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bestätigung der Niederschrift zur 49. öffentlichen Sitzung am 08.06.2009",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzanträge",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzzuschuss für Kulturveranstaltungen ASB Begegnungsstätte \"Am Friedensstein\" Cossebaude",
-      "number": "Ö 8.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzzuschuss für den TSV Cossebaude e.V.",
-      "number": "Ö 8.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzzuschuss für Bibliothek Cossebaude",
-      "number": "Ö 8.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/5585",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00005585.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-08-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00005585.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00005585.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "29",
-  "participant": [
-    "309",
-    "312",
-    "308",
-    "310",
-    "306",
-    "311",
-    "307",
-    "313",
-    "314",
-    "394"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/188",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "1",
+      "order": "1",
+      "name": "Nichtannahme der Wahl eines Gewählten und Nachrücken eines Ersatzmitgliedes in den Ortschaftsrat Cossebaude für die SPD",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/373",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "2",
+      "order": "2",
+      "name": "Feststellung der Mitglieder des Ortschaftsrates und der Ersatzpersonen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/190",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "3",
+      "order": "3",
+      "name": "Verpflichtung des Ortschaftsrates gemäß §§ 19 und 37, Abs. 2 SächsGemO",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "4",
+      "order": "4",
+      "name": "Bildung eines Wahlausschusses",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/192",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "5",
+      "order": "5",
+      "name": "Durchführung der Wahl des Ortsvorstehers und seines Stellvertreters",
+      "public": true,
+      "result": "gewählt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "6",
+      "order": "6",
+      "name": "Beschlussfassung zur Geschäftsordnung des Ortschaftsrates",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "7",
+      "order": "7",
+      "name": "Bestätigung der Niederschrift zur 49. öffentlichen Sitzung am 08.06.2009",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "8",
+      "order": "8",
+      "name": "Finanzanträge",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "8.1",
+      "order": "9",
+      "name": "Finanzzuschuss",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/370",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/197",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "8.2",
+      "order": "10",
+      "name": "Finanzzuschuss",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/371",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/198",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "8.3",
+      "order": "11",
+      "name": "Finanzzuschuss",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/372",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/199",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/29",
+      "number": "9",
+      "order": "12",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,90 +1,165 @@
 {
-  "shortName": "FL/037/2016",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Finanzen und Liegenschaften - 12.12.2016 - 16:00-17:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "3"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6140",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "37. Sitzung des Ausschusses für Finanzen und Liegenschaften (Sondersitzung)",
   "start": "2016-12-12T16:00:00+01:00",
   "end": "2016-12-12T17:55:00+01:00",
-  "invitation": "280022",
-  "auxiliaryFile": [
-    "280890",
-    "281269",
-    "281309",
-    "281310"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/151"
   ],
-  "verbatimProtocol": "281391",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/1239",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/652"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/280022",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_FL_2016_12_12",
+    "fileName": "00280022.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-12-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00280022.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00280022.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/280890",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag 1_FL_2016_12_12",
+    "fileName": "00280890.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-12-08",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00280890.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00280890.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Annahme und Verwendung von eingegangenen Zuwendungen für die Städtischen Bibliotheken Dresden in der Landeshauptstadt Dresden im IV. Quartal 2016",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13159",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "281421",
-      "auxiliaryFile": [
-        "288164",
-        "279329",
-        "279026",
-        "279028"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/280022",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_FL_2016_12_12",
+      "fileName": "00280022.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00280022.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00280022.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Mietverträge Spiel- und Betriebsstätten Staatsoperette Dresden und tjg.theater junge generation",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13099",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "281429",
-      "auxiliaryFile": [
-        "291199",
-        "279332",
-        "278966",
-        "276757",
-        "276760",
-        "276761",
-        "276762",
-        "278655"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/280890",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag 1_FL_2016_12_12",
+      "fileName": "00280890.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00280890.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00280890.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/281269",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag 2_FL_2016_12_12",
+      "fileName": "00281269.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281269.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281269.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/281309",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_FL_V1474/16_ff",
+      "fileName": "00281309.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281309.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281309.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/281310",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_FL_V1479/16_ff",
+      "fileName": "00281310.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281310.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281310.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/281391",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00281391.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00281391.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00281391.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "6140",
-  "participant": [
-    "26",
-    "1230",
-    "38",
-    "277",
-    "1240",
-    "64",
-    "79",
-    "274",
-    "748",
-    "35",
-    "55",
-    "1239",
-    "98",
-    "652",
-    "83",
-    "87"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85529",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6140",
+      "number": "1",
+      "order": "1",
+      "name": "Annahme und Verwendung von eingegangenen Zuwendungen für die Städtischen Bibliotheken Dresden in der Landeshauptstadt Dresden im IV. Quartal 2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26891",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85526",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6140",
+      "number": "2",
+      "order": "2",
+      "name": "Mietverträge Spiel- und Betriebsstätten Staatsoperette Dresden und tjg.theater junge generation",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26796",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

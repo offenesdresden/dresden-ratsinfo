@@ -1,237 +1,228 @@
 {
-  "shortName": "OBR Neu/025/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 15.08.2016 - 17:30-20:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "25. Sitzung des Ortsbeirates Neustadt",
   "start": "2016-08-15T17:30:00+02:00",
   "end": "2016-08-15T20:10:00+02:00",
-  "invitation": "262346",
-  "verbatimProtocol": "266594",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/641",
+    "http://oparl.dresden.de/bodies/0001/people/1111",
+    "http://oparl.dresden.de/bodies/0001/people/1372",
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/1365",
+    "http://oparl.dresden.de/bodies/0001/people/1369",
+    "http://oparl.dresden.de/bodies/0001/people/1515",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/1361",
+    "http://oparl.dresden.de/bodies/0001/people/664",
+    "http://oparl.dresden.de/bodies/0001/people/1191",
+    "http://oparl.dresden.de/bodies/0001/people/1360",
+    "http://oparl.dresden.de/bodies/0001/people/1496"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/262346",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu",
+    "fileName": "00262346.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-08-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00262346.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00262346.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 24. Ortsbeiratssitzung am 15.06.2016 (Sondersitzung)",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/262346",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu",
+      "fileName": "00262346.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00262346.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00262346.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Satzung über eine städtebauliche Sanierungsmaßnahme \"Sanierungsgebiet Dresden-Äußere Neustadt\" nach §§ 136 ff. BauGB",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12005",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "271396",
-      "auxiliaryFile": [
-        "258602",
-        "258336",
-        "256273",
-        "256192",
-        "241002",
-        "269527"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Satzung über eine städtebauliche Sanierungsmaßnahme Sanierungsgebiet \"Dresden S 3; Dresden-Hechtviertel\" nach §§ 136 ff. BauGB",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12010",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "271390",
-      "auxiliaryFile": [
-        "258610",
-        "258339",
-        "254736",
-        "256271",
-        "254735",
-        "269529"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verkauf eines Grundstückes in Dresden-Neustadt an eine Bauherrengemeinschaft",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12264",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "267441",
-      "auxiliaryFile": [
-        "275709",
-        "288168",
-        "305739",
-        "323536",
-        "359391",
-        "374514",
-        "392949",
-        "429755",
-        "465045",
-        "258041",
-        "257322",
-        "248145",
-        "248150",
-        "248141"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ergebnisse der Einwohnerversammlung vom 24. Mai 2016 zur Verordnung über die Aufhebung der Polizeiverordnung über das Verbot der Alkoholabgabe an jedermann über die Straße durch Schank- und Speisewirtschaften in der Äußeren Neustadt",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12615",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "268961",
-      "auxiliaryFile": [
-        "284161",
-        "294686",
-        "328715",
-        "343168",
-        "413486",
-        "261487",
-        "261232",
-        "261429",
-        "258863",
-        "266179"
-      ],
-      "result": "Ersetzung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Kurzfristige Maßnahmen zur Verbesserung der Fußwegsicherheit für mobilitätseingeschränkte Personen in der Innenstadt",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12470",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "254033",
-        "309848",
-        "350798",
-        "403685",
-        "468457",
-        "534929",
-        "273814"
-      ],
-      "resolutionFile": "276594",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Erweiterung des Radweg-Winterdienstes",
-      "number": "Ö 2.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12588",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "257999",
-        "288195",
-        "318424",
-        "329772",
-        "273807"
-      ],
-      "resolutionFile": "276595",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstige Informationen und Anfragen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Albertstraße - Einordnung einer ebenerdigen Querungsmöglichkeit in Höhe der Neustädter Markthalle",
-      "number": "Ö 3.2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12641",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "263677",
-        "262273",
-        "259858",
-        "259859"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/266594",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00266594.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00266594.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00266594.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5073",
-  "participant": [
-    "641",
-    "1111",
-    "1372",
-    "1365",
-    "650",
-    "653",
-    "1369",
-    "1515",
-    "655",
-    "660",
-    "662",
-    "1361",
-    "664",
-    "1496",
-    "1360",
-    "1191"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80603",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 24. Ortsbeiratssitzung am 15.06.2016 (Sondersitzung)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80605",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80609",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "2.1",
+      "order": "3",
+      "name": "Satzung über eine städtebauliche Sanierungsmaßnahme \"Sanierungsgebiet Dresden-Äußere Neustadt\" nach §§ 136 ff. BauGB",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23956",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80610",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "2.2",
+      "order": "4",
+      "name": "Satzung über eine städtebauliche Sanierungsmaßnahme Sanierungsgebiet \"Dresden S 3; Dresden-Hechtviertel\" nach §§ 136 ff. BauGB",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23971",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80611",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "2.3",
+      "order": "5",
+      "name": "Verkauf eines Grundstückes in Dresden-Neustadt an eine Bauherrengemeinschaft",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24631",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/81254",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "2.4",
+      "order": "6",
+      "name": "Ergebnisse der Einwohnerversammlung vom 24. Mai 2016 zur Verordnung über die Aufhebung der Polizeiverordnung über das Verbot der Alkoholabgabe an jedermann über die Straße durch Schank- und Speisewirtschaften in der Äußeren Neustadt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25444",
+      "result": "Ersetzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80612",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "2.5",
+      "order": "7",
+      "name": "Kurzfristige Maßnahmen zur Verbesserung der Fußwegsicherheit für mobilitätseingeschränkte Personen in der Innenstadt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25116",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/81246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "2.6",
+      "order": "8",
+      "name": "Erweiterung des Radweg-Winterdienstes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25367",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80606",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "3",
+      "order": "9",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80607",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "3.1",
+      "order": "10",
+      "name": "Aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80608",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "3.2",
+      "order": "11",
+      "name": "Sonstige Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/81875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5073",
+      "number": "3.2.1",
+      "order": "12",
+      "name": "Albertstraße - Einordnung einer ebenerdigen Querungsmöglichkeit in Höhe der Neustädter Markthalle",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25803",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

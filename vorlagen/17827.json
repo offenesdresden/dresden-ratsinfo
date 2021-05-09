@@ -1,40 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17827",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Nichtannahme des Mandates eines Stadtbezirksbeirates und Nachrücken einer Ersatzperson in den Stadtbezirksbeirat Neustadt der Landeshauptstadt Dresden - Mandat der Partei DIE LINKE. (LINKE)",
-  "shortName": "V0053/19",
   "reference": "V0053/19",
+  "date": "2019-10-15",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-10",
   "auxiliaryFile": [
-    "436607",
-    "436244",
-    "436224"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/436224",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0053_19_Anlage 2 - öffentlich",
+      "fileName": "00436224.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00436224.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00436224.pdf",
+      "created": "2019-10-15T06:34:41+02:00",
+      "modified": "2019-10-15T12:05:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/436244",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00436244.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00436244.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00436244.pdf",
+      "created": "2019-10-15T07:09:14+02:00",
+      "modified": "2019-10-15T12:05:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/436607",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0053/19 -  ohne Anlagen 1 und 3",
+      "fileName": "00436607.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00436607.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00436607.pdf",
+      "created": "2019-10-15T12:05:22+02:00",
+      "modified": "2019-10-15T12:05:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443778",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V0053_19_mU",
+      "fileName": "00443778.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443778.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443778.pdf",
+      "created": "2019-11-18T08:33:41+01:00",
+      "modified": "2019-11-18T08:33:41+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/43"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39593",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17827",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/122701",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7549",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7549",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-15T09:18:54+02:00",
+      "modified": "2019-11-26T12:20:18+01:00"
     }
   ],
-  "id": "17827"
+  "created": "2019-10-15T06:34:40+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

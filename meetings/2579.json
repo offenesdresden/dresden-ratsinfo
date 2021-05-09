@@ -1,200 +1,202 @@
 {
-  "shortName": "JHA/046/2013",
-  "locality": "Landeshauptstadt Dresden, im Stadtmuseum, Festsaal, 3. Etage,Wilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 12.09.2013 - 18:00-19:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "46. Sitzung des Jugendhilfeausschusses",
   "start": "2013-09-12T18:00:00+02:00",
   "end": "2013-09-12T19:25:00+02:00",
-  "invitation": "142095",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1727",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Wilsdruffer Straße 2",
+    "room": "Stadtmuseum, Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/270",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/1037",
+    "http://oparl.dresden.de/bodies/0001/people/73",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/435",
+    "http://oparl.dresden.de/bodies/0001/people/453",
+    "http://oparl.dresden.de/bodies/0001/people/460",
+    "http://oparl.dresden.de/bodies/0001/people/918",
+    "http://oparl.dresden.de/bodies/0001/people/1160",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/464",
+    "http://oparl.dresden.de/bodies/0001/people/466",
+    "http://oparl.dresden.de/bodies/0001/people/468",
+    "http://oparl.dresden.de/bodies/0001/people/470",
+    "http://oparl.dresden.de/bodies/0001/people/472",
+    "http://oparl.dresden.de/bodies/0001/people/474",
+    "http://oparl.dresden.de/bodies/0001/people/1060",
+    "http://oparl.dresden.de/bodies/0001/people/1079",
+    "http://oparl.dresden.de/bodies/0001/people/1090",
+    "http://oparl.dresden.de/bodies/0001/people/1119",
+    "http://oparl.dresden.de/bodies/0001/people/1142",
+    "http://oparl.dresden.de/bodies/0001/people/263",
+    "http://oparl.dresden.de/bodies/0001/people/462"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/142095",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH_2013_09_12",
+    "fileName": "00142095.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-08-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00142095.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00142095.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift vom 27.06.2013",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen/Fragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Wahl der 3 Vertreter/-innen des freien Trägers in der Steuerungsgruppe",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kommunales Handlungskonzept Bildung",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6992",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "159543",
-      "auxiliaryFile": [
-        "171210",
-        "135677",
-        "131865",
-        "135344",
-        "131245",
-        "129001"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Satzung der Landeshauptstadt Dresden über den Zuschuss zur gemeinschaftlichen Mittagsverpflegung an Schulhorten in den Schulferien (Satzung Mittagessenzuschuss während der Schulferien)",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7390",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "146380",
-      "auxiliaryFile": [
-        "141369",
-        "141189",
-        "140650",
-        "138681"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Förderung von Angeboten der Träger der freien Jugendhilfe 2014 - Konzept zur Umsetzung des § 74 SGB VIII zur Förderung der Träger der freien Jugendhilfe 2014 (Förderkonzept)",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7430",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "143653",
-      "auxiliaryFile": [
-        "143657",
-        "155649",
-        "162623",
-        "177180",
-        "236024",
-        "141954",
-        "141423",
-        "140994",
-        "140276"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Anerkennung eines Trägers der freien Jugendhilfe gemäß § 75 SGB VIII i. V. m. § 19 LJHG: ZMO - Zusammenarbeit mit Osteuropa - Regionalverband Dresden e. V.",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7431",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "143649",
-      "auxiliaryFile": [
-        "154001",
-        "141371",
-        "141190",
-        "139834",
-        "139835",
-        "139836",
-        "140277"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Gleiche Förderung von Kindern mit Behinderung in Wohnheimen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7140",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "150494",
-      "auxiliaryFile": [
-        "132355",
-        "132347"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Dresden unterstützt Rock Challenge",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7254",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "134972"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/142095",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH_2013_09_12",
+      "fileName": "00142095.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-08-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00142095.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00142095.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2579",
-  "participant": [
-    "769",
-    "270",
-    "64",
-    "58",
-    "1037",
-    "73",
-    "46",
-    "918",
-    "435",
-    "453",
-    "1160",
-    "460",
-    "1090",
-    "468",
-    "1119",
-    "470",
-    "1079",
-    "1142",
-    "474",
-    "28",
-    "1060",
-    "464",
-    "466",
-    "472",
-    "263",
-    "462"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43684",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift vom 27.06.2013",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43698",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen/Fragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44831",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "3",
+      "order": "3",
+      "name": "Wahl der 3 Vertreter/-innen des freien Trägers in der Steuerungsgruppe",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43693",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "4",
+      "order": "4",
+      "name": "Kommunales Handlungskonzept Bildung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12655",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44832",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "5",
+      "order": "5",
+      "name": "Satzung der Landeshauptstadt Dresden über den Zuschuss zur gemeinschaftlichen Mittagsverpflegung in den Schulferien (Satzung Mittagessenzuschuss während der Schulferien)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13767",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "6",
+      "order": "6",
+      "name": "Förderung von Angeboten der Träger der freien Jugendhilfe 2014 - Konzept zur Umsetzung des § 74 SGB VIII zur Förderung der Träger der freien Jugendhilfe 2014 (Förderkonzept)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13636",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44833",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "7",
+      "order": "7",
+      "name": "Anerkennung eines Trägers der freien Jugendhilfe gemäß § 75 SGB VIII i. V. m. § 19 LJHG: ZMO - Zusammenarbeit mit Osteuropa - Regionalverband Dresden e. V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13638",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43707",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "8",
+      "order": "8",
+      "name": "Gleiche Förderung von Kindern mit Behinderung in Wohnheimen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12991",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43708",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "9",
+      "order": "9",
+      "name": "Dresden unterstützt Rock Challenge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13223",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43694",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2579",
+      "number": "10",
+      "order": "10",
+      "name": "Berichte aus den Unterausschüssen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

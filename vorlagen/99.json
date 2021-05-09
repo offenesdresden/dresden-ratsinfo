@@ -1,63 +1,70 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/99",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Wahl des Aufsichtsrates der Flughafen Dresden GmbH",
-  "shortName": "V0051/09",
   "reference": "V0051/09",
+  "date": "2009-08-04",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2009-07-23",
   "auxiliaryFile": [
-    "4078",
-    "2688"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/2688",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1",
+      "fileName": "00002688.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-07-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00002688.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00002688.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/4078",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00004078.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-08-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00004078.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00004078.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/42"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/242",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/99",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/937",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/92",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/242",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/99",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/1510",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/108",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "92",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "108",
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "99"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,70 +1,151 @@
 {
-  "shortName": "K/013/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Kultur - 08.09.2015 - 16:00-18:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "14"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3966",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Ausschusses für Kultur",
   "start": "2015-09-08T16:00:00+02:00",
   "end": "2015-09-08T18:45:00+02:00",
-  "invitation": "219751",
-  "auxiliaryFile": [
-    "220160",
-    "221162"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/14"
   ],
-  "verbatimProtocol": "221302",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/8",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/1232",
+    "http://oparl.dresden.de/bodies/0001/people/1233",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/1378",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/46"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/219751",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_K_2015_09_08",
+    "fileName": "00219751.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-08-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00219751.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00219751.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/220160",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_K_2015_09_08",
+    "fileName": "00220160.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-09-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00220160.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00220160.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Förderung des Umzuges Jazzclub Tonne e. V.",
-      "number": "Ö 1 Nachtrag: 03.09.2015",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10425",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "221161",
-      "auxiliaryFile": [
-        "236848",
-        "220362",
-        "220016"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/219751",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_K_2015_09_08",
+      "fileName": "00219751.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-08-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00219751.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00219751.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen der Verwaltung",
-      "number": "N 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/220160",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_K_2015_09_08",
+      "fileName": "00220160.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00220160.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00220160.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "N 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/221162",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung V0493/15_ ff",
+      "fileName": "00221162.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00221162.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00221162.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/221302",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_K_2015_09_08",
+      "fileName": "00221302.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00221302.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00221302.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3966",
-  "participant": [
-    "8",
-    "298",
-    "290",
-    "66",
-    "83",
-    "87",
-    "271",
-    "1232",
-    "1233",
-    "44",
-    "284",
-    "1378",
-    "55",
-    "1237",
-    "46",
-    "1240"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70170",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3966",
+      "number": "1",
+      "order": "1",
+      "name": "Förderung des Umzuges Jazzclub Tonne e. V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/21256",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69739",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3966",
+      "number": "7",
+      "order": "7",
+      "name": "Informationen der Verwaltung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69740",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3966",
+      "number": "8",
+      "order": "8",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

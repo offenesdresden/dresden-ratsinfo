@@ -1,34 +1,87 @@
 {
-  "shortName": "SP/025/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Altstadt, 1. Etage, Raum 100,Theaterstraße 11, 01067 Dresden",
-  "name": "Betriebsausschuss für Sportstätten und Bäder - 29.08.2011 - 16:00-18:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "16"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1966",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "25. Sitzung des Betriebsausschusses für Sportstätten und Bäder (Sondersitzung)",
   "start": "2011-08-29T16:00:00+02:00",
   "end": "2011-08-29T18:20:00+02:00",
-  "invitation": "71550",
-  "verbatimProtocol": "74944",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1769",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Theaterstraße 11",
+    "room": "Ortsamt Altstadt, Raum 100",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:26+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/16"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/25",
+    "http://oparl.dresden.de/bodies/0001/people/67",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/282",
+    "http://oparl.dresden.de/bodies/0001/people/95",
+    "http://oparl.dresden.de/bodies/0001/people/73",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/434",
+    "http://oparl.dresden.de/bodies/0001/people/435"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/71550",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SP_2011_08_29_SoSi",
+    "fileName": "00071550.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-08-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00071550.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00071550.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Umsetzung des Beschlusses des Stadtrates V1108/11 vom 31.05.2011 (Vorlage V1187/11)",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/71550",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SP_2011_08_29_SoSi",
+      "fileName": "00071550.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00071550.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00071550.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/74944",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00074944.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-09-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074944.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074944.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1966",
-  "participant": [
-    "25",
-    "290",
-    "67",
-    "283",
-    "282",
-    "64",
-    "95",
-    "73",
-    "60",
-    "434",
-    "435"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23272",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1966",
+      "number": "1",
+      "order": "1",
+      "name": "Umsetzung des Beschlusses des Stadtrates V1108/11 vom 31.05.2011 (Vorlage V1187/11)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

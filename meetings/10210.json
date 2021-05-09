@@ -1,149 +1,217 @@
 {
-  "shortName": "OSR WX/020/2021",
-  "locality": "Landeshauptstadt Dresden, Sitzung ist coronabedingt kurzfristig abgesagt",
-  "name": "Ortschaftsrat Weixdorf - 19.04.2021 - 19:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortschaftsrates Weixdorf - ABGESAGT!",
   "start": "2021-04-19T19:00:00+02:00",
-  "invitation": "537432",
-  "agendaItem": [
+  "end": "2021-04-19T00:00:00+02:00",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/537432",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00537432.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-04-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00537432.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00537432.pdf",
+    "created": "2021-04-12T05:55:23+02:00",
+    "modified": "2021-04-12T09:04:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Kenntnisnahme der Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bekanntgabe Umlaufbeschlüsse im März",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss im Umlaufverfahren- Spielplätze in Weixdorf-Verwendung der Restmittel/ Prüfauftrag neuer Spielplatz",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21222",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "529197",
-        "530890"
-      ]
-    },
-    {
-      "name": "Beschluss im Umlaufverfahren- Standort Geschwindigkeitsmesstafel Weixdorf",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21263",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "530908",
-        "530989"
-      ]
-    },
-    {
-      "name": "Stadtratsvorlagen/Stadtratsanträge zur Beratung",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kultur- und Nachbarschaftszentren für Dresden",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20962",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "526551",
-        "525445",
-        "520291",
-        "520290",
-        "521504",
-        "520776",
-        "521854",
-        "531775",
-        "541870",
-        "539367",
-        "531762"
-      ]
-    },
-    {
-      "name": "Biologische Vielfalt und ökologische Qualität der Dresdner Teiche und Fließgewässer sichern und verbessern",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21112",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "542619",
-        "534324",
-        "534480"
-      ]
-    },
-    {
-      "name": "Novellierung der Geschäftsordnung des Ortschaftsrates Weixdorf",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20932",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "518924",
-        "535306"
-      ]
-    },
-    {
-      "name": "Neuausschreibung der \"Weixdorfer Nachrichten\"",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21259",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "530614",
-        "530688"
-      ]
-    },
-    {
-      "name": "Förderung des Neubaues der Kita „Heideland\" aus Mitteln der lnvestpauschale",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21430",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "537307"
-      ]
-    },
-    {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen aus der Bürgerschaft",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/537432",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00537432.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00537432.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00537432.pdf",
+      "created": "2021-04-12T05:55:23+02:00",
+      "modified": "2021-04-12T09:04:47+02:00"
     }
   ],
-  "id": "10210"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146356",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Kenntnisnahme der Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2021-03-09T08:24:44+01:00",
+      "modified": "2021-04-09T09:27:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146357",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
+      "public": true,
+      "created": "2021-03-09T08:24:44+01:00",
+      "modified": "2021-04-09T09:27:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147095",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "3",
+      "order": "3",
+      "name": "Bekanntgabe Umlaufbeschlüsse im März",
+      "public": true,
+      "created": "2021-03-23T12:15:52+01:00",
+      "modified": "2021-04-09T09:27:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147096",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "3.1",
+      "order": "4",
+      "name": "Beschluss im Umlaufverfahren- Spielplätze in Weixdorf-Verwendung der Restmittel/ Prüfauftrag neuer Spielplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47694",
+      "created": "2021-03-23T12:16:38+01:00",
+      "modified": "2021-04-19T11:31:27+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147097",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "3.2",
+      "order": "5",
+      "name": "Beschluss im Umlaufverfahren- Standort Geschwindigkeitsmesstafel Weixdorf",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47805",
+      "created": "2021-03-23T12:16:48+01:00",
+      "modified": "2021-04-19T11:31:34+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147084",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "4",
+      "order": "6",
+      "name": "Stadtratsvorlagen/Stadtratsanträge zur Beratung",
+      "public": true,
+      "created": "2021-03-23T09:30:12+01:00",
+      "modified": "2021-04-09T09:27:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147080",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "4.1",
+      "order": "7",
+      "name": "Kultur- und Nachbarschaftszentren für Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46952",
+      "result": "Sitzung ausgefallen",
+      "created": "2021-03-23T09:27:49+01:00",
+      "modified": "2021-04-19T11:30:41+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147085",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "4.2",
+      "order": "8",
+      "name": "Biologische Vielfalt und ökologische Qualität der Dresdner Teiche und Fließgewässer sichern und verbessern",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47390",
+      "result": "Sitzung ausgefallen",
+      "created": "2021-03-23T09:31:30+01:00",
+      "modified": "2021-04-19T11:30:48+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147081",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "5",
+      "order": "9",
+      "name": "Novellierung der Geschäftsordnung des Ortschaftsrates Weixdorf",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47696",
+      "result": "Sitzung ausgefallen",
+      "created": "2021-03-23T09:27:58+01:00",
+      "modified": "2021-04-19T11:30:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146364",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "6",
+      "order": "10",
+      "name": "Neuausschreibung der \"Weixdorfer Nachrichten\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47787",
+      "result": "Sitzung ausgefallen",
+      "created": "2021-03-09T08:25:03+01:00",
+      "modified": "2021-04-19T11:31:03+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "7",
+      "order": "11",
+      "name": "Förderung des Neubaues der Kita „Heideland\" aus Mitteln der lnvestpauschale",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48158",
+      "result": "Sitzung ausgefallen",
+      "created": "2021-04-09T09:27:34+02:00",
+      "modified": "2021-04-19T11:31:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146360",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "8",
+      "order": "12",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2021-03-09T08:24:44+01:00",
+      "modified": "2021-04-09T09:27:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146361",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "9",
+      "order": "13",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "public": true,
+      "created": "2021-03-09T08:24:44+01:00",
+      "modified": "2021-04-09T09:27:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146362",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "number": "10",
+      "order": "14",
+      "name": "Anfragen und Anregungen aus der Bürgerschaft",
+      "public": true,
+      "created": "2021-03-09T08:24:44+01:00",
+      "modified": "2021-04-09T09:27:39+02:00"
+    }
+  ],
+  "created": "2020-11-02T12:20:14+01:00",
+  "modified": "2021-04-19T11:51:13+02:00"
 }

@@ -1,39 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16382",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung Aufsichtsrat Dresdner Bäder GmbH",
-  "shortName": "A0560/19",
   "reference": "A0560/19",
+  "date": "2019-01-25",
   "paperType": "Antrag FDP/FB",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "396365",
-    "391318"
-  ],
-  "id": "16382",
-  "publishedDate": "2019-01-25",
-  "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/391318",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  FDP/FB",
+      "fileName": "00391318.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00391318.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00391318.pdf",
+      "created": "2019-01-25T12:10:20+01:00",
+      "modified": "2019-01-29T13:20:29+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7541",
-      "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/396365",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_A0560/19",
+      "fileName": "00396365.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00396365.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00396365.pdf",
+      "created": "2019-02-22T10:42:16+01:00",
+      "modified": "2019-02-22T10:42:18+01:00"
     }
-  ]
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/96"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36148",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16382",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/112979",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7541",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2019-01-25T10:20:00+01:00",
+      "modified": "2019-02-20T06:43:40+01:00"
+    }
+  ],
+  "created": "2019-01-25T08:54:30+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

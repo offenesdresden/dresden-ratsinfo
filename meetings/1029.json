@@ -1,131 +1,179 @@
 {
-  "shortName": "SB/024/2011",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Stadtentwicklung und Bau - 12.01.2011 - 16:00-21:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "11"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1029",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "start": "2011-01-12T16:00:00+01:00",
   "end": "2011-01-12T21:10:00+01:00",
-  "invitation": "51907",
-  "resultsProtocol": "52653",
-  "auxiliaryFile": [
-    "52655",
-    "52675"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
   ],
-  "verbatimProtocol": "52842",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/29",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/716",
+    "http://oparl.dresden.de/bodies/0001/people/254",
+    "http://oparl.dresden.de/bodies/0001/people/887",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/263"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/51907",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SB",
+    "fileName": "00051907.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-01-03",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00051907.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00051907.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/52653",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V0847/10",
+    "fileName": "00052653.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-01-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00052653.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00052653.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Stellungnahme der Stadt zum Vorentwurf der Fortschreibung der Teilfortschreibung Wind des Regionalplanes Oberes Elbtal/Osterzgebirge (09/2010)",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3194",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "48728",
-        "47648",
-        "47650"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/51907",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SB",
+      "fileName": "00051907.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00051907.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00051907.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 698, Dresden-Nickern, Ansiedlung Fachmarkt für Motorradzubehörhier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\t2. Grenzen des vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3267",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "51534",
-        "49212",
-        "49213",
-        "49216"
-      ],
-      "resolutionFile": "49215",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/52653",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0847/10",
+      "fileName": "00052653.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00052653.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00052653.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6000, Dresden-Strehlen, Villa Elsa-Brändström-Straße hier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\t2. Grenzen des vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3334",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "51172",
-        "50798",
-        "50799"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/52655",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0871/10",
+      "fileName": "00052655.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00052655.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00052655.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Rahmenplan Nr. 788, \"Promenadenring\"hier:\tPromenadenring um den Altstadtkern der Dresdner Innenstadt\tHasenberg - Rathenauplatz/Schießgasse - Pirnaischen Platz -\tRingstraße - Rathausplatz\tDr.-Külz-Ring/Seestraße - Dippoldiswalder Platz -\tWallstraße/Marienstraße - Postplatz -\tOstra-Allee/Am Zwingerteich - Bernhard-von-Lindenau-Platz",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2548",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "57626",
-        "38045",
-        "38035",
-        "38039",
-        "38040",
-        "38041",
-        "38042",
-        "38043",
-        "38044",
-        "38052",
-        "38053",
-        "38054",
-        "38055",
-        "38061",
-        "38036",
-        "38037",
-        "38038"
-      ],
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/52675",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0879/10",
+      "fileName": "00052675.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00052675.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00052675.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/52842",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00052842.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00052842.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00052842.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1029",
-  "participant": [
-    "29",
-    "38",
-    "66",
-    "87",
-    "640",
-    "62",
-    "274",
-    "716",
-    "265",
-    "254",
-    "887",
-    "46",
-    "64",
-    "263"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1029",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Stellungnahme der Stadt zum Vorentwurf der Fortschreibung der Teilfortschreibung Wind des Regionalplanes Oberes Elbtal/Osterzgebirge (09/2010)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5094",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15755",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1029",
+      "number": "2",
+      "order": "2",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 698, Dresden-Nickern, Ansiedlung Fachmarkt für Motorradzubehör",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5202",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15609",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1029",
+      "number": "3",
+      "order": "3",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6000, Dresden-Strehlen, Villa Elsa-Brändström-Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5296",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15589",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1029",
+      "number": "4",
+      "order": "4",
+      "name": "Rahmenplan Nr. 788, \"Promenadenring\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4161",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

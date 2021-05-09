@@ -1,48 +1,131 @@
 {
-  "shortName": "GS/006/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Beirat Gesunde Städte - 21.09.2020 - 16:30-18:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "20"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8821",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Beirates Gesunde Städte",
   "start": "2020-09-21T16:30:00+02:00",
   "end": "2020-09-21T18:20:00+02:00",
-  "invitation": "496567",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/20"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/496567",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_GS_2020_09_21",
+    "fileName": "00496567.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-09-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00496567.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00496567.pdf",
+    "created": "2020-09-08T12:40:49+02:00",
+    "modified": "2020-09-10T09:25:56+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung und Abstimmung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung der Beratungsstelle für Menschen mit Tumorerkrankung der Landeshauptstadt Dresden - ein Fallbeispiel",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Entwicklung eines Gesundheitsbades im ehemaligen SachsenbadVorstellung Sachsenbadinitiative im Verein Pro Pieschen e. V.",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "500359"
-      ]
-    },
-    {
-      "name": "Bewegungsangebote und Maßnahmen der Bewegungsförderung in Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bericht aus dem WHO-Projekt „Gesunde Städte“",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen/Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/496567",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_GS_2020_09_21",
+      "fileName": "00496567.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00496567.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00496567.pdf",
+      "created": "2020-09-08T12:40:49+02:00",
+      "modified": "2020-09-10T09:25:56+02:00"
     }
   ],
-  "id": "8821"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137895",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8821",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung und Abstimmung der Tagesordnung",
+      "public": true,
+      "created": "2020-09-08T12:38:36+02:00",
+      "modified": "2020-09-08T12:38:36+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137896",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8821",
+      "number": "2",
+      "order": "2",
+      "name": "Vorstellung der Beratungsstelle für Menschen mit Tumorerkrankung der Landeshauptstadt Dresden - ein Fallbeispiel",
+      "public": true,
+      "created": "2020-09-08T12:38:58+02:00",
+      "modified": "2020-09-16T09:44:40+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138079",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8821",
+      "number": "3",
+      "order": "3",
+      "name": "Entwicklung eines Gesundheitsbades im ehemaligen Sachsenbad",
+      "public": true,
+      "auxiliaryFile": [
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/500359",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "Faltblatt_Konzept-Gesundheit",
+          "fileName": "00500359.pdf",
+          "mimeType": "application/pdf",
+          "date": "2020-09-22",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00500359.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00500359.pdf",
+          "created": "2020-09-22T14:19:36+02:00",
+          "modified": "2020-09-22T14:19:37+02:00"
+        }
+      ],
+      "created": "2020-09-10T08:11:55+02:00",
+      "modified": "2020-09-22T14:19:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137897",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8821",
+      "number": "4",
+      "order": "4",
+      "name": "Bewegungsangebote und Maßnahmen der Bewegungsförderung in Dresden",
+      "public": true,
+      "created": "2020-09-08T12:39:23+02:00",
+      "modified": "2020-09-16T09:45:05+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137898",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8821",
+      "number": "5",
+      "order": "5",
+      "name": "Bericht aus dem WHO-Projekt „Gesunde Städte“",
+      "public": true,
+      "created": "2020-09-08T12:39:49+02:00",
+      "modified": "2020-09-21T16:20:02+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137229",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8821",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2020-08-24T12:21:47+02:00",
+      "modified": "2020-09-10T08:11:55+02:00"
+    }
+  ],
+  "created": "2019-10-28T13:51:50+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

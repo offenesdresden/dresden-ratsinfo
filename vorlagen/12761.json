@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/12761",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2016-65-00252 Sanierung und Erweiterung Schulgebäude 39. Grundschule mit Ersatzneubau Sporthalle und Herstellung von Pausen- sowie Sportfreiflächen, Schleiermacherstraße in 01187 Dresden, Los 5 - Neu Rohbauarbeiten",
-  "shortName": "V1318/16",
   "reference": "V1318/16",
+  "date": "2016-08-16",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2016-08-08",
   "auxiliaryFile": [
-    "267470"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/267470",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_WF_V1318_16_mU",
+      "fileName": "00267470.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00267470.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00267470.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5389",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/25930",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/12761",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/81891",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5389",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "12761"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

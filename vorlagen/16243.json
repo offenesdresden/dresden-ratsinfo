@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16243",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln - ASB Kita Reitzendorf - Busfahrten 2019",
-  "shortName": "V-SW0211/18",
   "reference": "V-SW0211/18",
+  "date": "2019-01-30",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-12-19",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/386581",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00386581.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-01-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00386581.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00386581.pdf",
+    "created": "2018-12-19T10:37:11+01:00",
+    "modified": "2019-01-30T08:58:06+01:00"
+  },
   "auxiliaryFile": [
-    "392135",
-    "386581"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/392135",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0211/18_mU",
+      "fileName": "00392135.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00392135.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00392135.pdf",
+      "created": "2019-01-30T08:58:00+01:00",
+      "modified": "2019-01-30T08:58:06+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7978",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35722",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16243",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/111861",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7978",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-12-19T10:41:57+01:00",
+      "modified": "2019-01-30T09:34:45+01:00"
     }
   ],
-  "id": "16243"
+  "created": "2018-12-19T10:33:04+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

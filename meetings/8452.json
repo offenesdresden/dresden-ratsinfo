@@ -1,150 +1,235 @@
 {
-  "shortName": "SBR Pro/003/2019",
-  "locality": "Landeshauptstadt Dresden, im Stadtbezirksamt Prohlis, Bürgersaal,Prohliser Allee 10, 01239 Dresden",
-  "name": "Stadtbezirksbeirat Prohlis - 04.11.2019 - 17:00-18:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "174"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "3. Sitzung des Stadtbezirksbeirates Prohlis",
   "start": "2019-11-04T17:00:00+01:00",
   "end": "2019-11-04T18:20:00+01:00",
-  "invitation": "437481",
-  "auxiliaryFile": [
-    "438535"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3255",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Prohliser Allee 10",
+    "room": "Stadtbezirksamt Prohlis, Bürgersaal",
+    "postalCode": "01219",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-06T09:00:59+02:00",
+    "modified": "2018-09-06T09:00:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/174"
   ],
-  "verbatimProtocol": "441972",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/2035",
+    "http://oparl.dresden.de/bodies/0001/people/2043",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/533",
+    "http://oparl.dresden.de/bodies/0001/people/1152",
+    "http://oparl.dresden.de/bodies/0001/people/1397",
+    "http://oparl.dresden.de/bodies/0001/people/1387",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/1971",
+    "http://oparl.dresden.de/bodies/0001/people/1996",
+    "http://oparl.dresden.de/bodies/0001/people/542",
+    "http://oparl.dresden.de/bodies/0001/people/543",
+    "http://oparl.dresden.de/bodies/0001/people/1826",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/2038",
+    "http://oparl.dresden.de/bodies/0001/people/557",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/73"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/437481",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_oU_SBR Pro_2019_11_04",
+    "fileName": "00437481.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00437481.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00437481.pdf",
+    "created": "2019-10-21T10:11:14+02:00",
+    "modified": "2019-10-25T06:33:24+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellung der Beschlussfähigkeit, Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/437481",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_oU_SBR Pro_2019_11_04",
+      "fileName": "00437481.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00437481.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00437481.pdf",
+      "created": "2019-10-21T10:11:14+02:00",
+      "modified": "2019-10-25T06:33:24+02:00"
     },
     {
-      "name": "Bestätigung der Niederschrift zur 2. Sitzung des Stadtbezirksbeirates am 07.10.2019",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/438535",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Pro_2019_11_04",
+      "fileName": "00438535.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00438535.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00438535.pdf",
+      "created": "2019-10-25T06:27:31+02:00",
+      "modified": "2019-12-03T16:17:10+01:00"
     },
     {
-      "name": "Vorlagen des Stadtbezirksamtes",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Erneuerung der Küchengeräte in der Außenstelle des Umweltzentrums Dresden \"Alte Ziegelei\"",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17884",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "441099",
-      "auxiliaryFile": [
-        "455227",
-        "438477",
-        "438460",
-        "438441"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Anschaffung eines Lastenrades für Strehlen",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17885",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "441101",
-      "auxiliaryFile": [
-        "448680",
-        "438478",
-        "438467",
-        "438468",
-        "438268"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 7,
-        "no": 11,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Abschluss 3. Nachtrag zum langfristigen Mietvertrag zwischen der Landeshauptstadt Dresden (Eigenbetrieb Sportstätten Dresden) und der Sportgemeinschaft Gebergrund Goppeln e. V. zur Überlassung der Sportanlage Wittgensdorfer Straße 30",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17333",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "443820",
-      "auxiliaryFile": [
-        "462020",
-        "427919",
-        "427419",
-        "426229",
-        "426230",
-        "426231",
-        "423214",
-        "423213"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Hinweise und Anfragen der Stadtbezirksbeiräte",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Stadtbezirksamtsleiters/Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bekanntgabe der V-Pro0031/19 - Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Generationengarten im Kleingärtnerverein \"Leubnitzer Höhe\"e.V.",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bekanntgabe der V-Pro0032/19 - Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Halloweenfest am Pusteblumenbrunnen (Kleinprojekt)",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neugestaltung des Bahnhofvorplatzes NiedersedlitzDie Stadtbezirksbeiräte Prohlis ersuchen den Oberbürgermeister, gemäß § 2 Abs. 8 der Geschäftsordnung der Stadtbezirksbeiräte, den Beigeordneten für Stadtentwicklung, Bau, Verkehr und Liegenschaften zu beauftragen, in einer der nächstenfolgenden Stadtbezirksbeiratssitzung zur Neugestaltung des Bahnhofsvorplatzes Niedersedlitz und der geplanten Umsetzung zu berichten und für Rückfragen zur Verfügung zu stehen.",
-      "number": "Ö 5.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "440731",
-        "442185",
-        "450388"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/441972",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_SBR Prohlis_2019_11_04_oU",
+      "fileName": "00441972.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00441972.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00441972.pdf",
+      "created": "2019-11-11T09:47:05+01:00",
+      "modified": "2019-12-03T16:17:10+01:00"
     }
   ],
-  "id": "8452"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellung der Beschlussfähigkeit, Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2019-10-17T13:05:44+02:00",
+      "modified": "2019-10-17T13:07:27+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "1.1",
+      "order": "2",
+      "name": "Bestätigung der Niederschrift zur 2. Sitzung des Stadtbezirksbeirates am 07.10.2019",
+      "public": true,
+      "created": "2019-10-17T13:08:22+02:00",
+      "modified": "2019-10-24T14:00:27+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "2",
+      "order": "3",
+      "name": "Vorlagen des Stadtbezirksamtes",
+      "public": true,
+      "created": "2019-10-17T13:05:44+02:00",
+      "modified": "2019-10-24T14:00:27+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/123358",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "2.1",
+      "order": "4",
+      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Erneuerung der Küchengeräte in der Außenstelle des Umweltzentrums Dresden \"Alte Ziegelei\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39748",
+      "result": "Zustimmung",
+      "created": "2019-10-24T14:23:04+02:00",
+      "modified": "2019-11-07T09:17:44+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/123342",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "2.2",
+      "order": "5",
+      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Anschaffung eines Lastenrades für Strehlen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39749",
+      "result": "Ablehnung",
+      "created": "2019-10-24T10:51:04+02:00",
+      "modified": "2019-11-07T09:24:31+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "3",
+      "order": "8",
+      "name": "Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2019-10-17T13:05:44+02:00",
+      "modified": "2019-10-24T14:23:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "3.1",
+      "order": "9",
+      "name": "Abschluss 3. Nachtrag zum langfristigen Mietvertrag zwischen der Landeshauptstadt Dresden (Eigenbetrieb Sportstätten Dresden) und der Sportgemeinschaft Gebergrund Goppeln e. V. zur Überlassung der Sportanlage Wittgensdorfer Straße 30",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38436",
+      "result": "Zustimmung",
+      "created": "2019-10-17T13:05:45+02:00",
+      "modified": "2019-11-05T12:32:21+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "4",
+      "order": "10",
+      "name": "Hinweise und Anfragen der Stadtbezirksbeiräte",
+      "public": true,
+      "created": "2019-10-17T13:14:41+02:00",
+      "modified": "2019-10-24T14:23:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "5",
+      "order": "11",
+      "name": "Informationen des Stadtbezirksamtsleiters/Sonstiges",
+      "public": true,
+      "created": "2019-10-17T13:15:11+02:00",
+      "modified": "2019-10-24T14:23:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122919",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "5.1",
+      "order": "12",
+      "name": "Bekanntgabe der V-Pro0031/19 - Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Generationengarten im Kleingärtnerverein \"Leubnitzer Höhe\"e.V.",
+      "public": true,
+      "created": "2019-10-21T10:10:33+02:00",
+      "modified": "2019-10-24T14:23:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122918",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "5.2",
+      "order": "13",
+      "name": "Bekanntgabe der V-Pro0032/19 - Förderung von Projekten durch den Stadtbezirksbeirat Prohlis, hier: Halloweenfest am Pusteblumenbrunnen",
+      "public": true,
+      "created": "2019-10-21T10:08:59+02:00",
+      "modified": "2019-10-24T14:23:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124006",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8452",
+      "number": "5.3",
+      "order": "14",
+      "name": "Neugestaltung des Bahnhofvorplatzes Niedersedlitz",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2019-11-08T08:47:46+01:00",
+      "modified": "2019-11-08T09:14:46+01:00"
+    }
+  ],
+  "created": "2019-07-09T13:10:55+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

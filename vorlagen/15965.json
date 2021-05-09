@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15965",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Kita- Neubau F.- Wolf-Straße/ aktueller Sachstand",
-  "shortName": "V-LB0105/18",
   "reference": "V-LB0105/18",
+  "date": "2018-10-24",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-10-24",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/374354",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00374354.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-10-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00374354.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00374354.pdf",
+    "created": "2018-10-24T10:37:45+02:00",
+    "modified": "2018-10-30T13:04:54+01:00"
+  },
   "auxiliaryFile": [
-    "374354",
-    "375844"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/375844",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Langebrück_V-LB0105/18_mU",
+      "fileName": "00375844.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00375844.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00375844.pdf",
+      "created": "2018-10-30T13:06:02+01:00",
+      "modified": "2018-11-27T06:36:23+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6596",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34977",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15965",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/108510",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6596",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-10-24T10:45:20+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15965"
+  "created": "2018-10-24T10:37:28+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

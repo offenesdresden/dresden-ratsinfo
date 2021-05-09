@@ -1,71 +1,143 @@
 {
-  "shortName": "G/KH/049/2018",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 200, 1. Etage,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Gesundheit (Eigenbetrieb Städtisches Klinikum Dresden) - 20.06.2018 - 16:30-19:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "155"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6633",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "49. Sitzung des Ausschusses für Gesundheit (Eigenbetrieb Städtisches Klinikum Dresden)",
   "start": "2018-06-20T16:30:00+02:00",
   "end": "2018-06-20T19:10:00+02:00",
-  "invitation": "351790",
-  "auxiliaryFile": [
-    "354659",
-    "354657"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/2922",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/200",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/155"
   ],
-  "verbatimProtocol": "361407",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/1648",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/1641",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/629",
+    "http://oparl.dresden.de/bodies/0001/people/1075",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/1092",
+    "http://oparl.dresden.de/bodies/0001/people/1315",
+    "http://oparl.dresden.de/bodies/0001/people/1656",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/1658"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/351790",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_G/KH",
+    "fileName": "00351790.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-06-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00351790.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00351790.pdf",
+    "created": "2018-06-06T09:15:43+02:00",
+    "modified": "2018-06-06T11:31:02+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/354657",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_GKH_A0434/18_ff",
+    "fileName": "00354657.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-06-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00354657.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00354657.pdf",
+    "created": "2018-06-21T05:58:35+02:00",
+    "modified": "2018-08-24T09:05:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Städtisches Klinikum",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/351790",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_G/KH",
+      "fileName": "00351790.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-06-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00351790.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00351790.pdf",
+      "created": "2018-06-06T09:15:43+02:00",
+      "modified": "2018-06-06T11:31:02+02:00"
     },
     {
-      "name": "Geschäftsordnung der Eigenbetriebsleitung des Eigenbetriebes Städtisches Klinikum Dresden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15055",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "355233",
-      "auxiliaryFile": [
-        "371769",
-        "347289",
-        "346475",
-        "343495",
-        "340267",
-        "340268"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/354657",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_GKH_A0434/18_ff",
+      "fileName": "00354657.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-06-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00354657.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00354657.pdf",
+      "created": "2018-06-21T05:58:35+02:00",
+      "modified": "2018-08-24T09:05:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/354659",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_GKH_A0402/18_ff",
+      "fileName": "00354659.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-06-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00354659.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00354659.pdf",
+      "created": "2018-06-21T06:02:31+02:00",
+      "modified": "2018-08-24T09:05:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/361407",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00361407.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-08-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00361407.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00361407.pdf",
+      "created": "2018-08-13T09:34:25+02:00",
+      "modified": "2018-09-03T08:02:45+02:00"
     }
   ],
-  "id": "6633",
-  "participant": [
-    "62",
-    "1241",
-    "78",
-    "88",
-    "1648",
-    "1641",
-    "577",
-    "79",
-    "629",
-    "284",
-    "1075",
-    "51",
-    "1315",
-    "1092",
-    "1656",
-    "35",
-    "1237",
-    "64",
-    "1658"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/103644",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6633",
+      "number": "",
+      "order": "1",
+      "name": "Städtisches Klinikum",
+      "public": true,
+      "created": "2018-06-04T08:02:59+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/103635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6633",
+      "number": "1",
+      "order": "2",
+      "name": "Geschäftsordnung der Eigenbetriebsleitung des Eigenbetriebes Städtisches Klinikum Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32202",
+      "result": "Zustimmung",
+      "created": "2018-06-04T07:57:19+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2017-08-16T15:43:45+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

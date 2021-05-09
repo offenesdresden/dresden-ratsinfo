@@ -1,190 +1,294 @@
 {
-  "shortName": "AB/030/2019",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 200, 1. Etage,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Integrations- und Ausländerbeirat - 23.01.2019 - 17:00-20:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "148"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "30. Sitzung des Integrations- und Ausländerbeirates",
   "start": "2019-01-23T17:00:00+01:00",
   "end": "2019-01-23T20:25:00+01:00",
-  "invitation": "388528",
-  "verbatimProtocol": "393468",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/2922",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/200",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/148"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1276",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/282",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/421",
+    "http://oparl.dresden.de/bodies/0001/people/424",
+    "http://oparl.dresden.de/bodies/0001/people/429",
+    "http://oparl.dresden.de/bodies/0001/people/1272",
+    "http://oparl.dresden.de/bodies/0001/people/1275",
+    "http://oparl.dresden.de/bodies/0001/people/1277",
+    "http://oparl.dresden.de/bodies/0001/people/1278"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/388528",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB_2019_01_23",
+    "fileName": "00388528.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-01-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00388528.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00388528.pdf",
+    "created": "2019-01-09T12:51:13+01:00",
+    "modified": "2019-01-09T13:20:42+01:00"
+  },
   "auxiliaryFile": [
-    "372397"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/372397",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "AW_ Antwort_ AW_ Anerkennungspraxis ausländischer Abschlüsse",
+      "fileName": "00372397.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00372397.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00372397.pdf",
+      "created": "2018-10-11T13:23:27+02:00",
+      "modified": "2019-02-20T12:18:52+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/388528",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB_2019_01_23",
+      "fileName": "00388528.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00388528.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00388528.pdf",
+      "created": "2019-01-09T12:51:13+01:00",
+      "modified": "2019-01-09T13:20:42+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/393468",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_AB_2019_01_23",
+      "fileName": "00393468.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393468.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393468.pdf",
+      "created": "2019-02-05T16:01:30+01:00",
+      "modified": "2019-02-20T12:18:52+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110986",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "1",
+      "order": "1",
       "name": "Fördermöglichkeiten des Jobcenters 2019, insbesondere mit dem neuen Teilhabechancengesetz",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "auxiliaryFile": [
-        "393131",
-        "390212"
-      ]
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/390212",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "Präsentation_Jobcenter",
+          "fileName": "00390212.pdf",
+          "mimeType": "application/pdf",
+          "date": "2019-01-21",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00390212.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00390212.pdf",
+          "created": "2019-01-21T10:52:24+01:00",
+          "modified": "2019-01-23T16:11:00+01:00"
+        },
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/393131",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "Flyer_Jobcenter_Teilhabe_am_Arbeitsmarkt",
+          "fileName": "00393131.pdf",
+          "mimeType": "application/pdf",
+          "date": "2019-02-04",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393131.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393131.pdf",
+          "created": "2019-02-04T13:34:49+01:00",
+          "modified": "2019-02-04T13:34:51+01:00"
+        }
+      ],
+      "created": "2018-11-27T07:22:31+01:00",
+      "modified": "2019-02-04T13:34:54+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/108089",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "2",
+      "order": "2",
       "name": "Anerkennungspraxis ausländischer Abschlüsse",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "auxiliaryFile": [
-        "393134"
-      ]
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/393134",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "Info-Material_IBAS",
+          "fileName": "00393134.pdf",
+          "mimeType": "application/pdf",
+          "date": "2019-02-04",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393134.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393134.pdf",
+          "created": "2019-02-04T13:38:07+01:00",
+          "modified": "2019-02-04T13:38:10+01:00"
+        }
+      ],
+      "created": "2018-10-11T13:23:54+02:00",
+      "modified": "2019-02-04T13:38:12+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "3",
+      "order": "3",
       "name": "Ausbildungsmöglichkeiten und -schwierigkeiten unter Geflüchteten",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "auxiliaryFile": [
-        "393135"
-      ]
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/393135",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "Flyer_Arbeitsmarktmentoren",
+          "fileName": "00393135.pdf",
+          "mimeType": "application/pdf",
+          "date": "2019-02-04",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393135.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393135.pdf",
+          "created": "2019-02-04T13:39:14+01:00",
+          "modified": "2019-02-04T13:39:23+01:00"
+        }
+      ],
+      "created": "2018-11-20T14:44:32+01:00",
+      "modified": "2019-02-04T13:39:25+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/111478",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "4",
+      "order": "4",
       "name": "Wohnkonzept der Landeshauptstadt Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15876",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "417201",
-      "auxiliaryFile": [
-        "482556",
-        "385759",
-        "384742",
-        "389594",
-        "388547",
-        "383861",
-        "378424",
-        "378425",
-        "378426",
-        "378427",
-        "378428",
-        "378429",
-        "378430",
-        "378431",
-        "378432",
-        "378434",
-        "378435",
-        "378436",
-        "378437",
-        "380986",
-        "381338",
-        "403205",
-        "403201",
-        "403203",
-        "403204",
-        "390447",
-        "390020",
-        "412582",
-        "415969"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/35551",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-12-12T10:20:36+01:00",
+      "modified": "2019-01-24T09:03:46+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "5",
+      "order": "5",
       "name": "Förderung von Angeboten nach Fachförderrichtlinie Sozialamt vom 19. Oktober 2009 in den Haushaltsjahren 2019 und 2020",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16128",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "402473",
-      "auxiliaryFile": [
-        "424187",
-        "461603",
-        "482655",
-        "520186",
-        "388523",
-        "388374",
-        "398015",
-        "388423",
-        "388424",
-        "382559",
-        "382560",
-        "382624",
-        "382625",
-        "382626",
-        "382627",
-        "382628",
-        "382629",
-        "382630",
-        "382631",
-        "385936",
-        "398391"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/35436",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 2,
-        "no": 0,
-        "neutral": 11,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-01-07T09:20:56+01:00",
+      "modified": "2019-01-24T09:03:56+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110987",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "6",
+      "order": "6",
       "name": "Wahlen des Integrations- und Ausländerbeirates 2019",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:24:55+01:00",
+      "modified": "2019-01-07T09:22:06+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110988",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "7",
+      "order": "7",
       "name": "Berichte aus den Arbeitsgruppen und über die Mitarbeit in Gremien",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:25:28+01:00",
+      "modified": "2019-01-07T09:20:56+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110989",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "8",
+      "order": "8",
       "name": "Festlegungskontrolle",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:27:07+01:00",
+      "modified": "2019-01-07T09:20:56+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110990",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "8.1",
+      "order": "9",
       "name": "Budgetverwendung Rückblick 2018 und Ausblick 2019",
-      "number": "Ö 8.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:28:34+01:00",
+      "modified": "2019-01-07T09:20:56+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110991",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "9",
+      "order": "10",
       "name": "Informationen und Sonstiges",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:29:13+01:00",
+      "modified": "2019-01-07T09:20:56+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110992",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "9.1",
+      "order": "11",
       "name": "Informationen der Integrations- und Ausländerbeauftragten",
-      "number": "Ö 9.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:30:22+01:00",
+      "modified": "2019-01-07T09:20:56+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110993",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "9.2",
+      "order": "12",
       "name": "Informationen des Vorsitzenden sowie Informationen und Fragen der Mitglieder",
-      "number": "Ö 9.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:30:43+01:00",
+      "modified": "2019-01-07T09:20:56+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110994",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7805",
+      "number": "10",
+      "order": "13",
       "name": "Tagesordnung der nächsten Sitzung am 20. März 2019",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-11-27T07:31:47+01:00",
+      "modified": "2019-01-23T16:07:02+01:00"
     }
   ],
-  "id": "7805",
-  "participant": [
-    "1276",
-    "78",
-    "88",
-    "282",
-    "712",
-    "1366",
-    "1190",
-    "1237",
-    "60",
-    "1278",
-    "1272",
-    "424",
-    "1275",
-    "421",
-    "1277",
-    "429"
-  ]
+  "created": "2018-10-09T15:51:57+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

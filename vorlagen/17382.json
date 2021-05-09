@@ -1,24 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17382",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Festlegung der Wahlkommission / Wahl des Ortsvorstehers",
-  "shortName": "V-LB0136/19",
   "reference": "V-LB0136/19",
+  "date": "2019-08-12",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-05",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/424638",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00424638.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-08-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00424638.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00424638.pdf",
+    "created": "2019-08-05T09:46:49+02:00",
+    "modified": "2019-08-13T15:09:36+02:00"
+  },
   "auxiliaryFile": [
-    "424638"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/427240",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Langebrück V-LB0136/19_mU",
+      "fileName": "00427240.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00427240.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00427240.pdf",
+      "created": "2019-08-26T11:51:33+02:00",
+      "modified": "2019-08-27T07:56:28+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/452691",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Langebrück V-LB0136 19 vom 26.09.2019",
+      "fileName": "00452691.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00452691.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00452691.pdf",
+      "created": "2020-01-13T11:17:56+01:00",
+      "modified": "2020-01-13T11:17:56+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8552",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38584",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17382",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/119790",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8552",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-08-06T11:13:43+02:00",
+      "modified": "2019-09-03T07:21:19+02:00"
     }
   ],
-  "id": "17382"
+  "created": "2019-08-05T09:46:33+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16442",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Planungsstand zu den Verkehrsbaumaßnahmen Hauptstr. u. Klotzscher Str.",
-  "shortName": "V-LB0120/19",
   "reference": "V-LB0120/19",
+  "date": "2019-02-06",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-02-06",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/393576",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00393576.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-02-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393576.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393576.pdf",
+    "created": "2019-02-06T10:31:27+01:00",
+    "modified": "2019-02-12T06:26:48+01:00"
+  },
   "auxiliaryFile": [
-    "393576",
-    "394214"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/394214",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Langebrück_V-LB0120/19_mU",
+      "fileName": "00394214.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00394214.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00394214.pdf",
+      "created": "2019-02-11T11:08:07+01:00",
+      "modified": "2019-02-12T06:27:53+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7950",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36421",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16442",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/113383",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7950",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-02-06T11:48:34+01:00",
+      "modified": "2019-04-18T08:54:03+02:00"
     }
   ],
-  "id": "16442"
+  "created": "2019-02-06T10:30:56+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

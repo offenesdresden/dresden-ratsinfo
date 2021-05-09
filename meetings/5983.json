@@ -1,122 +1,154 @@
 {
-  "shortName": "OBR Pi/029/2017",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 07.02.2017 - 18:00-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5983",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "29. Sitzung des Ortsbeirates Pieschen",
   "start": "2017-02-07T18:00:00+01:00",
   "end": "2017-02-07T19:30:00+01:00",
-  "invitation": "285635",
-  "verbatimProtocol": "287395",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/1194",
+    "http://oparl.dresden.de/bodies/0001/people/1306",
+    "http://oparl.dresden.de/bodies/0001/people/1307",
+    "http://oparl.dresden.de/bodies/0001/people/678",
+    "http://oparl.dresden.de/bodies/0001/people/1178",
+    "http://oparl.dresden.de/bodies/0001/people/1309",
+    "http://oparl.dresden.de/bodies/0001/people/1312",
+    "http://oparl.dresden.de/bodies/0001/people/685",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/993",
+    "http://oparl.dresden.de/bodies/0001/people/1031",
+    "http://oparl.dresden.de/bodies/0001/people/1195",
+    "http://oparl.dresden.de/bodies/0001/people/1204",
+    "http://oparl.dresden.de/bodies/0001/people/1320",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/1538"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/285635",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00285635.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285635.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285635.pdf",
+    "created": "2017-01-26T10:41:50+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift der 28. Ortsbeiratssitzung vom 10. Januar 2017",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/285635",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00285635.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285635.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285635.pdf",
+      "created": "2017-01-26T10:41:50+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 110.4 b, Dresden-Kaditz/Mickten, Kötzschenbroder Straße/Lommatzscher Straße (Änderungssatzung)hier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13105",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "300300",
-      "auxiliaryFile": [
-        "309051",
-        "284500",
-        "283829",
-        "277559",
-        "277660",
-        "277563",
-        "277564",
-        "280247",
-        "294554"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 2,
-        "neutral": 5,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13017",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293717",
-      "auxiliaryFile": [
-        "306563",
-        "356554",
-        "424928",
-        "279629",
-        "279086",
-        "278226",
-        "277117",
-        "273800",
-        "275160",
-        "286708",
-        "289760"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Aktualisierung von Stadtentwicklungszielen durch Aufgabe veralteter Beschlüsse im Bereich Trachau",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13165",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "278771",
-        "288767",
-        "310745",
-        "356860",
-        "291235",
-        "299493"
-      ],
-      "resolutionFile": "300295",
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/287395",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00287395.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-02-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00287395.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00287395.pdf",
+      "created": "2017-02-08T06:49:12+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5983",
-  "participant": [
-    "1307",
-    "1194",
-    "402",
-    "1306",
-    "1309",
-    "678",
-    "1178",
-    "1312",
-    "967",
-    "993",
-    "685",
-    "1031",
-    "1195",
-    "1204",
-    "1320",
-    "696",
-    "1538"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87477",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5983",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift der 28. Ortsbeiratssitzung vom 10. Januar 2017",
+      "public": true,
+      "created": "2017-02-08T06:33:24+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87015",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5983",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2017-01-23T12:51:31+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87013",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5983",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 110.4 b, Dresden-Kaditz/Mickten, Kötzschenbroder Straße/Lommatzscher Straße (Änderungssatzung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26814",
+      "result": "Zustimmung",
+      "created": "2017-01-23T12:51:31+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87476",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5983",
+      "number": "2.2",
+      "order": "4",
+      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26591",
+      "result": "zur Kenntnis genommen",
+      "created": "2017-02-08T06:30:13+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87475",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5983",
+      "number": "2.3",
+      "order": "5",
+      "name": "Aktualisierung von Stadtentwicklungszielen durch Aufgabe veralteter Beschlüsse im Bereich Trachau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26918",
+      "result": "zur Kenntnis genommen",
+      "created": "2017-02-08T06:29:12+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87018",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5983",
+      "number": "3",
+      "order": "6",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2017-01-23T12:51:31+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

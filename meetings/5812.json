@@ -1,61 +1,94 @@
 {
-  "shortName": "UK/FB/SE/032/2017",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 200, 1. Etage,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung) - 06.03.2017 - 16:30-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "153"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5812",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "32. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
   "start": "2017-03-06T16:30:00+01:00",
   "end": "2017-03-06T20:15:00+01:00",
-  "invitation": "288875",
-  "verbatimProtocol": "291355",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/2922",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/200",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/153"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/59",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/282",
+    "http://oparl.dresden.de/bodies/0001/people/668",
+    "http://oparl.dresden.de/bodies/0001/people/629",
+    "http://oparl.dresden.de/bodies/0001/people/652",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/1327",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/1233",
+    "http://oparl.dresden.de/bodies/0001/people/1237"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/288875",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_UK/FB/SE",
+    "fileName": "00288875.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-02-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00288875.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00288875.pdf",
+    "created": "2017-02-21T14:14:16+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Durchführung einer Meinungsumfrage zum \"Klimawandel in Dresden\"",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13162",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "290767",
-      "auxiliaryFile": [
-        "349457",
-        "284048",
-        "283836",
-        "278696",
-        "278699",
-        "278701",
-        "279030",
-        "280251"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 2,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/288875",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_UK/FB/SE",
+      "fileName": "00288875.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-02-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00288875.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00288875.pdf",
+      "created": "2017-02-21T14:14:16+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/291355",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00291355.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-03-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00291355.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00291355.pdf",
+      "created": "2017-03-13T09:05:48+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5812",
-  "participant": [
-    "59",
-    "676",
-    "37",
-    "277",
-    "83",
-    "88",
-    "282",
-    "84",
-    "668",
-    "629",
-    "652",
-    "288",
-    "1327",
-    "98",
-    "1237",
-    "1233"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87211",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5812",
+      "number": "1",
+      "order": "1",
+      "name": "Durchführung einer Meinungsumfrage zum \"Klimawandel in Dresden\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27272",
+      "result": "Zustimmung",
+      "created": "2017-01-27T11:15:08+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

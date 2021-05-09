@@ -1,72 +1,148 @@
 {
-  "shortName": "FL/002/2009",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Finanzen und Liegenschaften - 21.09.2009 - 16:00-18:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "3"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/103",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "start": "2009-09-21T16:00:00+02:00",
   "end": "2009-09-21T18:10:00+02:00",
-  "invitation": "7094",
-  "auxiliaryFile": [
-    "7241",
-    "8171"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/3"
   ],
-  "resultsProtocol": "8179",
-  "verbatimProtocol": "8832",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/92",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/59",
+    "http://oparl.dresden.de/bodies/0001/people/267",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/264",
+    "http://oparl.dresden.de/bodies/0001/people/57"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/7094",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung _ FL_2009_09_21",
+    "fileName": "00007094.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-09-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00007094.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00007094.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/7241",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_FL_2009_09_21",
+    "fileName": "00007241.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-09-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00007241.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00007241.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Veränderungen im Verwaltungs- und Vermögenshaushalt für die Teilnahme der Landeshauptstadt Dresden am Programm \"Lernen vor Ort\" - gemeinsame Initiative des Bundesministeriums für Bildung und Forschung mit deutschen Stiftungen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "412",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "6756",
-        "5860",
-        "6541",
-        "5862",
-        "5890",
-        "6783"
-      ],
-      "result": "Zustimmung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/7094",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung _ FL_2009_09_21",
+      "fileName": "00007094.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00007094.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00007094.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Durchführungsbeschluss zur Einführung des Bundesprogramms \"Kommunal-Kombi\" in der Landeshauptstadt Dresden (LH Dresden)",
-      "number": "Ö 8 Nachtrag: 21.09.2009",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "220",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "7027",
-        "6509",
-        "6510"
-      ],
-      "resolutionFile": "6505",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/7241",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_FL_2009_09_21",
+      "fileName": "00007241.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00007241.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00007241.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/8171",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0161/09",
+      "fileName": "00008171.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00008171.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00008171.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/8179",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0107/09",
+      "fileName": "00008179.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00008179.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00008179.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/8832",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00008832.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00008832.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00008832.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "103",
-  "participant": [
-    "26",
-    "37",
-    "277",
-    "92",
-    "64",
-    "264",
-    "59",
-    "267",
-    "57"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/1235",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/103",
+      "number": "1",
+      "order": "1",
+      "name": "Veränderungen im Verwaltungs- und Vermögenshaushalt für die Teilnahme der Landeshauptstadt Dresden am Programm \"Lernen vor Ort\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/789",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/1403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/103",
+      "number": "8",
+      "order": "9",
+      "name": "Durchführungsbeschluss zur Einführung des Bundesprogramms \"Kommunal-Kombi\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/514",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

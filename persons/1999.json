@@ -1,20 +1,26 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1999",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Andreas Harlaß",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Harlaß",
+  "givenName": "Andreas",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9531",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1999",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/46",
       "role": "Ortschaftsratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "46",
-      "startDate": "2019-08-15"
+      "votingRight": true,
+      "startDate": "2019-08-15",
+      "created": "2019-08-15T11:48:14+02:00",
+      "modified": "2019-08-15T11:48:14+02:00"
     }
   ],
-  "status": [
-    "AfD"
-  ],
-  "id": "1999"
+  "created": "2019-07-25T08:27:39+02:00",
+  "modified": "2021-05-07T05:12:27+02:00",
+  "web": ""
 }

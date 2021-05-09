@@ -1,60 +1,145 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17463",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Besetzung des Aufsichtsrates der Dresden Marketing GmbH",
-  "shortName": "V3275/19",
   "reference": "V3275/19",
+  "date": "2019-09-04",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-20",
-  "mainFile": "429723",
   "auxiliaryFile": [
-    "429092",
-    "426332",
-    "426333"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/426332",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage zu Vorlage V3275_19",
+      "fileName": "00426332.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426332.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426332.pdf",
+      "created": "2019-08-20T13:01:00+02:00",
+      "modified": "2019-09-12T10:06:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/426333",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V3275_19",
+      "fileName": "00426333.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426333.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426333.pdf",
+      "created": "2019-08-20T13:01:01+02:00",
+      "modified": "2019-09-12T10:06:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/429092",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00429092.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00429092.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00429092.pdf",
+      "created": "2019-09-09T09:59:13+02:00",
+      "modified": "2019-09-12T10:06:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/429723",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V3275/19",
+      "fileName": "00429723.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00429723.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00429723.pdf",
+      "created": "2019-09-12T10:06:29+02:00",
+      "modified": "2019-09-12T10:06:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/439416",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Änderungsantrag_SR_V3275_19_interfraktionell (Grüne, Linke, SPD)",
+      "fileName": "00439416.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00439416.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00439416.pdf",
+      "created": "2019-10-30T12:43:41+01:00",
+      "modified": "2019-11-12T06:58:19+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/448893",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V3275/19_mU",
+      "fileName": "00448893.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00448893.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00448893.pdf",
+      "created": "2019-12-10T10:17:33+01:00",
+      "modified": "2019-12-10T10:20:05+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38807",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17463",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/122092",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7549",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2019-09-27T08:25:43+02:00",
+      "modified": "2019-11-26T12:20:18+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38807",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17463",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123751",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7550",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2019-11-01T08:43:32+01:00",
+      "modified": "2019-11-22T10:32:38+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38807",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17463",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/124789",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9032",
       "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2019-11-22T11:03:05+01:00",
+      "modified": "2019-12-06T08:14:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38807",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17463",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/124933",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7551",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2019-11-26T07:44:48+01:00",
+      "modified": "2019-12-06T08:14:24+01:00"
     }
   ],
-  "id": "17463"
+  "created": "2019-08-20T06:28:56+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

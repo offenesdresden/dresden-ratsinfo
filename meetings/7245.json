@@ -1,205 +1,278 @@
 {
-  "shortName": "OSR SB/049/2018",
-  "locality": "Landeshauptstadt Dresden, im Beratungsraum im Bürgerhaus Schönborn,Seifersdorfer Straße 6, 01465 Schönborn",
-  "name": "Ortschaftsrat Schönborn - 21.03.2018 - 19:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "49. Sitzung des Ortschaftsrates Schönborn (Sondersitzung)",
   "start": "2018-03-21T19:30:00+01:00",
   "end": "2018-03-21T21:30:00+01:00",
-  "invitation": "339107",
-  "resultsProtocol": "339986",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/1257"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/339107",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00339107.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-03-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00339107.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00339107.pdf",
+    "created": "2018-03-19T11:39:54+01:00",
+    "modified": "2018-03-19T11:41:56+01:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/339985",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0070/18_oU",
+    "fileName": "00339985.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-03-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00339985.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00339985.pdf",
+    "created": "2018-03-23T08:57:25+01:00",
+    "modified": "2018-03-29T10:35:09+02:00"
+  },
   "auxiliaryFile": [
-    "339987",
-    "339985",
-    "339989",
-    "340304",
-    "340288",
-    "340303",
-    "340281"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/339107",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00339107.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00339107.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00339107.pdf",
+      "created": "2018-03-19T11:39:54+01:00",
+      "modified": "2018-03-19T11:41:56+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/339985",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0070/18_oU",
+      "fileName": "00339985.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00339985.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00339985.pdf",
+      "created": "2018-03-23T08:57:25+01:00",
+      "modified": "2018-03-29T10:35:09+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/339986",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn Investitionen_oU",
+      "fileName": "00339986.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00339986.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00339986.pdf",
+      "created": "2018-03-23T08:58:32+01:00",
+      "modified": "2018-03-29T10:33:40+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/339987",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0067/18_oU",
+      "fileName": "00339987.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00339987.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00339987.pdf",
+      "created": "2018-03-23T08:59:11+01:00",
+      "modified": "2018-03-29T10:32:59+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/339989",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0072/18_oU",
+      "fileName": "00339989.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00339989.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00339989.pdf",
+      "created": "2018-03-23T08:59:55+01:00",
+      "modified": "2018-03-29T10:34:32+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/340281",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn_V-SB0070/18_mU",
+      "fileName": "00340281.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00340281.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00340281.pdf",
+      "created": "2018-03-26T09:40:23+02:00",
+      "modified": "2018-03-26T09:44:56+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/340288",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn_Investitionen Ortschaftsrat_mU",
+      "fileName": "00340288.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00340288.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00340288.pdf",
+      "created": "2018-03-26T09:45:38+02:00",
+      "modified": "2018-03-26T09:49:22+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/340303",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn_V-SB0067/18_mU",
+      "fileName": "00340303.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00340303.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00340303.pdf",
+      "created": "2018-03-26T09:49:47+02:00",
+      "modified": "2018-03-26T09:51:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/340304",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0072/18_mU",
+      "fileName": "00340304.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00340304.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00340304.pdf",
+      "created": "2018-03-26T09:51:34+02:00",
+      "modified": "2018-03-29T10:26:21+02:00"
+    }
   ],
   "agendaItem": [
     {
-      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100335",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "2",
+      "order": "2",
+      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit, Beschlusskontrolle",
+      "public": true,
+      "created": "2018-03-12T12:18:13+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100439",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "3",
+      "order": "3",
       "name": "Verwendung Verfügungsmittel",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32038",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-03-14T08:33:00+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100440",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "4",
+      "order": "4",
       "name": "Investitionen Ortschaftsrat",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-03-14T08:33:35+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100441",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "5",
+      "order": "5",
       "name": "Planung Doppelhaushalt 2019/2020 Fertigstellung Spielplatz Schönborn",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31913",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-03-14T08:34:53+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100442",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "6",
+      "order": "6",
       "name": "Fortführung der Unterhaltung Gehbahn Seifersdorfer Straße",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32092",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-03-14T08:35:38+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100114",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "7",
+      "order": "7",
       "name": "Landschaftsplan der Landeshauptstadt Dresden in der Fassung August 2017 - hier: Abwägungsbeschluss, Beschluss des Landschaftsplanes",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14351",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "349396",
-      "auxiliaryFile": [
-        "379106",
-        "460535",
-        "324461",
-        "334419",
-        "327767",
-        "316633",
-        "327769",
-        "327770",
-        "327771",
-        "327772",
-        "327785",
-        "327773",
-        "327787",
-        "327774",
-        "327788",
-        "327775",
-        "327776",
-        "327789",
-        "327790",
-        "327791",
-        "327777",
-        "327778",
-        "327792",
-        "327793",
-        "327779",
-        "327780",
-        "327794",
-        "327795",
-        "327781",
-        "327782",
-        "345512"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31696",
       "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 5,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-03-07T07:42:56+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999 hier:1. Billigung der Abwägung über die Stellungnahmen aus der öffentlichen Auslegung2. Billigung des geänderten Entwurfs zum Flächennutzungsplan3. Billigung der Begründung zum geänderten Flächennutzungsplan-Entwurf4. Beschluss über erneute öffentliche Auslegung",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14201",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "348130",
-      "auxiliaryFile": [
-        "366633",
-        "329926",
-        "329350",
-        "360261",
-        "329351",
-        "360262",
-        "329352",
-        "360283",
-        "328313",
-        "328314",
-        "345513",
-        "345514",
-        "347305"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100113",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "8",
+      "order": "8",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/29864",
       "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 5,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-03-07T07:42:43+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100112",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "9",
+      "order": "9",
       "name": "Satzung zur Änderung der Hauptsatzung",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14719",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "352858",
-      "auxiliaryFile": [
-        "381335",
-        "518786",
-        "448872",
-        "333554",
-        "333053",
-        "331489",
-        "332279",
-        "331491",
-        "329598",
-        "332464",
-        "332465",
-        "352113",
-        "351997",
-        "351984"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31253",
+      "result": "Vertagung",
+      "created": "2018-03-07T07:42:24+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100336",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7245",
+      "number": "10",
+      "order": "10",
       "name": "Allgemeines",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-03-12T12:18:29+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "7245",
-  "participant": [
-    "357",
-    "361",
-    "359",
-    "355",
-    "1257"
-  ]
+  "created": "2018-02-23T10:28:07+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

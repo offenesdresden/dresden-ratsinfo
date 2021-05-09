@@ -1,149 +1,305 @@
 {
-  "shortName": "OSR LB/065/2014",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Weixdorf/Langebrück, Zweitstandort LangebrückBeratungsraum,Weißiger Straße 5, 01465 Langebrück",
-  "name": "Ortschaftsrat Langebrück - 13.05.2014 - 18:38-22:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "51"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "65. Sitzung des Ortschaftsrates Langebrück",
   "start": "2014-05-13T18:38:00+02:00",
   "end": "2014-05-13T22:25:00+02:00",
-  "invitation": "169384",
-  "auxiliaryFile": [
-    "170696",
-    "170675",
-    "170901",
-    "170892",
-    "170698",
-    "170700"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/33",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weißiger Straße 5",
+    "room": "Ortschaft Langebrück, Verwaltungsstelle",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Langebrück",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:09+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
   ],
-  "resultsProtocol": "170882",
-  "verbatimProtocol": "171523",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/331",
+    "http://oparl.dresden.de/bodies/0001/people/332",
+    "http://oparl.dresden.de/bodies/0001/people/333",
+    "http://oparl.dresden.de/bodies/0001/people/334",
+    "http://oparl.dresden.de/bodies/0001/people/335",
+    "http://oparl.dresden.de/bodies/0001/people/336",
+    "http://oparl.dresden.de/bodies/0001/people/338",
+    "http://oparl.dresden.de/bodies/0001/people/340"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/169384",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR LB",
+    "fileName": "00169384.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-05-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00169384.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00169384.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/170675",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung Vorlage_V2738/14_Förderung_bürgerschaftliches_Engagements",
+    "fileName": "00170675.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-05-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170675.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170675.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/169384",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR LB",
+      "fileName": "00169384.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00169384.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00169384.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/170675",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Vorlage_V2738/14_Förderung_bürgerschaftliches_Engagements",
+      "fileName": "00170675.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170675.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170675.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlusskontrollen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/170696",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Vorlage_V2715/14_Bibliotheksentwicklungsplan_2014_bis_2017",
+      "fileName": "00170696.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170696.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170696.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen durch den Ortsvorsteher",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/170698",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Straßenreinigungsgebührensatzung_2015",
+      "fileName": "00170698.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170698.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170698.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Konzept zur Förderung des bürgerschaftlichen Engagements in der Landeshauptstadt Dresden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8113",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "176456",
-      "auxiliaryFile": [
-        "191450",
-        "184615",
-        "260603",
-        "308597",
-        "436686",
-        "455099",
-        "528296",
-        "164530",
-        "163885",
-        "172645",
-        "185011",
-        "164523",
-        "162222",
-        "159401",
-        "159371",
-        "159372"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/170700",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Vereinsförderung",
+      "fileName": "00170700.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170700.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170700.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung Baumaßnahme Abwassertechnische Erschließung Hauptstr./1. BA",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/170882",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Grundstücksangelegenheiten_Pacht",
+      "fileName": "00170882.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170882.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170882.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung Baumaßnahme \"Neubau der Gehwege Dresdner Straße\"",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/170892",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Grundstücksangelenheiten_Vermietung",
+      "fileName": "00170892.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170892.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170892.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bibliotheksentwicklungsplan 2014 - 2017",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8065",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "283807",
-        "228334",
-        "170544",
-        "165824",
-        "158043",
-        "165657",
-        "158827",
-        "175948"
-      ],
-      "resolutionFile": "179633",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/170901",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Grundstücksangelegenheiten_Pacht_Steinbruch",
+      "fileName": "00170901.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170901.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170901.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Straßenreinigungsgebührensatzung 2015",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fragen an den Ortschaftsrat",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Termine",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/171523",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00171523.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00171523.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00171523.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3735",
-  "participant": [
-    "331",
-    "332",
-    "333",
-    "336",
-    "335",
-    "334",
-    "338",
-    "340"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53404",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53405",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "3",
+      "order": "3",
+      "name": "Beschlusskontrollen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53406",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52762",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "5",
+      "order": "5",
+      "name": "Konzept zur Förderung des bürgerschaftlichen Engagements in der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15228",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53407",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "6",
+      "order": "6",
+      "name": "Vorstellung Baumaßnahme Abwassertechnische Erschließung Hauptstr./1. BA",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53408",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "7",
+      "order": "7",
+      "name": "Vorstellung Baumaßnahme \"Neubau der Gehwege Dresdner Straße\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52763",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "8",
+      "order": "8",
+      "name": "Bibliotheksentwicklungsplan 2014 - 2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15762",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52424",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "9",
+      "order": "9",
+      "name": "Straßenreinigungsgebührensatzung 2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53409",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "10",
+      "order": "10",
+      "name": "Fragen an den Ortschaftsrat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53410",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "11",
+      "order": "11",
+      "name": "Termine",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53411",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3735",
+      "number": "12",
+      "order": "12",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

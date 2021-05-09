@@ -1,125 +1,258 @@
 {
-  "shortName": "OSR SW/035/2012",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,Bautzner Landstraße 291, 01328 Dresden",
-  "name": "Ortschaftsrat Schönfeld-Weißig - 16.07.2012 - 19:35-21:46 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "48"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "35. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "start": "2012-07-16T19:35:00+02:00",
   "end": "2012-07-16T21:46:00+02:00",
-  "invitation": "103909",
-  "resultsProtocol": "105165",
-  "auxiliaryFile": [
-    "105186",
-    "105182"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/34",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bautzner Landstraße 291",
+    "room": "Ortschaft Schönfed-Weißig, Ratssaal",
+    "postalCode": "01328",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
   ],
-  "verbatimProtocol": "108466",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/363",
+    "http://oparl.dresden.de/bodies/0001/people/364",
+    "http://oparl.dresden.de/bodies/0001/people/365",
+    "http://oparl.dresden.de/bodies/0001/people/366",
+    "http://oparl.dresden.de/bodies/0001/people/367",
+    "http://oparl.dresden.de/bodies/0001/people/369",
+    "http://oparl.dresden.de/bodies/0001/people/370",
+    "http://oparl.dresden.de/bodies/0001/people/371",
+    "http://oparl.dresden.de/bodies/0001/people/372",
+    "http://oparl.dresden.de/bodies/0001/people/373",
+    "http://oparl.dresden.de/bodies/0001/people/378",
+    "http://oparl.dresden.de/bodies/0001/people/380",
+    "http://oparl.dresden.de/bodies/0001/people/375",
+    "http://oparl.dresden.de/bodies/0001/people/377",
+    "http://oparl.dresden.de/bodies/0001/people/376",
+    "http://oparl.dresden.de/bodies/0001/people/927"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/103909",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SW",
+    "fileName": "00103909.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-07-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00103909.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00103909.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/105165",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V-SW0156/12",
+    "fileName": "00105165.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-07-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00105165.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00105165.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+- Phase 2, Grundlagen und Zukunftsthemen -",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5798",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105356",
-      "auxiliaryFile": [
-        "158635",
-        "104103",
-        "103922",
-        "100220",
-        "96771",
-        "191666"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/103909",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SW",
+      "fileName": "00103909.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-07-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00103909.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00103909.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/105165",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SW0156/12",
+      "fileName": "00105165.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-07-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00105165.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00105165.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bericht des Ortsvorstehers",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/105182",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SW0158/12",
+      "fileName": "00105182.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-07-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00105182.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00105182.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bürgerfragestunde",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/105186",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SW0157/12",
+      "fileName": "00105186.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-07-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00105186.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00105186.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwendungen zur Niederschrift der 34. Sitzung vom 18.06.2012",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bekanntgabe nicht öffentlich gefasster Beschlüsse der 33. Sitzung vom 14.05.2012",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung Konzeption 16. HOCHLANDFEST",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beratung und Beschlussfassung zur Änderung des fortgeltenden Flächennutzungsplanes",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "punktweise Abstimmung"
-    },
-    {
-      "name": "Informationen",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Optimierung der Struktur und der Dienstleistungsqualität des Bürgerservice in der Landeshauptstadt Dresdenhier: Bildung eines \"Bauhof Schönfeld-Weißig\" in der Ortschaft Schönfeld-Weißig",
-      "number": "Ö  Nachtrag: 12.07.2012  Nummer 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/108466",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00108466.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00108466.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00108466.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2215",
-  "participant": [
-    "363",
-    "370",
-    "371",
-    "367",
-    "373",
-    "372",
-    "365",
-    "364",
-    "366",
-    "369",
-    "375",
-    "377",
-    "927",
-    "378",
-    "380",
-    "376"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84022",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "1",
+      "order": "1",
+      "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9954",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32598",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "2",
+      "order": "2",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32599",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "3",
+      "order": "3",
+      "name": "Bericht des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32600",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "4",
+      "order": "4",
+      "name": "Bürgerfragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32601",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "5",
+      "order": "5",
+      "name": "Einwendungen zur Niederschrift der 34. Sitzung vom 18.06.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32602",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "6",
+      "order": "6",
+      "name": "Bekanntgabe nicht öffentlich gefasster Beschlüsse der 33. Sitzung vom 14.05.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32616",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "7",
+      "order": "7",
+      "name": "Vorstellung Konzeption 16. HOCHLANDFEST",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32666",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "8",
+      "order": "8",
+      "name": "Beratung und Beschlussfassung zur Änderung des fortgeltenden Flächennutzungsplanes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10574",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32665",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "9",
+      "order": "9",
+      "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10573",
+      "result": "punktweise Abstimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32612",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "10",
+      "order": "10",
+      "name": "Informationen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32873",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2215",
+      "number": "",
+      "order": "11",
+      "name": "Optimierung der Struktur und der Dienstleistungsqualität des Bürgerservice in der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10596",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

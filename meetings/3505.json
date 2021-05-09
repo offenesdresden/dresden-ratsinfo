@@ -1,109 +1,153 @@
 {
-  "shortName": "OBR Alt/054/2014",
-  "locality": "Landeshauptstadt Dresden, Neues Rathaus, Dr.-Külz-Ring 19, 01067 Dresden4. Etage, Raum 4/13",
-  "name": "Ortsbeirat Altstadt - 07.05.2014 - 17:30-19:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "8"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3505",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "54. Sitzung des Ortsbeirates Altstadt",
   "start": "2014-05-07T17:30:00+02:00",
   "end": "2014-05-07T19:20:00+02:00",
-  "invitation": "168388",
-  "verbatimProtocol": "171525",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1769",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Theaterstraße 11",
+    "room": "Ortsamt Altstadt, Raum 100",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:26+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/8"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/567",
+    "http://oparl.dresden.de/bodies/0001/people/569",
+    "http://oparl.dresden.de/bodies/0001/people/571",
+    "http://oparl.dresden.de/bodies/0001/people/1183",
+    "http://oparl.dresden.de/bodies/0001/people/1202",
+    "http://oparl.dresden.de/bodies/0001/people/165",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/581",
+    "http://oparl.dresden.de/bodies/0001/people/582",
+    "http://oparl.dresden.de/bodies/0001/people/412",
+    "http://oparl.dresden.de/bodies/0001/people/1105",
+    "http://oparl.dresden.de/bodies/0001/people/587",
+    "http://oparl.dresden.de/bodies/0001/people/589",
+    "http://oparl.dresden.de/bodies/0001/people/591",
+    "http://oparl.dresden.de/bodies/0001/people/593",
+    "http://oparl.dresden.de/bodies/0001/people/595",
+    "http://oparl.dresden.de/bodies/0001/people/597"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/168388",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Alt_07.05.2014",
+    "fileName": "00168388.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-04-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00168388.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00168388.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bibliotheksentwicklungsplan 2014 - 2017",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8065",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "283807",
-        "228334",
-        "170544",
-        "165824",
-        "158043",
-        "165657",
-        "158827",
-        "175948"
-      ],
-      "resolutionFile": "179633",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/168388",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Alt_07.05.2014",
+      "fileName": "00168388.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-04-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00168388.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00168388.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "„Karlsbrücke“ für Dresden - Verkehrsberuhigung Augustusbrücke und Sophienstraße",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8345",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "165449",
-        "191388",
-        "236200",
-        "288194",
-        "350337",
-        "403042",
-        "490594",
-        "180826"
-      ],
-      "resolutionFile": "181942",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 10,
-        "no": 7,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlussfassung über Vorschläge zu verkaufsoffenen Sonntagen im Zusammenhang mit besonderen regionalen Ereignissen im Jahr 2015",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2015",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kontrolle der Niederschrift zur 53. Ortsbeiratssitzung am 09.04.2014",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/171525",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00171525.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00171525.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00171525.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3505",
-  "participant": [
-    "567",
-    "1183",
-    "569",
-    "571",
-    "1202",
-    "577",
-    "581",
-    "165",
-    "582",
-    "412",
-    "1105",
-    "587",
-    "589",
-    "591",
-    "593",
-    "595",
-    "597"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52485",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3505",
+      "number": "1",
+      "order": "1",
+      "name": "Bibliotheksentwicklungsplan 2014 - 2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15758",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3505",
+      "number": "2",
+      "order": "2",
+      "name": "„Karlsbrücke“ für Dresden - Verkehrsberuhigung Augustusbrücke und Sophienstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15735",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52996",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3505",
+      "number": "3",
+      "order": "3",
+      "name": "Beschlussfassung über Vorschläge zu verkaufsoffenen Sonntagen im Zusammenhang mit besonderen regionalen Ereignissen im Jahr 2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52997",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3505",
+      "number": "4",
+      "order": "4",
+      "name": "Straßenreinigungsgebührensatzung 2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52428",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3505",
+      "number": "5",
+      "order": "5",
+      "name": "Kontrolle der Niederschrift zur 53. Ortsbeiratssitzung am 09.04.2014",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/52431",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3505",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

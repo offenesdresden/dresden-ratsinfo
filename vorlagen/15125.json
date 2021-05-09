@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15125",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2018-52Pl-00005, Sanierung Margon-Arena, Bodenbacher Straße in Dresden, Los 2 - Dachdeckerleistungen",
-  "shortName": "V2353/18",
   "reference": "V2353/18",
+  "date": "2018-04-16",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-04-16",
   "auxiliaryFile": [
-    "346390"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/346390",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2353/18_mU",
+      "fileName": "00346390.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00346390.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00346390.pdf",
+      "created": "2018-05-04T09:41:10+02:00",
+      "modified": "2018-05-04T09:41:11+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6647",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/32430",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15125",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/101680",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6647",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-04-16T10:44:28+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15125"
+  "created": "2018-04-16T09:49:49+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

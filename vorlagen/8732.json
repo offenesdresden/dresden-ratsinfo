@@ -1,55 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/8732",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Besetzung des Betriebsausschusses für Sportstätten",
-  "shortName": "V3024/14",
   "reference": "V3024/14",
+  "date": "2014-08-12",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2014-07-16",
   "auxiliaryFile": [
-    "179631",
-    "178398",
-    "177055"
-  ],
-  "mainFile": "178642",
-  "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/177055",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V0059_09",
+      "fileName": "00177055.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-07-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00177055.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00177055.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/178398",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00178398.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-08-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00178398.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00178398.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "3371",
-      "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/178642",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V3024/14",
+      "fileName": "00178642.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00178642.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00178642.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/179631",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V3024/14_SR",
+      "fileName": "00179631.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00179631.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00179631.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "8732"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/2"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/16526",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/8732",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/56180",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3371",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

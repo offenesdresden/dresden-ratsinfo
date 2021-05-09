@@ -1,164 +1,190 @@
 {
-  "shortName": "OBR Pi/008/2015",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 02.06.2015 - 18:00-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Ortsbeirates Pieschen",
   "start": "2015-06-02T18:00:00+02:00",
   "end": "2015-06-02T21:30:00+02:00",
-  "invitation": "208582",
-  "verbatimProtocol": "209981",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/674",
+    "http://oparl.dresden.de/bodies/0001/people/1084",
+    "http://oparl.dresden.de/bodies/0001/people/1194",
+    "http://oparl.dresden.de/bodies/0001/people/1307",
+    "http://oparl.dresden.de/bodies/0001/people/678",
+    "http://oparl.dresden.de/bodies/0001/people/1178",
+    "http://oparl.dresden.de/bodies/0001/people/1309",
+    "http://oparl.dresden.de/bodies/0001/people/685",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/993",
+    "http://oparl.dresden.de/bodies/0001/people/1031",
+    "http://oparl.dresden.de/bodies/0001/people/1195",
+    "http://oparl.dresden.de/bodies/0001/people/1317",
+    "http://oparl.dresden.de/bodies/0001/people/1204",
+    "http://oparl.dresden.de/bodies/0001/people/1153",
+    "http://oparl.dresden.de/bodies/0001/people/1320",
+    "http://oparl.dresden.de/bodies/0001/people/696"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/208582",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00208582.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-05-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00208582.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00208582.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 7. Ortsbeiratssitzung am 05.05.2015",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/208582",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00208582.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00208582.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00208582.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einrichtung und Neubau der 147. Grundschule, Maxim-Gorki-Straße 4 in 01127 Dresden mit Sanierung der Bestandssporthalle und Freiflächengestaltung",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9783",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "213023",
-      "auxiliaryFile": [
-        "287259",
-        "221489",
-        "251642",
-        "206219",
-        "205909",
-        "205583",
-        "202821",
-        "202820"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorgaben der Landeshauptstadt Dresden für die anstehende Neukonzessionierung der Straßenbahn- und Buslinien sowie einer Direktvergabe an die Dresdner Verkehrsbetriebe (DVB) AG",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9741",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "215678",
-      "auxiliaryFile": [
-        "256441",
-        "281227",
-        "306287",
-        "207531",
-        "207109",
-        "202144",
-        "202145",
-        "202146",
-        "202147",
-        "202148",
-        "202149"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Hochwasserschutz in Übigau",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9802",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "203579",
-        "235040",
-        "246434",
-        "295336",
-        "347424",
-        "407735",
-        "479100"
-      ],
-      "resolutionFile": "220623",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorstellung des inklusiven Thearterprojektes \"Forum: Merkurius - vom spielenden Gelingen\"",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2016",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9447",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "214614",
-      "auxiliaryFile": [
-        "224457",
-        "204439",
-        "203914",
-        "209178",
-        "209177",
-        "202162",
-        "202954"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/209981",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00209981.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-06-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00209981.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00209981.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4567",
-  "participant": [
-    "1307",
-    "1194",
-    "674",
-    "402",
-    "1084",
-    "1309",
-    "678",
-    "1178",
-    "967",
-    "993",
-    "685",
-    "1031",
-    "1195",
-    "1317",
-    "1204",
-    "1153",
-    "1320",
-    "696"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 7. Ortsbeiratssitzung am 05.05.2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65526",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/66406",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "2.1",
+      "order": "3",
+      "name": "Einrichtung und Neubau der 147. Grundschule, Maxim-Gorki-Straße 4 in 01127 Dresden mit Sanierung der Bestandssporthalle und Freiflächengestaltung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19441",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/66405",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "2.2",
+      "order": "4",
+      "name": "Vorgaben der Landeshauptstadt Dresden für die anstehende Neukonzessionierung der Straßenbahn- und Buslinien sowie einer Direktvergabe an die Dresdner Verkehrsbetriebe (DVB) AG",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19812",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/66403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "2.3",
+      "order": "5",
+      "name": "Hochwasserschutz in Übigau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19527",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65529",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "3",
+      "order": "6",
+      "name": "Vorstellung des inklusiven Thearterprojektes \"Forum: Merkurius - vom spielenden Gelingen\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65530",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "4",
+      "order": "7",
+      "name": "Straßenreinigungsgebührensatzung 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65527",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "5",
+      "order": "8",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/66982",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4567",
+      "number": "6",
+      "order": "9",
+      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20109",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

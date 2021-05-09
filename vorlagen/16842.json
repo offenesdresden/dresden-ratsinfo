@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16842",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln - Bewirtschaftung/Unterhaltung Parkplatz Schönfeld an Borsbergstraße",
-  "shortName": "V-SW0240/19",
   "reference": "V-SW0240/19",
+  "date": "2019-04-18",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-04-16",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/407070",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00407070.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-04-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00407070.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00407070.pdf",
+    "created": "2019-04-16T05:48:53+02:00",
+    "modified": "2019-04-18T08:21:57+02:00"
+  },
   "auxiliaryFile": [
-    "409479",
-    "407070"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/409479",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0240/19_mU",
+      "fileName": "00409479.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00409479.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00409479.pdf",
+      "created": "2019-04-30T12:02:20+02:00",
+      "modified": "2019-04-30T12:02:21+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7981",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37454",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16842",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/116400",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7981",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-04-16T12:57:33+02:00",
+      "modified": "2019-04-30T12:27:01+02:00"
     }
   ],
-  "id": "16842"
+  "created": "2019-04-16T05:48:31+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

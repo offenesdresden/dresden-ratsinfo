@@ -1,32 +1,74 @@
 {
-  "shortName": "GS/018/2013",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Beirat Gesunde Städte - 25.11.2013 - 16:30-18:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "20"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2624",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "18. Sitzung des Beirates Gesunde Städte",
   "start": "2013-11-25T16:30:00+01:00",
   "end": "2013-11-25T18:25:00+01:00",
-  "invitation": "150443",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/20"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/291",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/496",
+    "http://oparl.dresden.de/bodies/0001/people/166",
+    "http://oparl.dresden.de/bodies/0001/people/497",
+    "http://oparl.dresden.de/bodies/0001/people/498",
+    "http://oparl.dresden.de/bodies/0001/people/501",
+    "http://oparl.dresden.de/bodies/0001/people/503",
+    "http://oparl.dresden.de/bodies/0001/people/504"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/150443",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_GS_2013_11_25",
+    "fileName": "00150443.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-11-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150443.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150443.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Informationen/Sonstiges",
-      "number": "N 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/150443",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_GS_2013_11_25",
+      "fileName": "00150443.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150443.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150443.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2624",
-  "participant": [
-    "28",
-    "402",
-    "291",
-    "496",
-    "166",
-    "501",
-    "498",
-    "497",
-    "504",
-    "503"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47444",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2624",
+      "number": "6",
+      "order": "9",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

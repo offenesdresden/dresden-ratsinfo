@@ -1,82 +1,115 @@
 {
-  "shortName": "S/010/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Plenarsaal,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Seniorenbeirat - 07.12.2020 - 09:00-11:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "6"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8828",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "10. Sitzung des Seniorenbeirates",
   "start": "2020-12-07T09:00:00+01:00",
   "end": "2020-12-07T11:25:00+01:00",
-  "invitation": "512956",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/6"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/512956",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_S",
+    "fileName": "00512956.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-11-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00512956.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00512956.pdf",
+    "created": "2020-11-17T09:24:10+01:00",
+    "modified": "2020-11-26T10:25:55+01:00"
+  },
   "auxiliaryFile": [
-    "521785"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/512956",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_S",
+      "fileName": "00512956.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00512956.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00512956.pdf",
+      "created": "2020-11-17T09:24:10+01:00",
+      "modified": "2020-11-26T10:25:55+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/521785",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö_S_2020_12_07_Antwort_2021_01_14",
+      "fileName": "00521785.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00521785.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00521785.pdf",
+      "created": "2021-01-14T11:48:04+01:00",
+      "modified": "2021-01-14T11:48:04+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141614",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8828",
+      "number": "1",
+      "order": "1",
       "name": "Begrünung und Aufwertung der Kreuzstraße",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19100",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "531462",
-      "auxiliaryFile": [
-        "498986",
-        "480405",
-        "480406",
-        "480407",
-        "480416",
-        "480417",
-        "521927",
-        "523693"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45751",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-11-17T09:21:21+01:00",
+      "modified": "2020-12-07T11:42:09+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141611",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8828",
+      "number": "2",
+      "order": "2",
       "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "464644",
-        "496854",
-        "537498"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41622",
+      "result": "Zustimmung",
+      "created": "2020-11-17T09:20:35+01:00",
+      "modified": "2020-12-07T11:52:07+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141612",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8828",
+      "number": "3",
+      "order": "3",
       "name": "Bau des Promenadenrings Süd zwischen Seestraße und Schulgasse",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19030",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "537511",
-      "auxiliaryFile": [
-        "478277",
-        "478253",
-        "535300",
-        "534777"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42576",
+      "result": "Vertagung",
+      "created": "2020-11-17T09:20:46+01:00",
+      "modified": "2020-12-07T11:40:02+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141613",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8828",
+      "number": "4",
+      "order": "4",
       "name": "Konzept zur Schaffung eines Vernetzungs- und Beteiligungszentrums in der inneren Altstadt",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20689",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "506896",
-        "535462",
-        "535966"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46214",
+      "result": "Ablehnung",
+      "created": "2020-11-17T09:21:02+01:00",
+      "modified": "2020-12-07T11:53:17+01:00"
     }
   ],
-  "id": "8828"
+  "created": "2019-10-28T14:01:32+01:00",
+  "modified": "2021-01-12T06:57:43+01:00"
 }

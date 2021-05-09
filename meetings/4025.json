@@ -1,268 +1,317 @@
 {
-  "shortName": "WF/008/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 26.03.2015 - 16:00-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Ausschusses für Wirtschaftsförderung",
   "start": "2015-03-26T16:00:00+01:00",
   "end": "2015-03-26T20:45:00+01:00",
-  "invitation": "199356",
-  "verbatimProtocol": "201670",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/268",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/1236",
+    "http://oparl.dresden.de/bodies/0001/people/272",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/298"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/199356",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF_2015_03_26",
+    "fileName": "00199356.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-03-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00199356.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00199356.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/201477",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Festlegungen und Aufträge_ö_2015_03_26",
+    "fileName": "00201477.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-03-31",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00201477.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00201477.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "201477"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/199356",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF_2015_03_26",
+      "fileName": "00199356.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-03-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00199356.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00199356.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/201477",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge_ö_2015_03_26",
+      "fileName": "00201477.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-03-31",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00201477.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00201477.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/201670",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_WF_2015_03_26",
+      "fileName": "00201670.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-03-31",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00201670.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00201670.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "",
+      "order": "1",
       "name": "Geschäftsbereich Finanzen und Liegenschaften",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63725",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "1",
+      "order": "2",
       "name": "Beschlussvorlagen zu VOF-Vergaben",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "1.1",
+      "order": "3",
       "name": "Vergabenummer: A0010/14 Gymnasium Plauen, Kantstraße 2, 01187 Dresden, Modernisierung und Erweiterung Schulgebäude, Planungsleistung Objektplanung, Leistungsphasen 2 - 9 (stufenweise Beauftragung) gem. HOAI Teil 3, §  34 i. V. m. Anlage 10",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9617",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202123",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19009",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Vergabenummer: A0012/14 Gymnasium Plauen, Kantstraße 2, 01187 Dresden, Modernisierung und Erweiterung Schulgebäude, Planungsleistung Tragwerksplanung, Leistungsphasen 2 - 6 (stufenweise Beauftragung) gem. HOAI Teil 3, § 51 i. V. m. Anlage 14",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9618",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202124",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "1.2",
+      "order": "4",
+      "name": "Vergabenummer: A0012/14 Gymnasium Plauen, Kantstraße 2, 01187 Dresden, Modernisierung und Erweiterung Schulgebäude, Planungsleistung Tragwerksplanung, Leistungsphasen 2 - 6 (stufenweise Beauftragung), gem. HOAI Teil 3, § 51 i. V. m. Anlage 14",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19010",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 3,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63728",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "1.3",
+      "order": "5",
       "name": "Vergabenummer: A0013/14 Gymnasium Plauen, Kantstraße 1, 01187 Dresden, Modernisierung und Erweiterung, Stufenweise Beauftragung der Planung Technische Ausrüstung, Anlagengruppen (AGR) 1 - 5, 8, Leistungsphasen 2 - 9",
-      "number": "Ö 1.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9619",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202125",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19011",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63729",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "1.4",
+      "order": "6",
       "name": "Vergabenummer: A0017/14 Gymnasium Dreikönigschule, Louisenstraße 42, 01099 Dresden, Haus A einschließlich Speiseraum und Haus B, Objektplanung Gebäude gemäß HOAI 2013, Teil 3, Abschnitt 1, stufenweise Beauftragung der Leistungsphasen 2 - 9",
-      "number": "Ö 1.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9620",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202126",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19013",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63730",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "2",
+      "order": "7",
       "name": "Beschlussvorlagen zu VOL-Vergaben",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63731",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "2.1",
+      "order": "8",
       "name": "Vergabenummer: 2014-4014-00009 Abschluss eines Rahmenvertrages für die Planung, Lieferung, Transport und Montage von Mobiliar für die kommunalen Gymnasien der Landeshauptstadt Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9621",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202127",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19014",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63732",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3",
+      "order": "9",
       "name": "Beschlussvorlagen zu VOB-Vergaben",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Vergabenummer: 2014-654-00107 Komplexe Sanierung 6. Grundschule \"Am Großen Garten\", Fetscherplatz 2, 01307 Dresden, Fachlos 43 - Freianlagen",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9622",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202128",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63733",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3.1",
+      "order": "10",
+      "name": "Vergabenummer: 2014-654-00107 Komplexe Sanierung 6. Grundschule, \"Am Großen Garten\", Fetscherplatz 2, 01307 Dresden, Fachlos 43 - Freianlagen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19015",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63735",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3.2",
+      "order": "11",
       "name": "Vergabenummer: 2014-GB221-00188 32. Grundschule, Hofmannstraße 34, 01277 Dresden, Aufbauprogramm Brandschutz (ABPBS), Fachlos 01 - Bauleistungen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9624",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202135",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19017",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3.3",
+      "order": "12",
       "name": "Vergabenummer: 2014-65-00348 Erweiterung und Teilsanierung 62. Oberschule mit Neubau Sporthalle, Fidelio-F.-Finke-Straße 15, 01326 Dresden, Fachlos 16 - Trockenbau Neubau",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9623",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202136",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19016",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63736",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3.4",
+      "order": "13",
       "name": "Vergabenummer: 2014-GB221-00189 32. Grundschule, Hofmannstraße 34, 01277 Dresden, Aufbauprogramm Brandschutz (ABPBS) Fachlos 04 - Tischlerarbeiten",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9625",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202137",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19018",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Vergabenummer: 2014-GB221-00181Sanierung und Erweiterung der 82. Oberschule, Korolenkostraße 6, 01109 Dresden, Fachlos 22 - Fenster/Sonnenschutz Altbau",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9626",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202138",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63737",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3.5",
+      "order": "14",
+      "name": "Vergabenummer: 2014-GB221-00181 Sanierung und Erweiterung der 82. Oberschule, Korolenkostraße 6, 01109 Dresden, Fachlos 22 - Fenster/Sonnenschutz Altbau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19019",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63738",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3.6",
+      "order": "15",
       "name": "Vergabenummer: 2014-GB221-00174 Erweiterung Gymnasium Bühlau, Quohrener Straße 12 in 01324 Dresden, Fachlos 234-Freianlagen",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9630",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202139",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19023",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Vergabenummer: 2014-655-00019 Fortsetzung Sanierungsprozess Neues Rathaus, Bauabschnitt 1 und 2a, Fachlos 1.45/1 -Freiflächen Höfe C und D",
-      "number": "Ö 3.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9632",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "202140",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63739",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "3.7",
+      "order": "16",
+      "name": "Vergabenummer: 2014-655-00019 Fortsetzung Sanierungsprozess Neues Rathaus, Bauabschnitt 1 und 2a, Fachlos 1.45/1 - Freiflächen Höfe C und D",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19025",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63742",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4025",
+      "number": "4.2",
+      "order": "19",
       "name": "Offene Beschlussvorlagen",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4025",
-  "participant": [
-    "30",
-    "676",
-    "266",
-    "290",
-    "61",
-    "283",
-    "278",
-    "84",
-    "91",
-    "274",
-    "44",
-    "268",
-    "72",
-    "1236",
-    "272",
-    "288",
-    "298"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

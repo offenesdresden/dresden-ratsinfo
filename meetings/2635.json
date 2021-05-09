@@ -1,88 +1,149 @@
 {
-  "shortName": "K/063/2013",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Kultur - 03.12.2013 - 16:00-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "14"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2635",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "63. Sitzung des Ausschusses für Kultur",
   "start": "2013-12-03T16:00:00+01:00",
   "end": "2013-12-03T21:00:00+01:00",
-  "invitation": "152002",
-  "auxiliaryFile": [
-    "153978"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/14",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "3/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/14"
   ],
-  "verbatimProtocol": "155842",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/8",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/270",
+    "http://oparl.dresden.de/bodies/0001/people/273",
+    "http://oparl.dresden.de/bodies/0001/people/291",
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/294",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/70",
+    "http://oparl.dresden.de/bodies/0001/people/73"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/152002",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_K_2013_12_03",
+    "fileName": "00152002.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-11-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00152002.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00152002.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/153978",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung Antrag ff_A0757/13_K",
+    "fileName": "00153978.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-12-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00153978.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00153978.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kommunale Kulturförderung - institutionelle Förderung 2014",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7699",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "153966",
-      "auxiliaryFile": [
-        "150480",
-        "149805",
-        "146940",
-        "146941",
-        "189113"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/152002",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_K_2013_12_03",
+      "fileName": "00152002.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00152002.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00152002.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Kommunale Kulturförderung - Projektförderung 2014",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7735",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "153977",
-      "auxiliaryFile": [
-        "150479",
-        "149782",
-        "148633",
-        "148799",
-        "175547",
-        "149334"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/153978",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Antrag ff_A0757/13_K",
+      "fileName": "00153978.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-12-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00153978.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00153978.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen der Verwaltung",
-      "number": "N 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "N 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/155842",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_K_2013_12_03",
+      "fileName": "00155842.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-12-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00155842.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00155842.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2635",
-  "participant": [
-    "8",
-    "83",
-    "291",
-    "270",
-    "287",
-    "294",
-    "284",
-    "55"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47824",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2635",
+      "number": "2",
+      "order": "2",
+      "name": "Kommunale Kulturförderung - institutionelle Förderung 2014",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14234",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47823",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2635",
+      "number": "3",
+      "order": "3",
+      "name": "Kommunale Kulturförderung - Projektförderung 2014",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14356",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47821",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2635",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen der Verwaltung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47822",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2635",
+      "number": "7",
+      "order": "7",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

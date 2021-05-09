@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17930",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln - Kita Eschdorf - Weihnachtsumzug mit Familie 2019",
-  "shortName": "V-SW0284/19",
   "reference": "V-SW0284/19",
+  "date": "2019-11-06",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/439136",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00439136.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00439136.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00439136.pdf",
+    "created": "2019-10-29T15:08:12+01:00",
+    "modified": "2019-11-06T09:29:51+01:00"
+  },
   "auxiliaryFile": [
-    "444583",
-    "439136"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/444583",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0284/19_mU",
+      "fileName": "00444583.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00444583.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00444583.pdf",
+      "created": "2019-11-19T15:31:57+01:00",
+      "modified": "2019-11-19T15:31:58+01:00"
+    }
   ],
-  "id": "17930",
-  "publishedDate": "2019-10-29",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8665",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39826",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17930",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123575",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8665",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-29T15:15:42+01:00",
+      "modified": "2019-11-19T15:49:45+01:00"
     }
-  ]
+  ],
+  "created": "2019-10-29T15:04:41+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

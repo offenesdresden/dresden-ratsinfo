@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17926",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Änderung Sitzungstermin November 2020",
-  "shortName": "V-SB0106/19",
   "reference": "V-SB0106/19",
+  "date": "2019-10-29",
   "paperType": "Vorlage OS Schönborn",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-29",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/439106",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönborn",
+    "fileName": "00439106.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00439106.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00439106.pdf",
+    "created": "2019-10-29T14:08:28+01:00",
+    "modified": "2019-11-26T12:40:18+01:00"
+  },
   "auxiliaryFile": [
-    "439106",
-    "445901"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/445901",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0106/19_mU",
+      "fileName": "00445901.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00445901.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00445901.pdf",
+      "created": "2019-11-26T12:39:36+01:00",
+      "modified": "2019-11-26T12:40:18+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/39"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8492",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39822",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17926",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123582",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8492",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-29T16:22:19+01:00",
+      "modified": "2019-11-29T09:05:24+01:00"
     }
   ],
-  "id": "17926"
+  "created": "2019-10-29T14:08:10+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

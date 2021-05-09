@@ -1,141 +1,316 @@
 {
-  "shortName": "S/005/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Seniorenbeirat - 14.09.2015 - 09:00-12:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "6"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Seniorenbeirates",
   "start": "2015-09-14T09:00:00+02:00",
   "end": "2015-09-14T12:45:00+02:00",
-  "invitation": "221122",
-  "auxiliaryFile": [
-    "222392",
-    "228064",
-    "222940",
-    "226782",
-    "226783",
-    "216682",
-    "218326",
-    "216684",
-    "216683",
-    "216681"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/6"
   ],
-  "verbatimProtocol": "228144",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/404",
+    "http://oparl.dresden.de/bodies/0001/people/406",
+    "http://oparl.dresden.de/bodies/0001/people/835",
+    "http://oparl.dresden.de/bodies/0001/people/1376",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/412",
+    "http://oparl.dresden.de/bodies/0001/people/413",
+    "http://oparl.dresden.de/bodies/0001/people/414",
+    "http://oparl.dresden.de/bodies/0001/people/415",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/841",
+    "http://oparl.dresden.de/bodies/0001/people/1443",
+    "http://oparl.dresden.de/bodies/0001/people/1445",
+    "http://oparl.dresden.de/bodies/0001/people/1446"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/221122",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_S",
+    "fileName": "00221122.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-09-08",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00221122.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00221122.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung Oberbürgermeister Herr Hilbert",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/216681",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "SenB 14_9_15 - Einl. Seidel",
+      "fileName": "00216681.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-07-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00216681.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00216681.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Festlegungen der vergangenen Sitzung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/216682",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "SenB 14_9_15 - Einl. Bürgerstiftung",
+      "fileName": "00216682.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-07-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00216682.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00216682.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorlagen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/216683",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "SenB 14_9_15 - Einl. Pratzka",
+      "fileName": "00216683.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-07-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00216683.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00216683.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Wohnentwicklung in Dresden",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9660",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "244170",
-      "auxiliaryFile": [
-        "249931",
-        "276346",
-        "283780",
-        "423791",
-        "318429",
-        "219599",
-        "215591",
-        "221353",
-        "210866",
-        "210867",
-        "199743",
-        "201072",
-        "201021",
-        "245721",
-        "234564",
-        "234694"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 11,
-        "no": 5,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/216684",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "SenB 14_9_15 - Einl. Marx",
+      "fileName": "00216684.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-07-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00216684.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00216684.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen zum BegleitdienstBE: Sozialamt, Frau Lohse",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/218326",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "SenB 14_9_15 - Einl. Hilbert",
+      "fileName": "00218326.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-08-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00218326.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00218326.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ältere Arbeitslose in DresdenBE: Jobcenter, Herr Pratzka",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/221122",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_S",
+      "fileName": "00221122.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00221122.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00221122.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Probleme Gehwege und FußverkehrBE: Stadtplanungsamt, Herr Pfeil        Herr Kummer",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/222392",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage zur Beschlussempfehlung V0400/15",
+      "fileName": "00222392.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00222392.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00222392.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorberatung Arbeitsplan 2016",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/222940",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen m. Unterschr. SenB 14_9_15",
+      "fileName": "00222940.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00222940.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00222940.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Sonstiges/Allgemeines",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/226782",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation Fußverkehr im Seniorenbeirat",
+      "fileName": "00226782.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00226782.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00226782.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bereitstellung und Betreibung des Objektes Prohliser Allee 3 und 5 als Übergangswohnheim mit 20 Plätzen für ältere wohnungslose Menschen und Festsetzung des Kostensatzes zur Betreibung",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10260",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "225578",
-      "auxiliaryFile": [
-        "240152",
-        "219597",
-        "217782",
-        "218591",
-        "215183",
-        "217083"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/226783",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation Wohnentwicklung in DD_2015-09-11",
+      "fileName": "00226783.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00226783.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00226783.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/228064",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen aus SB v. 14.09.15",
+      "fileName": "00228064.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00228064.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00228064.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/228144",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00228144.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00228144.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00228144.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4093",
-  "participant": [
-    "87",
-    "404",
-    "406",
-    "835",
-    "1376",
-    "98",
-    "708",
-    "412",
-    "420",
-    "414",
-    "1443",
-    "841",
-    "413",
-    "415",
-    "1445",
-    "1446",
-    "402"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69314",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung Oberbürgermeister Herr Hilbert",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69312",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "2",
+      "order": "2",
+      "name": "Festlegungen der vergangenen Sitzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69313",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "3",
+      "order": "3",
+      "name": "Vorlagen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "3.1",
+      "order": "4",
+      "name": "Wohnentwicklung in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/21101",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "4",
+      "order": "5",
+      "name": "Informationen zum Begleitdienst",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "5",
+      "order": "6",
+      "name": "Ältere Arbeitslose in Dresden",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69318",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "6",
+      "order": "7",
+      "name": "Probleme Gehwege und Fußverkehr",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69319",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "7",
+      "order": "8",
+      "name": "Vorberatung Arbeitsplan 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69320",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "8",
+      "order": "9",
+      "name": "Sonstiges/Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70621",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4093",
+      "number": "9",
+      "order": "10",
+      "name": "Bereitstellung und Betreibung des Objektes Prohliser Allee 3 und 5 als Übergangswohnheim mit 20 Plätzen für ältere wohnungslose Menschen und Festsetzung des Kostensatzes zur Betreibung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/21102",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

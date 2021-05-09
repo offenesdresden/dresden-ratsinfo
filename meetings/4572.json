@@ -1,176 +1,182 @@
 {
-  "shortName": "OBR Pi/015/2015",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 08.12.2015 - 18:00-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ortsbeirates Pieschen",
   "start": "2015-12-08T18:00:00+01:00",
   "end": "2015-12-08T21:45:00+01:00",
-  "invitation": "232995",
-  "verbatimProtocol": "234521",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/674",
+    "http://oparl.dresden.de/bodies/0001/people/1194",
+    "http://oparl.dresden.de/bodies/0001/people/1306",
+    "http://oparl.dresden.de/bodies/0001/people/1307",
+    "http://oparl.dresden.de/bodies/0001/people/678",
+    "http://oparl.dresden.de/bodies/0001/people/1178",
+    "http://oparl.dresden.de/bodies/0001/people/1309",
+    "http://oparl.dresden.de/bodies/0001/people/685",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/993",
+    "http://oparl.dresden.de/bodies/0001/people/1031",
+    "http://oparl.dresden.de/bodies/0001/people/1195",
+    "http://oparl.dresden.de/bodies/0001/people/1317",
+    "http://oparl.dresden.de/bodies/0001/people/1204",
+    "http://oparl.dresden.de/bodies/0001/people/1153",
+    "http://oparl.dresden.de/bodies/0001/people/1320",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/1312"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/232995",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00232995.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-11-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00232995.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00232995.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 13. und 14. Ortsbeiratssitzung im November 2015",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/232995",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00232995.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00232995.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00232995.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einrichtung einer Asylunterkunft \"Washingtonstraße\" zur Unterbringung asylsuchender Menschen",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11745",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "231721",
-        "231666",
-        "231538",
-        "231534",
-        "231535",
-        "235666",
-        "234703"
-      ],
-      "result": "Zustimmung mit Änderung"
-    },
-    {
-      "name": "Anmietung von zwei Gebäuden zur Unterbringung von besonderen Bedarfsgruppen",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11759",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "234925",
-      "auxiliaryFile": [
-        "260573",
-        "249774",
-        "232601",
-        "232193",
-        "232018",
-        "232019",
-        "234700",
-        "235672",
-        "234706"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 12,
-        "no": 3,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 3011, Dresden-Trachau Nr. 4, Wohnbebauung Neuländer Straßehier:1. Aufstellungsbeschluss Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des Bebauungsplanes3. Entfallen des frühzeitigen Beteiligungsverfahrens",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10396",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "237172",
-      "auxiliaryFile": [
-        "248311",
-        "290114",
-        "341588",
-        "395642",
-        "468288",
-        "226625",
-        "226050",
-        "219131",
-        "219132"
-      ],
-      "result": "einstimmig",
-      "vote": {
-        "yes": 19,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Integrierte Handlungskonzepte  EFRE 2014-2020 Bewerbung der Landeshauptstadt Dresden um Fördermittel des Europäischen Fonds für Regionale Entwicklung (EFRE)",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11549",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "240278",
-        "258477",
-        "230966",
-        "230367",
-        "228518",
-        "228519",
-        "228520",
-        "228522",
-        "228523",
-        "228524",
-        "237186",
-        "226682"
-      ],
-      "resolutionFile": "224818",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verkauf des Grundstückes Konkordienplatz 3 in Dresden",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10428",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "264123",
-      "auxiliaryFile": [
-        "275707",
-        "288170",
-        "296478",
-        "230174",
-        "229436",
-        "220077",
-        "228351"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/234521",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00234521.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00234521.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00234521.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4572",
-  "participant": [
-    "1307",
-    "1194",
-    "674",
-    "402",
-    "1306",
-    "1309",
-    "678",
-    "1178",
-    "967",
-    "993",
-    "685",
-    "1031",
-    "1195",
-    "1317",
-    "1204",
-    "1153",
-    "1320",
-    "696",
-    "1312"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73858",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 13. und 14. Ortsbeiratssitzung im November 2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73860",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "2.1",
+      "order": "3",
+      "name": "Einrichtung einer Asylunterkunft \"Washingtonstraße\" zur Unterbringung asylsuchender Menschen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23129",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73948",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "2.2",
+      "order": "4",
+      "name": "Anmietung von zwei Gebäuden zur Unterbringung von besonderen Bedarfsgruppen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23181",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "2.3",
+      "order": "5",
+      "name": "Bebauungsplan Nr. 3011, Dresden-Trachau Nr. 4, Wohnbebauung Neuländer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/21161",
+      "result": "einstimmig",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "2.4",
+      "order": "6",
+      "name": "Integrierte Handlungskonzepte  EFRE 2014-2020 Bewerbung der Landeshauptstadt Dresden um Fördermittel des Europäischen Fonds für Regionale Entwicklung (EFRE)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/22601",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "3",
+      "order": "7",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73861",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4572",
+      "number": "3.1",
+      "order": "8",
+      "name": "Verkauf des Grundstückes Konkordienplatz 3 in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/22939",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

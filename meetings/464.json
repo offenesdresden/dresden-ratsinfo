@@ -1,168 +1,193 @@
 {
-  "shortName": "OBR Co/009/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,Lübecker Straße 121, 01157 Dresden",
-  "name": "Ortsbeirat Cotta - 26.08.2010 - 18:00-20:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "37"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/464",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "9. Sitzung des Ortsbeirates Cotta",
   "start": "2010-08-26T18:00:00+02:00",
   "end": "2010-08-26T20:55:00+02:00",
-  "invitation": "38323",
-  "verbatimProtocol": "39616",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Ortsamt Cotta, kleiner Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:54+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/37"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/765",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/773",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/776",
+    "http://oparl.dresden.de/bodies/0001/people/778",
+    "http://oparl.dresden.de/bodies/0001/people/451",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/410",
+    "http://oparl.dresden.de/bodies/0001/people/782",
+    "http://oparl.dresden.de/bodies/0001/people/784",
+    "http://oparl.dresden.de/bodies/0001/people/786",
+    "http://oparl.dresden.de/bodies/0001/people/788",
+    "http://oparl.dresden.de/bodies/0001/people/790",
+    "http://oparl.dresden.de/bodies/0001/people/791",
+    "http://oparl.dresden.de/bodies/0001/people/764",
+    "http://oparl.dresden.de/bodies/0001/people/768",
+    "http://oparl.dresden.de/bodies/0001/people/938"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/38323",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Co",
+    "fileName": "00038323.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-08-18",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00038323.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00038323.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 8. Ortsbeiratssitzung am 17. Juni 2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 5,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/38323",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Co",
+      "fileName": "00038323.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-08-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00038323.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00038323.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Besetzung der Schiedsstellen Cotta-Bereich Gorbitz und Cotta-Übriger Bereich mit je einer Friedensrichterin/einem Friedensrichter sowie je einer Protokollführerin/einem Protokollführer",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung des Integrierten Handlungskonzeptes \"Stadtteile mit besonderem Entwicklungsbedarf - Die Soziale Stadt Dresden Gorbitz\" für den Zeitraum 2010 bis 2020",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1969",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "37958",
-        "120558",
-        "283827",
-        "156010",
-        "191328",
-        "236189",
-        "35242",
-        "37955",
-        "35244",
-        "35245",
-        "35246",
-        "35247",
-        "35248",
-        "35249",
-        "35250",
-        "35251",
-        "35252",
-        "35253",
-        "35254",
-        "35255",
-        "35256",
-        "35257",
-        "35258",
-        "35259",
-        "35260",
-        "35261",
-        "35262",
-        "35263",
-        "35264",
-        "35265",
-        "36616",
-        "31137",
-        "35785",
-        "71874"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 683, Dresden-Leutewitz, Wohnbebauung am Leutewitzer Parkhier:\t1. Änderung der Grenze des vorhabenbezogenen Bebauungsplanes        \t2. Billigung des Entwurfes zum vorhabenbezogenen Bebauungsplan        \t3. Billigung der Begründung zum vorhabenbezogenen  Bebauungsplan-Entwurf        \t4. Öffentliche Auslegung des Entwurfes zum vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Maßnahmen zur verkehrlichen Verbesserung an der B 6 in Cossebaude und Stetzsch",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
-    },
-    {
-      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2112",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31143"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 12,
-        "no": 3,
-        "neutral": 9,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Drohender Grundschulnotstand in Dresden",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2113",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31142",
-        "31225"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/39616",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00039616.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00039616.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00039616.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "464",
-  "participant": [
-    "765",
-    "773",
-    "769",
-    "409",
-    "776",
-    "778",
-    "780",
-    "451",
-    "782",
-    "410",
-    "786",
-    "784",
-    "788",
-    "791",
-    "790",
-    "764",
-    "768",
-    "938"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11107",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 8. Ortsbeiratssitzung am 17. Juni 2010",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11120",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "2",
+      "order": "2",
+      "name": "Besetzung der Schiedsstellen Cotta-Bereich Gorbitz und Cotta-Übriger Bereich mit je einer Friedensrichterin/einem Friedensrichter sowie je einer Protokollführerin/eines Protokollführers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11109",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11619",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "3.1",
+      "order": "4",
+      "name": "Fortschreibung des Integrierten Handlungskonzeptes \"Stadtteile mit besonderem Entwicklungsbedarf - Die Soziale Stadt Dresden Gorbitz\" für den Zeitraum 2010 bis 2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3244",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11281",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "3.2",
+      "order": "5",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 683, Dresden-Leutewitz, Wohnbebauung am Leutewitzer Park",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4111",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "3.3",
+      "order": "6",
+      "name": "Maßnahmen zur verkehrlichen Verbesserung an der B 6 in Cossebaude und Stetzsch",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3301",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11111",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "3.4",
+      "order": "7",
+      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3423",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11112",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "3.5",
+      "order": "8",
+      "name": "Drohender Grundschulnotstand in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3449",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11119",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/464",
+      "number": "4",
+      "order": "9",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

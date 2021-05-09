@@ -1,24 +1,12 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1514",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Birger Höhn",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Stellvertretendes Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "147",
-      "startDate": "2015-07-09"
-    }
-  ],
-  "postalCode": "01309",
-  "locality": "Dresden",
-  "streetAddress": "Wartburgstraße 5",
-  "status": [
-    "DIE LINKE."
-  ],
+  "familyName": "Höhn",
+  "givenName": "Birger",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0351/25 57 90 52",
     "01525/84 70 163"
@@ -26,5 +14,19 @@
   "email": [
     "birger.hoehn@dielinke-dresden.de"
   ],
-  "id": "1514"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/6666",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1514",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/147",
+      "role": "Stellvertretendes Mitglied",
+      "startDate": "2015-07-09",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2020-01-06T09:46:47+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2021-04-07T09:06:30+02:00",
+  "web": ""
 }

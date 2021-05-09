@@ -1,30 +1,33 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/453",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Thomas Pallutt",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "stimmberechtigte Mitglieder",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "10",
-      "startDate": "2009-08-19",
-      "endDate": "2014-09-03"
-    },
-    {
-      "role": "Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "startDate": "2010-06-10",
-      "endDate": "2014-08-31"
-    }
-  ],
+  "familyName": "Pallutt",
+  "givenName": "Thomas",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0351/2 80 48 01"
   ],
   "email": [
     "thomas.pallutt@awo-in-sachsen.de"
   ],
-  "id": "453"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/2355",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/453",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/10",
+      "role": "stimmberechtigte Mitglieder",
+      "votingRight": true,
+      "startDate": "2009-08-19",
+      "endDate": "2014-09-03",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

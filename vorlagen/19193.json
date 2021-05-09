@@ -1,24 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19193",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verlängerung Radweg B6 sowie Verbesserung ÖPNV-Anbindung Helmholtz-Zentrum Dresden-Rossendorf",
-  "shortName": "V-SW0339/20",
   "reference": "V-SW0339/20",
+  "date": "2020-07-02",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-07-02",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/483921",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00483921.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-07-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00483921.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00483921.pdf",
+    "created": "2020-07-02T09:15:01+02:00",
+    "modified": "2020-07-02T13:44:37+02:00"
+  },
   "auxiliaryFile": [
-    "483921"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/487739",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0339/20",
+      "fileName": "00487739.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00487739.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00487739.pdf",
+      "created": "2020-07-20T07:40:57+02:00",
+      "modified": "2020-07-20T08:29:18+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/502397",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_OSR Schönfeld-Weißig_V-SW0339/20_2020-09-24_Zwischenbericht",
+      "fileName": "00502397.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00502397.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00502397.pdf",
+      "created": "2020-09-28T07:20:35+02:00",
+      "modified": "2020-09-28T07:20:36+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8934",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42884",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19193",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/134678",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8934",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-07-02T09:12:43+02:00",
+      "modified": "2020-07-20T07:48:52+02:00"
     }
   ],
-  "id": "19193"
+  "created": "2020-07-02T09:11:57+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

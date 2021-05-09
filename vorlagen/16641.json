@@ -1,26 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16641",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Interimstreppe zur Absicherung von Trauungen /Sitzungen am Rathaus Weixdorf",
-  "shortName": "V-WX0063/19",
   "reference": "V-WX0063/19",
+  "date": "2019-03-19",
   "paperType": "Vorlage OS Weixdorf",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-03-19",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/400896",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Weixdorf",
+    "fileName": "00400896.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-03-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00400896.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00400896.pdf",
+    "created": "2019-03-19T09:54:07+01:00",
+    "modified": "2019-03-28T12:14:05+01:00"
+  },
   "auxiliaryFile": [
-    "401836",
-    "400896",
-    "400953"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/400953",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Planungsskizze Interim",
+      "fileName": "00400953.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00400953.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00400953.pdf",
+      "created": "2019-03-19T10:11:21+01:00",
+      "modified": "2019-03-28T12:14:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/401836",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Ortschaftsrat Weixdorf_V-WX0063/19_Interimstreppe zur Absicherung von Trauungen",
+      "fileName": "00401836.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00401836.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00401836.pdf",
+      "created": "2019-03-21T16:48:00+01:00",
+      "modified": "2019-03-28T12:14:05+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/37"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7927",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36932",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16641",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/115107",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7927",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-03-19T10:21:08+01:00",
+      "modified": "2019-04-16T10:43:38+02:00"
     }
   ],
-  "id": "16641"
+  "created": "2019-03-19T09:53:27+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

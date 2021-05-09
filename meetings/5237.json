@@ -1,110 +1,151 @@
 {
-  "shortName": "OBR Pi/020/2016",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 03.05.2016 - 18:00-19:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5237",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortsbeirates Pieschen",
   "start": "2016-05-03T18:00:00+02:00",
   "end": "2016-05-03T19:50:00+02:00",
-  "invitation": "251267",
-  "verbatimProtocol": "252985",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/674",
+    "http://oparl.dresden.de/bodies/0001/people/1194",
+    "http://oparl.dresden.de/bodies/0001/people/1306",
+    "http://oparl.dresden.de/bodies/0001/people/1307",
+    "http://oparl.dresden.de/bodies/0001/people/678",
+    "http://oparl.dresden.de/bodies/0001/people/1178",
+    "http://oparl.dresden.de/bodies/0001/people/1309",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/993",
+    "http://oparl.dresden.de/bodies/0001/people/1031",
+    "http://oparl.dresden.de/bodies/0001/people/1195",
+    "http://oparl.dresden.de/bodies/0001/people/1204",
+    "http://oparl.dresden.de/bodies/0001/people/1153",
+    "http://oparl.dresden.de/bodies/0001/people/1320",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/686"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/251267",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00251267.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-04-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00251267.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00251267.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 19. Ortsbeiratssitzung am 5. April 2016",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/251267",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00251267.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00251267.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00251267.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 110.4 b, Dresden-Kaditz/Mickten, Kötzschenbroder Straße/Lommatzscher Straße (Änderungssatzung)hier:1. Billigung des Bebauungsplanentwurfs2. Billigung der Begründung zum Bebauungsplan-Entwurf3. Durchführung des Beteiligungsverfahrens zum Bebauungsplan-Entwurf",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12130",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "257920",
-      "auxiliaryFile": [
-        "269915",
-        "308278",
-        "333134",
-        "251250",
-        "250789",
-        "248149",
-        "247133",
-        "247134",
-        "243873"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verkehrsbauvorhaben „Bestandsnahe Gleissanierung Großenhainer Straße zwischen Conradstraße und Fritz-Reuter-Straße“",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12160",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259089",
-      "auxiliaryFile": [
-        "281329",
-        "309713",
-        "365914",
-        "427013",
-        "507004",
-        "252318",
-        "250792",
-        "245001",
-        "245002"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 16,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2017",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/252985",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00252985.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00252985.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00252985.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5237",
-  "participant": [
-    "1307",
-    "1194",
-    "674",
-    "1306",
-    "1309",
-    "678",
-    "1178",
-    "967",
-    "993",
-    "1031",
-    "1195",
-    "1204",
-    "1153",
-    "1320",
-    "696",
-    "686"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78499",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5237",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 19. Ortsbeiratssitzung am 5. April 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78501",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5237",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78502",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5237",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 110.4 b, Dresden-Kaditz/Mickten, Kötzschenbroder Straße/Lommatzscher Straße (Änderungssatzung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24263",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78508",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5237",
+      "number": "2.2",
+      "order": "4",
+      "name": "Verkehrsbauvorhaben „Bestandsnahe Gleissanierung Großenhainer Straße zwischen Conradstraße und Fritz-Reuter-Straße“",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24346",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78509",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5237",
+      "number": "3",
+      "order": "5",
+      "name": "Straßenreinigungsgebührensatzung 2017",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78503",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5237",
+      "number": "4",
+      "order": "6",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

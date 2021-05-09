@@ -1,49 +1,90 @@
 {
-  "shortName": "SG/057/2013",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Soziales, Gesundheit und Wohnen - 07.11.2013 - 16:00-17:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "18"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2613",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "57. Sitzung des Ausschusses für Soziales, Gesundheit und Wohnen",
   "start": "2013-11-07T16:00:00+01:00",
   "end": "2013-11-07T17:45:00+01:00",
-  "invitation": "148923",
-  "verbatimProtocol": "150784",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/18"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/45",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/950",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/269",
+    "http://oparl.dresden.de/bodies/0001/people/1068",
+    "http://oparl.dresden.de/bodies/0001/people/70",
+    "http://oparl.dresden.de/bodies/0001/people/88"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/148923",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SG_2013_11_07",
+    "fileName": "00148923.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-10-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00148923.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00148923.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Gleiche Förderung von Kindern mit Behinderung in Wohnheimen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7140",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "150494",
-      "auxiliaryFile": [
-        "132355",
-        "132347"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/148923",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SG_2013_11_07",
+      "fileName": "00148923.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00148923.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00148923.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150784",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00150784.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150784.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150784.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2613",
-  "participant": [
-    "7",
-    "28",
-    "45",
-    "277",
-    "78",
-    "950",
-    "278",
-    "58",
-    "269",
-    "1068"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46701",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2613",
+      "number": "1",
+      "order": "1",
+      "name": "Gleiche Förderung von Kindern mit Behinderung in Wohnheimen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12992",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

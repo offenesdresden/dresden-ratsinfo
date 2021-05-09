@@ -1,92 +1,159 @@
 {
-  "shortName": "OBR Kl/001/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 03.11.2014 - 18:30-21:09 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3625",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Ortsbeirates Klotzsche",
   "start": "2014-11-03T18:30:00+01:00",
   "end": "2014-11-03T21:09:00+01:00",
-  "invitation": "183232",
-  "auxiliaryFile": [
-    "183760"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
   ],
-  "verbatimProtocol": "185160",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/599",
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1062",
+    "http://oparl.dresden.de/bodies/0001/people/1348",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/610",
+    "http://oparl.dresden.de/bodies/0001/people/1345",
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/612",
+    "http://oparl.dresden.de/bodies/0001/people/613",
+    "http://oparl.dresden.de/bodies/0001/people/1342",
+    "http://oparl.dresden.de/bodies/0001/people/617",
+    "http://oparl.dresden.de/bodies/0001/people/615"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/183232",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00183232.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-10-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00183232.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00183232.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/183760",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_OBR Kl",
+    "fileName": "00183760.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-10-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00183760.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00183760.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung der neuen Mitglieder des Ortsbeirates sowie Verpflichtung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/183232",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00183232.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-10-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00183232.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00183232.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Die Stadtteilrunde Nord stellt sich vor",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/183760",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_OBR Kl",
+      "fileName": "00183760.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-10-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00183760.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00183760.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Maßnahmeplan zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen in den Jahren 2015/2016",
-      "number": "Ö 3 Nachtrag: 24.10.2014  Nummer 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8958",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "191394",
-      "auxiliaryFile": [
-        "260364",
-        "238840",
-        "289373",
-        "308048",
-        "365944",
-        "436041",
-        "183674",
-        "182824",
-        "184283",
-        "183737",
-        "182012",
-        "182868",
-        "182869",
-        "180568",
-        "202739",
-        "191550",
-        "191551",
-        "191647"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 1,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/185160",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00185160.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185160.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185160.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3625",
-  "participant": [
-    "1062",
-    "599",
-    "1348",
-    "601",
-    "607",
-    "610",
-    "1345",
-    "612",
-    "611",
-    "613",
-    "1342",
-    "617",
-    "615"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3625",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung der neuen Mitglieder des Ortsbeirates sowie Verpflichtung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58576",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3625",
+      "number": "2",
+      "order": "2",
+      "name": "Die Stadtteilrunde Nord stellt sich vor",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58665",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3625",
+      "number": "3",
+      "order": "3",
+      "name": "Maßnahmeplan zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen in den Jahren 2015/2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17011",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3625",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen des Ortsamtsleiters",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3625",
+      "number": "5",
+      "order": "5",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

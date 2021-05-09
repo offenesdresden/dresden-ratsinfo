@@ -1,32 +1,45 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1421",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Andreas Barth",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Ortsbeiratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "37",
-      "startDate": "2014-10-16",
-      "endDate": "2018-09-30"
-    },
-    {
-      "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "168",
-      "startDate": "2018-09-14",
-      "endDate": "2019-10-10"
-    }
-  ],
+  "familyName": "Barth",
+  "givenName": "Andreas",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0152/24 08 83 53"
   ],
   "email": [
     "andreas.barth@meindresdnerwesten.de"
   ],
-  "photo": "https://ratsinfo.dresden.de/im/pe1421.jpg",
-  "id": "1421"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/8902",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1421",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/168",
+      "role": "Mitglied Stadtbezirksbeirat",
+      "votingRight": true,
+      "startDate": "2018-09-14",
+      "endDate": "2019-10-10",
+      "created": "2018-09-12T06:13:04+02:00",
+      "modified": "2019-10-07T09:42:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/5399",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1421",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/37",
+      "role": "Ortsbeiratsmitglied",
+      "votingRight": true,
+      "startDate": "2014-10-16",
+      "endDate": "2018-09-30",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18140",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-65-00257, Ersatzneubau einer Kindertageseinrichtung für die ehemalige Schule, Friedrich-Wolf-Straße 7, 01465 Dresden, Los 03 - Freianlagen",
-  "shortName": "V0150/19",
   "reference": "V0150/19",
+  "date": "2019-12-05",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-12-03",
   "auxiliaryFile": [
-    "451000"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/451000",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V0150/19_mU",
+      "fileName": "00451000.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00451000.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00451000.pdf",
+      "created": "2019-12-19T14:57:30+01:00",
+      "modified": "2019-12-19T14:57:30+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7784",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40197",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18140",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/125341",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7784",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-12-05T14:31:36+01:00",
+      "modified": "2019-12-19T15:33:24+01:00"
     }
   ],
-  "id": "18140"
+  "created": "2019-12-03T08:28:24+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

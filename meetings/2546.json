@@ -1,178 +1,215 @@
 {
-  "shortName": "SB/071/2013",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Stadtentwicklung und Bau - 21.08.2013 - 16:00-19:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "11"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "71. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "start": "2013-08-21T16:00:00+02:00",
   "end": "2013-08-21T19:50:00+02:00",
-  "invitation": "140542",
-  "auxiliaryFile": [
-    "141278",
-    "141337"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
   ],
-  "verbatimProtocol": "146575",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/25",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/716",
+    "http://oparl.dresden.de/bodies/0001/people/254",
+    "http://oparl.dresden.de/bodies/0001/people/887",
+    "http://oparl.dresden.de/bodies/0001/people/46"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/140542",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SB_2013_08_21",
+    "fileName": "00140542.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-08-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00140542.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00140542.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/141278",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung Antrag ff_A0736/13_SB",
+    "fileName": "00141278.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-08-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00141278.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00141278.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bebauungsplan Nr. 252, Dresden-Kleinzschachwitz Nr. 2, Kleinzschachwitzer Uferhier:Aufhebung des Aufstellungsbeschlusses zum Bebauungsplan",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7017",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "141272",
-      "auxiliaryFile": [
-        "156219",
-        "132158",
-        "131331",
-        "129534",
-        "129535",
-        "129536"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/140542",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SB_2013_08_21",
+      "fileName": "00140542.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-08-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00140542.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00140542.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bericht zur Beseitigung der letzten Beton-Wartehäuschen und Programm zur Haltestellenausstattung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7068",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "159105",
-      "auxiliaryFile": [
-        "135892",
-        "135385",
-        "130519",
-        "130520",
-        "130521",
-        "130522",
-        "130523",
-        "184618"
-      ],
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/141278",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Antrag ff_A0736/13_SB",
+      "fileName": "00141278.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-08-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00141278.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00141278.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 3000, Dresden-Bühlau Nr. 9, P+R-Platz Bühlauhier:\t1. Aufstellungsbeschluss Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des Bebauungsplanes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7258",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "141273",
-      "auxiliaryFile": [
-        "154454",
-        "136205",
-        "135836",
-        "135297",
-        "135298",
-        "135299"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/141337",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö",
+      "fileName": "00141337.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-08-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00141337.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00141337.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Errichtung von Informationstafeln zur Dokumentation der Geschichte und des Baus der Dresdner Waldschlößchenbrücke",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7054",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "141274",
-      "auxiliaryFile": [
-        "130258"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 1,
-        "no": 5,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen/Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Folgen der Einführung einer neuen \"Richtlinie für die Nachrechnung von Straßenbrücken im Bestand\" für den Bauwerksbestand der Landeshauptstadt Dresden, speziell für den Verkehrszug Nossener Brücke",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7159",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "134489"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "\"Dresdner Debatte zum Verkehrsentwicklungsplan 2025plus\", Öffentlicher Dialog zur Verkehrsentwicklung in Dresden",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7343",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "138624",
-        "138159",
-        "137745",
-        "137757"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Stadtbahn 2020, Straßenbahn-Neubaustrecke Löbtau - Südvorstadt - Strehlen, Teilstrecke 1.2: Nossener Brücke - Nürnberger Straße, Variantenvoruntersuchung",
-      "number": "Ö 5.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7139",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "140168",
-        "139860",
-        "135407",
-        "132260",
-        "132261",
-        "132263"
-      ],
-      "resolutionFile": "132262",
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/146575",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00146575.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00146575.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00146575.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2546",
-  "participant": [
-    "25",
-    "38",
-    "66",
-    "87",
-    "640",
-    "62",
-    "274",
-    "716",
-    "265",
-    "254",
-    "887",
-    "46"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44233",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "1",
+      "order": "1",
+      "name": "Bebauungsplan Nr. 252, Dresden-Kleinzschachwitz Nr. 2, Kleinzschachwitzer Ufer",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12707",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44234",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "2",
+      "order": "2",
+      "name": "Bericht zur Beseitigung der letzten Beton-Wartehäuschen und Programm zur Haltestellenausstattung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12829",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44236",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "3",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 3000, Dresden-Bühlau Nr. 9, P+R-Platz Bühlau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13236",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "4",
+      "order": "4",
+      "name": "Errichtung von Informationstafeln zur Dokumentation der Geschichte und des Baus der Dresdner Waldschlößchenbrücke",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12803",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44258",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44235",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "5.1",
+      "order": "6",
+      "name": "Folgen der Einführung einer neuen \"Richtlinie für die Nachrechnung von Straßenbrücken im Bestand\" für den Bauwerksbestand der Landeshauptstadt Dresden, speziell für den Verkehrszug Nossener Brücke",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13080",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44239",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "5.2",
+      "order": "7",
+      "name": "\"Dresdner Debatte zum Verkehrsentwicklungsplan 2025plus\", Öffentlicher Dialog zur Verkehrsentwicklung in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13481",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44260",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2546",
+      "number": "5.3",
+      "order": "8",
+      "name": "Stadtbahn 2020, Straßenbahn-Neubaustrecke Löbtau - Südvorstadt - Strehlen, Teilstrecke 1.2: Nossener Brücke - Nürnberger Straße, Variantenvoruntersuchung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12984",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

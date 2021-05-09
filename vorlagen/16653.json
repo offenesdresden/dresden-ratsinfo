@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16653",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-65-00011, Rahmenvereinbarung für regelmäßig wiederkehrende Instandhaltungsarbeiten 2019-2021, Parkettarbeiten",
-  "shortName": "V2971/19",
   "reference": "V2971/19",
+  "date": "2019-03-22",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-03-19",
   "auxiliaryFile": [
-    "405468"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/405468",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2971/19_mU",
+      "fileName": "00405468.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00405468.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00405468.pdf",
+      "created": "2019-04-08T06:26:07+02:00",
+      "modified": "2019-04-08T06:26:09+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7774",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36947",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16653",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/115291",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7774",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-03-20T15:43:29+01:00",
+      "modified": "2019-04-03T15:45:15+02:00"
     }
   ],
-  "id": "16653"
+  "created": "2019-03-19T14:38:06+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

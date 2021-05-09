@@ -1,87 +1,178 @@
 {
-  "shortName": "OSR SB/020/2011",
-  "locality": "Landeshauptstadt Dresden, im Bürgerhaus (ehem. Gemeindeamt)Seifersdorfer Straße 6, 01465 Dresden OT Schönborn",
-  "name": "Ortschaftsrat Schönborn - 30.03.2011 - 19:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortschaftsrates Schönborn",
   "start": "2011-03-30T19:30:00+02:00",
   "end": "2011-03-30T21:30:00+02:00",
-  "invitation": "58753",
-  "verbatimProtocol": "94172",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/58753",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00058753.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-03-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00058753.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00058753.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Sachstand Beschluss zu A0195/10: Fortschreibung des Konzeptes aus 2002 zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftigen Fußwegen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/58753",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00058753.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-03-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00058753.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00058753.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Information Vorlage V0913/11: Verteilung der zusätzlich bereit gestellten Mittel für die Investpauschale",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/60915",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschluss_OSR_SB_Fußwege",
+      "fileName": "00060915.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-04-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00060915.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00060915.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Sachstandsbericht Beschluss OR SB 02/2011, Absprache weitere Verfahrensweise",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Abnahme Schild Bürgerhaus Heimatverein",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sachstand Offenlegung Schönborner Dorfach BA 2",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Absprache zum Veranstaltungskalender Schönborn",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Allgemeines",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem Anlass an Sonntagen im Jahr 2011",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3845",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "65652",
-      "auxiliaryFile": [
-        "59605",
-        "58743",
-        "59887"
-      ]
-    },
-    {
-      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem regionalen Anlass an Sonntagen im Jahr 2011",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3844",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "65610",
-      "auxiliaryFile": [
-        "59609",
-        "59888"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/files/94172",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00094172.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00094172.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00094172.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1516",
-  "participant": [
-    "357",
-    "362",
-    "358",
-    "356",
-    "355"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "1",
+      "order": "1",
+      "name": "Sachstand Beschluss zu A0195/10: Fortschreibung des Konzeptes aus 2002 zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftigen Fußwegen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18218",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "2",
+      "order": "2",
+      "name": "Information Vorlage V0913/11: Verteilung der zusätzlich bereit gestellten Mittel für die Investpauschale",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18219",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "3",
+      "order": "3",
+      "name": "Sachstandsbericht Beschluss OR SB 02/2011, Absprache weitere Verfahrensweise",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "4",
+      "order": "4",
+      "name": "Abnahme Schild Bürgerhaus Heimatverein",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "5",
+      "order": "5",
+      "name": "Sachstand Offenlegung Schönborner Dorfach BA 2",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18222",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "6",
+      "order": "6",
+      "name": "Absprache zum Veranstaltungskalender Schönborn",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "7",
+      "order": "7",
+      "name": "Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "8",
+      "order": "8",
+      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem Anlass an Sonntagen im Jahr 2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/6017",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/18884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1516",
+      "number": "9",
+      "order": "9",
+      "name": "Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen aus besonderem regionalen Anlass an Sonntagen im Jahr 2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5994",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

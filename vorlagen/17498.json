@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17498",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beschluss zum Antrag des Kleingartenverein \"Bergfrieden\" Gompitz e. V. auf Gewährung einer Zuwendung für Gartenfest zum 90-jährigen Jubiläum",
-  "shortName": "V-GP0224/19",
   "reference": "V-GP0224/19",
+  "date": "2019-08-28",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/426804",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Gompitz",
+    "fileName": "00426804.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-08-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426804.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426804.pdf",
+    "created": "2019-08-22T11:56:51+02:00",
+    "modified": "2019-09-09T12:07:27+02:00"
+  },
   "auxiliaryFile": [
-    "437480",
-    "426804"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/437480",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK_V-GP0224/19_Beschluss zum Antrag auf Gewährung einer Zuwendung für Gartenfest_GB 3_11.10.2019",
+      "fileName": "00437480.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00437480.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00437480.pdf",
+      "created": "2019-10-21T10:04:12+02:00",
+      "modified": "2020-02-07T15:15:31+01:00"
+    }
   ],
-  "id": "17498",
-  "publishedDate": "2019-08-22",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8458",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38869",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17498",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/120447",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8458",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-08-22T11:58:20+02:00",
+      "modified": "2019-09-10T08:55:31+02:00"
     }
-  ]
+  ],
+  "created": "2019-08-22T08:21:03+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

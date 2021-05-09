@@ -1,74 +1,177 @@
 {
-  "shortName": "OSR SB/020/2015",
-  "locality": "Landeshauptstadt Dresden, Versammlungsraum, Bürgerhaus Schönborn,Seifersdorfer Straße 6, 01465 Schönborn",
-  "name": "Ortschaftsrat Schönborn - 16.12.2015 - 18:30-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4493",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortschaftsrates Schönborn",
   "start": "2015-12-16T18:30:00+01:00",
   "end": "2015-12-16T19:30:00+01:00",
-  "invitation": "234626",
-  "resultsProtocol": "236271",
-  "auxiliaryFile": [
-    "236272"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
   ],
-  "verbatimProtocol": "235575",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/1257"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/234626",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00234626.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-12-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00234626.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00234626.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/236271",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung  SB 37_2015 Gestaltung Spielplatz Langebrücker Straße",
+    "fileName": "00236271.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-12-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00236271.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00236271.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/234626",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00234626.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00234626.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00234626.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Stellungnahme zur Anfrage des Objektverwalters Seifersdorfer Straße 1 in Schönborn zwecks   Zustimmung zur Vermietung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/235575",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00235575.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-01-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00235575.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00235575.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Spielplatz Schönborn Langebrücker Straße",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/236271",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung  SB 37_2015 Gestaltung Spielplatz Langebrücker Straße",
+      "fileName": "00236271.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00236271.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00236271.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Diskussion Fortführung Planung eines Bolzplatzes",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Änderung Antragsformular zur Vereinsförderung",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Allgemeines",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/236272",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SB 38_2015 Ablehnung Formularvorschlag Herr Aretz zur Vereinsförderung",
+      "fileName": "00236272.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00236272.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00236272.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4493",
-  "participant": [
-    "357",
-    "361",
-    "359",
-    "355",
-    "1257"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/74558",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4493",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/74704",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4493",
+      "number": "2",
+      "order": "2",
+      "name": "Stellungnahme zur Anfrage des Objektverwalters Seifersdorfer Straße 1 in Schönborn auf Zustimmung zur Vermietung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23419",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/74705",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4493",
+      "number": "3",
+      "order": "3",
+      "name": "Spielplatz Schönborn Langebrücker Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23418",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/74561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4493",
+      "number": "4",
+      "order": "4",
+      "name": "Diskussion Fortführung Planung eines Bolzplatzes",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/74562",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4493",
+      "number": "5",
+      "order": "5",
+      "name": "Änderung Antragsformular zur Vereinsförderung",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/74563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4493",
+      "number": "6",
+      "order": "6",
+      "name": "Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

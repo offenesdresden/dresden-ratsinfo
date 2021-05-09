@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16005",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung der Restmittel aus Verfügungsmitteln und Investpauschale des Ortschaftsrates",
-  "shortName": "V-LB0109/18",
   "reference": "V-LB0109/18",
+  "date": "2018-11-13",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-11-01",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/376306",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00376306.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-11-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00376306.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00376306.pdf",
+    "created": "2018-11-01T14:37:35+01:00",
+    "modified": "2018-11-30T10:10:43+01:00"
+  },
   "auxiliaryFile": [
-    "376306",
-    "382842"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/382842",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Ortschaftsrat Langebrück V-LB0109/18_mU",
+      "fileName": "00382842.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00382842.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00382842.pdf",
+      "created": "2018-11-30T07:42:21+01:00",
+      "modified": "2018-11-30T10:10:43+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6597",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35117",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16005",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/109258",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6597",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-11-09T10:27:38+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "16005"
+  "created": "2018-11-01T14:37:12+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19012",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Besetzung der Schiedsstelle Cotta - Bereich Gorbitz umfasse dabei auch die Ortschaft Altfranken sowie Schiedsstelle Cotta - übriger Bereich umfasse dabei auch die Ortschaften Cossebaude und Oberwartha mit einer Friedensrichterin/einem Friedensrichter",
-  "shortName": "V-Co00018/20",
   "reference": "V-Co00018/20",
+  "date": "2020-06-03",
   "paperType": "Vorlage STB Cotta",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "486212",
-    "477718"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/477718",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V-Co00018_20_mU",
+      "fileName": "00477718.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00477718.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00477718.pdf",
+      "created": "2020-06-03T11:20:30+02:00",
+      "modified": "2020-06-25T06:03:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/486212",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Cotta_V-Co00018/20",
+      "fileName": "00486212.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00486212.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00486212.pdf",
+      "created": "2020-07-13T07:55:40+02:00",
+      "modified": "2020-07-13T07:55:40+02:00"
+    }
   ],
-  "id": "19012",
-  "publishedDate": "2020-06-02",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/121"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9191",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42491",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19012",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/133245",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9191",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/168"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-06-04T13:53:26+02:00",
+      "modified": "2020-07-13T08:01:01+02:00"
     }
-  ]
+  ],
+  "created": "2020-06-02T08:25:43+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,144 +1,161 @@
 {
-  "shortName": "OBR Pro/009/2010",
-  "locality": "Ortsamt Prohlis, Prohliser Allee 10, 01239 Dresden, Bürgersaal",
-  "name": "Ortsbeirat Prohlis - 23.08.2010 - 17:00-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "41"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/443",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "9. Sitzung des Ortsbeirates Prohlis",
   "start": "2010-08-23T17:00:00+02:00",
   "end": "2010-08-23T20:30:00+02:00",
-  "invitation": "36559",
-  "agendaItem": [
+  "location": {
+    "description": "Ortsamt Prohlis, Prohliser Allee 10, 01239 Dresden, Bürgersaal"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/41"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/403",
+    "http://oparl.dresden.de/bodies/0001/people/533",
+    "http://oparl.dresden.de/bodies/0001/people/535",
+    "http://oparl.dresden.de/bodies/0001/people/536",
+    "http://oparl.dresden.de/bodies/0001/people/538",
+    "http://oparl.dresden.de/bodies/0001/people/546",
+    "http://oparl.dresden.de/bodies/0001/people/545",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/557",
+    "http://oparl.dresden.de/bodies/0001/people/559",
+    "http://oparl.dresden.de/bodies/0001/people/561",
+    "http://oparl.dresden.de/bodies/0001/people/563",
+    "http://oparl.dresden.de/bodies/0001/people/565",
+    "http://oparl.dresden.de/bodies/0001/people/935",
+    "http://oparl.dresden.de/bodies/0001/people/543",
+    "http://oparl.dresden.de/bodies/0001/people/553"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/36559",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pro_2010_08_23",
+    "fileName": "00036559.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-08-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00036559.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00036559.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Feststellung der Beschlussfähigkeit und Abstimmung über die Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kontrolle der Niederschrift zur 8. Ortsbeiratssitzung am 14.06.2010",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 369, Dresden-Leubnitz-Neuostra Nr. 5, Wohnanlage Friebelstraßehier:\t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplanes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2112",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31143"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 2,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Drohender Grundschulnotstand in Dresden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2113",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31142",
-        "31225"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 7,
-        "no": 7,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prioritätenliste zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftiger Fußwege",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2178",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "33382",
-        "138849",
-        "123277"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Erhalt und Entwicklung eines strukturreichen Altbaumbestandes auf dem Gebiet der Landeshauptstadt Dresden",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2243",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "61090",
-      "auxiliaryFile": [
-        "33428",
-        "33436"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 6,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/36559",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pro_2010_08_23",
+      "fileName": "00036559.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-08-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00036559.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00036559.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "443",
-  "participant": [
-    "895",
-    "535",
-    "533",
-    "87",
-    "538",
-    "403",
-    "536",
-    "546",
-    "545",
-    "935",
-    "554",
-    "559",
-    "557",
-    "563",
-    "561",
-    "565",
-    "543",
-    "553",
-    "941"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10276",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "1",
+      "order": "1",
+      "name": "Feststellung der Beschlussfähigkeit und Abstimmung über die Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10266",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "2",
+      "order": "2",
+      "name": "Kontrolle der Niederschrift zur 8. Ortsbeiratssitzung am 14.06.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10273",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "3",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 369, Dresden-Leubnitz-Neuostra Nr. 5, Wohnanlage Friebelstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3640",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10269",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "4",
+      "order": "4",
+      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3430",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10270",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "5",
+      "order": "5",
+      "name": "Drohender Grundschulnotstand in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3458",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10271",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "6",
+      "order": "6",
+      "name": "Prioritätenliste zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftiger Fußwege",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3571",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11167",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "7",
+      "order": "7",
+      "name": "Erhalt und Entwicklung eines strukturreichen Altbaumbestandes auf dem Gebiet der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3684",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10275",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/443",
+      "number": "8",
+      "order": "8",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

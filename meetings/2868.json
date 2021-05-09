@@ -1,291 +1,403 @@
 {
-  "shortName": "OSR OW/047/2013",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 19.09.2013 - 18:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "47. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2013-09-19T18:30:00+02:00",
   "end": "2013-09-19T21:30:00+02:00",
-  "invitation": "143629",
-  "resultsProtocol": "144785",
-  "auxiliaryFile": [
-    "144781",
-    "144791",
-    "144797",
-    "144839",
-    "144843",
-    "144768",
-    "144776"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
-  "verbatimProtocol": "144861",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/353"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/143629",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00143629.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-09-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00143629.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00143629.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/144768",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung TÜV Festzelt",
+    "fileName": "00144768.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-09-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144768.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144768.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/143629",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00143629.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00143629.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00143629.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung am 22.07.2013",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/144768",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung TÜV Festzelt",
+      "fileName": "00144768.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144768.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144768.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999hier:\t1. Billigung der Abwägung über die Stellungnahmen aus der frühzeitigen Beteiligung2. Billigung des Entwurfes des Flächennutzungsplanes3. Billigung der Begründung mit Umweltbericht zum Entwurf des Flächennutzungsplanes4. Öffentliche Auslegung des Entwurfes des Flächennutzungsplanes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "175398",
-      "auxiliaryFile": [
-        "182374",
-        "206715",
-        "228917",
-        "132554",
-        "132516",
-        "106470",
-        "266493",
-        "109725"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/144776",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Zuschuss Sommerfest",
+      "fileName": "00144776.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144776.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144776.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Stellungnahme zur Vorlage Entwurf Flächennutzungsplan der LHS Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/144781",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Grundreinigung",
+      "fileName": "00144781.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144781.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144781.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4864",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "190527",
-        "133484",
-        "132956",
-        "127793",
-        "109571"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/144785",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Beratung RA",
+      "fileName": "00144785.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144785.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144785.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Stellungnahme zum Entwurf Landschaftsplan der LHS Dresden",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/144791",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Pflege Bierallee",
+      "fileName": "00144791.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144791.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144791.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorbeugender Hochwasserschutz braucht Vorrang: Nachhaltigen Hochwasserschutz gewährleisten",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7316",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "136722",
-        "140180",
-        "136718",
-        "136719",
-        "136721"
-      ],
-      "resolutionFile": "159557",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/144797",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung STA-Straße Zur Schäferei",
+      "fileName": "00144797.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144797.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144797.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bauplanungen in hochwassergefährdeten Gebieten überprüfen - Hochwasservorsorge ernst nehmen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7332",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "137276",
-        "158918",
-        "157042",
-        "158850"
-      ],
-      "resolutionFile": "159556",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/144839",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung STN Vorlage FNP",
+      "fileName": "00144839.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144839.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144839.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Auswertung Hochwasserereignisse Juni 2013",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7333",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "137277"
-      ],
-      "resolutionFile": "159558",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/144843",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung STN zum LP",
+      "fileName": "00144843.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144843.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144843.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzmittel für TÜV Prüfbuch Festzelt OSR Oberwartha",
-      "number": "Ö 10.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzzuschuss für Sommerfest Oberwartha 2013",
-      "number": "Ö 10.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für Grundreinigung Kulturraum Oberwartha",
-      "number": "Ö 10.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für rechtliche Beratung zu Grundstücksangelegenheiten in Oberwartha",
-      "number": "Ö 10.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel zur Bereitstellung von Farbe für die Spielgeräte auf den Spielplatz Oberwartha",
-      "number": "Ö 10.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für Pflegemaßnahmen entlang des Wanderweges \"Bierallee\"",
-      "number": "Ö 10.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für Sanierungsmaßnahmen an der Straße \"Zur Schäferei\" in Oberwartha",
-      "number": "Ö 10.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/144861",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00144861.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144861.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144861.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2868",
-  "participant": [
-    "354",
-    "353",
-    "351",
-    "350"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45349",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45350",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung am 22.07.2013",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "3",
+      "order": "3",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10796",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45351",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "4",
+      "order": "4",
+      "name": "Stellungnahme zur Vorlage Entwurf Flächennutzungsplan der LHS Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13962",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45727",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "5",
+      "order": "5",
+      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10847",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45352",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "6",
+      "order": "6",
+      "name": "Stellungnahme zum Entwurf Landschaftsplan der LHS Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13963",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45364",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "7",
+      "order": "7",
+      "name": "Vorbeugender Hochwasserschutz braucht Vorrang: Nachhaltigen Hochwasserschutz gewährleisten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13424",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45365",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "8",
+      "order": "8",
+      "name": "Bauplanungen in hochwassergefährdeten Gebieten überprüfen - Hochwasservorsorge ernst nehmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13445",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45366",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "9",
+      "order": "9",
+      "name": "Auswertung Hochwasserereignisse Juni 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13467",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45353",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10",
+      "order": "10",
+      "name": "Finanzmittel",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45354",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10.1",
+      "order": "11",
+      "name": "Finanzmittel für TÜV Prüfbuch Festzelt OSR Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13964",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45356",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10.2",
+      "order": "12",
+      "name": "Finanzzuschuss für Sommerfest Oberwartha 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13965",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45357",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10.3",
+      "order": "13",
+      "name": "Finanzmittel für Grundreinigung Kulturraum Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13966",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45358",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10.4",
+      "order": "14",
+      "name": "Finanzmittel für rechtliche Beratung zu Grundstücksangelegenheiten in Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13967",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45359",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10.5",
+      "order": "15",
+      "name": "Finanzmittel zur Bereitstellung von Farbe für die Spielgeräte auf den Spielplatz Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13968",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45360",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10.6",
+      "order": "16",
+      "name": "Finanzmittel für Pflegemaßnahmen entlang des Wanderweges \"Bierallee\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13969",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45361",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "10.7",
+      "order": "17",
+      "name": "Finanzmittel für Sanierungsmaßnahmen an der Straße \"Zur Schäferei\" in Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13970",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45362",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2868",
+      "number": "11",
+      "order": "18",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

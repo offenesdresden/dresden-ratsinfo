@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16027",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Investitionsmitteln - Evangelisch-Lutherische Kirchgemeinde Eschdorf",
-  "shortName": "V-SW0193/18",
   "reference": "V-SW0193/18",
+  "date": "2018-11-09",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-11-06",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/377280",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00377280.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-11-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00377280.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00377280.pdf",
+    "created": "2018-11-06T14:23:52+01:00",
+    "modified": "2018-11-16T05:58:16+01:00"
+  },
   "auxiliaryFile": [
-    "381372",
-    "377280"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/381372",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0193/18_mU",
+      "fileName": "00381372.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00381372.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00381372.pdf",
+      "created": "2018-11-23T08:54:55+01:00",
+      "modified": "2018-11-23T11:40:10+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/466280",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_OSR Schönfeld-Weißig_V-SW0193/18_2020-03-05_Abschlussbericht",
+      "fileName": "00466280.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00466280.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00466280.pdf",
+      "created": "2020-03-24T13:11:18+01:00",
+      "modified": "2020-03-24T13:11:19+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6985",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35178",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16027",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/109056",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6985",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-11-06T14:32:08+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "16027"
+  "created": "2018-11-06T14:23:22+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

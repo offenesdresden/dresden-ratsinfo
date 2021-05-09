@@ -1,30 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19000",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Besetzung der Schiedsstellen Prohlis-Ost und Prohlis-West",
-  "shortName": "V-Pro00031/20",
   "reference": "V-Pro00031/20",
+  "date": "2020-05-28",
   "paperType": "Vorlage STB Prohlis",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "483588",
-    "480259"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/480259",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Prohlis V-Pro00031/20_komplett",
+      "fileName": "00480259.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00480259.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00480259.pdf",
+      "created": "2020-06-16T09:05:56+02:00",
+      "modified": "2020-06-16T09:05:56+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/483588",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Prohlis_V-Pro00031/20",
+      "fileName": "00483588.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00483588.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00483588.pdf",
+      "created": "2020-06-30T15:29:28+02:00",
+      "modified": "2020-06-30T15:29:28+02:00"
+    }
   ],
-  "id": "19000",
-  "publishedDate": "2020-05-27",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/128"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42468",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19000",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/133420",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9157",
       "organization": [
-        {
-          "name": "29.06.2020 Stadtbezirksbeirat Prohlis",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/174"
       ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-06-09T14:02:17+02:00",
+      "modified": "2020-06-30T07:46:41+02:00"
     }
-  ]
+  ],
+  "created": "2020-05-27T09:38:40+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

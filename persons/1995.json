@@ -1,23 +1,29 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1995",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Claudia Creutzburg",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Creutzburg",
+  "givenName": "Claudia",
+  "formOfAddress": "Frau",
+  "gender": "weiblich",
+  "email": [
+    "claudia.creutzburg@gruene-dresden.de"
+  ],
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9559",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1995",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/171",
       "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "171",
-      "startDate": "2019-08-19"
+      "votingRight": true,
+      "startDate": "2019-08-19",
+      "created": "2019-08-19T10:09:51+02:00",
+      "modified": "2019-10-01T14:52:35+02:00"
     }
   ],
-  "status": [
-    "Bündnis 90/Die Grünen"
-  ],
-  "email": [
-    "ccreutzburg.Gruene@gmail.com"
-  ],
-  "id": "1995"
+  "created": "2019-07-25T06:56:32+02:00",
+  "modified": "2021-05-06T10:09:10+02:00",
+  "web": ""
 }

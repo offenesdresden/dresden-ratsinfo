@@ -1,199 +1,236 @@
 {
-  "shortName": "OBR Bl/028/2012",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 30.05.2012 - 17:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "28. Sitzung des Ortsbeirates Blasewitz",
   "start": "2012-05-30T17:30:00+02:00",
   "end": "2012-05-30T21:15:00+02:00",
-  "invitation": "98949",
-  "verbatimProtocol": "102681",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/701",
+    "http://oparl.dresden.de/bodies/0001/people/706",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/710",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/714",
+    "http://oparl.dresden.de/bodies/0001/people/717",
+    "http://oparl.dresden.de/bodies/0001/people/718",
+    "http://oparl.dresden.de/bodies/0001/people/720",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/724",
+    "http://oparl.dresden.de/bodies/0001/people/726",
+    "http://oparl.dresden.de/bodies/0001/people/727",
+    "http://oparl.dresden.de/bodies/0001/people/728",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/730",
+    "http://oparl.dresden.de/bodies/0001/people/698"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/98949",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00098949.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-05-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098949.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098949.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 27. Ortsbeiratssitzung am 25.04.2012",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/98949",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00098949.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098949.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098949.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorplanung Ludwig-Hartmann-Straße zwischen Traubestraße und Maystraße",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5631",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100625",
-      "auxiliaryFile": [
-        "154389",
-        "98725",
-        "92720",
-        "92721",
-        "92722",
-        "92723",
-        "124254",
-        "164795",
-        "181950"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorplanung Fetscherstraße zwischen Stübelallee und Fiedlerstraße",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5536",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "111075",
-      "auxiliaryFile": [
-        "127889",
-        "172624",
-        "211015",
-        "304109",
-        "357231",
-        "491830",
-        "98132",
-        "97916",
-        "108833",
-        "89716",
-        "89717",
-        "89718",
-        "89719",
-        "89720",
-        "89721",
-        "89722",
-        "89723",
-        "89725",
-        "89726",
-        "89727",
-        "89728",
-        "91038",
-        "111018",
-        "111016"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Anträge und Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5634",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108805",
-      "auxiliaryFile": [
-        "92885"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Patenschaften für Baumscheiben",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5633",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108801",
-      "auxiliaryFile": [
-        "92834",
-        "92828"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Vorstellung der Kindertageseinrichtung und des Kinder- und Jugendhauses Händelallee 23 durch den Träger Unternehmen Kultur gGmbH",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen der Ortsamtsleiterin",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2013",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verkehrsentwicklungsplan 2025plus - Szenario für die weitere Bearbeitung",
-      "number": "Ö 5.2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5728",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "109499",
-      "auxiliaryFile": [
-        "259821",
-        "156193",
-        "234539",
-        "98766",
-        "98520",
-        "97741",
-        "94805",
-        "94788",
-        "96202",
-        "122053"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Hinweise und Anfragen der Bürger und des Ortsbeirates",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/102681",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00102681.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00102681.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00102681.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2099",
-  "participant": [
-    "706",
-    "420",
-    "701",
-    "708",
-    "710",
-    "712",
-    "714",
-    "717",
-    "718",
-    "722",
-    "720",
-    "724",
-    "727",
-    "726",
-    "408",
-    "728",
-    "730",
-    "698"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30446",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 27. Ortsbeiratssitzung am 25.04.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30448",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30983",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "2.1",
+      "order": "3",
+      "name": "Vorplanung Ludwig-Hartmann-Straße zwischen Traubestraße und Maystraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9475",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30788",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "2.2",
+      "order": "4",
+      "name": "Vorplanung Fetscherstraße zwischen Stübelallee und Fiedlerstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9202",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30452",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "3",
+      "order": "5",
+      "name": "Anträge und Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30451",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "3.1",
+      "order": "6",
+      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9504",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30450",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "3.2",
+      "order": "7",
+      "name": "Patenschaften für Baumscheiben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9481",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30789",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "4",
+      "order": "8",
+      "name": "Vorstellung der Kindertageseinrichtung und des Kinder- und Jugendhauses Händelallee 23 des Trägers Unternehmen Kultur gGmbH",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30453",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "5",
+      "order": "9",
+      "name": "Informationen der Ortsamtsleiterin",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "5.1",
+      "order": "10",
+      "name": "Straßenreinigungsgebührensatzung 2013",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30795",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "5.2",
+      "order": "11",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31362",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "5.2.1",
+      "order": "12",
+      "name": "Verkehrsentwicklungsplan 2025plus - Szenario für die weitere Bearbeitung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9748",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30787",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2099",
+      "number": "6",
+      "order": "13",
+      "name": "Hinweise und Anfragen der Bürger und des Ortsbeirates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

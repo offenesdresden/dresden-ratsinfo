@@ -1,69 +1,129 @@
 {
-  "shortName": "P/028/2017",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Petitionen und Bürgeranliegen - 01.02.2017 - 16:00-17:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "133"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5850",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "28. Sitzung des Ausschusses für Petitionen und Bürgeranliegen",
   "start": "2017-02-01T16:00:00+01:00",
   "end": "2017-02-01T17:55:00+01:00",
-  "invitation": "284723",
-  "auxiliaryFile": [
-    "286402",
-    "285538"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/14",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "3/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/133"
   ],
-  "verbatimProtocol": "286719",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1177",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/1239"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/284723",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_P_2017_02_01",
+    "fileName": "00284723.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-18",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00284723.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00284723.pdf",
+    "created": "2017-01-18T07:28:42+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/285538",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_P_2017_02_01",
+    "fileName": "00285538.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285538.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285538.pdf",
+    "created": "2017-01-25T11:24:19+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Protest gegen den Beschluss der Konzeptausschreibung Flurstück 71/1 und 71a",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13079",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "276169",
-        "301090",
-        "296692",
-        "307523",
-        "321273",
-        "338808",
-        "375883",
-        "457891",
-        "490800",
-        "525062",
-        "276172",
-        "291960"
-      ],
-      "resolutionFile": "291354",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/284723",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_P_2017_02_01",
+      "fileName": "00284723.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00284723.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00284723.pdf",
+      "created": "2017-01-18T07:28:42+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/285538",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_P_2017_02_01",
+      "fileName": "00285538.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285538.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285538.pdf",
+      "created": "2017-01-25T11:24:19+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/286402",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_P_2_2017_02_01",
+      "fileName": "00286402.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-02-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00286402.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00286402.pdf",
+      "created": "2017-02-01T10:29:16+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/286719",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_P_2017_02_01",
+      "fileName": "00286719.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-02-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00286719.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00286719.pdf",
+      "created": "2017-02-03T08:07:17+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5850",
-  "participant": [
-    "287",
-    "78",
-    "83",
-    "88",
-    "271",
-    "84",
-    "712",
-    "994",
-    "1177",
-    "288",
-    "722",
-    "51",
-    "37",
-    "1240",
-    "277",
-    "1239"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86643",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5850",
+      "number": "2",
+      "order": "2",
+      "name": "Protest gegen den Beschluss der Konzeptausschreibung Flurstück 71/1 und 71a",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26765",
+      "result": "Vertagung",
+      "created": "2017-01-12T09:26:05+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,26 +1,104 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16926",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Einfriedung des WSCP 5034 Pirnaer Landstraße/An der Schule",
-  "shortName": "V-Leu0021/19",
   "reference": "V-Leu0021/19",
+  "date": "2019-06-04",
   "paperType": "Vorlage STB Leuben",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-05-02",
-  "mainFile": "415882",
   "auxiliaryFile": [
-    "415880",
-    "410078"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/410078",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 Lageplan",
+      "fileName": "00410078.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00410078.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00410078.pdf",
+      "created": "2019-05-05T18:21:57+02:00",
+      "modified": "2019-06-05T08:05:57+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/415880",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage V-Leu0021/19_mU",
+      "fileName": "00415880.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00415880.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00415880.pdf",
+      "created": "2019-06-04T15:42:54+02:00",
+      "modified": "2019-06-04T15:43:49+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/415882",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V-Leu0021/19",
+      "fileName": "00415882.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00415882.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00415882.pdf",
+      "created": "2019-06-04T15:43:41+02:00",
+      "modified": "2019-06-04T15:43:49+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/419707",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Leuben_V-Leu0021/19",
+      "fileName": "00419707.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00419707.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00419707.pdf",
+      "created": "2019-06-21T12:38:33+02:00",
+      "modified": "2019-08-06T08:09:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/434736",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Leuben_V-Leu0021/19_2019_10_07_Zwischenbericht",
+      "fileName": "00434736.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00434736.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00434736.pdf",
+      "created": "2019-10-08T14:20:30+02:00",
+      "modified": "2019-10-08T14:20:31+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510491",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Leuben_V-Leu0021/19_2020_11_05_Abschlussbericht",
+      "fileName": "00510491.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510491.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510491.pdf",
+      "created": "2020-11-05T13:32:08+01:00",
+      "modified": "2020-11-05T13:32:08+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/123"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8344",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37598",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16926",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/118383",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8344",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/170"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-06-04T10:41:36+02:00",
+      "modified": "2019-06-24T05:33:16+02:00"
     }
   ],
-  "id": "16926"
+  "created": "2019-05-02T15:01:30+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

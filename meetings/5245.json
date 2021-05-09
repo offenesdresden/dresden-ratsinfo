@@ -1,84 +1,124 @@
 {
-  "shortName": "OBR Kl/016/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 08.02.2016 - 18:30-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5245",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "16. Sitzung des Ortsbeirates Klotzsche",
   "start": "2016-02-08T18:30:00+01:00",
   "end": "2016-02-08T20:15:00+01:00",
-  "invitation": "239816",
-  "verbatimProtocol": "241708",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/599",
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1062",
+    "http://oparl.dresden.de/bodies/0001/people/1348",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/610",
+    "http://oparl.dresden.de/bodies/0001/people/1345",
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/612",
+    "http://oparl.dresden.de/bodies/0001/people/613",
+    "http://oparl.dresden.de/bodies/0001/people/1342",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/617"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/239816",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00239816.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-01-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00239816.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00239816.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/239816",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00239816.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-01-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00239816.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00239816.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Grundhafter Ausbau der Stauffenbergallee (West) im Abschnitt zwischen Königsbrücker Straße und Radeburger Straße",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11732",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "254467",
-      "auxiliaryFile": [
-        "265619",
-        "317542",
-        "365418",
-        "437158",
-        "495180",
-        "236792",
-        "236507",
-        "230825",
-        "230826",
-        "230827",
-        "230828",
-        "230829",
-        "230830",
-        "230831",
-        "230832",
-        "230833",
-        "252227",
-        "253877"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 7,
-        "no": 6,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/241708",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00241708.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-02-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00241708.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00241708.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5245",
-  "participant": [
-    "1062",
-    "599",
-    "1348",
-    "601",
-    "607",
-    "610",
-    "1345",
-    "612",
-    "611",
-    "613",
-    "1342",
-    "1136",
-    "617"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/75791",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5245",
+      "number": "1",
+      "order": "1",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/75794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5245",
+      "number": "1.1",
+      "order": "2",
+      "name": "Grundhafter Ausbau der Stauffenbergallee (West) im Abschnitt zwischen Königsbrücker Straße und Radeburger Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23079",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/75792",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5245",
+      "number": "2",
+      "order": "3",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/75793",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5245",
+      "number": "3",
+      "order": "4",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

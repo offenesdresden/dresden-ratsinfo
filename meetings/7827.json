@@ -1,181 +1,385 @@
 {
-  "shortName": "OSR CB/053/2019",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 25.06.2019 - 18:30-20:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "53. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2019-06-25T18:30:00+02:00",
   "end": "2019-06-25T20:50:00+02:00",
-  "invitation": "416902",
-  "resultsProtocol": "420793",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1073",
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/1245",
+    "http://oparl.dresden.de/bodies/0001/people/1246"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/416902",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00416902.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-06-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00416902.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00416902.pdf",
+    "created": "2019-06-11T09:14:18+02:00",
+    "modified": "2019-06-25T15:53:46+02:00"
+  },
   "auxiliaryFile": [
-    "420794",
-    "420795",
-    "420796",
-    "420797",
-    "420798",
-    "420342",
-    "420347",
-    "420356",
-    "420365",
-    "420374",
-    "420379"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/416902",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00416902.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00416902.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00416902.pdf",
+      "created": "2019-06-11T09:14:18+02:00",
+      "modified": "2019-06-25T15:53:46+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420342",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0229/19_oU",
+      "fileName": "00420342.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420342.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420342.pdf",
+      "created": "2019-06-26T06:36:53+02:00",
+      "modified": "2019-06-28T05:51:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420347",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0231/19_oU",
+      "fileName": "00420347.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420347.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420347.pdf",
+      "created": "2019-06-26T06:38:44+02:00",
+      "modified": "2019-06-28T05:51:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420356",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0232/19_oU",
+      "fileName": "00420356.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420356.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420356.pdf",
+      "created": "2019-06-26T06:40:15+02:00",
+      "modified": "2019-06-28T05:51:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420365",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0233/19_oU",
+      "fileName": "00420365.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420365.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420365.pdf",
+      "created": "2019-06-26T06:41:41+02:00",
+      "modified": "2019-06-28T05:51:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420374",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0234/19_oU",
+      "fileName": "00420374.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420374.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420374.pdf",
+      "created": "2019-06-26T06:43:13+02:00",
+      "modified": "2019-06-28T05:51:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420379",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0236/19_oU",
+      "fileName": "00420379.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420379.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420379.pdf",
+      "created": "2019-06-26T06:44:51+02:00",
+      "modified": "2019-06-28T05:51:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420793",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0229/19_mU",
+      "fileName": "00420793.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420793.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420793.pdf",
+      "created": "2019-06-27T12:14:14+02:00",
+      "modified": "2019-06-27T12:14:28+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420794",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0231/19_mU",
+      "fileName": "00420794.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420794.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420794.pdf",
+      "created": "2019-06-27T12:14:57+02:00",
+      "modified": "2019-06-27T12:14:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420795",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0232/19_mU",
+      "fileName": "00420795.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420795.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420795.pdf",
+      "created": "2019-06-27T12:15:25+02:00",
+      "modified": "2019-06-27T12:15:27+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420796",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0233/19_mU",
+      "fileName": "00420796.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420796.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420796.pdf",
+      "created": "2019-06-27T12:15:59+02:00",
+      "modified": "2019-06-27T12:16:01+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420797",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0234/19_mU",
+      "fileName": "00420797.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420797.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420797.pdf",
+      "created": "2019-06-27T12:16:29+02:00",
+      "modified": "2019-06-27T12:16:31+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420798",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0236/19_mU",
+      "fileName": "00420798.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420798.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420798.pdf",
+      "created": "2019-06-27T12:17:04+02:00",
+      "modified": "2019-06-27T12:17:05+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "1",
+      "order": "1",
       "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-06T15:20:30+02:00",
+      "modified": "2019-06-06T15:20:30+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118564",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "2",
+      "order": "2",
       "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.05.2019",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-06T15:20:57+02:00",
+      "modified": "2019-06-06T15:20:57+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118566",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "3",
+      "order": "3",
       "name": "Bericht des Ortsvorstehers",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-06T15:21:15+02:00",
+      "modified": "2019-06-06T15:21:15+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118567",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "4",
+      "order": "4",
       "name": "Einwohnerfragestunde",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-06T15:21:26+02:00",
+      "modified": "2019-06-06T15:21:26+02:00"
     },
     {
-      "name": "Vorstellung Hochwasser-Risiko-Managementplan Lotzebach und Informationen zum Planungsstand Regenrückhaltebecken Mobschatz Berichterstatter: Umweltamt DResden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118677",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "5",
+      "order": "5",
+      "name": "Vorstellung Hochwasser-Risiko-Managementplan Lotzebach und Informationen zum Planungsstand Regenrückhaltebecken Lotzebach durch Umweltamt",
+      "public": true,
+      "created": "2019-06-11T12:41:27+02:00",
+      "modified": "2019-06-12T07:29:08+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118670",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "6",
+      "order": "6",
       "name": "Ein Dresdner Bildungsticket für monatlich 15 € für Alle!",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16962",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "411839"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37764",
       "result": "Ablehnung",
-      "vote": {
-        "yes": 2,
-        "no": 3,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-11T12:26:58+02:00",
+      "modified": "2019-06-26T06:34:53+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118568",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "7",
+      "order": "7",
       "name": "Finanzmittel",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-06T15:21:37+02:00",
+      "modified": "2019-06-11T12:41:27+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118571",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "7.1",
+      "order": "8",
       "name": "Finanzzuschuss an Heimat- und Verschönerungsverein Cossebaude e.V. zur Anschaffung von neuer Kopiertechnik",
-      "number": "Ö 7.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37964",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-06T15:28:02+02:00",
+      "modified": "2019-06-28T06:25:34+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118572",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "7.2",
+      "order": "9",
       "name": "Finanzzuschuss an Weinbaugemeinschaft Cossebaude e.V. zur Unterstützung zum Tag des offenen Weinberges",
-      "number": "Ö 7.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37965",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-06T15:35:02+02:00",
+      "modified": "2019-06-28T06:27:09+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "7.3",
+      "order": "10",
       "name": "Finanzzuschuss an Hort der Grundschule Cossebaude für Fanfarenzug zum Lampionumzug 2019",
-      "number": "Ö 7.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37966",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-06T15:41:01+02:00",
+      "modified": "2019-06-28T06:28:43+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "7.4",
+      "order": "11",
       "name": "Finanzzuschuss an Grundschule Cossebaude für Förderkurssystem in der Grundschule Cossebaude",
-      "number": "Ö 7.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37967",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-06T15:55:18+02:00",
+      "modified": "2019-06-28T06:29:44+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118575",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "7.5",
+      "order": "12",
       "name": "Finanzzuschuss an Kinderzentrum Cossebaude für Familienfest 2019",
-      "number": "Ö 7.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37968",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-06T15:59:48+02:00",
+      "modified": "2019-06-28T06:31:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118757",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "7.6",
+      "order": "13",
       "name": "Finanzzuschuss an KJH \"Alte Feuerwehr\" Cossebaude zur Unterstützung Elbebadetag 2019",
-      "number": "Ö 7.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38004",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-12T11:19:31+02:00",
+      "modified": "2019-06-28T06:32:15+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118569",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "8",
+      "order": "14",
       "name": "Informationen und Anfragen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-06T15:21:53+02:00",
+      "modified": "2019-06-12T11:19:32+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122846",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7827",
+      "number": "9",
+      "order": "15",
       "name": "Ergebnisse der Meinungsumfrage zum Klimawandel in Dresden 2017",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16936",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "415927",
-        "415559",
-        "410332",
-        "410732",
-        "410736"
-      ],
-      "result": "zur Kenntnis genommen"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37618",
+      "result": "zur Kenntnis genommen",
+      "created": "2019-10-17T11:31:44+02:00",
+      "modified": "2019-10-17T11:32:00+02:00"
     }
   ],
-  "id": "7827",
-  "participant": [
-    "1073",
-    "309",
-    "308",
-    "310",
-    "307",
-    "1245",
-    "1246"
-  ]
+  "created": "2018-10-10T05:56:22+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

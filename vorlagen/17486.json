@@ -1,24 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17486",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzmittel zur Anschaffung Funkmikrofonanlage für den Bürgersaal Cossebaude",
-  "shortName": "A-CB0240/19",
   "reference": "A-CB0240/19",
+  "date": "2019-08-22",
   "paperType": "Antrag Ortschaft Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/426573",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Cossebaude",
+    "fileName": "00426573.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-08-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426573.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426573.pdf",
+    "created": "2019-08-21T11:53:36+02:00",
+    "modified": "2019-09-19T09:44:37+02:00"
+  },
   "auxiliaryFile": [
-    "426573"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/431291",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Angebot",
+      "fileName": "00431291.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00431291.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00431291.pdf",
+      "created": "2019-09-19T09:44:03+02:00",
+      "modified": "2019-10-14T06:34:38+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/431293",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0240/19_mU",
+      "fileName": "00431293.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00431293.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00431293.pdf",
+      "created": "2019-09-19T09:44:31+02:00",
+      "modified": "2019-10-14T06:34:34+02:00"
+    }
   ],
-  "id": "17486",
-  "publishedDate": "2019-08-21",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8478",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38839",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17486",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/120370",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8478",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-08-21T12:02:17+02:00",
+      "modified": "2019-09-19T08:53:14+02:00"
     }
-  ]
+  ],
+  "created": "2019-08-21T11:53:18+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

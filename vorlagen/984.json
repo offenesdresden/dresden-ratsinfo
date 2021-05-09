@@ -1,63 +1,82 @@
 {
-  "name": "Bebauungsplan Nr. 359, Dresden-Trachenberge Nr. 1, Döbelner Straße/Weinbergstraßehier: \t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplan",
-  "shortName": "V0335/09",
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/984",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
+  "name": "Bebauungsplan Nr. 359, Dresden-Trachenberge Nr. 1, Döbelner Straße/Weinbergstraße",
   "reference": "V0335/09",
+  "date": "2009-11-26",
   "paperType": "Vorlage B-/VB-Pläne/FNP-Änderungen",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2009-11-23",
   "auxiliaryFile": [
-    "14957",
-    "14438",
-    "14439"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/14438",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 Geltungsbereich",
+      "fileName": "00014438.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00014438.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00014438.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/14439",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 Übersichtsplan",
+      "fileName": "00014439.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00014439.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00014439.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/14957",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00014957.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00014957.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00014957.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/46"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/1719",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/984",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/4326",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "10",
-      "role": "beratend",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "353",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beratend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/1720",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/984",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/4620",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "984"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,125 +1,142 @@
 {
-  "shortName": "OBR Pl/011/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Plauen, Ratssaal,Nöthnitzer Straße 2, 01187 Dresden",
-  "name": "Ortsbeirat Plauen - 24.11.2015 - 17:30-21:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4527",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "11. Sitzung des Ortsbeirates Plauen",
   "start": "2015-11-24T17:30:00+01:00",
   "end": "2015-11-24T21:20:00+01:00",
-  "invitation": "230344",
-  "verbatimProtocol": "233364",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1840",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Nöthnitzer Straße 2",
+    "room": "Ortsamt Plauen, Ratssaal",
+    "postalCode": "01187",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:30+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/736",
+    "http://oparl.dresden.de/bodies/0001/people/739",
+    "http://oparl.dresden.de/bodies/0001/people/1386",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/744",
+    "http://oparl.dresden.de/bodies/0001/people/752",
+    "http://oparl.dresden.de/bodies/0001/people/746",
+    "http://oparl.dresden.de/bodies/0001/people/753",
+    "http://oparl.dresden.de/bodies/0001/people/1377",
+    "http://oparl.dresden.de/bodies/0001/people/758",
+    "http://oparl.dresden.de/bodies/0001/people/762",
+    "http://oparl.dresden.de/bodies/0001/people/1374",
+    "http://oparl.dresden.de/bodies/0001/people/735",
+    "http://oparl.dresden.de/bodies/0001/people/745",
+    "http://oparl.dresden.de/bodies/0001/people/1150",
+    "http://oparl.dresden.de/bodies/0001/people/1495"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/230344",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pl",
+    "fileName": "00230344.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-11-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00230344.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00230344.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/230344",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pl",
+      "fileName": "00230344.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00230344.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00230344.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sanierung und Erweiterung des künftigen Schulstandortes für das Gymnasium Dresden Süd-West, Bernhardstraße 18 in 01069 Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10515",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "240323",
-      "auxiliaryFile": [
-        "254891",
-        "303523",
-        "345294",
-        "409936",
-        "436030",
-        "228376",
-        "228200",
-        "225528",
-        "227923",
-        "222794",
-        "222795"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorplanung Stadtbahn 2020, Straßenbahnneubaustrecke Löbtau - Südvorstadt - Strehlen, Teilstrecke 1.3: Nürnberger Straße - Zellescher Weg - Caspar-David-Friedrich-Straße",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10309",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "240275",
-      "auxiliaryFile": [
-        "256357",
-        "379102",
-        "434263",
-        "510756",
-        "226623",
-        "226048",
-        "217020",
-        "217021",
-        "217022",
-        "217023",
-        "217024",
-        "217025",
-        "217026",
-        "217027",
-        "217028",
-        "217029",
-        "217030",
-        "217031",
-        "217032",
-        "217033",
-        "217050",
-        "217048",
-        "217049",
-        "217043",
-        "217044",
-        "237182"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen- aktuelle Informationen zum Thema Asyl, den Ortsamtsbereich Plauen betreffend",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/233364",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00233364.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00233364.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00233364.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4527",
-  "participant": [
-    "36",
-    "739",
-    "1386",
-    "736",
-    "741",
-    "752",
-    "744",
-    "746",
-    "1377",
-    "753",
-    "758",
-    "762",
-    "1374",
-    "735",
-    "745",
-    "1150",
-    "1495"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/72957",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4527",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/72958",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4527",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73019",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4527",
+      "number": "2.1",
+      "order": "3",
+      "name": "Sanierung und Erweiterung des künftigen Schulstandortes für das Gymnasium Dresden Süd-West, Bernhardstraße 18 in 01069 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/21514",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/72980",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4527",
+      "number": "2.2",
+      "order": "4",
+      "name": "Vorplanung Stadtbahn 2020, Straßenbahnneubaustrecke Löbtau - Südvorstadt - Strehlen, Teilstrecke 1.3: Nürnberger Straße - Zellescher Weg - Caspar-David-Friedrich-Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20934",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/72959",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4527",
+      "number": "3",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

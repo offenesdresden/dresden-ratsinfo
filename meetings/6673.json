@@ -1,105 +1,195 @@
 {
-  "shortName": "S/024/2018",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 200, 1. Etage,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Seniorenbeirat - 22.10.2018 - 09:00-13:40 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "6"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Seniorenbeirates",
   "start": "2018-10-22T09:00:00+02:00",
   "end": "2018-10-22T13:40:00+02:00",
-  "invitation": "372265",
-  "verbatimProtocol": "386712",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/2922",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/200",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/6"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/406",
+    "http://oparl.dresden.de/bodies/0001/people/835",
+    "http://oparl.dresden.de/bodies/0001/people/1513",
+    "http://oparl.dresden.de/bodies/0001/people/1376",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/412",
+    "http://oparl.dresden.de/bodies/0001/people/413",
+    "http://oparl.dresden.de/bodies/0001/people/414",
+    "http://oparl.dresden.de/bodies/0001/people/415",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/841",
+    "http://oparl.dresden.de/bodies/0001/people/1443",
+    "http://oparl.dresden.de/bodies/0001/people/1445",
+    "http://oparl.dresden.de/bodies/0001/people/1446",
+    "http://oparl.dresden.de/bodies/0001/people/1621"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/372265",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_S",
+    "fileName": "00372265.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-10-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00372265.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00372265.pdf",
+    "created": "2018-10-10T12:39:53+02:00",
+    "modified": "2018-10-10T12:41:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Berichte aus den Geschäftsbereichen / sonstige Berichte/Themen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/372265",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_S",
+      "fileName": "00372265.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00372265.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00372265.pdf",
+      "created": "2018-10-10T12:39:53+02:00",
+      "modified": "2018-10-10T12:41:47+02:00"
     },
     {
-      "name": "Kontrolle der Festlegungen und Aufträge",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorlagen/Anträge",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kultur- und Nachbarschaftszentren vor Ort",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15383",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "417095",
-      "auxiliaryFile": [
-        "455358",
-        "512454",
-        "352067",
-        "388494",
-        "401948"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wie berücksichtigt der Bildungsplan \"Lebenslanges Lernen\" speziell Seniorinnen und Senioren",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Haushalt 2019/2020 - Geschäftsbereich Arbeit, Soziales, Gesundheit und Wohnen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Wohnen in Dresden - WiD - altersgerechtes Wohnen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Wohnungsgenossenschaft Aufbau Dresden - senioren- und behindertengerechtes Wohnen, soziale Betreuung, technische Hilfsmittel in den Behindertenwohnungen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Senioren- und behindertengerechtes Wohnen in der LH Dresden",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen/Sonstiges",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/386712",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00386712.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00386712.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00386712.pdf",
+      "created": "2018-12-19T12:15:34+01:00",
+      "modified": "2019-01-14T13:07:46+01:00"
     }
   ],
-  "id": "6673",
-  "participant": [
-    "87",
-    "741",
-    "406",
-    "835",
-    "1513",
-    "1376",
-    "708",
-    "412",
-    "420",
-    "414",
-    "1621",
-    "1443",
-    "841",
-    "413",
-    "415",
-    "1445",
-    "1446",
-    "402"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107766",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "1",
+      "order": "1",
+      "name": "Berichte aus den Geschäftsbereichen / sonstige Berichte/Themen",
+      "public": true,
+      "created": "2018-10-04T09:57:46+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107767",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "2",
+      "order": "2",
+      "name": "Kontrolle der Festlegungen und Aufträge",
+      "public": true,
+      "created": "2018-10-04T09:58:12+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107768",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "3",
+      "order": "3",
+      "name": "Vorlagen/Anträge",
+      "public": true,
+      "created": "2018-10-04T09:58:36+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107759",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "3.1",
+      "order": "4",
+      "name": "Kultur- und Nachbarschaftszentren vor Ort",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/33124",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2018-10-04T08:41:21+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107773",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "4",
+      "order": "5",
+      "name": "Wie berücksichtigt der Bildungsplan \"Lebenslanges Lernen\" speziell Seniorinnen und Senioren",
+      "public": true,
+      "created": "2018-10-04T10:04:53+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107769",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "5",
+      "order": "6",
+      "name": "Haushalt 2019/2020 - Geschäftsbereich Arbeit, Soziales, Gesundheit und Wohnen",
+      "public": true,
+      "created": "2018-10-04T09:59:35+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107770",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "6",
+      "order": "7",
+      "name": "Wohnen in Dresden - WiD - altersgerechtes Wohnen",
+      "public": true,
+      "created": "2018-10-04T10:01:05+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107771",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "7",
+      "order": "8",
+      "name": "Wohnungsgenossenschaft Aufbau Dresden - Senioren- und behindertengerechtes Wohnen, soziale Betreuung, technische Hilfsmittel in den Behindertenwohnungen",
+      "public": true,
+      "created": "2018-10-04T10:02:07+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107772",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "8",
+      "order": "9",
+      "name": "Senioren- und behindertengerechtes Wohnen in der LH Dresden",
+      "public": true,
+      "created": "2018-10-04T10:02:48+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/107760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6673",
+      "number": "9",
+      "order": "10",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2018-10-04T08:41:21+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2017-08-16T16:18:36+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,111 +1,238 @@
 {
-  "shortName": "OSR CB/001/2014",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 08.09.2014 - 18:30-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2014-09-08T18:30:00+02:00",
   "end": "2014-09-08T20:15:00+02:00",
-  "invitation": "178458",
-  "resultsProtocol": "179540",
-  "auxiliaryFile": [
-    "179544"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
   ],
-  "verbatimProtocol": "179928",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/1071",
+    "http://oparl.dresden.de/bodies/0001/people/1073",
+    "http://oparl.dresden.de/bodies/0001/people/1244",
+    "http://oparl.dresden.de/bodies/0001/people/1070",
+    "http://oparl.dresden.de/bodies/0001/people/1245",
+    "http://oparl.dresden.de/bodies/0001/people/1246"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/178458",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00178458.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-08-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00178458.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00178458.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/179540",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung CB0002/14",
+    "fileName": "00179540.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-09-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00179540.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00179540.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/178458",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00178458.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-08-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00178458.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00178458.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Feststellung der Mitglieder des Ortschaftsrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/179540",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung CB0002/14",
+      "fileName": "00179540.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00179540.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00179540.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verpflichtung der Mitglieder des Ortschaftsrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/179544",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung CB0173/14",
+      "fileName": "00179544.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00179544.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00179544.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Wahl des Ortsvorstehers und seines Stellvertreters",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "erneute Beratung wegen Formfehler",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Erlass der Geschäftsordnung für den Ortschaftsrat Cossebaude",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.07.2014",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einwohnerfragestunde",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzzuschuss für KiuJuH \"Alte Feuerwehr\" Cossebaude zum Elbebadetag und Badfest 2014",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für die Anschaffung eines Laubgitteraufsatzes für den neuen LKW im Bauhof Cossebaude",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beratung zur Verwendung der für 2014 noch zur Verfügung stehenden Finanzmittel der Investpauschale und der Verfügungsmittel des Ortschaftsrates",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/179928",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00179928.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-09-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00179928.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00179928.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3694",
-  "participant": [
-    "309",
-    "308",
-    "310",
-    "1071",
-    "1073",
-    "1244",
-    "307",
-    "1070",
-    "1245",
-    "1246"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56002",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56003",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "2",
+      "order": "2",
+      "name": "Feststellung der Mitglieder des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56004",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "3",
+      "order": "3",
+      "name": "Verpflichtung der Mitglieder des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56210",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "4",
+      "order": "4",
+      "name": "Wahl des Ortsvorstehers und seines Stellvertreters",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16802",
+      "result": "erneute Beratung wegen Formfehler",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56458",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "5",
+      "order": "5",
+      "name": "Erlass der Geschäftsordnung für den Ortschaftsrat Cossebaude",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56006",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "6",
+      "order": "6",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.07.2014",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56008",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "7",
+      "order": "7",
+      "name": "Einwohnerfragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56211",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "8",
+      "order": "8",
+      "name": "Finanzzuschuss für KiuJuH \"Alte Feuerwehr\" Cossebaude zum Elbebadetag und Badfest 2014",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16803",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56212",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "9",
+      "order": "9",
+      "name": "Finanzmittel für die Anschaffung eines Laubgitteraufsatzes für den neuen LKW im Bauhof Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16804",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56213",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "10",
+      "order": "10",
+      "name": "Beratung zur Verwendung der für 2014 noch zur Verfügung stehenden Finanzmittel der Investpauschale und der Verfügungsmittel des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56007",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3694",
+      "number": "11",
+      "order": "11",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,11 +1,42 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/20519",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Einwohnerversammlung Weixdorf 2021",
-  "shortName": "A-WX0009/20",
   "reference": "A-WX0009/20",
+  "date": "2020-11-02",
   "paperType": "Antrag Ortschaft Weixdorf",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "auxiliaryFile": [
-    "498842"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/498842",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Weixdorf",
+    "fileName": "00498842.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-09-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498842.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498842.pdf",
+    "created": "2020-09-15T14:09:47+02:00",
+    "modified": "2020-11-02T12:58:45+01:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/37"
   ],
-  "id": "20519"
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/45761",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/20519",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/138324",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9314",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-09-15T14:17:05+02:00",
+      "modified": "2020-11-11T08:47:13+01:00"
+    }
+  ],
+  "created": "2020-09-15T14:09:33+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

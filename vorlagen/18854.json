@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18854",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzmittel für Feuerwehr- und Heimatverein Niederwartha e. V. zur Anschaffung Festzelt, Beleuchtung und Biertischgarnituren - Nachtrag",
-  "shortName": "A-CB0037/20",
   "reference": "A-CB0037/20",
+  "date": "2020-04-29",
   "paperType": "Antrag Ortschaft Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-04-28",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/470612",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Cossebaude",
+    "fileName": "00470612.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-04-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470612.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470612.pdf",
+    "created": "2020-04-28T08:41:16+02:00",
+    "modified": "2020-05-04T09:50:57+02:00"
+  },
   "auxiliaryFile": [
-    "470612",
-    "471583"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/471583",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag vom Verein zu A-CB0037/20",
+      "fileName": "00471583.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00471583.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00471583.pdf",
+      "created": "2020-05-04T09:50:50+02:00",
+      "modified": "2020-05-04T09:50:57+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/475175",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Cossebaude_A-CB0037/20",
+      "fileName": "00475175.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00475175.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00475175.pdf",
+      "created": "2020-05-20T09:26:31+02:00",
+      "modified": "2020-05-20T12:13:45+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9205",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42044",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18854",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/131059",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9205",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-04-28T09:27:02+02:00",
+      "modified": "2020-05-20T12:26:39+02:00"
     }
   ],
-  "id": "18854"
+  "created": "2020-04-28T08:41:00+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

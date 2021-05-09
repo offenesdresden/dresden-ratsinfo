@@ -1,115 +1,177 @@
 {
-  "shortName": "OBR Co/006/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,Lübecker Straße 121, 01157 Dresden",
-  "name": "Ortsbeirat Cotta - 22.04.2010 - 18:00-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "37"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/461",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ortsbeirates Cotta",
   "start": "2010-04-22T18:00:00+02:00",
   "end": "2010-04-22T21:15:00+02:00",
-  "invitation": "27398",
-  "verbatimProtocol": "28692",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Ortsamt Cotta, kleiner Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:54+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/37"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/763",
+    "http://oparl.dresden.de/bodies/0001/people/765",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/771",
+    "http://oparl.dresden.de/bodies/0001/people/773",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/776",
+    "http://oparl.dresden.de/bodies/0001/people/778",
+    "http://oparl.dresden.de/bodies/0001/people/451",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/410",
+    "http://oparl.dresden.de/bodies/0001/people/782",
+    "http://oparl.dresden.de/bodies/0001/people/784",
+    "http://oparl.dresden.de/bodies/0001/people/786",
+    "http://oparl.dresden.de/bodies/0001/people/788",
+    "http://oparl.dresden.de/bodies/0001/people/790",
+    "http://oparl.dresden.de/bodies/0001/people/791",
+    "http://oparl.dresden.de/bodies/0001/people/768"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/27398",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Co",
+    "fileName": "00027398.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-04-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00027398.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00027398.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 5. Ortsbeiratssitzung am 4. März 2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/27398",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Co",
+      "fileName": "00027398.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-04-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00027398.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00027398.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Plan Hochwasservorsorge Dresden (PHD) - Plan zur Verbesserung der Hochwasservorsorge in der Landeshauptstadt Dresden für die Elbe, die Vereinigte Weißeritz, den Lockwitzbach, die Gewässer zweiter Ordnung, das Grundwasser sowie das abwassertechnische System",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1376",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "27201",
-        "149724",
-        "149725",
-        "149726",
-        "24786",
-        "24787",
-        "24788",
-        "24789",
-        "24790",
-        "24791",
-        "24792",
-        "24793",
-        "20594",
-        "20595",
-        "20596",
-        "20597",
-        "20599"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Information zum Sanierungsgebiet S 6/1 Dresden-Löbtauhier: Das Straßen- und Tiefbauamt berichtet über die Straßenraumgestaltung Bonhoefferplatz umlaufend und Leumerstraße",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung (SRGS) 2011",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Namensgebung des Beruflichen Schulzentrums für Wirtschaft III in 01159 Dresden",
-      "number": "Ö 4.2.1 Nachtrag: 20.04.2010",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/28692",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00028692.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00028692.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00028692.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "461",
-  "participant": [
-    "401",
-    "763",
-    "765",
-    "773",
-    "771",
-    "769",
-    "409",
-    "776",
-    "778",
-    "780",
-    "451",
-    "782",
-    "410",
-    "786",
-    "784",
-    "788",
-    "791",
-    "790",
-    "768"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7884",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur . Ortsbeiratssitzung am",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "2.1",
+      "order": "3",
+      "name": "Plan Hochwasservorsorge Dresden (PHD) Plan zur Verbesserung der Hochwasservorsorge in der Landeshauptstadt Dresden für die Elbe, die Vereinigte Wei0eritz, den Lockwitzbach, die Gewässer zweiter Ordnung, das Grundwasser sowie das abwassertechnische Sy",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2347",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7898",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "3",
+      "order": "4",
+      "name": "Sanierungsgebiet Dresden Löbtau",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "4",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7978",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "4.1",
+      "order": "6",
+      "name": "Straßenreinigungsgebührensatzung (SRGS) 2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8051",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "4.2",
+      "order": "7",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/8050",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/461",
+      "number": "4.2.1",
+      "order": "8",
+      "name": "Namensgebung des Beruflichen Schulzentrums für Wirtschaft III in 01159 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3027",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

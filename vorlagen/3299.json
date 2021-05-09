@@ -1,54 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/3299",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Jurymitglieder zur Vergabe des Sport- und Förderpreises der Landeshauptstadt Dresden",
-  "shortName": "V0873/10",
   "reference": "V0873/10",
+  "date": "2010-12-22",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2010-11-30",
   "auxiliaryFile": [
-    "51777",
-    "50800",
-    "49863"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/49863",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschluss V2750-SP54-08",
+      "fileName": "00049863.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00049863.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00049863.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/50800",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Stellungnahme Ausländerbeauftragte V0873/10",
+      "fileName": "00050800.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050800.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050800.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/51777",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00051777.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00051777.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00051777.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/2"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/5243",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/3299",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/16069",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1038",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/16"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1038",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "3299"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

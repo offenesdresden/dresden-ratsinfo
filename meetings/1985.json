@@ -1,212 +1,193 @@
 {
-  "shortName": "OBR Alt/035/2012",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Altstadt, 1. Etage, Raum 100,Theaterstraße 11, 01067 Dresden",
-  "name": "Ortsbeirat Altstadt - 17.07.2012 - 17:30-19:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "8"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "35. Sitzung des Ortsbeirates Altstadt",
   "start": "2012-07-17T17:30:00+02:00",
   "end": "2012-07-17T19:25:00+02:00",
-  "invitation": "104127",
-  "verbatimProtocol": "106519",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1769",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Theaterstraße 11",
+    "room": "Ortsamt Altstadt, Raum 100",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:26+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/8"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/569",
+    "http://oparl.dresden.de/bodies/0001/people/571",
+    "http://oparl.dresden.de/bodies/0001/people/573",
+    "http://oparl.dresden.de/bodies/0001/people/575",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/582",
+    "http://oparl.dresden.de/bodies/0001/people/412",
+    "http://oparl.dresden.de/bodies/0001/people/584",
+    "http://oparl.dresden.de/bodies/0001/people/587",
+    "http://oparl.dresden.de/bodies/0001/people/589",
+    "http://oparl.dresden.de/bodies/0001/people/591",
+    "http://oparl.dresden.de/bodies/0001/people/593",
+    "http://oparl.dresden.de/bodies/0001/people/597",
+    "http://oparl.dresden.de/bodies/0001/people/165",
+    "http://oparl.dresden.de/bodies/0001/people/596",
+    "http://oparl.dresden.de/bodies/0001/people/1088"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/104127",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Alt",
+    "fileName": "00104127.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-07-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00104127.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00104127.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Durchführung von Aufhebungsverfahren",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/104127",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Alt",
+      "fileName": "00104127.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-07-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00104127.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00104127.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 106, Dresden-Strehlen/Altstadt II, Lennéparkzentrumhier:1. Beschluss zur Durchführung eines Aufhebungsverfahrens zum Bebauungsplan2. Billigung des Entwurfes der Aufhebungssatzung zum Bebauungsplan3. Billigung der Begründung zum Entwurf der Aufhebungssatzung des Bebauungsplanes4. Öffentliche Auslegung der Satzung zur Aufhebung des Bebauungsplanes",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6012",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "109505",
-      "auxiliaryFile": [
-        "103969",
-        "103753",
-        "102545",
-        "102546",
-        "102547",
-        "102548",
-        "102549",
-        "102550",
-        "102551",
-        "102552",
-        "102553",
-        "102554",
-        "102555",
-        "102556",
-        "102557",
-        "102558",
-        "102544",
-        "122055"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 644, Dresden-Altstadt I, Neumarkt, Quartier 1 – An der Frauenkirchehier:\t1. Beschluss zur Durchführung eines Aufhebungsverfahrens zum vorhabenbezogenen Bebauungsplan2. Öffentliche Auslegung der Satzung zur Aufhebung des vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5993",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "109504",
-      "auxiliaryFile": [
-        "103751",
-        "102595",
-        "102596",
-        "102597",
-        "102598",
-        "102599",
-        "102600",
-        "102931",
-        "102932",
-        "102933",
-        "102608",
-        "102611",
-        "102609",
-        "102612",
-        "102613",
-        "122049"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 375, Dresden-Altstadt I Nr. 38, Neumarkt Quartier VIIhier:1. Billigung des Entwurfs zum Bebauungsplan2. Billigung der Begründung zum Bebauungsplan-Entwurf3. Durchführung des Beteiligungsverfahrens",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6020",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "103964",
-        "103774",
-        "103152",
-        "103153",
-        "103154",
-        "103157",
-        "103155"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 340, Dresden-Altstadt I Nr. 34, Neumarkt, Quartier VIhier:1. Billigung der Abwägung2. Billigung des Entwurfs zum Bebauungsplan3. Billigung der Begründung zum Bebauungsplan-Entwurf4. Durchführung des Beteiligungsverfahrens zum Bebauungsplan-Entwurf",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6021",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "114688",
-      "auxiliaryFile": [
-        "103961",
-        "103762",
-        "103121",
-        "103122",
-        "103123",
-        "103124",
-        "123279"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 8,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Freier Eintritt in den Zwinger und in den Großen Garten",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5767",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "111129",
-      "auxiliaryFile": [
-        "95906"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 4,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Namensvorschläge für zwei neu zu benennende Straßen im Zusammenhang mit der Wohnbebauung am Schützenplatz/ Am Schießhaus",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+- Phase 2, Grundlagen und Zukunftsthemen -",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5798",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105356",
-      "auxiliaryFile": [
-        "158635",
-        "104103",
-        "103922",
-        "100220",
-        "96771",
-        "191666"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/106519",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_OBR Alt_17.07.2012",
+      "fileName": "00106519.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-08-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00106519.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00106519.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1985",
-  "participant": [
-    "893",
-    "569",
-    "571",
-    "573",
-    "575",
-    "577",
-    "582",
-    "412",
-    "584",
-    "587",
-    "589",
-    "591",
-    "593",
-    "597",
-    "596",
-    "1088",
-    "165"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32743",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "1",
+      "order": "1",
+      "name": "Durchführung von Aufhebungsverfahren",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32731",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "1.1",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 106, Dresden-Strehlen/Altstadt II, Lennéparkzentrum",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10437",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32730",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "1.2",
+      "order": "3",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 644, Dresden-Altstadt I, Neumarkt, Quartier 1 – An der Frauenkirche",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10415",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32732",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "2",
+      "order": "4",
+      "name": "Bebauungsplan Nr. 375, Dresden-Altstadt I Nr. 38, Neumarkt Quartier VII",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10461",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32733",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "3",
+      "order": "5",
+      "name": "Bebauungsplan Nr. 340, Dresden-Altstadt I Nr. 34, Neumarkt, Quartier VI",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10465",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32234",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "4",
+      "order": "6",
+      "name": "Freier Eintritt in den Zwinger und in den Großen Garten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9864",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32755",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "5",
+      "order": "7",
+      "name": "Namensvorschläge für zwei neu zu benennende Straßen im Zusammenhang mit der Wohnbebauung am Schützenplatz/ Am Schießhaus",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32236",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "6",
+      "order": "8",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/32909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1985",
+      "number": "6.1",
+      "order": "9",
+      "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9936",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

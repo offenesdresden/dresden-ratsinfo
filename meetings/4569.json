@@ -1,191 +1,182 @@
 {
-  "shortName": "OBR Pi/011/2015",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 08.09.2015 - 18:00-22:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "11. Sitzung des Ortsbeirates Pieschen",
   "start": "2015-09-08T18:00:00+02:00",
   "end": "2015-09-08T22:15:00+02:00",
-  "invitation": "219095",
-  "verbatimProtocol": "221005",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/674",
+    "http://oparl.dresden.de/bodies/0001/people/1084",
+    "http://oparl.dresden.de/bodies/0001/people/1194",
+    "http://oparl.dresden.de/bodies/0001/people/1307",
+    "http://oparl.dresden.de/bodies/0001/people/678",
+    "http://oparl.dresden.de/bodies/0001/people/1309",
+    "http://oparl.dresden.de/bodies/0001/people/685",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/993",
+    "http://oparl.dresden.de/bodies/0001/people/1031",
+    "http://oparl.dresden.de/bodies/0001/people/1195",
+    "http://oparl.dresden.de/bodies/0001/people/1317",
+    "http://oparl.dresden.de/bodies/0001/people/1204",
+    "http://oparl.dresden.de/bodies/0001/people/1153",
+    "http://oparl.dresden.de/bodies/0001/people/1320",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/1312",
+    "http://oparl.dresden.de/bodies/0001/people/1498"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/219095",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00219095.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-08-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00219095.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00219095.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 10. Ortsbeiratssitzung am 07. Juli 2015",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/219095",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00219095.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-08-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00219095.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00219095.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 110.6, Dresden-Mickten Nr. 7, Wohnbebauung Sternstraßehier:1. Beschluss über die Änderung des Geltungsbereichs des Bebauungsplanes2. Billigung des Entwurfs zum Bebauungsplan3. Billigung der Begründung zum Bebauungsplan-Entwurf4. Durchführung des Beteiligungsverfahrens zum Bebauungsplan-Entwurf",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9987",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "234659",
-      "auxiliaryFile": [
-        "246560",
-        "215758",
-        "215587",
-        "208481",
-        "208482",
-        "208483",
-        "208484",
-        "211709",
-        "211777",
-        "208487",
-        "208488",
-        "209394",
-        "208490"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 8,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 110.4 b, Dresden-Kaditz/Mickten, Kötzschenbroder Straße/Lommatzscher Straße (Änderungssatzung)hier:\tAufstellungsbeschluss zur Änderung des Bebauungsplanes",
-      "number": "Ö 2.2 Nachtrag: 08.09.2015",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10162",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "236997",
-        "218645",
-        "215698",
-        "212909",
-        "212910",
-        "212911",
-        "212912"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "neutral": 6,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6031, Dresden-Mickten, Lommatzscher Straße, Höffner Auslieferungslager hier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan2. Grenzen des vorhabenbezogenen Bebauungsplanes3. Verzicht auf frühzeitige Beteiligung",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10161",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "236998",
-        "218641",
-        "215638",
-        "212893",
-        "212894",
-        "212895",
-        "212896",
-        "212897",
-        "212898",
-        "212899"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 11,
-        "no": 5,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhaben- und Erschließungsplan Nr. 696, Dresden-Mickten, Lommatzscher Straße, Sconto Möbelmarkthier:\tBeschluss zur Durchführung eines Aufhebungsverfahrens zum vorhabenbezogenen Bebauungsplan",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10163",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "236999",
-        "218646",
-        "215703",
-        "212924",
-        "212925",
-        "212926",
-        "212927",
-        "212928",
-        "212929",
-        "212930",
-        "212931",
-        "212933"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10239",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "215210",
-        "244117",
-        "347007",
-        "288953",
-        "321207",
-        "387620"
-      ],
-      "resolutionFile": "236180",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 7,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/221005",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00221005.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00221005.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00221005.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4569",
-  "participant": [
-    "1307",
-    "1194",
-    "674",
-    "402",
-    "1084",
-    "1309",
-    "678",
-    "967",
-    "993",
-    "685",
-    "1031",
-    "1195",
-    "1317",
-    "1204",
-    "1153",
-    "1320",
-    "696",
-    "1312",
-    "1498"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69179",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 10. Ortsbeiratssitzung am 07. Juli 2015",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69181",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69184",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 110.6, Dresden-Mickten Nr. 7, Wohnbebauung Sternstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20008",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "2.2",
+      "order": "4",
+      "name": "Bebauungsplan Nr. 110.4 b, Dresden-Kaditz/Mickten, Kötzschenbroder Straße/Lommatzscher Straße (Änderungssatzung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20481",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69185",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "2.3",
+      "order": "5",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6031, Dresden-Mickten, Lommatzscher Straße, Höffner Auslieferungslager",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20475",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69187",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "2.4",
+      "order": "6",
+      "name": "Vorhaben- und Erschließungsplan Nr. 696, Dresden-Mickten, Lommatzscher Straße, Sconto Möbelmarkt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20487",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69716",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "2.5",
+      "order": "7",
+      "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20693",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69183",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4569",
+      "number": "3",
+      "order": "8",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

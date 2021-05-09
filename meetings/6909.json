@@ -1,116 +1,173 @@
 {
-  "shortName": "OBR Leu/030/2018",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Leuben, Bürgersaal,Hertzstraße 23, 01257 Dresden",
-  "name": "Ortsbeirat Leuben - 07.03.2018 - 19:00-21:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "44"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6909",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "30. Sitzung des Ortsbeirates Leuben",
   "start": "2018-03-07T19:00:00+01:00",
   "end": "2018-03-07T21:35:00+01:00",
-  "invitation": "334251",
-  "verbatimProtocol": "337501",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/28",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hertzstraße 23",
+    "room": "Ortsamt Leuben, Bürgersaal",
+    "postalCode": "01257",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:04+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/44"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/508",
+    "http://oparl.dresden.de/bodies/0001/people/510",
+    "http://oparl.dresden.de/bodies/0001/people/1352",
+    "http://oparl.dresden.de/bodies/0001/people/516",
+    "http://oparl.dresden.de/bodies/0001/people/518",
+    "http://oparl.dresden.de/bodies/0001/people/1075",
+    "http://oparl.dresden.de/bodies/0001/people/1118",
+    "http://oparl.dresden.de/bodies/0001/people/1357",
+    "http://oparl.dresden.de/bodies/0001/people/887",
+    "http://oparl.dresden.de/bodies/0001/people/70",
+    "http://oparl.dresden.de/bodies/0001/people/69",
+    "http://oparl.dresden.de/bodies/0001/people/520",
+    "http://oparl.dresden.de/bodies/0001/people/1351"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/334251",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Leu",
+    "fileName": "00334251.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-02-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00334251.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00334251.pdf",
+    "created": "2018-02-14T09:47:17+01:00",
+    "modified": "2018-02-19T06:29:24+01:00"
+  },
   "auxiliaryFile": [
-    "338338",
-    "337420",
-    "337421"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/334251",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Leu",
+      "fileName": "00334251.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-02-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00334251.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00334251.pdf",
+      "created": "2018-02-14T09:47:17+01:00",
+      "modified": "2018-02-19T06:29:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/337420",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortsbeirat Leuben_V1939_17_m_U",
+      "fileName": "00337420.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00337420.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00337420.pdf",
+      "created": "2018-03-08T16:44:49+01:00",
+      "modified": "2018-04-13T05:33:29+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/337421",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortsbeirat Leuben_V2160_18_m_U",
+      "fileName": "00337421.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00337421.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00337421.pdf",
+      "created": "2018-03-08T16:44:50+01:00",
+      "modified": "2018-04-13T05:33:29+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/337501",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00337501.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00337501.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00337501.pdf",
+      "created": "2018-03-09T10:38:39+01:00",
+      "modified": "2018-04-13T05:33:29+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/338338",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anfrage Nachnutzungsabsichten des ehemaligen Operettengebäudes",
+      "fileName": "00338338.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00338338.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00338338.pdf",
+      "created": "2018-03-14T08:58:35+01:00",
+      "modified": "2018-04-13T05:33:29+02:00"
+    }
   ],
   "agendaItem": [
     {
-      "name": "Eröffnung der Sitzung, Feststellung der frist- und ordnungsgemäßen Ladung, Feststellung der Beschlussfähigkeit, Kontrolle der Niederschrift zur 29. Ortsbeiratssitzung am 31.01.2018",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/99171",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6909",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellung der frist- und ordnungsgemäßen Ladung, Feststellung der Beschlussfähigkeit, Kontrolle der Niederschrift zur . Ortsbeiratssitzung am",
+      "public": true,
+      "created": "2018-02-12T08:39:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999 hier:1. Billigung der Abwägung über die Stellungnahmen aus der öffentlichen Auslegung2. Billigung des geänderten Entwurfs zum Flächennutzungsplan3. Billigung der Begründung zum geänderten Flächennutzungsplan-Entwurf4. Beschluss über erneute öffentliche Auslegung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14201",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "348130",
-      "auxiliaryFile": [
-        "366633",
-        "329926",
-        "329350",
-        "360261",
-        "329351",
-        "360262",
-        "329352",
-        "360283",
-        "328313",
-        "328314",
-        "345513",
-        "345514",
-        "347305"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/99172",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6909",
+      "number": "2",
+      "order": "2",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/29852",
       "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-02-12T08:39:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/99175",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6909",
+      "number": "3",
+      "order": "3",
       "name": "Satzung zur Änderung der Hauptsatzung",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14719",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "352858",
-      "auxiliaryFile": [
-        "381335",
-        "518786",
-        "448872",
-        "333554",
-        "333053",
-        "331489",
-        "332279",
-        "331491",
-        "329598",
-        "332464",
-        "332465",
-        "352113",
-        "351997",
-        "351984"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31247",
       "result": "Ersetzung - punktweise Abstimmung",
-      "vote": {
-        "yes": 5,
-        "no": 2,
-        "neutral": 6,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2018-02-12T08:42:01+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/99173",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6909",
+      "number": "4",
+      "order": "4",
       "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-02-12T08:39:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/99174",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6909",
+      "number": "5",
+      "order": "5",
       "name": "Informationen des Ortsamtsleiters zum Geschehen im Ortsamtsgebiet",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2018-02-12T08:39:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "6909",
-  "participant": [
-    "508",
-    "510",
-    "1352",
-    "516",
-    "518",
-    "1075",
-    "1118",
-    "1357",
-    "887",
-    "70",
-    "69",
-    "1351",
-    "520"
-  ]
+  "created": "2017-10-16T10:56:40+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

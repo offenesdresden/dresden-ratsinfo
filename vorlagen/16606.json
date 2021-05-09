@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16606",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2018-4015-00002, Rahmenvertrag zur Lieferung von Notebooks für kommunale Schulen der Landeshauptstadt Dresden",
-  "shortName": "V2949/19",
   "reference": "V2949/19",
+  "date": "2019-03-20",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-03-08",
   "auxiliaryFile": [
-    "405453"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/405453",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2949/19_mU",
+      "fileName": "00405453.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00405453.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00405453.pdf",
+      "created": "2019-04-08T06:09:17+02:00",
+      "modified": "2019-04-08T06:18:04+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7774",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36864",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16606",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/115273",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7774",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-03-20T15:43:28+01:00",
+      "modified": "2019-04-03T15:02:59+02:00"
     }
   ],
-  "id": "16606"
+  "created": "2019-03-08T12:43:02+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

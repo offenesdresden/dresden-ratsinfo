@@ -1,30 +1,63 @@
 {
-  "shortName": "KG/009/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Kleingartenbeirat - 24.11.2010 - 16:00-18:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "22"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/686",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "9. Sitzung des Kleingartenbeirates",
   "start": "2010-11-24T16:00:00+01:00",
   "end": "2010-11-24T18:25:00+01:00",
-  "invitation": "48060",
-  "agendaItem": [
-
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/22"
   ],
-  "id": "686",
   "participant": [
-    "290",
-    "440",
-    "87",
-    "84",
-    "274",
-    "267",
-    "269",
-    "51",
-    "60",
-    "444",
-    "442",
-    "446"
-  ]
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/440",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/267",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/442",
+    "http://oparl.dresden.de/bodies/0001/people/444",
+    "http://oparl.dresden.de/bodies/0001/people/446",
+    "http://oparl.dresden.de/bodies/0001/people/269"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/48060",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_KG_2010_11_24",
+    "fileName": "00048060.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-11-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00048060.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00048060.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/48060",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_KG_2010_11_24",
+      "fileName": "00048060.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-11-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00048060.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00048060.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

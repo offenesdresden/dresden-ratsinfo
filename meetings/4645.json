@@ -1,95 +1,149 @@
 {
-  "shortName": "OBR Kl/014/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 07.12.2015 - 18:30-21:01 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4645",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "14. Sitzung des Ortsbeirates Klotzsche",
   "start": "2015-12-07T18:30:00+01:00",
   "end": "2015-12-07T21:01:00+01:00",
-  "invitation": "232578",
-  "verbatimProtocol": "234472",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/599",
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1062",
+    "http://oparl.dresden.de/bodies/0001/people/1348",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/610",
+    "http://oparl.dresden.de/bodies/0001/people/1345",
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/612",
+    "http://oparl.dresden.de/bodies/0001/people/613",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/617",
+    "http://oparl.dresden.de/bodies/0001/people/1458"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/232578",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00232578.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-11-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00232578.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00232578.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "234333"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/232578",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00232578.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-11-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00232578.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00232578.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/234333",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage zu TOP 1.2 - Präsentation Unterbringung",
+      "fileName": "00234333.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00234333.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00234333.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/234472",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00234472.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00234472.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00234472.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4645",
+      "number": "1",
+      "order": "1",
       "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4645",
+      "number": "1.1",
+      "order": "2",
       "name": "Erläuterungen des Stadtplanungsamtes zur Infovorlage bezüglich der Verlegung/ Neubau der Gleisschleife Diebsteig/Infineon Süd",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11572",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "229901",
-        "229798",
-        "225491",
-        "225492"
-      ],
-      "result": "zur Kenntnis genommen"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/22963",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4645",
+      "number": "1.2",
+      "order": "3",
       "name": "Finanzierung von Maßnahmen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen in den Jahren 2015/2016",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11719",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "234922",
-      "auxiliaryFile": [
-        "268242",
-        "249371",
-        "233668",
-        "231654",
-        "231143",
-        "231403",
-        "234695",
-        "234696",
-        "235680",
-        "234702"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23117",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 6,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4645",
+      "number": "2",
+      "order": "4",
       "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4645",
+      "number": "3",
+      "order": "5",
       "name": "Anfragen und Anregungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4645",
-  "participant": [
-    "1062",
-    "599",
-    "1348",
-    "601",
-    "607",
-    "610",
-    "1345",
-    "612",
-    "611",
-    "613",
-    "1136",
-    "617",
-    "1458"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

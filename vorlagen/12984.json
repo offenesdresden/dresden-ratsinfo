@@ -1,36 +1,77 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/12984",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "gegen Umgestaltung Gedenk-Obelisk in Dresden Nickern",
-  "shortName": "P0071/16",
   "reference": "P0071/16",
+  "date": "2016-10-17",
   "paperType": "Petition",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2016-10-13",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/272547",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Petition",
+    "fileName": "00272547.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-10-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00272547.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00272547.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "272547",
-    "280179",
-    "277551",
-    "272551"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/272551",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Petitionen_Umgestaltung Gedenk-Obelisk in Dresden Nickern_ö",
+      "fileName": "00272551.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-10-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00272551.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00272551.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/277551",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antwort_P0071_16_e-Petition",
+      "fileName": "00277551.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-11-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00277551.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00277551.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/280179",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_P_P0071_16_m_U",
+      "fileName": "00280179.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00280179.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00280179.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5451",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5452",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/26506",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/12984",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/84166",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5452",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/133"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "12984"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

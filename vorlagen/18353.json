@@ -1,88 +1,146 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18353",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Erwerb des Flurstücks 666 z der Gemarkung Hellerau",
-  "shortName": "V0226/20",
   "reference": "V0226/20",
+  "date": "2020-02-26",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-01-28",
   "auxiliaryFile": [
-    "463531",
-    "462271",
-    "455729",
-    "455730"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/455729",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "b) Anlage 2_Lageplan_öffentlich",
+      "fileName": "00455729.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00455729.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00455729.pdf",
+      "created": "2020-01-28T13:59:39+01:00",
+      "modified": "2020-03-09T17:49:28+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/455730",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "c) bereits gefasste Beschlüsse_öffentlich",
+      "fileName": "00455730.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00455730.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00455730.pdf",
+      "created": "2020-01-28T13:59:40+01:00",
+      "modified": "2020-03-09T17:49:28+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/462271",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00462271.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462271.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462271.pdf",
+      "created": "2020-03-03T14:17:36+01:00",
+      "modified": "2020-03-09T17:49:28+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/463531",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0226/20 - ohne Anlage 1",
+      "fileName": "00463531.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00463531.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00463531.pdf",
+      "created": "2020-03-09T17:49:24+01:00",
+      "modified": "2020-03-09T17:49:28+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/502760",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Änderungsantrag_SB_V0226/20_SPD_2020_09_29",
+      "fileName": "00502760.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00502760.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00502760.pdf",
+      "created": "2020-09-29T08:29:48+02:00",
+      "modified": "2020-09-29T08:29:51+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/503657",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Ersetzungsantrag_SB_V0226/20_CDU_2020_09_30",
+      "fileName": "00503657.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00503657.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00503657.pdf",
+      "created": "2020-10-02T10:56:55+02:00",
+      "modified": "2020-10-08T11:44:31+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/112"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40734",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18353",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/130443",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9140",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/169"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "01.04.2020 Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtbezirksbeirat Klotzsche",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beratend",
+      "created": "2020-04-16T08:54:56+02:00",
+      "modified": "2020-05-05T04:42:01+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40735",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18353",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/138137",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8804",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/157"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-09-11T11:37:37+02:00",
+      "modified": "2020-09-30T14:35:53+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40735",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18353",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/138705",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9830",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/157"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-09-22T11:39:19+02:00",
+      "modified": "2020-10-02T11:10:49+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40735",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18353",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/140016",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8805",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/157"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-10-16T10:09:18+02:00",
+      "modified": "2020-11-04T15:12:36+01:00"
     }
   ],
-  "id": "18353"
+  "created": "2020-01-28T13:54:31+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

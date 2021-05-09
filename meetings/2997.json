@@ -1,187 +1,337 @@
 {
-  "shortName": "OSR GP/052/2013",
-  "locality": "Landeshauptstadt Dresden, im Gemeindezentrum Gompitz, Gemeindesaal,Altnossener Straße 46 a, 01156 Dresden, OT Pennrich",
-  "name": "Ortschaftsrat Gompitz - 04.11.2013 - 19:30-20:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "9"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "52. Sitzung des Ortschaftsrates Gompitz",
   "start": "2013-11-04T19:30:00+01:00",
   "end": "2013-11-04T20:50:00+01:00",
-  "invitation": "149059",
-  "resultsProtocol": "150058",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/22",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Altnossener Straße 46 a",
+    "room": "Ortschaft Gompitz, Gemeindesaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/317",
+    "http://oparl.dresden.de/bodies/0001/people/318",
+    "http://oparl.dresden.de/bodies/0001/people/319",
+    "http://oparl.dresden.de/bodies/0001/people/320",
+    "http://oparl.dresden.de/bodies/0001/people/321",
+    "http://oparl.dresden.de/bodies/0001/people/322",
+    "http://oparl.dresden.de/bodies/0001/people/323",
+    "http://oparl.dresden.de/bodies/0001/people/325",
+    "http://oparl.dresden.de/bodies/0001/people/1133",
+    "http://oparl.dresden.de/bodies/0001/people/327",
+    "http://oparl.dresden.de/bodies/0001/people/328",
+    "http://oparl.dresden.de/bodies/0001/people/329",
+    "http://oparl.dresden.de/bodies/0001/people/330"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/149059",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR GP",
+    "fileName": "00149059.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-10-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00149059.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00149059.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/150058",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V-GP0220/13",
+    "fileName": "00150058.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-11-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150058.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150058.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "150062",
-    "150117",
-    "150128",
-    "150194",
-    "150219",
-    "150246",
-    "150252"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/149059",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR GP",
+      "fileName": "00149059.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00149059.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00149059.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150058",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0220/13",
+      "fileName": "00150058.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150058.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150058.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150062",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0221/13",
+      "fileName": "00150062.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150062.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150062.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150117",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0222/13",
+      "fileName": "00150117.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150117.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150117.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150128",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0223/13",
+      "fileName": "00150128.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150128.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150128.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150194",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0224/13",
+      "fileName": "00150194.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150194.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150194.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150219",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0225/13",
+      "fileName": "00150219.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150219.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150219.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150246",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0226/13",
+      "fileName": "00150246.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150246.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150246.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/150252",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-GP0228/13",
+      "fileName": "00150252.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150252.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150252.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46987",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "1",
+      "order": "1",
       "name": "Feststellung ordnungsgemäße Ladung/ Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "2",
+      "order": "2",
       "name": "Anfragen der Bürger",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999hier:\t1. Billigung der Abwägung über die Stellungnahmen aus der frühzeitigen Beteiligung2. Billigung des Entwurfes des Flächennutzungsplanes3. Billigung der Begründung mit Umweltbericht zum Entwurf des Flächennutzungsplanes4. Öffentliche Auslegung des Entwurfes des Flächennutzungsplanes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "175398",
-      "auxiliaryFile": [
-        "182374",
-        "206715",
-        "228917",
-        "132554",
-        "132516",
-        "106470",
-        "266493",
-        "109725"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46982",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "3",
+      "order": "3",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10793",
       "result": "Ablehnung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46998",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "4",
+      "order": "4",
       "name": "Beschluss zum Antrag der \"Kindertagesstätte Gompitzer Spatzennest e. V.\" auf Gewährung einer Zuwendung für den Weihnachtsmarkt am 06.12.2013",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14431",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46999",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "5",
+      "order": "5",
       "name": "Beschluss zum Antrag der Freiwilligen Feuerwehr Ockerwitz auf Gewährung einer Zuwendung für das Glühweinfest am 08.12.2013",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14432",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47000",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "6",
+      "order": "6",
       "name": "Beschluss zum Antrag des Seniorenvereins Gompitz e. V. auf Gewährung einer Zuwendung für das Lichterfest am 11.12.2013",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14433",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47001",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "7",
+      "order": "7",
       "name": "Beschluss zum Antrag des Geflügelzuchtvereins Dresden Elbtal 1903 e. V. auf Gewährung einer Zuwendung für die Festveranstaltung am 17.08.2013 anlässlich des 110-jährigen Vereinsbestehen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14434",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47013",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "8",
+      "order": "8",
       "name": "Beschluss zum Antrag des Geflügelzuchtvereins Dresden Elbtal 1903 e. V. auf Gewährung einer Zuwendung für die Rassegeflügel- und Kaninchenausstellung am 26. - 27.10.2013",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14435",
       "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47017",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "9",
+      "order": "9",
       "name": "Beschluss zum Antrag des Geflügelzuchtvereins Elbtal Dresden 1903 e. V. auf Gewährung einer Zuwendung für eine Weihnachtsfeier",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14436",
       "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 7,
-        "no": 6,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47018",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "10",
+      "order": "10",
       "name": "Beschluss zur Bereitstellung von Finanzmitteln für den Erwerb von Radierungen des Künstlers Steffen Gröbner",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14437",
       "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 12,
-        "no": 1,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47019",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "11",
+      "order": "11",
       "name": "Beschluss zum Antrag des Obergorbitzer Friedhofes im Kirchspiel Dresden-West auf Gewährung einer Zuwendung für das Projekt Brunnenbohrung",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14438",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47384",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "12",
+      "order": "12",
       "name": "Beschluss zum Antrag des Bücherstübchen Ockerwitz auf Gewährung einer Zuwendung für den Erwerb von neuem Lesematerial",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14483",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46985",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2997",
+      "number": "13",
+      "order": "13",
       "name": "Sonstiges",
-      "number": "Ö 13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "2997",
-  "participant": [
-    "322",
-    "323",
-    "325",
-    "319",
-    "1133",
-    "330",
-    "328"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

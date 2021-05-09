@@ -1,141 +1,193 @@
 {
-  "shortName": "OBR Bl/005/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 24.02.2010 - 17:30-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/288",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Ortsbeirates Blasewitz",
   "start": "2010-02-24T17:30:00+01:00",
   "end": "2010-02-24T20:45:00+01:00",
-  "invitation": "21758",
-  "auxiliaryFile": [
-    "22230"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
   ],
-  "verbatimProtocol": "27648",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/704",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/697",
+    "http://oparl.dresden.de/bodies/0001/people/699",
+    "http://oparl.dresden.de/bodies/0001/people/703",
+    "http://oparl.dresden.de/bodies/0001/people/706",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/710",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/714",
+    "http://oparl.dresden.de/bodies/0001/people/718",
+    "http://oparl.dresden.de/bodies/0001/people/720",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/724",
+    "http://oparl.dresden.de/bodies/0001/people/728",
+    "http://oparl.dresden.de/bodies/0001/people/730",
+    "http://oparl.dresden.de/bodies/0001/people/717",
+    "http://oparl.dresden.de/bodies/0001/people/727",
+    "http://oparl.dresden.de/bodies/0001/people/702",
+    "http://oparl.dresden.de/bodies/0001/people/729",
+    "http://oparl.dresden.de/bodies/0001/people/904"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/21758",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00021758.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-02-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00021758.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00021758.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/22230",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_OBR Bl",
+    "fileName": "00022230.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-02-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00022230.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00022230.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 4. Ortsbeiratssitzung am 27.01.2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/21758",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00021758.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-02-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00021758.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00021758.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung des Projektes \"Pat`s Colour Box\" / \"Pat`s Mini Box\" (Händelallee 23)",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/22230",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_OBR Bl",
+      "fileName": "00022230.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-02-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00022230.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00022230.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung der Umgestaltung des Jugendbereiches  im Toeplerpark",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 677, Dresden-Striesen, Wohn- und Einzelhandelsbebauung Schandauer Straßehier:\t1. Beschluss über Stellungnahmen aus dem frühzeitigen Beteiligungsverfahren\t2. Beschluss über Stellungnahmen aus der öffentlichen Auslegung\t3. Beschluss über Stellungnahmen aus dem vereinfachten Verfahren\t(§ 4 a Abs. 3 Satz 4 BauGB)\t4. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden\tErklärung nach § 10 Abs. 4 BauGB zum vorhabenbezogenen Bebauu",
-      "number": "Ö 6 Nachtrag: 19.02.2010  Nummer 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1406",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "21426",
-        "21214",
-        "21215",
-        "21217",
-        "21218",
-        "21289",
-        "21290",
-        "21291",
-        "21292",
-        "21293",
-        "21294",
-        "21295",
-        "21297",
-        "21298",
-        "21299"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 2,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
-      "number": "Ö 7 Nachtrag: 19.02.2010  Nummer 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1315",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "21931",
-        "19492",
-        "19493",
-        "21538",
-        "21539",
-        "21543",
-        "21547",
-        "21548",
-        "19496",
-        "19497",
-        "20364"
-      ],
-      "resolutionFile": "19503",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 21,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "\"Dresdner Sortimentsliste\" zur Feinsteuerung von Einzelhandelsvorhaben",
-      "number": "Ö 8 Nachtrag: 19.02.2010",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "28",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "13303",
-        "20180",
-        "20181",
-        "20182"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/27648",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00027648.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-04-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00027648.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00027648.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "288",
-  "participant": [
-    "704",
-    "706",
-    "420",
-    "697",
-    "703",
-    "699",
-    "708",
-    "710",
-    "712",
-    "714",
-    "718",
-    "717",
-    "722",
-    "720",
-    "724",
-    "727",
-    "728",
-    "730",
-    "729",
-    "702",
-    "904"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5968",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/288",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 4. Ortsbeiratssitzung am 27.01.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5974",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/288",
+      "number": "2",
+      "order": "2",
+      "name": "Vorstellung des Projektes \"Pat`s Colour Box\" / \"Pat`s Mini Box\" (Händelallee 23)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5973",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/288",
+      "number": "3",
+      "order": "3",
+      "name": "Vorstellung der Umgestaltung des Jugendbereiches  im Toeplerpark",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6015",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/288",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6231",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/288",
+      "number": "6",
+      "order": "6",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 677, Dresden-Striesen, Wohn- und Einzelhandelsbebauung Schandauer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2406",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6232",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/288",
+      "number": "7",
+      "order": "7",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2230",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/6238",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/288",
+      "number": "8",
+      "order": "8",
+      "name": "\"Dresdner Sortimentsliste\" zur Feinsteuerung von Einzelhandelsvorhaben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/65",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

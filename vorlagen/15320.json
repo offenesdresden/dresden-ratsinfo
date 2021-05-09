@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15320",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2018-6615-00024, Dorotheenstraße zwischen Dohnaer Straße und Reicker Straße, Los - Straßenbau, Tiefbau",
-  "shortName": "V2434/18",
   "reference": "V2434/18",
+  "date": "2018-06-07",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-05-29",
   "auxiliaryFile": [
-    "354942"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/354942",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2434/18_mU",
+      "fileName": "00354942.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-06-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00354942.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00354942.pdf",
+      "created": "2018-06-22T09:23:07+02:00",
+      "modified": "2018-06-22T09:23:07+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6649",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/32943",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15320",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/103780",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6649",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-06-07T07:38:54+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15320"
+  "created": "2018-05-29T12:04:14+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

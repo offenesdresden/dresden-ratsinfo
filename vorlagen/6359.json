@@ -1,64 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/6359",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Veränderung im Finanzhaushalt 2012 des Brand- und Katastrophenschutzamtes",
-  "shortName": "V1919/12",
   "reference": "V1919/12",
+  "date": "2012-10-19",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2012-10-02",
   "auxiliaryFile": [
-    "115277",
-    "121038",
-    "113284"
-  ],
-  "mainFile": "113651",
-  "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/113284",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00113284.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-10-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00113284.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00113284.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/113651",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V1919/12",
+      "fileName": "00113651.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-10-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00113651.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00113651.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1699",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/115277",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V1919/12",
+      "fileName": "00115277.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00115277.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00115277.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1806",
-      "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/121038",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK-V1919-12",
+      "fileName": "00121038.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00121038.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00121038.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "6359"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/43"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/11252",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/6359",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/35813",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1806",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/3"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

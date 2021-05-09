@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17136",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-65-00085, Ersatzneubau Kindertageseinrichtung Riesaer Straße 9-11, 01129 Dresden, Los 61 - Gebäudeabbruch mit Schadstoffsanierung, Verbau und Baugrubenaushub",
-  "shortName": "V3112/19",
   "reference": "V3112/19",
+  "date": "2019-06-13",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-06-07",
   "auxiliaryFile": [
-    "420727"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420727",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V3112/19_mU",
+      "fileName": "00420727.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420727.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420727.pdf",
+      "created": "2019-06-27T08:34:46+02:00",
+      "modified": "2019-06-27T08:34:48+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7777",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37995",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17136",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/118850",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7777",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-06-13T12:15:23+02:00",
+      "modified": "2019-06-27T06:29:26+02:00"
     }
   ],
-  "id": "17136"
+  "created": "2019-06-07T11:47:37+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,131 +1,219 @@
 {
-  "shortName": "OSR MB/004/2014",
-  "locality": "Landeshauptstadt Dresden, im \"Dorfklub Mobschatz\", Sitzungssaal,Am Tummelsgrund 7 b, 01156 Dresden",
-  "name": "Ortschaftsrat Mobschatz - 04.12.2014 - 19:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "45"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "4. Sitzung des Ortschaftsrates Mobschatz",
   "start": "2014-12-04T19:30:00+01:00",
   "end": "2014-12-04T21:15:00+01:00",
-  "invitation": "188148",
-  "resultsProtocol": "190582",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/36",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Am Tummelsgrund 7 b",
+    "room": "Ortschaft Mobschatz, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/45"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/813",
+    "http://oparl.dresden.de/bodies/0001/people/343",
+    "http://oparl.dresden.de/bodies/0001/people/1255",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/345",
+    "http://oparl.dresden.de/bodies/0001/people/348"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/188148",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR MB",
+    "fileName": "00188148.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00188148.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00188148.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/190582",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V-MB0021-14",
+    "fileName": "00190582.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-12-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00190582.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00190582.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/188148",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR MB",
+      "fileName": "00188148.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00188148.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00188148.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung und der Niederschrift des Ortschaftsrates Mobschatz",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Zweite Fortschreibung Spielplatzentwicklungskonzeption",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9052",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "207503",
-      "auxiliaryFile": [
-        "234249",
-        "268934",
-        "332055",
-        "355735",
-        "435801",
-        "494337",
-        "196778",
-        "182931",
-        "196776",
-        "181890",
-        "181891",
-        "181892",
-        "181893",
-        "181894",
-        "181906",
-        "181907",
-        "181908",
-        "181909",
-        "181910",
-        "181911",
-        "181912",
-        "181914",
-        "182539",
-        "206585"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschluss zur Förderung des Modellflugsportclubs TU Dresden e.V. durch den Ortschaftsrat Mobschatz",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 6,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Seniorenweihnachtsfeiern in Mobschatz und Merbitz",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Haushaltsplanentwurf 2015/2016 - Investitionsmaßnahmen der Ämter in den Ortschaften",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschlussumsetzung zu V-MB0011/14 - Erneuerung der Terrasse am Dorfklub Mobschatz",
-      "number": "Ö 5.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Mitteilung über Thematik zum Grundstück in Podemus (Flurstück Nr. 13)",
-      "number": "Ö 5.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Schwarzwildschäden im Ortschaftsgebiet",
-      "number": "Ö 5.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Öffentlichkeitsbeteiligung zum Flächennutzungsplan",
-      "number": "Ö 5.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bürgeranfragen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/190582",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-MB0021-14",
+      "fileName": "00190582.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00190582.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00190582.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3748",
-  "participant": [
-    "813",
-    "343",
-    "1255",
-    "288",
-    "348",
-    "345"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59921",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung und der Niederschrift des Ortschaftsrates Mobschatz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59937",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "3",
+      "order": "3",
+      "name": "Zweite Fortschreibung Spielplatzentwicklungskonzeption",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17380",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/60189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "4",
+      "order": "4",
+      "name": "Beschluss zur Förderung des Modellflugsportclubs TU Dresden e.V. durch den Ortschaftsrat Mobschatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18030",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59928",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "5",
+      "order": "5",
+      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61144",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "5.1",
+      "order": "6",
+      "name": "Seniorenweihnachtsfeiern in Mobschatz und Merbitz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61251",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "5.2",
+      "order": "7",
+      "name": "Haushaltsplanentwurf 2015/2016 - Investitionsmaßnahmen der Ämter in den Ortschaften",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61252",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "5.3",
+      "order": "8",
+      "name": "Beschlussumsetzung zu V-MB0011/14 - Erneuerung der Terrasse am Dorfklub Mobschatz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61253",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "5.4",
+      "order": "9",
+      "name": "Mitteilung über Thematik zum Grundstück in Podemus (Flurstück Nr. 13)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61254",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "5.5",
+      "order": "10",
+      "name": "Schwarzwildschäden im Ortschaftsgebiet",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61255",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "5.6",
+      "order": "11",
+      "name": "Öffentlichkeitsbeteiligung zum Flächennutzungsplan",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59929",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3748",
+      "number": "6",
+      "order": "12",
+      "name": "Bürgeranfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

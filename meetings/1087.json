@@ -1,31 +1,49 @@
 {
-  "shortName": "AB/013/2011",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausländerbeirat - 05.04.2011 - 19:00-22:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "19"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1087",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Ausländerbeirates",
   "start": "2011-04-05T19:00:00+02:00",
   "end": "2011-04-05T22:15:00+02:00",
-  "invitation": "55472",
-  "agendaItem": [
-
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/19"
   ],
-  "id": "1087",
-  "participant": [
-    "430",
-    "78",
-    "88",
-    "92",
-    "84",
-    "100",
-    "948",
-    "425",
-    "427",
-    "422",
-    "423",
-    "421",
-    "429"
-  ]
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/55472",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB_2011_04_05",
+    "fileName": "00055472.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-02-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00055472.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00055472.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/55472",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB_2011_04_05",
+      "fileName": "00055472.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00055472.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00055472.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

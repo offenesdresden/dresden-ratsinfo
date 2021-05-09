@@ -1,101 +1,251 @@
 {
-  "shortName": "OSR AF/051/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 13.01.2014 - 19:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "51. Sitzung des Ortschaftsrates Altfranken",
   "start": "2014-01-13T19:00:00+01:00",
   "end": "2014-01-13T20:00:00+01:00",
-  "invitation": "155783",
-  "resultsProtocol": "157040",
-  "verbatimProtocol": "157350",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/303",
+    "http://oparl.dresden.de/bodies/0001/people/304",
+    "http://oparl.dresden.de/bodies/0001/people/305"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/155783",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00155783.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-01-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00155783.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00155783.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/157040",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V-AF0072/13",
+    "fileName": "00157040.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-01-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00157040.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00157040.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Informationen zur Planung der Kita in Altfranken",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/155783",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00155783.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-01-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00155783.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00155783.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/157040",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0072/13",
+      "fileName": "00157040.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00157040.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00157040.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Aufwandsentschädigung für die Organisation und Durchführung der Altfrankener Senioren-Veranstaltungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verkehrsschild mit Geschwindigkeitsbeschränkung auf Otto-Harzer-Straße",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Mitteilung zur Reinigung von Straßen",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beseitigung von Müll im Haltestellenbereich Altnossener Straße",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beseitigung von Silvester-Müll",
-      "number": "Ö 4.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einladung von Stadtverband \"Dresdner Gartenfreunde e. V.\"",
-      "number": "Ö 4.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Eingabe der Familie Aehnelt",
-      "number": "Ö 4.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Durchgängigkeit des Weges an der Autobahn",
-      "number": "Ö 4.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschädigter Fußweg",
-      "number": "Ö 4.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Auslichten von Grünstreifen",
-      "number": "Ö 4.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Probleme mit der Zustellung der Ortsnachrichten",
-      "number": "Ö 4.10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/157350",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00157350.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-01-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00157350.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00157350.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3675",
-  "participant": [
-    "300",
-    "303",
-    "304",
-    "305"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/48970",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "1",
+      "order": "1",
+      "name": "Informationen zur Planung der Kita in Altfranken",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49118",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "2",
+      "order": "2",
+      "name": "Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/48951",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "3",
+      "order": "3",
+      "name": "Aufwandsentschädigung für die Organisation und Durchführung der Altfrankener Senioren-Veranstaltungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14899",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/48954",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4",
+      "order": "4",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49477",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.1",
+      "order": "5",
+      "name": "Verkehrsschild mit Geschwindigkeitsbeschränkung auf Otto-Harzer-Straße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49479",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.2",
+      "order": "6",
+      "name": "Mitteilung zur Reinigung von Straßen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49478",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.3",
+      "order": "7",
+      "name": "Beseitigung von Müll im Haltestellenbereich Altnossener Straße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49480",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.4",
+      "order": "8",
+      "name": "Beseitigung von Silvester-Müll",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49487",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.5",
+      "order": "9",
+      "name": "Einladung von Stadtverband \"Dresdner Gartenfreunde e. V.\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49488",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.6",
+      "order": "10",
+      "name": "Eingabe der Familie Aehnelt",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49502",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.7",
+      "order": "11",
+      "name": "Durchgängigkeit des Weges an der Autobahn",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49501",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.8",
+      "order": "12",
+      "name": "Beschädigter Fußweg",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49503",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.9",
+      "order": "13",
+      "name": "Auslichten von Grünstreifen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3675",
+      "number": "4.10",
+      "order": "14",
+      "name": "Probleme mit der Zustellung der Ortsnachrichten",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

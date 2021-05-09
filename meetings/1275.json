@@ -1,54 +1,118 @@
 {
-  "shortName": "OBR Kl/015/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 14.03.2011 - 19:00-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1275",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ortsbeirates Klotzsche",
   "start": "2011-03-14T19:00:00+01:00",
   "end": "2011-03-14T20:45:00+01:00",
-  "invitation": "56591",
-  "verbatimProtocol": "58254",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/56591",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00056591.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-03-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00056591.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00056591.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Informationen zum Standortwechsel der Stadtteilbibliothek Klotzsche",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/56591",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00056591.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-03-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00056591.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00056591.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen zum Bauplanungsrecht",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung des Konzeptes zum Bau fehlender und zur Sanierung von stark instandsetzungsbedürftigen Fußwegen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen aus dem Ortsbeirat",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/58254",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00058254.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-03-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00058254.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00058254.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1275",
-  "participant": [
-    "298",
-    "599",
-    "603",
-    "605",
-    "607",
-    "609",
-    "611",
-    "613",
-    "615",
-    "617",
-    "618"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17463",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1275",
+      "number": "1",
+      "order": "1",
+      "name": "Informationen zum Standortwechsel der Stadtteilbibliothek Klotzsche",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17464",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1275",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen zum Bauplanungsrecht",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17466",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1275",
+      "number": "3",
+      "order": "3",
+      "name": "Fortschreibung des Konzeptes zum Bau fehlender und zur Sanierung von stark instandsetzungsbedürftigen Fußwegen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17462",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1275",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen des Ortsamtsleiters",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17465",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1275",
+      "number": "5",
+      "order": "5",
+      "name": "Anfragen und Anregungen aus dem Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,69 +1,104 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16118",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Dresdner Striezelmarkt 2019 – Festlegung der Anbietergruppen und der Verteilerschlüssel",
-  "shortName": "V2799/18",
   "reference": "V2799/18",
+  "date": "2019-01-07",
   "paperType": "Vorlage OB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-11-28",
-  "mainFile": "389743",
   "auxiliaryFile": [
-    "388330",
-    "382334",
-    "388153"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/382334",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 – Anbietergruppen inkl. vorgesehener Verteilerschlüssel",
+      "fileName": "00382334.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00382334.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00382334.pdf",
+      "created": "2018-11-28T11:55:27+01:00",
+      "modified": "2019-01-16T13:33:34+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/388153",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschluss V1781-17",
+      "fileName": "00388153.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00388153.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00388153.pdf",
+      "created": "2019-01-08T12:35:56+01:00",
+      "modified": "2019-01-16T13:33:34+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/388330",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00388330.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00388330.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00388330.pdf",
+      "created": "2019-01-08T15:20:01+01:00",
+      "modified": "2019-01-16T13:33:34+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/389743",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V2799/18",
+      "fileName": "00389743.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00389743.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00389743.pdf",
+      "created": "2019-01-16T13:33:30+01:00",
+      "modified": "2019-01-16T13:33:34+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/399934",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2799/18_mU",
+      "fileName": "00399934.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00399934.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00399934.pdf",
+      "created": "2019-03-14T10:27:23+01:00",
+      "modified": "2019-03-14T10:27:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/407646",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK_WF_V2799/19_2019_04_10_Abschlussbericht",
+      "fileName": "00407646.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00407646.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00407646.pdf",
+      "created": "2019-04-17T13:15:20+02:00",
+      "modified": "2019-04-17T13:15:21+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/98"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35414",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16118",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/114095",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7773",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7772",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Wirtschaftsförderung",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-02-20T14:32:53+01:00",
+      "modified": "2019-04-01T10:35:08+02:00"
     }
   ],
-  "id": "16118"
+  "created": "2018-11-28T11:47:19+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,21 +1,15 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/2164",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Dr. Jan Blüher",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "147",
-      "startDate": "2019-12-18"
-    }
+  "familyName": "Blüher",
+  "givenName": "Jan",
+  "formOfAddress": "Herr",
+  "title": [
+    "Dr."
   ],
-  "postalCode": "01187",
-  "locality": "Dresden",
-  "streetAddress": "Bayreuther Straße 2",
+  "gender": "männlich",
   "phone": [
     "0351/86268831",
     "0176 34926242"
@@ -23,5 +17,20 @@
   "email": [
     "jan.blueher@visorapps.com"
   ],
-  "id": "2164"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10716",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2164",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/147",
+      "role": "Mitglied",
+      "votingRight": true,
+      "startDate": "2019-12-18",
+      "created": "2019-12-18T10:57:07+01:00",
+      "modified": "2020-01-06T09:49:27+01:00"
+    }
+  ],
+  "created": "2019-12-18T10:55:13+01:00",
+  "modified": "2020-10-01T08:47:51+02:00",
+  "web": ""
 }

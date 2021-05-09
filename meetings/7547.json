@@ -1,199 +1,326 @@
 {
-  "shortName": "SR/001/2019",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Stadtrat - 05.09.2019 - 16:00-18:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "1"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Stadtrates",
   "start": "2019-09-05T16:00:00+02:00",
   "end": "2019-09-05T18:00:00+02:00",
-  "invitation": "426748",
-  "verbatimProtocol": "439513",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/18",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "Plenarsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/426748",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SR_mU",
+    "fileName": "00426748.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-08-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426748.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426748.pdf",
+    "created": "2019-08-22T09:31:42+02:00",
+    "modified": "2019-12-16T08:51:43+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bericht des Oberbürgermeisters",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/426748",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SR_mU",
+      "fileName": "00426748.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426748.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426748.pdf",
+      "created": "2019-08-22T09:31:42+02:00",
+      "modified": "2019-12-16T08:51:43+01:00"
     },
     {
-      "name": "Bekanntgabe nicht öffentlicher Beschlüsse",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verpflichtung der Stadträtinnen und Stadträte gemäß § 35 Abs. 1 SächsGemO durch den Oberbürgermeister",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Satzung zur Änderung der Hauptsatzung und Änderung der Geschäftsordnung des Stadtrates",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17451",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "429528",
-      "auxiliaryFile": [
-        "427665",
-        "428693",
-        "426434",
-        "426719",
-        "426259",
-        "426260",
-        "426261",
-        "426262",
-        "432952",
-        "438931",
-        "428501",
-        "428332",
-        "428528",
-        "435837",
-        "439408"
-      ]
-    },
-    {
-      "name": "Einigungsverfahren Gremienbesetzung",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss Allgemeine Verwaltung, Ordnung und Sicherheit (Eigenbetrieb IT-Dienstleistungen)",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Finanzen",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Allgemeine Verwaltung, Finanzen, Ordnung und Sicherheit (Eigenbetrieb IT-Dienstleistungen)",
-      "number": "Ö 5.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-      "number": "Ö 5.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Kultur und Tourismus (Eigenbetrieb Heinrich-Schütz-Konservatorium)",
-      "number": "Ö 5.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Bildung (Eigenbetrieb Kindertageseinrichtungen)",
-      "number": "Ö 5.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Soziales und Wohnen",
-      "number": "Ö 5.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Gesundheit (Eigenbetrieb Städtisches Klinikum)",
-      "number": "Ö 5.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Soziales, Gesundheit und Wohnen (Eigenbetrieb Städtisches Klinikum Dresden)",
-      "number": "Ö 5.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Sport (Eigenbetrieb Sportstätten)",
-      "number": "Ö 5.10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Wirtschaftsförderung",
-      "number": "Ö 5.11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
-      "number": "Ö 5.12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausschuss für Petitionen und Bürgerbeteiligung",
-      "number": "Ö 5.13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kriminalpräventiver Rat",
-      "number": "Ö 5.14",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Besetzung des Jugendhilfeausschusses",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17329",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "429531",
-      "auxiliaryFile": [
-        "426386",
-        "425492",
-        "423143"
-      ]
-    },
-    {
-      "name": "Wahl und Entsendung der Vertreter/-innen der Landeshauptstadt Dresden in die Achte Verbandsversammlung des Kommunalen Sozialverbandes Sachsen (KSV)",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17225",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "448922",
-      "auxiliaryFile": [
-        "426389",
-        "424825",
-        "420498",
-        "421357",
-        "421376",
-        "439407",
-        "439515"
-      ]
-    },
-    {
-      "name": "Neubesetzung des Umlegungsausschusses nach der Kommunalwahl am 26. Mai 2019",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17254",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "443793",
-      "auxiliaryFile": [
-        "426388",
-        "425058",
-        "421661",
-        "421662"
-      ]
-    },
-    {
-      "name": "Bestimmung der Verbandsräte/-innen und deren Stellvertreter/-innen für den Regionalen Planungsverband \"Oberes Elbtal/Osterzgebirge\" gemäß § 10 Abs. 1 SächsLPlG",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17304",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "443809",
-      "auxiliaryFile": [
-        "426387",
-        "425959",
-        "424705",
-        "422792"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/files/439513",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00439513.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00439513.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00439513.pdf",
+      "created": "2019-10-30T13:54:44+01:00",
+      "modified": "2019-12-16T08:51:43+01:00"
     }
   ],
-  "id": "7547"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119942",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "1",
+      "order": "1",
+      "name": "Bericht des Oberbürgermeisters",
+      "public": true,
+      "created": "2019-08-09T08:40:16+02:00",
+      "modified": "2019-08-09T08:40:16+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119943",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe nicht öffentlicher Beschlüsse",
+      "public": true,
+      "created": "2019-08-09T08:40:53+02:00",
+      "modified": "2019-08-09T08:40:53+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119944",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "3",
+      "order": "3",
+      "name": "Verpflichtung der Stadträtinnen und Stadträte gemäß § 35 Abs. 1 SächsGemO durch den Oberbürgermeister",
+      "public": true,
+      "created": "2019-08-09T08:43:02+02:00",
+      "modified": "2019-08-20T06:19:40+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120425",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "4",
+      "order": "4",
+      "name": "Satzung zur Änderung der Hauptsatzung und Änderung der Geschäftsordnung des Stadtrates",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38752",
+      "result": "Teilbeschlussfassung mit Verweisung",
+      "created": "2019-08-22T05:33:53+02:00",
+      "modified": "2019-09-25T13:49:36+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119953",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5",
+      "order": "5",
+      "name": "Einigungsverfahren Gremienbesetzung",
+      "public": true,
+      "created": "2019-08-09T09:06:48+02:00",
+      "modified": "2019-08-22T05:34:01+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119954",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.1",
+      "order": "6",
+      "name": "Ausschuss Allgemeine Verwaltung, Ordnung und Sicherheit (Eigenbetrieb IT-Dienstleistungen)",
+      "public": true,
+      "created": "2019-08-09T09:08:24+02:00",
+      "modified": "2019-08-22T05:34:01+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119955",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.2",
+      "order": "7",
+      "name": "Ausschuss für Finanzen",
+      "public": true,
+      "created": "2019-08-09T09:08:51+02:00",
+      "modified": "2019-08-22T05:34:01+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120426",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.3",
+      "order": "8",
+      "name": "Ausschuss für Allgemeine Verwaltung, Finanzen, Ordnung und Sicherheit (Eigenbetrieb IT-Dienstleistungen)",
+      "public": true,
+      "created": "2019-08-22T05:40:11+02:00",
+      "modified": "2019-08-22T05:40:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119956",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.4",
+      "order": "9",
+      "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
+      "public": true,
+      "created": "2019-08-09T09:09:25+02:00",
+      "modified": "2019-08-22T05:40:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119957",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.5",
+      "order": "10",
+      "name": "Ausschuss für Kultur und Tourismus (Eigenbetrieb Heinrich-Schütz-Konservatorium)",
+      "public": true,
+      "created": "2019-08-09T09:09:43+02:00",
+      "modified": "2019-08-22T05:40:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119958",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.6",
+      "order": "11",
+      "name": "Ausschuss für Bildung (Eigenbetrieb Kindertageseinrichtungen)",
+      "public": true,
+      "created": "2019-08-09T09:12:33+02:00",
+      "modified": "2019-08-22T05:40:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119959",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.7",
+      "order": "12",
+      "name": "Ausschuss für Soziales und Wohnen",
+      "public": true,
+      "created": "2019-08-09T09:20:41+02:00",
+      "modified": "2019-08-22T05:40:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119961",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.8",
+      "order": "13",
+      "name": "Ausschuss für Gesundheit (Eigenbetrieb Städtisches Klinikum)",
+      "public": true,
+      "created": "2019-08-09T09:26:43+02:00",
+      "modified": "2019-08-22T05:40:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/120427",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.9",
+      "order": "14",
+      "name": "Ausschuss für Soziales, Gesundheit und Wohnen (Eigenbetrieb Städtisches Klinikum Dresden)",
+      "public": true,
+      "created": "2019-08-22T05:40:55+02:00",
+      "modified": "2019-08-22T05:40:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119960",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.10",
+      "order": "15",
+      "name": "Ausschuss für Sport (Eigenbetrieb Sportstätten)",
+      "public": true,
+      "created": "2019-08-09T09:21:32+02:00",
+      "modified": "2019-08-22T05:40:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119962",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.11",
+      "order": "16",
+      "name": "Ausschuss für Wirtschaftsförderung",
+      "public": true,
+      "created": "2019-08-09T09:27:09+02:00",
+      "modified": "2019-08-22T05:40:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119963",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.12",
+      "order": "17",
+      "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
+      "public": true,
+      "created": "2019-08-09T10:47:47+02:00",
+      "modified": "2019-08-22T05:40:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119964",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.13",
+      "order": "18",
+      "name": "Ausschuss für Petitionen und Bürgerbeteiligung",
+      "public": true,
+      "created": "2019-08-09T10:48:11+02:00",
+      "modified": "2019-08-22T05:40:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119967",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "5.14",
+      "order": "19",
+      "name": "Kriminalpräventiver Rat",
+      "public": true,
+      "created": "2019-08-09T12:18:52+02:00",
+      "modified": "2019-08-22T05:40:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119941",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "6",
+      "order": "20",
+      "name": "Besetzung des Jugendhilfeausschusses",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38426",
+      "result": "erledigt",
+      "created": "2019-08-09T08:39:10+02:00",
+      "modified": "2019-11-26T15:12:23+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119972",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "7",
+      "order": "21",
+      "name": "Wahl und Entsendung der Vertreter/-innen der Landeshauptstadt Dresden in die Achte Verbandsversammlung des Kommunalen Sozialverbandes Sachsen (KSV)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38169",
+      "result": "Vertagung",
+      "created": "2019-08-12T10:13:55+02:00",
+      "modified": "2019-09-06T09:25:05+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119965",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "8",
+      "order": "22",
+      "name": "Neubesetzung des Umlegungsausschusses nach der Kommunalwahl am 26. Mai 2019",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38231",
+      "result": "Vertagung",
+      "created": "2019-08-09T11:03:05+02:00",
+      "modified": "2019-09-06T09:25:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119966",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7547",
+      "number": "9",
+      "order": "23",
+      "name": "Bestimmung der Verbandsräte/-innen und deren Stellvertreter/-innen für den Regionalen Planungsverband",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38341",
+      "result": "Vertagung",
+      "created": "2019-08-09T11:03:54+02:00",
+      "modified": "2019-09-06T09:25:19+02:00"
+    }
+  ],
+  "created": "2018-09-07T14:19:39+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

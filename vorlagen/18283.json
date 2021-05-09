@@ -1,11 +1,42 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18283",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Abrechnung der Verfügungsmittel des Ortschaftsrates 2019",
-  "shortName": "V-WX0092/20",
   "reference": "V-WX0092/20",
+  "date": "2020-02-11",
   "paperType": "Vorlage OS Weixdorf",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "auxiliaryFile": [
-    "452427"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/452427",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Weixdorf",
+    "fileName": "00452427.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00452427.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00452427.pdf",
+    "created": "2020-01-10T10:36:50+01:00",
+    "modified": "2020-02-18T10:52:55+01:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/37"
   ],
-  "id": "18283"
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40559",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18283",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/126220",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9091",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+      ],
+      "authoritative": true,
+      "role": "zur Information",
+      "created": "2020-01-10T10:40:49+01:00",
+      "modified": "2020-03-02T11:55:43+01:00"
+    }
+  ],
+  "created": "2020-01-10T10:36:19+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

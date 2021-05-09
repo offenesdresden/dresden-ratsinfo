@@ -1,67 +1,102 @@
 {
-  "shortName": "FL/041/2011",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Lichthof,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Finanzen und Liegenschaften - 23.05.2011 - 16:00-19:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "3"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1116",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "41. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "start": "2011-05-23T16:00:00+02:00",
   "end": "2011-05-23T19:50:00+02:00",
-  "invitation": "63428",
-  "verbatimProtocol": "64976",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/3"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/92",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/267",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/57",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/91"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/63428",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_FL_2011_05_23",
+    "fileName": "00063428.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-05-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00063428.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00063428.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vergabe eines Erbbaurechtes für das Grundstück Hübnerstraße 11",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3837",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "64640",
-      "auxiliaryFile": [
-        "60977",
-        "58626"
-      ],
-      "result": "Zustimmung mit Änderung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/63428",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_FL_2011_05_23",
+      "fileName": "00063428.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-05-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00063428.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00063428.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Veräußerung einer Teilfläche des Flurstückes Nr. 417/27 der Gemarkung Friedrichstadt",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3838",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "64665",
-      "auxiliaryFile": [
-        "63117",
-        "58637",
-        "59699",
-        "63473"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/64976",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00064976.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-05-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00064976.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00064976.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1116",
-  "participant": [
-    "26",
-    "37",
-    "277",
-    "769",
-    "92",
-    "79",
-    "967",
-    "267",
-    "57",
-    "51",
-    "91"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1116",
+      "number": "1",
+      "order": "1",
+      "name": "Vergabe eines Erbbaurechtes für das Grundstück Hübnerstraße 11",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5928",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19650",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1116",
+      "number": "2",
+      "order": "2",
+      "name": "Veräußerung einer Teilfläche des Flurstückes Nr. 417/27 der Gemarkung Friedrichstadt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5930",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

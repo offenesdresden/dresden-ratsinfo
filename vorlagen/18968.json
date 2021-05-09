@@ -1,22 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18968",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Besetzung der Schiedsstelle Klotzsche mit einer Protokollführerin/einem Protokollführer",
-  "shortName": "V-Kl00029/20",
   "reference": "V-Kl00029/20",
+  "date": "2020-05-19",
   "paperType": "Vorlage STB Klotzsche",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-05-19",
-  "mainFile": "475257",
-  "consultation": [
+  "auxiliaryFile": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9141",
-      "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/475257",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V-Kl00029/20",
+      "fileName": "00475257.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00475257.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00475257.pdf",
+      "created": "2020-05-20T11:30:51+02:00",
+      "modified": "2020-05-20T11:31:44+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/478661",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Klotzsche_V-Kl00029/20_oU",
+      "fileName": "00478661.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00478661.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00478661.pdf",
+      "created": "2020-06-09T08:21:45+02:00",
+      "modified": "2020-06-12T04:49:41+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/478984",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Klotzsche_V-Kl00029/20",
+      "fileName": "00478984.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00478984.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00478984.pdf",
+      "created": "2020-06-10T08:39:26+02:00",
+      "modified": "2020-06-10T08:39:26+02:00"
     }
   ],
-  "id": "18968"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/133"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42407",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18968",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/132500",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9141",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/169"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-05-25T07:07:32+02:00",
+      "modified": "2020-06-10T11:15:03+02:00"
+    }
+  ],
+  "created": "2020-05-19T12:12:17+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

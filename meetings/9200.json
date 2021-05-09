@@ -1,112 +1,201 @@
 {
-  "shortName": "OSR AF/012/2020",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 14.09.2020 - 19:00-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "12. Sitzung des Ortschaftsrates Altfranken",
   "start": "2020-09-14T19:00:00+02:00",
   "end": "2020-09-14T20:30:00+02:00",
-  "invitation": "495878",
-  "auxiliaryFile": [
-    "499524",
-    "499523"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
   ],
-  "resultsProtocol": "498662",
-  "verbatimProtocol": "499880",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/1242",
+    "http://oparl.dresden.de/bodies/0001/people/2004",
+    "http://oparl.dresden.de/bodies/0001/people/2016"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/495878",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00495878.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-09-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00495878.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00495878.pdf",
+    "created": "2020-09-04T08:25:57+02:00",
+    "modified": "2020-09-07T14:32:32+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Neues Wohnen auf städtischen Flächen fördern - Wagenplätze in Dresden ermöglichen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18586",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "462818",
-        "496863",
-        "516800"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 5,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/495878",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00495878.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00495878.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00495878.pdf",
+      "created": "2020-09-04T08:25:57+02:00",
+      "modified": "2020-09-07T14:32:32+02:00"
     },
     {
-      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "464644",
-        "496854",
-        "537498"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/498662",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR_Altfranken_V-AF0032/20_oU",
+      "fileName": "00498662.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498662.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498662.pdf",
+      "created": "2020-09-15T08:18:06+02:00",
+      "modified": "2020-09-18T05:14:31+02:00"
     },
     {
-      "name": "Aufstellung eines Verkehrsschildes \"Achtung Kinder\" auf der Rudolf-Walther-Straße",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20471",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "499525",
-      "auxiliaryFile": [
-        "523011",
-        "495913"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/499523",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR_Altfranken_A0060/20_mU",
+      "fileName": "00499523.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00499523.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00499523.pdf",
+      "created": "2020-09-17T14:35:58+02:00",
+      "modified": "2020-10-06T06:00:47+02:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/499524",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR_Altffranken_A0057/20_mU",
+      "fileName": "00499524.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00499524.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00499524.pdf",
+      "created": "2020-09-17T14:37:21+02:00",
+      "modified": "2020-10-06T06:00:47+02:00"
     },
     {
-      "name": "Absprache zur Verwendung der investiven Mittel",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Pflege des Spielplatzes Haufes Berg",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bekanntgabe von Beschlusskontrollen",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Zustand des verwilderten Flurstückes am Kirschplan",
-      "number": "Ö 4.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/499880",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00499880.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00499880.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00499880.pdf",
+      "created": "2020-09-18T12:56:43+02:00",
+      "modified": "2020-10-06T06:00:47+02:00"
     }
   ],
-  "id": "9200"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/136719",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "1",
+      "order": "1",
+      "name": "Neues Wohnen auf städtischen Flächen fördern - Wagenplätze in Dresden ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41480",
+      "result": "Ablehnung",
+      "created": "2020-08-10T08:56:41+02:00",
+      "modified": "2020-09-15T08:04:32+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/136720",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "2",
+      "order": "2",
+      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41566",
+      "result": "Zustimmung",
+      "created": "2020-08-10T08:56:41+02:00",
+      "modified": "2020-09-15T08:05:03+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137795",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "3",
+      "order": "3",
+      "name": "Aufstellung eines Verkehrsschildes \"Achtung Kinder\" auf der Rudolf-Walther-Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45590",
+      "result": "Zustimmung",
+      "created": "2020-09-04T07:05:18+02:00",
+      "modified": "2020-09-18T06:26:07+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/136724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "4",
+      "order": "4",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2020-08-10T08:56:42+02:00",
+      "modified": "2020-09-04T07:05:36+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137833",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "4.1",
+      "order": "5",
+      "name": "Absprache zur Verwendung der investiven Mittel",
+      "public": true,
+      "created": "2020-09-04T08:38:39+02:00",
+      "modified": "2020-09-04T08:38:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138573",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "4.2",
+      "order": "6",
+      "name": "Pflege des Spielplatzes Haufes Berg",
+      "public": true,
+      "created": "2020-09-18T12:42:20+02:00",
+      "modified": "2020-09-18T12:58:36+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138531",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "4.3",
+      "order": "7",
+      "name": "Bekanntgabe von Beschlusskontrollen",
+      "public": true,
+      "created": "2020-09-17T14:50:40+02:00",
+      "modified": "2020-09-18T12:42:20+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138574",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9200",
+      "number": "4.4",
+      "order": "8",
+      "name": "Zustand des verwilderten Flurstückes am Kirschplan",
+      "public": true,
+      "created": "2020-09-18T13:03:06+02:00",
+      "modified": "2020-09-18T13:03:06+02:00"
+    }
+  ],
+  "created": "2019-12-19T07:10:30+01:00",
+  "modified": "2021-01-21T15:42:51+01:00"
 }

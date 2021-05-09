@@ -1,25 +1,55 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15770",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vorstellung Hochwasserrisikomanagementplan der Landeshauptstadt Dresden - Schullwitzbach",
-  "shortName": "V-SW0185/18",
   "reference": "V-SW0185/18",
+  "date": "2018-09-13",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-09-10",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/367927",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00367927.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-09-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00367927.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00367927.pdf",
+    "created": "2018-09-13T08:36:53+02:00",
+    "modified": "2018-09-13T08:38:55+02:00"
+  },
   "auxiliaryFile": [
-    "367927",
-    "367935"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/367935",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0185/18_mU",
+      "fileName": "00367935.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00367935.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00367935.pdf",
+      "created": "2018-09-13T08:40:43+02:00",
+      "modified": "2018-09-13T08:40:44+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6983",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34406",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15770",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/107162",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6983",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2018-09-13T08:39:17+02:00",
+      "modified": "2019-06-05T11:52:02+02:00"
     }
   ],
-  "id": "15770"
+  "created": "2018-09-13T08:29:20+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

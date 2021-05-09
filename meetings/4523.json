@@ -1,128 +1,179 @@
 {
-  "shortName": "OBR Pl/008/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Plauen, Ratssaal,Nöthnitzer Straße 2, 01187 Dresden",
-  "name": "Ortsbeirat Plauen - 23.06.2015 - 17:30-19:05 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Ortsbeirates Plauen",
   "start": "2015-06-23T17:30:00+02:00",
   "end": "2015-06-23T19:05:00+02:00",
-  "invitation": "211100",
-  "verbatimProtocol": "214192",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1840",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Nöthnitzer Straße 2",
+    "room": "Ortsamt Plauen, Ratssaal",
+    "postalCode": "01187",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:30+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/734",
+    "http://oparl.dresden.de/bodies/0001/people/736",
+    "http://oparl.dresden.de/bodies/0001/people/739",
+    "http://oparl.dresden.de/bodies/0001/people/1386",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/742",
+    "http://oparl.dresden.de/bodies/0001/people/752",
+    "http://oparl.dresden.de/bodies/0001/people/746",
+    "http://oparl.dresden.de/bodies/0001/people/750",
+    "http://oparl.dresden.de/bodies/0001/people/753",
+    "http://oparl.dresden.de/bodies/0001/people/914",
+    "http://oparl.dresden.de/bodies/0001/people/1377",
+    "http://oparl.dresden.de/bodies/0001/people/1375",
+    "http://oparl.dresden.de/bodies/0001/people/758",
+    "http://oparl.dresden.de/bodies/0001/people/762",
+    "http://oparl.dresden.de/bodies/0001/people/1374",
+    "http://oparl.dresden.de/bodies/0001/people/743",
+    "http://oparl.dresden.de/bodies/0001/people/1495"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/211100",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pl",
+    "fileName": "00211100.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-06-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00211100.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00211100.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/211100",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pl",
+      "fileName": "00211100.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-06-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00211100.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00211100.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 684, Dresden-Altstadt II, Strehlener Straße - Haus der Bahnhier:Aufhebung des Aufstellungsbeschlusses zum vorhabenbezogenen Bebauungsplan",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9518",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "214621",
-      "auxiliaryFile": [
-        "224458",
-        "207530",
-        "207018",
-        "196013",
-        "196014",
-        "196015",
-        "196016",
-        "196017"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorstellung des Projektes \"Sanierung der Rohwasserleitung Windbergstraße\"",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Erster Sachstandsbericht zur Fortschreibung der Sportentwicklungsplanung (FoSep 2025)",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9718",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "207533",
-        "207102",
-        "205051",
-        "201738",
-        "205191",
-        "202040",
-        "202585"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9447",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "214614",
-      "auxiliaryFile": [
-        "224457",
-        "204439",
-        "203914",
-        "209178",
-        "209177",
-        "202162",
-        "202954"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/214192",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00214192.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-07-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00214192.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00214192.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4523",
-  "participant": [
-    "36",
-    "739",
-    "734",
-    "1386",
-    "736",
-    "742",
-    "741",
-    "752",
-    "746",
-    "750",
-    "1377",
-    "753",
-    "914",
-    "1375",
-    "758",
-    "762",
-    "1374",
-    "743",
-    "1495"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67192",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "2.1",
+      "order": "3",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 684, Dresden-Altstadt II, Strehlener Straße - Haus der Bahn",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18724",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67203",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "3",
+      "order": "4",
+      "name": "Vorstellung des Projektes \"Sanierung der Rohwasserleitung Windbergstraße\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "4",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67204",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "4.1",
+      "order": "6",
+      "name": "Aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67746",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "4.2",
+      "order": "7",
+      "name": "Erster Sachstandsbericht zur Fortschreibung der Sportentwicklungsplanung (FoSep 2025)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19304",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/67747",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4523",
+      "number": "4.3",
+      "order": "8",
+      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20110",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

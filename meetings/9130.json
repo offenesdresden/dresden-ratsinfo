@@ -1,242 +1,277 @@
 {
-  "shortName": "SBR Neu/015/2020",
-  "locality": "Landeshauptstadt Dresden, im Stadtbezirksamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Stadtbezirksbeirat Neustadt - 30.11.2020 - 17:30-19:32 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "166"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Stadtbezirksbeirates Neustadt",
   "start": "2020-11-30T17:30:00+01:00",
   "end": "2020-11-30T19:32:00+01:00",
-  "invitation": "513217",
-  "auxiliaryFile": [
-    "513293",
-    "513291",
-    "513731",
-    "517024"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3252",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Stadtbezirksamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-06T08:57:52+02:00",
+    "modified": "2018-09-06T08:58:57+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/166"
   ],
-  "verbatimProtocol": "528102",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/1365",
+    "http://oparl.dresden.de/bodies/0001/people/1515",
+    "http://oparl.dresden.de/bodies/0001/people/1970",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/1111",
+    "http://oparl.dresden.de/bodies/0001/people/1196",
+    "http://oparl.dresden.de/bodies/0001/people/1372",
+    "http://oparl.dresden.de/bodies/0001/people/2032",
+    "http://oparl.dresden.de/bodies/0001/people/1362",
+    "http://oparl.dresden.de/bodies/0001/people/2006",
+    "http://oparl.dresden.de/bodies/0001/people/2036",
+    "http://oparl.dresden.de/bodies/0001/people/2051",
+    "http://oparl.dresden.de/bodies/0001/people/1360"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/513217",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SBR Neu",
+    "fileName": "00513217.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-11-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00513217.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00513217.pdf",
+    "created": "2020-11-19T05:39:07+01:00",
+    "modified": "2020-11-19T10:08:49+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Niederschrift zur 14. Sitzung des Stadtbezirksbeirates am 02.11.2020",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/513217",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Neu",
+      "fileName": "00513217.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00513217.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00513217.pdf",
+      "created": "2020-11-19T05:39:07+01:00",
+      "modified": "2020-11-19T10:08:49+01:00"
     },
     {
-      "name": "Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/513291",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_SBR Neu",
+      "fileName": "00513291.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00513291.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00513291.pdf",
+      "created": "2020-11-19T10:07:39+01:00",
+      "modified": "2020-11-23T11:40:12+01:00"
     },
     {
-      "name": "Priorisierung von örtlichen Straßenbaumaßnahmen im Stadtbezirk Neustadt für das Jahr 2021",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20754",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "515819",
-      "auxiliaryFile": [
-        "512030",
-        "512029",
-        "509165"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/513293",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Neustadt/015/2020",
+      "fileName": "00513293.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00513293.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00513293.pdf",
+      "created": "2020-11-19T10:09:26+01:00",
+      "modified": "2021-02-24T06:59:43+01:00"
     },
     {
-      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Neustadt, hier: Generationensitzgruppe im Alaunpark",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20764",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "515821",
-      "auxiliaryFile": [
-        "512422",
-        "512421",
-        "509009"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/513731",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_SBR Neustadt/015/2020",
+      "fileName": "00513731.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00513731.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00513731.pdf",
+      "created": "2020-11-23T11:40:07+01:00",
+      "modified": "2021-02-24T06:59:43+01:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/517024",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation TOP 2.2 Generationensitzgruppe im Alaunpark",
+      "fileName": "00517024.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-12-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00517024.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00517024.pdf",
+      "created": "2020-12-08T07:48:31+01:00",
+      "modified": "2021-02-24T06:59:43+01:00"
     },
     {
-      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20435",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519587",
-      "auxiliaryFile": [
-        "500152",
-        "500855",
-        "500856",
-        "500854",
-        "514253",
-        "509310",
-        "509311",
-        "516772",
-        "516771",
-        "516774",
-        "517688",
-        "517690",
-        "517691",
-        "518632",
-        "500859",
-        "518837",
-        "500860",
-        "516922",
-        "518905",
-        "518967",
-        "518966"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ärztehaus Bautzner Str. 125 – Gesamtmaßnahme",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18619",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "517429",
-      "auxiliaryFile": [
-        "506345",
-        "504091",
-        "500125",
-        "500126",
-        "502392"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Aufwertung des beidseitigen Elberad- und Wanderweges",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20552",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "500097"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 1,
-        "no": 15,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20557",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542623",
-      "auxiliaryFile": [
-        "502778",
-        "521485"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 1,
-        "no": 14,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Stadtbezirksförderrichtlinie)",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20623",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "541424",
-        "504571",
-        "525165"
-      ],
-      "resolutionFile": "504428",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 11,
-        "no": 1,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einwendungen gegen den Entwurf der Haushaltssatzung 2021/2022 gemäß § 76 SächsGemO",
-      "number": "Ö 5 Nachtrag: 19.11.2020",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20694",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519508",
-      "auxiliaryFile": [
-        "530013",
-        "512495",
-        "511386",
-        "508090",
-        "512447",
-        "516775",
-        "517694",
-        "517695",
-        "515813",
-        "518727",
-        "520148"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/528102",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift_SBR Neustadt/015/2020",
+      "fileName": "00528102.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-02-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00528102.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00528102.pdf",
+      "created": "2021-02-24T07:00:04+01:00",
+      "modified": "2021-02-24T07:00:05+01:00"
     }
   ],
-  "id": "9130"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Niederschrift zur 14. Sitzung des Stadtbezirksbeirates am 02.11.2020",
+      "public": true,
+      "created": "2020-09-29T06:51:12+02:00",
+      "modified": "2020-11-02T13:40:07+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139187",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "2",
+      "order": "2",
+      "name": "Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat",
+      "public": true,
+      "created": "2020-09-29T06:51:12+02:00",
+      "modified": "2020-11-02T13:40:12+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140851",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "2.1",
+      "order": "3",
+      "name": "Priorisierung von örtlichen Straßenbaumaßnahmen im Stadtbezirk Neustadt für das Jahr 2021",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46428",
+      "result": "Zustimmung",
+      "created": "2020-11-02T13:40:00+01:00",
+      "modified": "2020-12-07T12:19:21+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140852",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "2.2",
+      "order": "4",
+      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Neustadt, hier: Generationensitzgruppe im Alaunpark",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46444",
+      "result": "Zustimmung",
+      "created": "2020-11-02T13:40:29+01:00",
+      "modified": "2020-12-07T12:21:14+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139188",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "3",
+      "order": "5",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2020-09-29T06:51:12+02:00",
+      "modified": "2020-11-02T13:40:29+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "3.1",
+      "order": "6",
+      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45713",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-09-29T06:51:43+02:00",
+      "modified": "2020-11-30T17:22:32+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "3.2",
+      "order": "7",
+      "name": "Ärztehaus Bautzner Str. 125 – Gesamtmaßnahme",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41517",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-11-02T13:44:21+01:00",
+      "modified": "2020-11-30T17:39:59+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140855",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "3.3",
+      "order": "8",
+      "name": "Aufwertung des beidseitigen Elberad- und Wanderweges",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45825",
+      "result": "Ablehnung",
+      "created": "2020-11-02T13:44:39+01:00",
+      "modified": "2020-11-30T17:50:43+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140856",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "3.4",
+      "order": "9",
+      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45848",
+      "result": "Ablehnung",
+      "created": "2020-11-02T13:44:48+01:00",
+      "modified": "2020-11-30T17:59:15+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140857",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "3.5",
+      "order": "10",
+      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Stadtbezirksförderrichtlinie)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46060",
+      "result": "Zustimmung mit Änderung",
+      "created": "2020-11-02T13:45:00+01:00",
+      "modified": "2020-11-30T18:19:28+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "4",
+      "order": "11",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2020-09-29T06:51:12+02:00",
+      "modified": "2020-11-12T05:19:39+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141778",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9130",
+      "number": "5",
+      "order": "12",
+      "name": "Einwendungen gegen den Entwurf der Haushaltssatzung 2021/2022 gemäß § 76 SächsGemO",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46363",
+      "result": "Zustimmung mit Änderung",
+      "created": "2020-11-19T10:07:32+01:00",
+      "modified": "2020-11-30T17:25:31+01:00"
+    }
+  ],
+  "created": "2019-12-18T12:19:53+01:00",
+  "modified": "2021-02-24T06:59:43+01:00"
 }

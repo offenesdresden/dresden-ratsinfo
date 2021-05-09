@@ -1,132 +1,163 @@
 {
-  "shortName": "OBR Lo/015/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Loschwitz, Beratungsraum, 2. Etage,Grundstraße 3, 01326 Dresden",
-  "name": "Ortsbeirat Loschwitz - 04.05.2011 - 17:00-19:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "38"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ortsbeirates Loschwitz",
   "start": "2011-05-04T17:00:00+02:00",
   "end": "2011-05-04T19:00:00+02:00",
-  "invitation": "61954",
-  "verbatimProtocol": "63291",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/29",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Grundstraße 3",
+    "room": "Ortsamt Loschwitz, Beratungsraum",
+    "postalCode": "01326",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:11+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/38"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/61954",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Lo",
+    "fileName": "00061954.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-04-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00061954.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00061954.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 14. Ortsbeiratssitzung am 06.04.2011",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/61954",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Lo",
+      "fileName": "00061954.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-04-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00061954.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00061954.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr.262, Dresden-Bühlau Nr. 6, Am Kurhaus Bühlau/Bautzner Landstraßehier: Aufhebung des Aufstellungsbeschlusses zum Bebauungsplan",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3904",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "66222",
-      "auxiliaryFile": [
-        "59980",
-        "59390",
-        "59391",
-        "59392",
-        "59393",
-        "60284"
-      ]
-    },
-    {
-      "name": "Klarstellungssatzung Nr. 439, Dresden-Niederpoyritz Nr. 2, Wachwitzer Bergstraßehier: Satzungsbeschluss zur Klarstellungssatzung",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3964",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "69704",
-      "auxiliaryFile": [
-        "60918",
-        "60473",
-        "60474",
-        "60475",
-        "61056"
-      ]
-    },
-    {
-      "name": "Klarstellungssatzung Nr. 438, Dresden-Niederpoyritz Nr. 1, Staffelsteinstraßehier: Satzungsbeschluss zur Klarstellungssatzung",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3965",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "69700",
-      "auxiliaryFile": [
-        "60924",
-        "60472",
-        "60470",
-        "60471",
-        "61057"
-      ]
-    },
-    {
-      "name": "Ausbau des rechtselbischen Elberadwegs",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3745",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "73841",
-      "auxiliaryFile": [
-        "57588",
-        "138690",
-        "156004",
-        "174936",
-        "191329",
-        "217728",
-        "265578",
-        "307777",
-        "365086",
-        "422751",
-        "491866"
-      ]
-    },
-    {
-      "name": "Nutzungskonzept für Schloß Albrechtsberg",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3903",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "81692",
-      "auxiliaryFile": [
-        "59455"
-      ]
-    },
-    {
-      "name": "Neufassung der Satzung der Landeshauptstadt Dresden über die Reinigung der öffentlichen Straßen (Straßenreinigungssatzung) in der Fassung der Bekanntmachung vom 13. Januar 2005",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/63291",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00063291.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-05-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00063291.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00063291.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1464",
-  "participant": [
-    "621",
-    "619",
-    "623",
-    "625",
-    "627",
-    "629",
-    "631",
-    "635",
-    "633",
-    "637",
-    "638"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19127",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 14. Ortsbeiratssitzung am 06.04.2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19129",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr.262, Dresden-Bühlau Nr. 6, Am Kurhaus Bühlau/Bautzner Landstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/6083",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19133",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "2.2",
+      "order": "4",
+      "name": "Klarstellungssatzung Nr. 439, Dresden-Niederpoyritz Nr. 2, Wachwitzer Bergstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/6161",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19134",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "2.3",
+      "order": "5",
+      "name": "Klarstellungssatzung Nr. 438, Dresden-Niederpoyritz Nr. 1, Staffelsteinstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/6165",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19130",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "2.4",
+      "order": "6",
+      "name": "Ausbau des rechtselbischen Elberadwegs",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5769",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19131",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "2.5",
+      "order": "7",
+      "name": "Nutzungskonzept für Schloß Albrechtsberg",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/6109",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19136",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1464",
+      "number": "3",
+      "order": "8",
+      "name": "Neufassung der Satzung der Landeshauptstadt Dresden über die Reinigung der öffentlichen Straßen (Straßenreinigungssatzung) in der Fassung der Bekanntmachung vom 13. Januar 2005",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/158",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

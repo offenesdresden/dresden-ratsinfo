@@ -1,24 +1,36 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1455",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Dr. Marion Lehnert",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "20",
-      "startDate": "2014-12-11",
-      "endDate": "2019-12-05"
-    }
+  "familyName": "Lehnert",
+  "givenName": "Marion",
+  "formOfAddress": "Frau",
+  "title": [
+    "Dr."
   ],
+  "gender": "weiblich",
   "phone": [
     "0351/2 54 40 11"
   ],
   "email": [
     "Marion.Lehnert@vhs-dresden.de"
   ],
-  "id": "1455"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/5682",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1455",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/20",
+      "role": "Mitglied",
+      "votingRight": true,
+      "startDate": "2014-12-11",
+      "endDate": "2019-12-05",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2019-12-11T13:03:26+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

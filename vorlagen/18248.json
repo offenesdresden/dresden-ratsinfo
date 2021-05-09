@@ -1,54 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18248",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Ausscheiden eines Stadtbezirksbeirates und Nachrücken einer Ersatzperson in den Stadtbezirksbeirat Pieschen der Landeshauptstadt Dresden - Mandat der Partei BÜNDNIS 90/DIE GRÜNEN",
-  "shortName": "V0194/19",
   "reference": "V0194/19",
+  "date": "2020-01-07",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-12-30",
   "auxiliaryFile": [
-    "453303",
-    "452693",
-    "451259"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/451259",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 - Auszug öffentliche Bekanntmachung Amtsblatt Wahlergebnis Stadtbezirk Pieschen, Stimmenverhältnis und Reihenfolge der Ersatzpersonen - öffentlich",
+      "fileName": "00451259.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00451259.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00451259.pdf",
+      "created": "2019-12-30T12:43:18+01:00",
+      "modified": "2020-01-15T12:39:00+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/452693",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00452693.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00452693.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00452693.pdf",
+      "created": "2020-01-13T11:24:12+01:00",
+      "modified": "2020-01-15T12:39:00+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/453303",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0194/19 - ohne Anlagen 1 und 3",
+      "fileName": "00453303.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00453303.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00453303.pdf",
+      "created": "2020-01-15T12:38:56+01:00",
+      "modified": "2020-01-15T12:39:00+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/456506",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V0194/19_mU",
+      "fileName": "00456506.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-31",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00456506.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00456506.pdf",
+      "created": "2020-01-31T09:22:33+01:00",
+      "modified": "2020-01-31T09:22:34+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/43"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40449",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18248",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/126217",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8849",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8849",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-01-10T10:19:16+01:00",
+      "modified": "2020-01-30T17:19:17+01:00"
     }
   ],
-  "id": "18248"
+  "created": "2019-12-30T12:06:03+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

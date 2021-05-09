@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/8069",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2013-GB221-00061 Abbruch Garagenanlage und Neubau Kindertageseinrichtung Schützenhofstraße 103, 01129 Dresden, Fachlos 01 - Abbruch",
-  "shortName": "V2719/14",
   "reference": "V2719/14",
+  "date": "2014-01-23",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2014-01-21",
   "auxiliaryFile": [
-    "160641"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/160641",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V2719/14_WF",
+      "fileName": "00160641.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-02-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00160641.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00160641.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "3452",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/15126",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/8069",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/49881",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3452",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "8069"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

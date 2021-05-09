@@ -1,45 +1,79 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/1620",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Unterzeichnung der \"Erklärung der EUROCITIES zum Klimawandel\"",
-  "shortName": "V0355-01/09",
   "reference": "V0355-01/09",
+  "date": "2010-03-15",
   "paperType": "EILT-Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2010-03-11",
   "auxiliaryFile": [
-    "24422",
-    "24402",
-    "24403"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/24402",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 zu V0355",
+      "fileName": "00024402.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00024402.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00024402.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/24403",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 zu V0355",
+      "fileName": "00024403.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00024403.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00024403.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/24422",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00024422.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-03-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00024422.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00024422.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "581",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/2732",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/1620",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/8175",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/526",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "526",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/2732",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/1620",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/8818",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/909",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "909",
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "1620"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

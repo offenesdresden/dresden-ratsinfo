@@ -1,219 +1,364 @@
 {
-  "shortName": "OSR MB/042/2018",
-  "locality": "Landeshauptstadt Dresden, im \"Dorfklub Mobschatz\", Sitzungssaal,Am Tummelsgrund 7 b, 01156 Dresden",
-  "name": "Ortschaftsrat Mobschatz - 05.04.2018 - 19:30-22:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "45"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "42. Sitzung des Ortschaftsrates Mobschatz",
   "start": "2018-04-05T19:30:00+02:00",
   "end": "2018-04-05T22:30:00+02:00",
-  "invitation": "341014",
-  "auxiliaryFile": [
-    "342109",
-    "342104",
-    "344138",
-    "342117",
-    "343022",
-    "343021"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/36",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Am Tummelsgrund 7 b",
+    "room": "Ortschaft Mobschatz, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/45"
   ],
-  "resultsProtocol": "342113",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1255",
+    "http://oparl.dresden.de/bodies/0001/people/342",
+    "http://oparl.dresden.de/bodies/0001/people/343",
+    "http://oparl.dresden.de/bodies/0001/people/344",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/347",
+    "http://oparl.dresden.de/bodies/0001/people/348"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/341014",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR MB",
+    "fileName": "00341014.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-03-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00341014.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00341014.pdf",
+    "created": "2018-03-28T17:13:29+02:00",
+    "modified": "2018-03-29T10:33:13+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/342104",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_Ortschaftsrat Mobschatz_V2155/18_oU",
+    "fileName": "00342104.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-04-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00342104.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00342104.pdf",
+    "created": "2018-04-09T17:17:38+02:00",
+    "modified": "2018-04-23T08:13:06+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/341014",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR MB",
+      "fileName": "00341014.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-03-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00341014.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00341014.pdf",
+      "created": "2018-03-28T17:13:29+02:00",
+      "modified": "2018-03-29T10:33:13+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung und der Niederschrift des Ortschaftsrates Mobschatz",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/342104",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Mobschatz_V2155/18_oU",
+      "fileName": "00342104.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00342104.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00342104.pdf",
+      "created": "2018-04-09T17:17:38+02:00",
+      "modified": "2018-04-23T08:13:06+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2018/2019",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14702",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "369985",
-      "auxiliaryFile": [
-        "387363",
-        "452155",
-        "338171",
-        "337715",
-        "335154",
-        "329340",
-        "329341",
-        "340211",
-        "367310"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/342109",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Mobschatz_V1782/17_oU",
+      "fileName": "00342109.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00342109.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00342109.pdf",
+      "created": "2018-04-09T17:21:51+02:00",
+      "modified": "2018-04-23T08:12:53+02:00"
     },
     {
-      "name": "Satzung der Landeshauptstadt Dresden über Stellplätze und Garagen sowie Abstellplätze für Fahrräder (Stellplatz-, Garagen- und Fahrradabstellplatzsatzung – StGaFaS)",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13908",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "356488",
-      "auxiliaryFile": [
-        "357708",
-        "356482",
-        "356172",
-        "333563",
-        "339672",
-        "333060",
-        "332763",
-        "328669",
-        "329961",
-        "339662",
-        "353625",
-        "355757"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/342113",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Mobschatz_V-MB0154/18_oU",
+      "fileName": "00342113.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00342113.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00342113.pdf",
+      "created": "2018-04-09T17:43:59+02:00",
+      "modified": "2018-04-23T08:17:35+02:00"
     },
     {
-      "name": "Parkplatzsituation im Wohngebiet \"Am Tummelsgrund\"",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/342117",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Mobschatz_V-MB0155/18_oU",
+      "fileName": "00342117.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00342117.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00342117.pdf",
+      "created": "2018-04-09T17:51:02+02:00",
+      "modified": "2018-04-23T08:17:52+02:00"
     },
     {
-      "name": "Satzung zur Änderung der Hauptsatzung",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14719",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "352858",
-      "auxiliaryFile": [
-        "381335",
-        "518786",
-        "448872",
-        "333554",
-        "333053",
-        "331489",
-        "332279",
-        "331491",
-        "329598",
-        "332464",
-        "332465",
-        "352113",
-        "351997",
-        "351984"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/343021",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Mobschatz_V-MB0155/18_mU",
+      "fileName": "00343021.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00343021.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00343021.pdf",
+      "created": "2018-04-12T18:17:45+02:00",
+      "modified": "2018-04-23T08:17:43+02:00"
     },
     {
-      "name": "Bereitstellung von Investitionsmitteln für den Geländerbau im Zschoner Grund",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/343022",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Mobschatz_V-MB0154/18_mU",
+      "fileName": "00343022.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00343022.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00343022.pdf",
+      "created": "2018-04-12T18:17:50+02:00",
+      "modified": "2018-04-23T08:17:15+02:00"
     },
     {
-      "name": "Absicherung der Seniorenveranstaltungen in der Ortschaft Mobschatz",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorschläge für die Fortschreibung des Sitzbankkonzeptes",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Baumaßnahme zwischen Brabschütz und Rennersdorf",
-      "number": "Ö 9.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Arbeitseinsätze an Wanderwegen",
-      "number": "Ö 9.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neues Feuerwehrgerätehaus in Merbitz",
-      "number": "Ö 9.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen der Ortschaftsräte",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Schlechter Zustand des Wanderweges in der Frauenschlucht",
-      "number": "Ö 10.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einberufung einer Arbeitsgruppe des Ortschaftsrates",
-      "number": "Ö 10.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen der Bürger",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Geländer am Wanderweg im Zschoner Grund",
-      "number": "Ö 11.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/344138",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Mobschatz_V2160/18-2_oU_NEU",
+      "fileName": "00344138.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344138.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344138.pdf",
+      "created": "2018-04-19T13:21:29+02:00",
+      "modified": "2018-04-23T08:16:34+02:00"
     }
   ],
-  "id": "6771",
-  "participant": [
-    "1255",
-    "342",
-    "344",
-    "343",
-    "288",
-    "347",
-    "348"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100729",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2018-03-20T15:20:41+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100730",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung und der Niederschrift des Ortschaftsrates Mobschatz",
+      "public": true,
+      "created": "2018-03-20T15:20:41+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101090",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "3",
+      "order": "3",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2018/2019",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31200",
+      "result": "Zustimmung",
+      "created": "2018-03-28T17:24:23+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100735",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "4",
+      "order": "4",
+      "name": "Satzung der Landeshauptstadt Dresden über Stellplätze und Garagen sowie Abstellplätze für Fahrräder (Stellplatz-, Garagen- und Fahrradabstellplatzsatzung – StGaFaS)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31143",
+      "result": "Zustimmung",
+      "created": "2018-03-20T15:20:41+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101752",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "4.1",
+      "order": "5",
+      "name": "Parkplatzsituation im Wohngebiet \"Am Tummelsgrund\"",
+      "public": true,
+      "created": "2018-04-16T13:16:25+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100736",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "5",
+      "order": "6",
+      "name": "Satzung zur Änderung der Hauptsatzung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31248",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2018-03-20T15:20:41+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101084",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "6",
+      "order": "7",
+      "name": "Bereitstellung von Investitionsmitteln für den Geländerbau im Zschoner Grund",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32254",
+      "result": "Zustimmung",
+      "created": "2018-03-28T15:31:36+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101333",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "7",
+      "order": "8",
+      "name": "Absicherung der Seniorenveranstaltungen in der Ortschaft Mobschatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32309",
+      "result": "Zustimmung",
+      "created": "2018-04-05T15:43:47+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101086",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "8",
+      "order": "9",
+      "name": "Vorschläge für die Fortschreibung des Sitzbankkonzeptes",
+      "public": true,
+      "created": "2018-03-28T15:59:12+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100737",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "9",
+      "order": "10",
+      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
+      "public": true,
+      "created": "2018-03-20T15:20:42+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/105036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "9.1",
+      "order": "11",
+      "name": "Baumaßnahme zwischen Brabschütz und Rennersdorf",
+      "public": true,
+      "created": "2018-07-26T15:47:01+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/105046",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "9.2",
+      "order": "12",
+      "name": "Arbeitseinsätze an Wanderwegen",
+      "public": true,
+      "created": "2018-07-27T11:25:26+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/105047",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "9.3",
+      "order": "13",
+      "name": "Neues Feuerwehrgerätehaus in Merbitz",
+      "public": true,
+      "created": "2018-07-27T12:07:36+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100738",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "10",
+      "order": "14",
+      "name": "Anfragen der Ortschaftsräte",
+      "public": true,
+      "created": "2018-03-20T15:20:42+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/105048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "10.1",
+      "order": "15",
+      "name": "Schlechter Zustand des Wanderweges in der Frauenschlucht",
+      "public": true,
+      "created": "2018-07-27T12:19:24+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/105049",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "10.2",
+      "order": "16",
+      "name": "Einberufung einer Arbeitsgruppe des Ortschaftsrates",
+      "public": true,
+      "created": "2018-07-27T12:56:10+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/100739",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "11",
+      "order": "17",
+      "name": "Anfragen der Bürger",
+      "public": true,
+      "created": "2018-03-20T15:20:42+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/105050",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6771",
+      "number": "11.1",
+      "order": "18",
+      "name": "Geländer am Wanderweg im Zschoner Grund",
+      "public": true,
+      "created": "2018-07-27T13:09:58+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2017-09-05T13:32:08+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

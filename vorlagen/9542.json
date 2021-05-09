@@ -1,91 +1,94 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/9542",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verkehrsbaumaßnahme Lübecker Straße zwischen Rennersdorfer Straße und Werkstättenstraße inklusive der Haltestelle Birkenhainer Straße und Erneuerung der Brücke über den Weidigtbach",
-  "shortName": "V0345/15",
   "reference": "V0345/15",
+  "date": "2015-03-18",
   "paperType": "Infovorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2015-02-16",
-  "mainFile": "202401",
   "auxiliaryFile": [
-    "201662",
-    "196395",
-    "196396"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/196395",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "a) Anlage 1_öffentlich",
+      "fileName": "00196395.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00196395.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00196395.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/196396",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "b) Anlage 2_öffentlich",
+      "fileName": "00196396.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00196396.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00196396.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/201662",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00201662.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-03-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00201662.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00201662.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/202401",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0345/15",
+      "fileName": "00202401.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-04-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00202401.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00202401.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/46"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/18785",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/9542",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/65158",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4000",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
       ],
+      "authoritative": true,
       "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/18784",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/9542",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/65845",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4509",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/37"
       ],
+      "authoritative": true,
       "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "4000",
-      "role": "zur Information",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "4509",
-      "role": "zur Information",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "9542"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

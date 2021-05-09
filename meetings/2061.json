@@ -1,118 +1,196 @@
 {
-  "shortName": "OBR Pi/027/2012",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 08.05.2012 - 18:00-19:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "27. Sitzung des Ortsbeirates Pieschen",
   "start": "2012-05-08T18:00:00+02:00",
   "end": "2012-05-08T19:45:00+02:00",
-  "invitation": "96338",
-  "verbatimProtocol": "97705",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/678",
+    "http://oparl.dresden.de/bodies/0001/people/679",
+    "http://oparl.dresden.de/bodies/0001/people/681",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/687",
+    "http://oparl.dresden.de/bodies/0001/people/689",
+    "http://oparl.dresden.de/bodies/0001/people/691",
+    "http://oparl.dresden.de/bodies/0001/people/909",
+    "http://oparl.dresden.de/bodies/0001/people/695",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/671",
+    "http://oparl.dresden.de/bodies/0001/people/686",
+    "http://oparl.dresden.de/bodies/0001/people/1009"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/96338",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00096338.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-04-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096338.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096338.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 26. Ortsbeiratssitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96338",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00096338.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096338.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096338.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung eines neuen Ortsbeiratsmitglied",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Förderung von Hochwassereigenvorsorge",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5544",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105040",
-      "auxiliaryFile": [
-        "90992",
-        "104698"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 11,
-        "no": 3,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Instandsetzungsmaßnahme Fritz-Reuter-Straße West",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Rekonstruktion Tabakfabrik Alttrachau",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Patenschaften für Baumscheiben",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5633",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108801",
-      "auxiliaryFile": [
-        "92834",
-        "92828"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
-      "number": "Ö 6.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5634",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108805",
-      "auxiliaryFile": [
-        "92885"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/97705",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00097705.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00097705.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00097705.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2061",
-  "participant": [
-    "298",
-    "676",
-    "678",
-    "679",
-    "994",
-    "681",
-    "687",
-    "689",
-    "691",
-    "909",
-    "695",
-    "696",
-    "686",
-    "1009",
-    "671"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 26. Ortsbeiratssitzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30032",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "2",
+      "order": "2",
+      "name": "Vorstellung eines neuen Ortsbeiratsmitglied",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28016",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "3.1",
+      "order": "4",
+      "name": "Förderung von Hochwassereigenvorsorge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9242",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28361",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "4",
+      "order": "5",
+      "name": "Instandsetzungsmaßnahme Fritz-Reuter-Straße West",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28020",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "5",
+      "order": "6",
+      "name": "Rekonstruktion Tabakfabrik Alttrachau",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28018",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "6",
+      "order": "7",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30031",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "6.1",
+      "order": "8",
+      "name": "Patenschaften für Baumscheiben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9487",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28014",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "6.2",
+      "order": "9",
+      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9510",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28019",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2061",
+      "number": "7",
+      "order": "10",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,142 +1,200 @@
 {
-  "shortName": "OSR GP/058/2019",
-  "locality": "Landeshauptstadt Dresden, im Gemeindezentrum Gompitz, Gemeindesaal,Altnossener Straße 46 a, 01156 Dresden, OT Pennrich",
-  "name": "Ortschaftsrat Gompitz - 01.07.2019 - 19:35-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "9"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "58. Sitzung des Ortschaftsrates Gompitz",
   "start": "2019-07-01T19:35:00+02:00",
   "end": "2019-07-01T20:00:00+02:00",
-  "invitation": "418347",
-  "resultsProtocol": "421395",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/22",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Altnossener Straße 46 a",
+    "room": "Ortschaft Gompitz, Gemeindesaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/317",
+    "http://oparl.dresden.de/bodies/0001/people/318",
+    "http://oparl.dresden.de/bodies/0001/people/319",
+    "http://oparl.dresden.de/bodies/0001/people/320",
+    "http://oparl.dresden.de/bodies/0001/people/321",
+    "http://oparl.dresden.de/bodies/0001/people/1247",
+    "http://oparl.dresden.de/bodies/0001/people/1248",
+    "http://oparl.dresden.de/bodies/0001/people/1249",
+    "http://oparl.dresden.de/bodies/0001/people/1250",
+    "http://oparl.dresden.de/bodies/0001/people/326",
+    "http://oparl.dresden.de/bodies/0001/people/327",
+    "http://oparl.dresden.de/bodies/0001/people/328",
+    "http://oparl.dresden.de/bodies/0001/people/329"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/418347",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR GP",
+    "fileName": "00418347.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-06-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00418347.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00418347.pdf",
+    "created": "2019-06-18T06:31:50+02:00",
+    "modified": "2019-06-20T15:12:53+02:00"
+  },
   "auxiliaryFile": [
-    "421396",
-    "421397"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/418347",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR GP",
+      "fileName": "00418347.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00418347.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00418347.pdf",
+      "created": "2019-06-18T06:31:50+02:00",
+      "modified": "2019-06-20T15:12:53+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/421395",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0214/19",
+      "fileName": "00421395.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-07-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00421395.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00421395.pdf",
+      "created": "2019-07-02T08:49:25+02:00",
+      "modified": "2019-07-04T12:49:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/421396",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0215/19",
+      "fileName": "00421396.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-07-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00421396.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00421396.pdf",
+      "created": "2019-07-02T08:50:10+02:00",
+      "modified": "2019-07-04T12:49:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/421397",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0216/19",
+      "fileName": "00421397.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-07-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00421397.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00421397.pdf",
+      "created": "2019-07-02T08:50:45+02:00",
+      "modified": "2019-07-04T12:49:26+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "1",
+      "order": "1",
       "name": "Anfragen der Bürgerinnen und Bürger",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-17T12:20:53+02:00",
+      "modified": "2019-09-13T08:57:11+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118898",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "2",
+      "order": "2",
       "name": "Ein Dresdner Bildungsticket für monatlich 15 € für Alle!",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16962",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "411839"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37765",
+      "result": "Vertagung",
+      "created": "2019-06-17T12:37:51+02:00",
+      "modified": "2019-07-02T05:17:01+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118904",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "3",
+      "order": "3",
       "name": "Gratulation zu Geburtstagen und Jubiläen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17182",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "418215"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38066",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 1,
-        "neutral": 2,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-17T13:55:12+02:00",
+      "modified": "2019-07-08T10:17:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "4",
+      "order": "4",
       "name": "Beschluss zur Bereitstellung finanzieller Mittel für die Werterhaltung der öffentlichen Sitzgruppe im OT Roitzsch",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17184",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "418324"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38074",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-18T06:29:38+02:00",
+      "modified": "2019-07-08T10:19:40+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118945",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "5",
+      "order": "5",
       "name": "Beschluss zur Bereitstellung finanzieller Mittel für die Erneuerung Beamer- und Lautsprecherinstallation mit Zubehör im Gemeindesaal Gompitz",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17194",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "418756",
-        "420791"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38088",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2019-06-19T06:22:24+02:00",
+      "modified": "2019-07-08T10:45:41+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "6",
+      "order": "6",
       "name": "Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-06-17T12:20:54+02:00",
+      "modified": "2019-07-02T07:15:37+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119153",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "6.1",
+      "order": "7",
       "name": "Ausgereichte Unterlagen",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-07-02T07:15:52+02:00",
+      "modified": "2019-07-02T07:15:52+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7924",
+      "number": "6.1.1",
+      "order": "8",
       "name": "Ergebnisse der Meinungsumfrage zum Klimawandel in Dresden 2017",
-      "number": "Ö 6.1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16936",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "415927",
-        "415559",
-        "410332",
-        "410732",
-        "410736"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37619",
+      "result": "erledigt",
+      "created": "2019-07-02T07:14:29+02:00",
+      "modified": "2019-07-03T11:18:19+02:00"
     }
   ],
-  "id": "7924",
-  "participant": [
-    "317",
-    "1248",
-    "1249",
-    "320",
-    "1247",
-    "322",
-    "321",
-    "319",
-    "318",
-    "1250",
-    "327",
-    "329",
-    "326",
-    "328"
-  ]
+  "created": "2018-10-18T12:52:58+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15458",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2018-GB111-00069, Entwicklung Schulstandort Dresden-Pieschen, 01127 Dresden, Ecke Gehestraße/Erfurter Straße, Los VE08.2 - Trockenbau Decken",
-  "shortName": "V2505/18",
   "reference": "V2505/18",
+  "date": "2018-07-04",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-06-27",
   "auxiliaryFile": [
-    "357836"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/357836",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2505/18_mU",
+      "fileName": "00357836.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-07-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00357836.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00357836.pdf",
+      "created": "2018-07-20T08:58:17+02:00",
+      "modified": "2018-07-20T08:58:18+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6650",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/33310",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15458",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/104427",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6650",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-07-04T06:13:11+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15458"
+  "created": "2018-06-27T09:27:10+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

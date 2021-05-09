@@ -1,72 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18229",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Wirtschaftsplan 2020 des Eigenbetriebes Städtisches Klinikum Dresden",
-  "shortName": "V0179/19",
   "reference": "V0179/19",
+  "date": "2020-01-13",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-12-18",
-  "mainFile": "453108",
   "auxiliaryFile": [
-    "452685",
-    "451827"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/451827",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage Wirtschaftsplan 2020 EB Städtisches Klinikum",
+      "fileName": "00451827.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00451827.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00451827.pdf",
+      "created": "2020-01-07T13:06:31+01:00",
+      "modified": "2020-01-14T16:10:39+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/452685",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00452685.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00452685.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00452685.pdf",
+      "created": "2020-01-13T11:09:58+01:00",
+      "modified": "2020-01-14T16:10:39+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/453108",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0179/19",
+      "fileName": "00453108.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00453108.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00453108.pdf",
+      "created": "2020-01-14T16:10:28+01:00",
+      "modified": "2020-01-14T16:10:39+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/455890",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_F_V0179/19_ff",
+      "fileName": "00455890.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00455890.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00455890.pdf",
+      "created": "2020-01-29T09:42:59+01:00",
+      "modified": "2020-01-29T09:43:16+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/456712",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V0179/19_mU",
+      "fileName": "00456712.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00456712.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00456712.pdf",
+      "created": "2020-02-03T09:53:23+01:00",
+      "modified": "2020-02-03T09:53:24+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40392",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18229",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/126419",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8849",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8764",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9249",
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8849",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-01-15T08:07:32+01:00",
+      "modified": "2020-01-30T20:28:30+01:00"
     }
   ],
-  "id": "18229"
+  "created": "2019-12-18T12:31:12+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

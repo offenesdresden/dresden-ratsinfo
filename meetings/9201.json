@@ -1,116 +1,177 @@
 {
-  "shortName": "OSR AF/013/2020",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 05.10.2020 - 19:00-19:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Ortschaftsrates Altfranken",
   "start": "2020-10-05T19:00:00+02:00",
   "end": "2020-10-05T19:20:00+02:00",
-  "invitation": "502585",
-  "resultsProtocol": "504004",
-  "auxiliaryFile": [
-    "504005"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
   ],
-  "verbatimProtocol": "504257",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/1242",
+    "http://oparl.dresden.de/bodies/0001/people/2004"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/502585",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00502585.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-09-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00502585.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00502585.pdf",
+    "created": "2020-09-28T12:47:33+02:00",
+    "modified": "2020-09-30T12:33:31+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20435",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519587",
-      "auxiliaryFile": [
-        "500152",
-        "500855",
-        "500856",
-        "500854",
-        "514253",
-        "509310",
-        "509311",
-        "516772",
-        "516771",
-        "516774",
-        "517688",
-        "517690",
-        "517691",
-        "518632",
-        "500859",
-        "518837",
-        "500860",
-        "516922",
-        "518905",
-        "518967",
-        "518966"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/502585",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00502585.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00502585.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00502585.pdf",
+      "created": "2020-09-28T12:47:33+02:00",
+      "modified": "2020-09-30T12:33:31+02:00"
     },
     {
-      "name": "Bereitstellung der finanziellen Mittel für den Bau einer Einhausung für den Wertstoffcontainerstandplatz Altfrankener Höhe/Rudolf-Walther-Straße",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20590",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "505028",
-      "auxiliaryFile": [
-        "502473"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/504004",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR_Altfranken_V_AF0033_20_oU",
+      "fileName": "00504004.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00504004.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00504004.pdf",
+      "created": "2020-10-06T06:02:51+02:00",
+      "modified": "2020-10-13T05:36:55+02:00"
     },
     {
-      "name": "Bereitstellung der finanziellen Mittel für die Ergänzung des Spielplatzes Haufes Berg mit einem zweiten Ballfangnetz",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20592",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "505029",
-      "auxiliaryFile": [
-        "502490"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/504005",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR_Altfranken_V_AF0034_20_oU",
+      "fileName": "00504005.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00504005.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00504005.pdf",
+      "created": "2020-10-06T06:05:09+02:00",
+      "modified": "2020-10-13T05:36:55+02:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zum Bearbeitungsstand Fußgängerüberweg Rudolf-Walther-Straße",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Abdeckung für den Sandkasten auf dem Spielplatz Haufes Berg",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationstafel an Fußgängerbrücke Rudolf-Walther-Straße",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/504257",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00504257.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00504257.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00504257.pdf",
+      "created": "2020-10-06T13:52:32+02:00",
+      "modified": "2020-11-10T07:20:08+01:00"
     }
   ],
-  "id": "9201"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+      "number": "1",
+      "order": "1",
+      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45667",
+      "result": "zur Kenntnis genommen",
+      "created": "2020-09-28T08:46:10+02:00",
+      "modified": "2020-10-06T05:58:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139157",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+      "number": "2",
+      "order": "2",
+      "name": "Bereitstellung der finanziellen Mittel für den Bau einer Einhausung für den Wertstoffcontainerstandplatz Altfrankener Höhe/Rudolf-Walther-Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45940",
+      "result": "Zustimmung",
+      "created": "2020-09-28T09:10:53+02:00",
+      "modified": "2020-10-12T08:20:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139165",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+      "number": "3",
+      "order": "3",
+      "name": "Bereitstellung der finanziellen Mittel für die Ergänzung des Spielplatzes Haufes Berg mit einem zweiten Ballfangnetz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45947",
+      "result": "Zustimmung",
+      "created": "2020-09-28T09:59:47+02:00",
+      "modified": "2020-10-12T08:24:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+      "number": "4",
+      "order": "4",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2020-09-28T08:42:37+02:00",
+      "modified": "2020-10-06T05:59:35+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139550",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+      "number": "4.1",
+      "order": "5",
+      "name": "Information zum Bearbeitungsstand Fußgängerüberweg Rudolf-Walther-Straße",
+      "public": true,
+      "created": "2020-10-06T13:45:42+02:00",
+      "modified": "2020-10-06T13:45:42+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139475",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+      "number": "4.2",
+      "order": "6",
+      "name": "Abdeckung für den Sandkasten auf dem Spielplatz Haufes Berg",
+      "public": true,
+      "created": "2020-10-06T09:32:46+02:00",
+      "modified": "2020-10-06T13:45:42+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139474",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9201",
+      "number": "4.3",
+      "order": "7",
+      "name": "Informationstafel an Fußgängerbrücke Rudolf-Walther-Straße",
+      "public": true,
+      "created": "2020-10-06T09:31:32+02:00",
+      "modified": "2020-10-06T14:02:29+02:00"
+    }
+  ],
+  "created": "2019-12-19T07:11:42+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

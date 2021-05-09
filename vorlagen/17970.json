@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17970",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzmittel zur Betreuung der Oberwarthaer Internetseite 2019",
-  "shortName": "A-OW0001/19",
   "reference": "A-OW0001/19",
+  "date": "2019-11-06",
   "paperType": "Antrag Ortschaft Oberwarha",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-11-06",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/441003",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Oberwartha",
+    "fileName": "00441003.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-11-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00441003.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00441003.pdf",
+    "created": "2019-11-06T13:16:04+01:00",
+    "modified": "2019-11-22T07:40:07+01:00"
+  },
   "auxiliaryFile": [
-    "441003",
-    "445117"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/445117",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0001/19_mU",
+      "fileName": "00445117.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00445117.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00445117.pdf",
+      "created": "2019-11-22T07:39:58+01:00",
+      "modified": "2019-11-22T07:40:07+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/35"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8484",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39913",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17970",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123986",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8484",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-11-07T13:02:47+01:00",
+      "modified": "2019-11-27T08:06:07+01:00"
     }
   ],
-  "id": "17970"
+  "created": "2019-11-06T13:15:47+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

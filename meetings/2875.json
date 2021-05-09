@@ -1,76 +1,133 @@
 {
-  "shortName": "WF/061/2012",
-  "locality": "Landeshauptstadt Dresden, im Haus An der Kreuzkirche, 4. Etage, Raum 412,An der Kreuzkirche 6, 01067 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 24.10.2012 - 16:00-16:05 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2875",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "61. Sitzung des Ausschusses für Wirtschaftsförderung (Sondersitzung)",
   "start": "2012-10-24T16:00:00+02:00",
   "end": "2012-10-24T16:05:00+02:00",
-  "invitation": "112664",
-  "verbatimProtocol": "113845",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1906",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "An der Kreuzkirche 6",
+    "room": "Haus An der Kreuzkirche, Raum 412",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/57",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/95",
+    "http://oparl.dresden.de/bodies/0001/people/289"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/112664",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF",
+    "fileName": "00112664.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-10-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00112664.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00112664.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Geschäftsbereich Finanzen und Liegenschaften",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/112664",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF",
+      "fileName": "00112664.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-10-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00112664.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00112664.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlussvorlagen zu VOB-Vergaben",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 2012-655-00103 Temporäre Kita Standorte (TKS) - Paket 07Los 01 - Gebäude in Modulbauweise, Braunsdorfer Straße, 01159 DresdenLos 02 - Gebäude in Modulbauweise, Wintergartenstraße 11, 01307 Dresden",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6384",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "113617",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-655-00104 Temporäre Kita Standorte (TKS) - Paket 08Kindertageseinrichtung Merseburger Straße 1, 01309 DresdenLos 01 - Gebäude in Modulbauweise",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6385",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "113619",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Offene Beschlussvorlagen",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/113845",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_2012_10_24_WF",
+      "fileName": "00113845.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-10-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00113845.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00113845.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2875",
-  "participant": [
-    "26",
-    "266",
-    "290",
-    "91",
-    "57",
-    "289",
-    "55",
-    "83",
-    "95"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35287",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2875",
+      "number": "",
+      "order": "1",
+      "name": "Geschäftsbereich Finanzen und Liegenschaften",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35289",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2875",
+      "number": "1",
+      "order": "2",
+      "name": "Beschlussvorlagen zu VOB-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35290",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2875",
+      "number": "1.1",
+      "order": "3",
+      "name": "Vergabenummer: 2012-655-00103 Temporäre Kita Standorte (TKS) - Paket 07, Los 01 - Gebäude in Modulbauweise, Kindertageseinrichtung Braunsdorfer Straße, Los 02 - Gebäude in Modulbauweise, Wintergartenstraße 11, 01307 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11329",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35291",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2875",
+      "number": "1.2",
+      "order": "4",
+      "name": "Vergabenummer: 2012-655-00104 Temporäre Kita Standorte (TKS) - Paket 08, Kindertageseinrichtung Merseburger Straße 1, 01309 Dresden,  Los 01 - Gebäude in Modulbauweise",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11330",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35295",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2875",
+      "number": "2.2",
+      "order": "7",
+      "name": "Offene Beschlussvorlagen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,144 +1,170 @@
 {
-  "shortName": "OBR Lo/006/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Loschwitz, Beratungsraum, 2. Etage,Grundstraße 3, 01326 Dresden",
-  "name": "Ortsbeirat Loschwitz - 21.04.2010 - 17:00-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "38"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/300",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ortsbeirates Loschwitz",
   "start": "2010-04-21T17:00:00+02:00",
   "end": "2010-04-21T21:00:00+02:00",
-  "invitation": "27297",
-  "verbatimProtocol": "29349",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/29",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Grundstraße 3",
+    "room": "Ortsamt Loschwitz, Beratungsraum",
+    "postalCode": "01326",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:11+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/38"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/619",
+    "http://oparl.dresden.de/bodies/0001/people/621",
+    "http://oparl.dresden.de/bodies/0001/people/623",
+    "http://oparl.dresden.de/bodies/0001/people/625",
+    "http://oparl.dresden.de/bodies/0001/people/627",
+    "http://oparl.dresden.de/bodies/0001/people/631",
+    "http://oparl.dresden.de/bodies/0001/people/633",
+    "http://oparl.dresden.de/bodies/0001/people/635",
+    "http://oparl.dresden.de/bodies/0001/people/637",
+    "http://oparl.dresden.de/bodies/0001/people/638",
+    "http://oparl.dresden.de/bodies/0001/people/630"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/27297",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Lo",
+    "fileName": "00027297.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-04-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00027297.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00027297.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 5. Ortsbeiratssitzung am 10.03.2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/27297",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Lo",
+      "fileName": "00027297.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-04-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00027297.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00027297.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 341, Dresden-Bühlau Nr. 8, Crostauer Weghier:\t1. Billigung des Entwurfs zum Bebauungsplan\t2. Billigung der Begründung zum Bebauungsplan-Entwurf\t3. Öffentliche Auslegung des Entwurfs zum Bebauungsplan",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1712",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "26158",
-        "25624",
-        "25625",
-        "25626",
-        "25627",
-        "25628",
-        "25629"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 5,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1315",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "21931",
-        "19492",
-        "19493",
-        "21538",
-        "21539",
-        "21543",
-        "21547",
-        "21548",
-        "19496",
-        "19497",
-        "20364"
-      ],
-      "resolutionFile": "19503",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Plan Hochwasservorsorge Dresden (PHD) - Plan zur Verbesserung der Hochwasservorsorge in der Landeshauptstadt Dresden für die Elbe, die Vereinigte Weißeritz, den Lockwitzbach, die Gewässer zweiter Ordnung, das Grundwasser sowie das abwassertechnische System",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1376",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "27201",
-        "149724",
-        "149725",
-        "149726",
-        "24786",
-        "24787",
-        "24788",
-        "24789",
-        "24790",
-        "24791",
-        "24792",
-        "24793",
-        "20594",
-        "20595",
-        "20596",
-        "20597",
-        "20599"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Information zur Erweiterung der Parkraumbewirtschaftung auf das Gebiet zwischen Rats- und Winzerstraße",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung des Ortsverein Loschwitz-Wachwitz e.V.",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/29349",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00029349.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-04-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00029349.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00029349.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "300",
-  "participant": [
-    "621",
-    "619",
-    "623",
-    "625",
-    "627",
-    "631",
-    "635",
-    "633",
-    "637",
-    "638",
-    "630"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7823",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 5. Ortsbeiratssitzung am 10.03.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7825",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "2",
+      "order": "2",
+      "name": "Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7827",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 341, Dresden-Bühlau Nr. 8, Crostauer Weg",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2850",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7826",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "2.2",
+      "order": "4",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2010/2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2247",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7828",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "2.3",
+      "order": "5",
+      "name": "Plan Hochwasservorsorge Dresden (PHD) Plan zur Verbesserung der Hochwasservorsorge in der Landeshauptstadt Dresden für die Elbe, die Vereinigte Wei0eritz, den Lockwitzbach, die Gewässer zweiter Ordnung, das Grundwasser sowie das abwassertechnische Sy",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2351",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7829",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "3",
+      "order": "6",
+      "name": "Information zur Erweiterung der Parkraumbewirtschaftung auf das Gebiet zwischen Rats- und Winzerstraße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7830",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "4",
+      "order": "7",
+      "name": "Vorstellung des Vereins Loschwitz-Wachwitz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/7877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/300",
+      "number": "5",
+      "order": "8",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

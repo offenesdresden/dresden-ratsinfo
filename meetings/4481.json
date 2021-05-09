@@ -1,75 +1,191 @@
 {
-  "shortName": "OSR SB/006/2015",
-  "locality": "Landeshauptstadt Dresden, im Versammlungsraum im Bürgerhaus Schönborn, Seifersdorfer Straße 6, 01465 Schönborn",
-  "name": "Ortschaftsrat Schönborn - 21.01.2015 - 19:30-21:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4481",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ortschaftsrates Schönborn",
   "start": "2015-01-21T19:30:00+01:00",
   "end": "2015-01-21T21:10:00+01:00",
-  "invitation": "192616",
-  "resultsProtocol": "194048",
-  "auxiliaryFile": [
-    "193951",
-    "194053"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
   ],
-  "verbatimProtocol": "194050",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/1257",
+    "http://oparl.dresden.de/bodies/0001/people/1258"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/192616",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00192616.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-01-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00192616.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00192616.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/193951",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V SB004/15",
+    "fileName": "00193951.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-01-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00193951.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00193951.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/192616",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00192616.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00192616.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00192616.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Festlegung Vorstellungstermin Förderanträge Vereine, Präzisierung inhaltlicher Anforderungen an Vereine",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/193951",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V SB004/15",
+      "fileName": "00193951.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00193951.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00193951.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Förderrichtlinie Schönborn",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 3,
-        "no": 2,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/194048",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Januar Nachweis Baumaßnahmen Kita",
+      "fileName": "00194048.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00194048.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00194048.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Umwidmungsanträge",
-      "number": "Ö 4 Nachtrag: 02.11.2015",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "punktweise Zustimmung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/194050",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00194050.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00194050.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00194050.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Diskussion zum Einsatz eines neuen Schließsystems im Bürgerhaus",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vereinsförderung 2014- Umwidmungsanträge",
-      "number": "Ö 6 Nachtrag: 02.11.2015",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/194053",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SB0005/15  Umwidmungsanträge",
+      "fileName": "00194053.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00194053.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00194053.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4481",
-  "participant": [
-    "357",
-    "1258",
-    "361",
-    "359",
-    "355",
-    "1257"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61446",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4481",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61447",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4481",
+      "number": "2",
+      "order": "2",
+      "name": "Festlegung Vorstellungstermin Förderanträge Vereine, Präzisierung inhaltlicher Anforderungen an Vereine",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61892",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4481",
+      "number": "3",
+      "order": "3",
+      "name": "Förderrichtlinie Schönborn",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18489",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61895",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4481",
+      "number": "4",
+      "order": "4",
+      "name": "Umwidmungsanträge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18488",
+      "result": "punktweise Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61448",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4481",
+      "number": "5",
+      "order": "5",
+      "name": "Diskussion zum Einsatz eines neuen Schließsystems im Bürgerhaus",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61449",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4481",
+      "number": "6",
+      "order": "6",
+      "name": "Vereinsförderung 2014- Umwidmungsanträge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18391",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,20 +1,26 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/2001",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Wolfgang Trobisch",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Trobisch",
+  "givenName": "Wolfgang",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10209",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2001",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/172",
       "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "172",
-      "startDate": "2019-10-08"
+      "votingRight": true,
+      "startDate": "2019-10-08",
+      "created": "2019-10-15T05:22:17+02:00",
+      "modified": "2019-10-15T05:22:17+02:00"
     }
   ],
-  "status": [
-    "AfD"
-  ],
-  "id": "2001"
+  "created": "2019-07-25T08:38:32+02:00",
+  "modified": "2021-05-06T10:24:55+02:00",
+  "web": ""
 }

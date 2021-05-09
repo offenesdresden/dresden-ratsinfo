@@ -1,116 +1,237 @@
 {
-  "shortName": "OSR MB/021/2016",
-  "locality": "Landeshauptstadt Dresden, im \"Dorfklub Mobschatz\", Sitzungssaal,Am Tummelsgrund 7 b, 01156 Dresden",
-  "name": "Ortschaftsrat Mobschatz - 19.05.2016 - 19:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "45"
-  ],
-  "start": "2016-05-19T19:30:00+02:00",
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "21. Sitzung des Ortschaftsrates Mobschatz",
+  "start": "2016-05-19T19:00:00+02:00",
   "end": "2016-05-19T21:15:00+02:00",
-  "invitation": "253700",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/36",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Am Tummelsgrund 7 b",
+    "room": "Ortschaft Mobschatz, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/45"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/253700",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR MB",
+    "fileName": "00253700.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-05-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00253700.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00253700.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bestätigung der Tagesordnung und der Niederschrift des Ortschaftsrates Mobschatz",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11948",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259982",
-      "auxiliaryFile": [
-        "273674",
-        "248863",
-        "248524",
-        "247751",
-        "240583",
-        "258864",
-        "259259"
-      ]
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2017 - Stellungnahme zur Neuaufnahme von Straßen in den öffentlichen Reinigungsplan",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Festlegung des Publikationsvolumens in den Ortsnachrichten Gompitz-Altfranken-Mobschatz für Schulen sowie für das Kinder- und Jugendhaus",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verwendung der finanziellen Mittel des Ortschaftsrates Mobschatz (Investitionspauschale) im Jahr 2016 - Beschlussfassung",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Übertragung von finanziellen Mitteln an das Straßen- und Tiefbauamt für die Wiederherstellung des öffentlichen Weges (ÖFW 2) in Alt-Leuteritz",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sanierung des Fahrgastunterstandes Rennersdorf",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beratung über die Zukunft des Holzhauses auf dem Spiel-/ Sportplatz Mobschatz, Am Tummelsgrund",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Eisteich im Zschoner Grund",
-      "number": "Ö 11.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Flurstück 13 der Gemarkung Podemus",
-      "number": "Ö 11.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Gesamtkonzept Radverkehr",
-      "number": "Ö 11.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Thematik Asyl in Dresden - Informationen vom Sozialamt",
-      "number": "Ö 11.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Spiel- und Sportplatz Mobschatz, Am Tummelsgrund - Seilbahn und Pappel",
-      "number": "Ö 11.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bürgeranfragen",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/253700",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR MB",
+      "fileName": "00253700.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00253700.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00253700.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5226",
-  "participant": [
-    "1255",
-    "342",
-    "344",
-    "347",
-    "345"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79089",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "2",
+      "order": "2",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79090",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "3",
+      "order": "3",
+      "name": "Bestätigung der Tagesordnung und der Niederschrift des Ortschaftsrates Mobschatz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79095",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "4",
+      "order": "4",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23804",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79107",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "5",
+      "order": "5",
+      "name": "Straßenreinigungsgebührensatzung 2017 - Stellungnahme zur Neuaufnahme von Straßen in den öffentlichen Reinigungsplan",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25015",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79109",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "6",
+      "order": "6",
+      "name": "Festlegung des Publikationsvolumens in den Ortsnachrichten Gompitz-Altfranken-Mobschatz für Schulen sowie für das Kinder- und Jugendhaus",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25017",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79235",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "7",
+      "order": "7",
+      "name": "Verwendung der finanziellen Mittel des Ortschaftsrates Mobschatz (Investitionspauschale) im Jahr 2016 - Beschlussfassung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25046",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79688",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "8",
+      "order": "8",
+      "name": "Übertragung von finanziellen Mitteln an das Straßen- und Tiefbauamt für die Wiederherstellung des öffentlichen Weges (ÖFW 2) in Alt-Leuteritz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25205",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79756",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "9",
+      "order": "9",
+      "name": "Sanierung des Fahrgastunterstandes Rennersdorf",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79101",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "10",
+      "order": "10",
+      "name": "Beratung über die Zukunft des Holzhauses auf dem Spiel-/ Sportplatz Mobschatz, Am Tummelsgrund",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79098",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "11",
+      "order": "11",
+      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79914",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "11.1",
+      "order": "12",
+      "name": "Eisteich im Zschoner Grund",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79915",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "11.2",
+      "order": "13",
+      "name": "Flurstück 13 der Gemarkung Podemus",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79916",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "11.3",
+      "order": "14",
+      "name": "Gesamtkonzept Radverkehr",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79917",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "11.4",
+      "order": "15",
+      "name": "Thematik Asyl in Dresden - Informationen vom Sozialamt",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79918",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "11.5",
+      "order": "16",
+      "name": "Spiel- und Sportplatz Mobschatz, Am Tummelsgrund - Seilbahn und Pappel",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79099",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5226",
+      "number": "12",
+      "order": "17",
+      "name": "Bürgeranfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

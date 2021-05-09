@@ -1,30 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1693",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Kristin Dänhardt",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Ortsbeiratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "42",
-      "startDate": "2017-09-07",
-      "endDate": "2018-09-30"
-    },
-    {
-      "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "173",
-      "startDate": "2018-09-14"
-    }
-  ],
-  "status": [
-    "Die Linke"
-  ],
+  "familyName": "Dänhardt",
+  "givenName": "Kristin",
+  "formOfAddress": "Frau",
+  "gender": "weiblich",
   "email": [
     "kristin.daenhardt@dieLinke-dresden.de"
   ],
-  "id": "1693"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9159",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1693",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/173",
+      "role": "Mitglied Stadtbezirksbeirat",
+      "votingRight": true,
+      "startDate": "2018-09-14",
+      "created": "2018-09-13T15:26:54+02:00",
+      "modified": "2019-10-07T08:00:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/8352",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1693",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/42",
+      "role": "Ortsbeiratsmitglied",
+      "votingRight": true,
+      "startDate": "2017-09-07",
+      "endDate": "2018-09-30",
+      "created": "2017-09-08T13:46:21+02:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2017-09-08T13:43:21+02:00",
+  "modified": "2021-05-06T10:26:46+02:00",
+  "web": ""
 }

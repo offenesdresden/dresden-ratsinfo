@@ -1,110 +1,153 @@
 {
-  "shortName": "OBR Pi/009/2010",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 17.08.2010 - 18:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/412",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "9. Sitzung des Ortsbeirates Pieschen",
   "start": "2010-08-17T18:00:00+02:00",
   "end": "2010-08-17T20:00:00+02:00",
-  "invitation": "37199",
-  "verbatimProtocol": "38155",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/670",
+    "http://oparl.dresden.de/bodies/0001/people/672",
+    "http://oparl.dresden.de/bodies/0001/people/675",
+    "http://oparl.dresden.de/bodies/0001/people/677",
+    "http://oparl.dresden.de/bodies/0001/people/679",
+    "http://oparl.dresden.de/bodies/0001/people/681",
+    "http://oparl.dresden.de/bodies/0001/people/683",
+    "http://oparl.dresden.de/bodies/0001/people/685",
+    "http://oparl.dresden.de/bodies/0001/people/687",
+    "http://oparl.dresden.de/bodies/0001/people/689",
+    "http://oparl.dresden.de/bodies/0001/people/691",
+    "http://oparl.dresden.de/bodies/0001/people/909",
+    "http://oparl.dresden.de/bodies/0001/people/694",
+    "http://oparl.dresden.de/bodies/0001/people/696",
+    "http://oparl.dresden.de/bodies/0001/people/674"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/37199",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00037199.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-08-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00037199.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00037199.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/37199",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00037199.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-08-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00037199.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00037199.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2112",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31143"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 4,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Drohender Grundschulnotstand in Dresden",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2113",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31142",
-        "31225"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 4,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prioritätenliste zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftiger Fußwege",
-      "number": "Ö 1.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2178",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "33382",
-        "138849",
-        "123277"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/38155",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00038155.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-08-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00038155.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00038155.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "412",
-  "participant": [
-    "298",
-    "670",
-    "672",
-    "675",
-    "677",
-    "679",
-    "681",
-    "683",
-    "685",
-    "687",
-    "689",
-    "691",
-    "909",
-    "694",
-    "696",
-    "674"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/412",
+      "number": "1",
+      "order": "1",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10342",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/412",
+      "number": "1.1",
+      "order": "2",
+      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3428",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10343",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/412",
+      "number": "1.2",
+      "order": "3",
+      "name": "Drohender Grundschulnotstand in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3456",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10344",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/412",
+      "number": "1.3",
+      "order": "4",
+      "name": "Prioritätenliste zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftiger Fußwege",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3569",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10346",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/412",
+      "number": "2",
+      "order": "5",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10347",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/412",
+      "number": "3",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

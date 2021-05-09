@@ -1,85 +1,136 @@
 {
-  "shortName": "OBR Kl/023/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 17.10.2016 - 18:30-19:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5252",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "23. Sitzung des Ortsbeirates Klotzsche",
   "start": "2016-10-17T18:30:00+02:00",
   "end": "2016-10-17T19:35:00+02:00",
-  "invitation": "271752",
-  "verbatimProtocol": "273048",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1062",
+    "http://oparl.dresden.de/bodies/0001/people/1348",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/610",
+    "http://oparl.dresden.de/bodies/0001/people/1345",
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/613",
+    "http://oparl.dresden.de/bodies/0001/people/1342",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/617",
+    "http://oparl.dresden.de/bodies/0001/people/604",
+    "http://oparl.dresden.de/bodies/0001/people/1344"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/271752",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00271752.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-10-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00271752.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00271752.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/271752",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00271752.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-10-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00271752.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00271752.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Grundhafter Ausbau Innere Erschließung Industriepark Klotzsche  - „Zur Wetterwarte“ und „Zum Windkanal“",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12743",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "276603",
-      "auxiliaryFile": [
-        "288036",
-        "334144",
-        "392692",
-        "455719",
-        "528297",
-        "268912",
-        "268555",
-        "262493",
-        "262494",
-        "262495",
-        "268076",
-        "268077",
-        "274754"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Diskussion zur Polizeiverordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung in der Landeshauptstadt Dresden (PolVO Sicherheit und Ordnung)",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/273048",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00273048.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-10-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00273048.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00273048.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5252",
-  "participant": [
-    "1062",
-    "1348",
-    "601",
-    "607",
-    "610",
-    "1345",
-    "611",
-    "613",
-    "1342",
-    "1136",
-    "617",
-    "604",
-    "1344"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/83514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5252",
+      "number": "1",
+      "order": "1",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/83515",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5252",
+      "number": "1.1",
+      "order": "2",
+      "name": "Grundhafter Ausbau Innere Erschließung Industriepark Klotzsche  - „Zur Wetterwarte“ und „Zum Windkanal“",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25877",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/83634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5252",
+      "number": "1.2",
+      "order": "3",
+      "name": "Diskussion zur Polizeiverordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung in der Landeshauptstadt Dresden (PolVO Sicherheit und Ordnung)",
+      "public": true,
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/83516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5252",
+      "number": "2",
+      "order": "4",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/83517",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5252",
+      "number": "3",
+      "order": "5",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

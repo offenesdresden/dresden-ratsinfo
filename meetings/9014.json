@@ -1,376 +1,317 @@
 {
-  "shortName": "SBR Alt/012/2020",
-  "locality": "Landeshauptstadt Dresden, im Stadtbezirksamt Altstadt, 1. Etage, Raum 100,Theaterstraße 11, 01067 Dresden",
-  "name": "Stadtbezirksbeirat Altstadt - 08.09.2020 - 17:30-22:42 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "165"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "12. Sitzung des Stadtbezirksbeirates Altstadt",
   "start": "2020-09-08T17:30:00+02:00",
   "end": "2020-09-08T22:42:00+02:00",
-  "invitation": "494391",
-  "verbatimProtocol": "512039",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3242",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Theaterstraße 11",
+    "room": "Stadtbezirksamt Altstadt, Raum 100",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-03T12:35:06+02:00",
+    "modified": "2018-09-06T08:48:21+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/165"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/267",
+    "http://oparl.dresden.de/bodies/0001/people/1325",
+    "http://oparl.dresden.de/bodies/0001/people/1959",
+    "http://oparl.dresden.de/bodies/0001/people/1202",
+    "http://oparl.dresden.de/bodies/0001/people/1321",
+    "http://oparl.dresden.de/bodies/0001/people/1907",
+    "http://oparl.dresden.de/bodies/0001/people/1951",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/1956",
+    "http://oparl.dresden.de/bodies/0001/people/1957",
+    "http://oparl.dresden.de/bodies/0001/people/590",
+    "http://oparl.dresden.de/bodies/0001/people/1324",
+    "http://oparl.dresden.de/bodies/0001/people/1545",
+    "http://oparl.dresden.de/bodies/0001/people/1952",
+    "http://oparl.dresden.de/bodies/0001/people/592",
+    "http://oparl.dresden.de/bodies/0001/people/2135",
+    "http://oparl.dresden.de/bodies/0001/people/1030"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/494391",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SBR Alt",
+    "fileName": "00494391.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-08-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00494391.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00494391.pdf",
+    "created": "2020-08-25T12:25:31+02:00",
+    "modified": "2020-08-27T05:36:56+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung der Polizeilichen Kriminalstatistik 2019 für die Friedrichstadt",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/494391",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Alt",
+      "fileName": "00494391.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00494391.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00494391.pdf",
+      "created": "2020-08-25T12:25:31+02:00",
+      "modified": "2020-08-27T05:36:56+02:00"
     },
     {
-      "name": "Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Altstadt hier: Kleinprojekt (Nr. Alt-019/20) KIGA Schnuppertraining",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19247",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "496662",
-      "auxiliaryFile": [
-        "496944",
-        "508001",
-        "486597",
-        "490781",
-        "490780",
-        "486616",
-        "486617",
-        "486618"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Altstadt hier: Makroprojekt (Nr. Alt-020/20) Symposium Nachhaltigkeit",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20335",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "496663",
-      "auxiliaryFile": [
-        "496946",
-        "508000",
-        "491921",
-        "494367",
-        "494366",
-        "492634",
-        "492635",
-        "492636",
-        "492637"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 5,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Altstadt hier: Absenkung Bordstein Dinglingerstraße",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19119",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "496677",
-      "auxiliaryFile": [
-        "496948",
-        "536435",
-        "481045",
-        "491119",
-        "491118",
-        "481237",
-        "481239",
-        "486189",
-        "486190"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Altstadt hier: Installation WLAN am Bönischplatz",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20319",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "496680",
-      "auxiliaryFile": [
-        "496950",
-        "491390",
-        "494376",
-        "494373",
-        "491548",
-        "491549",
-        "491550"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 3,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Altstadt hier: Straßenbaumpflanzung Ferdinandstraße",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20361",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "496681",
-      "auxiliaryFile": [
-        "496952",
-        "536436",
-        "492442",
-        "494380",
-        "494379",
-        "492615",
-        "492616",
-        "492617"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorschlag: Umwandlung Grünanlage (Parkanlagen) Reitbahnstraße - vor Hotelparkplatz und Reitbahnstraße 14 - 24 in eine Streublumenwiese",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "496689",
-        "496955",
-        "485671",
-        "513216"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorschlagsrecht zur Beauftragung von Vereinen zur Vorstellung durch den Stadtbezirksbeirat geförderter Maßnahmen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 3,
-        "no": 13,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorschlagsrecht zur Verwendung des Restbudgets 2020",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 3,
-        "no": 14,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Evaluierung der Richtlinie der Landeshauptstadt Dresden über die Förderung des Sportes (Sportförderrichtlinie)",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18891",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "516498",
-      "auxiliaryFile": [
-        "480489",
-        "478514",
-        "479011",
-        "479012",
-        "475036",
-        "472324",
-        "472321",
-        "472322",
-        "472323",
-        "472320",
-        "514385"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 3051, Dresden-Altstadt II/Löbtau, Erneuerung der Gleisanlagen/Freiberger Straße Westhier:1. Aufstellungsbeschluss Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des Bebauungsplans",
-      "number": "Ö 6.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18617",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "504104",
-      "auxiliaryFile": [
-        "525061",
-        "473332",
-        "471721",
-        "463787",
-        "463788",
-        "463789",
-        "506532",
-        "497764"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 3061, Dresden-Friedrichstadt Nr. 12, Waltherstraße/Friedrichstraßehier:1. Aufstellungsbeschluss Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des Bebauungsplans",
-      "number": "Ö 6.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18958",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "498714",
-      "auxiliaryFile": [
-        "525159",
-        "484871",
-        "483161",
-        "474666",
-        "474667",
-        "483187",
-        "498430"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Veranstaltungsnetz Altmarkt - Umgestaltung für eine barrierefreie Leitungsführung/Herstellung einer funktionstüchtigen Platzdrainage",
-      "number": "Ö 6.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20347",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "507403",
-      "auxiliaryFile": [
-        "530960",
-        "495511",
-        "495251",
-        "511562",
-        "494027",
-        "492257",
-        "492258",
-        "492524",
-        "494026",
-        "492541",
-        "492542",
-        "492543",
-        "492810",
-        "504171",
-        "526085",
-        "505823",
-        "506142",
-        "511401",
-        "507418"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 12,
-        "no": 2,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Neues Wohnen auf städtischen Flächen fördern - Wagenplätze in Dresden ermöglichen",
-      "number": "Ö 6.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18586",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "462818",
-        "496863",
-        "516800"
-      ],
-      "result": "punktweise Abstimmung"
-    },
-    {
-      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
-      "number": "Ö 6.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "464644",
-        "496854",
-        "537498"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 7,
-        "no": 6,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bestätigung der Niederschrift zur 11. Sitzung des Stadtbezirksbeirates am 08.07.2020",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/512039",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift_SBR Altstadt/012/2020",
+      "fileName": "00512039.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00512039.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00512039.pdf",
+      "created": "2020-11-12T13:24:53+01:00",
+      "modified": "2020-11-12T13:24:53+01:00"
     }
   ],
-  "id": "9014"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung der Polizeilichen Kriminalstatistik 2019 für die Friedrichstadt",
+      "public": true,
+      "created": "2020-08-24T06:53:03+02:00",
+      "modified": "2020-08-24T06:54:17+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134513",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "2",
+      "order": "2",
+      "name": "Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat",
+      "public": true,
+      "created": "2020-06-30T06:14:07+02:00",
+      "modified": "2020-08-31T05:53:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135167",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "2.1",
+      "order": "3",
+      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Altstadt hier: Kleinprojekt (Nr. Alt-019/20) KIGA Schnuppertraining",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43003",
+      "result": "Zustimmung",
+      "created": "2020-07-17T17:04:36+02:00",
+      "modified": "2020-09-17T04:46:55+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137224",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "2.2",
+      "order": "4",
+      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Altstadt hier: Makroprojekt (Nr. Alt-020/20) Symposium Nachhaltigkeit",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45267",
+      "result": "Zustimmung",
+      "created": "2020-08-24T06:53:35+02:00",
+      "modified": "2020-09-17T04:51:35+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135166",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "2.3",
+      "order": "5",
+      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Altstadt hier: Absenkung Bordstein Dinglingerstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42710",
+      "result": "Zustimmung",
+      "created": "2020-07-17T17:04:20+02:00",
+      "modified": "2020-09-17T04:45:01+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137225",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "2.4",
+      "order": "6",
+      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Altstadt hier: Installation WLAN am Bönischplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45209",
+      "result": "Zustimmung",
+      "created": "2020-08-24T06:54:11+02:00",
+      "modified": "2020-09-17T04:48:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137226",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "2.5",
+      "order": "7",
+      "name": "Finanzierung von Maßnahmen gemäß Aufgabenabgrenzungsrichtlinie durch den Stadtbezirksbeirat Altstadt hier: Straßenbaumpflanzung Ferdinandstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45325",
+      "result": "Zustimmung",
+      "created": "2020-08-24T06:54:32+02:00",
+      "modified": "2020-09-17T05:41:10+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134967",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "3",
+      "order": "8",
+      "name": "Vorschlag: Umwandlung Grünanlage (Parkanlagen) Reitbahnstraße - vor Hotelparkplatz und Reitbahnstraße 14 - 24 in eine Streublumenwiese",
+      "public": true,
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-07-14T04:47:57+02:00",
+      "modified": "2020-09-09T07:14:59+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137288",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "4",
+      "order": "9",
+      "name": "Vorschlagsrecht zur Beauftragung von Vereinen zur Vorstellung durch den Stadtbezirksbeirat geförderter Maßnahmen",
+      "public": true,
+      "result": "Ablehnung",
+      "created": "2020-08-25T12:19:02+02:00",
+      "modified": "2020-09-09T07:15:27+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137289",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "5",
+      "order": "10",
+      "name": "Vorschlagsrecht zur Verwendung des Restbudgets 2020",
+      "public": true,
+      "result": "Ablehnung",
+      "created": "2020-08-25T12:19:39+02:00",
+      "modified": "2020-09-09T07:15:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "6",
+      "order": "11",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2020-06-30T06:14:07+02:00",
+      "modified": "2020-08-25T12:26:40+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134519",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "6.1",
+      "order": "12",
+      "name": "Evaluierung der Richtlinie der Landeshauptstadt Dresden über die Förderung des Sportes (Sportförderrichtlinie)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42204",
+      "result": "Zustimmung",
+      "created": "2020-06-30T06:14:49+02:00",
+      "modified": "2020-09-09T08:16:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134972",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "6.2",
+      "order": "13",
+      "name": "Bebauungsplan Nr. 3051, Dresden-Altstadt II/Löbtau, Erneuerung der Gleisanlagen/Freiberger Straße West",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41507",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-07-14T04:52:07+02:00",
+      "modified": "2020-09-09T08:17:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134973",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "6.3",
+      "order": "14",
+      "name": "Bebauungsplan Nr. 3061, Dresden-Friedrichstadt Nr. 12, Waltherstraße/Friedrichstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42823",
+      "result": "Zustimmung",
+      "created": "2020-07-14T04:52:47+02:00",
+      "modified": "2020-09-09T08:19:11+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137315",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "6.4",
+      "order": "15",
+      "name": "Veranstaltungsnetz Altmarkt - Umgestaltung für eine barrierefreie Leitungsführung/Herstellung einer funktionstüchtigen Platzdrainage",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45290",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-08-26T08:37:51+02:00",
+      "modified": "2020-09-09T08:19:34+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134968",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "6.5",
+      "order": "16",
+      "name": "Neues Wohnen auf städtischen Flächen fördern - Wagenplätze in Dresden ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41387",
+      "result": "punktweise Abstimmung",
+      "created": "2020-07-14T04:48:37+02:00",
+      "modified": "2020-09-09T08:19:56+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134969",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "6.6",
+      "order": "17",
+      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41580",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-07-14T04:48:47+02:00",
+      "modified": "2020-09-09T08:20:25+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134515",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "7",
+      "order": "18",
+      "name": "Bestätigung der Niederschrift zur 11. Sitzung des Stadtbezirksbeirates am 08.07.2020",
+      "public": true,
+      "created": "2020-06-30T06:14:07+02:00",
+      "modified": "2020-08-26T08:37:51+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9014",
+      "number": "8",
+      "order": "19",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2020-06-30T06:14:07+02:00",
+      "modified": "2020-08-26T08:37:51+02:00"
+    }
+  ],
+  "created": "2019-11-15T12:53:49+01:00",
+  "modified": "2021-03-22T07:23:52+01:00"
 }

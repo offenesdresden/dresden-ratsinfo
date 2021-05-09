@@ -1,71 +1,149 @@
 {
-  "shortName": "OBR Leu/010/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Leuben, Bürgersaal,Hertzstraße 23, 01257 Dresden",
-  "name": "Ortsbeirat Leuben - 10.11.2010 - 19:00-21:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "44"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/436",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "10. Sitzung des Ortsbeirates Leuben",
   "start": "2010-11-10T19:00:00+01:00",
   "end": "2010-11-10T21:10:00+01:00",
-  "invitation": "46137",
-  "verbatimProtocol": "48771",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/28",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hertzstraße 23",
+    "room": "Ortsamt Leuben, Bürgersaal",
+    "postalCode": "01257",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:04+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/44"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/506",
+    "http://oparl.dresden.de/bodies/0001/people/508",
+    "http://oparl.dresden.de/bodies/0001/people/510",
+    "http://oparl.dresden.de/bodies/0001/people/512",
+    "http://oparl.dresden.de/bodies/0001/people/516",
+    "http://oparl.dresden.de/bodies/0001/people/518",
+    "http://oparl.dresden.de/bodies/0001/people/520",
+    "http://oparl.dresden.de/bodies/0001/people/407",
+    "http://oparl.dresden.de/bodies/0001/people/523",
+    "http://oparl.dresden.de/bodies/0001/people/525",
+    "http://oparl.dresden.de/bodies/0001/people/526",
+    "http://oparl.dresden.de/bodies/0001/people/528",
+    "http://oparl.dresden.de/bodies/0001/people/69",
+    "http://oparl.dresden.de/bodies/0001/people/515",
+    "http://oparl.dresden.de/bodies/0001/people/531"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/46137",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Leu_2010.11.10",
+    "fileName": "00046137.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-10-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00046137.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00046137.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/46137",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Leu_2010.11.10",
+      "fileName": "00046137.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-10-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00046137.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00046137.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 99.1, Dresden-Sporbitz Nr. 3, Interkommunales Gewerbegebiet Dresden/Heidenau, Teilbereich Dresdenhier:\t1. Aufstellungsbeschluss zur Änderung des Bebauungsplanes\t2. Durchführung eines vereinfachten Verfahrens\t3. Billigung der Änderung des Bebauungsplanes\t4. Billigung der Begründung\t5. Durchführung des Beteiligungsverfahrens",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Straßenunterhaltung im Ortsamtsgebiet Leuben",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zum Bauvorhaben an der Österreicher Straße 26 (Donaths Neue Welt)",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/48771",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00048771.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-11-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00048771.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00048771.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "436",
-  "participant": [
-    "895",
-    "508",
-    "510",
-    "506",
-    "512",
-    "516",
-    "518",
-    "520",
-    "407",
-    "523",
-    "526",
-    "525",
-    "528",
-    "69",
-    "515",
-    "531"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13905",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/436",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/436",
+      "number": "2",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 99.1, Dresden-Sporbitz Nr. 3, Interkommunales Gewerbegebiet Dresden/Heidenau, Teilbereich Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4767",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13911",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/436",
+      "number": "3",
+      "order": "3",
+      "name": "Straßenunterhaltung im Ortsamtsgebiet Leuben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13912",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/436",
+      "number": "4",
+      "order": "4",
+      "name": "Information zum Bauvorhaben an der Österreicher Straße 26 (Donaths Neue Welt)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13910",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/436",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13913",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/436",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

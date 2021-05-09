@@ -1,71 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/7422",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Jahresabschluss 2012 des Eigenbetriebes Krankenhaus Dresden-Friedrichstadt, Städtisches Klinikum",
-  "shortName": "V2421/13",
   "reference": "V2421/13",
+  "date": "2013-08-07",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2013-07-25",
   "auxiliaryFile": [
-    "142939",
-    "140783"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/140783",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00140783.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-08-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00140783.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00140783.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/142939",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V2421/13",
+      "fileName": "00142939.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00142939.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00142939.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/43"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/13612",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/7422",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/44484",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2570",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "2551",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "2564",
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "2570",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "7422"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

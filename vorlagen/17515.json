@@ -1,26 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17515",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Öffentliche Beleuchtung auf einem Teilstück der Antonin-Dvorak-Straße",
-  "shortName": "V-Pro0026/19",
   "reference": "V-Pro0026/19",
+  "date": "2019-08-27",
   "paperType": "Vorlage STB Prohlis",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-26",
   "auxiliaryFile": [
-    "427538",
-    "427269"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/427269",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Übersichtsplan",
+      "fileName": "00427269.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00427269.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00427269.pdf",
+      "created": "2019-08-26T12:50:46+02:00",
+      "modified": "2019-08-28T08:10:17+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/427538",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V-Pro0026/19 Komplettversion",
+      "fileName": "00427538.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00427538.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00427538.pdf",
+      "created": "2019-08-28T08:06:38+02:00",
+      "modified": "2019-08-29T09:49:29+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/430363",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Prohlis_V-Pro0026_19",
+      "fileName": "00430363.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00430363.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00430363.pdf",
+      "created": "2019-09-16T12:41:04+02:00",
+      "modified": "2019-09-16T12:41:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/450423",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Prohlis_V-Pro0026/19_2019_12_17_Zwischenbericht",
+      "fileName": "00450423.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00450423.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00450423.pdf",
+      "created": "2019-12-17T14:24:09+01:00",
+      "modified": "2019-12-17T14:24:10+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/456295",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Prohlis_V-Pro0026/19_2020_01_29_Abschlussbericht",
+      "fileName": "00456295.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00456295.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00456295.pdf",
+      "created": "2020-01-30T16:02:14+01:00",
+      "modified": "2020-01-30T16:02:48+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/128"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8450",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38893",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17515",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/120609",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8450",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/174"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-08-28T08:02:26+02:00",
+      "modified": "2019-09-16T13:33:54+02:00"
     }
   ],
-  "id": "17515",
-  "mainFile": "427538"
+  "created": "2019-08-26T11:39:04+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

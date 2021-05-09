@@ -1,81 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15950",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Information zum Projekt „Neubau Verwaltungszentrum am Ferdinandplatz“",
-  "shortName": "V2731/18",
   "reference": "V2731/18",
+  "date": "2018-11-22",
   "paperType": "Infovorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-10-18",
-  "mainFile": "382766",
   "auxiliaryFile": [
-    "380621",
-    "373487"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/373487",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Bereits gefasster Beschluss zu V1941/17",
+      "fileName": "00373487.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00373487.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00373487.pdf",
+      "created": "2018-10-18T15:07:21+02:00",
+      "modified": "2018-11-29T14:47:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/380621",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00380621.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00380621.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00380621.pdf",
+      "created": "2018-11-19T13:22:30+01:00",
+      "modified": "2018-11-29T14:47:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/382766",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V2731/18",
+      "fileName": "00382766.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00382766.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00382766.pdf",
+      "created": "2018-11-29T14:47:00+01:00",
+      "modified": "2018-11-29T14:47:17+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/112"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35008",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15950",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/111164",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6515",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
+      "authoritative": true,
       "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6515",
-      "role": "zur Information",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2018-11-30T14:29:40+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15950"
+  "created": "2018-10-18T14:39:29+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

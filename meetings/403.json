@@ -1,58 +1,127 @@
 {
-  "shortName": "OSR SB/015/2010",
-  "locality": "Landeshauptstadt Dresden, im ehemaligen Gemeindehaus Schönborn, Beratungsraum,Seifersdorfer Straße 6, 01465 Dresden",
-  "name": "Ortschaftsrat Schönborn - 27.10.2010 - 19:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/403",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ortschaftsrates Schönborn",
   "start": "2010-10-27T19:30:00+02:00",
   "end": "2010-10-27T21:30:00+02:00",
-  "invitation": "43781",
-  "verbatimProtocol": "85151",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/356",
+    "http://oparl.dresden.de/bodies/0001/people/358",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/362"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/43781",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00043781.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-10-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00043781.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00043781.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Verfahrensweise Werbeschilder komunales Grundstück Seifersdorfer Str. 1",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/43781",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00043781.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-10-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00043781.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00043781.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung Gesetzentwurf über Ladenöffnungszeiten und Änderung des Gesetzes über die Sonn-und Feiertage im Freistaat Sachsen",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zur Widmung einer Straße und eines Weges nach §6 SächsStrG / BE Herr Heidel",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Erhalt und Entwicklung eines strukturreichen Altbaumbestandes auf dem Gebiet der Landeshauptstadt Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2243",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "61090",
-      "auxiliaryFile": [
-        "33428",
-        "33436"
-      ],
-      "result": "Ablehnung"
-    },
-    {
-      "name": "Allgemeines",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/85151",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00085151.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-01-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00085151.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00085151.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "403",
-  "participant": [
-    "357",
-    "362",
-    "358",
-    "361",
-    "356"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13314",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/403",
+      "number": "1",
+      "order": "1",
+      "name": "Verfahrensweise Werbeschilder komunales Grundstück Seifersdorfer Str. 1",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13315",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/403",
+      "number": "2",
+      "order": "2",
+      "name": "Vorstellung Gesetzentwurf über Ladenöffnungszeiten und Änderung des Gesetzes über die Sonn- und Feiertage im Freistaat Sachsen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/403",
+      "number": "3",
+      "order": "3",
+      "name": "Information zur Widmung einer Straße und eines Weges nach §6 SächsStrG / BE Herr Heidel",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13611",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/403",
+      "number": "4",
+      "order": "4",
+      "name": "Erhalt und Entwicklung eines strukturreichen Altbaumbestandes auf dem Gebiet der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3691",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/403",
+      "number": "5",
+      "order": "5",
+      "name": "Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

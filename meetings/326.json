@@ -1,61 +1,118 @@
 {
-  "shortName": "OBR Alt/014/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ortsbeirat Altstadt - 11.11.2010 - 17:30-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "8"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/326",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "14. Sitzung des Ortsbeirates Altstadt",
   "start": "2010-11-11T17:30:00+01:00",
   "end": "2010-11-11T20:30:00+01:00",
-  "invitation": "46169",
-  "verbatimProtocol": "49596",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/8"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/46169",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Alt_11.11.2010",
+    "fileName": "00046169.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-10-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00046169.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00046169.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Berichterstattung zur Barrierefreiheit auf dem Dresdner StriezelmarktV:  Abt. Kommunale Märkte",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/46169",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Alt_11.11.2010",
+      "fileName": "00046169.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-10-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00046169.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00046169.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung der Ergebnisse der Markenanalyse Dresden 2010V: Dresden Marketing GmbH",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung Kindertreff \"JoJo\"/Projekt des Kinderschutzbundes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kontrolle der Niederschrift zur 13. Ortsbeiratssitzung am 12.10.2010",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/49596",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00049596.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-11-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00049596.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00049596.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "326",
-  "participant": [
-    "893",
-    "567",
-    "569",
-    "571",
-    "573",
-    "575",
-    "577",
-    "581",
-    "579",
-    "582",
-    "412",
-    "584",
-    "589",
-    "591",
-    "593",
-    "595",
-    "597",
-    "588"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12054",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/326",
+      "number": "1",
+      "order": "1",
+      "name": "Berichterstattung zur Barrierefreiheit auf dem Dresdner Striezelmarkt",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12128",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/326",
+      "number": "2",
+      "order": "2",
+      "name": "Vorstellung der Ergebnisse der Markenanalyse Dresden 2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/13216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/326",
+      "number": "3",
+      "order": "3",
+      "name": "Vorstellung Kindertreff \"JoJo\"/Projekt des Kinderschutzbundes",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/326",
+      "number": "4",
+      "order": "4",
+      "name": "Kontrolle der Niederschrift zur 13. Ortsbeiratssitzung am 12.10.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12053",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/326",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

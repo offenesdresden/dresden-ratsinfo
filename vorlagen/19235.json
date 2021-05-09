@@ -1,54 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19235",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Rettung der Sächsischen Dampfschifffahrt - zurückgezogen",
-  "shortName": "A0111/20",
   "reference": "A0111/20",
+  "date": "2020-07-14",
   "paperType": "Antrag Bündnis 90/Die Grünen",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "id": "19235",
-  "publishedDate": "2020-07-10",
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/486057",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  GRÜNE",
+      "fileName": "00486057.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00486057.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00486057.pdf",
+      "created": "2020-07-10T09:27:53+02:00",
+      "modified": "2020-07-16T13:58:10+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/486270",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "A0111-20_Eilantrag",
+      "fileName": "00486270.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00486270.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00486270.pdf",
+      "created": "2020-07-13T09:26:10+02:00",
+      "modified": "2020-07-16T13:58:17+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/495295",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Änderungsantrag_SR_A0111_20_Hr. Aschenbach",
+      "fileName": "00495295.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00495295.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00495295.pdf",
+      "created": "2020-09-01T09:46:53+02:00",
+      "modified": "2020-09-01T09:46:54+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/82"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42967",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19235",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/136696",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8857",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-08-07T11:36:02+02:00",
+      "modified": "2020-09-03T14:05:59+02:00"
     }
-  ]
+  ],
+  "created": "2020-07-10T09:17:37+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

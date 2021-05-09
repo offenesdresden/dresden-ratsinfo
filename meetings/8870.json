@@ -1,201 +1,314 @@
 {
-  "shortName": "WF/014/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden (nur Vergaben)",
-  "name": "Ausschuss für Wirtschaftsförderung - 05.08.2020 - 16:00-16:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "14. Sitzung des Ausschusses für Wirtschaftsförderung (nur Vergaben)",
   "start": "2020-08-05T16:00:00+02:00",
   "end": "2020-08-05T16:30:00+02:00",
-  "invitation": "490498",
-  "verbatimProtocol": "492182",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/18",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "Plenarsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/27",
+    "http://oparl.dresden.de/bodies/0001/people/1931",
+    "http://oparl.dresden.de/bodies/0001/people/2014",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/1936",
+    "http://oparl.dresden.de/bodies/0001/people/1940",
+    "http://oparl.dresden.de/bodies/0001/people/1941",
+    "http://oparl.dresden.de/bodies/0001/people/1336",
+    "http://oparl.dresden.de/bodies/0001/people/1929",
+    "http://oparl.dresden.de/bodies/0001/people/1948",
+    "http://oparl.dresden.de/bodies/0001/people/1152",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/1816",
+    "http://oparl.dresden.de/bodies/0001/people/1933"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/490498",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF_2020_08_05",
+    "fileName": "00490498.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-07-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00490498.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00490498.pdf",
+    "created": "2020-07-23T06:35:19+02:00",
+    "modified": "2020-07-24T07:19:21+02:00"
+  },
   "auxiliaryFile": [
-    "492181",
-    "492197",
-    "493747",
-    "493746",
-    "498576"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/490498",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF_2020_08_05",
+      "fileName": "00490498.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00490498.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00490498.pdf",
+      "created": "2020-07-23T06:35:19+02:00",
+      "modified": "2020-07-24T07:19:21+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/492181",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö_WF_2020_08_05",
+      "fileName": "00492181.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-08-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00492181.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00492181.pdf",
+      "created": "2020-08-06T07:49:57+02:00",
+      "modified": "2020-08-06T08:50:08+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/492182",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift ö_WF_2020_08_05",
+      "fileName": "00492182.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-08-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00492182.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00492182.pdf",
+      "created": "2020-08-06T07:52:12+02:00",
+      "modified": "2020-09-07T06:35:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/492197",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö_WF_2020_08_05_mU",
+      "fileName": "00492197.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-08-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00492197.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00492197.pdf",
+      "created": "2020-08-06T08:45:38+02:00",
+      "modified": "2020-09-07T06:35:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/493746",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge_ö_WF_2020_08_05_TOP_3.5_V0501/20_2020_08_14",
+      "fileName": "00493746.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-08-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00493746.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00493746.pdf",
+      "created": "2020-08-19T12:53:58+02:00",
+      "modified": "2020-09-15T07:32:53+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/493747",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge_ö_WF_2020_08_05_TOP_2.2_V0494/20_2020_08_14",
+      "fileName": "00493747.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-08-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00493747.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00493747.pdf",
+      "created": "2020-08-19T12:59:12+02:00",
+      "modified": "2020-09-15T07:32:46+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/498576",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge_ö_WF_2020_08_05_TOP_3.5_V0501/20_2020_09_10",
+      "fileName": "00498576.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498576.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498576.pdf",
+      "created": "2020-09-15T07:31:57+02:00",
+      "modified": "2020-09-15T07:33:23+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135294",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "",
+      "order": "1",
       "name": "Geschäftsbereich Finanzen, Personal und Recht",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-07-22T13:11:03+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135295",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "1",
+      "order": "2",
       "name": "Beschlussvorlagen zu Vergaben freiberuflicher Leistungen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-07-22T13:11:03+02:00"
     },
     {
-      "name": "Vergabenummer: 2020-GB112-00001, Umbau und Modernisierung Kindertageseinrichtung Bischofsweg 17a in 01097 Dresden, Objektplanung Gebäude gem. § 34 ff. HOAI 2013, Lph 2 - 9, stufenweise Beauftragung",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19266",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492090",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135297",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "1.1",
+      "order": "3",
+      "name": "Vergabenummer: 2020-GB112-00001, Umbau und Modernisierung Kindertageseinrichtung Bischofsweg 17a in 01097 Dresden, Objektplanung Gebäude gem. § 34 ff. HOAI 2013, Leistungsphase (Lph) 2 - 9, stufenweise Beauftragung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43050",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:08:53+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135298",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "2",
+      "order": "4",
       "name": "Beschlussvorlagen zu Vergaben für Einkäufe und Dienstleistungen",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-07-22T13:11:03+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135299",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "2.1",
+      "order": "5",
       "name": "Vergabenummer: 2020-4012-00019, Schultägliche Beförderung von Schülerinnen und Schülern der 26. Grundschule der Landeshauptstadt Dresden während der Bauauslagerung von der Osterbergstraße 22, 01127 Dresden zum Höckendorfer Weg 3, 01189 Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19267",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492091",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43051",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:09:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135300",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "2.2",
+      "order": "6",
       "name": "Vergabenummer: 2020-1042-00015, Miete von stationären Geschwindigkeitsmessanlagen (Fa. VDS, Typ M5 digital) inkl. Dienstleistungen und Wartung",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19268",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492092",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43052",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:09:54+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135301",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "3",
+      "order": "7",
       "name": "Beschlussvorlagen zu Bauvergaben",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-07-22T13:11:03+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135302",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "3.1",
+      "order": "8",
       "name": "Vergabenummer: 2020-52Pl-00012, Umbau Tennenplatz in einen Kunststoffrasenplatz, Pirnaer Landstraße 121b, 01257 Dresden",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19275",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492093",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43068",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:10:23+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135303",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "3.2",
+      "order": "9",
       "name": "Vergabenummer: 2020-52Pl-00017, Sanierung Sportanlage, Bärensteiner Straße 33, 01277 Dresden, Umbau eines Tennenplatzes in Kunstrasen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19277",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492094",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43069",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:10:43+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135304",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "3.3",
+      "order": "10",
       "name": "Vergabenummer: 2020-65-00068, Modernisierung und Umbau Kindertageseinrichtung, Lommatzscher Straße 83/85 in 01139 Dresden, Fachlos 14.1 - Elektroinstallation Starkstrom",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19279",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492095",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43072",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:11:13+02:00"
     },
     {
-      "name": "Vergabenummer: 2020-65-00074, Gymnasium Klotzsche - Ersatzneubau und Herstellung von Freiflächen, Karl-Marx-Straße 44, 01109 Dresden, Fachlos 35 - Sonnenschutz und Verdunklungsanlagen",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19281",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492096",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135305",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "3.4",
+      "order": "11",
+      "name": "Vergabenummer: 2020-65-00074, Gymnasium Klotzsche - Ersatzneubau und Herstellung von Freiflächen, Karl-Marx-Straße 44, 01109 Dresden, Fachlos 35 - Sonnenschutz und Verdunklungssanlagen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43079",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:11:38+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135306",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "3.5",
+      "order": "12",
       "name": "Vergabenummer: 2020-65-00076, Gesamtsanierung und Reaktivierung ehem. Standort 88. Grundschule, Plantagenweg 3, 01326 Dresden, Fachlos 03 - Erweiterte Rohbauarbeiten",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19283",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492097",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43086",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:12:03+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135307",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "3.6",
+      "order": "13",
       "name": "Vergabenummer: 2020-653-00002, Erneuerung der Trink- und Brauchwasserleitung - Heidefriedhof, Moritzburger Landstraße 299, 01129 Dresden, Fachlos  5 - Tief- und Rohrleitungsbau",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19294",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "492098",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43105",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-08-05T15:12:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/135310",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8870",
+      "number": "4.2",
+      "order": "16",
       "name": "Offene Beschlussvorlagen",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-07-22T13:10:35+02:00",
+      "modified": "2020-07-22T13:11:03+02:00"
     }
   ],
-  "id": "8870"
+  "created": "2019-10-29T08:57:10+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

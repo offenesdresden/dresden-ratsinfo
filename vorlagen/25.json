@@ -1,77 +1,101 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/25",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verbesserung der Betreuungsqualität in den Dresdner Kindertagesstätten",
-  "shortName": "A0004/09",
   "reference": "A0004/09",
+  "date": "2009-07-16",
   "paperType": "Antrag Bündnis 90/Die Grünen",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2009-07-16",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/2178",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag GRÜNE",
+    "fileName": "00002178.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-07-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00002178.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00002178.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "2178",
-    "2182"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/2182",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Bündnis 90-Die Grünen3_15-06-2009",
+      "fileName": "00002182.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-07-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00002182.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00002182.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/1483",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/25",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/3209",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/250",
+      "role": "beratend             (federführend)",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/1483",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/25",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/3961",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/373",
+      "role": "beratend             (federführend)",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/57",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/25",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/4102",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/161",
       "organization": [
-        {
-          "name": "02.09.2009 Betriebsausschuss für Städtische Krankenhäuser und Kindertageseinrichtungen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "250",
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "373",
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "161",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "363",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/57",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/25",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/4815",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/363",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "523",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/57",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/25",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/5569",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/523",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "25"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

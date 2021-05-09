@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/10283",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 5038/15 Ausbau der Albertbrücke über die Elbe einschließlich Straßenanschlüsse, Los 9 - Rückbau der Behelfsbrücke",
-  "shortName": "V0611/15",
   "reference": "V0611/15",
+  "date": "2015-07-20",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2015-07-17",
   "auxiliaryFile": [
-    "219496"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/219496",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V0611/15_WF",
+      "fileName": "00219496.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-08-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00219496.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00219496.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "4030",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/20833",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/10283",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/68570",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4030",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "10283"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

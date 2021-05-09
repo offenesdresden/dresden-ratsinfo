@@ -1,82 +1,209 @@
 {
-  "shortName": "GS/022/2019",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 200, 1. Etage,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Beirat Gesunde Städte - 11.02.2019 - 16:30-18:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "20"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "22. Sitzung des Beirates Gesunde Städte",
   "start": "2019-02-11T16:30:00+01:00",
   "end": "2019-02-11T18:10:00+01:00",
-  "invitation": "389487",
-  "verbatimProtocol": "396469",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/2922",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/200",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/20"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1236",
+    "http://oparl.dresden.de/bodies/0001/people/1428",
+    "http://oparl.dresden.de/bodies/0001/people/1833",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/498",
+    "http://oparl.dresden.de/bodies/0001/people/1315",
+    "http://oparl.dresden.de/bodies/0001/people/1454"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/389487",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_GS",
+    "fileName": "00389487.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-01-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00389487.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00389487.pdf",
+    "created": "2019-01-15T13:25:03+01:00",
+    "modified": "2019-01-16T10:39:53+01:00"
+  },
   "auxiliaryFile": [
-    "394928",
-    "394929"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/389487",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_GS",
+      "fileName": "00389487.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00389487.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00389487.pdf",
+      "created": "2019-01-15T13:25:03+01:00",
+      "modified": "2019-01-16T10:39:53+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/394928",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation TOP 2",
+      "fileName": "00394928.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00394928.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00394928.pdf",
+      "created": "2019-02-14T12:17:48+01:00",
+      "modified": "2019-07-23T09:36:24+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/394929",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation TOP 3",
+      "fileName": "00394929.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00394929.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00394929.pdf",
+      "created": "2019-02-14T12:18:16+01:00",
+      "modified": "2019-07-23T09:36:24+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/396469",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00396469.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00396469.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00396469.pdf",
+      "created": "2019-02-25T07:51:09+01:00",
+      "modified": "2019-07-23T09:36:24+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112439",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "1",
+      "order": "1",
       "name": "Eröffnung der Sitzung und Abstimmung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:05:01+01:00",
+      "modified": "2019-01-15T13:13:32+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112441",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "1.1",
+      "order": "2",
       "name": "Zusammensetzung des Beirates \"Gesunde Städte\"",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:08:09+01:00",
+      "modified": "2019-01-15T13:13:32+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112443",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "1.2",
+      "order": "3",
       "name": "Festlegungen aus den letzten Sitzungen",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:08:39+01:00",
+      "modified": "2019-01-15T13:13:32+01:00"
     },
     {
-      "name": "Vorstellung der Kampagne \"Versteckte Zucker\" - Gesund Aufwachsen mit dem Fokus Ernährung, Mundgesundheit, AdipositaspräventionFrau Dr. Wolfram, Frau Goldbach (Gesundheitsamt)",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112444",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "2",
+      "order": "4",
+      "name": "Vorstellung der Kampagne \"Versteckte Zucker\" - Gesund Aufwachsen mit dem Fokus Ernährung, Mundgesundheit, Adipositasprävention",
+      "public": true,
+      "created": "2019-01-15T13:10:40+01:00",
+      "modified": "2019-01-15T13:13:32+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112446",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "3",
+      "order": "5",
       "name": "Zwischenstand zur Bewerbung WHO-Projekt \"Gesunde Städte\" Phase VII",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:14:39+01:00",
+      "modified": "2019-01-15T13:14:39+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112448",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "4",
+      "order": "6",
       "name": "Bericht aus dem WHO-Projekt \"Gesunde Städte\"",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:15:09+01:00",
+      "modified": "2019-01-15T13:16:43+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112453",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "4.1",
+      "order": "7",
       "name": "Projekt \"Fit im Park\"",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:17:57+01:00",
+      "modified": "2019-01-15T13:18:02+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112450",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "4.2",
+      "order": "8",
       "name": "TK-Projekt Multiplikatorenschulung \"Bewegung im Stadtteil\"",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:16:09+01:00",
+      "modified": "2019-01-15T13:24:53+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112455",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "4.3",
+      "order": "9",
       "name": "Öffentlichkeitsarbeit des WHO-Projektes",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:18:49+01:00",
+      "modified": "2019-01-15T13:18:49+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112458",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7820",
+      "number": "5",
+      "order": "10",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2019-01-15T13:19:22+01:00",
+      "modified": "2019-01-15T13:19:22+01:00"
     }
   ],
-  "id": "7820",
-  "participant": [
-    "62",
-    "1241",
-    "994",
-    "1236",
-    "1833",
-    "1428",
-    "1454",
-    "1315",
-    "498",
-    "402"
-  ]
+  "created": "2018-10-09T16:08:47+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

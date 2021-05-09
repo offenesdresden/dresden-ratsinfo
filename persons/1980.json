@@ -1,23 +1,29 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1980",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Thomas Luck",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "168",
-      "startDate": "2019-10-07"
-    }
-  ],
-  "status": [
-    "parteilos"
-  ],
+  "familyName": "Luck",
+  "givenName": "Thomas",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "email": [
     "sbb.luck@gmail.com"
   ],
-  "id": "1980"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10168",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1980",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/168",
+      "role": "Mitglied Stadtbezirksbeirat",
+      "votingRight": true,
+      "startDate": "2019-10-07",
+      "created": "2019-10-07T09:43:49+02:00",
+      "modified": "2019-10-07T09:48:40+02:00"
+    }
+  ],
+  "created": "2019-07-24T10:23:17+02:00",
+  "modified": "2021-05-06T09:55:58+02:00",
+  "web": ""
 }

@@ -1,173 +1,324 @@
 {
-  "shortName": "OSR SW/006/2010",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,Bautzner Landstraße 291, 01328 Dresden",
-  "name": "Ortschaftsrat Schönfeld-Weißig - 18.01.2010 - 19:30-21:05 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "48"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/512",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "start": "2010-01-18T19:30:00+01:00",
   "end": "2010-01-18T21:05:00+01:00",
-  "invitation": "17814",
-  "resultsProtocol": "19140",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/34",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bautzner Landstraße 291",
+    "room": "Ortschaft Schönfed-Weißig, Ratssaal",
+    "postalCode": "01328",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/363",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/364",
+    "http://oparl.dresden.de/bodies/0001/people/365",
+    "http://oparl.dresden.de/bodies/0001/people/369",
+    "http://oparl.dresden.de/bodies/0001/people/370",
+    "http://oparl.dresden.de/bodies/0001/people/371",
+    "http://oparl.dresden.de/bodies/0001/people/372",
+    "http://oparl.dresden.de/bodies/0001/people/373",
+    "http://oparl.dresden.de/bodies/0001/people/378",
+    "http://oparl.dresden.de/bodies/0001/people/379",
+    "http://oparl.dresden.de/bodies/0001/people/380",
+    "http://oparl.dresden.de/bodies/0001/people/375",
+    "http://oparl.dresden.de/bodies/0001/people/377",
+    "http://oparl.dresden.de/bodies/0001/people/374",
+    "http://oparl.dresden.de/bodies/0001/people/376"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/17814",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung - OSR SW",
+    "fileName": "00017814.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-01-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00017814.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00017814.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/19137",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V0386/09",
+    "fileName": "00019137.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-01-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019137.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019137.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "19137",
-    "19138",
-    "19139",
-    "19142",
-    "19141"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/17814",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung - OSR SW",
+      "fileName": "00017814.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00017814.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00017814.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/19137",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V0386/09",
+      "fileName": "00019137.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019137.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019137.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/19138",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SW0052/10",
+      "fileName": "00019138.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019138.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019138.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/19139",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SW0053/10",
+      "fileName": "00019139.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019139.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019139.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/19140",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung",
+      "fileName": "00019140.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019140.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019140.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/19141",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SW0055/10",
+      "fileName": "00019141.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019141.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019141.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/19142",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-SW0054/10",
+      "fileName": "00019142.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00019142.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00019142.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "1",
+      "order": "1",
       "name": "Begrüßung, Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "2",
+      "order": "2",
       "name": "Bericht des Ortsvorstehers",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "3",
+      "order": "3",
       "name": "Bürgerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4888",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "4",
+      "order": "4",
       "name": "Einwendungen zu den Niederschriften der 4. und 5. Sitzung vom 16.11. bzw. 07.12.2009",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Information zum Stand der Vorbereitungen der zeitweiligen Auslagerung der Grundschule Schönfeld an das Gymnasium Dresden-BühlauBE: Frau Sobieray, Schulleiterin Gymnasium Dresden-Bühlau",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4986",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "5",
+      "order": "5",
+      "name": "Information zum Stand der Vorbereitungen der zeitweiligen Auslagerung der Grundschule Schönfeld an das Gymnasium Dresden-Bühlau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2034",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4992",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "6",
+      "order": "6",
       "name": "Ergänzungssatzung Nr. 432, Dresden-Pappritz Nr. 3, Fernsehturmstraße; Vorlage Nr. V0386/09",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2043",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Ergänzungssatzung Nr. 432, Dresden-Pappritz Nr. 3, Fernsehturmstraßehier:\t1. Beschluss über Stellungnahmen aus der öffentlichen Auslegung\t2. Satzungsbeschluss sowie Billigung der Begründung zur Ergänzungssatzung",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1180",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "17465",
-        "17324",
-        "17326",
-        "17327"
-      ],
-      "resolutionFile": "17328",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4893",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "6.1",
+      "order": "7",
+      "name": "Ergänzungssatzung Nr. 432, Dresden-Pappritz Nr. 3, Fernsehturmstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1994",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5016",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "7",
+      "order": "8",
       "name": "Verfahrensweise zur Antragstellung über Erlaubnisse für Sondernutzungen gemäß Grünanlagensatzung",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2044",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4899",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "8",
+      "order": "9",
+      "name": "Vergabe von Verfügungsmitteln zur Traditions- und Heimatpflege",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4988",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "8.1",
+      "order": "10",
       "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig für die Unterstützung der Zahlung des Erbpachtzinses für das Jahr 2010 für das Vereinshaus Schönfeld im Zusammenhang mit Instandsetzungs- und Erhaltungsarbeiten für den Gebäudewerterhalt",
-      "number": "Ö 8.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2035",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4989",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "8.2",
+      "order": "11",
       "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig für die Unterstützung der Jahresabschlussveranstaltung 2009 der Freiwilligen Feuerwehr Weißig",
-      "number": "Ö 8.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2036",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4991",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "8.3",
+      "order": "12",
       "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig für die Unterstützung des Kinderfasching Cunnersdorf",
-      "number": "Ö 8.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2042",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4990",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "8.4",
+      "order": "13",
       "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig für die Unterstützung des Familienkinderfaschings der IG Eschdorfer Dorfleben",
-      "number": "Ö 8.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2041",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 1,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4896",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/512",
+      "number": "9",
+      "order": "14",
       "name": "Informationen",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zur Kenntnis genommen"
+      "public": true,
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "512",
-  "participant": [
-    "363",
-    "370",
-    "38",
-    "371",
-    "373",
-    "372",
-    "365",
-    "364",
-    "369",
-    "375",
-    "377",
-    "374",
-    "378",
-    "380",
-    "379",
-    "376"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

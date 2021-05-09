@@ -1,59 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17211",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Kapitaleinlage Kommunale Immobilien Dresden GmbH & Co. KG",
-  "shortName": "V3141/19",
   "reference": "V3141/19",
+  "date": "2019-08-01",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-06-24",
-  "mainFile": "427373",
   "auxiliaryFile": [
-    "427196",
-    "420083"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420083",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "bereits gefasste Beschlüsse",
+      "fileName": "00420083.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420083.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420083.pdf",
+      "created": "2019-06-25T07:19:48+02:00",
+      "modified": "2019-08-27T09:36:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/427196",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00427196.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00427196.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00427196.pdf",
+      "created": "2019-08-26T10:01:10+02:00",
+      "modified": "2019-08-27T09:36:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/427373",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V3141/19",
+      "fileName": "00427373.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00427373.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00427373.pdf",
+      "created": "2019-08-27T09:36:05+02:00",
+      "modified": "2019-08-27T09:36:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/430779",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_F_V3141/19",
+      "fileName": "00430779.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00430779.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00430779.pdf",
+      "created": "2019-09-18T06:02:32+02:00",
+      "modified": "2019-09-18T06:08:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/440103",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_F_V3141/19_2019_11_04_Abschlussbericht",
+      "fileName": "00440103.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00440103.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00440103.pdf",
+      "created": "2019-11-04T14:16:20+01:00",
+      "modified": "2019-11-04T14:16:21+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/104"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38129",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17211",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/120837",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7747",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/156"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "16.09.2019 Ausschuss für Finanzen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-09-04T08:20:26+02:00",
+      "modified": "2019-10-15T12:09:25+02:00"
     }
   ],
-  "id": "17211"
+  "created": "2019-06-24T09:23:17+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

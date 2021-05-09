@@ -1,188 +1,190 @@
 {
-  "shortName": "OBR Neu/029/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 05.12.2016 - 17:30-21:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "29. Sitzung des Ortsbeirates Neustadt",
   "start": "2016-12-05T17:30:00+01:00",
   "end": "2016-12-05T21:10:00+01:00",
-  "invitation": "277986",
-  "verbatimProtocol": "282604",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/642",
+    "http://oparl.dresden.de/bodies/0001/people/1111",
+    "http://oparl.dresden.de/bodies/0001/people/1370",
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/1369",
+    "http://oparl.dresden.de/bodies/0001/people/1515",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/1361",
+    "http://oparl.dresden.de/bodies/0001/people/664",
+    "http://oparl.dresden.de/bodies/0001/people/645",
+    "http://oparl.dresden.de/bodies/0001/people/654",
+    "http://oparl.dresden.de/bodies/0001/people/1199",
+    "http://oparl.dresden.de/bodies/0001/people/1360",
+    "http://oparl.dresden.de/bodies/0001/people/1549"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/277986",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_05.12.2016",
+    "fileName": "00277986.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-11-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00277986.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00277986.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 28. Ortsbeiratssitzung am 7. November 2016",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/277986",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_05.12.2016",
+      "fileName": "00277986.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-11-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00277986.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00277986.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12664",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293251",
-      "auxiliaryFile": [
-        "293716",
-        "309032",
-        "356861",
-        "406008",
-        "500924",
-        "273919",
-        "273804",
-        "265662",
-        "265663",
-        "260552",
-        "261625",
-        "288956",
-        "286704",
-        "290087",
-        "289759"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Einsatz von EFRE-Fördermitteln zur Realisierung der Fernwärmetrasse Dresden Pieschen mit Dükerung der Elbe",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12875",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "286142",
-      "auxiliaryFile": [
-        "299817",
-        "329459",
-        "356567",
-        "423774",
-        "524745",
-        "273177",
-        "272907",
-        "268754",
-        "272400",
-        "271710",
-        "268757",
-        "284302"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 392, Dresden-Neustadt Nr. 40, Albertstadt Ost - Stauffenbergallee/Marienalleehier:1. Grenze des Bebauungsplanes2. Billigung des Entwurfs zum Bebauungsplan3. Billigung der Begründung zum Bebauungsplan-Entwurf4. Durchführung des Beteiligungsverfahrens zum Bebauungsplan-Entwurf",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12776",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "291184",
-      "auxiliaryFile": [
-        "307906",
-        "271778",
-        "271081",
-        "264571",
-        "291189",
-        "264572",
-        "291190",
-        "268034",
-        "291187",
-        "268035",
-        "291188",
-        "291191",
-        "291193",
-        "268036",
-        "264576",
-        "291168"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Veränderungssperre für den Bebauungsplan Nr. 357 C, Dresden-Neustadt Nr. 41, Leipziger Straße/Alexander-Puschkin-Platzhier:Satzungsbeschluss zur ersten Verlängerung der Geltungsdauer der Veränderungssperre im Bebauungsplangebiet",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12949",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "286576",
-      "auxiliaryFile": [
-        "299810",
-        "276425",
-        "276097",
-        "275472",
-        "274818",
-        "271531",
-        "271532",
-        "275470",
-        "284303"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 2,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstige Informationen und Anfragen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/282604",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00282604.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282604.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282604.pdf",
+      "created": "2016-12-23T06:49:32+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5077",
-  "participant": [
-    "642",
-    "1111",
-    "1370",
-    "650",
-    "653",
-    "1369",
-    "1515",
-    "655",
-    "660",
-    "662",
-    "1361",
-    "664",
-    "645",
-    "1199",
-    "1360",
-    "654",
-    "1549"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84248",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 28. Ortsbeiratssitzung am 7. November 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84250",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84944",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "2.1",
+      "order": "3",
+      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25609",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84252",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "2.2",
+      "order": "4",
+      "name": "Einsatz von EFRE-Fördermitteln zur Realisierung der Fernwärmetrasse Dresden Pieschen mit Dükerung der Elbe",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26257",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84945",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "2.3",
+      "order": "5",
+      "name": "Bebauungsplan Nr. 392, Dresden-Neustadt Nr. 40, Albertstadt Ost - Stauffenbergallee/Marienallee",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25972",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84946",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "2.4",
+      "order": "6",
+      "name": "Veränderungssperre für den Bebauungsplan Nr. 357 C, Dresden-Neustadt Nr. 41, Leipziger Straße/Alexander-Puschkin-Platz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26419",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84251",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "3",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84253",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "3.1",
+      "order": "8",
+      "name": "Aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/84254",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5077",
+      "number": "3.2",
+      "order": "9",
+      "name": "Sonstige Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

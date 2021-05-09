@@ -1,24 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17581",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Investitionsmitteln - Sport- und Freizeittreff Gönnsdorf e. V. - Restsanierung Vorderhaus Schönfelder Landstr. 127",
-  "shortName": "V-SW0275/19",
   "reference": "V-SW0275/19",
+  "date": "2019-09-12",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-09-03",
-  "auxiliaryFile": [
-    "428224"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/428224",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00428224.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-09-03",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00428224.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00428224.pdf",
+    "created": "2019-09-03T13:59:34+02:00",
+    "modified": "2019-09-12T11:45:43+02:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8462",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39015",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17581",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/120778",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8462",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-09-03T15:39:26+02:00",
+      "modified": "2019-10-01T07:54:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39015",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17581",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123497",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8665",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2019-10-28T09:17:30+01:00",
+      "modified": "2019-11-19T07:17:03+01:00"
     }
   ],
-  "id": "17581"
+  "created": "2019-09-03T13:58:59+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

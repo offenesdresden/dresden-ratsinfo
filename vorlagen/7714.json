@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/7714",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Ortsbeirat Leuben",
-  "shortName": "A0778/13",
   "reference": "A0778/13",
+  "date": "2013-10-16",
   "paperType": "Antrag SPD",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2013-10-16",
   "auxiliaryFile": [
-    "147929",
-    "153335"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/147929",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  SPD",
+      "fileName": "00147929.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00147929.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00147929.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/153335",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_A0778/13",
+      "fileName": "00153335.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00153335.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00153335.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/85"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "2621",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/14290",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/7714",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/47290",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2621",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "7714"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

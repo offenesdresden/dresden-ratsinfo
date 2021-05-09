@@ -1,39 +1,113 @@
 {
-  "shortName": "G/KH/006/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Gesundheit (Eigenbetrieb Städtisches Klinikum Dresden) - 26.02.2020 - 16:30-20:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "155"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8765",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ausschusses für Gesundheit (Eigenbetrieb Städtisches Klinikum Dresden)",
   "start": "2020-02-26T16:30:00+01:00",
   "end": "2020-02-26T20:35:00+01:00",
-  "invitation": "457249",
-  "auxiliaryFile": [
-    "461181"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/155"
   ],
-  "verbatimProtocol": "466184",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/629",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1816",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/1227",
+    "http://oparl.dresden.de/bodies/0001/people/1648",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/282",
+    "http://oparl.dresden.de/bodies/0001/people/1323",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/1942",
+    "http://oparl.dresden.de/bodies/0001/people/1944",
+    "http://oparl.dresden.de/bodies/0001/people/1834",
+    "http://oparl.dresden.de/bodies/0001/people/1503",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/1092",
+    "http://oparl.dresden.de/bodies/0001/people/1315",
+    "http://oparl.dresden.de/bodies/0001/people/1652",
+    "http://oparl.dresden.de/bodies/0001/people/1657",
+    "http://oparl.dresden.de/bodies/0001/people/1678",
+    "http://oparl.dresden.de/bodies/0001/people/1908",
+    "http://oparl.dresden.de/bodies/0001/people/1325"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/457249",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_G/KH",
+    "fileName": "00457249.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00457249.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00457249.pdf",
+    "created": "2020-02-05T10:31:29+01:00",
+    "modified": "2020-02-14T10:52:35+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Strategische Unternehmensentwicklung des Städtischen Klinikums Dresden bis 2035",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18381",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "465566",
-      "auxiliaryFile": [
-        "472217",
-        "502614",
-        "525447",
-        "459040",
-        "457949",
-        "457745",
-        "462237"
-      ],
-      "result": "Zustimmung mit Änderung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/457249",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_G/KH",
+      "fileName": "00457249.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00457249.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00457249.pdf",
+      "created": "2020-02-05T10:31:29+01:00",
+      "modified": "2020-02-14T10:52:35+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/461181",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_GKH_V0037/19_ff",
+      "fileName": "00461181.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461181.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461181.pdf",
+      "created": "2020-02-26T20:01:39+01:00",
+      "modified": "2020-02-27T11:51:22+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/466184",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00466184.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00466184.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00466184.pdf",
+      "created": "2020-03-24T10:08:15+01:00",
+      "modified": "2020-04-28T13:38:47+02:00"
     }
   ],
-  "id": "8765"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127417",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8765",
+      "number": "4",
+      "order": "8",
+      "name": "Strategische Unternehmensentwicklung des Städtischen Klinikums Dresden bis 2035",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40797",
+      "result": "Zustimmung mit Änderung",
+      "created": "2020-02-10T10:52:26+01:00",
+      "modified": "2020-02-27T11:53:53+01:00"
+    }
+  ],
+  "created": "2019-10-16T10:56:04+02:00",
+  "modified": "2021-02-09T08:01:11+01:00"
 }

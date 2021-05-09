@@ -1,103 +1,143 @@
 {
-  "shortName": "OBR Pro/042/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Prohlis, Bürgersaal,Prohliser Allee 10, 01239 Dresden",
-  "name": "Ortsbeirat Prohlis - 17.03.2014 - 17:00-19:06 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "41"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3653",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "42. Sitzung des Ortsbeirates Prohlis",
   "start": "2014-03-17T17:00:00+01:00",
   "end": "2014-03-17T19:06:00+01:00",
-  "invitation": "162158",
-  "verbatimProtocol": "164502",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1791",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Prohliser Allee 10",
+    "room": "Ortsamt Prohlis, Bürgersaal",
+    "postalCode": "01239",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:35+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/41"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/403",
+    "http://oparl.dresden.de/bodies/0001/people/533",
+    "http://oparl.dresden.de/bodies/0001/people/535",
+    "http://oparl.dresden.de/bodies/0001/people/536",
+    "http://oparl.dresden.de/bodies/0001/people/538",
+    "http://oparl.dresden.de/bodies/0001/people/542",
+    "http://oparl.dresden.de/bodies/0001/people/545",
+    "http://oparl.dresden.de/bodies/0001/people/546",
+    "http://oparl.dresden.de/bodies/0001/people/935",
+    "http://oparl.dresden.de/bodies/0001/people/1114",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/557",
+    "http://oparl.dresden.de/bodies/0001/people/559",
+    "http://oparl.dresden.de/bodies/0001/people/563",
+    "http://oparl.dresden.de/bodies/0001/people/553",
+    "http://oparl.dresden.de/bodies/0001/people/1081",
+    "http://oparl.dresden.de/bodies/0001/people/1139"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/162158",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pro",
+    "fileName": "00162158.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-03-03",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00162158.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00162158.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellung der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 41. Ortsbeiratssitzung am 10.02.2014",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/162158",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pro",
+      "fileName": "00162158.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-03-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00162158.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00162158.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2014/2015",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8054",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "176454",
-      "auxiliaryFile": [
-        "191449",
-        "181629",
-        "162009",
-        "161666",
-        "161382",
-        "157896",
-        "157897",
-        "157898",
-        "157899",
-        "157900",
-        "159023",
-        "159169",
-        "175947"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Konzept zur Verwendung der Gagfah-Mittel für soziale Projekte",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8052",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "157544",
-        "191441",
-        "180788"
-      ],
-      "resolutionFile": "176445",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters / Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/164502",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00164502.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-03-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00164502.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00164502.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3653",
-  "participant": [
-    "535",
-    "533",
-    "87",
-    "538",
-    "403",
-    "536",
-    "545",
-    "546",
-    "1114",
-    "935",
-    "554",
-    "559",
-    "563",
-    "1139",
-    "1081",
-    "553"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3653",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellung der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 41. Ortsbeiratssitzung am",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3653",
+      "number": "2",
+      "order": "2",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2014/2015",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15077",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51219",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3653",
+      "number": "3",
+      "order": "3",
+      "name": "Konzept zur Verwendung der Gagfah-Mittel für soziale Projekte",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15055",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3653",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51224",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3653",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen des Ortsamtsleiters / Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

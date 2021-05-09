@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15824",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vorstellung Entwurf neuer Spielplatz Unterdorf",
-  "shortName": "V-LB0098/18",
   "reference": "V-LB0098/18",
+  "date": "2018-09-25",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-09-25",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/370202",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00370202.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-09-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00370202.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00370202.pdf",
+    "created": "2018-09-25T13:35:29+02:00",
+    "modified": "2018-10-10T14:21:58+02:00"
+  },
   "auxiliaryFile": [
-    "370202",
-    "372218"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/372218",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Langebrück_V-LB0098/18_mU",
+      "fileName": "00372218.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00372218.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00372218.pdf",
+      "created": "2018-10-10T09:11:55+02:00",
+      "modified": "2018-10-10T14:21:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/387737",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Langebrück V-LB0098/18",
+      "fileName": "00387737.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00387737.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00387737.pdf",
+      "created": "2019-01-04T09:47:14+01:00",
+      "modified": "2019-01-04T09:47:15+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6595",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34569",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15824",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/107510",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6595",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-09-25T13:37:10+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15824"
+  "created": "2018-09-25T13:35:08+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

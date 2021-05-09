@@ -1,78 +1,210 @@
 {
-  "shortName": "GS/001/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Beirat Gesunde Städte - 23.02.2015 - 16:30-17:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "20"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Beirates Gesunde Städte",
   "start": "2015-02-23T16:30:00+01:00",
   "end": "2015-02-23T17:55:00+01:00",
-  "invitation": "193526",
-  "verbatimProtocol": "197234",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/20"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/496",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1280",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/498",
+    "http://oparl.dresden.de/bodies/0001/people/1454",
+    "http://oparl.dresden.de/bodies/0001/people/1455"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/193526",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_GS_2015_02_23",
+    "fileName": "00193526.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-01-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00193526.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00193526.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "197274",
-    "197273",
-    "197974"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/193526",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_GS_2015_02_23",
+      "fileName": "00193526.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00193526.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00193526.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/197234",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift_öffentlich_2015_02_23",
+      "fileName": "00197234.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00197234.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00197234.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/197273",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift_öffentlich_Anlage_Präsentation_Dr.Looks",
+      "fileName": "00197273.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00197273.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00197273.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/197274",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift_öffentlich_Anlage_Konferenz_WHO_2014",
+      "fileName": "00197274.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00197274.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00197274.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/197974",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anregungen_GS_2015_02_23_Anlage",
+      "fileName": "00197974.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-03-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00197974.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00197974.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61809",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "1",
+      "order": "1",
       "name": "Vorstellung der Beiratsmitglieder",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "2",
+      "order": "2",
       "name": "Wahl des Vorsitzenden/der Vorsitzenden und des Stellvertreters/der Stellvertreterin des Vorsitzenden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "3",
+      "order": "3",
       "name": "Festlegungen aus den letzten Sitzungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "4",
+      "order": "4",
       "name": "Schwerpunkte des WHO-Projektes \"Gesunde Städte\"",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61888",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "4.1",
+      "order": "5",
       "name": "Generelle Informationen",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "4.2",
+      "order": "6",
       "name": "Information zu den Arbeitsgruppen und zum aktuellen Arbeitsstand/Vorhaben",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/60979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "5",
+      "order": "7",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "5.1",
+      "order": "8",
       "name": "Informationen aus dem WHO-Projekt",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61998",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4101",
+      "number": "5.2",
+      "order": "9",
       "name": "Informationen der Beiratsmitglieder",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4101",
-  "participant": [
-    "1241",
-    "496",
-    "994",
-    "1280",
-    "98",
-    "28",
-    "1454",
-    "498",
-    "1455",
-    "402"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

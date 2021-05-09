@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15238",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Aufhebung und Neufassung eines Beschlusses zur Wartehalle in Cunnersdorf",
-  "shortName": "V-SW0172/18",
   "reference": "V-SW0172/18",
+  "date": "2018-05-15",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/347625",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00347625.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-05-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00347625.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00347625.pdf",
+    "created": "2018-05-14T11:49:01+02:00",
+    "modified": "2018-05-17T13:15:07+02:00"
+  },
   "auxiliaryFile": [
-    "351054",
-    "347625"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/351054",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0172/18_mU",
+      "fileName": "00351054.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00351054.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00351054.pdf",
+      "created": "2018-05-30T12:56:56+02:00",
+      "modified": "2020-01-29T06:55:13+01:00"
+    }
   ],
-  "id": "15238",
-  "publishedDate": "2018-05-28",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6980",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/32725",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15238",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/102895",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6980",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-05-15T09:37:16+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
-  ]
+  ],
+  "created": "2018-05-14T11:48:32+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

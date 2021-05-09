@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17538",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-3751-00006, Beschaffung von 5 Stück Rettungswagen (RTW Typ C) nach DIN EN 1789 214 oder gleichwertig und DIN 13500 oder gleichwertig",
-  "shortName": "V3296/19",
   "reference": "V3296/19",
+  "date": "2019-09-09",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-28",
   "auxiliaryFile": [
-    "431771"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/431771",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V3296/19_mU",
+      "fileName": "00431771.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00431771.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00431771.pdf",
+      "created": "2019-09-23T08:15:07+02:00",
+      "modified": "2019-09-23T08:15:07+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7780",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38924",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17538",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/121038",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7780",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-09-09T06:20:20+02:00",
+      "modified": "2019-09-19T15:15:20+02:00"
     }
   ],
-  "id": "17538"
+  "created": "2019-08-28T12:43:35+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

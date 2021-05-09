@@ -1,111 +1,144 @@
 {
-  "shortName": "OBR Pl/029/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Plauen, Ratssaal,Nöthnitzer Straße 2, 01187 Dresden",
-  "name": "Ortsbeirat Plauen - 13.06.2017 - 17:30-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5740",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "29. Sitzung des Ortsbeirates Plauen",
   "start": "2017-06-13T17:30:00+02:00",
   "end": "2017-06-13T19:30:00+02:00",
-  "invitation": "301089",
-  "verbatimProtocol": "304268",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1840",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Nöthnitzer Straße 2",
+    "room": "Ortsamt Plauen, Ratssaal",
+    "postalCode": "01187",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:30+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/736",
+    "http://oparl.dresden.de/bodies/0001/people/739",
+    "http://oparl.dresden.de/bodies/0001/people/1386",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/744",
+    "http://oparl.dresden.de/bodies/0001/people/752",
+    "http://oparl.dresden.de/bodies/0001/people/746",
+    "http://oparl.dresden.de/bodies/0001/people/750",
+    "http://oparl.dresden.de/bodies/0001/people/753",
+    "http://oparl.dresden.de/bodies/0001/people/914",
+    "http://oparl.dresden.de/bodies/0001/people/1377",
+    "http://oparl.dresden.de/bodies/0001/people/758",
+    "http://oparl.dresden.de/bodies/0001/people/762",
+    "http://oparl.dresden.de/bodies/0001/people/1374",
+    "http://oparl.dresden.de/bodies/0001/people/735",
+    "http://oparl.dresden.de/bodies/0001/people/745",
+    "http://oparl.dresden.de/bodies/0001/people/1376",
+    "http://oparl.dresden.de/bodies/0001/people/1495"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/301089",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pl",
+    "fileName": "00301089.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-05-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00301089.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00301089.pdf",
+    "created": "2017-05-23T08:30:32+02:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/301089",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pl",
+      "fileName": "00301089.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-05-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00301089.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00301089.pdf",
+      "created": "2017-05-23T08:30:32+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Für einen Fernbusbahnhof mit Fahrradparkhaus am Hauptbahnhof!",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13659",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "295242",
-        "329777",
-        "356550",
-        "422791",
-        "457974",
-        "492684",
-        "526708",
-        "309111"
-      ],
-      "resolutionFile": "314212",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Erweiterung des Radweg-Winterdienstes",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13537",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "317749",
-      "auxiliaryFile": [
-        "340964",
-        "394014",
-        "442773",
-        "486683",
-        "513569",
-        "297553",
-        "297039",
-        "294741",
-        "295597",
-        "290346",
-        "294740",
-        "314977",
-        "316417"
-      ],
-      "result": "Vertagung auf Geschäftsordnungsantrag",
-      "vote": {
-        "yes": 18,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/304268",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00304268.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00304268.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00304268.pdf",
+      "created": "2017-06-16T09:50:02+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5740",
-  "participant": [
-    "36",
-    "739",
-    "1386",
-    "736",
-    "741",
-    "752",
-    "744",
-    "746",
-    "750",
-    "1377",
-    "753",
-    "914",
-    "758",
-    "762",
-    "1374",
-    "735",
-    "745",
-    "1376",
-    "1495"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90558",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5740",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2017-05-15T07:27:03+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90559",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5740",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2017-05-15T07:27:03+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90560",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5740",
+      "number": "2.1",
+      "order": "3",
+      "name": "Für einen Fernbusbahnhof mit Fahrradparkhaus am Hauptbahnhof!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28180",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2017-05-15T07:27:03+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5740",
+      "number": "2.2",
+      "order": "4",
+      "name": "Erweiterung des Radweg-Winterdienstes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28330",
+      "result": "Vertagung auf Geschäftsordnungsantrag",
+      "created": "2017-05-15T07:27:57+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5740",
+      "number": "3",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2017-05-15T07:27:03+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

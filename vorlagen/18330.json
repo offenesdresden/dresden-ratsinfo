@@ -1,60 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18330",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Information über die eingegangenen Spenden, Schenkungen und Zuwendungen für die Organisationseinheiten in der Landeshauptstadt Dresden im Jahr 2019",
-  "shortName": "V0215/20",
   "reference": "V0215/20",
+  "date": "2020-03-12",
   "paperType": "Infovorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-01-22",
   "auxiliaryFile": [
-    "466151",
-    "465004",
-    "461062",
-    "461063",
-    "461064"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/461062",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V0042_19",
+      "fileName": "00461062.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461062.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461062.pdf",
+      "created": "2020-02-26T14:03:42+01:00",
+      "modified": "2020-03-24T09:03:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/461063",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V2759_14",
+      "fileName": "00461063.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461063.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461063.pdf",
+      "created": "2020-02-26T14:03:43+01:00",
+      "modified": "2020-03-24T09:03:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/461064",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V2991_19",
+      "fileName": "00461064.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461064.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461064.pdf",
+      "created": "2020-02-26T14:05:03+01:00",
+      "modified": "2020-03-24T09:03:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/465004",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00465004.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00465004.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00465004.pdf",
+      "created": "2020-03-16T14:07:08+01:00",
+      "modified": "2020-03-24T09:03:36+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/466151",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0215/20 - ohne Anlagen",
+      "fileName": "00466151.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00466151.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00466151.pdf",
+      "created": "2020-03-24T08:59:45+01:00",
+      "modified": "2020-03-24T09:03:52+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41199",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18330",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/129765",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8852",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
+      "authoritative": true,
       "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "23.04.2020 Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2020-03-27T09:10:34+01:00",
+      "modified": "2020-04-23T15:17:15+02:00"
     }
   ],
-  "id": "18330"
+  "created": "2020-01-22T07:57:35+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

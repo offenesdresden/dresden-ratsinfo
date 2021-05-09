@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15860",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Öffentlichkeitsarbeit in der Heimatzeitung \"die Radeberger\"",
-  "shortName": "V-LB0099/18",
   "reference": "V-LB0099/18",
+  "date": "2018-10-02",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-10-02",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/371183",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00371183.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-10-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00371183.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00371183.pdf",
+    "created": "2018-10-02T06:08:34+02:00",
+    "modified": "2018-10-12T06:53:17+02:00"
+  },
   "auxiliaryFile": [
-    "371183",
-    "372465"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/372465",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Langebrück V-LB0099/18_mU",
+      "fileName": "00372465.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00372465.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00372465.pdf",
+      "created": "2018-10-12T06:53:46+02:00",
+      "modified": "2018-10-12T06:53:48+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7654",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34682",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15860",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/107653",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7654",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-10-02T06:12:59+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15860"
+  "created": "2018-10-02T06:08:15+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,96 +1,214 @@
 {
-  "shortName": "OSR OW/032/2017",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 28.03.2017 - 18:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "32. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2017-03-28T18:00:00+02:00",
   "end": "2017-03-28T20:00:00+02:00",
-  "invitation": "292711",
-  "resultsProtocol": "296425",
-  "auxiliaryFile": [
-    "296428",
-    "296426",
-    "296427",
-    "296429"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
-  "verbatimProtocol": "295365",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/1256"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/292711",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00292711.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-03-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00292711.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00292711.pdf",
+    "created": "2017-03-21T13:01:01+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/292711",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00292711.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-03-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00292711.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00292711.pdf",
+      "created": "2017-03-21T13:01:01+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 16.02.2017",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/295365",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00295365.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00295365.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00295365.pdf",
+      "created": "2017-04-06T14:25:07+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzzuschuss für Seniorengruppe Oberwartha",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/296425",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat_Oberwartha_A-OW0064/17_mU",
+      "fileName": "00296425.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00296425.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00296425.pdf",
+      "created": "2017-04-18T12:09:16+02:00",
+      "modified": "2019-03-19T08:48:59+01:00"
     },
     {
-      "name": "Finanzmittel für Freundeskreis Alte Feuerwehr Oberwartha e.V. zur Sanierung des Vereinshauses",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 3,
-        "no": 0,
-        "neutral": 1,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/296426",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat_Oberwartha_A-OW0070/17_mU",
+      "fileName": "00296426.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00296426.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00296426.pdf",
+      "created": "2017-04-18T12:09:43+02:00",
+      "modified": "2019-03-19T08:49:49+01:00"
     },
     {
-      "name": "Haushaltsverfahren - Beteiligung Ortschaften nach Ortschaftsverfassung §§ 65ff. SächsGemO",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/296427",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat_Oberwartha_A-OW0071/17_mU",
+      "fileName": "00296427.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00296427.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00296427.pdf",
+      "created": "2017-04-18T12:10:05+02:00",
+      "modified": "2019-03-19T08:50:25+01:00"
     },
     {
-      "name": "Entschädigungssatzung - Beteiligung Ortschaften nach Ortschaftsverfassung §§ 65ff. SächsGemO",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/296428",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat_Oberwartha_A-OW0069/17_mU",
+      "fileName": "00296428.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00296428.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00296428.pdf",
+      "created": "2017-04-18T12:12:20+02:00",
+      "modified": "2019-03-19T08:50:58+01:00"
     },
     {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/296429",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat_Oberwartha_A-OW0072/17_mU",
+      "fileName": "00296429.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00296429.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00296429.pdf",
+      "created": "2017-04-18T12:12:41+02:00",
+      "modified": "2019-03-19T08:52:11+01:00"
     }
   ],
-  "id": "6039",
-  "participant": [
-    "354",
-    "351",
-    "350",
-    "1256"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87742",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+      "number": "3",
+      "order": "3",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2017-02-16T14:49:31+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87743",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+      "number": "4",
+      "order": "4",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 16.02.2017",
+      "public": true,
+      "created": "2017-02-16T14:50:03+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88812",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+      "number": "5",
+      "order": "5",
+      "name": "Finanzzuschuss für Seniorengruppe Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27669",
+      "result": "Zustimmung",
+      "created": "2017-03-21T12:41:30+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88813",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+      "number": "6",
+      "order": "6",
+      "name": "Finanzmittel für Freundeskreis Alte Feuerwehr Oberwartha e.V. zur Sanierung des Vereinshauses",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28045",
+      "result": "Zustimmung",
+      "created": "2017-03-21T12:42:43+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88816",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+      "number": "7",
+      "order": "7",
+      "name": "Haushaltsverfahren - Beteiligung Ortschaften nach Ortschaftsverfassung §§ 65ff. SächsGemO",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28048",
+      "result": "Zustimmung",
+      "created": "2017-03-21T12:48:01+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88818",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+      "number": "8",
+      "order": "8",
+      "name": "Entschädigungssatzung - Beteiligung Ortschaften nach Ortschaftsverfassung §§ 65ff. SächsGemO",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28049",
+      "result": "Zustimmung",
+      "created": "2017-03-21T12:51:08+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87745",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6039",
+      "number": "9",
+      "order": "9",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2017-02-16T14:50:39+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

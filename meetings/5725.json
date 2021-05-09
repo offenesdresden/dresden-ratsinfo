@@ -1,167 +1,303 @@
 {
-  "shortName": "OSR CB/030/2017",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 11.04.2017 - 18:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "30. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2017-04-11T18:30:00+02:00",
   "end": "2017-04-11T21:15:00+02:00",
-  "invitation": "293956",
-  "auxiliaryFile": [
-    "305216",
-    "305219",
-    "305220",
-    "305221",
-    "305222",
-    "305218"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
   ],
-  "resultsProtocol": "305217",
-  "verbatimProtocol": "297435",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1073",
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/1070",
+    "http://oparl.dresden.de/bodies/0001/people/1245",
+    "http://oparl.dresden.de/bodies/0001/people/1246"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/293956",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00293956.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-03-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00293956.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00293956.pdf",
+    "created": "2017-03-29T12:48:55+02:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/293956",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00293956.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-03-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00293956.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00293956.pdf",
+      "created": "2017-03-29T12:48:55+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.03.2017",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/297435",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00297435.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00297435.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00297435.pdf",
+      "created": "2017-04-25T15:10:36+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwohnerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/305216",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Cossebaude_V1568/17_mU",
+      "fileName": "00305216.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305216.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305216.pdf",
+      "created": "2017-06-23T08:54:22+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2017/2018",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13390",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305785",
-      "auxiliaryFile": [
-        "328463",
-        "382678",
-        "291862",
-        "291550",
-        "289624",
-        "287601",
-        "287602",
-        "288397",
-        "304709"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/305217",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0121/17_mU",
+      "fileName": "00305217.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305217.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305217.pdf",
+      "created": "2017-06-23T08:55:02+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung der Maßnahmen zur Hochwasserschadensbeseitigung im Tännichtgrund",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/305218",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0126/17_mU",
+      "fileName": "00305218.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305218.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305218.pdf",
+      "created": "2017-06-23T08:55:13+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzzuschuss an Heimat- und Verschönerungsverein Cosebaude e.V.",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/305219",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0122/17_mU",
+      "fileName": "00305219.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305219.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305219.pdf",
+      "created": "2017-06-23T08:55:13+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel zur Anschaffung von Geräten für den Bauhof Cossebaude",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/305220",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0123/17_mU",
+      "fileName": "00305220.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305220.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305220.pdf",
+      "created": "2017-06-23T08:55:14+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel für Vereinsarbeit TV Cossebaude e.V. für 2017",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/305221",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0124/17_mU",
+      "fileName": "00305221.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305221.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305221.pdf",
+      "created": "2017-06-23T08:55:15+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzzuschuss für das Sportplatzgelände des TSV Cossebaude e.V.",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzzuschuss zur Anschaffung von Kleinfeldtoren für den TSV Cossebaude e.V.",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel zur Vorbereitung und Durchführung Ortschaftsfest Cossebaude",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/305222",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0125/17_mU",
+      "fileName": "00305222.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305222.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305222.pdf",
+      "created": "2017-06-23T08:55:16+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5725",
-  "participant": [
-    "1073",
-    "309",
-    "308",
-    "310",
-    "307",
-    "1070",
-    "1245",
-    "1246"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89073",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2017-03-28T13:51:01+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.03.2017",
+      "public": true,
+      "created": "2017-03-28T13:52:02+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "3",
+      "order": "3",
+      "name": "Einwohnerfragestunde",
+      "public": true,
+      "created": "2017-03-28T13:52:13+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89076",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "4",
+      "order": "4",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2017/2018",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27637",
+      "result": "Zustimmung",
+      "created": "2017-03-28T14:07:14+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89077",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "5",
+      "order": "5",
+      "name": "Vorstellung der Maßnahmen zur Hochwasserschadensbeseitigung im Tännichtgrund",
+      "public": true,
+      "created": "2017-03-28T14:08:09+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89081",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "6",
+      "order": "6",
+      "name": "Finanzzuschuss an Heimat- und Verschönerungsverein Cosebaude e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28123",
+      "result": "Zustimmung",
+      "created": "2017-03-28T14:34:49+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89082",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "7",
+      "order": "7",
+      "name": "Finanzmittel zur Anschaffung von Geräten für den Bauhof Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28124",
+      "result": "Zustimmung",
+      "created": "2017-03-28T14:34:58+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89090",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "8",
+      "order": "8",
+      "name": "Finanzmittel für Vereinsarbeit TV Cossebaude e.V. für 2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28126",
+      "result": "Zustimmung",
+      "created": "2017-03-29T12:22:51+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89091",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "9",
+      "order": "9",
+      "name": "Finanzzuschuss für das Sportplatzgelände des TSV Cossebaude e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28127",
+      "result": "Zustimmung",
+      "created": "2017-03-29T12:29:59+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89092",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "10",
+      "order": "10",
+      "name": "Finanzzuschuss zur Anschaffung von Kleinfeldtoren für den TSV Cossebaude e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28128",
+      "result": "Zustimmung",
+      "created": "2017-03-29T12:35:29+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89093",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "11",
+      "order": "11",
+      "name": "Finanzmittel zur Vorbereitung und Durchführung Ortschaftsfest Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28125",
+      "result": "Zustimmung",
+      "created": "2017-03-29T12:44:39+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/89078",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5725",
+      "number": "12",
+      "order": "12",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2017-03-28T14:08:31+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,139 +1,190 @@
 {
-  "shortName": "OBR Lo/010/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Loschwitz, Beratungsraum, 2. Etage,Grundstraße 3, 01326 Dresden",
-  "name": "Ortsbeirat Loschwitz - 06.10.2010 - 17:00-19:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "38"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/304",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "10. Sitzung des Ortsbeirates Loschwitz",
   "start": "2010-10-06T17:00:00+02:00",
   "end": "2010-10-06T19:45:00+02:00",
-  "invitation": "42508",
-  "verbatimProtocol": "44501",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/29",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Grundstraße 3",
+    "room": "Ortsamt Loschwitz, Beratungsraum",
+    "postalCode": "01326",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:11+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/38"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/623",
+    "http://oparl.dresden.de/bodies/0001/people/625",
+    "http://oparl.dresden.de/bodies/0001/people/627",
+    "http://oparl.dresden.de/bodies/0001/people/631",
+    "http://oparl.dresden.de/bodies/0001/people/633",
+    "http://oparl.dresden.de/bodies/0001/people/637",
+    "http://oparl.dresden.de/bodies/0001/people/638",
+    "http://oparl.dresden.de/bodies/0001/people/622"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/42508",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Lo",
+    "fileName": "00042508.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-09-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00042508.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00042508.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 9. Ortsbeiratssitzung am 01.09.2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/42508",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Lo",
+      "fileName": "00042508.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-09-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00042508.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00042508.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 341, Dresden-Bühlau Nr. 8, Crostauer Weghier:\t1. Abwägungsbeschluss\t2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden \tErklärung nach § 10 Abs. 4 BauGB zum Bebauungsplan",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2822",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "41575",
-        "41219",
-        "41220",
-        "41222",
-        "41223",
-        "41224",
-        "41225"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 1,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Änderung der Satzung der Landeshauptstadt Dresden über Erlaubnisse und Gebühren für Sondernutzungen der öffentlichen Straßen in Dresden (Sondernutzungssatzung)",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2216",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "58912",
-      "auxiliaryFile": [
-        "33287",
-        "33249"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat);  Änderung der Geschäftsordnung des Stadtrates",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2007",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "35729",
-        "35532",
-        "35531",
-        "31723",
-        "31715"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Änderung der Satzung der Landeshauptstadt Dresden über die Entschädigung ehrenamtlich Tätiger (Entschädigungssatzung)",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2323",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "40159",
-        "40135",
-        "40133"
-      ]
-    },
-    {
-      "name": "Informationen, Anfragen und Hinweise",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zu Ausgleichsbeiträgen im Sanierungsgebiet Loschwitz",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sitzungstermine des Ortsbeirates 2011",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/44501",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00044501.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-10-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00044501.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00044501.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "304",
-  "participant": [
-    "623",
-    "625",
-    "627",
-    "631",
-    "633",
-    "637",
-    "638",
-    "622"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12825",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 9. Ortsbeiratssitzung am 01.09.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12827",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12831",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 341, Dresden-Bühlau Nr. 8, Crostauer Weg",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4475",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12828",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "2.2",
+      "order": "4",
+      "name": "Änderung der Satzung der Landeshauptstadt Dresden über Erlaubnisse und Gebühren für Sondernutzungen der öffentlichen Straßen in Dresden (Sondernutzungssatzung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3738",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12830",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "2.3",
+      "order": "5",
+      "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat);  Änderung der Geschäftsordnung des Stadtrates",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3311",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12832",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "3",
+      "order": "6",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12829",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "3.1",
+      "order": "7",
+      "name": "Änderung der Satzung der Landeshauptstadt Dresden über die Entschädigung ehrenamtlich Tätiger (Entschädigungssatzung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3806",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12833",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "4",
+      "order": "8",
+      "name": "Informationen, Anfragen und Hinweise",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "4.1",
+      "order": "9",
+      "name": "Information zu Ausgleichsbeiträgen im Sanierungsgebiet Loschwitz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/12864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/304",
+      "number": "4.2",
+      "order": "10",
+      "name": "Sitzungstermine des Ortsbeirates 2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

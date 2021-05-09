@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18010",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Errichtung Wendehammer an der Stiehlerstraße",
-  "shortName": "V-LB0151/19",
   "reference": "V-LB0151/19",
+  "date": "2019-11-25",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-11-13",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/442879",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00442879.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-11-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00442879.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00442879.pdf",
+    "created": "2019-11-13T14:26:23+01:00",
+    "modified": "2019-12-10T11:17:48+01:00"
+  },
   "auxiliaryFile": [
-    "442879",
-    "448815"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/448815",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Langebrück V-LB0151/19_mU",
+      "fileName": "00448815.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00448815.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00448815.pdf",
+      "created": "2019-12-10T08:43:53+01:00",
+      "modified": "2019-12-10T11:17:48+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8556",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39972",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18010",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/124364",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8556",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-11-14T15:09:59+01:00",
+      "modified": "2021-04-12T08:38:01+02:00"
     }
   ],
-  "id": "18010"
+  "created": "2019-11-13T14:26:07+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

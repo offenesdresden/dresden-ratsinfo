@@ -1,93 +1,213 @@
 {
-  "shortName": "OSR AF/024/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 19.09.2011 - 19:00-20:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Ortschaftsrates Altfranken",
   "start": "2011-09-19T19:00:00+02:00",
   "end": "2011-09-19T20:55:00+02:00",
-  "invitation": "74283",
-  "resultsProtocol": "74912",
-  "auxiliaryFile": [
-    "74915",
-    "74918"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
   ],
-  "verbatimProtocol": "156495",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/303",
+    "http://oparl.dresden.de/bodies/0001/people/304",
+    "http://oparl.dresden.de/bodies/0001/people/305"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/74283",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00074283.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-09-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074283.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074283.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/74912",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V-AF0033/11",
+    "fileName": "00074912.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-09-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074912.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074912.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Einführung der städtischen Blauen Tonne",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/74283",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00074283.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-09-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074283.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074283.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Neues Informationsblatt für die Ortsnachrichten",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/74912",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-AF0033/11",
+      "fileName": "00074912.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-09-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074912.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074912.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Kostenschlüssel für die Herausgabe eines gemeinsamen Infoblattes der Ortschaften Gompitz, Altfranken und Mobschatz",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/74915",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-AF0034/11",
+      "fileName": "00074915.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-09-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074915.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074915.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/74918",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-AF0035/11",
+      "fileName": "00074918.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-09-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074918.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074918.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzierung der Veranstaltungen für die Altfrankener Seniorinnen und Senioren",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Aufwandsentschädigung für die Organisation und Durchführung der Altfrankener Senioren-Veranstaltungen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Parken auf der Straße \"Altfrankener Höhe\"",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Spielplatz \"Altfrankener Höhe\"",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/156495",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00156495.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-01-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00156495.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00156495.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1477",
-  "participant": [
-    "300",
-    "303",
-    "304",
-    "302",
-    "305",
-    "301"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23041",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "1",
+      "order": "1",
+      "name": "Einführung der städtischen Blauen Tonne",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23042",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "2",
+      "order": "2",
+      "name": "Neues Informationsblatt für die Ortsnachrichten",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "2.1",
+      "order": "3",
+      "name": "Kostenschlüssel für die Herausgabe eines gemeinsamen Infoblattes der Ortschaften Gompitz, Altfranken und Mobschatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7644",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23040",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "3",
+      "order": "4",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23248",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "3.1",
+      "order": "5",
+      "name": "Finanzierung der Veranstaltungen für die Altfrankener Seniorinnen und Senioren",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7648",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23249",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "3.2",
+      "order": "6",
+      "name": "Aufwandsentschädigung für die Organisation und Durchführung der Altfrankener Senioren-Veranstaltungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7649",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28853",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "3.3",
+      "order": "7",
+      "name": "Parken auf der Straße \"Altfrankener Höhe\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/28854",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1477",
+      "number": "3.4",
+      "order": "8",
+      "name": "Spielplatz \"Altfrankener Höhe\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

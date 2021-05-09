@@ -1,56 +1,139 @@
 {
-  "shortName": "OSR OW/040/2017",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 14.12.2017 - 18:30-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6046",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "40. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2017-12-14T18:30:00+01:00",
   "end": "2017-12-14T20:00:00+01:00",
-  "invitation": "325957",
-  "resultsProtocol": "329591",
-  "verbatimProtocol": "328167",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/1256",
+    "http://oparl.dresden.de/bodies/0001/people/1654"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/325957",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00325957.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-12-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00325957.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00325957.pdf",
+    "created": "2017-12-05T15:29:41+01:00",
+    "modified": "2017-12-06T08:05:17+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/325957",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00325957.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00325957.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00325957.pdf",
+      "created": "2017-12-05T15:29:41+01:00",
+      "modified": "2017-12-06T08:05:17+01:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 16.11.2017",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/328167",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00328167.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00328167.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00328167.pdf",
+      "created": "2017-12-28T16:45:12+01:00",
+      "modified": "2019-09-19T06:30:28+02:00"
     },
     {
-      "name": "Sichtung des Literaturbestandes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Auswertung Weihnachtsmarkt 2017",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/329591",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0085/17_mU",
+      "fileName": "00329591.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00329591.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00329591.pdf",
+      "created": "2018-01-11T16:16:54+01:00",
+      "modified": "2019-09-19T06:30:28+02:00"
     }
   ],
-  "id": "6046",
-  "participant": [
-    "354",
-    "351",
-    "350",
-    "1256"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97136",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6046",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2017-12-05T08:53:23+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97137",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6046",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 16.11.2017",
+      "public": true,
+      "created": "2017-12-05T08:53:58+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97166",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6046",
+      "number": "3",
+      "order": "3",
+      "name": "Sichtung des Literaturbestandes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30926",
+      "result": "Zustimmung",
+      "created": "2017-12-05T15:28:01+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97138",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6046",
+      "number": "4",
+      "order": "4",
+      "name": "Auswertung Weihnachtsmarkt 2017",
+      "public": true,
+      "created": "2017-12-05T08:54:16+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97139",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6046",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2017-12-05T08:54:29+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,70 +1,152 @@
 {
-  "shortName": "WF/025/2021",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 21.04.2021 - 16:00-16:26 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/10694",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "25. Sitzung des Ausschusses für Wirtschaftsförderung - Sondersitzung",
   "start": "2021-04-21T16:00:00+02:00",
   "end": "2021-04-21T16:26:00+02:00",
-  "invitation": "538524",
-  "verbatimProtocol": "543072",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/268",
+    "http://oparl.dresden.de/bodies/0001/people/1931",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/1936",
+    "http://oparl.dresden.de/bodies/0001/people/1940",
+    "http://oparl.dresden.de/bodies/0001/people/1941",
+    "http://oparl.dresden.de/bodies/0001/people/1946",
+    "http://oparl.dresden.de/bodies/0001/people/1336",
+    "http://oparl.dresden.de/bodies/0001/people/1929",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1934",
+    "http://oparl.dresden.de/bodies/0001/people/1938"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/538524",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF_2021_04_21_Sondersitzung",
+    "fileName": "00538524.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-04-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00538524.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00538524.pdf",
+    "created": "2021-04-14T08:31:25+02:00",
+    "modified": "2021-04-14T16:01:54+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Geschäftsbereich Finanzen, Personal und Recht",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/538524",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF_2021_04_21_Sondersitzung",
+      "fileName": "00538524.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00538524.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00538524.pdf",
+      "created": "2021-04-14T08:31:25+02:00",
+      "modified": "2021-04-14T16:01:54+02:00"
     },
     {
-      "name": "Beschlussvorlagen zu Vergaben für Einkäufe und Dienstleistungen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 2021-1042-00032, Rahmenvereinbarung Kauf und Lieferung Antigen-Tests zur Eigenanwendung durch Laien (Selbsttests)",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21449",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "540333",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlussvorlagen zu Bauvergaben",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 2021-6615-00002, Ersatzneubau der Brücke B0341 über den Maltengraben im Zuge der Lugaer Straße, 01259 Dresden, B0341 - Los Ingenieurbau",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21453",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "540334",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wahrung des Geheimwettbewerbs bei Vergabevorlagen Offene Beschlussvorlagen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/543072",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_WF_2021_04_21",
+      "fileName": "00543072.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00543072.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00543072.pdf",
+      "created": "2021-05-04T12:54:53+02:00",
+      "modified": "2021-05-05T18:13:06+02:00"
     }
   ],
-  "id": "10694"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148159",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10694",
+      "number": "",
+      "order": "1",
+      "name": "Geschäftsbereich Finanzen, Personal und Recht",
+      "public": true,
+      "created": "2021-04-14T07:37:09+02:00",
+      "modified": "2021-04-14T07:37:22+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148161",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10694",
+      "number": "1",
+      "order": "2",
+      "name": "Beschlussvorlagen zu Vergaben für Einkäufe und Dienstleistungen",
+      "public": true,
+      "created": "2021-04-14T07:37:09+02:00",
+      "modified": "2021-04-14T07:37:32+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148162",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10694",
+      "number": "1.1",
+      "order": "3",
+      "name": "Vergabenummer: 2021-1042-00032, Rahmvereinbarung Kauf und Lieferung Antigen-Tests zur Eigenanwendung durch Laien (Selbsttests)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48215",
+      "result": "Zustimmung",
+      "created": "2021-04-14T07:37:09+02:00",
+      "modified": "2021-04-21T15:15:10+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148163",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10694",
+      "number": "2",
+      "order": "4",
+      "name": "Beschlussvorlagen zu Bauvergaben",
+      "public": true,
+      "created": "2021-04-14T07:37:09+02:00",
+      "modified": "2021-04-14T07:37:32+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148164",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10694",
+      "number": "2.1",
+      "order": "5",
+      "name": "Vergabenummer: 2021-6615-00002, Ersatzneubau der Brücke B0341 über den Maltengraben im Zuge der Lugaer Straße, 01259 Dresden, B0341 - Los Ingenieurbau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48224",
+      "result": "Zustimmung",
+      "created": "2021-04-14T07:37:09+02:00",
+      "modified": "2021-04-21T15:15:24+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148167",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10694",
+      "number": "3.2",
+      "order": "8",
+      "name": "Wahrung des Geheimwettbewerbs bei Vergabevorlagen Offene Beschlussvorlagen",
+      "public": true,
+      "created": "2021-04-14T07:37:09+02:00",
+      "modified": "2021-05-04T12:53:40+02:00"
+    }
+  ],
+  "created": "2021-04-14T07:32:50+02:00",
+  "modified": "2021-05-05T18:13:06+02:00"
 }

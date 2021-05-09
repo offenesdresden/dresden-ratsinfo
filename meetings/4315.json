@@ -1,38 +1,92 @@
 {
-  "shortName": "BA/Kita/008/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Bildung (Eigenbetrieb Kindertageseinrichtungen) - 19.05.2015 - 16:00-19:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "135"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4315",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Ausschusses für Bildung (Eigenbetrieb Kindertageseinrichtungen)",
   "start": "2015-05-19T16:00:00+02:00",
   "end": "2015-05-19T19:10:00+02:00",
-  "invitation": "205935",
-  "auxiliaryFile": [
-    "208133"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/135"
   ],
-  "agendaItem": [
-
-  ],
-  "id": "4315",
   "participant": [
-    "28",
-    "1230",
-    "765",
-    "1241",
-    "774",
-    "283",
-    "271",
-    "1232",
-    "648",
-    "274",
-    "1177",
-    "265",
-    "722",
-    "1378",
-    "1390",
-    "46",
-    "290"
-  ]
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/765",
+    "http://oparl.dresden.de/bodies/0001/people/774",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/648",
+    "http://oparl.dresden.de/bodies/0001/people/1232",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/1177",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/1378",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/290"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/205935",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_BA/Kita_2015_05_19",
+    "fileName": "00205935.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-05-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00205935.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00205935.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/208133",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_V0397/15_BA/Kita",
+    "fileName": "00208133.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-05-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00208133.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00208133.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/205935",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_BA/Kita_2015_05_19",
+      "fileName": "00205935.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00205935.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00205935.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/208133",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V0397/15_BA/Kita",
+      "fileName": "00208133.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00208133.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00208133.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

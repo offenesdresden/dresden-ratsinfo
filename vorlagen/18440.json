@@ -1,25 +1,83 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18440",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verfügungsmittel für die Anschaffung von Bänken für die Ortschaft Oberwartha - zurückgezogen",
-  "shortName": "A-OW0011/20",
   "reference": "A-OW0011/20",
+  "date": "2020-02-14",
   "paperType": "Antrag Ortschaft Oberwarha",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/458034",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Oberwartha",
+    "fileName": "00458034.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00458034.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00458034.pdf",
+    "created": "2020-02-10T07:38:12+01:00",
+    "modified": "2020-02-27T10:47:41+01:00"
+  },
   "auxiliaryFile": [
-    "458034",
-    "462044"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/462044",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Kostenangebot zu_A-OW0011/20",
+      "fileName": "00462044.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462044.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462044.pdf",
+      "created": "2020-03-03T09:21:51+01:00",
+      "modified": "2020-03-03T09:21:54+01:00"
+    }
   ],
-  "id": "18440",
-  "publishedDate": "2020-02-10",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/35"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9085",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40950",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18440",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/127397",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-02-10T08:10:57+01:00",
+      "modified": "2020-03-03T07:40:09+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40950",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18440",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/129074",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+      ],
+      "role": "beschließend",
+      "created": "2020-03-13T09:28:24+01:00",
+      "modified": "2020-03-13T09:28:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40950",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18440",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/130903",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9214",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-04-23T08:34:38+02:00",
+      "modified": "2020-05-19T17:10:56+02:00"
     }
-  ]
+  ],
+  "created": "2020-02-10T07:34:34+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

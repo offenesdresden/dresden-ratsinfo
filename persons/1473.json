@@ -1,21 +1,30 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1473",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Franziska Grimm",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "stimmberechtigte Mitglieder",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "10",
-      "startDate": "2015-01-22",
-      "endDate": "2016-09-30"
-    }
-  ],
+  "familyName": "Grimm",
+  "givenName": "Franziska",
+  "formOfAddress": "Frau",
+  "gender": "weiblich",
   "email": [
     "franziska.grimm@kulturbuero-dresden.de"
   ],
-  "id": "1473"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/6004",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1473",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/10",
+      "role": "stimmberechtigte Mitglieder",
+      "votingRight": true,
+      "startDate": "2015-01-22",
+      "endDate": "2016-09-30",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

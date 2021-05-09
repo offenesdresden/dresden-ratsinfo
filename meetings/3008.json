@@ -1,141 +1,294 @@
 {
-  "shortName": "OSR LB/059/2013",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Langebrück, Beratungsraum,Weißiger Straße 5, 01465 Dresden OT Langebrück",
-  "name": "Ortschaftsrat Langebrück - 05.11.2013 - 18:32-22:13 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "51"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "59. Sitzung des Ortschaftsrates Langebrück",
   "start": "2013-11-05T18:32:00+01:00",
   "end": "2013-11-05T22:13:00+01:00",
-  "invitation": "149525",
-  "auxiliaryFile": [
-    "151521",
-    "150140",
-    "151525",
-    "152163",
-    "151526",
-    "151522"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/33",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weißiger Straße 5",
+    "room": "Ortschaft Langebrück, Verwaltungsstelle",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Langebrück",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:09+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
   ],
-  "resultsProtocol": "152161",
-  "verbatimProtocol": "155683",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/331",
+    "http://oparl.dresden.de/bodies/0001/people/332",
+    "http://oparl.dresden.de/bodies/0001/people/333",
+    "http://oparl.dresden.de/bodies/0001/people/334",
+    "http://oparl.dresden.de/bodies/0001/people/335",
+    "http://oparl.dresden.de/bodies/0001/people/336",
+    "http://oparl.dresden.de/bodies/0001/people/338",
+    "http://oparl.dresden.de/bodies/0001/people/340"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/149525",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR LB",
+    "fileName": "00149525.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-10-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00149525.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00149525.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/150140",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung Vorlage_Vorhabenbezogener B-Plan Nr. 6014 Erweiterung Micro-Epsilon Optronic",
+    "fileName": "00150140.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-11-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150140.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150140.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/149525",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR LB",
+      "fileName": "00149525.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00149525.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00149525.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/150140",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Vorlage_Vorhabenbezogener B-Plan Nr. 6014 Erweiterung Micro-Epsilon Optronic",
+      "fileName": "00150140.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00150140.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00150140.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlusskontrollen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/151521",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Vorlage_Vertagung_Verkehrsentwicklungsplan 2025plus",
+      "fileName": "00151521.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00151521.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00151521.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen durch den Ortsvorsteher",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/151522",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Weihnachtsmarkt",
+      "fileName": "00151522.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00151522.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00151522.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6014, Dresden-Langebrück, Erweiterung \"Micro-Epsilon Optronic\"hier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden Erklärung nach § 10 Abs. 4 BauGB zum vorhabenbezogenen Bebauungsplan",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7716",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "153358",
-      "auxiliaryFile": [
-        "158501",
-        "149280",
-        "148608",
-        "147925",
-        "147930",
-        "147931",
-        "147932",
-        "147933",
-        "147958",
-        "147959",
-        "147934",
-        "147935",
-        "147960",
-        "147936"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/151525",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Druckkosten_Heidebote",
+      "fileName": "00151525.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00151525.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00151525.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verkehrsentwicklungsplan 2025plus (VEP 2025plus)",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7487",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "188223",
-      "auxiliaryFile": [
-        "214643",
-        "282610",
-        "329770",
-        "356842",
-        "424931",
-        "214644",
-        "240154",
-        "145227",
-        "145032",
-        "145187",
-        "145188",
-        "145189",
-        "140625",
-        "145196"
-      ],
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/151526",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Wegesanierung_Spielplatz",
+      "fileName": "00151526.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00151526.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00151526.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Angebote der Freien Jugendarbeit in der Ortschaft Langebrück",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/152161",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Beschilderung",
+      "fileName": "00152161.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00152161.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00152161.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Straßenreinigung und Straßenlaubbeseitigung im Herbst in der Ortschaft Langebrück",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/152163",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Technikausstattung_Bauhof",
+      "fileName": "00152163.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-11-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00152163.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00152163.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fragen an den Ortschaftsrat",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Termine",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/155683",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00155683.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-12-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00155683.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00155683.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3008",
-  "participant": [
-    "331",
-    "332",
-    "333",
-    "336",
-    "335",
-    "334",
-    "338",
-    "340"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46862",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "3",
+      "order": "3",
+      "name": "Beschlusskontrollen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "5",
+      "order": "5",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6014, Dresden-Langebrück, Erweiterung \"Micro-Epsilon Optronic\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14294",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "6",
+      "order": "6",
+      "name": "Verkehrsentwicklungsplan 2025plus (VEP 2025plus)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13756",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "7",
+      "order": "7",
+      "name": "Angebote der Freien Jugendarbeit in der Ortschaft Langebrück",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "8",
+      "order": "8",
+      "name": "Straßenreinigung und Straßenlaubbeseitigung im Herbst in der Ortschaft Langebrück",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46870",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "9",
+      "order": "9",
+      "name": "Fragen an den Ortschaftsrat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "10",
+      "order": "10",
+      "name": "Termine",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/46872",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3008",
+      "number": "11",
+      "order": "11",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/8733",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: A0003/14 Neubau der 76. Grundschule mit Zweifeldsporthalle, Merbitzer Straße 9, 01157 Dresden, Leistungen der LPH 5 - 9 gem. HOAI 2013 § 34",
-  "shortName": "V3025/14",
   "reference": "V3025/14",
+  "date": "2014-07-17",
   "paperType": "Vorlage VOF",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2014-07-16",
   "auxiliaryFile": [
-    "177593"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/177593",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V3025/14_WF_unterzeichnet",
+      "fileName": "00177593.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-08-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00177593.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00177593.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "3458",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/16527",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/8733",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/55584",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3458",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "8733"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

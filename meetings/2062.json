@@ -1,180 +1,221 @@
 {
-  "shortName": "OBR Pi/028/2012",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 05.06.2012 - 18:00-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "28. Sitzung des Ortsbeirates Pieschen",
   "start": "2012-06-05T18:00:00+02:00",
   "end": "2012-06-05T20:30:00+02:00",
-  "invitation": "99280",
-  "verbatimProtocol": "100466",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/672",
+    "http://oparl.dresden.de/bodies/0001/people/674",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/1084",
+    "http://oparl.dresden.de/bodies/0001/people/678",
+    "http://oparl.dresden.de/bodies/0001/people/679",
+    "http://oparl.dresden.de/bodies/0001/people/681",
+    "http://oparl.dresden.de/bodies/0001/people/686",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/688",
+    "http://oparl.dresden.de/bodies/0001/people/689",
+    "http://oparl.dresden.de/bodies/0001/people/691",
+    "http://oparl.dresden.de/bodies/0001/people/1030",
+    "http://oparl.dresden.de/bodies/0001/people/695",
+    "http://oparl.dresden.de/bodies/0001/people/696"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/99280",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00099280.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-05-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00099280.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00099280.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung eines neuen Ortsbeiratsmitgliedes",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/99280",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00099280.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00099280.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00099280.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Kontrolle der Niederschrift zur 27. Ortsbeiratssitzung am 08.05.2012",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Baumaßnahmen der DB an der Eisenbahntrasse zwischen Hansastraße und Stadtgrenze zu Radebeul",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 682, Dresden-Pieschen, Einkaufszentrum Großenhainer Straßehier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5875",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105207",
-      "auxiliaryFile": [
-        "99260",
-        "98918",
-        "99730",
-        "99731",
-        "99732",
-        "99734",
-        "99735",
-        "99736",
-        "99738",
-        "99739",
-        "99740",
-        "98937",
-        "99179"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 2,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhaben- und Erschließungsplan Nr. 552, Dresden-Übigau, Gewerbegebiet Werftstraßehier: Aufhebung der Satzung über den Vorhaben- und Erschließungsplan",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5688",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "102788",
-      "auxiliaryFile": [
-        "95855",
-        "94996",
-        "94030",
-        "94031",
-        "94032",
-        "94074",
-        "94038",
-        "94039"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Kleingärtner über Lkw-Trassenplanungen informieren – Einwohnerversammlung für Kaditz, Übigau und Mickten",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5769",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105028",
-      "auxiliaryFile": [
-        "95926",
-        "95925",
-        "118818",
-        "127958",
-        "139794"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorstellung der Vorplanung, Erschließung im B-Plangebiet Nr. 168",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verkehrsentwicklungsplan 2025plus - Szenario für die weitere Bearbeitung",
-      "number": "Ö 7.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5728",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "109499",
-      "auxiliaryFile": [
-        "259821",
-        "156193",
-        "234539",
-        "98766",
-        "98520",
-        "97741",
-        "94805",
-        "94788",
-        "96202",
-        "122053"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/100466",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00100466.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00100466.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00100466.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2062",
-  "participant": [
-    "298",
-    "676",
-    "672",
-    "674",
-    "1084",
-    "678",
-    "679",
-    "994",
-    "681",
-    "686",
-    "689",
-    "688",
-    "1030",
-    "691",
-    "695",
-    "696"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30723",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung eines neuen Ortsbeiratsmitgliedes",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31035",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "2",
+      "order": "2",
+      "name": "Kontrolle der Niederschrift zur 27. Ortsbeiratssitzung am 08.05.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31034",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "3",
+      "order": "3",
+      "name": "Baumaßnahmen der DB an der Eisenbahntrasse zwischen Hansastraße und Stadtgrenze zu Radebeul",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30718",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "4",
+      "order": "4",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30716",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "4.1",
+      "order": "5",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 682, Dresden-Pieschen, Einkaufszentrum Großenhainer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10131",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30720",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "4.2",
+      "order": "6",
+      "name": "Vorhaben- und Erschließungsplan Nr. 552, Dresden-Übigau, Gewerbegebiet Werftstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9671",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31039",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "4.3",
+      "order": "7",
+      "name": "Kleingärtner über Lkw-Trassenplanungen informieren – Einwohnerversammlung für Kaditz, Übigau und Mickten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9873",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "5",
+      "order": "8",
+      "name": "Vorstellung der Vorplanung, Erschließung im B-Plangebiet Nr. 168",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31037",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "6",
+      "order": "9",
+      "name": "Straßenreinigungsgebührensatzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30721",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "7",
+      "order": "10",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31038",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "7.1",
+      "order": "11",
+      "name": "Verkehrsentwicklungsplan 2025plus - Szenario für die weitere Bearbeitung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9754",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30722",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2062",
+      "number": "8",
+      "order": "12",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,120 +1,245 @@
 {
-  "shortName": "OSR LB/066/2014",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Langebrück, Beratungsraum,Weißiger Straße 5, 01465 Dresden OT Langebrück",
-  "name": "Ortschaftsrat Langebrück - 10.06.2014 - 18:42-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "51"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "66. Sitzung des Ortschaftsrates Langebrück",
   "start": "2014-06-10T18:42:00+02:00",
   "end": "2014-06-10T21:45:00+02:00",
-  "invitation": "172024",
-  "auxiliaryFile": [
-    "173508",
-    "173351"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/33",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weißiger Straße 5",
+    "room": "Ortschaft Langebrück, Verwaltungsstelle",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Langebrück",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:09+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
   ],
-  "resultsProtocol": "173519",
-  "verbatimProtocol": "173591",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/331",
+    "http://oparl.dresden.de/bodies/0001/people/332",
+    "http://oparl.dresden.de/bodies/0001/people/333",
+    "http://oparl.dresden.de/bodies/0001/people/334",
+    "http://oparl.dresden.de/bodies/0001/people/335",
+    "http://oparl.dresden.de/bodies/0001/people/336",
+    "http://oparl.dresden.de/bodies/0001/people/338",
+    "http://oparl.dresden.de/bodies/0001/people/340",
+    "http://oparl.dresden.de/bodies/0001/people/339"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/172024",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR LB",
+    "fileName": "00172024.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-06-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00172024.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00172024.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/173351",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Planung_Hauptstraße_Langebrück",
+    "fileName": "00173351.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-06-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00173351.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00173351.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/172024",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR LB",
+      "fileName": "00172024.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00172024.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00172024.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/173351",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Planung_Hauptstraße_Langebrück",
+      "fileName": "00173351.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00173351.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00173351.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlusskontrollen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/173508",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Vorlage_V2756/14_Ereignisanalyse_Hochwasserereignissen_Mai_Juni_2013",
+      "fileName": "00173508.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00173508.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00173508.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ergebnisse der Kommunalwahl 2014 in der Ortschaft Langebrück",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/173519",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Grundstücksangelegenheiten",
+      "fileName": "00173519.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00173519.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00173519.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen durch den Ortsvorsteher",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Planung Baumaßnahme Hauptstraße Langebrück",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Erhaltungs- und Gestaltungssatzung der Ortschaft Langebrück",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ereignisanalyse zu den Hochwasserereignissen im Mai und Juni 2013 und zusätzliche Maßnahmen zur Verbesserung der Hochwasservorsorge",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8174",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "176459",
-      "auxiliaryFile": [
-        "194279",
-        "218662",
-        "244420",
-        "268243",
-        "290192",
-        "335976",
-        "397077",
-        "464092",
-        "168719",
-        "163137",
-        "185007",
-        "162852",
-        "162451",
-        "162452",
-        "162453",
-        "162454",
-        "160930",
-        "175946"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 2,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fragen an den Ortschaftsrat",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Termine",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/173591",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00173591.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00173591.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00173591.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3736",
-  "participant": [
-    "331",
-    "332",
-    "333",
-    "336",
-    "335",
-    "334",
-    "338",
-    "340",
-    "339"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54313",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54314",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54315",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "3",
+      "order": "3",
+      "name": "Beschlusskontrollen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54316",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "4",
+      "order": "4",
+      "name": "Ergebnisse der Kommunalwahl 2014 in der Ortschaft Langebrück",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54317",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54318",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "6",
+      "order": "6",
+      "name": "Planung Baumaßnahme Hauptstraße Langebrück",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54319",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "7",
+      "order": "7",
+      "name": "Erhaltungs- und Gestaltungssatzung der Ortschaft Langebrück",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54321",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "8",
+      "order": "8",
+      "name": "Ereignisanalyse zu den Hochwasserereignissen im Mai und Juni 2013 und zusätzliche Maßnahmen zur Verbesserung der Hochwasservorsorge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15988",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54320",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "9",
+      "order": "9",
+      "name": "Fragen an den Ortschaftsrat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54322",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "10",
+      "order": "10",
+      "name": "Termine",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54323",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3736",
+      "number": "11",
+      "order": "11",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

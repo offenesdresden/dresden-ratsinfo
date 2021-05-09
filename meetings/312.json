@@ -1,64 +1,156 @@
 {
-  "shortName": "OSR CB/010/2010",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 07.06.2010 - 18:30-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/312",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "10. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2010-06-07T18:30:00+02:00",
   "end": "2010-06-07T21:00:00+02:00",
-  "invitation": "31740",
-  "auxiliaryFile": [
-    "34128"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
   ],
-  "verbatimProtocol": "35239",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/306",
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/311",
+    "http://oparl.dresden.de/bodies/0001/people/312",
+    "http://oparl.dresden.de/bodies/0001/people/313",
+    "http://oparl.dresden.de/bodies/0001/people/314",
+    "http://oparl.dresden.de/bodies/0001/people/394"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/31740",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00031740.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-05-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00031740.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00031740.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/34128",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschluss Verkehrsorganisatorische Maßnahmen B 6",
+    "fileName": "00034128.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-06-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00034128.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00034128.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/31740",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00031740.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00031740.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00031740.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung sowie der Niederschrift vom 10.05.2010",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/34128",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschluss Verkehrsorganisatorische Maßnahmen B 6",
+      "fileName": "00034128.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-06-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00034128.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00034128.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwohnerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zu Verkehrsorganisatorischen Maßnahmen auf der B 6 im Bereich der Ortslage",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/35239",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00035239.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-07-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00035239.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00035239.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "312",
-  "participant": [
-    "306",
-    "309",
-    "312",
-    "308",
-    "310",
-    "311",
-    "307",
-    "313",
-    "314",
-    "394"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9094",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/312",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9095",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/312",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung sowie der Niederschrift vom 10.05.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9096",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/312",
+      "number": "3",
+      "order": "3",
+      "name": "Einwohnerfragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/10043",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/312",
+      "number": "4",
+      "order": "4",
+      "name": "Beschluss zu Verkehrsorganisatorischen Maßnahmen auf der B 6 im Bereich der Ortslage",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3556",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9222",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/312",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

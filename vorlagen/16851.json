@@ -1,100 +1,67 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16851",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Bäume in Dresden erhalten",
-  "shortName": "A0615/19",
   "reference": "A0615/19",
+  "date": "2019-04-23",
   "paperType": "Antrag Bürgerfraktion",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "407903",
-    "421674"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/407903",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  Bürgerfraktion",
+      "fileName": "00407903.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00407903.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00407903.pdf",
+      "created": "2019-04-23T06:33:21+02:00",
+      "modified": "2019-05-02T06:22:51+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/421674",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Änderungsantrag_SR_A0615/19_SPD",
+      "fileName": "00421674.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-07-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00421674.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00421674.pdf",
+      "created": "2019-07-04T10:00:54+02:00",
+      "modified": "2019-07-04T10:00:55+02:00"
+    }
   ],
-  "id": "16851",
-  "publishedDate": "2019-04-18",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/129"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37476",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16851",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/153"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beratend             (federführend)",
+      "created": "2019-04-18T08:37:30+02:00",
+      "modified": "2019-05-14T13:51:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37477",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16851",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/118761",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7546",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "1. Lesung     (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Umwelt und Kommunalwirtschaft (Eigenbetrieb Friedhofs- und Bestattungswesen sowie Eigenbetrieb Stadtentwässerung)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-06-12T12:48:16+02:00",
+      "modified": "2019-07-17T10:14:36+02:00"
     }
-  ]
+  ],
+  "created": "2019-04-18T08:35:31+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

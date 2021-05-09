@@ -1,109 +1,205 @@
 {
-  "shortName": "S/008/2016",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Seniorenbeirat - 07.03.2016 - 09:00-11:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "6"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Seniorenbeirates",
   "start": "2016-03-07T09:00:00+01:00",
   "end": "2016-03-07T11:25:00+01:00",
-  "invitation": "243520",
-  "auxiliaryFile": [
-    "243132",
-    "244695"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/6"
   ],
-  "verbatimProtocol": "247011",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/404",
+    "http://oparl.dresden.de/bodies/0001/people/835",
+    "http://oparl.dresden.de/bodies/0001/people/1376",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/413",
+    "http://oparl.dresden.de/bodies/0001/people/415",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/841",
+    "http://oparl.dresden.de/bodies/0001/people/1443",
+    "http://oparl.dresden.de/bodies/0001/people/1445",
+    "http://oparl.dresden.de/bodies/0001/people/1446"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/243520",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_S",
+    "fileName": "00243520.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-02-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243520.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243520.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/243132",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_S",
+    "fileName": "00243132.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-02-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243132.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243132.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung/Ziele/Schwerpunkte",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/243132",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_S",
+      "fileName": "00243132.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-02-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243132.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243132.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Festlegungen und Kontrolle der Beschlüsse des Seniorenbeirates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/243520",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_S",
+      "fileName": "00243520.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243520.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243520.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Niedrigschwellige Angebote - Nachbarschaftshelfer und Alltagsbegleiter",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/244695",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö",
+      "fileName": "00244695.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-03-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00244695.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00244695.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Psychische Erkrankung im Alter",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sucht im Alter",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Altersarmut (schriftlicher Bericht)",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges/Allgemeines",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Förderung von Angeboten nach Fachförderrichtlinie Sozialamt vom 19. Oktober 2009 im Haushaltsjahr 2016",
-      "number": "Ö 9 Nachtrag: 07.03.2016",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11877",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259763",
-      "auxiliaryFile": [
-        "267084",
-        "291881",
-        "246398",
-        "242897",
-        "254463",
-        "241851",
-        "241852",
-        "242174",
-        "241855",
-        "241856",
-        "249855",
-        "236012",
-        "237159",
-        "236013",
-        "236014",
-        "251768",
-        "256691",
-        "259253",
-        "256590"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/247011",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00247011.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00247011.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00247011.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4949",
-  "participant": [
-    "87",
-    "404",
-    "835",
-    "1376",
-    "98",
-    "708",
-    "420",
-    "1443",
-    "841",
-    "413",
-    "415",
-    "1445",
-    "1446",
-    "402"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/75997",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung/Ziele/Schwerpunkte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/75998",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "2",
+      "order": "2",
+      "name": "Festlegungen und Kontrolle der Beschlüsse des Seniorenbeirates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76001",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "3",
+      "order": "3",
+      "name": "Niedrigschwellige Angebote - Nachbarschaftshelfer und Alltagsbegleiter",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76002",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "4",
+      "order": "4",
+      "name": "Psychische Erkrankung im Alter",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76003",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "5",
+      "order": "5",
+      "name": "Sucht im Alter",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76004",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "6",
+      "order": "6",
+      "name": "Altersarmut (schriftlicher Bericht)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76005",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "7",
+      "order": "7",
+      "name": "Sonstiges/Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76661",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4949",
+      "number": "9",
+      "order": "9",
+      "name": "Förderung von Angeboten nach Fachförderrichtlinie Sozialamt vom 19. Oktober 2009 im Haushaltsjahr 2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23485",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17117",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-GB111-00012, Gymnasium Dreikönigschule - Sanierung Haus A-C, Louisenstraße 42, 01099 Dresden, Los A11 - Tischlerarbeiten innen",
-  "shortName": "V3098/19",
   "reference": "V3098/19",
+  "date": "2019-06-13",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-06-07",
   "auxiliaryFile": [
-    "420712"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/420712",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V3098/19_mU",
+      "fileName": "00420712.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420712.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420712.pdf",
+      "created": "2019-06-27T08:24:00+02:00",
+      "modified": "2019-06-27T08:24:01+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7777",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37976",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17117",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/118837",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7777",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-06-13T12:15:22+02:00",
+      "modified": "2019-06-27T06:26:18+02:00"
     }
   ],
-  "id": "17117"
+  "created": "2019-06-07T08:56:31+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

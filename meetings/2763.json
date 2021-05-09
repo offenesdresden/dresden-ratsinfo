@@ -1,156 +1,181 @@
 {
-  "shortName": "OBR Bl/041/2013",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 25.09.2013 - 17:30-21:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "41. Sitzung des Ortsbeirates Blasewitz",
   "start": "2013-09-25T17:30:00+02:00",
   "end": "2013-09-25T21:10:00+02:00",
-  "invitation": "144195",
-  "verbatimProtocol": "147971",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/704",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/697",
+    "http://oparl.dresden.de/bodies/0001/people/699",
+    "http://oparl.dresden.de/bodies/0001/people/701",
+    "http://oparl.dresden.de/bodies/0001/people/703",
+    "http://oparl.dresden.de/bodies/0001/people/706",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/710",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/714",
+    "http://oparl.dresden.de/bodies/0001/people/717",
+    "http://oparl.dresden.de/bodies/0001/people/718",
+    "http://oparl.dresden.de/bodies/0001/people/720",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/726",
+    "http://oparl.dresden.de/bodies/0001/people/728",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/730",
+    "http://oparl.dresden.de/bodies/0001/people/906"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/144195",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00144195.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-09-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144195.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144195.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 40. Ortsbeiratssitzung am 14.08.2013",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/144195",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00144195.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144195.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144195.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4864",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "190527",
-        "133484",
-        "132956",
-        "127793",
-        "109571"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 12,
-        "no": 8,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999hier:\t1. Billigung der Abwägung über die Stellungnahmen aus der frühzeitigen Beteiligung2. Billigung des Entwurfes des Flächennutzungsplanes3. Billigung der Begründung mit Umweltbericht zum Entwurf des Flächennutzungsplanes4. Öffentliche Auslegung des Entwurfes des Flächennutzungsplanes",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "175398",
-      "auxiliaryFile": [
-        "182374",
-        "206715",
-        "228917",
-        "132554",
-        "132516",
-        "106470",
-        "266493",
-        "109725"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prioritätenprogramm zum Bau von Gehwegen im Dresdner Straßennetz",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6989",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "138818",
-      "auxiliaryFile": [
-        "330214",
-        "285136",
-        "172286",
-        "191385",
-        "236202",
-        "135000",
-        "134543",
-        "128933",
-        "128934",
-        "128935",
-        "128936",
-        "128937",
-        "128938",
-        "128939",
-        "128940",
-        "134105",
-        "128941",
-        "128942"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Rahmenplan Nr. 789, Dresden-Reick/Strehlen/Gruna, Wissenschaftsstandort Dresden-Osthier:Schriftliche Information über die Ergebnisse der Bürgerversammlung",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7667",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "147102",
-        "146571",
-        "145922",
-        "145923",
-        "145924"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen der Ortsamtsleiterin",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/147971",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00147971.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-10-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00147971.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00147971.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2763",
-  "participant": [
-    "704",
-    "706",
-    "420",
-    "697",
-    "701",
-    "703",
-    "699",
-    "708",
-    "710",
-    "712",
-    "714",
-    "717",
-    "718",
-    "722",
-    "720",
-    "726",
-    "408",
-    "728",
-    "730",
-    "906"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45462",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 40. Ortsbeiratssitzung am 14.08.2013",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45464",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45468",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "2.1",
+      "order": "3",
+      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10833",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45465",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "2.2",
+      "order": "4",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10782",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47388",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "2.3",
+      "order": "5",
+      "name": "Prioritätenprogramm zum Bau von Gehwegen im Dresdner Straßennetz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12627",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/47389",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "2.4",
+      "order": "6",
+      "name": "Rahmenplan Nr. 789, Dresden-Reick/Strehlen/Gruna, Wissenschaftsstandort Dresden-Ost",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14153",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45469",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "3",
+      "order": "7",
+      "name": "Informationen der Ortsamtsleiterin",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45470",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2763",
+      "number": "4",
+      "order": "8",
+      "name": "Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

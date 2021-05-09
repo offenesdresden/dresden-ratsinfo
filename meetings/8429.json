@@ -1,176 +1,209 @@
 {
-  "shortName": "SBR Kl/003/2019",
-  "locality": "Landeshauptstadt Dresden, im Stadtbezirksamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Stadtbezirksbeirat Klotzsche - 02.12.2019 - 18:30-20:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "169"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "3. Sitzung des Stadtbezirksbeirates Klotzsche",
   "start": "2019-12-02T18:30:00+01:00",
   "end": "2019-12-02T20:25:00+01:00",
-  "invitation": "443579",
-  "verbatimProtocol": "457227",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3249",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Stadtbezirksamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-06T08:51:55+02:00",
+    "modified": "2018-09-06T08:52:06+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/169"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/2047",
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1347",
+    "http://oparl.dresden.de/bodies/0001/people/1730",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/2024",
+    "http://oparl.dresden.de/bodies/0001/people/1972",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/1994"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/443579",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SBR Klotzsche_2019_12_03",
+    "fileName": "00443579.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-11-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443579.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443579.pdf",
+    "created": "2019-11-15T10:25:44+01:00",
+    "modified": "2019-11-21T11:44:20+01:00"
+  },
+  "resultsProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/457227",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Niederschrift öffentlich_SBR Klotzsche_2019_12_02",
+    "fileName": "00457227.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00457227.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00457227.pdf",
+    "created": "2020-02-05T09:55:38+01:00",
+    "modified": "2020-02-13T07:07:07+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorlagen und Anträge zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/443579",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Klotzsche_2019_12_03",
+      "fileName": "00443579.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443579.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443579.pdf",
+      "created": "2019-11-15T10:25:44+01:00",
+      "modified": "2019-11-21T11:44:20+01:00"
     },
     {
-      "name": "Übertragung der Verwaltung des ehemaligen Schulstandortes Alexander-Herzen-Straße 64",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17543",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "463396",
-      "auxiliaryFile": [
-        "491823",
-        "516921",
-        "437267",
-        "436556",
-        "427798",
-        "427799",
-        "427800",
-        "427801",
-        "427802",
-        "461657"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Machbarkeitsstudie Radschnellweg  \"Von Klotzsche zum Albertplatz\"",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16961",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "450582",
-      "auxiliaryFile": [
-        "411369"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Barrierefreiheit im ÖPNV. Teilhabe von Menschen mit Behinderungen ermöglichen",
-      "number": "Ö 1.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17757",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "463405",
-      "auxiliaryFile": [
-        "491878",
-        "432884",
-        "458580"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Einführung der 5G-Technologie in Dresden – Bürger umfassend beteiligen und entscheiden lassen",
-      "number": "Ö 1.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17647",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "502447",
-      "auxiliaryFile": [
-        "507963",
-        "430546",
-        "471291",
-        "443665",
-        "447344",
-        "447345",
-        "443647",
-        "443663"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 10,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorlagen und Anträge zur Beschlussfassung durch den Stadtbezirksbeirat Klotzsche",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Übertragung finanzieller Mittel an den Eigenbetrieb Sportstätten Dresden für Dach- und Malerarbeiten an der Sporthalle Alexander-Herzen-Straße 64  im Zuge des Überganges der Halle an den Eigenbetrieb",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17937",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "447239",
-      "auxiliaryFile": [
-        "496776",
-        "443901",
-        "443900",
-        "443727",
-        "439379"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Priorisierung von örtlichen Straßenbaumaßnahmen im Stadtbezirk Klotzsche",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18042",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "453316",
-      "auxiliaryFile": [
-        "454720",
-        "486166",
-        "444669",
-        "444668",
-        "444066"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Informationen des Stadtbezirksamtsleiters",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/457227",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_SBR Klotzsche_2019_12_02",
+      "fileName": "00457227.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00457227.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00457227.pdf",
+      "created": "2020-02-05T09:55:38+01:00",
+      "modified": "2020-02-13T07:07:07+01:00"
     }
   ],
-  "id": "8429"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "1",
+      "order": "1",
+      "name": "Vorlagen und Anträge zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2019-11-11T09:46:55+01:00",
+      "modified": "2019-11-18T07:53:53+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124083",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "1.1",
+      "order": "2",
+      "name": "Übertragung der Verwaltung des ehemaligen Schulstandortes Alexander-Herzen-Straße 64",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38946",
+      "result": "Zustimmung",
+      "created": "2019-11-11T11:04:16+01:00",
+      "modified": "2019-12-03T07:39:52+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124078",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "1.2",
+      "order": "3",
+      "name": "Machbarkeitsstudie Radschnellweg  \"Von Klotzsche zum Albertplatz\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37690",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2019-11-11T09:46:55+01:00",
+      "modified": "2019-12-03T07:45:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124385",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "1.3",
+      "order": "4",
+      "name": "Barrierefreiheit im ÖPNV. Teilhabe von Menschen mit Behinderungen ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39453",
+      "result": "Zustimmung",
+      "created": "2019-11-15T10:24:18+01:00",
+      "modified": "2019-12-03T07:41:22+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124082",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "1.4",
+      "order": "5",
+      "name": "Einführung der 5G-Technologie in Dresden – Bürger umfassend beteiligen und entscheiden lassen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39171",
+      "result": "Ablehnung",
+      "created": "2019-11-11T11:04:08+01:00",
+      "modified": "2019-12-03T07:42:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "2",
+      "order": "6",
+      "name": "Vorlagen und Anträge zur Beschlussfassung durch den Stadtbezirksbeirat Klotzsche",
+      "public": true,
+      "created": "2019-11-11T09:46:55+01:00",
+      "modified": "2019-11-18T07:56:50+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124079",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "2.1",
+      "order": "7",
+      "name": "Übertragung finanzieller Mittel an den Eigenbetrieb Sportstätten Dresden für Dach- und Malerarbeiten an der Sporthalle Alexander-Herzen-Straße 64  im Zuge des Überganges der Halle an den Eigenbetrieb",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39840",
+      "result": "Zustimmung",
+      "created": "2019-11-11T09:46:55+01:00",
+      "modified": "2019-12-03T11:25:12+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124598",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "2.2",
+      "order": "8",
+      "name": "Priorisierung von örtlichen Straßenbaumaßnahmen im Stadtbezirk Klotzsche",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40016",
+      "result": "Vertagung",
+      "created": "2019-11-19T11:27:41+01:00",
+      "modified": "2019-12-03T07:43:01+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124076",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "3",
+      "order": "9",
+      "name": "Informationen des Stadtbezirksamtsleiters",
+      "public": true,
+      "created": "2019-11-11T09:46:55+01:00",
+      "modified": "2019-11-19T11:27:41+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124077",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8429",
+      "number": "4",
+      "order": "10",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2019-11-11T09:46:55+01:00",
+      "modified": "2019-11-19T11:27:41+01:00"
+    }
+  ],
+  "created": "2019-07-09T12:15:22+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

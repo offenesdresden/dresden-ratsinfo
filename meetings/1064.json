@@ -1,183 +1,168 @@
 {
-  "shortName": "SB/026/2011",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Stadtentwicklung und Bau - 09.03.2011 - 16:00-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "11"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "26. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "start": "2011-03-09T16:00:00+01:00",
   "end": "2011-03-09T21:45:00+01:00",
-  "invitation": "56250",
-  "verbatimProtocol": "57807",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/29",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/716",
+    "http://oparl.dresden.de/bodies/0001/people/254",
+    "http://oparl.dresden.de/bodies/0001/people/887",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/284"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/56250",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SB",
+    "fileName": "00056250.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-02-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00056250.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00056250.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bebauungsplan Nr. 373, Dresden-Löbtau Nr. 3, Gewerbe-Park Freiberger Straßehier:\t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplanes",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3358",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "57402",
-      "auxiliaryFile": [
-        "51780",
-        "51663",
-        "51664",
-        "51665"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/56250",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SB",
+      "fileName": "00056250.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-02-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00056250.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00056250.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 340, Dresden-Altstadt I Nr. 34, Neumarkt, Quartier VIhier:\t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplanes",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3439",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "57403",
-      "auxiliaryFile": [
-        "53739",
-        "54121",
-        "54122",
-        "54123",
-        "54124",
-        "54846"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verlegung und behindertengerechter Neubau der Straßenbahnhaltestelle \"Friedensstraße\"",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2932",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "57404",
-      "auxiliaryFile": [
-        "43041"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wiedereinrichtung der Fährverbindung zwischen Gohlis und Kaditz",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3335",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "52496"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Brachfläche gegenüber der Frauenkirche aufwerten - Erscheinungsbild des Quartiers VI am Neumarkt verbessern",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3590",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "57405",
-      "auxiliaryFile": [
-        "54837"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Rahmenplan Nr. 788, \"Promenadenring\"hier:\tPromenadenring um den Altstadtkern der Dresdner Innenstadt\tHasenberg - Rathenauplatz/Schießgasse - Pirnaischen Platz -\tRingstraße - Rathausplatz\tDr.-Külz-Ring/Seestraße - Dippoldiswalder Platz -\tWallstraße/Marienstraße - Postplatz -\tOstra-Allee/Am Zwingerteich - Bernhard-von-Lindenau-Platz",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2548",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "57626",
-        "38045",
-        "38035",
-        "38039",
-        "38040",
-        "38041",
-        "38042",
-        "38043",
-        "38044",
-        "38052",
-        "38053",
-        "38054",
-        "38055",
-        "38061",
-        "38036",
-        "38037",
-        "38038"
-      ],
-      "result": "Verweisung"
-    },
-    {
-      "name": "Rahmenplan Nr. 735.1 Dresden-Altstadt I, Südliche Pirnaische Vorstadt/Lingner-Park-Stadt",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1913",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "57629",
-        "116200",
-        "28766",
-        "28767",
-        "28768",
-        "47843",
-        "47844",
-        "28774",
-        "48515",
-        "30433",
-        "48149"
-      ],
-      "result": "Verweisung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/57807",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00057807.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-03-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00057807.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00057807.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1064",
-  "participant": [
-    "29",
-    "38",
-    "66",
-    "87",
-    "640",
-    "62",
-    "274",
-    "716",
-    "254",
-    "887",
-    "46",
-    "284"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17332",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+      "number": "1",
+      "order": "1",
+      "name": "Bebauungsplan Nr. 373, Dresden-Löbtau Nr. 3, Gewerbe-Park Freiberger Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5346",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17333",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+      "number": "2",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 340, Dresden-Altstadt I Nr. 34, Neumarkt, Quartier VI",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5443",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17361",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+      "number": "3",
+      "order": "3",
+      "name": "Verlegung und behindertengerechter Neubau der Straßenbahnhaltestelle \"Friedensstraße\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4672",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17362",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+      "number": "4",
+      "order": "4",
+      "name": "Wiedereinrichtung der Fährverbindung zwischen Gohlis und Kaditz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5310",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17363",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+      "number": "5",
+      "order": "5",
+      "name": "Brachfläche gegenüber der Frauenkirche aufwerten - Erscheinungsbild des Quartiers VI am Neumarkt verbessern",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5599",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17331",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+      "number": "6",
+      "order": "6",
+      "name": "Rahmenplan Nr. 788, \"Promenadenring\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4161",
+      "result": "Verweisung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17330",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1064",
+      "number": "7",
+      "order": "7",
+      "name": "Rahmenplan Nr. 735.1 Dresden-Altstadt I, Südliche Pirnaische Vorstadt/Lingner-Park-Stadt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3186",
+      "result": "Verweisung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

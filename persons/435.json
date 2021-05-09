@@ -1,36 +1,54 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/435",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Dr. Dirk Jordan",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Jordan",
+  "givenName": "Dirk",
+  "formOfAddress": "Herr",
+  "title": [
+    "Dr."
+  ],
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "stimmberechtigte Mitglieder",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "10",
-      "startDate": "2009-08-19",
-      "endDate": "2014-09-03"
-    },
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/4340",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/435",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/119",
       "role": "Sachkundige Einwohner",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "16",
-      "startDate": "2009-08-18",
-      "endDate": "2013-12-31"
-    },
-    {
-      "role": "Sachkundige Einwohner",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "119",
+      "votingRight": true,
       "startDate": "2014-01-09",
-      "endDate": "2014-09-03"
+      "endDate": "2014-09-03",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/2365",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/435",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/10",
+      "role": "stimmberechtigte Mitglieder",
+      "votingRight": true,
+      "startDate": "2009-08-19",
+      "endDate": "2014-09-03",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/2288",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/435",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/16",
+      "role": "Sachkundige Einwohner",
+      "votingRight": true,
+      "startDate": "2009-08-18",
+      "endDate": "2013-12-31",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
     }
   ],
-  "id": "435"
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

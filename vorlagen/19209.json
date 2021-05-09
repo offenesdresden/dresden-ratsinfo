@@ -1,43 +1,44 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19209",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Aktuelle Stunde zum Thema \"Wie viel Marktwirtschaft ist für ein soziales Dresden nötig?\"",
-  "shortName": "A0107/20",
   "reference": "A0107/20",
+  "date": "2020-07-07",
   "paperType": "Antrag SPD",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "484866"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/484866",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  SPD",
+      "fileName": "00484866.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00484866.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00484866.pdf",
+      "created": "2020-07-07T08:19:03+02:00",
+      "modified": "2020-07-14T07:23:24+02:00"
+    }
   ],
-  "id": "19209",
-  "publishedDate": "2020-07-07",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/85"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42920",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19209",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/136690",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8857",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-08-07T11:30:40+02:00",
+      "modified": "2020-09-03T15:07:01+02:00"
     }
-  ]
+  ],
+  "created": "2020-07-07T08:08:23+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

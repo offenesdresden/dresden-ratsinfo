@@ -1,27 +1,104 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16611",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzierung der Planung zur Rekonstruktion des Hermann-Seidel-Parks",
-  "shortName": "V-Bl0006/19",
   "reference": "V-Bl0006/19",
+  "date": "2019-03-13",
   "paperType": "Vorlage STB Blasewitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-03-11",
-  "mainFile": "411111",
   "auxiliaryFile": [
-    "411110",
-    "411034",
-    "409742"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/409742",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Stellungnahme V-BL0006-19_BMB",
+      "fileName": "00409742.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00409742.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00409742.pdf",
+      "created": "2019-05-02T11:13:13+02:00",
+      "modified": "2019-05-09T11:09:48+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/411034",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_A0527_18",
+      "fileName": "00411034.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00411034.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00411034.pdf",
+      "created": "2019-05-09T09:32:06+02:00",
+      "modified": "2019-05-09T11:09:48+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/411110",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Blasewitz V-Bl0006/19 mit Unterschrift",
+      "fileName": "00411110.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00411110.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00411110.pdf",
+      "created": "2019-05-09T11:07:40+02:00",
+      "modified": "2019-05-09T11:09:48+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/411111",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V-Bl0006/19",
+      "fileName": "00411111.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00411111.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00411111.pdf",
+      "created": "2019-05-09T11:09:17+02:00",
+      "modified": "2019-05-09T11:09:48+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/414893",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Blasewitz_V-Bl0006/19",
+      "fileName": "00414893.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00414893.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00414893.pdf",
+      "created": "2019-05-28T09:56:06+02:00",
+      "modified": "2019-05-28T09:56:07+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/496920",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Blasewitz_V-Bl0006/19_2020_09_07_Zwischenbericht",
+      "fileName": "00496920.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00496920.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00496920.pdf",
+      "created": "2020-09-09T11:00:32+02:00",
+      "modified": "2020-09-09T11:00:32+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/120"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7889",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36870",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16611",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/116869",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7889",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/167"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-04-29T09:16:57+02:00",
+      "modified": "2019-05-28T10:03:32+02:00"
     }
   ],
-  "id": "16611"
+  "created": "2019-03-11T13:49:33+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,641 +1,554 @@
 {
-  "shortName": "SR/024/2021",
-  "locality": "MESSE Dresden, Halle 1Messering , 01067 Dresden",
-  "name": "Stadtrat - 22.04.2021 - 16:00-22:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "1"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Stadtrates",
   "start": "2021-04-22T16:00:00+02:00",
   "end": "2021-04-22T22:00:00+02:00",
-  "invitation": "538087",
+  "location": {
+    "description": "MESSE Dresden, Halle 1\r\nMessering , 01067 Dresden"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/538087",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SR",
+    "fileName": "00538087.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-04-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00538087.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00538087.pdf",
+    "created": "2021-04-13T08:53:43+02:00",
+    "modified": "2021-04-13T09:55:45+02:00"
+  },
   "auxiliaryFile": [
-    "538200"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/538087",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SR",
+      "fileName": "00538087.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00538087.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00538087.pdf",
+      "created": "2021-04-13T08:53:43+02:00",
+      "modified": "2021-04-13T09:55:45+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/538200",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SR_2021_04_22_mU",
+      "fileName": "00538200.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00538200.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00538200.pdf",
+      "created": "2021-04-13T10:57:17+02:00",
+      "modified": "2021-04-13T10:57:27+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147284",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "1",
+      "order": "1",
       "name": "Bericht des Oberbürgermeisters",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-25T18:21:28+01:00",
+      "modified": "2021-03-25T18:21:43+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148011",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "2",
+      "order": "2",
       "name": "Aktuelle Stunde zum Thema „Gemeinwohl, Nachhaltigkeit und Schonung vorhandener Res-sourcen statt Abriss von 800 bestehenden Fahrgastunterständen“",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21418",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "537145"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48123",
+      "result": "erledigt",
+      "created": "2021-04-12T14:43:45+02:00",
+      "modified": "2021-04-22T15:33:36+02:00"
     },
     {
-      "name": "Ausscheiden einer Stadtbezirksbeirätin und Nachrücken einer Ersatzperson in den Stadtbezirksbeirat Plauen der Landeshauptstadt DresdenMandat der Partei BÜNDNIS 90/DIE GRÜNEN",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21377",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541399",
-      "auxiliaryFile": [
-        "538559",
-        "536838",
-        "535351"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147904",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "3",
+      "order": "3",
+      "name": "Ausscheiden einer Stadtbezirksbeirätin und Nachrücken einer Ersatzperson in den Stadtbezirksbeirat Plauen der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48049",
+      "result": "Zustimmung",
+      "created": "2021-04-08T12:29:29+02:00",
+      "modified": "2021-04-22T15:33:50+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147286",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "4",
+      "order": "4",
       "name": "Einigungsverfahren Gremienbesetzung",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-25T18:21:29+01:00",
+      "modified": "2021-04-12T14:43:45+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147341",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "4.1",
+      "order": "5",
       "name": "Umbesetzung im Jugendhilfeausschuss",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21298",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541400",
-      "auxiliaryFile": [
-        "538549",
-        "535513",
-        "532827"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47873",
+      "result": "Einigung",
+      "created": "2021-03-25T18:23:07+01:00",
+      "modified": "2021-04-22T15:39:40+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147287",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "5",
+      "order": "6",
       "name": "Tagesordnungspunkte ohne Debatte",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-25T18:21:29+01:00",
+      "modified": "2021-04-12T14:43:45+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147288",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "6",
+      "order": "7",
       "name": "Vertagungen letzte Stadtratssitzung am 25.03.2021",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-25T18:21:29+01:00",
+      "modified": "2021-04-12T14:43:45+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147363",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "6.1",
+      "order": "8",
       "name": "Kompensationspflicht bei Stellplatzwegfall",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18565",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "462514",
-        "505052",
-        "509335"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46128",
+      "result": "Vertagung durch Einreicher",
+      "created": "2021-03-25T18:38:28+01:00",
+      "modified": "2021-04-22T10:21:07+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147360",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "6.2",
+      "order": "9",
       "name": "Verkehrssichere Radwege im Bereich der Reicker Straße schaffen",
-      "number": "Ö 6.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18304",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "453589",
-        "540749",
-        "496395",
-        "516799",
-        "540566"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40617",
+      "result": "Verweisung",
+      "created": "2021-03-25T18:36:46+01:00",
+      "modified": "2021-04-22T15:48:24+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147446",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "6.3",
+      "order": "10",
       "name": "Pflegedienste stärken – Parkerleichterung für ambulante Pflegedienste schaffen",
-      "number": "Ö 6.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19282",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542602",
-      "auxiliaryFile": [
-        "493443",
-        "531491",
-        "534650"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/43085",
+      "result": "Zustimmung",
+      "created": "2021-03-26T12:00:22+01:00",
+      "modified": "2021-05-05T12:17:07+02:00"
     },
     {
-      "name": "Erhaltungssatzung H-49, Dresden-Trachau, Wilder Mannhier: 1. Änderung des Geltungsbereiches2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 6.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20880",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "540850",
-      "auxiliaryFile": [
-        "522329",
-        "521020",
-        "515213",
-        "515214",
-        "515215",
-        "519811",
-        "515217",
-        "535989",
-        "533591"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147447",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "6.4",
+      "order": "11",
+      "name": "Erhaltungssatzung H-49, Dresden-Trachau, Wilder Mann",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46727",
+      "result": "Zustimmung",
+      "created": "2021-03-26T12:01:12+01:00",
+      "modified": "2021-05-06T08:08:12+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147354",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "7",
+      "order": "12",
       "name": "Vorbehaltliche Befreiung von Elternbeitragszahlungen wegen der Schließung von Angeboten der Kindertagesbetreuung aufgrund Sächsischer Corona-Schutz-Verordnungen beginnend ab 14. Dezember 2020",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21003",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541462",
-      "auxiliaryFile": [
-        "528591",
-        "527433",
-        "524147",
-        "537479"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47247",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:32:18+01:00",
+      "modified": "2021-05-05T12:40:46+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147357",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "8",
+      "order": "13",
       "name": "Änderungsverordnung zur Verordnung der Landeshauptstadt Dresden über das Offenhalten von Verkaufsstellen an Sonntagen aus besonderem Anlass im Jahr 2021",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21190",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "543248",
-      "auxiliaryFile": [
-        "529220",
-        "530580",
-        "528067",
-        "528523",
-        "528524",
-        "532187",
-        "535946"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47626",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:34:04+01:00",
+      "modified": "2021-05-06T08:18:52+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147356",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "9",
+      "order": "14",
       "name": "Corona-Bewältigungsfonds 2021 für Kultur und Tourismus und Änderung der Förderrichtlinie Großveranstaltungen vom 21. März 2013",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21103",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "529783",
-        "541057",
-        "528217",
-        "528246",
-        "528241",
-        "524983",
-        "536559",
-        "540416",
-        "540417",
-        "540418"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47383",
+      "result": "Verweisung",
+      "created": "2021-03-25T18:33:36+01:00",
+      "modified": "2021-04-23T14:06:56+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147344",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "10",
+      "order": "15",
       "name": "Absichtserklärung zur Regelung der Rahmenbedingungen für die Wiedereröffnung des Dresdner Fernsehturms - Letter of Intent (LOI)",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18203",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542605",
-      "auxiliaryFile": [
-        "465148",
-        "463400",
-        "454331",
-        "454332",
-        "454333",
-        "454334",
-        "454335",
-        "454336",
-        "455111",
-        "455112",
-        "455113",
-        "538825",
-        "505345",
-        "540524"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40338",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:24:59+01:00",
+      "modified": "2021-05-05T12:28:02+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147350",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "11",
+      "order": "16",
       "name": "Verkehrs- und Mobilitätskonzept Fernsehturm Dresden und Verbesserung der Gebietserschließung der Ortsteile Bühlau, Gönnsdorf, Wachwitz und Pappritz",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20654",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542609",
-      "auxiliaryFile": [
-        "514279",
-        "515335",
-        "515219",
-        "512855",
-        "512856",
-        "512857",
-        "512858",
-        "514267",
-        "505609",
-        "538826",
-        "537504",
-        "540414",
-        "540523"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46149",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:29:55+01:00",
+      "modified": "2021-05-05T12:15:21+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147353",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "12",
+      "order": "17",
       "name": "Fachförderrichtlinie zur Förderung der kommunalen Entwicklungszusammenarbeit mit der Partnerstadt Brazzaville",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20935",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "527591",
-        "526494",
-        "527066",
-        "519073",
-        "535962"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46887",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:31:45+01:00",
+      "modified": "2021-05-07T08:40:41+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147352",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "13",
+      "order": "18",
       "name": "Aufhebung und Fusionierung des Abendgymnasiums mit dem Gymnasium Dresden-Johannstadt",
-      "number": "Ö 13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20821",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "522327",
-        "541414",
-        "539971",
-        "540415"
-      ],
-      "resolutionFile": "513013"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46582",
+      "result": "Verweisung",
+      "created": "2021-03-25T18:31:06+01:00",
+      "modified": "2021-04-22T16:01:29+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147348",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "14",
+      "order": "19",
       "name": "Gewährung von Freizeitausgleich unter Fortzahlung des Entgelts bzw. der Besoldung für die Beschäftigten und volljährigen Auszubildenden der Landeshauptstadt Dresden bei ehrenamtlichem Einsatz in den Wahlvorständen",
-      "number": "Ö 14",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20631",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541464",
-      "auxiliaryFile": [
-        "521114",
-        "520334",
-        "535956"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46086",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:28:41+01:00",
+      "modified": "2021-05-05T12:46:16+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147351",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "15",
+      "order": "20",
       "name": "Konzept Kulturelle Bildung in Dresden 2020",
-      "number": "Ö 15",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20697",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541463",
-      "auxiliaryFile": [
-        "521119",
-        "520251",
-        "520542",
-        "507899",
-        "508150",
-        "508594",
-        "534619",
-        "532307",
-        "535470",
-        "535301",
-        "534782",
-        "536561"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46249",
+      "result": "punktweise Zustimmung",
+      "created": "2021-03-25T18:30:28+01:00",
+      "modified": "2021-05-05T12:43:56+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147347",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "16",
+      "order": "21",
       "name": "Veränderungen im Busliniennetz im Dresdner Norden",
-      "number": "Ö 16",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20376",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542615",
-      "auxiliaryFile": [
-        "509650",
-        "508319",
-        "493073",
-        "493074",
-        "493075",
-        "493076",
-        "493797",
-        "535491",
-        "537650"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45374",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:28:10+01:00",
+      "modified": "2021-05-05T12:21:01+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6048, Dresden-Leutewitz, Wohnbebauung am Leutewitzer Parkhier:1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des vorhabenbezogenen Bebauungsplans",
-      "number": "Ö 17",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18264",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "460887",
-        "456838",
-        "536344",
-        "451596",
-        "451597",
-        "457048",
-        "538336",
-        "537501"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147712",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "17",
+      "order": "22",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6048, Dresden-Leutewitz, Wohnbebauung am Leutewitzer Park",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48099",
+      "result": "Vertagung",
+      "created": "2021-04-01T09:01:23+02:00",
+      "modified": "2021-04-22T10:21:54+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 399, Dresden-Strehlen Nr. 4, Wissenschaftsstandort Dresden-Ost, Teilbereich IIhier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden Erklärung nach § 10 a Abs. 1 BauGB zum Bebauungsplan",
-      "number": "Ö 18",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20648",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541466",
-      "auxiliaryFile": [
-        "515339",
-        "514103",
-        "505076",
-        "505077",
-        "510761",
-        "505079",
-        "505080",
-        "530704",
-        "538429"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147349",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "18",
+      "order": "23",
+      "name": "Bebauungsplan Nr. 399, Dresden-Strehlen Nr. 4, Wissenschaftsstandort Dresden-Ost, Teilbereich II",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46132",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:29:12+01:00",
+      "modified": "2021-05-06T08:10:49+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147923",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "19",
+      "order": "24",
       "name": "Fortschreibung Bankkonzept für das gesamte Stadtgebiet der Landeshauptstadt Dresden",
-      "number": "Ö 19",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17835",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541468",
-      "auxiliaryFile": [
-        "460562",
-        "456836",
-        "443988",
-        "436569",
-        "436570",
-        "436571",
-        "436573",
-        "436574",
-        "436575",
-        "436576",
-        "436578",
-        "436580",
-        "436581",
-        "436588",
-        "436590",
-        "436592",
-        "436599",
-        "436601",
-        "455971",
-        "436616",
-        "484312",
-        "486041",
-        "530806",
-        "526785"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40869",
+      "result": "Zustimmung",
+      "created": "2021-04-09T09:44:31+02:00",
+      "modified": "2021-05-05T12:47:45+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147709",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "20",
+      "order": "25",
       "name": "Sofortprogramm zur Entschärfung der gefährlichsten Stellen für Radfahrende",
-      "number": "Ö 20",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17987",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "543696",
-      "auxiliaryFile": [
-        "441775",
-        "537496"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39944",
+      "result": "Zustimmung",
+      "created": "2021-04-01T08:59:24+02:00",
+      "modified": "2021-05-07T07:15:57+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147359",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "21",
+      "order": "26",
       "name": "Community Organizing für Dresden – Stadtteilmanager*innen für alle Stadtbezirke",
-      "number": "Ö 21",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18061",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542617",
-      "auxiliaryFile": [
-        "444394",
-        "455601",
-        "509805"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40057",
+      "result": "Ablehnung",
+      "created": "2021-03-25T18:36:29+01:00",
+      "modified": "2021-04-26T14:07:52+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147395",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "22",
+      "order": "27",
       "name": "Neue Wohnbauflächen in der Neustadt entwickeln!",
-      "number": "Ö 22",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16830",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "406681",
-        "414549",
-        "457686",
-        "462960",
-        "458183",
-        "481034",
-        "461703"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41404",
+      "result": "Vertagung durch Einreicher",
+      "created": "2021-03-25T18:54:26+01:00",
+      "modified": "2021-04-26T14:15:33+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147710",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "23",
+      "order": "28",
       "name": "Verkehrssicherheit für Radfahrende auf dem Westabschnitt der Nöthnitzer Straße – alternative Radvorrangroute durch die Bienertstraße",
-      "number": "Ö 23",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18389",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542620",
-      "auxiliaryFile": [
-        "456584",
-        "456551",
-        "537497"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40825",
+      "result": "Zustimmung",
+      "created": "2021-04-01T08:59:47+02:00",
+      "modified": "2021-05-05T12:22:51+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147711",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "24",
+      "order": "29",
       "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
-      "number": "Ö 24",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "464644",
-        "496854",
-        "537498"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41586",
+      "result": "Vertagung durch Einreicher",
+      "created": "2021-04-01T09:00:06+02:00",
+      "modified": "2021-04-22T18:29:37+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147364",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "25",
+      "order": "30",
       "name": "Neues Wohnen auf städtischen Flächen fördern - Wagenplätze in Dresden ermöglichen",
-      "number": "Ö 25",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18586",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "462818",
-        "496863",
-        "516800"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41401",
+      "result": "Vertagung durch Einreicher",
+      "created": "2021-03-25T18:38:59+01:00",
+      "modified": "2021-04-22T10:22:15+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147374",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "26",
+      "order": "31",
       "name": "Initiative für ein Museum zur Geschichte und Entwicklung jüdischen Lebens und jüdischer Kultur mit Standort Dresden unterstützen",
-      "number": "Ö 26",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19206",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542621",
-      "auxiliaryFile": [
-        "484300",
-        "531421"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42904",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:43:22+01:00",
+      "modified": "2021-05-05T12:25:50+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148012",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "27",
+      "order": "32",
       "name": "Monitoring von zweckentfremdeten Wohnraum",
-      "number": "Ö 27",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20473",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542622",
-      "auxiliaryFile": [
-        "496418",
-        "537070"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45598",
+      "result": "Zustimmung",
+      "created": "2021-04-12T14:44:19+02:00",
+      "modified": "2021-05-05T12:12:06+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147377",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "28",
+      "order": "33",
       "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
-      "number": "Ö 28",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20557",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542623",
-      "auxiliaryFile": [
-        "502778",
-        "521485"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45859",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:45:33+01:00",
+      "modified": "2021-04-26T14:30:26+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147378",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "29",
+      "order": "34",
       "name": "Schutz der Gedenkstätte am Altmarkt vor Verunreinigungen durch Graffitischmierereien",
-      "number": "Ö 29",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20566",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "502796",
-        "521599",
-        "540974"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45872",
+      "result": "Vertagung durch Einreicher",
+      "created": "2021-03-25T18:46:05+01:00",
+      "modified": "2021-04-26T14:33:13+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147379",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "30",
+      "order": "35",
       "name": "Erfüllung von Stadtratsbeschlüssen",
-      "number": "Ö 30",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20582",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542624",
-      "auxiliaryFile": [
-        "501285",
-        "515708"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45908",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:46:27+01:00",
+      "modified": "2021-04-26T14:33:33+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147380",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "31",
+      "order": "36",
       "name": "Sicherheitspartnerschaft „Aktion Abbiegeassistent“",
-      "number": "Ö 31",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20587",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542625",
-      "auxiliaryFile": [
-        "502388",
-        "521594"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45932",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:46:43+01:00",
+      "modified": "2021-05-05T12:09:35+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147383",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "32",
+      "order": "37",
       "name": "Änderung der Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Stadtbezirksförderrichtlinie)",
-      "number": "Ö 32",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20623",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "541424",
-        "504571",
-        "525165"
-      ],
-      "resolutionFile": "504428"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46044",
+      "result": "Verweisung",
+      "created": "2021-03-25T18:48:26+01:00",
+      "modified": "2021-04-22T18:14:24+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147386",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "33",
+      "order": "38",
       "name": "Überprüfung der Einrichtung einer Gemeinschaftsschule",
-      "number": "Ö 33",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20876",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542601",
-      "auxiliaryFile": [
-        "514950",
-        "532727",
-        "514985",
-        "533563"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47869",
+      "result": "punktweise Zustimmung",
+      "created": "2021-03-25T18:49:36+01:00",
+      "modified": "2021-05-05T12:29:45+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147391",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9755",
+      "number": "34",
+      "order": "39",
       "name": "Berufsfeuerwehr Dresden - Schaffung dringend benötigter Stellen",
-      "number": "Ö 34",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21062",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542626",
-      "auxiliaryFile": [
-        "524473",
-        "524092",
-        "531493"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47217",
+      "result": "Zustimmung",
+      "created": "2021-03-25T18:52:21+01:00",
+      "modified": "2021-04-26T14:43:53+02:00"
     }
   ],
-  "id": "9755"
+  "created": "2020-08-20T11:59:14+02:00",
+  "modified": "2021-05-04T09:37:50+02:00"
 }

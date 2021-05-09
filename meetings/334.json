@@ -1,168 +1,191 @@
 {
-  "shortName": "OBR Neu/012/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 07.09.2010 - 17:30-23:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/334",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "12. Sitzung des Ortsbeirates Neustadt",
   "start": "2010-09-07T17:30:00+02:00",
   "end": "2010-09-07T23:00:00+02:00",
-  "invitation": "38381",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/642",
+    "http://oparl.dresden.de/bodies/0001/people/644",
+    "http://oparl.dresden.de/bodies/0001/people/646",
+    "http://oparl.dresden.de/bodies/0001/people/648",
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/654",
+    "http://oparl.dresden.de/bodies/0001/people/656",
+    "http://oparl.dresden.de/bodies/0001/people/658",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/664",
+    "http://oparl.dresden.de/bodies/0001/people/666",
+    "http://oparl.dresden.de/bodies/0001/people/668",
+    "http://oparl.dresden.de/bodies/0001/people/641",
+    "http://oparl.dresden.de/bodies/0001/people/653"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/38381",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_12/10_07.09.10",
+    "fileName": "00038381.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-08-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00038381.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00038381.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Information an den Ortsbeirat zur Planung der Kita Flächen Kamenzer Straße/Bischofsweg im AlaunparkTeilnahme:  Vertreter Amt f. Stadtgrün u. Abfallw.",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat);  Änderung der Geschäftsordnung des Stadtrates",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2007",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "35729",
-        "35532",
-        "35531",
-        "31723",
-        "31715"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 11,
-        "no": 2,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung des verkehrlichen Rahmenplanes für das Kerngebiet der Äußeren Neustadt Dresden und Zuschuss für das Investitionsvorhaben Park- und Geschäftshaus Bautzner Straße 33 - 35",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 8,
-        "no": 6,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Lichtmasterplan Dresden Innenstadt",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "487",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "38078"
-      ],
-      "resolutionFile": "7186",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2112",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31143"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 10,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prioritätenliste zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftiger Fußwege",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2178",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "33382",
-        "138849",
-        "123277"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Widerspruch der Landeshauptstadt Dresden gegen Verwendung personenbezogener Daten durch  \"Google Streetview\"",
-      "number": "Ö 2.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2251",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "57363",
-      "auxiliaryFile": [
-        "33437"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 10,
-        "no": 4,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Kontrolle der Niederschrift zur 9. Ortsbeiratssitzung am 08.06.2010",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/38381",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_12/10_07.09.10",
+      "fileName": "00038381.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-08-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00038381.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00038381.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "334",
-  "participant": [
-    "893",
-    "642",
-    "644",
-    "648",
-    "646",
-    "650",
-    "654",
-    "656",
-    "658",
-    "660",
-    "662",
-    "664",
-    "668",
-    "666",
-    "641",
-    "653"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11618",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "1",
+      "order": "1",
+      "name": "Information an den Ortsbeirat zur Planung der Kita Flächen Kamenzer Straße/Bischofsweg im Alaunpark",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11100",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11104",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "2.1",
+      "order": "3",
+      "name": "Geschäftsordnung für die Ortsbeiräte der Landeshauptstadt Dresden (GO-Ortsbeirat);  Änderung der Geschäftsordnung des Stadtrates",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3308",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11711",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "2.2",
+      "order": "4",
+      "name": "Fortschreibung des verkehrlichen Rahmenplanes für das Kerngebiet der Äußeren Neustadt Dresden und Zuschuss für das Investit",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2889",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11633",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "2.3",
+      "order": "5",
+      "name": "Lichtmasterplan Dresden Innenstadt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/913",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11101",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "2.4",
+      "order": "6",
+      "name": "Lokales Handlungsprogramm für Ordnung und Sauberkeit in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3427",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11102",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "2.5",
+      "order": "7",
+      "name": "Prioritätenliste zum Bau fehlender und zur Sanierung stark instandsetzungsbedürftiger Fußwege",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3568",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11103",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "2.6",
+      "order": "8",
+      "name": "Widerspruch der Landeshauptstadt Dresden gegen Verwendung personenbezogener Daten durch  \"Google Streetview\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3712",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11734",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "3",
+      "order": "9",
+      "name": "Kontrolle der Niederschrift zur 9. Ortsbeiratssitzung am 08.06.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/11106",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/334",
+      "number": "4",
+      "order": "10",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

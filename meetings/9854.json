@@ -1,119 +1,172 @@
 {
-  "shortName": "JHA/023/2021",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 01.04.2021 - 18:00-18:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "23. Sitzung des Jugendhilfeausschusses",
   "start": "2021-04-01T18:00:00+02:00",
   "end": "2021-04-01T18:45:00+02:00",
-  "invitation": "531767",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/531767",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH",
+    "fileName": "00531767.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-03-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00531767.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00531767.pdf",
+    "created": "2021-03-12T09:48:01+01:00",
+    "modified": "2021-03-18T10:13:19+01:00"
+  },
   "auxiliaryFile": [
-    "533255",
-    "533616",
-    "533286"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/531767",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH",
+      "fileName": "00531767.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00531767.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00531767.pdf",
+      "created": "2021-03-12T09:48:01+01:00",
+      "modified": "2021-03-18T10:13:19+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/533255",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JHA_2021_04_01",
+      "fileName": "00533255.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00533255.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00533255.pdf",
+      "created": "2021-03-18T10:13:13+01:00",
+      "modified": "2021-03-18T10:13:13+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/533286",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_JH",
+      "fileName": "00533286.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00533286.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00533286.pdf",
+      "created": "2021-03-18T11:29:17+01:00",
+      "modified": "2021-03-24T11:02:19+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/533616",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_JHA_2021_04_01_mU",
+      "fileName": "00533616.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00533616.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00533616.pdf",
+      "created": "2021-03-19T08:44:09+01:00",
+      "modified": "2021-03-24T11:02:00+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145879",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+      "number": "1",
+      "order": "1",
       "name": "Kontrolle der Niederschrift vom 21. Januar 2021",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-02-26T10:53:32+01:00",
+      "modified": "2021-03-23T13:57:33+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+      "number": "2",
+      "order": "2",
       "name": "Informationen/Fragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-02-26T10:53:32+01:00",
+      "modified": "2021-03-23T13:57:33+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+      "number": "3",
+      "order": "3",
       "name": "Planungsbericht für das Leistungsfeld Förderung der Erziehung in der Familie (§§ 16 bis 21 SGB VIII)",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20394",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "537470",
-      "auxiliaryFile": [
-        "503948",
-        "502857",
-        "493916",
-        "493917"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45437",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2021-02-26T10:53:32+01:00",
+      "modified": "2021-04-12T08:29:56+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+      "number": "4",
+      "order": "4",
       "name": "Vorbehaltliche Befreiung von Elternbeitragszahlungen wegen der Schließung von Angeboten der Kindertagesbetreuung aufgrund Sächsischer Corona-Schutz-Verordnungen beginnend ab 14. Dezember 2020",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21003",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541462",
-      "auxiliaryFile": [
-        "528591",
-        "527433",
-        "524147",
-        "537479"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47246",
+      "result": "Zustimmung mit Änderung",
+      "created": "2021-02-26T11:06:28+01:00",
+      "modified": "2021-04-06T07:52:57+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+      "number": "5",
+      "order": "5",
       "name": "Aufnahme der Kindertageseinrichtung Maxim-Gorki-Straße 42 in 01127 Dresden, zum 1. des Monats nach Stadtratsbeschluss in den Bedarfsplan Kindertageseinrichtungen und Kindertagespflege 2021/2022",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20959",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "532492",
-        "530534",
-        "523496",
-        "523497",
-        "523498",
-        "523499",
-        "523500",
-        "523501",
-        "523502"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47161",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2021-02-26T11:05:38+01:00",
+      "modified": "2021-04-06T07:56:37+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+      "number": "6",
+      "order": "6",
       "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-02-26T10:53:32+01:00",
+      "modified": "2021-03-23T13:57:33+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9854",
+      "number": "9",
+      "order": "9",
       "name": "Förderung von Trägern der freien Jugendhilfe 2021/2022",
-      "number": "Ö 9 Nachtrag: 15.03.2021",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21054",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "543606",
-      "auxiliaryFile": [
-        "543609",
-        "534318",
-        "534113",
-        "532332",
-        "532334",
-        "532335",
-        "527700",
-        "527707",
-        "527710",
-        "527711",
-        "527714",
-        "532336",
-        "532193",
-        "527729",
-        "532551",
-        "527682",
-        "527683",
-        "532554",
-        "530987",
-        "531754"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47490",
+      "result": "1. Lesung abgeschlossen",
+      "created": "2021-03-15T13:42:38+01:00",
+      "modified": "2021-04-06T07:58:05+02:00"
     }
   ],
-  "id": "9854"
+  "created": "2020-09-22T08:35:00+02:00",
+  "modified": "2021-04-12T09:19:25+02:00"
 }

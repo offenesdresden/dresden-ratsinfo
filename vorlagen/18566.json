@@ -1,100 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18566",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Städtepartnerschaften im Straßenbild verankern",
-  "shortName": "A0052/20",
   "reference": "A0052/20",
+  "date": "2020-03-04",
   "paperType": "Antrag CDU",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "498718",
-    "462527"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/462527",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  CDU",
+      "fileName": "00462527.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462527.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462527.pdf",
+      "created": "2020-03-04T11:09:16+01:00",
+      "modified": "2020-03-25T08:03:39+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/498718",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SB_A0052/20",
+      "fileName": "00498718.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498718.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498718.pdf",
+      "created": "2020-09-15T09:49:12+02:00",
+      "modified": "2020-09-15T09:49:12+02:00"
+    }
   ],
-  "id": "18566",
-  "publishedDate": "2020-03-04",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/81"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41335",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18566",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/136971",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8803",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/157"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "29.04.2020 Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Kultur und Tourismus (Eigenbetrieb Heinrich-Schütz-Konservatorium)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Allgemeine Verwaltung, Ordnung und Sicherheit (Eigenbetrieb IT-Dienstleistungen)",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-08-14T10:12:02+02:00",
+      "modified": "2020-09-15T11:44:33+02:00"
     }
-  ]
+  ],
+  "created": "2020-03-04T11:03:39+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

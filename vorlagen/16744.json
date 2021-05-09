@@ -1,44 +1,88 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16744",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beherbergungssteuer",
-  "shortName": "P0131/19",
   "reference": "P0131/19",
+  "date": "2019-03-28",
   "paperType": "Petition",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-03-28",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/403382",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Petition",
+    "fileName": "00403382.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-03-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00403382.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00403382.pdf",
+    "created": "2019-03-28T12:57:10+01:00",
+    "modified": "2019-03-28T13:51:59+01:00"
+  },
   "auxiliaryFile": [
-    "403382",
-    "403395"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/403395",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Petition_geschwärzt",
+      "fileName": "00403395.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00403395.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00403395.pdf",
+      "created": "2019-03-28T13:35:59+01:00",
+      "modified": "2019-03-28T13:36:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/413703",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_P_P0131/19_mU",
+      "fileName": "00413703.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00413703.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00413703.pdf",
+      "created": "2019-05-20T12:58:46+02:00",
+      "modified": "2019-05-20T12:58:48+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/413705",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Bescheid nach abschließender Behandlung_P0131/19_geschwärzt",
+      "fileName": "00413705.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00413705.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00413705.pdf",
+      "created": "2019-05-20T13:12:07+02:00",
+      "modified": "2019-05-20T13:12:09+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/496147",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK_P_P0131_19_2020_09_07_Abschlussbericht",
+      "fileName": "00496147.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00496147.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00496147.pdf",
+      "created": "2020-09-07T09:55:12+02:00",
+      "modified": "2020-09-07T09:55:22+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37186",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16744",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/117025",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7714",
       "organization": [
-        {
-          "name": "Ausschuss für Petitionen und Bürgerbeteiligung",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Petitionen und Bürgerbeteiligung",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/158"
       ],
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2019-05-02T11:54:57+02:00",
+      "modified": "2020-08-26T11:56:04+02:00"
     }
   ],
-  "id": "16744"
+  "created": "2019-03-28T12:56:18+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,17 +1,26 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/2004",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Manfred Hauschild",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Hauschild",
+  "givenName": "Manfred",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9523",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2004",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/49",
       "role": "Mitglied (stellvertretende/-r Vorsitzende/-r)",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "49",
-      "startDate": "2019-08-13"
+      "votingRight": true,
+      "startDate": "2019-08-13",
+      "created": "2019-08-13T10:03:53+02:00",
+      "modified": "2019-11-04T18:37:40+01:00"
     }
   ],
-  "id": "2004"
+  "created": "2019-07-25T08:59:01+02:00",
+  "modified": "2020-02-06T08:37:52+01:00",
+  "web": ""
 }

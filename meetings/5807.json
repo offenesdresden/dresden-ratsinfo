@@ -1,237 +1,324 @@
 {
-  "shortName": "OSR AF/035/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 09.10.2017 - 19:00-21:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "35. Sitzung des Ortschaftsrates Altfranken",
   "start": "2017-10-09T19:00:00+02:00",
   "end": "2017-10-09T21:20:00+02:00",
-  "invitation": "316109",
-  "auxiliaryFile": [
-    "318245",
-    "317404",
-    "317402",
-    "317403",
-    "320443",
-    "317770",
-    "317412",
-    "320442",
-    "318246"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
   ],
-  "resultsProtocol": "317302",
-  "verbatimProtocol": "319677",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/1242",
+    "http://oparl.dresden.de/bodies/0001/people/1243"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/316109",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00316109.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-09-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00316109.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00316109.pdf",
+    "created": "2017-09-27T05:48:42+02:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/317302",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0052/17_oU",
+    "fileName": "00317302.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-10-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317302.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317302.pdf",
+    "created": "2017-10-10T08:45:16+02:00",
+    "modified": "2017-10-18T09:29:41+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bebauungsplan Nr. 174.2, Dresden-Altfranken Nr. 4, Ortsumbauung Altfrankenhier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung zum Bebauungsplan",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14074",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "321319",
-      "auxiliaryFile": [
-        "334186",
-        "312592",
-        "312113",
-        "307451",
-        "307454",
-        "309984",
-        "307456",
-        "307457",
-        "318910"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/316109",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00316109.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-09-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00316109.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00316109.pdf",
+      "created": "2017-09-27T05:48:42+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 172.8, Dresden-Altfranken Nr. 2, Gewerbegebiet Kesselsdorfer Straßehier:1. Beschluss über den geänderten Geltungsbereich2. Billigung des geänderten Entwurfs zum Bebauungsplan3. Billigung der Begründung zum geänderten Bebauungsplan-Entwurf4. Beschluss über erneute öffentliche Auslegung5. Billigung der Abwägung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14076",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "319044",
-      "auxiliaryFile": [
-        "331280",
-        "312589",
-        "312114",
-        "307516",
-        "307517",
-        "307518",
-        "307519",
-        "307521",
-        "319851"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/317302",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0052/17_oU",
+      "fileName": "00317302.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317302.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317302.pdf",
+      "created": "2017-10-10T08:45:16+02:00",
+      "modified": "2017-10-18T09:29:41+02:00"
     },
     {
-      "name": "Zweite Fortschreibung der Konzeption zur kurz- und mittelfristigen Entwicklung kommunaler Gewerbestandorte in der Landeshauptstadt Dresden",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13950",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "327683",
-      "auxiliaryFile": [
-        "345045",
-        "406326",
-        "470012",
-        "309612",
-        "309227",
-        "307993",
-        "304953",
-        "307996",
-        "307994",
-        "326763"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/317402",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Altfranken_V1885/17_mU",
+      "fileName": "00317402.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317402.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317402.pdf",
+      "created": "2017-10-10T13:39:57+02:00",
+      "modified": "2017-11-14T08:59:49+01:00"
     },
     {
-      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Oberschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13947",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "332062",
-      "auxiliaryFile": [
-        "346784",
-        "346785",
-        "337138",
-        "353114",
-        "363472",
-        "378096",
-        "396400",
-        "409946",
-        "452176",
-        "468463",
-        "506524",
-        "314547",
-        "309632",
-        "446320",
-        "308157",
-        "309929",
-        "305447",
-        "304643",
-        "304642",
-        "304596",
-        "307243",
-        "306686",
-        "330841",
-        "323039",
-        "322220",
-        "322221",
-        "322222",
-        "322223",
-        "327203",
-        "331464",
-        "331463"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/317403",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Altfranken_V1887/17_mU",
+      "fileName": "00317403.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317403.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317403.pdf",
+      "created": "2017-10-10T13:40:23+02:00",
+      "modified": "2017-11-14T08:59:49+01:00"
     },
     {
-      "name": "Ausstattung der neuen Kindertageseinrichtung \"Farbenspiel\"",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14270",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "314058"
-      ],
-      "resolutionFile": "317466",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/317404",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Altfranken_V1795/17_mU",
+      "fileName": "00317404.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317404.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317404.pdf",
+      "created": "2017-10-10T13:40:38+02:00",
+      "modified": "2017-11-14T08:59:49+01:00"
     },
     {
-      "name": "Ergänzungen auf dem Spielplatz Haufes Berg",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14271",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "314060",
-        "317467"
-      ],
-      "resolutionFile": "320444",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/317412",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0052/17_mU",
+      "fileName": "00317412.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317412.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317412.pdf",
+      "created": "2017-10-10T13:42:40+02:00",
+      "modified": "2017-11-14T08:59:49+01:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/317770",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0053/17_oU",
+      "fileName": "00317770.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317770.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317770.pdf",
+      "created": "2017-10-13T07:45:58+02:00",
+      "modified": "2017-11-08T09:28:52+01:00"
     },
     {
-      "name": "Anmeldungen von Straßensperrungen, Verkehrsraumeinschränkungen und Bauarbeiten im öffentlichen Verkehrsraum der Stadt Dresden für das Jahr 2018",
-      "number": "Ö 7.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/318245",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Altfranken_V1792/17_mU-überarbeitet",
+      "fileName": "00318245.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00318245.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00318245.pdf",
+      "created": "2017-10-17T11:25:06+02:00",
+      "modified": "2017-11-14T08:59:49+01:00"
     },
     {
-      "name": "Information zu Ausschüssen und Befangenheitsfragen",
-      "number": "Ö 7.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/318246",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0053/17_mU-überarbeitet",
+      "fileName": "00318246.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00318246.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00318246.pdf",
+      "created": "2017-10-17T11:28:43+02:00",
+      "modified": "2017-11-14T08:59:49+01:00"
     },
     {
-      "name": "Änderung der Beschlussempfehlung zur Erweiterung des Radweg-Winterdienstes V1630/17",
-      "number": "Ö 7.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/319677",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00319677.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00319677.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00319677.pdf",
+      "created": "2017-10-25T14:51:26+02:00",
+      "modified": "2017-11-14T08:59:49+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/320442",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat_Altfranken_V_AF0053_17_mU-überarbeitet 2",
+      "fileName": "00320442.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-11-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00320442.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00320442.pdf",
+      "created": "2017-11-01T14:05:51+01:00",
+      "modified": "2017-11-14T08:59:49+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/320443",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat_Altfranken_V1792_17-überarbeitet 2",
+      "fileName": "00320443.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-11-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00320443.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00320443.pdf",
+      "created": "2017-11-01T14:06:22+01:00",
+      "modified": "2017-11-14T08:59:49+01:00"
     }
   ],
-  "id": "5807",
-  "participant": [
-    "300",
-    "1242",
-    "302",
-    "301",
-    "1243"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/94047",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "1",
+      "order": "1",
+      "name": "Bebauungsplan Nr. 174.2, Dresden-Altfranken Nr. 4, Ortsumbauung Altfranken",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/29422",
+      "result": "Zustimmung",
+      "created": "2017-09-06T09:20:51+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/94048",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "2",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 172.8, Dresden-Altfranken Nr. 2, Gewerbegebiet Kesselsdorfer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/29434",
+      "result": "Zustimmung",
+      "created": "2017-09-06T09:21:00+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/94038",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "3",
+      "order": "3",
+      "name": "Zweite Fortschreibung der Konzeption zur kurz- und mittelfristigen Entwicklung kommunaler Gewerbestandorte in der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/29486",
+      "result": "Zustimmung",
+      "created": "2017-09-06T09:12:21+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/94040",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "4",
+      "order": "4",
+      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Oberschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/29444",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2017-09-06T09:12:21+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/94295",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "5",
+      "order": "5",
+      "name": "Ausstattung der neuen Kindertageseinrichtung \"Farbenspiel\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30040",
+      "result": "Zustimmung",
+      "created": "2017-09-12T08:06:58+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/94296",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "6",
+      "order": "6",
+      "name": "Ergänzungen auf dem Spielplatz Haufes Berg",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30041",
+      "result": "Zustimmung",
+      "created": "2017-09-12T08:07:09+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/94042",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "7",
+      "order": "7",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2017-09-06T09:12:21+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95766",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "7.1",
+      "order": "8",
+      "name": "Anmeldungen von Straßensperrungen, Verkehrsraumeinschränkungen und Bauarbeiten im öffentlichen Verkehrsraum der Stadt Dresden für das Jahr 2018",
+      "public": true,
+      "created": "2017-10-25T14:28:35+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95767",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "7.2",
+      "order": "9",
+      "name": "Information zu Ausschüssen und Befangenheitsfragen",
+      "public": true,
+      "created": "2017-10-25T14:29:55+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/95768",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5807",
+      "number": "7.3",
+      "order": "10",
+      "name": "Änderung der Beschlussempfehlung zur Erweiterung des Radweg-Winterdienstes V1630/17",
+      "public": true,
+      "created": "2017-10-25T14:32:12+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

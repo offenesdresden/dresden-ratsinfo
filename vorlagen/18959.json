@@ -1,26 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18959",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Digitalisierung in Stadtbezirksbeiräten und Ortschaftsräten",
-  "shortName": "A-LB0003/20",
   "reference": "A-LB0003/20",
+  "date": "2020-05-18",
   "paperType": "Antrag Ortschaft Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-05-18",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/474633",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Langebrück",
+    "fileName": "00474633.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-05-18",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00474633.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00474633.pdf",
+    "created": "2020-05-18T09:46:25+02:00",
+    "modified": "2020-05-26T16:00:19+02:00"
+  },
   "auxiliaryFile": [
-    "475646",
-    "474633",
-    "474639"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/474639",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag Digitalisierung in den Stadtbezirksbeiräten und Ortschaftsräten",
+      "fileName": "00474639.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00474639.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00474639.pdf",
+      "created": "2020-05-18T09:55:11+02:00",
+      "modified": "2020-05-26T16:00:19+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/475646",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Langebrück A-LB0003/20",
+      "fileName": "00475646.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00475646.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00475646.pdf",
+      "created": "2020-05-25T09:18:21+02:00",
+      "modified": "2020-05-26T16:00:19+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9317",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42365",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18959",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/132165",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9317",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-05-18T09:57:04+02:00",
+      "modified": "2021-02-16T08:46:41+01:00"
     }
   ],
-  "id": "18959"
+  "created": "2020-05-18T09:46:09+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

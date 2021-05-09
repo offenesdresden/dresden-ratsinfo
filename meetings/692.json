@@ -1,38 +1,114 @@
 {
-  "shortName": "SG/019/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Soziales, Gesundheit und Wohnen - 02.12.2010 - 16:00-18:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "18"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/692",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "19. Sitzung des Ausschusses für Soziales, Gesundheit und Wohnen",
   "start": "2010-12-02T16:00:00+01:00",
   "end": "2010-12-02T18:20:00+01:00",
-  "invitation": "49098",
-  "resultsProtocol": "50022",
-  "verbatimProtocol": "50670",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/18"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/45",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/92",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/950",
+    "http://oparl.dresden.de/bodies/0001/people/451",
+    "http://oparl.dresden.de/bodies/0001/people/269",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/70",
+    "http://oparl.dresden.de/bodies/0001/people/716"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/49098",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SG",
+    "fileName": "00049098.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-11-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00049098.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00049098.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/50022",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_A0275_10_SG",
+    "fileName": "00050022.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-12-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050022.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050022.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Analyse der Arbeit der ARGE Dresden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Änderung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/49098",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SG",
+      "fileName": "00049098.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-11-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00049098.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00049098.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/50022",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_A0275_10_SG",
+      "fileName": "00050022.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050022.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050022.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/50670",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00050670.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050670.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050670.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "692",
-  "participant": [
-    "7",
-    "28",
-    "45",
-    "277",
-    "78",
-    "92",
-    "950",
-    "278",
-    "451",
-    "269",
-    "51",
-    "70",
-    "716"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14803",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/692",
+      "number": "1",
+      "order": "1",
+      "name": "Analyse der Arbeit der ARGE Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4528",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

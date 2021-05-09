@@ -1,136 +1,182 @@
 {
-  "shortName": "OBR Lo/024/2012",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Loschwitz, Beratungsraum, 2. Etage,Grundstraße 3, 01326 Dresden",
-  "name": "Ortsbeirat Loschwitz - 18.04.2012 - 17:00-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "38"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Ortsbeirates Loschwitz",
   "start": "2012-04-18T17:00:00+02:00",
   "end": "2012-04-18T19:30:00+02:00",
-  "invitation": "94362",
-  "verbatimProtocol": "96122",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/29",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Grundstraße 3",
+    "room": "Ortsamt Loschwitz, Beratungsraum",
+    "postalCode": "01326",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:11+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/38"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/619",
+    "http://oparl.dresden.de/bodies/0001/people/621",
+    "http://oparl.dresden.de/bodies/0001/people/623",
+    "http://oparl.dresden.de/bodies/0001/people/625",
+    "http://oparl.dresden.de/bodies/0001/people/627",
+    "http://oparl.dresden.de/bodies/0001/people/633",
+    "http://oparl.dresden.de/bodies/0001/people/638",
+    "http://oparl.dresden.de/bodies/0001/people/630",
+    "http://oparl.dresden.de/bodies/0001/people/632",
+    "http://oparl.dresden.de/bodies/0001/people/1085"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/94362",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Lo",
+    "fileName": "00094362.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-04-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00094362.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00094362.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 23. Ortsbeiratssitzung am 21.03.2012",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/94362",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Lo",
+      "fileName": "00094362.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00094362.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00094362.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 372, Dresden-Wachwitz Nr. 2, Wachwitzer Bergstraßehier:\t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplanes",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5090",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "97886",
-      "auxiliaryFile": [
-        "93501",
-        "80929",
-        "79325",
-        "80353",
-        "79327"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Namensgebung der 59. Grundschule, Kurparkstraße 12 in 01324 Dresden",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5504",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "102715",
-      "auxiliaryFile": [
-        "91745",
-        "91434",
-        "89203",
-        "89205"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Förderung von Hochwassereigenvorsorge",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5544",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105040",
-      "auxiliaryFile": [
-        "90992",
-        "104698"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 9,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Anträge und Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5639",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "102864",
-      "auxiliaryFile": [
-        "92888",
-        "112253"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen der Ortsamtsleiterin",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen der Bürger und des Ortsbeirates",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96122",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00096122.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096122.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096122.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2087",
-  "participant": [
-    "621",
-    "619",
-    "623",
-    "625",
-    "627",
-    "633",
-    "638",
-    "632",
-    "1085",
-    "630"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29145",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 23. Ortsbeiratssitzung am 21.03.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29147",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29151",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 372, Dresden-Wachwitz Nr. 2, Wachwitzer Bergstraße, hier: 1. Aufstellungsbeschluss Bebauungsplan, 2. Grenzen des Bebauungsplanes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8004",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "2.2",
+      "order": "4",
+      "name": "Namensgebung der 59. Grundschule, Kurparkstraße 12 in 01324 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9085",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29149",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "2.3",
+      "order": "5",
+      "name": "Förderung von Hochwassereigenvorsorge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9240",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29182",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "3",
+      "order": "6",
+      "name": "Anträge und Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29183",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "3.1",
+      "order": "7",
+      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9617",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "4",
+      "order": "8",
+      "name": "Informationen der Ortsamtsleiterin",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29153",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2087",
+      "number": "5",
+      "order": "9",
+      "name": "Anfragen der Bürger und des Ortsbeirates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

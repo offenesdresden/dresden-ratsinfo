@@ -1,100 +1,227 @@
 {
-  "shortName": "OSR GP/005/2009",
-  "locality": "Landeshauptstadt Dresden, im Gemeindezentrum Gompitz, Gemeindesaal,Altnossener Straße 46 a, 01156 Dresden, OT Pennrich",
-  "name": "Ortschaftsrat Gompitz - 26.11.2009 - 19:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "9"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/371",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Ortschaftsrates Gompitz",
   "start": "2009-11-26T19:30:00+01:00",
   "end": "2009-11-26T21:30:00+01:00",
-  "invitation": "13921",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/22",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Altnossener Straße 46 a",
+    "room": "Ortschaft Gompitz, Gemeindesaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/13921",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung - OSR GP",
+    "fileName": "00013921.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-11-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00013921.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00013921.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Feststellung ordnungsgemäße Ladung/ Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Stellungnahme zum Flächennutzungsplan-Vorentwurf in der Fassung vom 26.11.2008",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Fläche: OT Gompitz, zwischen Wasserbehälter und \"Alte Gärtnereien\" (Entwicklungsfläche I)",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Fläche: OT Gompitz, Altnossener Straße, Flurstück 92 + 93 (Entwicklungsfläche II)",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Fläche: OT Ockerwitz, Stadtblick (Vorzugsvariante einschließlich Variante 2)",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Fläche: OT Pennrich, zwischen Oskar-Maune-Straße/ Straßenbahn und Gewerbegebiet und Pennricher Höhe",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Verwendung der Verfügungsmittel",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zum Antrag der Ev.-Luth. Kirchgemeinde Unkersdorf auf finanzielle Unterstützung zur Holzwurmbekämpfung in der Unkersdorfer Kirche",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur finanziellen Unterstützung des Bücherstübchen Ockerwitz für den Erwerb von neuem Lesematerial",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur finanziellen Unterstützung der 74. Grundschule für den Erwerb von neuem Lesematerial",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur finanziellen Unterstützung der Kindertagesstätte \"Gompitzer Spatzennest e. V.\" für den Erwerb von neuem Lesematerial",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Bereitstellung finanzieller Mittel für die Anfertigung von Ansichtskarten der Ortschaft Gompitz",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Verwendung von Verfügungsmitteln für die Sanierung des Wanderweges im Zschonergrund",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Verwendung der Allgemeinen Rücklage",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/13921",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung - OSR GP",
+      "fileName": "00013921.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00013921.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00013921.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "371",
-  "participant": [
-    "320",
-    "324",
-    "322",
-    "317",
-    "321",
-    "323",
-    "319",
-    "318",
-    "330",
-    "327",
-    "329",
-    "326",
-    "328"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "1",
+      "order": "1",
+      "name": "Feststellung ordnungsgemäße Ladung/ Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4521",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "2",
+      "order": "2",
+      "name": "Stellungnahme zum Flächennutzungsplan-Vorentwurf in der Fassung vom 26.11.2008",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3917",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "2.1",
+      "order": "3",
+      "name": "Beschluss zur Fläche: OT Gompitz, zwischen Wasserbehälter und \"Alte Gärtnereien\" (Entwicklungsfläche I)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1678",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4522",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "2.2",
+      "order": "4",
+      "name": "Beschluss zur Fläche: OT Gompitz, Altnossener Straße, Flurstück 92 + 93 (Entwicklungsfläche II)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1892",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4523",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "2.3",
+      "order": "5",
+      "name": "Beschluss zur Fläche: OT Ockerwitz, Stadtblick (Vorzugsvariante einschließlich Variante 2)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1893",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "2.4",
+      "order": "6",
+      "name": "Beschluss zur Fläche: OT Pennrich, zwischen Oskar-Maune-Straße/ Straßenbahn und Gewerbegebiet und Pennricher Höhe",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1894",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4368",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "3",
+      "order": "7",
+      "name": "Beschluss zur Verwendung der Verfügungsmittel",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4363",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "3.1",
+      "order": "8",
+      "name": "Beschluss zum Antrag der Ev.-Luth. Kirchgemeinde Unkersdorf auf finanzielle Unterstützung zur Holzwurmbekämpfung in der Unkersdorfer Kirche",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1849",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4364",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "3.2",
+      "order": "9",
+      "name": "Beschluss zur finanziellen Unterstützung des Bücherstübchen Ockerwitz für den Erwerb von neuem Lesematerial",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1850",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4365",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "3.3",
+      "order": "10",
+      "name": "Beschluss zur finanziellen Unterstützung der 74. Grundschule für den Erwerb von neuem Lesematerial",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1851",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4366",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "3.4",
+      "order": "11",
+      "name": "Beschluss zur finanziellen Unterstützung der Kindertagesstätte \"Gompitzer Spatzennest e. V.\" für den Erwerb von neuem Lesematerial",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1852",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4367",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "3.5",
+      "order": "12",
+      "name": "Beschluss zur Bereitstellung finanzieller Mittel für die Anfertigung von Ansichtskarten der Ortschaft Gompitz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1853",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3918",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "3.6",
+      "order": "13",
+      "name": "Beschluss zur Verwendung von Verfügungsmitteln für die Sanierung des Wanderweges im Zschonergrund",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1450",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3919",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/371",
+      "number": "4",
+      "order": "14",
+      "name": "Beschluss zur Verwendung der Allgemeinen Rücklage",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1679",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

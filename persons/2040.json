@@ -1,23 +1,26 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/2040",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Ullrich Rettinghaus",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Rettinghaus",
+  "givenName": "Ullrich",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9542",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2040",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/51",
       "role": "Ortschaftsratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "51",
-      "startDate": "2019-08-19"
+      "votingRight": true,
+      "startDate": "2019-08-19",
+      "created": "2019-08-19T09:43:41+02:00",
+      "modified": "2019-08-19T09:43:41+02:00"
     }
   ],
-  "status": [
-    "CDU"
-  ],
-  "id": "2040",
-  "postalCode": "01465",
-  "locality": "Dresden",
-  "streetAddress": "Lessingstraße 16"
+  "created": "2019-08-19T09:43:20+02:00",
+  "modified": "2021-05-07T05:21:12+02:00",
+  "web": ""
 }

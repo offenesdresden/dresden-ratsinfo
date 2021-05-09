@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/4100",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Förderung von Angeboten der Träger der freien Jugendhilfe 2011 - Ergänzung Beschluss zur Vorlage V0884/10",
-  "shortName": "V0884-1/10",
   "reference": "V0884-1/10",
+  "date": "2011-05-02",
   "paperType": "EILT-Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2011-05-02",
   "auxiliaryFile": [
-    "63593",
-    "62381"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/62381",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00062381.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-05-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00062381.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00062381.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/63593",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0884-1/10",
+      "fileName": "00063593.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-05-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00063593.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00063593.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/45"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1106",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/6411",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/4100",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/19363",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1106",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4100"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,186 +1,205 @@
 {
-  "shortName": "OBR Pl/022/2012",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Plauen, Ratssaal,Nöthnitzer Straße 2, 01187 Dresden",
-  "name": "Ortsbeirat Plauen - 08.05.2012 - 17:30-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "22. Sitzung des Ortsbeirates Plauen",
   "start": "2012-05-08T17:30:00+02:00",
   "end": "2012-05-08T20:30:00+02:00",
-  "invitation": "96175",
-  "verbatimProtocol": "98608",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1840",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Nöthnitzer Straße 2",
+    "room": "Ortsamt Plauen, Ratssaal",
+    "postalCode": "01187",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:30+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/732",
+    "http://oparl.dresden.de/bodies/0001/people/734",
+    "http://oparl.dresden.de/bodies/0001/people/736",
+    "http://oparl.dresden.de/bodies/0001/people/738",
+    "http://oparl.dresden.de/bodies/0001/people/739",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/743",
+    "http://oparl.dresden.de/bodies/0001/people/744",
+    "http://oparl.dresden.de/bodies/0001/people/746",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/750",
+    "http://oparl.dresden.de/bodies/0001/people/752",
+    "http://oparl.dresden.de/bodies/0001/people/753",
+    "http://oparl.dresden.de/bodies/0001/people/754",
+    "http://oparl.dresden.de/bodies/0001/people/758",
+    "http://oparl.dresden.de/bodies/0001/people/760",
+    "http://oparl.dresden.de/bodies/0001/people/762"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/96175",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pl",
+    "fileName": "00096175.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-04-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096175.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096175.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96175",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pl",
+      "fileName": "00096175.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096175.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096175.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 387, Dresden-Altstadt II Nr. 25, Wohnbebauung Chemnitzer Straßehier:1. Aufstellungsbeschluss Bebauungsplan2. Grenzen des räumlichen Geltungsbereiches des Bebauungsplanes3. Entfall des frühzeitigen Beteiligungsverfahrens",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5720",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "97904",
-      "auxiliaryFile": [
-        "95854",
-        "94997",
-        "94719",
-        "94720"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5506",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "104879",
-      "auxiliaryFile": [
-        "206796",
-        "271762",
-        "297656",
-        "147564",
-        "119337",
-        "137813",
-        "148143",
-        "165981",
-        "181838",
-        "194904",
-        "226341",
-        "250411",
-        "90074",
-        "89428",
-        "89226",
-        "89227",
-        "89247",
-        "89621",
-        "89458",
-        "89520",
-        "104689",
-        "104690",
-        "104692"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Förderung von Hochwassereigenvorsorge",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5544",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105040",
-      "auxiliaryFile": [
-        "90992",
-        "104698"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 2,
-        "neutral": 6,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Patenschaften für Baumscheiben",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5633",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108801",
-      "auxiliaryFile": [
-        "92834",
-        "92828"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5634",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108805",
-      "auxiliaryFile": [
-        "92885"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5639",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "102864",
-      "auxiliaryFile": [
-        "92888",
-        "112253"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/98608",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00098608.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098608.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098608.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2147",
-  "participant": [
-    "401",
-    "732",
-    "739",
-    "738",
-    "734",
-    "736",
-    "743",
-    "741",
-    "744",
-    "746",
-    "748",
-    "750",
-    "754",
-    "752",
-    "753",
-    "758",
-    "760",
-    "762"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29994",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29996",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30001",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "2.1",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 387, Dresden-Altstadt II Nr. 25, Wohnbebauung Chemnitzer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9733",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30002",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "2.2",
+      "order": "4",
+      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9101",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29997",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "2.3",
+      "order": "5",
+      "name": "Förderung von Hochwassereigenvorsorge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9243",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30003",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "3",
+      "order": "6",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29998",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "3.1",
+      "order": "7",
+      "name": "Patenschaften für Baumscheiben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9488",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29999",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "3.2",
+      "order": "8",
+      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9511",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30000",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "3.3",
+      "order": "9",
+      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9615",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30004",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2147",
+      "number": "4",
+      "order": "10",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

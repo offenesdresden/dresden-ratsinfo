@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17912",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Festlegung der Personen, die im Jahr 2019 für ihr ehrenamtliches Engagement in und für die Ortschaft Mobschatz geehrt werden",
-  "shortName": "V-MB0002/19",
   "reference": "V-MB0002/19",
+  "date": "2019-10-29",
   "paperType": "Vorlage OS Mobschatz",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/438985",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Mobschatz",
+    "fileName": "00438985.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00438985.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00438985.pdf",
+    "created": "2019-10-29T09:24:26+01:00",
+    "modified": "2019-10-29T12:30:56+01:00"
+  },
   "auxiliaryFile": [
-    "438985",
-    "443294"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443294",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Mobschatz_V-MB0002/19_mU",
+      "fileName": "00443294.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443294.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443294.pdf",
+      "created": "2019-11-14T15:27:57+01:00",
+      "modified": "2019-11-15T06:24:36+01:00"
+    }
   ],
-  "id": "17912",
-  "publishedDate": "2019-10-29",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/41"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8487",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39808",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17912",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123541",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8487",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/45"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-29T10:28:23+01:00",
+      "modified": "2019-11-22T16:14:01+01:00"
     }
-  ]
+  ],
+  "created": "2019-10-29T09:22:57+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

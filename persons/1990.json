@@ -1,23 +1,29 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1990",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Nicole Oberüber",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "170",
-      "startDate": "2019-09-30"
-    }
-  ],
-  "status": [
-    "Bündnis 90/Die Grünen"
-  ],
+  "familyName": "Oberüber",
+  "givenName": "Nicole",
+  "formOfAddress": "Frau",
+  "gender": "weiblich",
   "email": [
     "nicoleoberueber@web.de"
   ],
-  "id": "1990"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10144",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1990",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/170",
+      "role": "Mitglied Stadtbezirksbeirat",
+      "votingRight": true,
+      "startDate": "2019-09-30",
+      "created": "2019-09-30T09:10:45+02:00",
+      "modified": "2019-10-22T12:03:25+02:00"
+    }
+  ],
+  "created": "2019-07-24T13:41:37+02:00",
+  "modified": "2021-05-06T10:06:43+02:00",
+  "web": ""
 }

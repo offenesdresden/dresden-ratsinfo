@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/12778",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2016-65-00248 Energetische Sanierung und Brandschutz, Schule für Erziehungshilfe, Zinzendorfstraße 4, 01069 Dresden, Los 2 - Tiefbau und Freianlagen",
-  "shortName": "V1329/16",
   "reference": "V1329/16",
+  "date": "2016-09-05",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2016-08-11",
   "auxiliaryFile": [
-    "270541"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/270541",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V1329_16_mU",
+      "fileName": "00270541.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00270541.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00270541.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5390",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/25976",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/12778",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/82673",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5390",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "12778"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

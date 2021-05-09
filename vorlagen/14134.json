@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/14134",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2017-65-00323, 84. Grundschule, In der Gartenstadt, Heinrich-Tessenow-Weg 28, 01109 Dresden, Los VE01.1 - Rohbauarbeiten TO 1 + 2",
-  "shortName": "V1908/17",
   "reference": "V1908/17",
+  "date": "2017-08-11",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2017-08-07",
   "auxiliaryFile": [
-    "312864"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/312864",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V1908/17_mU",
+      "fileName": "00312864.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-09-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00312864.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00312864.pdf",
+      "created": "2017-09-01T10:11:30+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6269",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/29634",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/14134",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/93129",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6269",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2017-08-11T12:11:22+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "14134"
+  "created": "2017-08-07T07:32:02+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

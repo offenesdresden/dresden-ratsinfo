@@ -1,59 +1,162 @@
 {
-  "shortName": "SB/085/2014",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Stadtentwicklung und Bau - 16.06.2014 - 16:00-18:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "11"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3908",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "85. Sitzung des Ausschusses für Stadtentwicklung und Bau (Sondersitzung)",
   "start": "2014-06-16T16:00:00+02:00",
   "end": "2014-06-16T18:00:00+02:00",
-  "invitation": "172276",
-  "verbatimProtocol": "175392",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/29",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/716",
+    "http://oparl.dresden.de/bodies/0001/people/254",
+    "http://oparl.dresden.de/bodies/0001/people/887",
+    "http://oparl.dresden.de/bodies/0001/people/46"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/172276",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SB",
+    "fileName": "00172276.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-06-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00172276.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00172276.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "176097",
-    "176098",
-    "176099",
-    "174842",
-    "174845",
-    "174843"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/172276",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SB",
+      "fileName": "00172276.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00172276.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00172276.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/174842",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "TOP 1 Antrag Bündnis 90/Die Grünen",
+      "fileName": "00174842.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00174842.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00174842.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/174843",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "TOP 1 Antrag CDU",
+      "fileName": "00174843.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00174843.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00174843.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/174845",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "TOP 1 Antrag Bündnis 90/Die Grünen 2",
+      "fileName": "00174845.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00174845.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00174845.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/175392",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00175392.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-07-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00175392.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00175392.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/176097",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich Anlage 1",
+      "fileName": "00176097.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-07-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00176097.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00176097.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/176098",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich Anlage 2",
+      "fileName": "00176098.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-07-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00176098.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00176098.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/176099",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich Anlage 3",
+      "fileName": "00176099.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-07-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00176099.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00176099.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999hier:\t1. Billigung der Abwägung über die Stellungnahmen aus der frühzeitigen Beteiligung2. Billigung des Entwurfes des Flächennutzungsplanes3. Billigung der Begründung mit Umweltbericht zum Entwurf des Flächennutzungsplanes4. Öffentliche Auslegung des Entwurfes des Flächennutzungsplanes",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "175398",
-      "auxiliaryFile": [
-        "182374",
-        "206715",
-        "228917",
-        "132554",
-        "132516",
-        "106470",
-        "266493",
-        "109725"
-      ],
-      "result": "Zustimmung mit Ergänzung"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54434",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3908",
+      "number": "1",
+      "order": "1",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10802",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "3908",
-  "participant": [
-    "29",
-    "38",
-    "66",
-    "87",
-    "640",
-    "62",
-    "274",
-    "716",
-    "265",
-    "254",
-    "887",
-    "46"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

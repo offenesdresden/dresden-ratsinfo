@@ -1,145 +1,265 @@
 {
-  "shortName": "OSR WX/038/2018",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 15.01.2018 - 19:00-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "38. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2018-01-15T19:00:00+01:00",
   "end": "2018-01-15T20:45:00+01:00",
-  "invitation": "328550",
-  "resultsProtocol": "330347",
-  "auxiliaryFile": [
-    "332133",
-    "332136",
-    "332137",
-    "332125"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
   ],
-  "verbatimProtocol": "330459",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/1264",
+    "http://oparl.dresden.de/bodies/0001/people/1265",
+    "http://oparl.dresden.de/bodies/0001/people/1645",
+    "http://oparl.dresden.de/bodies/0001/people/391",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/1266"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/328550",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00328550.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-01-08",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00328550.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00328550.pdf",
+    "created": "2018-01-04T08:40:08+01:00",
+    "modified": "2018-01-08T14:14:50+01:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/330347",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung",
+    "fileName": "00330347.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-01-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00330347.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00330347.pdf",
+    "created": "2018-01-17T10:44:05+01:00",
+    "modified": "2018-04-05T13:03:15+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/328550",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00328550.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00328550.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00328550.pdf",
+      "created": "2018-01-04T08:40:08+01:00",
+      "modified": "2018-01-08T14:14:50+01:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/330347",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung",
+      "fileName": "00330347.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00330347.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00330347.pdf",
+      "created": "2018-01-17T10:44:05+01:00",
+      "modified": "2018-04-05T13:03:15+02:00"
     },
     {
-      "name": "Aufhebung der Satzung der Landeshauptstadt Dresden zur Durchführung von Einwohneranträgen, Bürgerbegehren sowie Bürgerentscheiden (Bürgerentscheidsatzung) vom 8. Juni 2006",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14362",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "340753",
-      "auxiliaryFile": [
-        "357241",
-        "391408",
-        "485319",
-        "520233",
-        "325000",
-        "324456",
-        "317048",
-        "317165",
-        "317061",
-        "318489",
-        "337044"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/330459",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00330459.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00330459.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00330459.pdf",
+      "created": "2018-01-18T07:55:58+01:00",
+      "modified": "2018-02-01T07:57:12+01:00"
     },
     {
-      "name": "Empfehlung des Ortschaftsrates zur Geschwindigkeitsbeschränkung an der Königsbrücker Landstraße",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/332125",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0042/18_mU",
+      "fileName": "00332125.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00332125.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00332125.pdf",
+      "created": "2018-01-30T13:50:57+01:00",
+      "modified": "2018-02-01T07:57:12+01:00"
     },
     {
-      "name": "Haushalteckwerte für die Verfügungsmittel/ Investpauschale des Ortschaftsrates 2018",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/332133",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0039/17_mU",
+      "fileName": "00332133.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00332133.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00332133.pdf",
+      "created": "2018-01-30T13:54:31+01:00",
+      "modified": "2018-02-01T07:57:12+01:00"
     },
     {
-      "name": "Stellungnahme zum Entwurf des Regionalplanes Oberes Elbtal/ Osterzgebirge, 2. Gesamtfortschreibung",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/332136",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0040/18_mU",
+      "fileName": "00332136.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00332136.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00332136.pdf",
+      "created": "2018-01-30T13:57:52+01:00",
+      "modified": "2018-02-01T07:57:12+01:00"
     },
     {
-      "name": "Landschaftsplan der Landeshauptstadt Dresden in der Fassung August 2017",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Antrag zum Standort für den Ersatzneubau einer Schwimmhalle für den Dresdner Norden",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14710",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "328803"
-      ],
-      "resolutionFile": "332983",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/332137",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0041/18_mU",
+      "fileName": "00332137.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-01-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00332137.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00332137.pdf",
+      "created": "2018-01-30T13:59:37+01:00",
+      "modified": "2018-02-01T07:57:12+01:00"
     }
   ],
-  "id": "6970",
-  "participant": [
-    "298",
-    "1645",
-    "1265",
-    "383",
-    "1264",
-    "391",
-    "1266",
-    "386"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97906",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2018-01-04T07:15:51+01:00",
+      "modified": "2019-08-14T13:31:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97907",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
+      "public": true,
+      "created": "2018-01-04T07:16:49+01:00",
+      "modified": "2019-08-14T13:31:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97935",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "3",
+      "order": "3",
+      "name": "Aufhebung der Satzung der Landeshauptstadt Dresden zur Durchführung von Einwohneranträgen, Bürgerbegehren sowie Bürgerentscheiden (Bürgerentscheidsatzung) vom 8. Juni 2006",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30274",
+      "result": "Zustimmung",
+      "created": "2018-01-04T13:28:25+01:00",
+      "modified": "2019-08-14T13:31:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/98005",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "4",
+      "order": "4",
+      "name": "Empfehlung des Ortschaftsrates zur Geschwindigkeitsbeschränkung an der Königsbrücker Landstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31194",
+      "result": "Zustimmung",
+      "created": "2018-01-08T08:11:25+01:00",
+      "modified": "2019-08-14T13:31:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97936",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "5",
+      "order": "5",
+      "name": "Haushalteckwerte für die Verfügungsmittel/ Investpauschale des Ortschaftsrates 2018",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31142",
+      "result": "Zustimmung",
+      "created": "2018-01-04T13:28:38+01:00",
+      "modified": "2019-08-14T13:31:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/98003",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "6",
+      "order": "6",
+      "name": "Stellungnahme zum Entwurf des Regionalplanes Oberes Elbtal/ Osterzgebirge, 2. Gesamtfortschreibung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31192",
+      "result": "Zustimmung",
+      "created": "2018-01-08T06:57:14+01:00",
+      "modified": "2019-08-14T13:31:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97165",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "7",
+      "order": "7",
+      "name": "Landschaftsplan der Landeshauptstadt Dresden in der Fassung August 2017",
+      "public": true,
+      "created": "2017-12-05T13:47:10+01:00",
+      "modified": "2019-08-14T13:31:14+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/98004",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "8",
+      "order": "8",
+      "name": "Antrag zum Standort für den Ersatzneubau einer Schwimmhalle für den Dresdner Norden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31193",
+      "result": "Zustimmung",
+      "created": "2018-01-08T07:39:22+01:00",
+      "modified": "2019-08-14T13:31:14+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "9",
+      "order": "9",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2018-01-04T07:18:10+01:00",
+      "modified": "2019-08-14T13:31:14+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6970",
+      "number": "10",
+      "order": "10",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2018-01-04T07:18:29+01:00",
+      "modified": "2019-08-14T13:31:14+02:00"
+    }
+  ],
+  "created": "2017-10-16T13:24:22+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

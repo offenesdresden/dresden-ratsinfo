@@ -1,199 +1,267 @@
 {
-  "shortName": "OSR OW/006/2020",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 25.02.2020 - 18:30-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2020-02-25T18:30:00+01:00",
   "end": "2020-02-25T20:30:00+01:00",
-  "invitation": "458894",
-  "auxiliaryFile": [
-    "462378",
-    "462376",
-    "461944",
-    "462380",
-    "463032"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
-  "resultsProtocol": "462558",
-  "verbatimProtocol": "462449",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/1256",
+    "http://oparl.dresden.de/bodies/0001/people/1654",
+    "http://oparl.dresden.de/bodies/0001/people/2030"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/458894",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00458894.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00458894.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00458894.pdf",
+    "created": "2020-02-13T16:54:38+01:00",
+    "modified": "2020-02-13T16:57:29+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/458894",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00458894.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00458894.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00458894.pdf",
+      "created": "2020-02-13T16:54:38+01:00",
+      "modified": "2020-02-13T16:57:29+01:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.01.2020",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/461944",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Oberwartha_A-OW0010/20_oU",
+      "fileName": "00461944.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461944.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461944.pdf",
+      "created": "2020-03-03T07:40:43+01:00",
+      "modified": "2020-03-06T09:53:37+01:00"
     },
     {
-      "name": "Fortschreibung Kleingartenentwicklungskonzept",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17672",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "479008",
-      "auxiliaryFile": [
-        "520220",
-        "454635",
-        "452798",
-        "451702",
-        "430837",
-        "430857",
-        "430858",
-        "430859",
-        "430860",
-        "430862",
-        "466775",
-        "461584",
-        "472479",
-        "475099"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/462376",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha_V0009/19_mU",
+      "fileName": "00462376.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462376.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462376.pdf",
+      "created": "2020-03-04T07:57:04+01:00",
+      "modified": "2020-03-09T10:23:16+01:00"
     },
     {
-      "name": "Digitalisierung in Stadtbezirksbeiräten und Ortschaftsräten",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18282",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "488203",
-      "auxiliaryFile": [
-        "452419",
-        "478801",
-        "468406",
-        "487149"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 6,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/462378",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha_A0028/20_mU",
+      "fileName": "00462378.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462378.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462378.pdf",
+      "created": "2020-03-04T07:59:22+01:00",
+      "modified": "2020-03-09T10:23:16+01:00"
     },
     {
-      "name": "Brauchtum in der Ortschaft erhalten",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18445",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "458608"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/462380",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0010/20_mU",
+      "fileName": "00462380.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462380.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462380.pdf",
+      "created": "2020-03-04T08:01:31+01:00",
+      "modified": "2020-03-09T10:23:16+01:00"
     },
     {
-      "name": "Verfügungsmittel für die Anschaffung von Bänken für die Ortschaft Oberwartha",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18440",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "458034",
-        "462044"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/462449",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00462449.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462449.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462449.pdf",
+      "created": "2020-03-04T09:56:57+01:00",
+      "modified": "2020-03-09T10:23:16+01:00"
     },
     {
-      "name": "Verfügungsfonds Ortsvorsteher Oberwartha 2020",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18439",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "462379",
-      "auxiliaryFile": [
-        "526360",
-        "458027"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/462558",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_ORS Oberwartha_A-OW0012/20_oU",
+      "fileName": "00462558.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00462558.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00462558.pdf",
+      "created": "2020-03-04T12:29:56+01:00",
+      "modified": "2020-03-06T09:53:37+01:00"
     },
     {
-      "name": "Aufstellung von Outdoor Sportgeräten im Bereich der Ortschaft Oberwartha \"Spiel-, Sportplatz Fünf Brüder\"",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18441",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "493341",
-        "458051",
-        "462033",
-        "462022"
-      ],
-      "resolutionFile": "463031",
-      "result": "Ersetzung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ausgleichsflächen/Arrondierungen von Waldflächen",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18442",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "458059",
-        "462024"
-      ],
-      "result": "zurückgezogen",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/463032",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0012/20_mU",
+      "fileName": "00463032.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00463032.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00463032.pdf",
+      "created": "2020-03-06T07:19:40+01:00",
+      "modified": "2020-03-09T10:23:16+01:00"
     }
   ],
-  "id": "9085"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127398",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2020-02-10T08:36:26+01:00",
+      "modified": "2020-02-10T11:01:02+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127399",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.01.2020",
+      "public": true,
+      "created": "2020-02-10T08:37:17+01:00",
+      "modified": "2020-02-10T11:01:02+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127400",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "3",
+      "order": "3",
+      "name": "Fortschreibung Kleingartenentwicklungskonzept",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40611",
+      "result": "Zustimmung",
+      "created": "2020-02-10T08:37:35+01:00",
+      "modified": "2020-03-03T07:30:51+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127403",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "4",
+      "order": "4",
+      "name": "Digitalisierung in Stadtbezirksbeiräten und Ortschaftsräten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40525",
+      "result": "Ablehnung",
+      "created": "2020-02-10T08:39:29+01:00",
+      "modified": "2020-03-03T07:34:26+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127418",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "5",
+      "order": "5",
+      "name": "Brauchtum in der Ortschaft erhalten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40955",
+      "result": "Vertagung",
+      "created": "2020-02-10T11:00:50+01:00",
+      "modified": "2020-03-03T07:39:47+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127397",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "6",
+      "order": "6",
+      "name": "Verfügungsmittel für die Anschaffung von Bänken für die Ortschaft Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40950",
+      "result": "Vertagung",
+      "created": "2020-02-10T08:10:57+01:00",
+      "modified": "2020-03-03T07:40:09+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127396",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "7",
+      "order": "7",
+      "name": "Verfügungsfonds Ortsvorsteher Oberwartha 2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40949",
+      "result": "Zustimmung",
+      "created": "2020-02-10T07:28:57+01:00",
+      "modified": "2020-03-09T09:57:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127411",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "8",
+      "order": "8",
+      "name": "Aufstellung von Outdoor Sportgeräten im Bereich der Ortschaft Oberwartha \"Spiel-, Sportplatz Fünf Brüder\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40951",
+      "result": "Ersetzung",
+      "created": "2020-02-10T09:50:19+01:00",
+      "modified": "2020-03-09T10:02:07+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127412",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "9",
+      "order": "9",
+      "name": "Ausgleichsflächen/Arrondierungen von Waldflächen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40952",
+      "result": "zurückgezogen",
+      "created": "2020-02-10T10:07:24+01:00",
+      "modified": "2020-03-03T08:08:27+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/127401",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9085",
+      "number": "10",
+      "order": "10",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2020-02-10T08:37:58+01:00",
+      "modified": "2020-02-11T15:50:36+01:00"
+    }
+  ],
+  "created": "2019-12-05T15:10:55+01:00",
+  "modified": "2021-05-07T11:42:07+02:00"
 }

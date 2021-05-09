@@ -1,87 +1,111 @@
 {
-  "shortName": "OBR Pl/003/2009",
-  "locality": null,
-  "name": "Ortsbeirat Plauen - 01.12.2009 - 18:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/25",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "3. Sitzung des Ortsbeirates Plauen",
   "start": "2009-12-01T18:00:00+01:00",
   "end": "2009-12-01T20:00:00+01:00",
-  "invitation": "14007",
-  "verbatimProtocol": "15834",
-  "agendaItem": [
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/14007",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung - OBR Pl",
+    "fileName": "00014007.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-11-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00014007.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00014007.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 2. Ortsbeiratssitzung am 3.11.2009",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/14007",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung - OBR Pl",
+      "fileName": "00014007.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00014007.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00014007.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Namensgebung der 55. Mittelschule",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "227",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "10338",
-        "3979",
-        "5444"
-      ]
-    },
-    {
-      "name": "Flächennutzungsplan-Änderung Nr. 46, Ortsamt Plauen, Strehlener Straße/Nordseitehier:1. Beschluss über Stellungnahmen aus dem frühzeitigen Beteiligungsverfahren2. Beschluss über Stellungnahmen aus der öffentlichen Auslegung3. Beschluss zur Änderung des Flächennutzungsplanes und Billigung der Begründung mit Umweltbericht zur Flächennutzungsplan-Änderung sowie der zusammenfassenden Erklärung nach § 6 Abs. 5 BauGB",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "577",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "11257",
-        "8073",
-        "8074",
-        "8075",
-        "8077",
-        "8065",
-        "8066",
-        "8069",
-        "8070",
-        "9137"
-      ],
-      "resolutionFile": "10949"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/15834",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00015834.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-12-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015834.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015834.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "25",
-  "participant": [
-    "401",
-    "732",
-    "739",
-    "738",
-    "734",
-    "736",
-    "743",
-    "741",
-    "744",
-    "746",
-    "748",
-    "750",
-    "754",
-    "756",
-    "758",
-    "760",
-    "762",
-    "753"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3924",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/25",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 2. Ortsbeiratssitzung am 3.11.2009",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3926",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/25",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3927",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/25",
+      "number": "2.1",
+      "order": "3",
+      "name": "Namensgebung der 55. Mittelschule",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/529",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3938",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/25",
+      "number": "2.2",
+      "order": "4",
+      "name": "Flächennutzungsplan-Änderung Nr. 46, Ortsamt Plauen, Strehlener Straße/Nordseite",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1040",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3929",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/25",
+      "number": "4",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

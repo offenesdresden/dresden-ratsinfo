@@ -1,34 +1,77 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16254",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Kostenloser Nahverkehr während des 1. Babyjahres und vergünstigtes Ticket bei längerer Elternzeit",
-  "shortName": "P0124/18",
   "reference": "P0124/18",
+  "date": "2018-12-20",
   "paperType": "Petition",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-12-20",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/386913",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Petition",
+    "fileName": "00386913.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-12-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00386913.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00386913.pdf",
+    "created": "2018-12-20T11:59:09+01:00",
+    "modified": "2018-12-20T13:29:15+01:00"
+  },
   "auxiliaryFile": [
-    "386913",
-    "386970"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/386970",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Petiton_geschwärzt",
+      "fileName": "00386970.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00386970.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00386970.pdf",
+      "created": "2018-12-20T13:20:32+01:00",
+      "modified": "2018-12-20T13:20:33+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/393547",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_P0124/18_mU",
+      "fileName": "00393547.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393547.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393547.pdf",
+      "created": "2019-02-06T09:15:22+01:00",
+      "modified": "2019-02-06T09:15:23+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/393553",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Bescheid nach abschließender Behandlung_P0124/18_geschwärzt",
+      "fileName": "00393553.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00393553.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00393553.pdf",
+      "created": "2019-02-06T09:31:21+01:00",
+      "modified": "2019-02-06T09:31:22+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7709",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7710",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35750",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16254",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/112590",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7710",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/158"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-01-17T09:08:03+01:00",
+      "modified": "2019-01-31T13:16:28+01:00"
     }
   ],
-  "id": "16254"
+  "created": "2018-12-20T11:55:03+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

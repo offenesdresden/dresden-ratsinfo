@@ -1,78 +1,177 @@
 {
-  "shortName": "SB/025/2016",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Ausschuss für Stadtentwicklung, Bau und Verkehr - 03.08.2016 - 16:00-21:41 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "150"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5461",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "25. Sitzung des Ausschusses für Stadtentwicklung, Bau und Verkehr",
   "start": "2016-08-03T16:00:00+02:00",
   "end": "2016-08-03T21:41:00+02:00",
-  "invitation": "261090",
-  "verbatimProtocol": "266029",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/150"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1532",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/668",
+    "http://oparl.dresden.de/bodies/0001/people/1231",
+    "http://oparl.dresden.de/bodies/0001/people/1233",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/652",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/1378"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/261090",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SB",
+    "fileName": "00261090.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-07-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00261090.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00261090.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/263770",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Festlegungen und Aufträge ö",
+    "fileName": "00263770.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-08-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00263770.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00263770.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "263770",
-    "267869",
-    "266308",
-    "266534",
-    "266309"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/261090",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SB",
+      "fileName": "00261090.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-07-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00261090.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00261090.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/263770",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö",
+      "fileName": "00263770.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00263770.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00263770.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/266029",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00266029.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00266029.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00266029.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/266308",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegung und Aufträge nö_SB_2016_08_03_A0223/16_1. Antwort",
+      "fileName": "00266308.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00266308.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00266308.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/266309",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegung und Aufträge nö_SB_2016_08_03_TOP 7 Informationen/Sonstiges_Antwort",
+      "fileName": "00266309.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00266309.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00266309.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/266534",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegung und Aufträge nö_SB_2016_08_03_A0229/16_Antwort",
+      "fileName": "00266534.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00266534.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00266534.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/267869",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegung und Aufträge nö_SB_ 2016_08_03_A0223/16_2. Antwort",
+      "fileName": "00267869.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00267869.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00267869.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 696, Dresden-Mickten, Lommatzscher Straße, Sconto Möbelmarkthier: öffentliche Auslegung des Entwurfs der Aufhebungssatzung des vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12022",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "246405",
-        "244713",
-        "243204",
-        "246300",
-        "241089",
-        "246233",
-        "246242",
-        "241092",
-        "246241",
-        "246308",
-        "246256",
-        "241097",
-        "241098",
-        "241099"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5461",
+      "number": "1",
+      "order": "1",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 696, Dresden-Mickten, Lommatzscher Straße, Sconto Möbelmarkt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24001",
       "result": "Vertagung",
-      "vote": {
-        "yes": 8,
-        "no": 7,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80830",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5461",
+      "number": "2",
+      "order": "2",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "5461",
-  "participant": [
-    "1532",
-    "676",
-    "266",
-    "66",
-    "87",
-    "640",
-    "1231",
-    "1233",
-    "668",
-    "274",
-    "652",
-    "265",
-    "1190",
-    "46",
-    "1237",
-    "1378"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

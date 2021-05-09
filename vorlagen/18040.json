@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18040",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Antrag des Heimatvereins auf Zuschuss für einen Gefrierschrank",
-  "shortName": "V-SB0108/19",
   "reference": "V-SB0108/19",
+  "date": "2019-11-26",
   "paperType": "Vorlage OS Schönborn",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/443998",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönborn",
+    "fileName": "00443998.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-11-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443998.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443998.pdf",
+    "created": "2019-11-18T15:01:11+01:00",
+    "modified": "2019-12-05T09:49:21+01:00"
+  },
   "auxiliaryFile": [
-    "443998",
-    "450916"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/450916",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0108/19_mU",
+      "fileName": "00450916.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00450916.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00450916.pdf",
+      "created": "2019-12-19T13:34:19+01:00",
+      "modified": "2019-12-19T13:34:20+01:00"
+    }
   ],
-  "id": "18040",
-  "publishedDate": "2019-11-18",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/39"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8493",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40008",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18040",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/125243",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8493",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-12-04T08:43:40+01:00",
+      "modified": "2020-01-02T14:32:20+01:00"
     }
-  ]
+  ],
+  "created": "2019-11-18T15:00:50+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

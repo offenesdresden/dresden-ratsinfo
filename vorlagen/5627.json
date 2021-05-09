@@ -1,75 +1,106 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/5627",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umsetzung der 8. Änderung des Stasi-Unterlagen-Gesetzes vom 22.12.2011",
-  "shortName": "V1589/12",
   "reference": "V1589/12",
+  "date": "2012-04-19",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2012-03-21",
   "auxiliaryFile": [
-    "102947",
-    "121008",
-    "96300",
-    "92567",
-    "92568"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/92567",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage V1589/12",
+      "fileName": "00092567.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-03-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00092567.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00092567.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/92568",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "SR-Beschluss V0193-SR07-04",
+      "fileName": "00092568.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-03-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00092568.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00092568.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/96300",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00096300.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096300.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096300.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/102947",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V1589/12",
+      "fileName": "00102947.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00102947.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00102947.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/121008",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK V1589/12 Abschlussbericht v. 2012-12-20",
+      "fileName": "00121008.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00121008.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00121008.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/2"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/9584",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/5627",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/30321",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1884",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/9584",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/5627",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/31231",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1885",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1693",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1884",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1885",
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "5627"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,144 +1,355 @@
 {
-  "shortName": "OSR LB/036/2012",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Langebrück, Beratungsraum,Weißiger Straße 5, 01465 Dresden OT Langebrück",
-  "name": "Ortschaftsrat Langebrück - 24.04.2012 - 18:35-22:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "51"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "36. Sitzung des Ortschaftsrates Langebrück",
   "start": "2012-04-24T18:35:00+02:00",
   "end": "2012-04-24T22:25:00+02:00",
-  "invitation": "95597",
-  "auxiliaryFile": [
-    "96978",
-    "96607",
-    "96735",
-    "96769",
-    "96763",
-    "96767",
-    "96768",
-    "96766",
-    "96765",
-    "96739",
-    "97093"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/33",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weißiger Straße 5",
+    "room": "Ortschaft Langebrück, Verwaltungsstelle",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Langebrück",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:09+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
   ],
-  "resultsProtocol": "96731",
-  "verbatimProtocol": "99393",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/331",
+    "http://oparl.dresden.de/bodies/0001/people/332",
+    "http://oparl.dresden.de/bodies/0001/people/333",
+    "http://oparl.dresden.de/bodies/0001/people/334",
+    "http://oparl.dresden.de/bodies/0001/people/335",
+    "http://oparl.dresden.de/bodies/0001/people/336",
+    "http://oparl.dresden.de/bodies/0001/people/337",
+    "http://oparl.dresden.de/bodies/0001/people/338",
+    "http://oparl.dresden.de/bodies/0001/people/340"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/95597",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR LB",
+    "fileName": "00095597.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-04-18",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00095597.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00095597.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/96607",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_Vorlage_Schulnetzplan",
+    "fileName": "00096607.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-04-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096607.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096607.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/95597",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR LB",
+      "fileName": "00095597.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00095597.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00095597.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96607",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Vorlage_Schulnetzplan",
+      "fileName": "00096607.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096607.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096607.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlusskontrollen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96731",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_13_14_Amt66",
+      "fileName": "00096731.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096731.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096731.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen durch den Ortsvorsteher",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96735",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_Amt_67",
+      "fileName": "00096735.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096735.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096735.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorlage der Oberbürgermeisterin der LHS Dresden V 1282/11",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96739",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_Umweltamt",
+      "fileName": "00096739.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096739.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096739.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5506",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "104879",
-      "auxiliaryFile": [
-        "206796",
-        "271762",
-        "297656",
-        "147564",
-        "119337",
-        "137813",
-        "148143",
-        "165981",
-        "181838",
-        "194904",
-        "226341",
-        "250411",
-        "90074",
-        "89428",
-        "89226",
-        "89227",
-        "89247",
-        "89621",
-        "89458",
-        "89520",
-        "104689",
-        "104690",
-        "104692"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 7,
-        "no": 2,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/96763",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_Amt40",
+      "fileName": "00096763.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096763.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096763.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5639",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "102864",
-      "auxiliaryFile": [
-        "92888",
-        "112253"
-      ],
-      "result": "Ablehnung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96765",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_GB2",
+      "fileName": "00096765.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096765.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096765.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Straßenreinigungsgebührensatzung (SRGS) 2013",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96766",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_Denkmalschutzamt",
+      "fileName": "00096766.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096766.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096766.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fragen an den Ortschaftsrat",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96767",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_Amt52",
+      "fileName": "00096767.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096767.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096767.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Termine",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96768",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_Amt61",
+      "fileName": "00096768.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096768.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096768.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96769",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Haushalt_Amt10",
+      "fileName": "00096769.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096769.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096769.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/96978",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Antrag_Ratsinformationssystem",
+      "fileName": "00096978.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096978.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096978.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/97093",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Straßenreinigungsgebührensatzung_2013",
+      "fileName": "00097093.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00097093.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00097093.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/99393",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00099393.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00099393.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00099393.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2189",
-  "participant": [
-    "331",
-    "337",
-    "332",
-    "333",
-    "336",
-    "335",
-    "334",
-    "338",
-    "340"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29812",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29813",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "3",
+      "order": "3",
+      "name": "Beschlusskontrollen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29814",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29815",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "5",
+      "order": "5",
+      "name": "Vorlage der Oberbürgermeisterin der LHS Dresden V 1282/11",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29816",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "6",
+      "order": "6",
+      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9106",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29817",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "7",
+      "order": "7",
+      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9543",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29818",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "8",
+      "order": "8",
+      "name": "Straßenreinigungsgebührensatzung (SRGS) 2013",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29819",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "9",
+      "order": "9",
+      "name": "Fragen an den Ortschaftsrat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29820",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "10",
+      "order": "10",
+      "name": "Termine",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29821",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2189",
+      "number": "11",
+      "order": "11",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,116 +1,175 @@
 {
-  "shortName": "OBR Neu/005/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 23.02.2015 - 17:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Ortsbeirates Neustadt",
   "start": "2015-02-23T17:30:00+01:00",
   "end": "2015-02-23T21:15:00+01:00",
-  "invitation": "195973",
-  "verbatimProtocol": "198654",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/641",
+    "http://oparl.dresden.de/bodies/0001/people/642",
+    "http://oparl.dresden.de/bodies/0001/people/649",
+    "http://oparl.dresden.de/bodies/0001/people/950",
+    "http://oparl.dresden.de/bodies/0001/people/1111",
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/657",
+    "http://oparl.dresden.de/bodies/0001/people/1365",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/1361",
+    "http://oparl.dresden.de/bodies/0001/people/664",
+    "http://oparl.dresden.de/bodies/0001/people/1359",
+    "http://oparl.dresden.de/bodies/0001/people/1370"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/195973",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_23.02.2015",
+    "fileName": "00195973.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-02-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00195973.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00195973.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 4. Ortsbeiratssitzung am 19.01.2015",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/195973",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_23.02.2015",
+      "fileName": "00195973.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00195973.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00195973.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Konzept zur Integration von Menschen mit Migrationshintergrund in der Landeshauptstadt Dresden (Integrationskonzept 2015 - 2020)",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9226",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "210054",
-      "auxiliaryFile": [
-        "217530",
-        "262309",
-        "302214",
-        "337295",
-        "404561",
-        "442942",
-        "523426",
-        "194667",
-        "192386",
-        "194666",
-        "186293",
-        "186295",
-        "209153"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Satzung über die Bereitstellung, Benutzung und Betreibung von Unterbringungseinrichtungen für Asylbewerber sowie Flüchtlinge nach § 3 SächsFlüAG",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9415",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "193874"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 1,
-        "no": 15,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prießnitz-Unterlauf - Naturnahe Gestaltung zwischen Hohensteiner und Bautzner Straße Vorstellung des Vorplanungsstandes zur frühzeitigen Information",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "sonstiges",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/198654",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_OBR Neu_23.02.2015",
+      "fileName": "00198654.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-03-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00198654.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00198654.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4240",
-  "participant": [
-    "641",
-    "642",
-    "1111",
-    "649",
-    "950",
-    "1365",
-    "650",
-    "653",
-    "1366",
-    "657",
-    "655",
-    "660",
-    "662",
-    "1361",
-    "664",
-    "1359",
-    "1370"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62667",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur . Ortsbeiratssitzung am",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62669",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62671",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "2.1",
+      "order": "3",
+      "name": "Konzept zur Integration von Menschen mit Migrationshintergrund in der Landeshauptstadt Dresden (Integrationskonzept 2015 - 2020)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18187",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62692",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "2.2",
+      "order": "4",
+      "name": "Satzung über die Bereitstellung, Benutzung und Betreibung von Unterbringungseinrichtungen für Asylbewerber sowie Flüchtlinge nach § 3 SächsFlüAG",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18411",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62695",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "3",
+      "order": "5",
+      "name": "Prießnitz-Unterlauf - Naturnahe Gestaltung zwischen Hohensteiner und Bautzner Straße Vorstellung des Vorplanungsstandes zur frühzeitigen Information",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62672",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "4",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62693",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "4.1",
+      "order": "7",
+      "name": "aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/62696",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4240",
+      "number": "4.2",
+      "order": "8",
+      "name": "sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

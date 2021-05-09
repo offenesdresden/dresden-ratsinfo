@@ -1,23 +1,12 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1133",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Detlev Schnabel",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Ortschaftsratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "9",
-      "startDate": "2013-02-04",
-      "endDate": "2014-08-31"
-    }
-  ],
-  "postalCode": "01156",
-  "locality": "Dresden",
-  "subLocality": "Gompitz",
-  "streetAddress": "Altnossener Straße 19 a",
+  "familyName": "Schnabel",
+  "givenName": "Detlev",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0351/4 16 42 47",
     "0152/08 60 33 88"
@@ -25,5 +14,21 @@
   "email": [
     "detlev.schnabel@gmail.com"
   ],
-  "id": "1133"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/4180",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1133",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/9",
+      "role": "Ortschaftsratsmitglied",
+      "votingRight": true,
+      "startDate": "2013-02-04",
+      "endDate": "2014-08-31",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

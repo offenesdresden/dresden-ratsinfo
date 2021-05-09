@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15988",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Erstellung eines Konzeptes zur zukünftigen Nutzung des kommunalen Flurstückes LB 182/1",
-  "shortName": "V-LB0106/18",
   "reference": "V-LB0106/18",
+  "date": "2018-11-19",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-10-29",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/375376",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00375376.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-11-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00375376.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00375376.pdf",
+    "created": "2018-10-29T12:14:11+01:00",
+    "modified": "2018-11-30T10:10:23+01:00"
+  },
   "auxiliaryFile": [
-    "375376",
-    "382839"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/382839",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Ortschaftsrat Langebrück V-LB0106/18_mU",
+      "fileName": "00382839.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00382839.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00382839.pdf",
+      "created": "2018-11-30T07:40:35+01:00",
+      "modified": "2018-11-30T10:10:23+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/456671",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Langebrück V-LB0106/18 Zwischeninfo vom 28.01.2020",
+      "fileName": "00456671.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00456671.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00456671.pdf",
+      "created": "2020-02-03T09:10:10+01:00",
+      "modified": "2020-11-10T12:50:26+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6597",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35054",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15988",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/108734",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6597",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-10-29T13:05:15+01:00",
+      "modified": "2020-12-07T13:59:22+01:00"
     }
   ],
-  "id": "15988"
+  "created": "2018-10-29T12:13:50+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

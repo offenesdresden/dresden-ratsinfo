@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19046",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer:  2020-65-00056, Kindertageseinrichtung Rudolf-Bergander-Ring - Gesamtsanierung WBS 70 KVSE (Wohnungsbauserie 70 Kombinierte Vorschuleinrichtung), Fachlos 44 - Elektrotechnik",
-  "shortName": "V0431/20",
   "reference": "V0431/20",
+  "date": "2020-06-08",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "481066"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/481066",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V0431/20_mU",
+      "fileName": "00481066.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00481066.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00481066.pdf",
+      "created": "2020-06-18T13:26:45+02:00",
+      "modified": "2020-06-18T16:08:28+02:00"
+    }
   ],
-  "id": "19046",
-  "publishedDate": "2020-06-05",
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8721",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42555",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19046",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/133318",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8721",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-06-08T09:50:59+02:00",
+      "modified": "2020-06-22T07:01:03+02:00"
     }
-  ]
+  ],
+  "created": "2020-06-05T09:30:56+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

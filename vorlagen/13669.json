@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/13669",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2017-65-00029, Energetische Sanierung und Brandschutz, Schule für Erziehungshilfe \"Erich Kästner\", 01069 Dresden, Zinzendorfstraße 4, Los 12 - Außenputzarbeiten",
-  "shortName": "V1688/17",
   "reference": "V1688/17",
+  "date": "2017-04-12",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2017-04-04",
   "auxiliaryFile": [
-    "299289"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/299289",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V1688/17_mU",
+      "fileName": "00299289.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-05-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00299289.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00299289.pdf",
+      "created": "2017-05-10T12:13:31+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6256",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/28205",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/13669",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/89526",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6256",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2017-04-12T13:57:19+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "13669"
+  "created": "2017-04-04T07:53:20+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

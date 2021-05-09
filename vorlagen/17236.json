@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17236",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-5540-00006, Unterhaltsreinigung und Grundreinigung für die Kindertageseinrichtungen im Stadtbezirk Loschwitz",
-  "shortName": "V3149/19",
   "reference": "V3149/19",
+  "date": "2019-07-16",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-06-27",
   "auxiliaryFile": [
-    "424361"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/424361",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V3149/19_mU",
+      "fileName": "00424361.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00424361.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00424361.pdf",
+      "created": "2019-08-01T07:52:08+02:00",
+      "modified": "2019-08-01T07:52:09+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7778",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38188",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17236",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/119400",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7778",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-07-16T07:38:55+02:00",
+      "modified": "2019-08-02T08:19:11+02:00"
     }
   ],
-  "id": "17236"
+  "created": "2019-06-27T13:47:46+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

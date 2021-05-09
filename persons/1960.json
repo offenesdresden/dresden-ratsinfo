@@ -1,20 +1,26 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1960",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Gerd Gerull",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Gerull",
+  "givenName": "Gerd",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10172",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1960",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/168",
       "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "168",
-      "startDate": "2019-10-07"
+      "votingRight": true,
+      "startDate": "2019-10-07",
+      "created": "2019-10-07T09:45:38+02:00",
+      "modified": "2019-10-07T09:48:56+02:00"
     }
   ],
-  "status": [
-    "AfD"
-  ],
-  "id": "1960"
+  "created": "2019-07-24T06:22:36+02:00",
+  "modified": "2021-05-06T09:56:45+02:00",
+  "web": ""
 }

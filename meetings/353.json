@@ -1,190 +1,263 @@
 {
-  "shortName": "SB/007/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Stadtentwicklung und Bau - 13.01.2010 - 16:00-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "11"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/353",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "7. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "start": "2010-01-13T16:00:00+01:00",
   "end": "2010-01-13T20:15:00+01:00",
-  "invitation": "17416",
-  "resultsProtocol": "18550",
-  "auxiliaryFile": [
-    "18551",
-    "18536",
-    "18537",
-    "18543",
-    "18541",
-    "18548"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
   ],
-  "verbatimProtocol": "20177",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/29",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/254",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/100",
+    "http://oparl.dresden.de/bodies/0001/people/291"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/17416",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SB_2010_01_13",
+    "fileName": "00017416.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-01-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00017416.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00017416.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/18536",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V0003/09",
+    "fileName": "00018536.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-01-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018536.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018536.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bebauungsplan Nr. 194, Dresden-Friedrichstadt Nr. 6, Stadthäuser Bramschgeländehier: 1. Billigung des Abwägung der Stellungnahmen aus der Offenlage        2. Teilungsbeschluss        3. Aussetzung der Plandurchführung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "2827",
-        "2089",
-        "2090",
-        "2084",
-        "2091"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/17416",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SB_2010_01_13",
+      "fileName": "00017416.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00017416.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00017416.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 194 A, Dresden-Friedrichstadt Nr. 9, Ehemaliges Kontorhaushier:\t1. Billigung des Entwurfs zum Bebauungsplan\t2. Billigung der Begründung zum Bebauunsplan-Entwurf\t3. Öffentliche Auslegung des Entwurfs zum Bebauungsplan",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "2779",
-        "2127",
-        "2129",
-        "2125",
-        "2126",
-        "2128"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/18536",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0003/09",
+      "fileName": "00018536.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018536.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018536.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 359, Dresden-Trachenberge Nr. 1, Döbelner Straße/Weinbergstraßehier: \t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplan",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "984",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "14957",
-        "14438",
-        "14439"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/18537",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0005/09",
+      "fileName": "00018537.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018537.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018537.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Außenbereichssatzung Nr. 423, Dresden-Bühlau Nr. 1, Crostauer Weg/Gründelsteighier: Aufhebung des Aufstellungsbeschlusses zur Außenbereichssatzung",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "897",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "13313",
-        "13079",
-        "13080",
-        "13083",
-        "13081"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/18541",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0335/09",
+      "fileName": "00018541.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018541.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018541.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 693, Dresden-Großzschachwitz, Geschäfts- und Parkhaus Pirnaer Landstraßehier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\t2. Grenzen des vorhabenbezogenen Bebauungsplans",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1062",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "16276",
-        "15742",
-        "15741",
-        "15743"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 5,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/18543",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0299/09",
+      "fileName": "00018543.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018543.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018543.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verbesserung des touristischen Leitsystems für Hellerau",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "165",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "3291",
-        "3295"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 6,
-        "no": 3,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/18548",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0349/09",
+      "fileName": "00018548.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018548.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018548.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Spielstraße Rauensteinstraße",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "889",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "12661"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/18550",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_A0016/09",
+      "fileName": "00018550.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018550.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018550.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/18551",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_A0077/09",
+      "fileName": "00018551.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018551.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018551.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/20177",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_2010_01_13_SB",
+      "fileName": "00020177.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00020177.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00020177.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "353",
-  "participant": [
-    "29",
-    "38",
-    "66",
-    "87",
-    "62",
-    "274",
-    "265",
-    "254",
-    "46",
-    "291",
-    "100"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4585",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "number": "1",
+      "order": "1",
+      "name": "Bebauungsplan Nr. 194, Dresden-Friedrichstadt Nr. 6, Stadthäuser Bramschgelände",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4586",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "number": "2",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 194 A, Dresden-Friedrichstadt Nr. 9, Ehemaliges Kontorhaus",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/33",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4620",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "number": "3",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 359, Dresden-Trachenberge Nr. 1, Döbelner Straße/Weinbergstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1720",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4594",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "number": "4",
+      "order": "4",
+      "name": "Außenbereichssatzung Nr. 423, Dresden-Bühlau Nr. 1, Crostauer Weg/Gründelsteig",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1588",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "number": "5",
+      "order": "5",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 693, Dresden-Großzschachwitz, Geschäfts- und Parkhaus Pirnaer Landstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1839",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4583",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "number": "6",
+      "order": "6",
+      "name": "Verbesserung des touristischen Leitsystems für Hellerau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/379",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4584",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/353",
+      "number": "7",
+      "order": "7",
+      "name": "Spielstraße Rauensteinstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1571",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

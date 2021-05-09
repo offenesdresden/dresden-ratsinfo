@@ -1,230 +1,284 @@
 {
-  "shortName": "OSR CB/029/2012",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 14.05.2012 - 18:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "29. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2012-05-14T18:30:00+02:00",
   "end": "2012-05-14T21:30:00+02:00",
-  "invitation": "96957",
-  "resultsProtocol": "98382",
-  "auxiliaryFile": [
-    "98613",
-    "98620"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
   ],
-  "verbatimProtocol": "99165",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1073",
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/311",
+    "http://oparl.dresden.de/bodies/0001/people/312",
+    "http://oparl.dresden.de/bodies/0001/people/1071",
+    "http://oparl.dresden.de/bodies/0001/people/1070",
+    "http://oparl.dresden.de/bodies/0001/people/314",
+    "http://oparl.dresden.de/bodies/0001/people/394"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/96957",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00096957.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-05-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096957.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096957.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/98382",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung Finanzmittel 2013/2014",
+    "fileName": "00098382.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-05-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098382.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098382.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/96957",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00096957.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00096957.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00096957.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung sowie der Niederschrift der Sitzung am 16.04.2012",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/98382",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel 2013/2014",
+      "fileName": "00098382.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098382.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098382.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwohnerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/98613",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel FHV Ndw",
+      "fileName": "00098613.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098613.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098613.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 187, Dresden-Cossebaude Nr. 4, Wohngebiet Weinbergstraßehier:\t1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5682",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "102784",
-      "auxiliaryFile": [
-        "94129",
-        "93696",
-        "93699",
-        "93700",
-        "93701",
-        "93702"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 1,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/98620",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Straßenreinigungssatzung 20132",
+      "fileName": "00098620.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098620.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098620.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhaben- und Erschließungsplan Nr. 593, Dresden-Cossebaude Nr. 1, Tennis- und Freizeitcenterhier:\t1. Beschluss zur Durchführung eines Aufhebungsverfahrens zum Vorhaben- und Erschließungsplan2. Durchführung der Aufhebung im vereinfachten Verfahren3. Öffentliche Auslegung des Entwurfes der Satzung zur Aufhebung des Vorhaben- und Erschließungsplanes",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5683",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100620",
-      "auxiliaryFile": [
-        "94141",
-        "93965",
-        "93966",
-        "93967",
-        "93973"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bericht zum Stand des B-Planes Nr. 186 \"Am Osterberg\" und des B-pLanes Nr. 181 \"Neuleuteritz\"",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Förderung von Hochwassereigenvorsorge",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5544",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105040",
-      "auxiliaryFile": [
-        "90992",
-        "104698"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 3,
-        "no": 2,
-        "neutral": 5,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5639",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "102864",
-      "auxiliaryFile": [
-        "92888",
-        "112253"
-      ],
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 1,
-        "no": 5,
-        "neutral": 4,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzzuschuss zum \"Dorf- und Brückenfest Niederwartha\" - Feuerwehr- und Heimatverein Niederwartha e.V.",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2013",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Patenschaften für Baumscheiben",
-      "number": "Ö 11.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5633",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108801",
-      "auxiliaryFile": [
-        "92834",
-        "92828"
-      ],
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
-      "number": "Ö 11.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5634",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "108805",
-      "auxiliaryFile": [
-        "92885"
-      ],
-      "result": "zur Kenntnis genommen",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/99165",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00099165.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00099165.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00099165.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2048",
-  "participant": [
-    "1073",
-    "309",
-    "312",
-    "310",
-    "1071",
-    "311",
-    "307",
-    "1070",
-    "314",
-    "394"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29775",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29776",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung sowie der Niederschrift der Sitzung am 16.04.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29778",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "3",
+      "order": "3",
+      "name": "Einwohnerfragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29780",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "4",
+      "order": "4",
+      "name": "Bebauungsplan Nr. 187, Dresden-Cossebaude Nr. 4, Wohngebiet Weinbergstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9648",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29781",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "5",
+      "order": "5",
+      "name": "Vorhaben- und Erschließungsplan Nr. 593, Dresden-Cossebaude Nr. 1, Tennis- und Freizeitcenter",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9652",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30282",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "6",
+      "order": "6",
+      "name": "Bericht zum Stand des B-Planes Nr. 186 \"Am Osterberg\" und des B-pLanes Nr. 181 \"Neuleuteritz\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9968",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29777",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "7",
+      "order": "7",
+      "name": "Förderung von Hochwassereigenvorsorge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9345",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29779",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "8",
+      "order": "8",
+      "name": "Ratsinformationssystem für Bürgerinnen und Bürger",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9541",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30283",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "9",
+      "order": "9",
+      "name": "Finanzzuschuss zum \"Dorf- und Brückenfest Niederwartha\" - Feuerwehr- und Heimatverein Niederwartha e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9966",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30285",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "10",
+      "order": "10",
+      "name": "Straßenreinigungsgebührensatzung 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9969",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/29782",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "11",
+      "order": "11",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30131",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "11.1",
+      "order": "12",
+      "name": "Patenschaften für Baumscheiben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9491",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30132",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2048",
+      "number": "11.2",
+      "order": "13",
+      "name": "Bürgerinformation zu Baumfällungen und Ersatzpflanzungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9514",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

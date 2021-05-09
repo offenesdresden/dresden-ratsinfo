@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/13844",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2017-5543-00003, Hausmeisterleistungen (inklusive Winterdienst) für 9 kommunale Kindertageseinrichtungen der Landeshauptstadt Dresden im Ortsamt Loschwitz",
-  "shortName": "V1757/17",
   "reference": "V1757/17",
+  "date": "2017-05-30",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2017-05-23",
   "auxiliaryFile": [
-    "304276"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/304276",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V1757/17_mU",
+      "fileName": "00304276.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00304276.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00304276.pdf",
+      "created": "2017-06-16T10:21:42+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6258",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/28778",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/13844",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/91260",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6258",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2017-05-30T13:53:19+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "13844"
+  "created": "2017-05-23T13:00:05+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

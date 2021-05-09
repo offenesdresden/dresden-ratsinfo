@@ -1,145 +1,157 @@
 {
-  "shortName": "OBR Pro/025/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Prohlis, Bürgersaal,Prohliser Allee 10, 01239 Dresden",
-  "name": "Ortsbeirat Prohlis - 03.04.2017 - 17:00-19:08 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "41"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5704",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "25. Sitzung des Ortsbeirates Prohlis",
   "start": "2017-04-03T17:00:00+02:00",
   "end": "2017-04-03T19:08:00+02:00",
-  "invitation": "292528",
-  "verbatimProtocol": "297026",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1791",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Prohliser Allee 10",
+    "room": "Ortsamt Prohlis, Bürgersaal",
+    "postalCode": "01239",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:35+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/41"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/403",
+    "http://oparl.dresden.de/bodies/0001/people/533",
+    "http://oparl.dresden.de/bodies/0001/people/535",
+    "http://oparl.dresden.de/bodies/0001/people/536",
+    "http://oparl.dresden.de/bodies/0001/people/1152",
+    "http://oparl.dresden.de/bodies/0001/people/1397",
+    "http://oparl.dresden.de/bodies/0001/people/543",
+    "http://oparl.dresden.de/bodies/0001/people/545",
+    "http://oparl.dresden.de/bodies/0001/people/1577",
+    "http://oparl.dresden.de/bodies/0001/people/941",
+    "http://oparl.dresden.de/bodies/0001/people/1114",
+    "http://oparl.dresden.de/bodies/0001/people/552",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/1388",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/557",
+    "http://oparl.dresden.de/bodies/0001/people/563",
+    "http://oparl.dresden.de/bodies/0001/people/565",
+    "http://oparl.dresden.de/bodies/0001/people/1395"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/292528",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pro",
+    "fileName": "00292528.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-03-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00292528.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00292528.pdf",
+    "created": "2017-03-21T08:09:29+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung durch den Ortsamtsleiter, Feststellung der form- und fristgerechten Ladung sowie Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 24. Ortsbeiratssitzung am 06.03.2017",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/292528",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pro",
+      "fileName": "00292528.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-03-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00292528.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00292528.pdf",
+      "created": "2017-03-21T08:09:29+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6035, Dresden-Niedersedlitz, Neue Waldorfschulehier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13314",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "299135",
-      "auxiliaryFile": [
-        "309725",
-        "291037",
-        "290597",
-        "283233",
-        "283234",
-        "283235",
-        "297812"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 1,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Planung und Durchführung investiver Schulbauvorhaben - Maßnahmepaket 1/2017",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13438",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "297135",
-      "auxiliaryFile": [
-        "307421",
-        "356859",
-        "422489",
-        "490922",
-        "516609",
-        "289925",
-        "289389",
-        "289098",
-        "289099",
-        "289100",
-        "289101",
-        "289070",
-        "289071",
-        "289073",
-        "287665",
-        "296018",
-        "296190",
-        "295674"
-      ],
-      "result": "einstimmig",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 74.2, Dresden-Nickern I, Dohnaer Straße Südseite (Gewerbepark) (Änderung des Bebauungsplanes Nr. 74 in Gestalt seiner ersten Änderung Nr. 74.1)hier:1. Aufstellungsbeschluss Bebauungsplan2. Durchführung eines vereinfachten Verfahrens",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13290",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "299137",
-      "auxiliaryFile": [
-        "317959",
-        "345778",
-        "413915",
-        "484550",
-        "287534",
-        "287253",
-        "284287",
-        "286212",
-        "282376",
-        "297811"
-      ],
-      "result": "einstimmig",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters / Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/297026",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00297026.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00297026.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00297026.pdf",
+      "created": "2017-04-24T07:32:14+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5704",
-  "participant": [
-    "535",
-    "533",
-    "1152",
-    "1397",
-    "403",
-    "536",
-    "543",
-    "545",
-    "1577",
-    "1114",
-    "941",
-    "554",
-    "552",
-    "1390",
-    "1388",
-    "557",
-    "563",
-    "565",
-    "1395"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88490",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5704",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung durch den Ortsamtsleiter, Feststellung der form- und fristgerechten Ladung sowie Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 24. Ortsbeiratssitzung am 06.03.2017",
+      "public": true,
+      "created": "2017-03-13T09:40:22+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88566",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5704",
+      "number": "2",
+      "order": "2",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6035, Dresden-Niedersedlitz, Neue Waldorfschule",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27305",
+      "result": "Zustimmung",
+      "created": "2017-03-14T09:28:36+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88567",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5704",
+      "number": "3",
+      "order": "3",
+      "name": "Planung und Durchführung investiver Schulbauvorhaben - Maßnahmepaket 1/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27792",
+      "result": "einstimmig",
+      "created": "2017-03-14T09:29:07+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88493",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5704",
+      "number": "4",
+      "order": "4",
+      "name": "Bebauungsplan Nr. 74.2, Dresden-Nickern I, Dohnaer Straße Südseite (Gewerbepark) (Änderung des Bebauungsplanes Nr. 74 in Gestalt seiner ersten Änderung Nr. 74.1)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27256",
+      "result": "einstimmig",
+      "created": "2017-03-13T09:40:23+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88494",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5704",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2017-03-13T09:40:23+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/88492",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5704",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen des Ortsamtsleiters / Sonstiges",
+      "public": true,
+      "created": "2017-03-13T09:40:22+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,29 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17566",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Feststellung, ob Hinderungsgründe im Ergebnis der Ortschaftsratswahl nach § 18 Abs. 1SächsGemO und § 32 Abs. 1 SächsGemO vorliegen",
-  "shortName": "V-SB0095/19",
   "reference": "V-SB0095/19",
+  "date": "2019-09-09",
   "paperType": "Vorlage OS Schönborn",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-09-02",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/427951",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönborn",
+    "fileName": "00427951.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-09-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00427951.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00427951.pdf",
+    "created": "2019-09-02T07:12:03+02:00",
+    "modified": "2019-09-09T13:21:21+02:00"
+  },
   "auxiliaryFile": [
-    "427951"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/432465",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0095/19_mU",
+      "fileName": "00432465.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432465.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432465.pdf",
+      "created": "2019-09-25T11:12:19+02:00",
+      "modified": "2019-09-25T11:12:20+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/445339",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Schönborn V-SB0095/19 abschließende Info vom 18.11.2019",
+      "fileName": "00445339.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00445339.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00445339.pdf",
+      "created": "2019-11-25T08:47:08+01:00",
+      "modified": "2019-11-25T08:48:11+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/39"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38986",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17566",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/121128",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8490",
       "organization": [
-        {
-          "name": "18.09.2019 Ortschaftsrat Schönborn",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
       ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-09-09T13:14:12+02:00",
+      "modified": "2019-10-14T06:33:57+02:00"
     }
   ],
-  "id": "17566"
+  "created": "2019-09-02T07:11:31+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,79 +1,160 @@
 {
-  "shortName": "OSR WX/030/2012",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 27.02.2012 - 19:00-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "30. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2012-02-27T19:00:00+01:00",
   "end": "2012-02-27T21:00:00+01:00",
-  "invitation": "89062",
-  "verbatimProtocol": "90011",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/381",
+    "http://oparl.dresden.de/bodies/0001/people/382",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/384",
+    "http://oparl.dresden.de/bodies/0001/people/385",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/387",
+    "http://oparl.dresden.de/bodies/0001/people/388",
+    "http://oparl.dresden.de/bodies/0001/people/389",
+    "http://oparl.dresden.de/bodies/0001/people/390"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/89062",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00089062.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-02-16",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00089062.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00089062.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/89062",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00089062.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00089062.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00089062.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2012/2013",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5151",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "85670",
-        "83758",
-        "80962",
-        "94181",
-        "94183"
-      ],
-      "result": "Zustimmung"
-    },
-    {
-      "name": "Ehrenamtsarbeit in Dresden - Koordinierungsstelle Ehrenamt einrichten",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung"
-    },
-    {
-      "name": "Planänderungen zur Neugestaltung des Vorplatzes am Haltepunkt Weixdorf Bad einschließlich P+R",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/90011",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00090011.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-03-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00090011.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00090011.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2107",
-  "participant": [
-    "298",
-    "382",
-    "384",
-    "381",
-    "66",
-    "385",
-    "383",
-    "387",
-    "388",
-    "386",
-    "390",
-    "389"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27338",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27339",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27341",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+      "number": "3",
+      "order": "3",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2012/2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8202",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27340",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+      "number": "4",
+      "order": "4",
+      "name": "Ehrenamtsarbeit in Dresden - Koordinierungsstelle Ehrenamt einrichten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8700",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27342",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+      "number": "5",
+      "order": "5",
+      "name": "Planänderungen zur Neugestaltung des Vorplatzes am Haltepunkt Weixdorf Bad einschließlich P+R",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8965",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27343",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27344",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2107",
+      "number": "7",
+      "order": "7",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

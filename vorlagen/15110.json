@@ -1,26 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15110",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Prioritäten des Ortschaftsrates zur Berücksichtigung im Doppelhaushalt 2019/20",
-  "shortName": "V-SW0167/18",
   "reference": "V-SW0167/18",
+  "date": "2018-04-12",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-04-23",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/342890",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00342890.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-04-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00342890.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00342890.pdf",
+    "created": "2018-04-12T08:43:26+02:00",
+    "modified": "2018-04-12T13:01:16+02:00"
+  },
   "auxiliaryFile": [
-    "342890",
-    "370790",
-    "345362"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/345362",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0167/18_mU",
+      "fileName": "00345362.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00345362.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00345362.pdf",
+      "created": "2018-04-26T11:16:50+02:00",
+      "modified": "2020-01-27T09:52:37+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/370790",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BeschlusskontrolleHaushaltbeschlussGB6AlterBahndamm",
+      "fileName": "00370790.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00370790.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00370790.pdf",
+      "created": "2018-09-28T08:19:08+02:00",
+      "modified": "2020-01-27T09:53:07+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6979",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/32398",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15110",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/101544",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6979",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-04-12T08:51:18+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15110"
+  "created": "2018-04-12T08:42:59+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,86 +1,141 @@
 {
-  "shortName": "OSR OW/002/2019",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 15.10.2019 - 18:30-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8483",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2019-10-15T18:30:00+02:00",
   "end": "2019-10-15T20:45:00+02:00",
-  "invitation": "432858",
-  "resultsProtocol": "436886",
-  "verbatimProtocol": "438625",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/1654",
+    "http://oparl.dresden.de/bodies/0001/people/2030"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/432858",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00432858.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-09-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432858.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432858.pdf",
+    "created": "2019-09-26T14:33:02+02:00",
+    "modified": "2019-10-10T08:27:51+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/432858",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00432858.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00432858.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00432858.pdf",
+      "created": "2019-09-26T14:33:02+02:00",
+      "modified": "2019-10-10T08:27:51+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 17.09.2019",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/436886",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0137/19_oU",
+      "fileName": "00436886.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00436886.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00436886.pdf",
+      "created": "2019-10-16T12:19:16+02:00",
+      "modified": "2019-10-23T12:18:16+02:00"
     },
     {
-      "name": "Rahmenrichtlinie der Landeshauptstadt Dresden (RRL LHD) als Grundlage für die Erarbeitung von Fachförderrichtlinien und damit verbundenen Zuwendungen an Dritte(Ortschaftsräte bitte die Unterlagen aus Septembersitzung mitbringen)",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16246",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "483417",
-        "495166",
-        "426409",
-        "425788",
-        "424725",
-        "424726",
-        "424727",
-        "422017",
-        "422018",
-        "463420",
-        "464885",
-        "476381",
-        "443645",
-        "476378",
-        "477939",
-        "477940"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel für Stromanschluss Festplatz \"Alte Schule\" Max-Schwan-Straße Oberwartha",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17746",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "432849"
-      ],
-      "resolutionFile": "438076",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/438625",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00438625.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00438625.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00438625.pdf",
+      "created": "2019-10-25T09:38:59+02:00",
+      "modified": "2019-11-21T15:47:53+01:00"
     }
   ],
-  "id": "8483"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/121796",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8483",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2019-09-24T14:13:39+02:00",
+      "modified": "2019-09-26T16:23:30+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/121797",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8483",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 17.09.2019",
+      "public": true,
+      "created": "2019-09-24T14:14:07+02:00",
+      "modified": "2019-09-26T16:23:30+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/121798",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8483",
+      "number": "3",
+      "order": "3",
+      "name": "Rahmenrichtlinie der Landeshauptstadt Dresden (RRL LHD) als Grundlage für die Erarbeitung von Fachförderrichtlinien und damit verbundenen Zuwendungen an Dritte",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/35799",
+      "result": "Zustimmung",
+      "created": "2019-09-24T14:14:53+02:00",
+      "modified": "2019-10-16T12:17:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122034",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8483",
+      "number": "4",
+      "order": "4",
+      "name": "Finanzmittel für Stromanschluss Festplatz \"Alte Schule\" Max-Schwan-Straße Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39371",
+      "result": "Zustimmung",
+      "created": "2019-09-26T14:31:08+02:00",
+      "modified": "2019-10-24T07:09:05+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/121799",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8483",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2019-09-24T14:15:30+02:00",
+      "modified": "2019-09-26T16:23:30+02:00"
+    }
+  ],
+  "created": "2019-07-23T08:58:51+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

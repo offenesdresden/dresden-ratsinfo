@@ -1,28 +1,30 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/2049",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Martin Plötze",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "170",
-      "startDate": "2019-09-27"
-    }
-  ],
-  "postalCode": "01259",
-  "locality": "Dresden",
-  "streetAddress": "Rathener Straße 115",
-  "status": [
-    "AfD"
-  ],
+  "familyName": "Plötze",
+  "givenName": "Martin",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0351 20865146",
     "0176 70004046"
   ],
-  "photo": "https://ratsinfo.dresden.de/im/pe2049.jpg",
-  "id": "2049"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10150",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2049",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/170",
+      "role": "Mitglied Stadtbezirksbeirat",
+      "votingRight": true,
+      "startDate": "2019-09-27",
+      "created": "2019-09-30T09:15:27+02:00",
+      "modified": "2019-09-30T09:15:27+02:00"
+    }
+  ],
+  "created": "2019-09-03T11:57:56+02:00",
+  "modified": "2021-05-06T10:07:20+02:00",
+  "web": ""
 }

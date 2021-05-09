@@ -1,12 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19177",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Termine der Sitzungen des Ortschaftsrates Altfranken für das Jahr 2021",
-  "shortName": "V-AF0030/20",
   "reference": "V-AF0030/20",
+  "date": "2020-07-03",
   "paperType": "Vorlage OS Altfranken",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/483568",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Altfranken",
+    "fileName": "00483568.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-06-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00483568.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00483568.pdf",
+    "created": "2020-06-30T14:29:12+02:00",
+    "modified": "2020-07-16T06:10:55+02:00"
+  },
   "auxiliaryFile": [
-    "487022",
-    "483568"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/487022",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Altfranken_V-AF0030/20",
+      "fileName": "00487022.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00487022.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00487022.pdf",
+      "created": "2020-07-15T08:53:12+02:00",
+      "modified": "2020-07-16T06:10:55+02:00"
+    }
   ],
-  "id": "19177"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/33"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42867",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19177",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/134765",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9199",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-07-03T08:36:44+02:00",
+      "modified": "2020-07-15T09:02:43+02:00"
+    }
+  ],
+  "created": "2020-06-30T14:28:40+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

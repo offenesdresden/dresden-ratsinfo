@@ -1,20 +1,26 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/2048",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Timo Westfeld",
-  "type": "https://oparl.org/schema/1.0/Person",
+  "familyName": "Westfeld",
+  "givenName": "Timo",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "membership": [
     {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10145",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2048",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/170",
       "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "170",
-      "startDate": "2019-09-27"
+      "votingRight": true,
+      "startDate": "2019-09-27",
+      "created": "2019-09-30T09:11:28+02:00",
+      "modified": "2019-09-30T09:11:28+02:00"
     }
   ],
-  "status": [
-    "AfD"
-  ],
-  "id": "2048"
+  "created": "2019-09-03T11:56:37+02:00",
+  "modified": "2021-05-06T10:08:12+02:00",
+  "web": ""
 }

@@ -1,1194 +1,812 @@
 {
-  "shortName": "SR/026/2016",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Stadtrat - 23.06.2016 bis 24.06.2016 - 13:10-22:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "1"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "26. Sitzung des Stadtrates",
   "start": "2016-06-23T13:10:00+02:00",
-  "end": "2016-06-23T22:10:00+02:00",
-  "invitation": "257291",
-  "auxiliaryFile": [
-    "258225"
+  "end": "2016-06-24T22:10:00+02:00",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/18",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "Plenarsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
   ],
-  "verbatimProtocol": "265408",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/27",
+    "http://oparl.dresden.de/bodies/0001/people/59",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/1532",
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/289",
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/282",
+    "http://oparl.dresden.de/bodies/0001/people/496",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/668",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/1231",
+    "http://oparl.dresden.de/bodies/0001/people/1232",
+    "http://oparl.dresden.de/bodies/0001/people/1233",
+    "http://oparl.dresden.de/bodies/0001/people/1408",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/268",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/629",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1177",
+    "http://oparl.dresden.de/bodies/0001/people/1234",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/1235",
+    "http://oparl.dresden.de/bodies/0001/people/1336",
+    "http://oparl.dresden.de/bodies/0001/people/1378",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/1238",
+    "http://oparl.dresden.de/bodies/0001/people/1239",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/46"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/257291",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SR_2016_06_23/24",
+    "fileName": "00257291.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-06-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00257291.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00257291.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/258225",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_SR",
+    "fileName": "00258225.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-06-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00258225.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00258225.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bekanntgabe nicht öffentlicher Beschlüsse",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/257291",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SR_2016_06_23/24",
+      "fileName": "00257291.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-06-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00257291.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00257291.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bericht des Oberbürgermeisters",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/258225",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_SR",
+      "fileName": "00258225.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-06-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00258225.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00258225.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fragestunde der Stadträtinnen und Stadträte",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Asylleistungsbetrug durch Mehrfachregistrierung",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259169",
-        "264518"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Gestaltung Wiener Platz",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259199",
-        "261884"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Entwicklung der Nachfrage Sozialticket",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259176",
-        "264508"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Planungen für die Sanierung der Pirnaer Landstraße",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259150",
-        "261888"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Sanierung der 15. Grundschule",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259162",
-        "262334"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Zukunft des beruflichen Schulzentrums für Wirtschaft „Prof. Dr. Zeigner“",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259190",
-        "262348"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Unterbringung von Flüchtlingen in der Landeshauptstadt Dresden",
-      "number": "Ö 3.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259043",
-        "264520"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Betrieb des Übergangswohnheims Karl-Stein-Straße 24 durch die TBM Tourismus-Beherbergungs-Management Dresden GmbH",
-      "number": "Ö 3.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259156",
-        "264650"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Unterschriften zur geplanten Ausweichstraße zwischen Laubegast und Tolkewitz",
-      "number": "Ö 3.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259200",
-        "262353"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Melde- und Wahldatenchaos in Berlin - Lehren für Dresden mit MESO-VOIS",
-      "number": "Ö 3.10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259163",
-        "261893"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Ergebnisse des Lenkungsausschusses zur Integration in Ausbildung und Arbeit in Dresden",
-      "number": "Ö 3.11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "erledigt"
-    },
-    {
-      "name": "Ratskeller Dresden",
-      "number": "Ö 3.12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259170",
-        "262208"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Aktueller Sachstand zur Aufwertung des Bereiches der Fähranlegerstelle Kleinzschachwitz bis zum Kurhaus",
-      "number": "Ö 3.13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "259193",
-        "262336"
-      ],
-      "result": "erledigt"
-    },
-    {
-      "name": "Einigungsverfahren Gremienbesetzung - Ortsbeirat",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Umbesetzung im Ortsbeirat Pieschen",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12484",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "255100"
-      ],
-      "resolutionFile": "259517",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 59,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Tagesordnungspunkte ohne Debatte",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vertagungen der Stadtratssitzung vom 2. Juni 2016",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Mitgliedschaft der Stadt Dresden in der UNESCO-Städtekoalition gegen Rassismus",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11850",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "235383",
-        "266261",
-        "291547",
-        "319198",
-        "380251",
-        "234829",
-        "251042",
-        "259257"
-      ],
-      "resolutionFile": "259535",
-      "result": "punktweise Abstimmung mit Ergänzung"
-    },
-    {
-      "name": "Satzung zur Änderung der Satzung der Landeshauptstadt Dresden über die Entschädigung ehrenamtlich Tätiger (Entschädigungssatzung) vom 16. Oktober 2003",
-      "number": "Ö 6.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11959",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259997",
-      "auxiliaryFile": [
-        "248583",
-        "248516",
-        "246613",
-        "246614",
-        "246615",
-        "240130",
-        "257240"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 65,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Satzung zur Änderung der Hauptsatzung der Landeshauptstadt Dresden vom 4. September 2014; hier: Änderung von § 29 Hauptsatzung / Ausschreibung der Stelle der/des Beigeordneten für Bildung",
-      "number": "Ö 6.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12355",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259988",
-      "auxiliaryFile": [
-        "253740",
-        "253155",
-        "251897",
-        "252809",
-        "251899",
-        "251906",
-        "256649",
-        "259258",
-        "259083"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 62,
-        "no": 2,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Durchfinanzierung der Gesamtinvestition Nanoelektronikzentrum Dresden in der NanoelektronikZentrumDresden GmbH",
-      "number": "Ö 6.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259411",
-      "auxiliaryFile": [
-        "276014",
-        "282545",
-        "295463",
-        "334133",
-        "247637",
-        "246368",
-        "255748",
-        "256553"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 43,
-        "no": 4,
-        "neutral": 12,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Polizeiverordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung in der Landeshauptstadt Dresden (PolVO Sicherheit und Ordnung)",
-      "number": "Ö 6.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12179",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259901",
-      "auxiliaryFile": [
-        "248887",
-        "248523",
-        "247679",
-        "255694",
-        "255324",
-        "256552"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 53,
-        "no": 0,
-        "neutral": 11,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden zur kommunalen Kulturförderung vom 15. Dezember 2011 in der geänderten Fassung vom 24. September 2015",
-      "number": "Ö 6.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12082",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "260101",
-      "auxiliaryFile": [
-        "248882",
-        "248591",
-        "242774",
-        "247460",
-        "254719"
-      ],
-      "result": "punktweise Abstimmung mit Ergänzung"
-    },
-    {
-      "name": "Förderung von Angeboten nach Fachförderrichtlinie Sozialamt vom 19. Oktober 2009 im Haushaltsjahr 2016",
-      "number": "Ö 6.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11877",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259763",
-      "auxiliaryFile": [
-        "267084",
-        "291881",
-        "246398",
-        "242897",
-        "254463",
-        "241851",
-        "241852",
-        "242174",
-        "241855",
-        "241856",
-        "249855",
-        "236012",
-        "237159",
-        "236013",
-        "236014",
-        "251768",
-        "256691",
-        "259253",
-        "256590"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 57,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Neubenennung von Straßen",
-      "number": "Ö 6.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12242",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259536",
-      "auxiliaryFile": [
-        "277717",
-        "305677",
-        "357225",
-        "252152",
-        "251750",
-        "254595",
-        "247599",
-        "250023",
-        "250024",
-        "247594",
-        "250025",
-        "250026",
-        "250028",
-        "250030",
-        "257937"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 45,
-        "no": 0,
-        "neutral": 18,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Aufhebung des Punktes 8e) des Stadtratsbeschlusses V0120/14 (SR/010/2015) vom 7. Mai 2015 - Entscheidung über Verkauf und Bebauung der nicht von der Kita genutzten Teilfläche oder Nutzung dieser Flächen als öffentlicher Kinderspielplatz",
-      "number": "Ö 6.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11764",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259600",
-      "auxiliaryFile": [
-        "268796",
-        "238580",
-        "237245",
-        "232092",
-        "232093",
-        "254682",
-        "256589"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 38,
-        "no": 2,
-        "neutral": 17,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Damit Dresden wirklich summt: So geht das!",
-      "number": "Ö 6.10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12147",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "244576",
-        "247712",
-        "271279",
-        "294603",
-        "244574",
-        "254677"
-      ],
-      "resolutionFile": "259537",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 62,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ersatzneubau einer Einfeld-Schulsporthalle für die 35. Oberschule, Bünaustraße 32 in 01159 Dresden",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12203",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259539",
-      "auxiliaryFile": [
-        "283135",
-        "323276",
-        "386928",
-        "372354",
-        "252031",
-        "251742",
-        "251258",
-        "251445",
-        "258639"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Neubau eines Schulgebäudes, Leisniger Straße 78 in 01127 Dresden und Neubau einer Einfeldsporthalle mit Sanierung der Bestandssporthalle der Schule zur Lernförderung „A. S. Makarenko“, Leisniger Straße 76",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12300",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259540",
-      "auxiliaryFile": [
-        "284365",
-        "325633",
-        "407796",
-        "367069",
-        "253189",
-        "252886",
-        "249408",
-        "252760",
-        "258653"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 63,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Feststellung der Jahresabschlussergebnisse 2014 einschließlich des Anhanges mit Anlagen und des Rechenschaftsberichtes mit Anlagen",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12074",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259541",
-      "auxiliaryFile": [
-        "254142",
-        "251735",
-        "244082",
-        "244085",
-        "258371"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prüfbericht zur Übertragung von (Teil-) Aufgaben des Eigenbetriebes IT-Dienstleistungen Dresden auf eine städtische Gesellschaft",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12086",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "260118",
-      "auxiliaryFile": [
-        "251249",
-        "250777",
-        "247968",
-        "247969",
-        "242844",
-        "258377"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 34,
-        "no": 0,
-        "neutral": 11,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Zusammenfassung der Eigenbetriebe Städtisches Krankenhaus Dresden-Neustadt und Krankenhaus Dresden-Friedrichstadt, Städtisches Klinikum zu einem Eigenbetrieb \"Städtisches Klinikum Dresden\"",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12090",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "260664",
-      "auxiliaryFile": [
-        "272862",
-        "284914",
-        "251255",
-        "250788",
-        "252314",
-        "242937",
-        "258721"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 66,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Änderung Wirtschaftsplanung 2016 des Eigenbetriebes Städtisches Krankenhaus Dresden-Neustadt",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12226",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259544",
-      "auxiliaryFile": [
-        "252148",
-        "251745",
-        "249638",
-        "246750",
-        "258375"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 65,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Änderung Wirtschaftsplanung 2016 des Eigenbetriebes Krankenhaus Dresden-Friedrichstadt, Städtisches Klinikum",
-      "number": "Ö 13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12227",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259546",
-      "auxiliaryFile": [
-        "252150",
-        "251746",
-        "249648",
-        "246788",
-        "258376"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 65,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Festlegung von Schlüsselprodukten in der Landeshauptstadt Dresden",
-      "number": "Ö 14",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12284",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259979",
-      "auxiliaryFile": [
-        "253227",
-        "252667",
-        "252952",
-        "248578",
-        "259422",
-        "259489",
-        "259260"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 30,
-        "no": 28,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Neuer Standort \"Volkshochschule Dresden e. V.\" - Anmietung im Objekt Annenstraße 10, 01067 Dresden",
-      "number": "Ö 15",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12333",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259981",
-      "auxiliaryFile": [
-        "274596",
-        "291473",
-        "256693",
-        "255404",
-        "257000",
-        "250112",
-        "259312"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 56,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sicherstellung der Aufgabenerfüllung der Landeshauptstadt Dresden entsprechend dem Sächsischen Gesetz über den Brandschutz, Rettungsdienst und Katastrophenschutz (SächsBRKG) und der Verordnung des Sächsischen Staatsministeriums des Innern über die Rettungsdienst- planung im Freistaat Sachsen (Sächsische Landesrettungsdienstplanverordnung – SächsLRettDPVO); hier: Umsetzung des Notfallsanitätergesetzes (NotSanG)",
-      "number": "Ö 16",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12243",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259547",
-      "auxiliaryFile": [
-        "268846",
-        "315793",
-        "370177",
-        "436101",
-        "505350",
-        "252153",
-        "251751",
-        "257249"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 63,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
-      "number": "Ö 17",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11948",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259982",
-      "auxiliaryFile": [
-        "273674",
-        "248863",
-        "248524",
-        "247751",
-        "240583",
-        "258864",
-        "259259"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 53,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Abstimmungsvereinbarung mit Der Grüne Punkt - Duales System Deutschland GmbH (DSD) zur Erfassung gebrauchter Verkaufsverpackungen",
-      "number": "Ö 18",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12172",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259551",
-      "auxiliaryFile": [
-        "266284",
-        "251257",
-        "250794",
-        "248651",
-        "248652",
-        "249704",
-        "257502"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 63,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Weiterführung des Ausbaus der Vereinigten Weißeritz in den Jahren 2016 ff, Lose 1 und 2",
-      "number": "Ö 19",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12181",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259555",
-      "auxiliaryFile": [
-        "268798",
-        "315576",
-        "371053",
-        "435800",
-        "252029",
-        "251741",
-        "249004",
-        "249005",
-        "245622",
-        "257501"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 63,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bericht zur Umsetzung der Maßnahmen des \"Luftreinhalteplanes für die Landeshauptstadt Dresden 2011\" zum Stand vom 31.12.2015",
-      "number": "Ö 20",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12222",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259983",
-      "auxiliaryFile": [
-        "267292",
-        "296717",
-        "345285",
-        "404910",
-        "252039",
-        "251744",
-        "246504",
-        "246505",
-        "246506",
-        "249910",
-        "246513",
-        "264737",
-        "257497"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 43,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beitritt der Landeshauptstadt Dresden zur europäischen Initiative \"Konvent der Bürgermeister für Klima und Energie\"",
-      "number": "Ö 21",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12241",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259559",
-      "auxiliaryFile": [
-        "272432",
-        "252038",
-        "251749",
-        "249674",
-        "257499"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 59,
-        "no": 3,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung des Integrierten Handlungskonzeptes „Soziale Stadt Gorbitz 2 2016-2025“",
-      "number": "Ö 22",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12173",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259984",
-      "auxiliaryFile": [
-        "274753",
-        "328047",
-        "384129",
-        "457979",
-        "252028",
-        "251740",
-        "249820",
-        "249822",
-        "249823",
-        "249824",
-        "245153",
-        "245154",
-        "245155",
-        "245156",
-        "245157",
-        "245158",
-        "245159",
-        "245160",
-        "245161",
-        "245164",
-        "245803",
-        "247324",
-        "247303",
-        "257943"
-      ],
-      "result": "punktweise Abstimmung mit Änderung"
-    },
-    {
-      "name": "Bebauungsplan Nr. 373, Dresden-Löbtau Nr. 3, Gewerbe-Park Freiberger Straßehier:1. Abwägungsbeschluss2. Änderungsbeschluss Grenzen des räumlichen Geltungsbereiches3. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden Erklärung nach § 10 Abs. 4 BauGB zum Bebauungsplan",
-      "number": "Ö 23",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12247",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259560",
-      "auxiliaryFile": [
-        "274779",
-        "252160",
-        "251752",
-        "254596",
-        "247796",
-        "247799",
-        "247800",
-        "247801",
-        "247802",
-        "247803",
-        "247804",
-        "247805",
-        "249817",
-        "247807",
-        "247808",
-        "247809",
-        "247810",
-        "247811",
-        "247812",
-        "247813",
-        "247814",
-        "247815",
-        "257504",
-        "257945"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 54.2, Dresden-Altstadt I Nr. 6, Postplatz/Wallstraßehier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 24",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12293",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259985",
-      "auxiliaryFile": [
-        "274768",
-        "255546",
-        "255245",
-        "249241",
-        "249200",
-        "253093",
-        "253094",
-        "249203",
-        "249204",
-        "249205",
-        "249206",
-        "257941"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 49,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Königsbrücker Straße von Albertplatz bis Stauffenbergallee",
-      "number": "Ö 25",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12378",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259497",
-      "auxiliaryFile": [
-        "274756",
-        "320903",
-        "332924",
-        "380862",
-        "439756",
-        "524748",
-        "255241",
-        "255196",
-        "251212",
-        "251213",
-        "251214",
-        "251215",
-        "251216",
-        "251217",
-        "251218",
-        "251219",
-        "251220",
-        "251221",
-        "251222",
-        "251620",
-        "259093",
-        "259256",
-        "259278",
-        "259279"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 36,
-        "no": 31,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Neustart des Bund-Länder-Programms Soziale Stadt in den Gebieten Dresden-Prohlis und Dresden - Am Koitschgraben",
-      "number": "Ö 26",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12379",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259498",
-      "auxiliaryFile": [
-        "274746",
-        "255239",
-        "255194",
-        "253372",
-        "253371",
-        "251202",
-        "251203",
-        "251204",
-        "251205",
-        "257950"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 63,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 523.1, Dresden-Laubegast, Wohnpark Solitude (Änderungssatzung)hier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 27",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12388",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259501",
-      "auxiliaryFile": [
-        "259406",
-        "274769",
-        "255548",
-        "255243",
-        "253669",
-        "251815",
-        "251816",
-        "251817",
-        "251818",
-        "251819",
-        "251820",
-        "251821",
-        "253670",
-        "251823",
-        "251824",
-        "257968"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 53,
-        "no": 0,
-        "neutral": 11,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wohneigentum für Dresdner Familien fördern",
-      "number": "Ö 28",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12239",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "247686"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Neues Rathaus Dresden; Kompensation von Brandschutzmängeln im unsanierten Gebäudeteil",
-      "number": "Ö 30 Nachtrag: 14.06.2016",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12225",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "259889",
-        "259762",
-        "264699",
-        "269121",
-        "272864",
-        "278803",
-        "286487",
-        "290189",
-        "296275",
-        "300086",
-        "302586",
-        "306383",
-        "252147",
-        "251715",
-        "258216",
-        "250616",
-        "248273",
-        "248274",
-        "248275",
-        "248276",
-        "257934",
-        "259280",
-        "260985"
-      ],
-      "resolutionFile": "261167",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 53,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/265408",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00265408.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00265408.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00265408.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4941",
-  "participant": [
-    "59",
-    "287",
-    "72",
-    "1532",
-    "27",
-    "26",
-    "30",
-    "1230",
-    "676",
-    "37",
-    "289",
-    "298",
-    "266",
-    "1241",
-    "61",
-    "66",
-    "277",
-    "78",
-    "83",
-    "87",
-    "88",
-    "640",
-    "283",
-    "271",
-    "1231",
-    "1232",
-    "1240",
-    "282",
-    "577",
-    "64",
-    "79",
-    "278",
-    "1233",
-    "84",
-    "1408",
-    "496",
-    "91",
-    "668",
-    "712",
-    "274",
-    "994",
-    "1177",
-    "629",
-    "44",
-    "1234",
-    "284",
-    "265",
-    "748",
-    "268",
-    "1366",
-    "1235",
-    "35",
-    "1190",
-    "1378",
-    "55",
-    "1336",
-    "1237",
-    "1390",
-    "1238",
-    "1239",
-    "46"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "1",
+      "order": "1",
+      "name": "Bekanntgabe nicht öffentlicher Beschlüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79197",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "2",
+      "order": "2",
+      "name": "Bericht des Oberbürgermeisters",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79198",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3",
+      "order": "3",
+      "name": "Fragestunde der Stadträtinnen und Stadträte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80493",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.1",
+      "order": "4",
+      "name": "Asylleistungsbetrug durch Mehrfachregistrierung",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80498",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.2",
+      "order": "5",
+      "name": "Gestaltung Wiener Platz",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80494",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.3",
+      "order": "6",
+      "name": "Entwicklung der Nachfrage Sozialticket",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80488",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.4",
+      "order": "7",
+      "name": "Planungen für die Sanierung der Pirnaer Landstraße",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80489",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.5",
+      "order": "8",
+      "name": "Sanierung der 15. Grundschule",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80496",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.6",
+      "order": "9",
+      "name": "Zukunft des beruflichen Schulzentrums für Wirtschaft „Prof. Dr. Zeigner“",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80487",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.7",
+      "order": "10",
+      "name": "Unterbringung von Flüchtlingen in der Landeshauptstadt Dresden",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80490",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.8",
+      "order": "11",
+      "name": "Betrieb des Übergangswohnheims Karl-Stein-Straße 24 durch die TBM Tourismus-Beherbergungs-Management Dresden GmbH",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80499",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.9",
+      "order": "12",
+      "name": "Unterschriften zur geplanten Ausweichstraße zwischen Laubegast und Tolkewitz",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80491",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.10",
+      "order": "13",
+      "name": "Melde- und Wahldatenchaos in Berlin - Lehren für Dresden mit MESO-VOIS",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80495",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.11",
+      "order": "14",
+      "name": "Ergebnisse des Lenkungsausschusses zur Integration in Ausbildung und Arbeit in Dresden",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80492",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.12",
+      "order": "15",
+      "name": "Ratskeller Dresden",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80497",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "3.13",
+      "order": "16",
+      "name": "Aktueller Sachstand zur Aufwertung des Bereiches der Fähranlegerstelle Kleinzschachwitz bis zum Kurhaus",
+      "public": true,
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79577",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "4",
+      "order": "17",
+      "name": "Einigungsverfahren Gremienbesetzung - Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79576",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "4.1",
+      "order": "18",
+      "name": "Umbesetzung im Ortsbeirat Pieschen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25144",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79200",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "5",
+      "order": "19",
+      "name": "Tagesordnungspunkte ohne Debatte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79461",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6",
+      "order": "20",
+      "name": "Vertagungen der Stadtratssitzung vom 2. Juni 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80114",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.1",
+      "order": "21",
+      "name": "Mitgliedschaft der Stadt Dresden in der UNESCO-Städtekoalition gegen Rassismus",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23408",
+      "result": "punktweise Abstimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.2",
+      "order": "22",
+      "name": "Satzung zur Änderung der Satzung der Landeshauptstadt Dresden über die Entschädigung ehrenamtlich Tätiger (Entschädigungssatzung) vom 16. Oktober 2003",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23845",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80115",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.3",
+      "order": "23",
+      "name": "Satzung zur Änderung der Hauptsatzung der Landeshauptstadt Dresden vom 4. September 2014; hier: Änderung von § 29 Hauptsatzung / Ausschreibung der Stelle der/des Beigeordneten für Bildung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24850",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80116",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.4",
+      "order": "24",
+      "name": "Durchfinanzierung der Gesamtinvestition Nanoelektronikzentrum Dresden in der NanoelektronikZentrumDresden GmbH",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/22841",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80117",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.5",
+      "order": "25",
+      "name": "Polizeiverordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung in der Landeshauptstadt Dresden (PolVO Sicherheit und Ordnung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24397",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80118",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.6",
+      "order": "26",
+      "name": "Änderung der Richtlinie der Landeshauptstadt Dresden zur kommunalen Kulturförderung vom 15. Dezember 2011 in der geänderten Fassung vom 24. September 2015",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24151",
+      "result": "punktweise Abstimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80119",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.7",
+      "order": "27",
+      "name": "Förderung von Angeboten nach Fachförderrichtlinie Sozialamt vom 19. Oktober 2009 im Haushaltsjahr 2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25114",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79449",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.8",
+      "order": "28",
+      "name": "Neubenennung von Straßen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24569",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80120",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.9",
+      "order": "29",
+      "name": "Aufhebung des Punktes 8e) des Stadtratsbeschlusses V0120/14 (SR/010/2015) vom 7. Mai 2015 - Entscheidung über Verkauf und Bebauung der nicht von der Kita genutzten Teilfläche oder Nutzung dieser Flächen als öffentlicher Kinderspielplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23200",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80121",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "6.10",
+      "order": "30",
+      "name": "Damit Dresden wirklich summt: So geht das!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24315",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79646",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "7",
+      "order": "31",
+      "name": "Ersatzneubau einer Einfeld-Schulsporthalle für die 35. Oberschule, Bünaustraße 32 in 01159 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24453",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79653",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "8",
+      "order": "32",
+      "name": "Neubau eines Schulgebäudes, Leisniger Straße 78 in 01127 Dresden und Neubau einer Einfeldsporthalle mit Sanierung der Bestandssporthalle der Schule zur Lernförderung „A. S. Makarenko“, Leisniger Straße 76",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24731",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79638",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "9",
+      "order": "33",
+      "name": "Feststellung der Jahresabschlussergebnisse 2014 einschließlich des Anhanges mit Anlagen und des Rechenschaftsberichtes mit Anlagen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24290",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79639",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "10",
+      "order": "34",
+      "name": "Prüfbericht zur Übertragung von (Teil-) Aufgaben des Eigenbetriebes IT-Dienstleistungen Dresden auf eine städtische Gesellschaft",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24167",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79641",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "11",
+      "order": "35",
+      "name": "Zusammenfassung der Eigenbetriebe Städtisches Krankenhaus Dresden-Neustadt und Krankenhaus Dresden-Friedrichstadt, Städtisches Klinikum zu einem Eigenbetrieb \"Städtisches Klinikum Dresden\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24176",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79648",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "12",
+      "order": "36",
+      "name": "Änderung Wirtschaftsplanung 2016 des Eigenbetriebes Städtisches Krankenhaus Dresden-Neustadt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24510",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79658",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "13",
+      "order": "37",
+      "name": "Änderung Wirtschaftsplanung 2016 des Eigenbetriebes Krankenhaus Dresden-Friedrichstadt, Städtisches Klinikum",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24516",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79651",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "14",
+      "order": "38",
+      "name": "Festlegung von Schlüsselprodukten in der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24659",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80160",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "15",
+      "order": "39",
+      "name": "Neuer Standort \"Volkshochschule Dresden e. V.\" - Anmietung im Objekt Annenstraße 10, 01067 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25289",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79650",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "16",
+      "order": "40",
+      "name": "Umsetzung des Notfallsanitätergesetzes (NotSanG)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24575",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2019-10-14T11:02:35+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79640",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "17",
+      "order": "41",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23812",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79642",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "18",
+      "order": "42",
+      "name": "Abstimmungsvereinbarung mit Der Grüne Punkt - Duales System Deutschland GmbH (DSD) zur Erfassung gebrauchter Verkaufsverpackungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24367",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79644",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "19",
+      "order": "43",
+      "name": "Weiterführung des Ausbaus der Vereinigten Weißeritz in den Jahren 2016 ff, Lose 1 und 2",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24404",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79645",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "20",
+      "order": "44",
+      "name": "Bericht zur Umsetzung der Maßnahmen des \"Luftreinhalteplanes für die Landeshauptstadt Dresden 2011\" zum Stand vom 31.12.2015",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24482",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79649",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "21",
+      "order": "45",
+      "name": "Beitritt der Landeshauptstadt Dresden zur europäischen Initiative \"Konvent der Bürgermeister für Klima und Energie\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24565",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79643",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "22",
+      "order": "46",
+      "name": "Fortschreibung des Integrierten Handlungskonzeptes „Soziale Stadt Gorbitz 2 2016-2025“",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24376",
+      "result": "punktweise Abstimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79460",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "23",
+      "order": "47",
+      "name": "Bebauungsplan Nr. 373, Dresden-Löbtau Nr. 3, Gewerbe-Park Freiberger Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24602",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79652",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "24",
+      "order": "48",
+      "name": "Bebauungsplan Nr. 54.2, Dresden-Altstadt I Nr. 6, Postplatz/Wallstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24692",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79654",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "25",
+      "order": "49",
+      "name": "Königsbrücker Straße von Albertplatz bis Stauffenbergallee",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24903",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2019-11-01T09:24:58+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79655",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "26",
+      "order": "50",
+      "name": "Neustart des Bund-Länder-Programms Soziale Stadt in den Gebieten Dresden-Prohlis und Dresden - Am Koitschgraben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24909",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79656",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "27",
+      "order": "51",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 523.1, Dresden-Laubegast, Wohnpark Solitude (Änderungssatzung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24938",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79657",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "28",
+      "order": "52",
+      "name": "Wohneigentum für Dresdner Familien fördern",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24553",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80296",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4941",
+      "number": "30",
+      "order": "55",
+      "name": "Neues Rathaus Dresden; Kompensation von Brandschutzmängeln im unsanierten Gebäudeteil",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25374",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

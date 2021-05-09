@@ -1,153 +1,165 @@
 {
-  "shortName": "OBR Alt/045/2013",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Altstadt, 1. Etage, Raum 100,Theaterstraße 11, 01067 Dresden",
-  "name": "Ortsbeirat Altstadt - 10.07.2013 - 17:30-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "8"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "45. Sitzung des Ortsbeirates Altstadt",
   "start": "2013-07-10T17:30:00+02:00",
   "end": "2013-07-10T21:45:00+02:00",
-  "invitation": "137432",
-  "verbatimProtocol": "140127",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1769",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Theaterstraße 11",
+    "room": "Ortsamt Altstadt, Raum 100",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:26+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/8"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/569",
+    "http://oparl.dresden.de/bodies/0001/people/571",
+    "http://oparl.dresden.de/bodies/0001/people/575",
+    "http://oparl.dresden.de/bodies/0001/people/165",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/581",
+    "http://oparl.dresden.de/bodies/0001/people/582",
+    "http://oparl.dresden.de/bodies/0001/people/412",
+    "http://oparl.dresden.de/bodies/0001/people/1105",
+    "http://oparl.dresden.de/bodies/0001/people/587",
+    "http://oparl.dresden.de/bodies/0001/people/589",
+    "http://oparl.dresden.de/bodies/0001/people/591",
+    "http://oparl.dresden.de/bodies/0001/people/595",
+    "http://oparl.dresden.de/bodies/0001/people/597"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/137432",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Alt_10.07.2013",
+    "fileName": "00137432.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-07-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00137432.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00137432.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Information zur Gestaltung öffentlicher Räume im Bereich zwischen Institutsgasse, Schäfer- und Weißeritzstraße",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/137432",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Alt_10.07.2013",
+      "fileName": "00137432.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-07-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00137432.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00137432.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einrichtung einer zweizügigen Grundschule am Standort Fröbelstraße",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7141",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "142922",
-      "auxiliaryFile": [
-        "162626",
-        "194905",
-        "206784",
-        "221494",
-        "248525",
-        "136202",
-        "134480",
-        "134182",
-        "132378"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Konzept zur Neuausrichtung des Altmarktes (Veranstaltungskonzept)",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6872",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "138881",
-      "auxiliaryFile": [
-        "136142",
-        "135905",
-        "136095",
-        "134695",
-        "134697",
-        "131388",
-        "131854",
-        "140668"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 6,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4864",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "190527",
-        "133484",
-        "132956",
-        "127793",
-        "109571"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 11,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999hier:\t1. Billigung der Abwägung über die Stellungnahmen aus der frühzeitigen Beteiligung2. Billigung des Entwurfes des Flächennutzungsplanes3. Billigung der Begründung mit Umweltbericht zum Entwurf des Flächennutzungsplanes4. Öffentliche Auslegung des Entwurfes des Flächennutzungsplanes",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "175398",
-      "auxiliaryFile": [
-        "182374",
-        "206715",
-        "228917",
-        "132554",
-        "132516",
-        "106470",
-        "266493",
-        "109725"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 11,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beteiligung des Ortsbeirates zur Thematik Kulturkraftwerk Mitte",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/140127",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00140127.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-08-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00140127.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00140127.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2804",
-  "participant": [
-    "893",
-    "569",
-    "571",
-    "575",
-    "577",
-    "581",
-    "165",
-    "582",
-    "412",
-    "1105",
-    "587",
-    "589",
-    "591",
-    "595",
-    "597"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43269",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+      "number": "1",
+      "order": "1",
+      "name": "Information zur Gestaltung öffentlicher Räume im Bereich zwischen Institutsgasse, Schäfer- und Weißeritzstraße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43268",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+      "number": "2",
+      "order": "2",
+      "name": "Einrichtung einer zweizügigen Grundschule am Standort Fröbelstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12995",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43267",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+      "number": "3",
+      "order": "3",
+      "name": "Konzept zur Neuausrichtung des Altmarktes (Veranstaltungskonzept)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12375",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/41767",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+      "number": "4",
+      "order": "4",
+      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10832",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/41766",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+      "number": "5",
+      "order": "5",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10781",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/41768",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2804",
+      "number": "6.1",
+      "order": "7",
+      "name": "Beteiligung des Ortsbeirates zur Thematik Kulturkraftwerk Mitte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

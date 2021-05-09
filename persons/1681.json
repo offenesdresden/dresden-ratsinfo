@@ -1,33 +1,44 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1681",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Harald Lamm",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Stellvertretendes Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "40",
-      "startDate": "2017-06-22",
-      "endDate": "2018-09-30"
-    },
-    {
-      "role": "Stellvertretendes Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "172",
-      "startDate": "2018-09-14",
-      "endDate": "2019-10-08"
-    }
-  ],
+  "familyName": "Lamm",
+  "givenName": "Harald",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0351/32 17 01 77",
     "0151/1 69 24 0 72"
   ],
   "email": [
-    "harald-lamm@t-online.de",
-    "buero@cdu-dresden.de"
+    "harald-lamm@t-online.de; buero@cdu-dresden.de"
   ],
-  "id": "1681"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9068",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1681",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/172",
+      "role": "Stellvertretendes Mitglied",
+      "startDate": "2018-09-14",
+      "endDate": "2019-10-08",
+      "created": "2018-09-13T15:06:21+02:00",
+      "modified": "2019-10-15T05:13:38+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/8178",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1681",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/40",
+      "role": "Stellvertretendes Mitglied",
+      "startDate": "2017-06-22",
+      "endDate": "2018-09-30",
+      "created": "2017-07-03T10:14:55+02:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2017-07-03T10:14:07+02:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

@@ -1,83 +1,198 @@
 {
-  "shortName": "OSR AF/019/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 11.04.2016 - 19:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "19. Sitzung des Ortschaftsrates Altfranken",
   "start": "2016-04-11T19:00:00+02:00",
   "end": "2016-04-11T20:00:00+02:00",
-  "invitation": "248446",
-  "resultsProtocol": "249671",
-  "auxiliaryFile": [
-    "249684"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
   ],
-  "verbatimProtocol": "249828",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/1242",
+    "http://oparl.dresden.de/bodies/0001/people/1243"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/248446",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00248446.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-04-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00248446.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00248446.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/249671",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V-AF0037/16",
+    "fileName": "00249671.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-04-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00249671.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00249671.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Beschluss zur Änderung des Vertrages zur Herausgabe der Ortsnachrichten Gompitz Altfranken Mobschatz",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/248446",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00248446.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00248446.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00248446.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Straßenreinigungsgebührensatzung (SRGS) 2017",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/249671",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0037/16",
+      "fileName": "00249671.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00249671.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00249671.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/249684",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0038/16",
+      "fileName": "00249684.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00249684.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00249684.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Zwischeninformation zum Garagenbau Altfrankener Höhe",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zur Nutzung der Kindertageseinrichtung Altfrankener Dorfstraße",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Mitteilung des Bearbeitungsstandes zur Verlängerung des Wirtschaftsweges",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfrage zur Nutzung des Außenbereiches des Ortschaftszentrums",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Auswertung der Aktion Sauberes Altfranken",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/249828",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00249828.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00249828.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00249828.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5306",
-  "participant": [
-    "300",
-    "1242",
-    "302",
-    "301",
-    "1243"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77784",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "1",
+      "order": "1",
+      "name": "Beschluss zur Änderung des Vertrages zur Herausgabe der Ortsnachrichten Gompitz Altfranken Mobschatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24627",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77785",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "2",
+      "order": "2",
+      "name": "Straßenreinigungsgebührensatzung (SRGS) 2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24628",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77764",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "3",
+      "order": "3",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78167",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "3.1",
+      "order": "4",
+      "name": "Zwischeninformation zum Garagenbau Altfrankener Höhe",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78168",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "3.2",
+      "order": "5",
+      "name": "Information zur Nutzung der Kindertageseinrichtung Altfrankener Dorfstraße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78169",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "3.3",
+      "order": "6",
+      "name": "Mitteilung des Bearbeitungsstandes zur Verlängerung des Wirtschaftsweges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78171",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "3.4",
+      "order": "7",
+      "name": "Anfrage zur Nutzung des Außenbereiches des Ortschaftszentrums",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78170",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5306",
+      "number": "3.5",
+      "order": "8",
+      "name": "Auswertung der Aktion Sauberes Altfranken",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17895",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beschluss zur Bereitstellung von Investitionsmitteln des Ortschaftsrates Gompitz aus dem Jahr 2019",
-  "shortName": "V-GP0004/19",
   "reference": "V-GP0004/19",
+  "date": "2019-11-06",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/438286",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Gompitz",
+    "fileName": "00438286.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00438286.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00438286.pdf",
+    "created": "2019-10-24T09:37:13+02:00",
+    "modified": "2019-11-06T15:16:03+01:00"
+  },
   "auxiliaryFile": [
-    "452154",
-    "438286"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/452154",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK_V-GP0004/19_Investitionsmittel 2019 für Baumaßnahmen_GB6_06.01.2020",
+      "fileName": "00452154.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00452154.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00452154.pdf",
+      "created": "2020-01-08T13:36:27+01:00",
+      "modified": "2020-02-07T15:10:03+01:00"
+    }
   ],
-  "id": "17895",
-  "publishedDate": "2019-10-24",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8460",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39770",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17895",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123339",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8460",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-24T10:27:38+02:00",
+      "modified": "2019-11-12T10:09:50+01:00"
     }
-  ]
+  ],
+  "created": "2019-10-24T09:36:49+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

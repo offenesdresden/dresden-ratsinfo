@@ -1,161 +1,192 @@
 {
-  "shortName": "AB/006/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Integrations- und Ausländerbeirat - 25.11.2020 - 17:00-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "148"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Integrations- und Ausländerbeirates",
   "start": "2020-11-25T17:00:00+01:00",
   "end": "2020-11-25T19:30:00+01:00",
-  "invitation": "510552",
-  "verbatimProtocol": "519650",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/18",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "Plenarsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/148"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1277",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/2159",
+    "http://oparl.dresden.de/bodies/0001/people/1950",
+    "http://oparl.dresden.de/bodies/0001/people/1297",
+    "http://oparl.dresden.de/bodies/0001/people/1782",
+    "http://oparl.dresden.de/bodies/0001/people/1833",
+    "http://oparl.dresden.de/bodies/0001/people/422",
+    "http://oparl.dresden.de/bodies/0001/people/1271",
+    "http://oparl.dresden.de/bodies/0001/people/1275",
+    "http://oparl.dresden.de/bodies/0001/people/1276",
+    "http://oparl.dresden.de/bodies/0001/people/2175",
+    "http://oparl.dresden.de/bodies/0001/people/2176",
+    "http://oparl.dresden.de/bodies/0001/people/2177",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/282"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/510552",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB",
+    "fileName": "00510552.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-11-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510552.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510552.pdf",
+    "created": "2020-11-05T16:12:12+01:00",
+    "modified": "2020-11-11T10:48:27+01:00"
+  },
+  "resultsProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/514809",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Anlage_Präsentation_TOP 3",
+    "fileName": "00514809.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-11-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514809.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514809.pdf",
+    "created": "2020-11-27T08:27:40+01:00",
+    "modified": "2021-03-09T10:45:57+01:00"
+  },
   "auxiliaryFile": [
-    "514809"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510552",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB",
+      "fileName": "00510552.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510552.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510552.pdf",
+      "created": "2020-11-05T16:12:12+01:00",
+      "modified": "2020-11-11T10:48:27+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/514809",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage_Präsentation_TOP 3",
+      "fileName": "00514809.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514809.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514809.pdf",
+      "created": "2020-11-27T08:27:40+01:00",
+      "modified": "2021-03-09T10:45:57+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/519650",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00519650.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-12-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00519650.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00519650.pdf",
+      "created": "2020-12-22T14:17:59+01:00",
+      "modified": "2021-03-09T10:45:57+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141215",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+      "number": "1",
+      "order": "1",
       "name": "Schweigeminute für Samuel Paty, Thomas L. und für die Opfer extremistischer Gewalt",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-11-09T10:00:07+01:00",
+      "modified": "2020-11-09T10:00:07+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140509",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+      "number": "2",
+      "order": "2",
       "name": "Planungsbericht für das Leistungsfeld Förderung der Erziehung in der Familie (§§ 16 bis 21 SGB VIII)",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20394",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "537470",
-      "auxiliaryFile": [
-        "503948",
-        "502857",
-        "493916",
-        "493917"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45436",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-26T13:47:51+01:00",
+      "modified": "2020-11-25T16:25:16+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140510",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+      "number": "3",
+      "order": "3",
       "name": "Förderung von Angeboten nach Fachförderrichtlinie Sozialamt vom 19. Oktober 2009 in den Haushaltsjahren 2021 und 2022",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20469",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "516873",
-      "auxiliaryFile": [
-        "526884",
-        "508284",
-        "508127",
-        "501208",
-        "501210",
-        "503082",
-        "503083",
-        "503086",
-        "503087",
-        "503088",
-        "503089",
-        "503090",
-        "514311"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45921",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 3,
-        "biased": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-26T13:48:13+01:00",
+      "modified": "2020-11-25T17:12:18+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140512",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+      "number": "4",
+      "order": "4",
       "name": "Förderung von Trägern der freien Jugendhilfe 2021 – Vorläufige Zuwendungen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20618",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "510235",
-        "508276",
-        "509536",
-        "507554",
-        "503627",
-        "503628",
-        "503629",
-        "503630",
-        "507555",
-        "504895"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46299",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 1,
-        "biased": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-26T13:48:49+01:00",
+      "modified": "2020-11-25T17:12:33+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140513",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+      "number": "5",
+      "order": "5",
       "name": "Vollzug des Beschlusses V1569/17, Punkt 3. a) - Aufgabenübertragung zur Gewinnung und Beratung von ehrenamtlichen Einzelvormunden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20624",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "508278",
-        "508156",
-        "503777",
-        "503778",
-        "503779",
-        "503780",
-        "505733"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46276",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-26T13:50:36+01:00",
+      "modified": "2020-11-25T17:17:02+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140501",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+      "number": "6",
+      "order": "6",
       "name": "Sicherer Hafen Dresden",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20585",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "515832",
-      "auxiliaryFile": [
-        "502780",
-        "501146",
-        "514468"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45976",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 1,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-26T11:56:29+01:00",
+      "modified": "2020-11-25T17:45:57+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140502",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8834",
+      "number": "7",
+      "order": "7",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-10-26T11:56:29+01:00",
+      "modified": "2020-11-09T10:00:08+01:00"
     }
   ],
-  "id": "8834"
+  "created": "2019-10-29T07:46:49+01:00",
+  "modified": "2021-03-09T10:45:57+01:00"
 }

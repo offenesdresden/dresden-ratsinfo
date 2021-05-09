@@ -1,70 +1,44 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16367",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Geburtenhilfe – Fortsetzung des kommunalen Programmes",
-  "shortName": "A0549/19",
   "reference": "A0549/19",
+  "date": "2019-01-23",
   "paperType": "Antrag Bürgerfraktion",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-01-23",
   "auxiliaryFile": [
-    "390974"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/390974",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  Bürgerfraktion",
+      "fileName": "00390974.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00390974.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00390974.pdf",
+      "created": "2019-01-24T10:08:53+01:00",
+      "modified": "2019-01-29T11:12:57+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/129"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36098",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16367",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/112973",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7541",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7700",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7741",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7541",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-01-25T09:48:42+01:00",
+      "modified": "2019-03-19T06:24:02+01:00"
     }
   ],
-  "id": "16367"
+  "created": "2019-01-23T10:12:57+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

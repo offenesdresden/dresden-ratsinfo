@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/14565",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Bereitstellung finanzieller Mittel für die Interessengemeinschaft \"Historisches Altfranken\"",
-  "shortName": "V-AF0060/17",
   "reference": "V-AF0060/17",
+  "date": "2017-12-01",
   "paperType": "Vorlage OS Altfranken",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2017-11-24",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/323972",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Altfranken",
+    "fileName": "00323972.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-11-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00323972.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00323972.pdf",
+    "created": "2017-11-24T09:55:09+01:00",
+    "modified": "2017-12-14T10:33:34+01:00"
+  },
   "auxiliaryFile": [
-    "323972",
-    "327218"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/327218",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat_Altfranken_V_AF0060_17_mU",
+      "fileName": "00327218.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00327218.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00327218.pdf",
+      "created": "2017-12-14T10:26:57+01:00",
+      "modified": "2017-12-14T10:33:34+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/33"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5809",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/30699",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/14565",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/96819",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2017-11-24T10:19:32+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "14565"
+  "created": "2017-11-24T09:54:41+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

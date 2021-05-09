@@ -1,119 +1,161 @@
 {
-  "shortName": "OBR Leu/025/2012",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Leuben, Bürgersaal,Hertzstraße 23, 01257 Dresden",
-  "name": "Ortsbeirat Leuben - 05.09.2012 - 19:00-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "44"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "25. Sitzung des Ortsbeirates Leuben",
   "start": "2012-09-05T19:00:00+02:00",
   "end": "2012-09-05T20:45:00+02:00",
-  "invitation": "107769",
-  "verbatimProtocol": "109178",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/28",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hertzstraße 23",
+    "room": "Ortsamt Leuben, Bürgersaal",
+    "postalCode": "01257",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:04+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/44"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/508",
+    "http://oparl.dresden.de/bodies/0001/people/510",
+    "http://oparl.dresden.de/bodies/0001/people/514",
+    "http://oparl.dresden.de/bodies/0001/people/516",
+    "http://oparl.dresden.de/bodies/0001/people/518",
+    "http://oparl.dresden.de/bodies/0001/people/520",
+    "http://oparl.dresden.de/bodies/0001/people/407",
+    "http://oparl.dresden.de/bodies/0001/people/1074",
+    "http://oparl.dresden.de/bodies/0001/people/525",
+    "http://oparl.dresden.de/bodies/0001/people/528",
+    "http://oparl.dresden.de/bodies/0001/people/530",
+    "http://oparl.dresden.de/bodies/0001/people/69"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/107769",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Leu_2012_09_05",
+    "fileName": "00107769.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-08-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00107769.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00107769.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 24. Ortsbeiratssitzung am 04.07.2012",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/107769",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Leu_2012_09_05",
+      "fileName": "00107769.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-08-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00107769.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00107769.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6002, Dresden-Kleinzschachwitz, Kleinzschachwitzer Uferhier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden Erklärung nach § 10 Abs. 4 BauGB zum vorhabenbezogenen Bebauungsplan",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6175",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "111125",
-      "auxiliaryFile": [
-        "107353",
-        "106871",
-        "106874",
-        "106875",
-        "106876",
-        "106877",
-        "106878",
-        "106879",
-        "106880",
-        "106881"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 1,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Weitere Anwendung der Gehölzschutzsatzung vom 16. Juni 1995 bei kommunalen Vorhaben",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5945",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "121603",
-      "auxiliaryFile": [
-        "100850"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 1,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Gesetz über die Ladenöffnungszeiten im Freistaat Sachsen - Aufforderung zur Meldung von besonderen regionalen Ereignissen im Jahr 2013",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+- Phase 2, Grundlagen und Zukunftsthemen -",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5798",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "105356",
-      "auxiliaryFile": [
-        "158635",
-        "104103",
-        "103922",
-        "100220",
-        "96771",
-        "191666"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/109178",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00109178.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109178.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109178.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2009",
-  "participant": [
-    "895",
-    "508",
-    "510",
-    "514",
-    "516",
-    "518",
-    "520",
-    "407",
-    "1074",
-    "525",
-    "530",
-    "528",
-    "69"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33864",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift zur 24. Ortsbeiratssitzung am 04.07.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+      "number": "2",
+      "order": "2",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6002, Dresden-Kleinzschachwitz, Kleinzschachwitzer Ufer",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10860",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+      "number": "3",
+      "order": "3",
+      "name": "Weitere Anwendung der Gehölzschutzsatzung vom 16. Juni 1995 bei kommunalen Vorhaben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10302",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33872",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+      "number": "4",
+      "order": "4",
+      "name": "Gesetz über die Ladenöffnungszeiten im Freistaat Sachsen - Aufforderung zur Meldung von besonderen regionalen Ereignissen im Jahr 2013",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33870",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/34146",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2009",
+      "number": "6.1",
+      "order": "7",
+      "name": "Fortschreibung des Integrierten Stadtentwicklungskonzeptes 2025+",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9941",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

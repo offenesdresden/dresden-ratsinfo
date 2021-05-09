@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15676",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2018-4012-00039, Unterhalts- und Grundreinigung, AST BSZ für Agrarwirtschaft und Ernährung, Altroßthal 1, 01169 Dresden",
-  "shortName": "V2628/18",
   "reference": "V2628/18",
+  "date": "2018-08-27",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-08-22",
   "auxiliaryFile": [
-    "368203"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/368203",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2628/18_mU",
+      "fileName": "00368203.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00368203.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00368203.pdf",
+      "created": "2018-09-14T12:05:45+02:00",
+      "modified": "2018-09-14T12:05:46+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6652",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34065",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15676",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/106234",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6652",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-08-27T10:25:28+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15676"
+  "created": "2018-08-22T13:35:28+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

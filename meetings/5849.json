@@ -1,112 +1,144 @@
 {
-  "shortName": "P/027/2017",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 3, 3. Etage, Raum 13, Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Petitionen und Bürgeranliegen - 11.01.2017 - 16:00-16:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "133"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5849",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "27. Sitzung des Ausschusses für Petitionen und Bürgeranliegen",
   "start": "2017-01-11T16:00:00+01:00",
   "end": "2017-01-11T16:45:00+01:00",
-  "invitation": "282328",
-  "verbatimProtocol": "284177",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/14",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "3/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/133"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/765",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/1408",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1177",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/51"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/282328",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_P_2017_01_11",
+    "fileName": "00282328.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-12-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282328.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282328.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/284137",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Festlegungen und Aufträge_ö_P_2017_01_11",
+    "fileName": "00284137.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00284137.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00284137.pdf",
+    "created": "2017-01-12T16:06:08+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "284137"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/282328",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_P_2017_01_11",
+      "fileName": "00282328.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282328.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282328.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/284137",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge_ö_P_2017_01_11",
+      "fileName": "00284137.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00284137.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00284137.pdf",
+      "created": "2017-01-12T16:06:08+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/284177",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_P_2017_01_11",
+      "fileName": "00284177.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00284177.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00284177.pdf",
+      "created": "2017-01-13T10:03:28+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5849",
+      "number": "1",
+      "order": "1",
       "name": "Sanierung kaputter Fußwege in Blasewitz und Striesen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12828",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "267286",
-        "396577",
-        "523309"
-      ],
-      "resolutionFile": "284785",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26154",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5849",
+      "number": "2",
+      "order": "2",
       "name": "Protest gegen den Beschluss der Konzeptausschreibung Flurstück 71/1 und 71a",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13079",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "276169",
-        "301090",
-        "296692",
-        "307523",
-        "321273",
-        "338808",
-        "375883",
-        "457891",
-        "490800",
-        "525062",
-        "276172",
-        "291960"
-      ],
-      "resolutionFile": "291354",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26765",
       "result": "Vertagung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86096",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5849",
+      "number": "3",
+      "order": "3",
       "name": "Sachsenbad - Reanimation des Bades der Sachsen im weltweit einzigartigen Bauhausviertel in Pieschen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13289",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "282323",
-        "282326",
-        "286579"
-      ],
-      "resolutionFile": "284786",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27205",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "5849",
-  "participant": [
-    "287",
-    "765",
-    "61",
-    "78",
-    "83",
-    "88",
-    "271",
-    "84",
-    "1408",
-    "712",
-    "994",
-    "1177",
-    "288",
-    "722",
-    "1237",
-    "51"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2021-01-25T10:02:46+01:00"
 }

@@ -1,26 +1,70 @@
 {
-  "shortName": "OSR SB/069/2014",
-  "locality": "Landeshauptstadt Dresden, in Form einer OrtsbegehungTreffpunkt zur Ortsbegehung: 18:30 Uhr am Ortsausgang Langebrücker Straße, Höhe Nr. 27/in Richtung Langebrück",
-  "name": "Ortschaftsrat Schönborn - 13.08.2014 - 18:30-19:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3767",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "69. Sitzung des Ortschaftsrates Schönborn",
   "start": "2014-08-13T18:30:00+02:00",
   "end": "2014-08-13T19:45:00+02:00",
-  "invitation": "177733",
-  "verbatimProtocol": "178134",
-  "agendaItem": [
-
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
   ],
-  "id": "3767",
   "participant": [
-    "357",
-    "362",
-    "358",
-    "361",
-    "359",
-    "356",
-    "355"
-  ]
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/356",
+    "http://oparl.dresden.de/bodies/0001/people/358",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/362"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/177733",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00177733.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-08-08",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00177733.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00177733.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/177733",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00177733.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-08-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00177733.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00177733.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/178134",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00178134.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-08-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00178134.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00178134.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

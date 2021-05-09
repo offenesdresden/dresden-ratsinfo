@@ -1,119 +1,211 @@
 {
-  "shortName": "OBR Neu/013/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 05.10.2015 - 17:30-19:05 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Ortsbeirates Neustadt",
   "start": "2015-10-05T17:30:00+02:00",
   "end": "2015-10-05T19:05:00+02:00",
-  "invitation": "224833",
-  "verbatimProtocol": "226482",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/641",
+    "http://oparl.dresden.de/bodies/0001/people/642",
+    "http://oparl.dresden.de/bodies/0001/people/1111",
+    "http://oparl.dresden.de/bodies/0001/people/1196",
+    "http://oparl.dresden.de/bodies/0001/people/1372",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/1365",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/1369",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/1361",
+    "http://oparl.dresden.de/bodies/0001/people/664",
+    "http://oparl.dresden.de/bodies/0001/people/1359",
+    "http://oparl.dresden.de/bodies/0001/people/651",
+    "http://oparl.dresden.de/bodies/0001/people/1515"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/224833",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_05.10.2015",
+    "fileName": "00224833.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-09-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00224833.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00224833.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "226293",
-    "227257",
-    "227258"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/224833",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_05.10.2015",
+      "fileName": "00224833.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00224833.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00224833.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/226293",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 - TOP 2 Kriminalitätsatlas 2014 OA Neustadt",
+      "fileName": "00226293.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00226293.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00226293.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/226482",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_OBR Neu_2015_10_05",
+      "fileName": "00226482.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00226482.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00226482.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/227257",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 - SPD-Anfrage Scheune - barrierefrei",
+      "fileName": "00227257.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00227257.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00227257.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/227258",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Ergänzungsantrag Bündnis 90/Die Grünen+DIE LINKE. zu TOP 3.2",
+      "fileName": "00227258.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-10-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00227258.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00227258.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70724",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "1",
+      "order": "1",
       "name": "Kontrolle der Niederschrift zur 12. Ortsbeiratssitzung am 07.09.2015",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Information zur KriminalitätsstatistikZuständig: Polizeirevier Dresden-Neustadt",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/72066",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "2",
+      "order": "2",
+      "name": "Information zur Kriminalitätsstatistik",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "3",
+      "order": "3",
       "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/72032",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "3.1",
+      "order": "4",
       "name": "Um- und Neugestaltung der Martin-Luther-Straße und Pulsnitzer Straße im Sanierungsgebiet Äußere Neustadt",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10231",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "231522",
-      "auxiliaryFile": [
-        "260763",
-        "282859",
-        "307869",
-        "222753",
-        "221118",
-        "214658",
-        "214659",
-        "214660",
-        "214661",
-        "214662",
-        "214663",
-        "214664",
-        "214860"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20653",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70754",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "3.2",
+      "order": "5",
       "name": "Richtlinie der Landeshauptstadt Dresden über die Gewährung von Zuwendungen für stadtteilbezogene Vorhaben (Fachförderrichtlinie der Ortsämter)",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9782",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "233036",
-      "auxiliaryFile": [
-        "220058",
-        "218158",
-        "212979",
-        "203178"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19471",
       "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70731",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "4",
+      "order": "6",
       "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70761",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "4.1",
+      "order": "7",
       "name": "Aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70762",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4247",
+      "number": "4.2",
+      "order": "8",
       "name": "Sonstige Informationen, Anfragen",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4247",
-  "participant": [
-    "641",
-    "642",
-    "1111",
-    "1196",
-    "1372",
-    "1365",
-    "653",
-    "1369",
-    "1366",
-    "655",
-    "660",
-    "662",
-    "1361",
-    "664",
-    "1359",
-    "1515",
-    "651"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

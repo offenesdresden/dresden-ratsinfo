@@ -1,25 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18614",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Zuarbeit zur Planung Doppelhaushalt 2021/2022 für das Amt für Stadtgrün und Abfallwirtschaft",
-  "shortName": "V-AF0015/20",
   "reference": "V-AF0015/20",
+  "date": "2020-03-10",
   "paperType": "Vorlage OS Altfranken",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-03-09",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/463669",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Altfranken",
+    "fileName": "00463669.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-03-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00463669.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00463669.pdf",
+    "created": "2020-03-10T10:11:45+01:00",
+    "modified": "2020-03-11T11:30:24+01:00"
+  },
   "auxiliaryFile": [
-    "463669",
-    "464039"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/464039",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR_Altfranken_V_AF0015_20_mU",
+      "fileName": "00464039.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464039.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464039.pdf",
+      "created": "2020-03-11T11:37:48+01:00",
+      "modified": "2020-03-11T12:34:38+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/480944",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_OSR_Altfranken_V_AF0015_20_16.06.2020_Zwischennachricht",
+      "fileName": "00480944.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00480944.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00480944.pdf",
+      "created": "2020-06-18T10:14:54+02:00",
+      "modified": "2020-06-18T10:14:54+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/540000",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat_Altfranken_V_AF0015_20_15.04.2021_Zwischeninformation",
+      "fileName": "00540000.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00540000.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00540000.pdf",
+      "created": "2021-04-20T14:49:27+02:00",
+      "modified": "2021-04-20T14:49:27+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/33"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9081",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41500",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18614",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/128857",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9081",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-03-10T10:17:32+01:00",
+      "modified": "2020-04-01T10:14:36+02:00"
     }
   ],
-  "id": "18614"
+  "created": "2020-03-10T10:11:20+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,84 +1,256 @@
 {
-  "shortName": "OSR LB/026/2016",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Weixdorf/Langebrück, Zweitstandort Langebrück, Beratungsraum,Weißiger Straße 5, 01465 Langebrück",
-  "name": "Ortschaftsrat Langebrück - 13.09.2016 - 19:00-21:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "51"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "26. Sitzung des Ortschaftsrates Langebrück",
   "start": "2016-09-13T19:00:00+02:00",
   "end": "2016-09-13T21:35:00+02:00",
-  "invitation": "267789",
-  "resultsProtocol": "270843",
-  "auxiliaryFile": [
-    "271102",
-    "270022",
-    "269253",
-    "269251"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/33",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weißiger Straße 5",
+    "room": "Ortschaft Langebrück, Verwaltungsstelle",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Langebrück",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:09+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
   ],
-  "verbatimProtocol": "272248",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/331",
+    "http://oparl.dresden.de/bodies/0001/people/332",
+    "http://oparl.dresden.de/bodies/0001/people/334",
+    "http://oparl.dresden.de/bodies/0001/people/1251",
+    "http://oparl.dresden.de/bodies/0001/people/1252",
+    "http://oparl.dresden.de/bodies/0001/people/338",
+    "http://oparl.dresden.de/bodies/0001/people/1253",
+    "http://oparl.dresden.de/bodies/0001/people/340",
+    "http://oparl.dresden.de/bodies/0001/people/1254"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/267789",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR LB",
+    "fileName": "00267789.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-09-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00267789.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00267789.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/269251",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Wahl_Bewerber_für_das_Amt_des_Friedensrichters",
+    "fileName": "00269251.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-09-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00269251.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00269251.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/267789",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR LB",
+      "fileName": "00267789.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00267789.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00267789.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/269251",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Wahl_Bewerber_für_das_Amt_des_Friedensrichters",
+      "fileName": "00269251.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00269251.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00269251.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlusskontrollen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/269253",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Sicherung_des_langfristigen_Dienstbetriebes_der_Grundschule_Langebrück_2017_2018",
+      "fileName": "00269253.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00269253.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00269253.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen durch den Ortsvorsteher",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/270022",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Sicherstellung_Interimslösung_für_Grundschule_Langebrück",
+      "fileName": "00270022.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00270022.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00270022.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Änderungsbedarf zur Polizeiverordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/270843",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Änderungsbedarf_zur_Polizeiverordnung",
+      "fileName": "00270843.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00270843.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00270843.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung der Bewerber für das Amt des Friedensrichters",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/271102",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Doppelhaushalt_2017_2018_Personalstelle_Parkplatz_Interimslösung",
+      "fileName": "00271102.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-09-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00271102.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00271102.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verwendung der  Verfügungsmittel/ Investpauschale des Ortschaftsrates 2016",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fragen an den Ortschaftsrat",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Termine",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/272248",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00272248.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-10-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00272248.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00272248.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5321",
-  "participant": [
-    "331",
-    "332",
-    "1252",
-    "334",
-    "1251",
-    "338",
-    "1253",
-    "340",
-    "1254"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80706",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80707",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80708",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "3",
+      "order": "3",
+      "name": "Beschlusskontrollen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80709",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/81544",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "5",
+      "order": "5",
+      "name": "Änderungsbedarf zur Polizeiverordnung zur Aufrechterhaltung der öffentlichen Sicherheit und Ordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/82057",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "6",
+      "order": "6",
+      "name": "Vorstellung der Bewerber für das Amt des Friedensrichters",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/82058",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "7",
+      "order": "7",
+      "name": "Verwendung der  Verfügungsmittel/ Investpauschale des Ortschaftsrates 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80710",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "8",
+      "order": "8",
+      "name": "Fragen an den Ortschaftsrat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80711",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "9",
+      "order": "9",
+      "name": "Termine",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80712",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5321",
+      "number": "10",
+      "order": "10",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

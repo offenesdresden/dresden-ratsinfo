@@ -1,51 +1,99 @@
 {
-  "shortName": "G/KH/002/2014",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Gesundheit (Eigenbetriebe der Krankenhäuser) - 03.12.2014 - 16:30-17:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "136"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4225",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ausschusses für Gesundheit (Eigenbetriebe der Krankenhäuser)",
   "start": "2014-12-03T16:30:00+01:00",
   "end": "2014-12-03T17:35:00+01:00",
-  "invitation": "186769",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/136"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/27",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/1231",
+    "http://oparl.dresden.de/bodies/0001/people/1232",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/1239",
+    "http://oparl.dresden.de/bodies/0001/people/796",
+    "http://oparl.dresden.de/bodies/0001/people/797",
+    "http://oparl.dresden.de/bodies/0001/people/798",
+    "http://oparl.dresden.de/bodies/0001/people/808",
+    "http://oparl.dresden.de/bodies/0001/people/831",
+    "http://oparl.dresden.de/bodies/0001/people/1002",
+    "http://oparl.dresden.de/bodies/0001/people/1092",
+    "http://oparl.dresden.de/bodies/0001/people/1172",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/288"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/186769",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_G/KH_2014_12_03",
+    "fileName": "00186769.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186769.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186769.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bekanntgabe nicht öffentlicher Beschlüsse",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen/Sonstiges Krankenhäuser",
-      "number": "N 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/186769",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_G/KH_2014_12_03",
+      "fileName": "00186769.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186769.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186769.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4225",
-  "participant": [
-    "28",
-    "27",
-    "298",
-    "1241",
-    "78",
-    "83",
-    "1231",
-    "1232",
-    "79",
-    "278",
-    "284",
-    "748",
-    "72",
-    "1239",
-    "1172",
-    "831",
-    "796",
-    "797",
-    "1002",
-    "1092",
-    "798",
-    "808",
-    "288",
-    "37"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59744",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4225",
+      "number": "1",
+      "order": "3",
+      "name": "Bekanntgabe nicht öffentlicher Beschlüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4225",
+      "number": "6",
+      "order": "8",
+      "name": "Informationen/Sonstiges Krankenhäuser",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

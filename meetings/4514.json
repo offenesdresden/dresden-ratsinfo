@@ -1,124 +1,158 @@
 {
-  "shortName": "OBR Co/009/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,Lübecker Straße 121, 01157 Dresden",
-  "name": "Ortsbeirat Cotta - 10.09.2015 - 18:04-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "37"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4514",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "9. Sitzung des Ortsbeirates Cotta",
   "start": "2015-09-10T18:04:00+02:00",
   "end": "2015-09-10T20:00:00+02:00",
-  "invitation": "217113",
-  "verbatimProtocol": "224455",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Ortsamt Cotta, kleiner Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:54+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/37"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/763",
+    "http://oparl.dresden.de/bodies/0001/people/766",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/771",
+    "http://oparl.dresden.de/bodies/0001/people/1403",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/776",
+    "http://oparl.dresden.de/bodies/0001/people/778",
+    "http://oparl.dresden.de/bodies/0001/people/1408",
+    "http://oparl.dresden.de/bodies/0001/people/1413",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/1023",
+    "http://oparl.dresden.de/bodies/0001/people/1176",
+    "http://oparl.dresden.de/bodies/0001/people/1421",
+    "http://oparl.dresden.de/bodies/0001/people/1422",
+    "http://oparl.dresden.de/bodies/0001/people/822",
+    "http://oparl.dresden.de/bodies/0001/people/1428",
+    "http://oparl.dresden.de/bodies/0001/people/1436",
+    "http://oparl.dresden.de/bodies/0001/people/1193",
+    "http://oparl.dresden.de/bodies/0001/people/1503"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/217113",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Co",
+    "fileName": "00217113.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-08-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00217113.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00217113.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/217113",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Co",
+      "fileName": "00217113.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-08-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00217113.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00217113.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Elberadweg dauerhaft und verbindlich öffentlich-rechtlich sichern!",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9905",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "206358"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 3,
-        "neutral": 6,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verkauf eines Grundstückes in Cotta",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10075",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "226748",
-      "auxiliaryFile": [
-        "232119",
-        "218790",
-        "218144",
-        "210506",
-        "211576"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 20,
-        "no": 0,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10239",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "215210",
-        "244117",
-        "347007",
-        "288953",
-        "321207",
-        "387620"
-      ],
-      "resolutionFile": "236180",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 11,
-        "no": 4,
-        "neutral": 6,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen - aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/224455",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00224455.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00224455.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00224455.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4514",
-  "participant": [
-    "763",
-    "1403",
-    "766",
-    "771",
-    "769",
-    "409",
-    "776",
-    "778",
-    "1413",
-    "1408",
-    "780",
-    "1023",
-    "1176",
-    "1422",
-    "1421",
-    "822",
-    "1428",
-    "1436",
-    "793",
-    "1503",
-    "1193"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69878",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4514",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69879",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4514",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4514",
+      "number": "2.1",
+      "order": "3",
+      "name": "Elberadweg dauerhaft und verbindlich öffentlich-rechtlich sichern!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19755",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69885",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4514",
+      "number": "2.2",
+      "order": "4",
+      "name": "Verkauf eines Grundstückes in Cotta",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/21065",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69880",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4514",
+      "number": "2.3",
+      "order": "5",
+      "name": "Ortschaftsverfassung für das gesamte Stadtgebiet umsetzen!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20687",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/69882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4514",
+      "number": "3",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen - aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

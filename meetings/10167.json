@@ -1,84 +1,131 @@
 {
-  "shortName": "OSR AF/020/2021",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 10.05.2021 - 19:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortschaftsrates Altfranken",
   "start": "2021-05-10T19:00:00+02:00",
-  "invitation": "542350",
-  "agendaItem": [
+  "end": "2021-05-10T00:00:00+02:00",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/542350",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00542350.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-04-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00542350.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00542350.pdf",
+    "created": "2021-04-30T08:15:26+02:00",
+    "modified": "2021-05-04T07:48:54+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2021/2022",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20960",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "538552",
-        "536835",
-        "533288",
-        "528724"
-      ],
-      "resolutionFile": "524562"
-    },
-    {
-      "name": "Kultur- und Nachbarschaftszentren für Dresden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20962",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "526551",
-        "525445",
-        "520291",
-        "520290",
-        "521504",
-        "520776",
-        "521854",
-        "531775",
-        "541870",
-        "539367",
-        "531762"
-      ]
-    },
-    {
-      "name": "Ladenöffnungszeiten zu besonderen regionalen Ereignissen im Jahr 2022",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21531",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "541513"
-      ]
-    },
-    {
-      "name": "Vorschläge zur Verwendung der finanziellen Mittel des Ortschaftsrates Altfranken",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen zum Altfrankener Park",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen der Bürger",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/542350",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00542350.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00542350.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00542350.pdf",
+      "created": "2021-04-30T08:15:26+02:00",
+      "modified": "2021-05-04T07:48:54+02:00"
     }
   ],
-  "id": "10167"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148593",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+      "number": "1",
+      "order": "1",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2021/2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47315",
+      "created": "2021-04-22T08:13:52+02:00",
+      "modified": "2021-04-22T08:13:52+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148589",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+      "number": "2",
+      "order": "2",
+      "name": "Kultur- und Nachbarschaftszentren für Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46953",
+      "created": "2021-04-22T08:09:09+02:00",
+      "modified": "2021-04-22T08:18:30+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148917",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+      "number": "3",
+      "order": "3",
+      "name": "Ladenöffnungszeiten zu besonderen regionalen Ereignissen im Jahr 2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48405",
+      "created": "2021-04-27T10:27:15+02:00",
+      "modified": "2021-04-27T10:27:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148594",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+      "number": "4",
+      "order": "4",
+      "name": "Vorschläge zur Verwendung der finanziellen Mittel des Ortschaftsrates Altfranken",
+      "public": true,
+      "created": "2021-04-22T08:18:23+02:00",
+      "modified": "2021-04-27T10:30:18+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148658",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen zum Altfrankener Park",
+      "public": true,
+      "created": "2021-04-23T08:38:03+02:00",
+      "modified": "2021-04-27T10:27:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148590",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+      "number": "6",
+      "order": "6",
+      "name": "Anfragen der Bürger",
+      "public": true,
+      "created": "2021-04-22T08:09:10+02:00",
+      "modified": "2021-04-27T10:27:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148591",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10167",
+      "number": "7",
+      "order": "7",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2021-04-22T08:09:10+02:00",
+      "modified": "2021-04-27T10:27:26+02:00"
+    }
+  ],
+  "created": "2020-11-02T10:19:11+01:00",
+  "modified": "2021-05-04T07:48:54+02:00"
 }

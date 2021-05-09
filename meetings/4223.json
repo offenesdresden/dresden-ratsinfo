@@ -1,61 +1,117 @@
 {
-  "shortName": "BA/Kita/002/2014",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Bildung (Eigenbetrieb Kindertageseinrichtungen) - 02.12.2014 - 16:00-16:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "135"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4223",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ausschusses für Bildung (Eigenbetrieb Kindertageseinrichtungen)",
   "start": "2014-12-02T16:00:00+01:00",
   "end": "2014-12-02T16:55:00+01:00",
-  "invitation": "186703",
-  "auxiliaryFile": [
-    "187667"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/135"
   ],
-  "verbatimProtocol": "189167",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/25",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/774",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/648",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/1177",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/438",
+    "http://oparl.dresden.de/bodies/0001/people/38"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/186703",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_BA/Kita_2014_12_02",
+    "fileName": "00186703.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-18",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186703.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186703.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/187667",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_BA/Kita_2014_12_02",
+    "fileName": "00187667.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-25",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187667.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187667.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Änderung des Investitionsplanes 2014 des Eigenbetriebes Kindertageseinrichtungen Dresden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8973",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "188930",
-      "auxiliaryFile": [
-        "192703",
-        "185327",
-        "184791",
-        "180262",
-        "183763",
-        "183764"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/186703",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_BA/Kita_2014_12_02",
+      "fileName": "00186703.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186703.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186703.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/187667",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_BA/Kita_2014_12_02",
+      "fileName": "00187667.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187667.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187667.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/189167",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_BA/Kita_2014_12_02",
+      "fileName": "00189167.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00189167.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00189167.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4223",
-  "participant": [
-    "25",
-    "28",
-    "1230",
-    "1241",
-    "774",
-    "283",
-    "271",
-    "648",
-    "274",
-    "1177",
-    "265",
-    "722",
-    "1190",
-    "438",
-    "38"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59726",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4223",
+      "number": "1",
+      "order": "1",
+      "name": "Änderung des Investitionsplanes 2014 des Eigenbetriebes Kindertageseinrichtungen Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17582",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

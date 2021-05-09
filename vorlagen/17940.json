@@ -1,26 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17940",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzmittel zur Unterstützung der Ganztagesangebote in der Grundschule Cossebaude",
-  "shortName": "A-CB0013/19",
   "reference": "A-CB0013/19",
+  "date": "2019-10-30",
   "paperType": "Antrag Ortschaft Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-30",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/439459",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Cossebaude",
+    "fileName": "00439459.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00439459.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00439459.pdf",
+    "created": "2019-10-30T13:12:00+01:00",
+    "modified": "2019-11-15T09:01:24+01:00"
+  },
   "auxiliaryFile": [
-    "439459",
-    "443508",
-    "443509"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443508",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag vom Verein zu A-CB0013/19",
+      "fileName": "00443508.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443508.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443508.pdf",
+      "created": "2019-11-15T09:00:58+01:00",
+      "modified": "2019-11-15T09:01:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443509",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0013/19_mU",
+      "fileName": "00443509.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443509.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443509.pdf",
+      "created": "2019-11-15T09:01:19+01:00",
+      "modified": "2019-11-15T09:01:24+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8480",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39844",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17940",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123736",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8480",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-30T13:06:53+01:00",
+      "modified": "2019-11-22T11:52:08+01:00"
     }
   ],
-  "id": "17940"
+  "created": "2019-10-30T13:05:44+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

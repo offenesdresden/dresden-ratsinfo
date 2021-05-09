@@ -1,108 +1,178 @@
 {
-  "shortName": "OBR Bl/029/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 14.06.2017 - 17:30-19:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "29. Sitzung des Ortsbeirates Blasewitz",
   "start": "2017-06-14T17:30:00+02:00",
   "end": "2017-06-14T19:45:00+02:00",
-  "invitation": "302242",
-  "verbatimProtocol": "312457",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/273",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/703",
+    "http://oparl.dresden.de/bodies/0001/people/710",
+    "http://oparl.dresden.de/bodies/0001/people/984",
+    "http://oparl.dresden.de/bodies/0001/people/1024",
+    "http://oparl.dresden.de/bodies/0001/people/1189",
+    "http://oparl.dresden.de/bodies/0001/people/718",
+    "http://oparl.dresden.de/bodies/0001/people/905",
+    "http://oparl.dresden.de/bodies/0001/people/1417",
+    "http://oparl.dresden.de/bodies/0001/people/34",
+    "http://oparl.dresden.de/bodies/0001/people/422",
+    "http://oparl.dresden.de/bodies/0001/people/1432",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/1434",
+    "http://oparl.dresden.de/bodies/0001/people/406",
+    "http://oparl.dresden.de/bodies/0001/people/709",
+    "http://oparl.dresden.de/bodies/0001/people/1282",
+    "http://oparl.dresden.de/bodies/0001/people/1400",
+    "http://oparl.dresden.de/bodies/0001/people/1426",
+    "http://oparl.dresden.de/bodies/0001/people/1431",
+    "http://oparl.dresden.de/bodies/0001/people/1592",
+    "http://oparl.dresden.de/bodies/0001/people/1667"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/302242",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00302242.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-06-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302242.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302242.pdf",
+    "created": "2017-06-01T09:50:32+02:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung des Jugendtreffs \"Upstairs\" des CVJM Dresden e.V.",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/302242",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00302242.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302242.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302242.pdf",
+      "created": "2017-06-01T09:50:32+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Besetzung der Schiedsstelle Blasewitz-Nord mit einer Friedensrichterin/einem Friedensrichter",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Besetzung der Schiedsstelle Blasewitz-Nord mit einer Protokollführerin/einem Protokollführer",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung der Baumaßnahme zur Verbesserung der Fußgängersicherheit und der Barrierefreiheit an der Einmündung Schneebergstraße/Rosenbergstraße",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Erweiterung des Radweg-Winterdienstes",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13537",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "317749",
-      "auxiliaryFile": [
-        "340964",
-        "394014",
-        "442773",
-        "486683",
-        "513569",
-        "297553",
-        "297039",
-        "294741",
-        "295597",
-        "290346",
-        "294740",
-        "314977",
-        "316417"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 18,
-        "no": 1,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen der Ortsamtsleiterin (u. a. Vorstellung der Programmvideothek Cookino)",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Hinweise und Anfragen aus dem Ortsbeirat und der Bevölkerung",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/312457",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00312457.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-08-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00312457.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00312457.pdf",
+      "created": "2017-08-30T09:24:18+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "6020",
-  "participant": [
-    "420",
-    "273",
-    "703",
-    "984",
-    "1189",
-    "1024",
-    "710",
-    "1417",
-    "718",
-    "905",
-    "34",
-    "422",
-    "1432",
-    "408",
-    "1434",
-    "1400",
-    "1426",
-    "1667",
-    "406",
-    "1592",
-    "1282",
-    "1431",
-    "709"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91149",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung des Jugendtreffs \"Upstairs\" des CVJM Dresden e.V.",
+      "public": true,
+      "created": "2017-05-29T10:06:58+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91147",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "2",
+      "order": "2",
+      "name": "Besetzung der Schiedsstelle Blasewitz-Nord mit einer Friedensrichterin/einem Friedensrichter",
+      "public": true,
+      "created": "2017-05-29T09:35:39+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91148",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "3",
+      "order": "3",
+      "name": "Besetzung der Schiedsstelle Blasewitz-Nord mit einer Protokollführerin/einem Protokollführer",
+      "public": true,
+      "created": "2017-05-29T09:43:37+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91253",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "4",
+      "order": "4",
+      "name": "Vorstellung der Baumaßnahme zur Verbesserung der Fußgängersicherheit und der Barrierefreiheit an",
+      "public": true,
+      "created": "2017-05-30T12:24:42+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91140",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "5",
+      "order": "5",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2017-05-29T09:29:47+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "5.1",
+      "order": "6",
+      "name": "Erweiterung des Radweg-Winterdienstes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28322",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2017-05-29T09:29:47+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91142",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "6",
+      "order": "7",
+      "name": "Informationen der Ortsamtsleiterin (u. a. Vorstellung der Programmvideothek Cookino)",
+      "public": true,
+      "created": "2017-05-29T09:29:47+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91145",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6020",
+      "number": "7",
+      "order": "8",
+      "name": "Hinweise und Anfragen aus dem Ortsbeirat und der Bevölkerung",
+      "public": true,
+      "created": "2017-05-29T09:29:47+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

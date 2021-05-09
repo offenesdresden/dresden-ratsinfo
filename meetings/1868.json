@@ -1,43 +1,102 @@
 {
-  "shortName": "AB/024/2012",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausländerbeirat - 04.12.2012 - 17:15-19:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "19"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1868",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Ausländerbeirates",
   "start": "2012-12-04T17:15:00+01:00",
   "end": "2012-12-04T19:35:00+01:00",
-  "invitation": "116598",
-  "verbatimProtocol": "118671",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/19"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/92",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/100",
+    "http://oparl.dresden.de/bodies/0001/people/269",
+    "http://oparl.dresden.de/bodies/0001/people/948",
+    "http://oparl.dresden.de/bodies/0001/people/421",
+    "http://oparl.dresden.de/bodies/0001/people/422",
+    "http://oparl.dresden.de/bodies/0001/people/424",
+    "http://oparl.dresden.de/bodies/0001/people/425",
+    "http://oparl.dresden.de/bodies/0001/people/429",
+    "http://oparl.dresden.de/bodies/0001/people/1019",
+    "http://oparl.dresden.de/bodies/0001/people/273"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/116598",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB_2012_12_04",
+    "fileName": "00116598.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-11-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00116598.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00116598.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung des Griechischen Verein",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/116598",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB_2012_12_04",
+      "fileName": "00116598.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00116598.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00116598.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Thematische Jahresplanung des Ausländerbeirates 2013",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/118671",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_AB_2012_12_04",
+      "fileName": "00118671.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-12-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00118671.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00118671.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1868",
-  "participant": [
-    "88",
-    "92",
-    "278",
-    "84",
-    "100",
-    "269",
-    "948",
-    "425",
-    "1019",
-    "422",
-    "424",
-    "421",
-    "429",
-    "273"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1868",
+      "number": "2",
+      "order": "2",
+      "name": "Vorstellung des Griechischen Verein",
+      "public": true,
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1868",
+      "number": "4",
+      "order": "4",
+      "name": "Thematische Jahresplanung des Ausländerbeirates 2013",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,78 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/3440",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Geschäftsführervakanz der NanoelektronikZentrumDresden GmbH",
-  "shortName": "V0897/11",
   "reference": "V0897/11",
+  "date": "2011-02-24",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2011-01-13",
   "auxiliaryFile": [
-    "58821",
-    "55963",
-    "52699",
-    "52700"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/52699",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V1921-SR56-07",
+      "fileName": "00052699.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00052699.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00052699.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/52700",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V3224-SR83-09",
+      "fileName": "00052700.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00052700.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00052700.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/55963",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00055963.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-02-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00055963.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00055963.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/58821",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0897/11",
+      "fileName": "00058821.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-03-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00058821.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00058821.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/47"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/5446",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/3440",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/17482",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1074",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1069",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1074",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "3440"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

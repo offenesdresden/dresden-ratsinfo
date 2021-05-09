@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17923",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzmittel zur Reparatur Gehweg an der Flensburger Straße in Gohlis",
-  "shortName": "A-CB0010/19",
   "reference": "A-CB0010/19",
+  "date": "2019-10-29",
   "paperType": "Antrag Ortschaft Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-29",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/439094",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Cossebaude",
+    "fileName": "00439094.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00439094.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00439094.pdf",
+    "created": "2019-10-29T13:36:25+01:00",
+    "modified": "2019-11-15T08:58:30+01:00"
+  },
   "auxiliaryFile": [
-    "439094",
-    "443502"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443502",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_A-CB0010/19_mU",
+      "fileName": "00443502.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443502.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443502.pdf",
+      "created": "2019-11-15T08:58:25+01:00",
+      "modified": "2019-11-15T08:58:30+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8480",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39819",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17923",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123567",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8480",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-29T13:48:18+01:00",
+      "modified": "2019-11-22T11:56:42+01:00"
     }
   ],
-  "id": "17923"
+  "created": "2019-10-29T13:36:09+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

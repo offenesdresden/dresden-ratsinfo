@@ -1,73 +1,151 @@
 {
-  "shortName": "JHA/010/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 07.05.2020 - 18:00-18:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9492",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "10. Sitzung des Jugendhilfeausschusses (Sondersitzung)",
   "start": "2020-05-07T18:00:00+02:00",
   "end": "2020-05-07T18:30:00+02:00",
-  "invitation": "471364",
-  "auxiliaryFile": [
-    "471314",
-    "472821",
-    "472822"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/18",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "Plenarsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
   ],
-  "verbatimProtocol": "474642",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/1931",
+    "http://oparl.dresden.de/bodies/0001/people/1351",
+    "http://oparl.dresden.de/bodies/0001/people/1927",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/2063",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/449",
+    "http://oparl.dresden.de/bodies/0001/people/461",
+    "http://oparl.dresden.de/bodies/0001/people/540",
+    "http://oparl.dresden.de/bodies/0001/people/918",
+    "http://oparl.dresden.de/bodies/0001/people/1160",
+    "http://oparl.dresden.de/bodies/0001/people/27",
+    "http://oparl.dresden.de/bodies/0001/people/468",
+    "http://oparl.dresden.de/bodies/0001/people/987",
+    "http://oparl.dresden.de/bodies/0001/people/1347",
+    "http://oparl.dresden.de/bodies/0001/people/1660",
+    "http://oparl.dresden.de/bodies/0001/people/1685",
+    "http://oparl.dresden.de/bodies/0001/people/2086",
+    "http://oparl.dresden.de/bodies/0001/people/2092",
+    "http://oparl.dresden.de/bodies/0001/people/2129",
+    "http://oparl.dresden.de/bodies/0001/people/1297"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/471314",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH",
+    "fileName": "00471314.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-04-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00471314.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00471314.pdf",
+    "created": "2020-04-30T10:51:11+02:00",
+    "modified": "2020-04-30T15:21:05+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Finanzierung der Kinder- und Jugendhilfe unter Corona-Bedingungen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18850",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "474608",
-      "auxiliaryFile": [
-        "501207",
-        "471347",
-        "471264",
-        "471487",
-        "471244",
-        "471245",
-        "471250",
-        "470967",
-        "473418",
-        "473652"
-      ],
-      "result": "punktweise Zustimmung mit Änderung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/471314",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH",
+      "fileName": "00471314.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00471314.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00471314.pdf",
+      "created": "2020-04-30T10:51:11+02:00",
+      "modified": "2020-04-30T15:21:05+02:00"
     },
     {
-      "name": "Erhebung von Elternbeiträgen im Rahmen der vom Sächsischen Staatsministerium für Soziales und Gesellschaftlichen Zusammenhalt angeordneten Beschränkungen des Betriebs der Kindertagesbetreuung wegen der Corona-Pandemie",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18460",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "474601",
-      "auxiliaryFile": [
-        "493055",
-        "471539",
-        "471193",
-        "471084",
-        "471085",
-        "471082",
-        "471083",
-        "471086",
-        "473419",
-        "472520"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/471364",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JHA_2020_05_07",
+      "fileName": "00471364.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00471364.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00471364.pdf",
+      "created": "2020-04-30T12:28:22+02:00",
+      "modified": "2020-07-03T07:55:38+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/472821",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_JHA_V0252/20_ff",
+      "fileName": "00472821.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00472821.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00472821.pdf",
+      "created": "2020-05-08T08:14:17+02:00",
+      "modified": "2020-07-03T07:55:24+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/472822",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_JHA_V0371/20_ff",
+      "fileName": "00472822.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00472822.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00472822.pdf",
+      "created": "2020-05-08T08:15:27+02:00",
+      "modified": "2020-07-03T07:55:24+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/474642",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00474642.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00474642.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00474642.pdf",
+      "created": "2020-05-18T10:00:58+02:00",
+      "modified": "2020-07-03T07:55:38+02:00"
     }
   ],
-  "id": "9492"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/131240",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9492",
+      "number": "1",
+      "order": "1",
+      "name": "Finanzierung der Kinder- und Jugendhilfe unter Corona-Bedingungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42076",
+      "result": "punktweise Zustimmung mit Änderung",
+      "created": "2020-04-30T10:47:03+02:00",
+      "modified": "2020-05-08T07:38:42+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/131241",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9492",
+      "number": "2",
+      "order": "2",
+      "name": "Erhebung von Elternbeiträgen im Rahmen der vom Sächsischen Staatsministerium für Soziales und Gesellschaftlichen Zusammenhalt angeordneten Beschränkungen des Betriebs der Kindertagesbetreuung wegen der Corona-Pandemie",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42087",
+      "result": "Zustimmung mit Änderung",
+      "created": "2020-04-30T10:47:26+02:00",
+      "modified": "2020-05-08T08:03:09+02:00"
+    }
+  ],
+  "created": "2020-04-29T08:10:14+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

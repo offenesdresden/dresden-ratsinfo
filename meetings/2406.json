@@ -1,77 +1,138 @@
 {
-  "shortName": "FL/072/2013",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Finanzen und Liegenschaften - 14.01.2013 - 16:00-17:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "3"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2406",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "72. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "start": "2013-01-14T16:00:00+01:00",
   "end": "2013-01-14T17:30:00+01:00",
-  "invitation": "119582",
-  "auxiliaryFile": [
-    "120515",
-    "120519"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/3"
   ],
-  "verbatimProtocol": "121111",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/92",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/267",
+    "http://oparl.dresden.de/bodies/0001/people/451",
+    "http://oparl.dresden.de/bodies/0001/people/57",
+    "http://oparl.dresden.de/bodies/0001/people/51"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/119582",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_FL_2013_01_14",
+    "fileName": "00119582.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-01-03",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00119582.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00119582.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/120515",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_V1925/12_FL",
+    "fileName": "00120515.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-01-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00120515.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00120515.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Übertragung von Zuweisungen an den Eigenbetrieb Kindertageseinrichtungen Dresden aus dem Ergebnishaushalt in den Finanzhaushalt",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6444",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "120507",
-      "auxiliaryFile": [
-        "128258",
-        "115692",
-        "115140",
-        "113876"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/119582",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_FL_2013_01_14",
+      "fileName": "00119582.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00119582.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00119582.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verkauf Neumarkt, Q VII.2",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6451",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "120511",
-      "auxiliaryFile": [
-        "117570",
-        "113749"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/120515",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V1925/12_FL",
+      "fileName": "00120515.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00120515.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00120515.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/120519",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_V1934/12_FL",
+      "fileName": "00120519.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00120519.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00120519.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/121111",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00121111.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00121111.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00121111.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2406",
-  "participant": [
-    "26",
-    "37",
-    "277",
-    "769",
-    "92",
-    "64",
-    "79",
-    "267",
-    "451",
-    "57",
-    "51"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/37247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2406",
+      "number": "1",
+      "order": "1",
+      "name": "Übertragung von Zuweisungen an den Eigenbetrieb Kindertageseinrichtungen Dresden aus dem Ergebnishaushalt in den Finanzhaushalt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11461",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/37264",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2406",
+      "number": "2",
+      "order": "2",
+      "name": "Verkauf Neumarkt, Q VII.2",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11472",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

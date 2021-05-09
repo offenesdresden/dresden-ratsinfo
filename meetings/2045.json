@@ -1,178 +1,372 @@
 {
-  "shortName": "OSR CB/026/2012",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 13.02.2012 - 18:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "26. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2012-02-13T18:30:00+01:00",
   "end": "2012-02-13T21:15:00+01:00",
-  "invitation": "87017",
-  "resultsProtocol": "88776",
-  "auxiliaryFile": [
-    "88772",
-    "88787",
-    "88791",
-    "88739",
-    "88732",
-    "88762",
-    "88765",
-    "88820"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
   ],
-  "verbatimProtocol": "88978",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/311",
+    "http://oparl.dresden.de/bodies/0001/people/1070",
+    "http://oparl.dresden.de/bodies/0001/people/314",
+    "http://oparl.dresden.de/bodies/0001/people/394"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/87017",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00087017.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-01-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00087017.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00087017.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/88732",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung Steuernagel",
+    "fileName": "00088732.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-02-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088732.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088732.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/87017",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00087017.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-01-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00087017.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00087017.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung sowie der Niederschrift der Sitzung vom 12.12.2011",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/88732",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Steuernagel",
+      "fileName": "00088732.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088732.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088732.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ausscheiden der Ortschaftsrätin Karin Steuernagel und Nachrücken eines Ersatzmitgliedes",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/88739",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Pohl",
+      "fileName": "00088739.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088739.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088739.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Ausscheiden der Ortschaftsrätin Ines Pohl und Nachrücken eines Ersatzmitgliedes",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/88762",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung STN Grst.verkauf Fl.T.v. 135/1 Obg.",
+      "fileName": "00088762.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088762.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088762.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Gestaltung der Freifläche im Kindergarten Gohlis",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/88765",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung STN Grstverk.Fl.117/11",
+      "fileName": "00088765.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088765.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088765.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2012/2013",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5151",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "85670",
-        "83758",
-        "80962",
-        "94181",
-        "94183"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/88772",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel Blütenfest",
+      "fileName": "00088772.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088772.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088772.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bauangelegenheiten - Informationen und Erörterungen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/88776",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel ASB",
+      "fileName": "00088776.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088776.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088776.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/88787",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel Orgel",
+      "fileName": "00088787.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088787.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088787.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel zur Anschaffung einer Orgel für die Ev.-Luth.Kirche Cossebaude",
-      "number": "Ö 8.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/88791",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzmittel TSV",
+      "fileName": "00088791.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088791.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088791.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel zur Unterstützung der Vereinsarbeit 2012 im TSV Cossebaude",
-      "number": "Ö 8.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/88820",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Wahl Ortsvorsteher",
+      "fileName": "00088820.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088820.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088820.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finnazmittel zur Unterstützung der Kulturveranstaltungen 2012 in der ASB Begegnungsstätte Cossebaude",
-      "number": "Ö 8.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel zur Durchführung des 8. Cossebauder Blütenfestes",
-      "number": "Ö 8.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Benennung erster Vorschläge zur Verwendung der Finanzmittel 2012",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neuwahl Ortsvorsteher",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/88978",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00088978.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088978.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088978.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2045",
-  "participant": [
-    "309",
-    "308",
-    "310",
-    "311",
-    "1070",
-    "314",
-    "394"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung sowie der Niederschrift der Sitzung vom 12.12.2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26867",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "3",
+      "order": "3",
+      "name": "Ausscheiden der Ortschaftsrätin Karin Steuernagel und Nachrücken eines Ersatzmitgliedes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8836",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "4",
+      "order": "4",
+      "name": "Ausscheiden der Ortschaftsrätin Ines Pohl und Nachrücken eines Ersatzmitgliedes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8837",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26869",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "5",
+      "order": "5",
+      "name": "Gestaltung der Freifläche im Kindergarten Gohlis",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8838",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26881",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "6",
+      "order": "6",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2012/2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8212",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26870",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "7",
+      "order": "7",
+      "name": "Bauangelegenheiten - Informationen und Erörterungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "8",
+      "order": "8",
+      "name": "Finanzmittel",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26872",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "8.1",
+      "order": "9",
+      "name": "Finanzmittel zur Anschaffung einer Orgel für die Ev.-Luth.Kirche Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8839",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26873",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "8.2",
+      "order": "10",
+      "name": "Finanzmittel zur Unterstützung der Vereinsarbeit 2012 im TSV Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8840",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26874",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "8.3",
+      "order": "11",
+      "name": "Finnazmittel zur Unterstützung der Kulturveranstaltungen 2012 in der ASB Begegnungsstätte Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8841",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26875",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "8.4",
+      "order": "12",
+      "name": "Finanzmittel zur Durchführung des 8. Cossebauder Blütenfestes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8842",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26876",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "9",
+      "order": "13",
+      "name": "Benennung erster Vorschläge zur Verwendung der Finanzmittel 2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "10",
+      "order": "14",
+      "name": "Neuwahl Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26878",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2045",
+      "number": "11",
+      "order": "15",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

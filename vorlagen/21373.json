@@ -1,12 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/21373",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Installationsarbeiten im Aufenthalts- und Umkleideraum Bauhof Gompitz",
-  "shortName": "V-GP0056/21",
   "reference": "V-GP0056/21",
+  "date": "2021-03-31",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/535291",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Gompitz",
+    "fileName": "00535291.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-03-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00535291.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00535291.pdf",
+    "created": "2021-03-26T14:16:16+01:00",
+    "modified": "2021-03-31T14:32:56+02:00"
+  },
   "auxiliaryFile": [
-    "541294",
-    "535291"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/541294",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Gompitz_V-GP0056/21",
+      "fileName": "00541294.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00541294.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00541294.pdf",
+      "created": "2021-04-26T14:19:03+02:00",
+      "modified": "2021-04-27T05:17:28+02:00"
+    }
   ],
-  "id": "21373"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/48043",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/21373",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/147600",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10198",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2021-03-30T09:26:55+02:00",
+      "modified": "2021-04-27T12:44:08+02:00"
+    }
+  ],
+  "created": "2021-03-26T14:15:58+01:00",
+  "modified": "2021-03-31T14:32:56+02:00"
 }

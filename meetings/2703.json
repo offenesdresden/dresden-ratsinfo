@@ -1,51 +1,86 @@
 {
-  "shortName": "AV/059/2012",
-  "locality": "Landeshauptstadt Dresden, im Stadtmuseum, Festsaal, 3. Etage,Wilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
-  "name": "Ausschuss für Allgemeine Verwaltung, Ordnung und Sicherheit - 13.08.2012 - 16:00-16:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "2"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2703",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "59. Sitzung des Ausschusses für Allgemeine Verwaltung, Ordnung und Sicherheit (Sondersitzung)",
   "start": "2012-08-13T16:00:00+02:00",
   "end": "2012-08-13T16:25:00+02:00",
-  "invitation": "106182",
-  "verbatimProtocol": "111293",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1727",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Wilsdruffer Straße 2",
+    "room": "Stadtmuseum, Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/2"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/451",
+    "http://oparl.dresden.de/bodies/0001/people/948",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/44"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/106182",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AV_2012_08_13",
+    "fileName": "00106182.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-08-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00106182.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00106182.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Überplanmäßige Mittelbereitstellung im Ergebnishaushalt des Schulverwaltungsamtes für die Finanzierung von Lernmitteln in den kommunalen Schulen der Landeshauptstadt Dresden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6109",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "106784",
-      "auxiliaryFile": [
-        "111834",
-        "106616",
-        "106122",
-        "105377",
-        "105378",
-        "105379"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/106182",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AV_2012_08_13",
+      "fileName": "00106182.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-08-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00106182.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00106182.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/111293",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_AV_2012_08_13",
+      "fileName": "00111293.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-10-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00111293.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00111293.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2703",
-  "participant": [
-    "26",
-    "769",
-    "79",
-    "451",
-    "948",
-    "60",
-    "36",
-    "44"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33181",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2703",
+      "number": "1",
+      "order": "2",
+      "name": "Überplanmäßige Mittelbereitstellung im Ergebnishaushalt des Schulverwaltungsamtes für die Finanzierung von Lernmitteln in den kommunalen Schulen der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10736",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

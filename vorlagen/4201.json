@@ -1,53 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/4201",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Überleitung zweckgebundener Rücklagen in die Eröffnungsbilanz der Landeshauptstadt Dresden",
-  "shortName": "V1091/11",
   "reference": "V1091/11",
+  "date": "2011-06-09",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2011-05-19",
   "auxiliaryFile": [
-    "68668",
-    "66661"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/66661",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00066661.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-06-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00066661.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00066661.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/68668",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V1091/11",
+      "fileName": "00068668.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-07-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00068668.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00068668.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/42"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/6607",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/4201",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/20971",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1148",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/3"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1148",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4201"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

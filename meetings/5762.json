@@ -1,1108 +1,826 @@
 {
-  "shortName": "SR/040/2017",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Stadtrat - 22.06.2017 bis 23.06.2017 - 16:00-21:59 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "1"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "40. Sitzung des Stadtrates",
   "start": "2017-06-22T16:00:00+02:00",
-  "end": "2017-06-22T21:59:00+02:00",
-  "invitation": "302793",
-  "verbatimProtocol": "310171",
+  "end": "2017-06-23T21:59:00+02:00",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/18",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "Plenarsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/59",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/1532",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/289",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/676",
+    "http://oparl.dresden.de/bodies/0001/people/774",
+    "http://oparl.dresden.de/bodies/0001/people/1227",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/1241",
+    "http://oparl.dresden.de/bodies/0001/people/1385",
+    "http://oparl.dresden.de/bodies/0001/people/1648",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/282",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/668",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/1231",
+    "http://oparl.dresden.de/bodies/0001/people/1232",
+    "http://oparl.dresden.de/bodies/0001/people/1233",
+    "http://oparl.dresden.de/bodies/0001/people/1408",
+    "http://oparl.dresden.de/bodies/0001/people/1641",
+    "http://oparl.dresden.de/bodies/0001/people/1649",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/265",
+    "http://oparl.dresden.de/bodies/0001/people/268",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/629",
+    "http://oparl.dresden.de/bodies/0001/people/652",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/994",
+    "http://oparl.dresden.de/bodies/0001/people/1177",
+    "http://oparl.dresden.de/bodies/0001/people/1234",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/1235",
+    "http://oparl.dresden.de/bodies/0001/people/1327",
+    "http://oparl.dresden.de/bodies/0001/people/1336",
+    "http://oparl.dresden.de/bodies/0001/people/1378",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/1238",
+    "http://oparl.dresden.de/bodies/0001/people/1239",
+    "http://oparl.dresden.de/bodies/0001/people/1390",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/272",
+    "http://oparl.dresden.de/bodies/0001/people/1236",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/69",
+    "http://oparl.dresden.de/bodies/0001/people/281"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/302793",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SR",
+    "fileName": "00302793.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-06-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302793.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302793.pdf",
+    "created": "2017-06-07T08:27:07+02:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "304882",
-    "305287"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/302793",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SR",
+      "fileName": "00302793.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302793.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302793.pdf",
+      "created": "2017-06-07T08:27:07+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/304882",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Versuch der Einigung_Stand 2017_06_22",
+      "fileName": "00304882.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00304882.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00304882.pdf",
+      "created": "2017-06-22T09:54:44+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/305287",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift_Anlage_namentliche Abstimmung zur TO",
+      "fileName": "00305287.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00305287.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00305287.pdf",
+      "created": "2017-06-23T10:27:54+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/310171",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00310171.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-08-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00310171.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00310171.pdf",
+      "created": "2017-08-14T12:15:43+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "1",
+      "order": "1",
       "name": "Bericht des Oberbürgermeisters",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-18T09:32:11+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90761",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2",
+      "order": "2",
       "name": "Fragestunde der Stadträtinnen und Stadträte - eine Runde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-18T09:32:11+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91967",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2.1",
+      "order": "3",
       "name": "Organisatorisches Versagen bei BRN-Genehmigungen",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "304756",
-        "313499"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "result": "erledigt",
+      "created": "2017-06-21T13:01:24+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91972",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2.2",
+      "order": "4",
       "name": "Investitionsbedarf im Schulbau",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "304762",
-        "317166"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "result": "erledigt",
+      "created": "2017-06-21T13:05:27+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91970",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2.3",
+      "order": "5",
       "name": "Sondernutzungserlaubnisse für die BRN 2017",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "304744",
-        "310972"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "result": "erledigt",
+      "created": "2017-06-21T13:03:47+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91973",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2.4",
+      "order": "6",
       "name": "Schulnetzplan",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "304766",
-        "321189"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "result": "erledigt",
+      "created": "2017-06-21T13:05:27+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91975",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2.5",
+      "order": "7",
       "name": "Genehmigungspraxis zur Sondernutzung des öffentlichen Raumes in Dresden",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "304806",
-        "311072"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "result": "erledigt",
+      "created": "2017-06-21T14:48:36+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91965",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2.6",
+      "order": "8",
       "name": "Rückkehrer nach Dresden",
-      "number": "Ö 2.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "304515",
-        "306118"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "result": "erledigt",
+      "created": "2017-06-21T13:01:24+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91966",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "2.7",
+      "order": "9",
       "name": "Schutz städtischer Leitungsnetze vor Anschlägen",
-      "number": "Ö 2.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "auxiliaryFile": [
-        "304606",
-        "307478"
-      ],
-      "result": "erledigt"
+      "public": true,
+      "result": "erledigt",
+      "created": "2017-06-21T13:01:24+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "3",
+      "order": "10",
       "name": "Aktuelle Stunde zum Thema „Fernsehturm Dresden – Reaktivierung, Finanzierung, Potentiale“",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28767",
+      "result": "erledigt",
       "auxiliaryFile": [
-        "304773",
-        "304774"
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/304773",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "20170620 GREBNER Studie DF Rev. 1.2 - TEIL 1",
+          "fileName": "00304773.pdf",
+          "mimeType": "application/pdf",
+          "date": "2017-06-21",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00304773.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00304773.pdf",
+          "created": "2017-06-21T12:08:17+02:00",
+          "modified": "2017-10-06T08:38:47+02:00"
+        },
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/304774",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "20170620 GREBNER Studie DF Rev. 1.2 - TEIL 2",
+          "fileName": "00304774.pdf",
+          "mimeType": "application/pdf",
+          "date": "2017-06-21",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00304774.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00304774.pdf",
+          "created": "2017-06-21T12:08:29+02:00",
+          "modified": "2017-10-06T08:38:47+02:00"
+        }
       ],
-      "result": "erledigt"
+      "created": "2017-05-23T06:06:35+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91151",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "4",
+      "order": "11",
       "name": "Einigungsverfahren Gremienbesetzung - Beirat",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-29T11:30:27+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "4.1",
+      "order": "12",
       "name": "Seniorenbeirat",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung"
+      "public": true,
+      "result": "Vertagung",
+      "created": "2017-05-29T11:30:06+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91467",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "4.2",
+      "order": "13",
       "name": "Kleingartenbeirat",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "result": "Einigung",
-      "vote": {
-        "yes": 58,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-06-02T11:17:05+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91452",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "4.3",
+      "order": "14",
       "name": "Beirat des Jobcenters Dresden",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "result": "Einigung",
-      "vote": {
-        "yes": 61,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-06-01T16:11:24+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90905",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "5",
+      "order": "15",
       "name": "Einigungsverfahren Gremienbesetzung - Ortsbeirat",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-22T12:33:00+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90768",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "5.1",
+      "order": "16",
       "name": "Umbesetzung im Ortsbeirat Plauen",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13813",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "299764"
-      ],
-      "resolutionFile": "314199",
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28596",
+      "result": "Vertagung",
+      "created": "2017-05-18T09:32:12+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90904",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "5.2",
+      "order": "17",
       "name": "Umbesetzung im Ortsbeirat Pieschen",
-      "number": "Ö 5.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13838",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "300916"
-      ],
-      "resolutionFile": "305819",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28768",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 32,
-        "no": 0,
-        "neutral": 10,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-22T12:32:17+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91314",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "5.3",
+      "order": "18",
       "name": "Umbesetzung im Ortsbeirat Pieschen",
-      "number": "Ö 5.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13869",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "302035"
-      ],
-      "resolutionFile": "305823",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28836",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 63,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-31T08:18:59+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91468",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "5.4",
+      "order": "19",
       "name": "Umbesetzung im Ortsbeirat Cotta",
-      "number": "Ö 5.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13882",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "302543"
-      ],
-      "resolutionFile": "305825",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28863",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 63,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-06-02T12:34:14+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90763",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "6",
+      "order": "20",
       "name": "Tagesordnungspunkte ohne Debatte",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-18T09:32:11+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91252",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "7",
+      "order": "21",
       "name": "Verweisung aus dem Stadtrat vom 11. Mai 2017",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-30T12:18:39+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91251",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "7.1",
+      "order": "22",
       "name": "Satzung zur Änderung der Beherbergungssteuersatzung der Landeshauptstadt Dresden",
-      "number": "Ö 7.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13309",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "311244",
-      "auxiliaryFile": [
-        "325998",
-        "370175",
-        "421572",
-        "287536",
-        "287256",
-        "299559",
-        "283165",
-        "283110",
-        "283113",
-        "283114",
-        "283115",
-        "309319",
-        "294883",
-        "310637",
-        "296013",
-        "296008",
-        "303393"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28582",
+      "result": "Vertagung",
+      "created": "2017-05-30T12:16:50+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90764",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "8",
+      "order": "23",
       "name": "Vertagung letzte Stadtratssitzung am 1. Juni 2017",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-18T09:32:11+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "8.1",
+      "order": "24",
       "name": "Satzung zur Änderung der Elternbeitragssatzung vom 15. Mai 2014",
-      "number": "Ö 8.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13374",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "317742",
-      "auxiliaryFile": [
-        "295259",
-        "294900",
-        "310851",
-        "289945",
-        "292614",
-        "293290",
-        "289964",
-        "289965",
-        "289962",
-        "292613",
-        "315536",
-        "309783",
-        "316372",
-        "311025",
-        "320548",
-        "314758"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27806",
+      "result": "Vertagung",
+      "created": "2017-05-29T11:32:31+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91507",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "8.2",
+      "order": "25",
       "name": "Dresdner Richtlinie zur sozialen Mietwohnungsbauförderung",
-      "number": "Ö 8.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13217",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "314435",
-      "auxiliaryFile": [
-        "286658",
-        "286158",
-        "285370",
-        "284610",
-        "282724",
-        "282795",
-        "281614",
-        "290551",
-        "300212",
-        "300216",
-        "290136",
-        "290109",
-        "313213",
-        "313204",
-        "305001",
-        "305002",
-        "304885",
-        "313403"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27016",
+      "result": "Vertagung",
+      "created": "2017-06-07T08:22:59+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90792",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "9",
+      "order": "26",
       "name": "Firmierung und Bestellung der Geschäftsführung der noch zu gründenden städtischen Wohnungsbaugesellschaft",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13823",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305832",
-      "auxiliaryFile": [
-        "328030",
-        "407741",
-        "317560",
-        "420566",
-        "301357",
-        "300951",
-        "300357",
-        "300358",
-        "303650"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28640",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 40,
-        "no": 24,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-18T09:33:13+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91071",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "10",
+      "order": "27",
       "name": "Erhaltungssatzungen Dresden-Blasewitz",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2017-05-24T08:24:05+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Erhaltungssatzung H-46 Dresden-Blasewitz/Striesen-NordostGesamtabwägungsbeschluss mit den Teilbereichen H 46 A bis E",
-      "number": "Ö 10.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13673",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305833",
-      "auxiliaryFile": [
-        "318510",
-        "300471",
-        "300069",
-        "294886",
-        "294887",
-        "294889",
-        "294890",
-        "294891",
-        "294892",
-        "294893",
-        "298619",
-        "294895",
-        "294897",
-        "303451"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90980",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "10.1",
+      "order": "28",
+      "name": "Erhaltungssatzung H-46 Dresden-Blasewitz/Striesen-Nordost",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28213",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:36:57+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Erhaltungssatzung H 46 A Dresden-Striesen Nordosthier: \tSatzungsbeschluss und Billigung der Begründung zur Erhaltungssatzung i. d. F. vom Februar 2017",
-      "number": "Ö 10.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13674",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305835",
-      "auxiliaryFile": [
-        "318516",
-        "300475",
-        "300070",
-        "294907",
-        "297896",
-        "294909",
-        "294910"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90981",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "10.2",
+      "order": "29",
+      "name": "Erhaltungssatzung H 46 A Dresden-Striesen Nordost",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28218",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:37:48+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Erhaltungssatzung H 46 C Dresden-Blasewitz Waldparkanlage bis SchillerplatzHier: Satzungsbeschluss und Billigung der Begründung zur Erhaltungssatzung i. d. F. vom Februar 2017",
-      "number": "Ö 10.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13675",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305837",
-      "auxiliaryFile": [
-        "318450",
-        "300428",
-        "300074",
-        "294933",
-        "297898",
-        "294935",
-        "294936"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90982",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "10.3",
+      "order": "30",
+      "name": "Erhaltungssatzung H 46 C Dresden-Blasewitz Waldparkanlage bis Schillerplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28223",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:38:45+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Erhaltungssatzung H 46 B Dresden-Blasewitz Südhier:Satzungsbeschluss und Billigung der Begründung zur Erhaltungssatzung i. d. F. vom Februar 2017",
-      "number": "Ö 10.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13676",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305839",
-      "auxiliaryFile": [
-        "318523",
-        "300432",
-        "300075",
-        "294938",
-        "298063",
-        "294941",
-        "294942"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90983",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "10.4",
+      "order": "31",
+      "name": "Erhaltungssatzung H 46 B Dresden-Blasewitz Süd",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28228",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:39:41+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Erhaltungssatzung H 46 D Dresden-Blasewitz Goetheallee/Käthe-Kollwitz-UferHier: \tSatzungsbeschluss und Billigung der Begründung zur Erhaltungssatzung i. d. F. vom Februar 2017",
-      "number": "Ö 10.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13677",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305840",
-      "auxiliaryFile": [
-        "318469",
-        "300434",
-        "300076",
-        "294972",
-        "297902",
-        "294974",
-        "294975"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90984",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "10.5",
+      "order": "32",
+      "name": "Erhaltungssatzung H 46 D Dresden-Blasewitz Goetheallee/Käthe-Kollwitz-Ufer",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28233",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:40:09+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Erhaltungssatzung H 46 E Dresden-Blasewitz Osthier: Satzungsbeschluss und Billigung der Begründung zur Erhaltungssatzung i. d. F. vom Februar 2017",
-      "number": "Ö 10.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13678",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305841",
-      "auxiliaryFile": [
-        "318511",
-        "300413",
-        "300077",
-        "294977",
-        "298104",
-        "294980",
-        "294981"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90985",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "10.6",
+      "order": "33",
+      "name": "Erhaltungssatzung H 46 E Dresden-Blasewitz Ost",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28238",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 64,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:40:39+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90922",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "11",
+      "order": "34",
       "name": "Förderung von Kreativräumen in der Landeshauptstadt Dresden mittels Zuschuss (Kreativraumförderung)",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13552",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305772",
-      "auxiliaryFile": [
-        "310746",
-        "299980",
-        "299839",
-        "298147",
-        "299026",
-        "299025",
-        "299023",
-        "299024",
-        "293540",
-        "304298"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27954",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 58,
-        "no": 1,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T06:10:27+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90924",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "12",
+      "order": "35",
       "name": "Feststellung der Jahresabschlussergebnisse 2015 einschließlich des Anhanges mit Anlagen und des Rechenschaftsberichtes mit Anlagen",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13600",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305784",
-      "auxiliaryFile": [
-        "297681",
-        "297055",
-        "295382",
-        "293141",
-        "293134",
-        "293133",
-        "303646"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28056",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 62,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T06:13:48+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Entgeltkatalog des Eigenbetriebes Sportstätten Dresden; Satzung der Landeshauptstadt Dresden über die Erhebung von Gebühren für die Benutzung von Sportstätten und die außerschulische Nutzung von Schulsportanlagen (Sportstättengebührensatzung); Satzung der Landeshauptstadt Dresden über den Zugang zu Sportstätten",
-      "number": "Ö 13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12925",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305817",
-      "auxiliaryFile": [
-        "306755",
-        "306756",
-        "306757",
-        "312570",
-        "331356",
-        "291047",
-        "290590",
-        "286036",
-        "286041",
-        "286128",
-        "286040",
-        "286763",
-        "282617",
-        "284208",
-        "304554",
-        "305233"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90975",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "13",
+      "order": "36",
+      "name": "Entgeltkatalog des Eigenbetriebes Sportstätten Dresden; Satzung der Landeshauptstadt Dresden über die Erhebung von Gebühren für die Benutzung von Sportstätten und die außerschulische Nutzung von Schulsportanlagen (Sportstättengebührensatzung); Satzun",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26383",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 66,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:00:22+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90921",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "14",
+      "order": "37",
       "name": "Richtlinie der Landeshauptstadt Dresden über die Förderung des Sportes (Sportförderrichtlinie)",
-      "number": "Ö 14",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13683",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305811",
-      "auxiliaryFile": [
-        "306759",
-        "313194",
-        "333912",
-        "390564",
-        "452351",
-        "521508",
-        "300315",
-        "300444",
-        "299954",
-        "299955",
-        "295474",
-        "295949",
-        "295739",
-        "305544"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28256",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 62,
-        "no": 0,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T06:07:25+02:00",
+      "modified": "2020-01-10T09:16:18+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90769",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "15",
+      "order": "38",
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2017/2018",
-      "number": "Ö 15",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13390",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305785",
-      "auxiliaryFile": [
-        "328463",
-        "382678",
-        "291862",
-        "291550",
-        "289624",
-        "287601",
-        "287602",
-        "288397",
-        "304709"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27652",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 59,
-        "no": 3,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-18T09:32:12+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90770",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "16",
+      "order": "39",
       "name": "Konzept zur Verbesserung der Personalausstattung in Kindertagesstätten für Krankheitsfälle und konkrete Bedarfslagen",
-      "number": "Ö 16",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13510",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "324700",
-      "auxiliaryFile": [
-        "355738",
-        "374172",
-        "298453",
-        "298263",
-        "305041",
-        "295534",
-        "289417",
-        "304708",
-        "322281",
-        "305234"
-      ],
-      "result": "Verweisung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28016",
+      "result": "Verweisung",
+      "created": "2017-05-18T09:32:12+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90986",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "17",
+      "order": "40",
       "name": "Gesamtsanierung und Erweiterung der 84. Grundschule \"In der Gartenstadt\", Heinrich-Tessenow-Weg 28 in 01109 Dresden",
-      "number": "Ö 17",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13711",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305790",
-      "auxiliaryFile": [
-        "317094",
-        "357907",
-        "396007",
-        "444316",
-        "466269",
-        "299068",
-        "298918",
-        "298510",
-        "296232",
-        "298506",
-        "296233"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28357",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 65,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:41:01+02:00",
+      "modified": "2019-11-19T12:03:22+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90987",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "18",
+      "order": "41",
       "name": "Einrichtung des Gymnasiums Seidnitz in der Planungsregion Linkselbisch Ost (LEO)",
-      "number": "Ö 18",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13712",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "317762",
-      "auxiliaryFile": [
-        "326190",
-        "343742",
-        "372399",
-        "409938",
-        "298922",
-        "299066",
-        "313604",
-        "313603",
-        "296251",
-        "318900",
-        "316364",
-        "313521"
-      ],
-      "result": "Verweisung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28349",
+      "result": "Verweisung",
+      "created": "2017-05-23T08:42:42+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90935",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "19",
+      "order": "42",
       "name": "Bestätigung der Marketingstrategie der Dresden Marketing GmbH (DMG) 2017/2018 unter besonderer Berücksichtigung des Tourismus",
-      "number": "Ö 19",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13647",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "310470",
-      "auxiliaryFile": [
-        "317545",
-        "298218",
-        "298103",
-        "294116",
-        "294117",
-        "294115",
-        "296399",
-        "302907"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28156",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 65,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T06:35:06+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90978",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "20",
+      "order": "43",
       "name": "Fortschreibung des Aktionsplans der Landeshauptstadt Dresden zur Umsetzung der UN-Behindertenrechtskonvention",
-      "number": "Ö 20",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13237",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305809",
-      "auxiliaryFile": [
-        "341065",
-        "520068",
-        "438544",
-        "438545",
-        "291048",
-        "288023",
-        "294486",
-        "284741",
-        "284743",
-        "281431",
-        "282670",
-        "305255"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27078",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 57,
-        "no": 0,
-        "neutral": 7,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:12:45+02:00",
+      "modified": "2019-10-25T07:13:23+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 395, Dresden-Briesnitz Nr. 2, Grundschulstandort \"Am Lehmberg\"hier:\t1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden Erklärung nach § 10 Abs. 4 BauGB zum Bebauungsplan",
-      "number": "Ö 21",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13521",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305792",
-      "auxiliaryFile": [
-        "318521",
-        "295272",
-        "294787",
-        "290025",
-        "290028",
-        "290029",
-        "290030",
-        "290031",
-        "290032",
-        "290033",
-        "290034",
-        "292920",
-        "292921",
-        "303447"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90979",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "21",
+      "order": "44",
+      "name": "Bebauungsplan Nr. 395, Dresden-Briesnitz Nr. 2, Grundschulstandort \"Am Lehmberg\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27827",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 65,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T08:35:34+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 690, Dresden-Nickern, Ansiedlung BAUHAUS-Baumarkthier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung und der zusammenfassenden Erklärung nach § 10 Abs. 4 BauGB zum vorhabenbezogenen Bebauungsplan",
-      "number": "Ö 22",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13609",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305796",
-      "auxiliaryFile": [
-        "337731",
-        "318434",
-        "298247",
-        "298102",
-        "296340",
-        "293026",
-        "293027",
-        "293028",
-        "293029",
-        "293030",
-        "296341",
-        "296342",
-        "293034",
-        "303450"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90934",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "22",
+      "order": "45",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 690, Dresden-Nickern, Ansiedlung BAUHAUS-Baumarkt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28073",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 40,
-        "no": 2,
-        "neutral": 25,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T06:34:17+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91153",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "23",
+      "order": "46",
       "name": "Ausübung von Straßenmusik, Straßenkunst und Straßenmalerei auf öffentlichen Straßen in der Landeshauptstadt Dresden",
-      "number": "Ö 23",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13540",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "305810",
-      "auxiliaryFile": [
-        "306832",
-        "306834",
-        "318430",
-        "341854",
-        "349674",
-        "297554",
-        "297053",
-        "295110",
-        "295077",
-        "295078",
-        "295079",
-        "295080",
-        "295090",
-        "295092",
-        "295111",
-        "295112",
-        "290762",
-        "291559",
-        "304937",
-        "304948"
-      ],
-      "result": "Ersetzung - punktweise Abstimmung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27910",
+      "result": "Ersetzung - punktweise Abstimmung",
+      "created": "2017-05-29T12:18:31+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91506",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "24",
+      "order": "47",
       "name": "Teilgebiets-Lärmaktionsplan Äußere Neustadt (2016)",
-      "number": "Ö 24",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12973",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "311235",
-      "auxiliaryFile": [
-        "383723",
-        "447833",
-        "342437",
-        "291046",
-        "290594",
-        "304994",
-        "304993",
-        "286119",
-        "286120",
-        "288680",
-        "272168",
-        "272169",
-        "288681",
-        "286123",
-        "272920",
-        "302826",
-        "308690"
-      ],
-      "result": "Verweisung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28877",
+      "result": "Verweisung",
+      "created": "2017-06-07T05:27:17+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Digitale Zukunft in ganz Dresden sichern!Antragseinreichung der Landeshauptstadt im fünften Förderaufruf gemäß der Breitbandförderrichtline des BMVI sicherstellen",
-      "number": "Ö 25",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13868",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "302368",
-        "319252",
-        "303730"
-      ],
-      "resolutionFile": "305798",
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/91451",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "25",
+      "order": "48",
+      "name": "Digitale Zukunft in ganz Dresden sichern!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28835",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 67,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-06-01T15:43:48+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90973",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "26",
+      "order": "49",
       "name": "Sanierung des ehemaligen Wohnhauses zum Kinderbauernhaus auf dem Kinder- und Jugendbauernhof Nickern",
-      "number": "Ö 26",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13591",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "292493",
-        "314528",
-        "333865",
-        "357908",
-        "380235",
-        "301216"
-      ],
-      "resolutionFile": "305795",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28035",
       "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 66,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T07:57:46+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90966",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "27",
+      "order": "50",
       "name": "Aktualisierung von Stadtentwicklungszielen durch Aufgabe veralteter Beschlüsse",
-      "number": "Ö 27",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "278770",
-        "286536",
-        "303442"
-      ],
-      "resolutionFile": "305799",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26905",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 37,
-        "no": 30,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2017-05-23T07:48:56+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90968",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5762",
+      "number": "28",
+      "order": "51",
       "name": "Klimaschutzziele der Stadt erfüllen - Nutzung von Solarenergie beim städtischen Hochbau",
-      "number": "Ö 28",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13550",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "291181",
-        "330861",
-        "354080",
-        "380247",
-        "457939",
-        "436606",
-        "303446"
-      ],
-      "resolutionFile": "311238",
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/27941",
+      "result": "Vertagung",
+      "created": "2017-05-23T07:53:04+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "5762",
-  "participant": [
-    "59",
-    "62",
-    "287",
-    "72",
-    "1532",
-    "26",
-    "30",
-    "1230",
-    "676",
-    "37",
-    "38",
-    "289",
-    "1385",
-    "266",
-    "290",
-    "1241",
-    "61",
-    "774",
-    "277",
-    "78",
-    "83",
-    "87",
-    "88",
-    "640",
-    "283",
-    "1227",
-    "1648",
-    "271",
-    "1231",
-    "1641",
-    "1232",
-    "1240",
-    "282",
-    "577",
-    "64",
-    "79",
-    "1233",
-    "84",
-    "1408",
-    "1649",
-    "91",
-    "668",
-    "712",
-    "274",
-    "994",
-    "1177",
-    "629",
-    "44",
-    "1234",
-    "284",
-    "652",
-    "265",
-    "748",
-    "268",
-    "1366",
-    "1235",
-    "288",
-    "35",
-    "722",
-    "1190",
-    "1378",
-    "55",
-    "1327",
-    "1336",
-    "1237",
-    "1390",
-    "1238",
-    "1239",
-    "1236",
-    "46",
-    "272",
-    "51",
-    "98",
-    "281",
-    "60",
-    "69"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2021-01-13T10:20:12+01:00"
 }

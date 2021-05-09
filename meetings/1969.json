@@ -1,155 +1,181 @@
 {
-  "shortName": "OBR Pro/021/2012",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Prohlis, Bürgersaal,Prohliser Allee 10, 01239 Dresden",
-  "name": "Ortsbeirat Prohlis - 23.01.2012 - 17:00-20:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "41"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "21. Sitzung des Ortsbeirates Prohlis",
   "start": "2012-01-23T17:00:00+01:00",
   "end": "2012-01-23T20:10:00+01:00",
-  "invitation": "85476",
-  "verbatimProtocol": "86741",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1791",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Prohliser Allee 10",
+    "room": "Ortsamt Prohlis, Bürgersaal",
+    "postalCode": "01239",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:35+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/41"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/403",
+    "http://oparl.dresden.de/bodies/0001/people/533",
+    "http://oparl.dresden.de/bodies/0001/people/535",
+    "http://oparl.dresden.de/bodies/0001/people/538",
+    "http://oparl.dresden.de/bodies/0001/people/542",
+    "http://oparl.dresden.de/bodies/0001/people/545",
+    "http://oparl.dresden.de/bodies/0001/people/546",
+    "http://oparl.dresden.de/bodies/0001/people/935",
+    "http://oparl.dresden.de/bodies/0001/people/552",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/557",
+    "http://oparl.dresden.de/bodies/0001/people/559",
+    "http://oparl.dresden.de/bodies/0001/people/561",
+    "http://oparl.dresden.de/bodies/0001/people/565",
+    "http://oparl.dresden.de/bodies/0001/people/1029"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/85476",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pro_2012_01_23",
+    "fileName": "00085476.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-01-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00085476.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00085476.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/85476",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pro_2012_01_23",
+      "fileName": "00085476.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-01-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00085476.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00085476.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2012/2013",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5151",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "85670",
-        "83758",
-        "80962",
-        "94181",
-        "94183"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6004, Dresden-Prohlis, Ansiedlung SELGROS Dohnaer Straßehier:\t1. Billigung des Entwurfs zum vorhabenbezogenen Bebauungsplan\t2. Billigung der Begründung zum vorhabenbezogenen Bebauungsplan-Entwurf\t3. Öffentliche Auslegung des Entwurfs zum vorhabenbezogenen Bebauungsplan",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5281",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "87037",
-      "auxiliaryFile": [
-        "85308",
-        "85059",
-        "84809",
-        "84810",
-        "84811",
-        "84812",
-        "84813",
-        "84815"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 690, Dresden-Nickern, Ansiedlung BAUHAUS-Baumarkt hier:\t1. Billigung des geänderten Entwurfs zum vorhabenbezogenen Bebauungsplan\t2. Billigung der Begründung zum geänderten vorhabenbezogenen \tBebauungsplan-Entwurf\t3. Beschluss über erneute öffentliche Auslegung",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5285",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "87041",
-      "auxiliaryFile": [
-        "85309",
-        "85068",
-        "84825",
-        "84826",
-        "84827",
-        "84828",
-        "84829",
-        "84830",
-        "84832"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 3,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5186",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "104969",
-      "auxiliaryFile": [
-        "82335"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 2,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bildungshäuser für Dresden",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zurückgezogen"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/86741",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00086741.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-03-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00086741.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00086741.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1969",
-  "participant": [
-    "895",
-    "535",
-    "533",
-    "87",
-    "538",
-    "403",
-    "542",
-    "545",
-    "546",
-    "935",
-    "554",
-    "552",
-    "51",
-    "559",
-    "557",
-    "561",
-    "565",
-    "1029"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26252",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellen der Beschlussfähigkeit, Bestätigung der Tagesordnung, Kontrolle der Niederschrift",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26257",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "2",
+      "order": "2",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2012/2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8209",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26258",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "3",
+      "order": "3",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6004, Dresden-Prohlis, Ansiedlung SELGROS Dohnaer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8617",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26259",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "4",
+      "order": "4",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 690, Dresden-Nickern, Ansiedlung BAUHAUS-Baumarkt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8622",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26255",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "5",
+      "order": "5",
+      "name": "Entwicklung von Instrumentarien zur frühzeitigen Beteiligung von Bürgern an Bauvorhaben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8295",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26256",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "6",
+      "order": "6",
+      "name": "Bildungshäuser für Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8315",
+      "result": "zurückgezogen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26260",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "7",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26261",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1969",
+      "number": "8",
+      "order": "8",
+      "name": "Informationen zum Geschehen im Ortsamtsgebiet/ Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

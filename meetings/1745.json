@@ -1,123 +1,171 @@
 {
-  "shortName": "JHA/028/2012",
-  "locality": "Landeshauptstadt Dresden, im Stadtmuseum, Festsaal, 3. Etage,Wilsdruffer Straße 2 (Eingang: Landhausstraße) , 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 01.03.2012 - 18:00-19:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "28. Sitzung des Jugendhilfeausschusses",
   "start": "2012-03-01T18:00:00+01:00",
   "end": "2012-03-01T19:35:00+01:00",
-  "invitation": "88729",
-  "verbatimProtocol": "91752",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1727",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Wilsdruffer Straße 2",
+    "room": "Stadtmuseum, Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/93",
+    "http://oparl.dresden.de/bodies/0001/people/270",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/1037",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/435",
+    "http://oparl.dresden.de/bodies/0001/people/453",
+    "http://oparl.dresden.de/bodies/0001/people/457",
+    "http://oparl.dresden.de/bodies/0001/people/460",
+    "http://oparl.dresden.de/bodies/0001/people/918",
+    "http://oparl.dresden.de/bodies/0001/people/1032",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/466",
+    "http://oparl.dresden.de/bodies/0001/people/472",
+    "http://oparl.dresden.de/bodies/0001/people/475",
+    "http://oparl.dresden.de/bodies/0001/people/479",
+    "http://oparl.dresden.de/bodies/0001/people/928",
+    "http://oparl.dresden.de/bodies/0001/people/1015",
+    "http://oparl.dresden.de/bodies/0001/people/73",
+    "http://oparl.dresden.de/bodies/0001/people/469",
+    "http://oparl.dresden.de/bodies/0001/people/485"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/88729",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH_2012_03_01",
+    "fileName": "00088729.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-02-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088729.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088729.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift vom 01.12.2011",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/88729",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH_2012_03_01",
+      "fileName": "00088729.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00088729.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00088729.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen/Fragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fachthema: Das aktive Jugendamt in familiengerichtlichen Verfahren - Neue gesetzliche Grundlagen und deren Auswirkungen auf das Jugendamt und die Jugendhilfe",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Dresdner Präventionsprogramm gegen Gewalt im Umfeld des Fußballs",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5108",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "104963",
-      "auxiliaryFile": [
-        "95370",
-        "120559",
-        "104688"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Qualitätsentwicklung - Partnerschaftliche Zusammenarbeit in der Kinder- und Jugendhilfe",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5240",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "93056",
-      "auxiliaryFile": [
-        "86871",
-        "86539",
-        "83639",
-        "83640",
-        "83641",
-        "83722",
-        "120255"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Ableitungen aus den Analysen der Fallgeschichte von Inobhutnahmen gemäß Jugendhilfeausschussbeschluss V0756/10, Punkt 3",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5257",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "90452",
-      "auxiliaryFile": [
-        "87377",
-        "87107",
-        "83971",
-        "83972",
-        "84082",
-        "84416",
-        "126013"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/91752",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_JH_2012_03_01",
+      "fileName": "00091752.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-03-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00091752.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00091752.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1745",
-  "participant": [
-    "58",
-    "769",
-    "93",
-    "270",
-    "64",
-    "1037",
-    "46",
-    "457",
-    "918",
-    "435",
-    "1032",
-    "453",
-    "460",
-    "475",
-    "479",
-    "1015",
-    "28",
-    "928",
-    "466",
-    "472",
-    "469",
-    "485",
-    "73"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26709",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift vom 01.12.2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen/Fragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26808",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+      "number": "3",
+      "order": "3",
+      "name": "Fachthema: Das aktive Jugendamt im familiengerichtlichen Verfahren - Neue gesetzliche Grundlagen für die Auswirkungen auf die Arbeit des Jugendamtes und die Jugendhilfe (FamFG, Vormundschaftsrecht)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/27427",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+      "number": "4",
+      "order": "4",
+      "name": "Dresdner Präventionsprogramm gegen Gewalt im Umfeld des Fußballs",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8090",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26718",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+      "number": "5",
+      "order": "5",
+      "name": "Qualitätsentwicklung - Partnerschaftliche Zusammenarbeit in der Kinder- und Jugendhilfe",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8486",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26786",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+      "number": "6",
+      "order": "6",
+      "name": "Ableitungen aus den Analysen der Fallgeschichte von Inobhutnahmen gemäß Jugendhilfeausschussbeschluss V0756/10, Punkt 3",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8534",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/26714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1745",
+      "number": "8",
+      "order": "8",
+      "name": "Berichte aus den Unterausschüssen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,152 +1,190 @@
 {
-  "shortName": "OBR Co/007/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,Lübecker Straße 121, 01157 Dresden",
-  "name": "Ortsbeirat Cotta - 28.05.2015 - 18:00-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "37"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "7. Sitzung des Ortsbeirates Cotta",
   "start": "2015-05-28T18:00:00+02:00",
   "end": "2015-05-28T20:15:00+02:00",
-  "invitation": "206389",
-  "verbatimProtocol": "210534",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Ortsamt Cotta, kleiner Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:54+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/37"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/763",
+    "http://oparl.dresden.de/bodies/0001/people/766",
+    "http://oparl.dresden.de/bodies/0001/people/768",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/771",
+    "http://oparl.dresden.de/bodies/0001/people/1403",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/776",
+    "http://oparl.dresden.de/bodies/0001/people/778",
+    "http://oparl.dresden.de/bodies/0001/people/1408",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/1023",
+    "http://oparl.dresden.de/bodies/0001/people/1176",
+    "http://oparl.dresden.de/bodies/0001/people/1421",
+    "http://oparl.dresden.de/bodies/0001/people/1422",
+    "http://oparl.dresden.de/bodies/0001/people/1428",
+    "http://oparl.dresden.de/bodies/0001/people/1132",
+    "http://oparl.dresden.de/bodies/0001/people/1436",
+    "http://oparl.dresden.de/bodies/0001/people/1300"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/206389",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Co",
+    "fileName": "00206389.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-05-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00206389.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00206389.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/206389",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Co",
+      "fileName": "00206389.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00206389.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00206389.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Wahl einer Protokollführerin/eines Protokollführers für die Schiedsstelle Cotta-Bereich Gorbitz und Cotta-übriger Bereich",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neubau 76. Grundschule mit Zweifeld-Sporthalle sowie Gestaltung der Freianlagen in Dresden-Briesnitz",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9730",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "213011",
-        "306885",
-        "291858",
-        "221857",
-        "251482",
-        "205523",
-        "205140",
-        "203179",
-        "202036"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 20,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9447",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "214614",
-      "auxiliaryFile": [
-        "224457",
-        "204439",
-        "203914",
-        "209178",
-        "209177",
-        "202162",
-        "202954"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorgaben der Landeshauptstadt Dresden für die anstehende Neukonzessionierung der Straßenbahn- und Buslinien sowie einer Direktvergabe an die Dresdner Verkehrsbetriebe (DVB) AG",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9741",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "215678",
-      "auxiliaryFile": [
-        "256441",
-        "281227",
-        "306287",
-        "207531",
-        "207109",
-        "202144",
-        "202145",
-        "202146",
-        "202147",
-        "202148",
-        "202149"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 1,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen - aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Asyl",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2016",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/210534",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00210534.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-06-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00210534.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00210534.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4510",
-  "participant": [
-    "763",
-    "1403",
-    "766",
-    "771",
-    "768",
-    "769",
-    "409",
-    "776",
-    "778",
-    "1408",
-    "780",
-    "1023",
-    "1176",
-    "1422",
-    "1421",
-    "1428",
-    "1132",
-    "1436",
-    "793",
-    "1300"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65915",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65921",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "2",
+      "order": "2",
+      "name": "Wahl einer Protokollführerin/eines Protokollführers für die Schiedsstelle Cotta-Bereich Gorbitz und Cotta-übriger Bereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65916",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65920",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "3.1",
+      "order": "4",
+      "name": "Neubau 76. Grundschule mit Zweifeld-Sporthalle sowie Gestaltung der Freianlagen in Dresden-Briesnitz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19343",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65922",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "3.2",
+      "order": "5",
+      "name": "Prüfauftrag Wohnbauflächen im Entwurf Flächennutzungsplan",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18537",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65923",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "3.3",
+      "order": "6",
+      "name": "Vorgaben der Landeshauptstadt Dresden für die anstehende Neukonzessionierung der Straßenbahn- und Buslinien sowie einer Direktvergabe an die Dresdner Verkehrsbetriebe (DVB) AG",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19806",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65917",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "4",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen - aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65925",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "4.1",
+      "order": "8",
+      "name": "Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65924",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4510",
+      "number": "4.2",
+      "order": "9",
+      "name": "Straßenreinigungsgebührensatzung 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

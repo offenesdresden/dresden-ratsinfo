@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17813",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Förderung von Vereinen nach Vereinsförderrichtlinie, Verwendung von Restmitteln in 2019",
-  "shortName": "A-WX0004/19",
   "reference": "A-WX0004/19",
+  "date": "2019-11-01",
   "paperType": "Antrag Ortschaft Weixdorf",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-10",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/435558",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Weixdorf",
+    "fileName": "00435558.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00435558.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00435558.pdf",
+    "created": "2019-10-10T15:02:10+02:00",
+    "modified": "2019-11-01T08:47:57+01:00"
+  },
   "auxiliaryFile": [
-    "435558",
-    "436245"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/436245",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag ZWx- Förderung von Vereinen",
+      "fileName": "00436245.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00436245.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00436245.pdf",
+      "created": "2019-10-15T07:14:46+02:00",
+      "modified": "2019-11-01T08:47:57+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/37"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8550",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39575",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17813",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/122686",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-15T07:05:10+02:00",
+      "modified": "2019-11-18T09:47:15+01:00"
     }
   ],
-  "id": "17813"
+  "created": "2019-10-10T15:01:55+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,95 +1,132 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/521",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Satzung der Landeshauptstadt Dresden über die Abfallwirtschaft (Abfallwirtschaftssatzung)",
-  "shortName": "V0194/09",
   "reference": "V0194/09",
+  "date": "2010-04-23",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2009-09-14",
   "auxiliaryFile": [
-    "17804",
-    "17665",
-    "17670",
-    "9191",
-    "8318",
-    "7443"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/7443",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V1750-SR52-07",
+      "fileName": "00007443.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00007443.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00007443.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/8318",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Stellungnahme BOB_GLB zu V0194",
+      "fileName": "00008318.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00008318.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00008318.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/9191",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "ST BOB Frauenbeauft. V0194",
+      "fileName": "00009191.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-10-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00009191.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00009191.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/17665",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage1 Satzung AWS",
+      "fileName": "00017665.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00017665.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00017665.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/17670",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage2 Synopse AWS",
+      "fileName": "00017670.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00017670.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00017670.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/17804",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00017804.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00017804.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00017804.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/47"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/944",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/521",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/5605",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/523",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/944",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/521",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/6509",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/524",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "364",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "523",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "524",
       "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/2912",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/521",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/8174",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/526",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "581",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "526",
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "521"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,94 +1,165 @@
 {
-  "shortName": "FL/021/2016",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Finanzen und Liegenschaften - 07.03.2016 - 16:00-19:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "3"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5494",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "21. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "start": "2016-03-07T16:00:00+01:00",
   "end": "2016-03-07T19:15:00+01:00",
-  "invitation": "243218",
-  "auxiliaryFile": [
-    "243453",
-    "244817",
-    "244737",
-    "248716"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/151"
   ],
-  "verbatimProtocol": "247710",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/1234",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/1239",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/87"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/243218",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_FL",
+    "fileName": "00243218.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-02-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243218.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243218.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/243453",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_FL_2016_03_07",
+    "fileName": "00243453.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-02-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243453.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243453.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Zuschuss der Landeshauptstadt Dresden zur baulichen Fertigstellung der Gedenkstätte Sophienkirche/Busmannkapelle",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11626",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "247365",
-      "auxiliaryFile": [
-        "282642",
-        "298768",
-        "335133",
-        "385190",
-        "407740",
-        "515492",
-        "480560",
-        "230993",
-        "230572",
-        "244769",
-        "227462",
-        "227469",
-        "227464",
-        "227472",
-        "229211",
-        "245862",
-        "234100",
-        "247537"
-      ],
-      "result": "Verweisung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/243218",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_FL",
+      "fileName": "00243218.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-02-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243218.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243218.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Annahme und Verwendung von eingegangenen Spenden für die Organisationseinheiten in der Landeshauptstadt Dresden vom IV. Quartal 2015",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11921",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "245006",
-      "auxiliaryFile": [
-        "254960",
-        "243127",
-        "242876",
-        "240581"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/243453",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_FL_2016_03_07",
+      "fileName": "00243453.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00243453.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00243453.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/244737",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung _V0807/15_FL",
+      "fileName": "00244737.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-03-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00244737.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00244737.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/244817",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_A0155/15_FL",
+      "fileName": "00244817.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-03-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00244817.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00244817.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/247710",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00247710.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-03-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00247710.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00247710.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/248716",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich -  Anlage",
+      "fileName": "00248716.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00248716.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00248716.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5494",
-  "participant": [
-    "26",
-    "1230",
-    "37",
-    "277",
-    "640",
-    "1240",
-    "64",
-    "79",
-    "274",
-    "1234",
-    "748",
-    "35",
-    "55",
-    "1239",
-    "98",
-    "87"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76676",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5494",
+      "number": "1",
+      "order": "1",
+      "name": "Zuschuss der Landeshauptstadt Dresden zur baulichen Fertigstellung der Gedenkstätte Sophienkirche/Busmannkapelle",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23586",
+      "result": "Verweisung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/76493",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5494",
+      "number": "2",
+      "order": "3",
+      "name": "Annahme und Verwendung von eingegangenen Spenden für die Organisationseinheiten in der Landeshauptstadt Dresden vom IV. Quartal 2015",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23826",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

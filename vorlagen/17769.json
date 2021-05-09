@@ -1,34 +1,91 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17769",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Aufhebung des Beschlusses zum \"Verzicht auf Nachtabschaltung der Straßenbeleuchtung in Dresden\"",
-  "shortName": "P0156/19",
   "reference": "P0156/19",
+  "date": "2019-10-21",
   "paperType": "Petition",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-02",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/433700",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Petition",
+    "fileName": "00433700.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00433700.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00433700.pdf",
+    "created": "2019-10-02T08:56:24+02:00",
+    "modified": "2019-10-21T10:46:05+02:00"
+  },
   "auxiliaryFile": [
-    "433700",
-    "433716"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/433716",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Petition_P0156/19_geschwärzt",
+      "fileName": "00433716.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00433716.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00433716.pdf",
+      "created": "2019-10-02T09:06:51+02:00",
+      "modified": "2019-10-02T09:16:19+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/447325",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_P_P0156/19",
+      "fileName": "00447325.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00447325.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00447325.pdf",
+      "created": "2019-12-03T15:09:41+01:00",
+      "modified": "2019-12-03T15:09:42+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/455899",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antwort_P0156/19_2019_12_04_geschwärzt",
+      "fileName": "00455899.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00455899.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00455899.pdf",
+      "created": "2020-01-29T10:20:24+01:00",
+      "modified": "2020-01-29T10:20:25+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7716",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39474",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17769",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/122950",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7717",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/158"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2019-10-21T10:43:15+02:00",
+      "modified": "2019-11-18T10:27:28+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7717",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39474",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17769",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/124034",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7718",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/158"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-11-08T13:40:19+01:00",
+      "modified": "2019-11-28T08:46:27+01:00"
     }
   ],
-  "id": "17769"
+  "created": "2019-10-02T08:55:22+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

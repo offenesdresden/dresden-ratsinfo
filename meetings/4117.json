@@ -1,48 +1,122 @@
 {
-  "shortName": "B/001/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Behindertenbeirat - 21.01.2015 - 17:00-19:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "23"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4117",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Behindertenbeirates",
   "start": "2015-01-21T17:00:00+01:00",
   "end": "2015-01-21T19:00:00+01:00",
-  "invitation": "191957",
-  "verbatimProtocol": "196702",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/23"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/406",
+    "http://oparl.dresden.de/bodies/0001/people/1037",
+    "http://oparl.dresden.de/bodies/0001/people/1433",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/858",
+    "http://oparl.dresden.de/bodies/0001/people/859",
+    "http://oparl.dresden.de/bodies/0001/people/864",
+    "http://oparl.dresden.de/bodies/0001/people/1451",
+    "http://oparl.dresden.de/bodies/0001/people/1452"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/191957",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_B_2015_01_21",
+    "fileName": "00191957.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-01-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00191957.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00191957.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "202966"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/191957",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_B_2015_01_21",
+      "fileName": "00191957.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00191957.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00191957.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/196702",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00196702.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00196702.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00196702.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/202966",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich - Anlage",
+      "fileName": "00202966.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-04-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00202966.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00202966.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4117",
+      "number": "1",
+      "order": "1",
       "name": "Wahl der/des Vorsitzenden des Behindertenbeirates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61106",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4117",
+      "number": "2",
+      "order": "2",
       "name": "Wahl der Stellvertreterin/des Stellvertreters der/des Vorsitzenden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/61110",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4117",
+      "number": "3",
+      "order": "3",
       "name": "Sonstiges",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4117",
-  "participant": [
-    "66",
-    "271",
-    "406",
-    "1037",
-    "1433",
-    "51",
-    "28",
-    "1451",
-    "858",
-    "859",
-    "864",
-    "1452"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

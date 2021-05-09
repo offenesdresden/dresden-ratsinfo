@@ -1,191 +1,232 @@
 {
-  "shortName": "OBR Neu/024/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal,Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 15.06.2016 - 17:30-22:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "24. Sitzung des Ortsbeirates Neustadt (Sondersitzung)",
   "start": "2016-06-15T17:30:00+02:00",
   "end": "2016-06-15T22:20:00+02:00",
-  "invitation": "256937",
-  "verbatimProtocol": "259692",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/641",
+    "http://oparl.dresden.de/bodies/0001/people/1111",
+    "http://oparl.dresden.de/bodies/0001/people/1196",
+    "http://oparl.dresden.de/bodies/0001/people/1370",
+    "http://oparl.dresden.de/bodies/0001/people/1372",
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/655",
+    "http://oparl.dresden.de/bodies/0001/people/1365",
+    "http://oparl.dresden.de/bodies/0001/people/1369",
+    "http://oparl.dresden.de/bodies/0001/people/1515",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/664",
+    "http://oparl.dresden.de/bodies/0001/people/1359",
+    "http://oparl.dresden.de/bodies/0001/people/654",
+    "http://oparl.dresden.de/bodies/0001/people/1191"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/256937",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_2016_06_15",
+    "fileName": "00256937.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-06-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00256937.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00256937.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 21. Ortssbeiratssitzung am 19.04.2016 (Sondersitzung) sowie der Niederschrift zur 22. Ortsbeiratssitzung am 02.05.2016",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/256937",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_2016_06_15",
+      "fileName": "00256937.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-06-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00256937.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00256937.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11948",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259982",
-      "auxiliaryFile": [
-        "273674",
-        "248863",
-        "248524",
-        "247751",
-        "240583",
-        "258864",
-        "259259"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verkehrsbauvorhaben „Bestandsnahe Gleissanierung Großenhainer Straße zwischen Conradstraße und Fritz-Reuter-Straße“",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12160",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259089",
-      "auxiliaryFile": [
-        "281329",
-        "309713",
-        "365914",
-        "427013",
-        "507004",
-        "252318",
-        "250792",
-        "245001",
-        "245002"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wahl einer Friedensrichterin/eines Friedensrichters für die Schiedsstelle Neustadt",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zum Stand der Vorbereitungen der BRN 2016",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Königsbrücker Straße von Albertplatz bis Stauffenbergallee",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12378",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259497",
-      "auxiliaryFile": [
-        "274756",
-        "320903",
-        "332924",
-        "380862",
-        "439756",
-        "524748",
-        "255241",
-        "255196",
-        "251212",
-        "251213",
-        "251214",
-        "251215",
-        "251216",
-        "251217",
-        "251218",
-        "251219",
-        "251220",
-        "251221",
-        "251222",
-        "251620",
-        "259093",
-        "259256",
-        "259278",
-        "259279"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 11,
-        "no": 3,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Gesetz über die Ladenöffnungszeiten im Freistaat Sachsen (SächsLadÖffG) - Aufforderung zur Beschlussfassung über besondere regionale Ereignisse im Jahr 2017 gemäß § 8 Abs. 2 SächsLadÖffG",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 7.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstige Informationen und Anfragen",
-      "number": "Ö 7.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorkaufsrecht bei kommunalen Grundstücken einräumen",
-      "number": "Ö 7.2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12332",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "249854",
-        "270092",
-        "257234"
-      ],
-      "resolutionFile": "276605",
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/259692",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00259692.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-06-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00259692.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00259692.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5612",
-  "participant": [
-    "641",
-    "1111",
-    "1370",
-    "1196",
-    "1372",
-    "1365",
-    "650",
-    "1369",
-    "1515",
-    "655",
-    "660",
-    "664",
-    "1359",
-    "654",
-    "1191"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80139",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 21. Ortssbeiratssitzung am 19.04.2016 (Sondersitzung) sowie der Niederschrift zur 22. Ortsbeiratssitzung am 02.05.2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80140",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80142",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "2.1",
+      "order": "3",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23796",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80143",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "2.2",
+      "order": "4",
+      "name": "Verkehrsbauvorhaben „Bestandsnahe Gleissanierung Großenhainer Straße zwischen Conradstraße und Fritz-Reuter-Straße“",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24345",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80141",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "3",
+      "order": "5",
+      "name": "Wahl einer Friedensrichterin/eines Friedensrichters für die Schiedsstelle Neustadt",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80145",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "4",
+      "order": "6",
+      "name": "Information zum Stand der Vorbereitungen der BRN 2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80151",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "5",
+      "order": "7",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80144",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "5.1",
+      "order": "8",
+      "name": "Königsbrücker Straße von Albertplatz bis Stauffenbergallee",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24901",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80146",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "6",
+      "order": "9",
+      "name": "Gesetz über die Ladenöffnungszeiten im Freistaat Sachsen (SächsLadÖffG) - Aufforderung zur Beschlussfassung über besondere regionale Ereignisse im Jahr 2017 gemäß § 8 Abs. 2 SächsLadÖffG",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80147",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "7",
+      "order": "10",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80148",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "7.1",
+      "order": "11",
+      "name": "Aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80149",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "7.2",
+      "order": "12",
+      "name": "Sonstige Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/80401",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5612",
+      "number": "7.2.1",
+      "order": "13",
+      "name": "Vorkaufsrecht bei kommunalen Grundstücken einräumen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24787",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

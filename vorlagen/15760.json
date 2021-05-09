@@ -1,36 +1,77 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15760",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Straßen(um-)benennung nach Friedrich August Krubsacius",
-  "shortName": "P0118/18",
   "reference": "P0118/18",
+  "date": "2018-09-11",
   "paperType": "Petition",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-09-11",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/367369",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Petition",
+    "fileName": "00367369.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-09-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00367369.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00367369.pdf",
+    "created": "2018-09-11T09:37:35+02:00",
+    "modified": "2018-09-11T12:02:21+02:00"
+  },
   "auxiliaryFile": [
-    "378339",
-    "367369",
-    "367491",
-    "378341"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/367491",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Petition_P0118/18_ö",
+      "fileName": "00367491.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00367491.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00367491.pdf",
+      "created": "2018-09-11T11:54:07+02:00",
+      "modified": "2018-09-11T11:54:08+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/378339",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_P_P0118/18",
+      "fileName": "00378339.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00378339.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00378339.pdf",
+      "created": "2018-11-12T10:06:46+01:00",
+      "modified": "2018-11-12T10:08:57+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/378341",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Bescheid nach abschließender Behandlung_P0118_18_geschwärzt",
+      "fileName": "00378341.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00378341.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00378341.pdf",
+      "created": "2018-11-12T10:11:09+01:00",
+      "modified": "2018-11-12T10:11:10+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6726",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6727",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34306",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15760",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/108486",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6727",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/158"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-10-23T08:52:36+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15760"
+  "created": "2018-09-11T09:36:16+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

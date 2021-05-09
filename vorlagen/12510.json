@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/12510",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 5015/16 Gestaltung Umfeld Kulturpalast Dresden und Bau der Gehwege um das Quartier VII/2 am Neumarkt, Los 1 - Verkehrsanlagen",
-  "shortName": "V1180/16",
   "reference": "V1180/16",
+  "date": "2016-05-31",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2016-05-26",
   "auxiliaryFile": [
-    "258958"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/258958",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V1180_16_mU",
+      "fileName": "00258958.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-06-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00258958.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00258958.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5386",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/25212",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/12510",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/79988",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5386",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "12510"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

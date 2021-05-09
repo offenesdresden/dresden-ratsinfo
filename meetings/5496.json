@@ -1,250 +1,219 @@
 {
-  "shortName": "FL/023/2016",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Ausschuss für Finanzen und Liegenschaften - 25.04.2016 - 16:00-19:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "3"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "23. Sitzung des Ausschusses für Finanzen und Liegenschaften",
   "start": "2016-04-25T16:00:00+02:00",
   "end": "2016-04-25T19:20:00+02:00",
-  "invitation": "249845",
-  "auxiliaryFile": [
-    "250449",
-    "251699"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/151"
   ],
-  "verbatimProtocol": "251977",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/37",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/277",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/1230",
+    "http://oparl.dresden.de/bodies/0001/people/79",
+    "http://oparl.dresden.de/bodies/0001/people/274",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/1234",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/98",
+    "http://oparl.dresden.de/bodies/0001/people/1231",
+    "http://oparl.dresden.de/bodies/0001/people/1237"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/249845",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_FL_2016_04_25",
+    "fileName": "00249845.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-04-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00249845.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00249845.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/250449",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_FL_2016_04_25",
+    "fileName": "00250449.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-04-18",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250449.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250449.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Verkauf des Grundstücks Sachsdorfer Straße, Flurstück 246 p der Gemarkung Cotta",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11693",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "251778",
-      "auxiliaryFile": [
-        "270416",
-        "273503",
-        "240185",
-        "239882",
-        "239908",
-        "230460",
-        "249336"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/249845",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_FL_2016_04_25",
+      "fileName": "00249845.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00249845.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00249845.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verkauf des Grundstückes Holsteiner Straße, Flurstücke 69 h und 69 y der Gemarkung Kemnitz",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11785",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "251779",
-      "auxiliaryFile": [
-        "270417",
-        "273505",
-        "240186",
-        "239883",
-        "233355"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/250449",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_FL_2016_04_25",
+      "fileName": "00250449.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250449.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250449.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verkauf eines Grundstücks im Gewerbegebiet Heeresbäckerei",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11863",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "251780",
-      "auxiliaryFile": [
-        "259679",
-        "271012",
-        "245117",
-        "245005",
-        "244148",
-        "235551"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/251699",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_FL_V0908/15_ff",
+      "fileName": "00251699.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00251699.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00251699.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verkauf eines Grundstücks im Gewerbegebiet Coschütz-Gittersee, Tübinger Straße",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11879",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "251785",
-      "auxiliaryFile": [
-        "264138",
-        "245538",
-        "243910",
-        "241674",
-        "248831",
-        "250033"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verkauf Altmarkt MK 4",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11909",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "267478",
-      "auxiliaryFile": [
-        "267493",
-        "271026",
-        "275743",
-        "290221",
-        "246930",
-        "245827",
-        "255451",
-        "244302",
-        "244325",
-        "237180"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Verwendung der Ersatzzahlung aufgrund Fällung von Bäumen am Postplatz/Wallstraße zur Finanzierung von Ersatzpflanzungen als Straßenbäume in den Haushalt des Amtes für Stadtgrün und Abfallwirtschaft",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12038",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "251789",
-      "auxiliaryFile": [
-        "259265",
-        "246192",
-        "245251",
-        "246191",
-        "251096"
-      ],
-      "result": "Ersetzung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Upgrade des Programmsystems MESO auf die neue Version MESO-VOIS",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12129",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "251791",
-      "auxiliaryFile": [
-        "267491",
-        "246932",
-        "245860",
-        "244041"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Veränderung von Ein- und Auszahlungsansätzen des Stadtplanungsamtes in 2016 und 2017, sowie Erhöhung des maximalen Zuschusses für die Gebäude 2.1 bis 2.4 im Heizkraftwerk Mitte",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11861",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "251793",
-      "auxiliaryFile": [
-        "261900",
-        "296479",
-        "245543",
-        "249061",
-        "248824",
-        "245220",
-        "245222",
-        "245223",
-        "245224",
-        "245225",
-        "245226",
-        "245227",
-        "245228",
-        "245229",
-        "245230",
-        "245231",
-        "245232",
-        "245233",
-        "245234",
-        "245235",
-        "245236",
-        "245187",
-        "251522"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/251977",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift ö_FL_2016_04_25",
+      "fileName": "00251977.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00251977.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00251977.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5496",
-  "participant": [
-    "26",
-    "1230",
-    "37",
-    "38",
-    "277",
-    "640",
-    "1240",
-    "79",
-    "274",
-    "1234",
-    "748",
-    "35",
-    "55",
-    "98",
-    "1231",
-    "1237"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77859",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "1",
+      "order": "1",
+      "name": "Verkauf des Grundstücks Sachsdorfer Straße, Flurstück 246 p der Gemarkung Cotta",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23550",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77861",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "2",
+      "order": "2",
+      "name": "Verkauf des Grundstückes Holsteiner Straße, Flurstücke 69 h und 69 y der Gemarkung Kemnitz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23559",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77863",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "3",
+      "order": "3",
+      "name": "Verkauf eines Grundstücks im Gewerbegebiet Heeresbäckerei",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24236",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77865",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "4",
+      "order": "4",
+      "name": "Verkauf eines Grundstücks im Gewerbegebiet Coschütz-Gittersee, Tübinger Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24201",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77866",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "5",
+      "order": "5",
+      "name": "Verkauf Altmarkt MK 4",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23720",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77868",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "6",
+      "order": "6",
+      "name": "Verwendung der Ersatzzahlung aufgrund Fällung von Bäumen am Postplatz/Wallstraße zur Finanzierung von Ersatzpflanzungen als Straßenbäume in den Haushalt des Amtes für Stadtgrün und Abfallwirtschaft",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24046",
+      "result": "Ersetzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77871",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "7",
+      "order": "7",
+      "name": "Upgrade des Programmsystems MESO auf die neue Version MESO-VOIS",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24285",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/78117",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5496",
+      "number": "8",
+      "order": "8",
+      "name": "Veränderung von Ein- und Auszahlungsansätzen des Stadtplanungsamtes in 2016 und 2017, sowie Erhöhung des maximalen Zuschusses für die Gebäude 2.1 bis 2.4 im Heizkraftwerk Mitte",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23575",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

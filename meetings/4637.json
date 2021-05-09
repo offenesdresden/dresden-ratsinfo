@@ -1,109 +1,159 @@
 {
-  "shortName": "OBR Kl/005/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 09.03.2015 - 18:30-21:54 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Ortsbeirates Klotzsche",
   "start": "2015-03-09T18:30:00+01:00",
   "end": "2015-03-09T21:54:00+01:00",
-  "invitation": "197342",
-  "verbatimProtocol": "199201",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/599",
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1062",
+    "http://oparl.dresden.de/bodies/0001/people/1348",
+    "http://oparl.dresden.de/bodies/0001/people/1345",
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/612",
+    "http://oparl.dresden.de/bodies/0001/people/613",
+    "http://oparl.dresden.de/bodies/0001/people/1342",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/617",
+    "http://oparl.dresden.de/bodies/0001/people/608",
+    "http://oparl.dresden.de/bodies/0001/people/1064"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/197342",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00197342.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-02-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00197342.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00197342.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung des geplanten Umbaus der ehemaligen Post Gertrud-Caspari-Straße zu einem Gemeindezentrum der Ev.-Lutherischen Kirchgemeinde Dresden-Klotzsche",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/197342",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00197342.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00197342.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00197342.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Der Flughafen Dresden GmbH stellt sich vor",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Konzept zur Integration von Menschen mit Migrationshintergrund in der Landeshauptstadt Dresden (Integrationskonzept 2015 - 2020)",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9226",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "210054",
-      "auxiliaryFile": [
-        "217530",
-        "262309",
-        "302214",
-        "337295",
-        "404561",
-        "442942",
-        "523426",
-        "194667",
-        "192386",
-        "194666",
-        "186293",
-        "186295",
-        "209153"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 6,
-        "no": 6,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Satzung über die Bereitstellung, Benutzung und Betreibung von Unterbringungseinrichtungen für Asylbewerber sowie Flüchtlinge nach § 3 SächsFlüAG",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9415",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "193874"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 6,
-        "no": 6,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/199201",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00199201.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-03-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00199201.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00199201.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4637",
-  "participant": [
-    "1062",
-    "599",
-    "1348",
-    "601",
-    "1345",
-    "612",
-    "611",
-    "613",
-    "1342",
-    "1136",
-    "617",
-    "608",
-    "1064"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63196",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung des geplanten Umbaus der ehemaligen Post Gertrud-Caspari-Straße zu einem Gemeindezentrum der Ev.-Lutherischen Kirchgemeinde Dresden-Klotzsche",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63203",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+      "number": "2",
+      "order": "2",
+      "name": "Der Flughafen Dresden GmbH stellt sich vor",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63192",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+      "number": "3.1",
+      "order": "4",
+      "name": "Konzept zur Integration von Menschen mit Migrationshintergrund in der Landeshauptstadt Dresden (Integrationskonzept 2015 - 2020)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18184",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+      "number": "3.2",
+      "order": "5",
+      "name": "Satzung über die Bereitstellung, Benutzung und Betreibung von Unterbringungseinrichtungen für Asylbewerber sowie Flüchtlinge nach § 3 SächsFlüAG",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18408",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+      "number": "4",
+      "order": "6",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/63194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4637",
+      "number": "5",
+      "order": "7",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

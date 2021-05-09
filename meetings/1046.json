@@ -1,146 +1,250 @@
 {
-  "shortName": "JHA/015/2011",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 03.02.2011 - 18:00-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Jugendhilfeausschusses",
   "start": "2011-02-03T18:00:00+01:00",
   "end": "2011-02-03T20:15:00+01:00",
-  "invitation": "53188",
-  "resultsProtocol": "54948",
-  "auxiliaryFile": [
-    "54945"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
   ],
-  "verbatimProtocol": "55772",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/93",
+    "http://oparl.dresden.de/bodies/0001/people/283",
+    "http://oparl.dresden.de/bodies/0001/people/64",
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/948",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/453",
+    "http://oparl.dresden.de/bodies/0001/people/457",
+    "http://oparl.dresden.de/bodies/0001/people/460",
+    "http://oparl.dresden.de/bodies/0001/people/918",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/464",
+    "http://oparl.dresden.de/bodies/0001/people/466",
+    "http://oparl.dresden.de/bodies/0001/people/468",
+    "http://oparl.dresden.de/bodies/0001/people/472",
+    "http://oparl.dresden.de/bodies/0001/people/481",
+    "http://oparl.dresden.de/bodies/0001/people/898",
+    "http://oparl.dresden.de/bodies/0001/people/928",
+    "http://oparl.dresden.de/bodies/0001/people/931",
+    "http://oparl.dresden.de/bodies/0001/people/92",
+    "http://oparl.dresden.de/bodies/0001/people/269",
+    "http://oparl.dresden.de/bodies/0001/people/463"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/53188",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH_2011_02_03",
+    "fileName": "00053188.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-01-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00053188.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00053188.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/54945",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V0756/10",
+    "fileName": "00054945.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-02-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00054945.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00054945.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift vom 02.12.2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/53188",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH_2011_02_03",
+      "fileName": "00053188.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-01-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00053188.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00053188.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen/Fragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/54945",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0756/10",
+      "fileName": "00054945.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-02-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00054945.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00054945.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Neu- bzw. Umbesetzung der Unterausschüsse",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/54948",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_A0317/10",
+      "fileName": "00054948.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-02-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00054948.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00054948.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Unterausschuss \"Jugendhilfeplanung\"",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Unterausschuss \"Kindertagesbetreuung\"",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Unterausschuss \"Förderung freier Träger\"",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung innovativer Ansätze der Jugendhilfe im Strafverfahren",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Planungsbericht Inobhutnahme 2009",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2873",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "45454",
-        "43997",
-        "122830"
-      ],
-      "resolutionFile": "42161",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Dresden - Stadt der bewegungsfreudigen und gesunden Kinder: Modellkonzept für fortschrittliche Bewegungs- und damit Gesundheitsförderung im Kindesalter",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3289",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "61120",
-      "auxiliaryFile": [
-        "49874"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Erstellung des Jugendhilfeteilfachplanes §§ 11 bis 14, 16 und 52 SGB VIII i. V. m. JGG",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3390",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "51849",
-        "51853"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/55772",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_JH_2011_02_03",
+      "fileName": "00055772.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-02-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00055772.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00055772.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1046",
-  "participant": [
-    "93",
-    "283",
-    "64",
-    "58",
-    "948",
-    "46",
-    "457",
-    "918",
-    "453",
-    "460",
-    "468",
-    "898",
-    "931",
-    "481",
-    "28",
-    "928",
-    "464",
-    "466",
-    "472",
-    "269",
-    "463",
-    "92"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15541",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift vom 02.12.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15548",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen/Fragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15938",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "3",
+      "order": "3",
+      "name": "Neu- bzw. Umbesetzung der Unterausschüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15939",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "3.1",
+      "order": "4",
+      "name": "Unterausschuss \"Jugendhilfeplanung\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15940",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "3.2",
+      "order": "5",
+      "name": "Unterausschuss \"Kindertagesbetreuung\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15941",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "3.3",
+      "order": "6",
+      "name": "Unterausschuss \"Förderung freier Träger\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/16129",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "4",
+      "order": "7",
+      "name": "Vorstellung innovativer Ansätze der Jugendhilfe im Strafverfahren",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15546",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "5",
+      "order": "8",
+      "name": "Planungsbericht Inobhutnahme 2009",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4579",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15544",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "6",
+      "order": "9",
+      "name": "Dresden - Stadt der bewegungsfreudigen und gesunden Kinder: Modellkonzept für fortschrittliche Bewegungs- und damit Gesundheitsförderung im Kindesalter",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5264",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15883",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "7",
+      "order": "10",
+      "name": "Erstellung des Jugendhilfeteilfachplanes §§ 11 bis 14, 16 und 52 SGB VIII i. V. m. JGG",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5395",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/15547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1046",
+      "number": "8",
+      "order": "11",
+      "name": "Berichte aus den Unterausschüssen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

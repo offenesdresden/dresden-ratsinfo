@@ -1,228 +1,286 @@
 {
-  "shortName": "WF/052/2012",
-  "locality": "Landeshauptstadt Dresden, 3. Etage, Raum 333,Ferdinandplatz 2, 01069 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 07.06.2012 - 16:00-17:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "52. Sitzung des Ausschusses für Wirtschaftsförderung",
   "start": "2012-06-07T16:00:00+02:00",
   "end": "2012-06-07T17:55:00+02:00",
-  "invitation": "99716",
-  "auxiliaryFile": [
-    "100241"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1773",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Ferdinandplatz 2",
+    "room": "Ferdinandplatz 2, Raum 333",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
   ],
-  "verbatimProtocol": "101455",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/268",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/272",
+    "http://oparl.dresden.de/bodies/0001/people/57"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/99716",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF_2012_06_07",
+    "fileName": "00099716.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-05-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00099716.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00099716.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/100241",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_WF_2012_06_07",
+    "fileName": "00100241.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-06-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00100241.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00100241.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bekanntgabe nichtöffentlicher Beschlüsse",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/99716",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF_2012_06_07",
+      "fileName": "00099716.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00099716.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00099716.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Geschäftsbereich Finanzen und Liegenschaften",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/100241",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_WF_2012_06_07",
+      "fileName": "00100241.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00100241.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00100241.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlussvorlagen zu VOF-Vergaben",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabe-Nr. A 00005/11, Bertold-Brecht-Gymnasium, Lortzingstr. 1, 01037 Dresden Neubau einer DreifeldsporthalleArchitektenleistungen nach § 15 HOAI, Leistungsphasen 2 - 9 zum Neubau einer Dreifeldsporthalle",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5894",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100833",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlussvorlagen zu VOB-Vergaben",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 2012-56-00020 Krankenhaus Dresden-Friedrichstadt, Umbau und Sanierung Haus R Los 45 - Fernmelde- und Informationstechnische Anlagen",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5899",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100834",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-655-00023 Neubau Kindertageseinrichtung Waldparkstraße, 01309 DresdenLos 3 - Rohbauarbeiten",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5900",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100835",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabe-Nr. 5027/12 Erneuerung Knotenpunkt Kötzschenbroder Straße/Washingtonstraße/Lommatzscher Straße",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5901",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100836",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabe-Nr. 5036/12 Zeitvertrag Instandsetzung Fahr,- Rad- und Gehbahnen 2012 - 2014",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5902",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100837",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabe-Nr. 5045/12 Wernerstraße von Lübecker Straße bis Reisewitzer Straße 2, 2. BA, Los: 1 - Straßen- und Tiefbau",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5903",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100838",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabe-Nr. 5047/12Am Urnenfeld von Meißner Landstraße bis Flensburger Straße Straßenbau",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5904",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100839",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabe-Nr. 5054/12 Herstellen von Dünnen Schichten im Kalteinbau im Stadtgebiet Dresden 2012",
-      "number": "Ö 3.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5906",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100840",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-654-00013 Gymnasium Bürgerwiese, Parkstraße 4, 01069 Dresden, Los 01 - Rohbauarbeiten",
-      "number": "Ö 3.8 Nachtrag: 08.06.2012  Nummer 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5931",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100841",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-654-00058 30. Mittelschule Dresden-Neustadt - TBMLos: 02 Fenster und Außentüren",
-      "number": "Ö 3.9 Nachtrag: 08.06.2012  Nummer 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5951",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "100844",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Offene Beschlussvorlagen",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/101455",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_WF_2012_06_07",
+      "fileName": "00101455.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00101455.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00101455.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1775",
-  "participant": [
-    "30",
-    "26",
-    "36",
-    "266",
-    "290",
-    "61",
-    "84",
-    "967",
-    "268",
-    "72",
-    "272",
-    "57"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30990",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "1",
+      "order": "1",
+      "name": "Bekanntgabe nichtöffentlicher Beschlüsse",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30991",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "",
+      "order": "2",
+      "name": "Geschäftsbereich Finanzen und Liegenschaften",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30996",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "2",
+      "order": "3",
+      "name": "Beschlussvorlagen zu VOF-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31206",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "2.1",
+      "order": "4",
+      "name": "Vergabe-Nr. A 00005/11, Bertold-Brecht-Gymnasium, Lortzingstr. 1, 01037 Dresden, Neubau einer Dreifeldsporthalle, Architektenleistungen nach § 15 HOAI, Leistungsphasen 2-9",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10180",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30993",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3",
+      "order": "5",
+      "name": "Beschlussvorlagen zu VOB-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31207",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.1",
+      "order": "6",
+      "name": "Vergabenummer: 2012-56-00020 Krankenhaus Dresden-Friedrichstadt, Umbau und Sanierung Haus R - Los 45 Fernmelde- und Informationstechnische Anlagen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10189",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31208",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.2",
+      "order": "7",
+      "name": "Vergabenummer: 2012-655-00023 Neubau Kindertageseinrichtung, Waldparkstraße, 01309 Dresden, Los 3 - Rohbauarbeiten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10190",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31209",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.3",
+      "order": "8",
+      "name": "Vergabe-Nr. 5027/12 Erneuerung Knotenpunkt Kötzschenbroder Straße/Washingtonstraße/Lommatzscher Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10191",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31210",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.4",
+      "order": "9",
+      "name": "Vergabe-Nr. 5036/12 Zeitvertrag Instandsetzung Fahr,- Rad- und Gehbahnen 2012 - 2014",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10192",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31211",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.5",
+      "order": "10",
+      "name": "Vergabe-Nr. 5045/12 Wernerstraße von Lübecker Straße bis Reisewitzer Straße 2, 2. BA, Los: 1 - Straßen- und Tiefbau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10193",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31212",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.6",
+      "order": "11",
+      "name": "Vergabe-Nr. 5047/12 Am Urnenfeld von Meißner Landstraße bis Flensburger Straße - Straßenbau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10194",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31217",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.7",
+      "order": "12",
+      "name": "Vergabe-Nr. 5054/12 Herstellen von Dünnen Schichten im Kalteinbau im Stadtgebiet Dresden 2012",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10195",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31435",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.8",
+      "order": "13",
+      "name": "Vergabenummer: 2012-654-00013 Gymnasium Bürgerwiese, Parkstraße 4, 01069 Dresden, Los 01 - Rohbauarbeiten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10253",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/31634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "3.9",
+      "order": "14",
+      "name": "Vergabenummer: 2012-654-00058 30. Mittelschule Dresden-Neustadt - TBM, Los: 02 Fenster und Außentüren",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10331",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/30999",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1775",
+      "number": "4.2",
+      "order": "17",
+      "name": "Offene Beschlussvorlagen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

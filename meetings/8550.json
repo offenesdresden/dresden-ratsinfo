@@ -1,299 +1,550 @@
 {
-  "shortName": "OSR WX/004/2019",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 13.11.2019 - 19:00-22:05 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "4. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2019-11-13T19:00:00+01:00",
   "end": "2019-11-13T22:05:00+01:00",
-  "auxiliaryFile": [
-    "470927",
-    "446093",
-    "446085",
-    "446074",
-    "446289",
-    "446290",
-    "445956",
-    "445957",
-    "446102",
-    "446100",
-    "446082",
-    "446075",
-    "446119",
-    "446112",
-    "446101",
-    "446096",
-    "443246",
-    "455207",
-    "472012",
-    "443734"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
   ],
-  "invitation": "437275",
-  "resultsProtocol": "446088",
-  "verbatimProtocol": "446299",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/1992",
+    "http://oparl.dresden.de/bodies/0001/people/2002",
+    "http://oparl.dresden.de/bodies/0001/people/391",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/390",
+    "http://oparl.dresden.de/bodies/0001/people/1266",
+    "http://oparl.dresden.de/bodies/0001/people/2019",
+    "http://oparl.dresden.de/bodies/0001/people/2025",
+    "http://oparl.dresden.de/bodies/0001/people/2026"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/437275",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00437275.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-11-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00437275.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00437275.pdf",
+    "created": "2019-10-18T08:02:25+02:00",
+    "modified": "2019-11-04T10:13:38+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Kenntnisnahme der Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/437275",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00437275.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00437275.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00437275.pdf",
+      "created": "2019-10-18T08:02:25+02:00",
+      "modified": "2019-11-04T10:13:38+01:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/443246",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung",
+      "fileName": "00443246.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443246.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443246.pdf",
+      "created": "2019-11-14T14:11:51+01:00",
+      "modified": "2019-12-09T14:17:48+01:00"
     },
     {
-      "name": "Arbeitsgruppe Innovationsortschaft Weixdorf – Vorstellung der erarbeiteten Ergebnisse",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17949",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "439796"
-      ],
-      "resolutionFile": "446123",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 6,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/443734",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Ergänzungsantrag CDU- Fraktion V_WX0088_19",
+      "fileName": "00443734.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443734.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443734.pdf",
+      "created": "2019-11-18T07:22:06+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Vorstellung Sanierung Rathaus WeixdorfBE: Amt für Hochbau und Immobilienverwaltung",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/445956",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Weixdorf_V285018 Rahmenrichtlinien der Landeshauptstadt Dresden als Grundlage für die Erarbeitung von Fachförderrichtlinien und damit verbundenen Zuwendungen an Dritte _m.U.",
+      "fileName": "00445956.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00445956.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00445956.pdf",
+      "created": "2019-11-26T16:30:41+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Antrag der SG Weixdorf zur Förderung eines Kunstrasenkleinfeldes auf dem ForstsportplatzBE. SG Weixdorf; 2. Vorsitzender Herr Schubert",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/445957",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Weixdorf_V285018,Rahmenrichtlinie der Landeshauptstadt Dresden für die Erarbeitung von Förderrichtlinien un d damit verbundenen Zuwendungen an Dritte_o.U.",
+      "fileName": "00445957.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00445957.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00445957.pdf",
+      "created": "2019-11-26T16:42:10+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Sachantrag gemäß § 14 Abs. 1 GO- Antrag der SG Weixdorf zur Förderung eines Kunstrasenkleinfeldes auf dem Forstsportplatz",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18013",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "442921"
-      ],
-      "resolutionFile": "446149",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/446074",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_A-WX000719 Sachantrag gem.$14Abs.1 GO-Antrag der SG Weixdorf zur Förderung einer Hochsprunganlage auf dem Forstsportplatz_m.U",
+      "fileName": "00446074.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446074.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446074.pdf",
+      "created": "2019-11-27T10:01:04+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Antrag der SG Weixdorf zur Förderung einer Hochsprunganlage auf dem ForstsportplatzBE: SG Weixdorf, 2. Vorsitzender Herr Schubert",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/446075",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_A-WX000719Sachantrag gemäß §14Abs.1GO-Antrag der SG Weixdorf zur Förderung einer Hochsprunganlage auf dem Forstsportplatz_o.U.",
+      "fileName": "00446075.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446075.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446075.pdf",
+      "created": "2019-11-27T10:04:01+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Sachantrag gemäß § 14 Abs. 1 GO- Antrag der SG Weixdorf zur Förderung einer Hochsprunganlage auf dem Forstsportplatz",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/446082",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_A-WX000619 Sachantrag gemäß §14 Abs.1GO-Antrag der SG Weixdorf zur Förderung eines Kunstrasenkleinfeldes auf dem Forstsportplatz _o.U.",
+      "fileName": "00446082.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446082.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446082.pdf",
+      "created": "2019-11-27T10:08:47+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Rahmenrichtlinie der Landeshauptstadt Dresden (RRL LHD) als Grundlage für die Erarbeitung von Fachförderrichtlinien und damit verbundenen Zuwendungen an Dritte",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16246",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "483417",
-        "495166",
-        "426409",
-        "425788",
-        "424725",
-        "424726",
-        "424727",
-        "422017",
-        "422018",
-        "463420",
-        "464885",
-        "476381",
-        "443645",
-        "476378",
-        "477939",
-        "477940"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 1,
-        "no": 8,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/446085",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_A-WX000619 Sachantrag gemäß §14 Abs.1GO-Antrag der SG Weixdorf zur Förderung eines Kunstrasenkleinfeld auf dem Forstsportplatz_m.U.",
+      "fileName": "00446085.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446085.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446085.pdf",
+      "created": "2019-11-27T10:11:01+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Investitionspauschale des Ortschaftsrates 2019- Verfügung der Restmittel II",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17805",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "435422",
-        "455206"
-      ],
-      "resolutionFile": "446291",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/446088",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_A-WX000119 Arbeitsgruppe Innovationsortschaft Weixdorf-Vorstellung der erarbeiteten Ergebnisse_o.U.",
+      "fileName": "00446088.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446088.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446088.pdf",
+      "created": "2019-11-27T10:13:12+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Abrechnung der Verfügungsmitteln des Ortschaftsrates 2019",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17661",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "435250",
-        "435490"
-      ],
-      "resolutionFile": "446292",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/446093",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_A-WX000119 Arbeitsgruppe Inovationsortschaft WX-Vorstellung der erarbeiteten Gedanken_,m.U.",
+      "fileName": "00446093.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446093.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446093.pdf",
+      "created": "2019-11-27T10:15:19+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Förderung von Vereinen nach Vereinsförderrichtlinie, Verwendung von Restmitteln in 2019",
-      "number": "Ö 9.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17813",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "435558",
-        "436245"
-      ],
-      "result": "zurückgezogen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/446096",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Weixdorf_A062119 Ein Dresdner Bildungsticket für monatlich 15 € für Alle_o.U.",
+      "fileName": "00446096.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446096.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446096.pdf",
+      "created": "2019-11-27T10:17:26+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Ein Dresdner Bildungsticket für monatlich 15 € für Alle!",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16962",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "411839"
-      ],
-      "result": "punktweise Abstimmung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/446100",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Weixdorf_A062119_Ein Dresdner Bildungsticket für monatlich 15 € für Alle!_mU.",
+      "fileName": "00446100.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446100.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446100.pdf",
+      "created": "2019-11-27T10:21:44+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Dresdner Ortschaften erhalten!",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17726",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "456710",
-      "auxiliaryFile": [
-        "476329",
-        "512460",
-        "432504",
-        "453043",
-        "456063"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/446101",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Weixdorf_A000519 Dresdner Ortschaften erhalten!_o.U.",
+      "fileName": "00446101.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446101.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446101.pdf",
+      "created": "2019-11-27T10:23:08+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Einführung der 5G-Technologie in Dresden – Bürger umfassend beteiligen und entscheiden lassen",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17647",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "502447",
-      "auxiliaryFile": [
-        "507963",
-        "430546",
-        "471291",
-        "443665",
-        "447344",
-        "447345",
-        "443647",
-        "443663"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 6,
-        "no": 4,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/446102",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Weixdorf_A000519 Dresdner Ortschaften erhalten!_m.U.",
+      "fileName": "00446102.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446102.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446102.pdf",
+      "created": "2019-11-27T10:26:54+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Fortschreibung der Geschäftsordnung des Ortschaftsrates Weixdorf",
-      "number": "Ö 13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17812",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "451069",
-      "auxiliaryFile": [
-        "451068",
-        "436247"
-      ],
-      "result": "Vertagung nach 22 Uhr"
+      "id": "http://oparl.dresden.de/bodies/0001/files/446112",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_V-WX008819 Investitionspauschale des OSR 2019-Verfügung der Restmittel II_o.U.",
+      "fileName": "00446112.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446112.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446112.pdf",
+      "created": "2019-11-27T10:34:26+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 14",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung nach 22 Uhr"
+      "id": "http://oparl.dresden.de/bodies/0001/files/446119",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_V-WX008619 Abrechnung der Verfügungsmittel des OSRates 2019_o.U.",
+      "fileName": "00446119.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446119.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446119.pdf",
+      "created": "2019-11-27T10:48:39+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
     },
     {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 15",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung nach 22 Uhr"
+      "id": "http://oparl.dresden.de/bodies/0001/files/446289",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_V-WX008619 Abrechnung der Verfügungsmittel des OS-Rates 2019_m.U.",
+      "fileName": "00446289.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446289.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446289.pdf",
+      "created": "2019-11-28T10:09:41+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/446290",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Weixdorf_V-WX008819,Investitionspauschale des OS-Rates 2019-Verfügung der Restmittel II_m.U.",
+      "fileName": "00446290.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446290.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446290.pdf",
+      "created": "2019-11-28T10:11:12+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/446299",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00446299.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446299.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446299.pdf",
+      "created": "2019-11-28T10:26:11+01:00",
+      "modified": "2019-12-16T15:36:16+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/455207",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_OSR Weixdorf_V-WX008819",
+      "fileName": "00455207.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00455207.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00455207.pdf",
+      "created": "2020-01-23T15:46:39+01:00",
+      "modified": "2020-01-23T15:46:40+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/470927",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_OSR Weixdorf_V-WX0086/19_03.03.2020_Abschlussbericht",
+      "fileName": "00470927.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470927.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470927.pdf",
+      "created": "2020-04-29T08:57:13+02:00",
+      "modified": "2020-04-29T08:57:13+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/472012",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "BK zu V-WX008619 Abrechnung d. Verfügungsmittel des OSRates 2019",
+      "fileName": "00472012.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00472012.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00472012.pdf",
+      "created": "2020-05-05T15:17:40+02:00",
+      "modified": "2020-05-05T15:17:40+02:00"
     }
   ],
-  "id": "8550"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Kenntnisnahme der Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2019-10-14T07:37:36+02:00",
+      "modified": "2019-11-01T11:09:51+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
+      "public": true,
+      "created": "2019-10-14T07:37:36+02:00",
+      "modified": "2019-11-01T11:09:51+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/123816",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "3",
+      "order": "3",
+      "name": "Arbeitsgruppe Innovationsortschaft Weixdorf – Vorstellung der erarbeiteten Ergebnisse",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39871",
+      "result": "Ablehnung",
+      "created": "2019-11-01T11:09:39+01:00",
+      "modified": "2019-11-14T14:18:13+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122680",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "4",
+      "order": "4",
+      "name": "Vorstellung Sanierung Rathaus Weixdorf",
+      "public": true,
+      "created": "2019-10-15T07:00:19+02:00",
+      "modified": "2019-11-01T11:09:51+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122681",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "5",
+      "order": "5",
+      "name": "Antrag der SG Weixdorf zur Förderung eines Kunstrasenkleinfeldes auf dem Forstsportplatz",
+      "public": true,
+      "created": "2019-10-15T07:01:42+02:00",
+      "modified": "2019-11-01T11:09:51+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124310",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "5.1",
+      "order": "6",
+      "name": "Sachantrag gemäß § 14 Abs. 1 GO- Antrag der SG Weixdorf zur Förderung eines Kunstrasenkleinfeldes auf dem Forstsportplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39977",
+      "result": "Zustimmung",
+      "created": "2019-11-14T07:04:48+01:00",
+      "modified": "2019-12-10T13:29:11+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122682",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "6",
+      "order": "7",
+      "name": "Antrag der SG Weixdorf zur Förderung einer Hochsprunganlage auf dem Forstsportplatz",
+      "public": true,
+      "created": "2019-10-15T07:02:35+02:00",
+      "modified": "2019-11-14T07:04:48+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/124311",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "6.1",
+      "order": "8",
+      "name": "Sachantrag gemäß § 14 Abs. 1 GO- Antrag der SG Weixdorf zur Förderung einer Hochsprunganlage auf dem Forstsportplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39978",
+      "result": "Zustimmung",
+      "created": "2019-11-14T07:13:16+01:00",
+      "modified": "2019-12-10T12:54:42+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "7",
+      "order": "9",
+      "name": "Rahmenrichtlinie der Landeshauptstadt Dresden (RRL LHD) als Grundlage für die Erarbeitung von Fachförderrichtlinien und damit verbundenen Zuwendungen an Dritte",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/35798",
+      "result": "Ablehnung",
+      "created": "2019-10-15T07:03:18+02:00",
+      "modified": "2019-11-26T13:34:24+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122684",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "8",
+      "order": "10",
+      "name": "Investitionspauschale des Ortschaftsrates 2019- Verfügung der Restmittel II",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39564",
+      "result": "Zustimmung mit Änderung",
+      "created": "2019-10-15T07:03:45+02:00",
+      "modified": "2019-12-10T13:07:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122685",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "9",
+      "order": "11",
+      "name": "Abrechnung der Verfügungsmitteln des Ortschaftsrates 2019",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39213",
+      "result": "Zustimmung",
+      "created": "2019-10-15T07:04:44+02:00",
+      "modified": "2019-12-10T13:00:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122686",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "9.1",
+      "order": "12",
+      "name": "Förderung von Vereinen nach Vereinsförderrichtlinie, Verwendung von Restmitteln in 2019",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39575",
+      "result": "zurückgezogen",
+      "created": "2019-10-15T07:05:10+02:00",
+      "modified": "2019-11-18T09:47:15+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122687",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "10",
+      "order": "13",
+      "name": "Ein Dresdner Bildungsticket für monatlich 15 € für Alle!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37771",
+      "result": "punktweise Abstimmung",
+      "created": "2019-10-15T07:05:45+02:00",
+      "modified": "2019-11-18T12:18:16+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122688",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "11",
+      "order": "14",
+      "name": "Dresdner Ortschaften erhalten!",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39316",
+      "result": "Zustimmung",
+      "created": "2019-10-15T07:06:11+02:00",
+      "modified": "2019-11-18T09:47:15+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122689",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "12",
+      "order": "15",
+      "name": "Einführung der 5G-Technologie in Dresden – Bürger umfassend beteiligen und entscheiden lassen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39167",
+      "result": "Vertagung",
+      "created": "2019-10-15T07:06:23+02:00",
+      "modified": "2019-11-18T09:47:15+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122690",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "13",
+      "order": "16",
+      "name": "Fortschreibung der Geschäftsordnung des Ortschaftsrates Weixdorf",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39574",
+      "result": "Vertagung nach 22 Uhr",
+      "created": "2019-10-15T07:08:17+02:00",
+      "modified": "2019-11-18T12:20:26+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "14",
+      "order": "17",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "result": "Vertagung nach 22 Uhr",
+      "created": "2019-10-14T07:37:36+02:00",
+      "modified": "2019-11-18T12:20:38+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8550",
+      "number": "15",
+      "order": "18",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "result": "Vertagung nach 22 Uhr",
+      "created": "2019-10-14T07:37:36+02:00",
+      "modified": "2019-11-18T12:20:48+01:00"
+    }
+  ],
+  "created": "2019-08-01T05:29:11+02:00",
+  "modified": "2021-01-15T09:05:45+01:00"
 }

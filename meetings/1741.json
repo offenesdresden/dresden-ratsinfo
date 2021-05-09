@@ -1,301 +1,290 @@
 {
-  "shortName": "SB/057/2012",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Stadtentwicklung und Bau - 07.11.2012 - 16:00-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "11"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "57. Sitzung des Ausschusses für Stadtentwicklung und Bau",
   "start": "2012-11-07T16:00:00+01:00",
   "end": "2012-11-07T21:15:00+01:00",
-  "invitation": "113738",
-  "auxiliaryFile": [
-    "114707",
-    "114981"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
   ],
-  "verbatimProtocol": "120226",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/29",
+    "http://oparl.dresden.de/bodies/0001/people/38",
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/62",
+    "http://oparl.dresden.de/bodies/0001/people/716",
+    "http://oparl.dresden.de/bodies/0001/people/254",
+    "http://oparl.dresden.de/bodies/0001/people/887",
+    "http://oparl.dresden.de/bodies/0001/people/70",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/289",
+    "http://oparl.dresden.de/bodies/0001/people/290"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/113738",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SB",
+    "fileName": "00113738.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-10-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00113738.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00113738.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/114707",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung Antrag ff_A0416/11_SB",
+    "fileName": "00114707.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-11-08",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00114707.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00114707.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bebauungsplan Nr. 375, Dresden-Altstadt I Nr. 38, Neumarkt Quartier VIIhier:1. Billigung des Entwurfs zum Bebauungsplan2. Billigung der Begründung zum Bebauungsplan-Entwurf3. Durchführung des Beteiligungsverfahrens",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6020",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "103964",
-        "103774",
-        "103152",
-        "103153",
-        "103154",
-        "103157",
-        "103155"
-      ],
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/113738",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SB",
+      "fileName": "00113738.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-10-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00113738.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00113738.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 340, Dresden-Altstadt I Nr. 34, Neumarkt, Quartier VIhier:1. Billigung der Abwägung2. Billigung des Entwurfs zum Bebauungsplan3. Billigung der Begründung zum Bebauungsplan-Entwurf4. Durchführung des Beteiligungsverfahrens zum Bebauungsplan-Entwurf",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6021",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "114688",
-      "auxiliaryFile": [
-        "103961",
-        "103762",
-        "103121",
-        "103122",
-        "103123",
-        "103124",
-        "123279"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/114707",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung Antrag ff_A0416/11_SB",
+      "fileName": "00114707.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-08",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00114707.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00114707.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Rahmenplan Nr. 788, \"Promenadenring\"hier:\tPromenadenring um den Altstadtkern der Dresdner Innenstadt\tHasenberg - Rathenauplatz/Schießgasse - Pirnaischen Platz -\tRingstraße - Rathausplatz\tDr.-Külz-Ring/Seestraße - Dippoldiswalder Platz -\tWallstraße/Marienstraße - Postplatz -\tOstra-Allee/Am Zwingerteich - Bernhard-von-Lindenau-Platz",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2548",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "57626",
-        "38045",
-        "38035",
-        "38039",
-        "38040",
-        "38041",
-        "38042",
-        "38043",
-        "38044",
-        "38052",
-        "38053",
-        "38054",
-        "38055",
-        "38061",
-        "38036",
-        "38037",
-        "38038"
-      ],
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/114981",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö",
+      "fileName": "00114981.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00114981.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00114981.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 390, Dresden-Trachenberge Nr. 3, Hellerhofstraße/Weinbergstraßehier:1. Aufstellungsbeschluss Bebauungsplan2. Grenzen des räumlichen Geltungsbereiches des Bebauungsplanes",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6270",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "114690",
-      "auxiliaryFile": [
-        "110679",
-        "108692",
-        "108693",
-        "124255"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Flächennutzungsplan-Änderung Nr. 57, Ortsamt Neustadt, Teilbereich Alter Leipziger Bahnhofhier:1. Einleitungsbeschluss zur Änderung der Darstellung im Flächennutzungsplan der Landeshauptstadt Dresden (Teilflächennutzungsplan in den Grenzen vom 31. Dezember 1996)2. Beschluss über den Geltungsbereich der Flächennutzungsplan-Änderung Nr. 57 entsprechend den Anlagen 1 und 2",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6281",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "163334",
-      "auxiliaryFile": [
-        "171735",
-        "191574",
-        "111177",
-        "110700",
-        "114656",
-        "110206",
-        "110207",
-        "110208"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 3,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6015, Dresden-Neustadt, Hofquartier Bautzner Straßehier:1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6301",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "114694",
-      "auxiliaryFile": [
-        "111171",
-        "110689",
-        "109738",
-        "109739",
-        "109740"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 79.3, Dresden-Altstadt II Nr. 1, Johannstadt Nord/Neubertstraßehier:1. Aufstellungsbeschluss zur Änderung des Bebauungsplanes Nr. 79, Dresden-Altstadt II Nr. 1, Johannstadt Nord2. Grenzen des Änderungsbereiches3. Durchführung eines vereinfachten Verfahrens4. Entfallen des frühzeitigen Beteiligungsverfahrens5. Billigung des Entwurfs zum Bebauungsplan6. Billigung der Begründung zum Bebauungsplan-Entwurf7. Durchführung des Beteiligungsverfahrens zum Bebauungsplan-Entwurf",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6309",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "114695",
-      "auxiliaryFile": [
-        "111170",
-        "110680",
-        "110331",
-        "110332",
-        "110333",
-        "110334",
-        "124289"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Flächennutzungsplan-Änderung Nr. 56, Ortsamt Klotzsche, Teilbereich Karl-Gjellerup-Straßehier:1. Einleitungsbeschluss zur Änderung der Darstellung im Flächennutzungsplan der Landeshauptstadt Dresden (Teilflächennutzungsplan in den Grenzen vom 31. Dezember 1996)2. Beschluss über den Geltungsbereich der Flächennutzungsplan-Änderung Nr. 56 entsprechend den Anlagen 1 und 23. Durchführung eines vereinfachten Verfahrens4. Entfallen des frühzeitigen Beteiligungsverfahrens5. Billigung desEntwurfes der Flächennutzungsplan-Änderung mit Begründung6. Beschluss zur öffentlichen Auslegung des Entwurfes der Flächennutzungsplan-Änderung mit Begründung und Durchführung des Beteiligungsverfahrens",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6312",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "114700",
-      "auxiliaryFile": [
-        "111601",
-        "111359",
-        "110852",
-        "110853",
-        "110854",
-        "110855",
-        "110856",
-        "129266"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen/Sonstiges",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung der Planung Umfeld Scheune in der Äußeren Neustadt",
-      "number": "Ö 9.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorstellung der Vorlage V1855/12 Grundhafter Ausbau der Bautzner Straße zwischen der Hoyerswerdaer und der Martin-Luther-Straße - Prüfergebnisse und Planungsänderungen entsprechend Beschluss V1145/11 Punkte 4 und 5 (entsprechend Festlegung aus der Sitzung vom 09.10.2012)",
-      "number": "Ö 9.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Leipziger Vorstadt - Neustädter Hafen, Planungsleitlinien für das weitere Vorgehen",
-      "number": "Ö 9.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5796",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "112090",
-        "111843",
-        "96788",
-        "96789",
-        "110978",
-        "110979",
-        "96793"
-      ],
-      "result": "Vertagung"
-    },
-    {
-      "name": "Grundhafter Ausbau der nördlichen Fahrbahnhälfte der Weinbergstraße in Cossebaude zwischen dem Parkweg und dem Albertplatz",
-      "number": "Ö 9.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6330",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "111599",
-        "111394",
-        "110916"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Grundhafter Ausbau von Abschnitten der Hühndorfer Straße und der Hölderlinstraße für den Umleitungsverkehr des Verkehrsbauvorhabens Pennricher Straße/Rudolf-Renner-Straße der Dresdner Verkehrsbetriebe AG",
-      "number": "Ö 9.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6314",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "113645",
-        "110705",
-        "110204",
-        "110205"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/120226",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00120226.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-01-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00120226.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00120226.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1741",
-  "participant": [
-    "29",
-    "38",
-    "66",
-    "640",
-    "62",
-    "716",
-    "254",
-    "887",
-    "289",
-    "290",
-    "284",
-    "70",
-    "278"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35522",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "1",
+      "order": "1",
+      "name": "Bebauungsplan Nr. 375, Dresden-Altstadt I Nr. 38, Neumarkt Quartier VII",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10462",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35523",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "2",
+      "order": "2",
+      "name": "Bebauungsplan Nr. 340, Dresden-Altstadt I Nr. 34, Neumarkt, Quartier VI",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10466",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "3",
+      "order": "3",
+      "name": "Rahmenplan Nr. 788, \"Promenadenring\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5850",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35524",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "4",
+      "order": "4",
+      "name": "Bebauungsplan Nr. 390, Dresden-Trachenberge Nr. 3, Hellerhofstraße/Weinbergstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11041",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35525",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "5",
+      "order": "5",
+      "name": "Flächennutzungsplan-Änderung Nr. 57, Ortsamt Neustadt, Teilbereich Alter Leipziger Bahnhof",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11074",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35526",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "6",
+      "order": "6",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6015, Dresden-Neustadt, Hofquartier Bautzner Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11115",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35527",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "7",
+      "order": "7",
+      "name": "Bebauungsplan Nr. 79.3, Dresden-Altstadt II Nr. 1, Johannstadt Nord/Neubertstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11143",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35765",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "8",
+      "order": "8",
+      "name": "Flächennutzungsplan-Änderung Nr. 56, Ortsamt Klotzsche, Teilbereich Karl-Gjellerup-Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11170",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "9",
+      "order": "9",
+      "name": "Informationen/Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35763",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "9.1",
+      "order": "10",
+      "name": "Vorstellung der Planung Umfeld Scheune in der Äußeren Neustadt",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/35764",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "9.2",
+      "order": "11",
+      "name": "Vorstellung der Vorlage V1855/12 Grundhafter Ausbau der Bautzner Straße zwischen der Hoyerswerdaer und der Martin-Luther-Straße - Prüfergebnisse und Planungsänderungen entsprechend Beschluss V1145/11 Punkte 4 und 5 (entsprechend Festlegung aus der Si",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36122",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "9.3",
+      "order": "12",
+      "name": "Leipziger Vorstadt - Neustädter Hafen, Planungsleitlinien für das weitere Vorgehen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/9932",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36123",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "9.4",
+      "order": "13",
+      "name": "Grundhafter Ausbau der nördlichen Fahrbahnhälfte der Weinbergstraße in Cossebaude zwischen dem Parkweg und dem Albertplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11201",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36124",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1741",
+      "number": "9.5",
+      "order": "14",
+      "name": "Grundhafter Ausbau von Abschnitten der Hühndorfer Straße und der Hölderlinstraße für den Umleitungsverkehr des Verkehrsbauvorhabens Pennricher Straße/Rudolf-Renner-Straße der Dresdner Verkehrsbetriebe AG",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11174",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

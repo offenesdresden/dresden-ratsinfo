@@ -1,90 +1,152 @@
 {
-  "shortName": "OBR Pl/012/2011",
-  "locality": null,
-  "name": "Ortsbeirat Plauen - 08.03.2011 - 17:30-21:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "12. Sitzung des Ortsbeirates Plauen",
   "start": "2011-03-08T17:30:00+01:00",
   "end": "2011-03-08T21:20:00+01:00",
-  "invitation": "55928",
-  "verbatimProtocol": "57225",
-  "agendaItem": [
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/732",
+    "http://oparl.dresden.de/bodies/0001/people/734",
+    "http://oparl.dresden.de/bodies/0001/people/736",
+    "http://oparl.dresden.de/bodies/0001/people/738",
+    "http://oparl.dresden.de/bodies/0001/people/739",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/743",
+    "http://oparl.dresden.de/bodies/0001/people/744",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/750",
+    "http://oparl.dresden.de/bodies/0001/people/752",
+    "http://oparl.dresden.de/bodies/0001/people/753",
+    "http://oparl.dresden.de/bodies/0001/people/754",
+    "http://oparl.dresden.de/bodies/0001/people/758",
+    "http://oparl.dresden.de/bodies/0001/people/760",
+    "http://oparl.dresden.de/bodies/0001/people/762"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/55928",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pl",
+    "fileName": "00055928.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-02-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00055928.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00055928.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 11. Ortsbeiratssitzung am 7. Dezember 2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/55928",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pl",
+      "fileName": "00055928.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-02-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00055928.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00055928.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Der \"Windbergbahn e.V.\" - Perspektiven und Aufgaben in den kommenden Jahren",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 374, Dresden-Altstadt II/Plauen, Chemnitzer Straßehier:\t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des Bebauungsplanes\t3. Durchführung eines vereinfachten Verfahrens\t4. Entfallen des frühzeitigen Beteiligungsverfahrens\t5. Billigung des Entwurfs zum Bebauungsplan\t6. Billigung der Begründung zum Bebauungsplan-Entwurf\t7. Durchführung des Beteiligungsverfahrens zum Bebauungsplan-Entwurf",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 12,
-        "no": 4,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Instandsetzung der Brücke Budapester Straße, Brückenzug C",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3122",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "56861",
-      "auxiliaryFile": [
-        "55814",
-        "118042",
-        "46888",
-        "46229",
-        "46853"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/57225",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00057225.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-03-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00057225.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00057225.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1352",
-  "participant": [
-    "401",
-    "732",
-    "739",
-    "738",
-    "734",
-    "736",
-    "743",
-    "741",
-    "744",
-    "748",
-    "750",
-    "754",
-    "752",
-    "753",
-    "758",
-    "760",
-    "762"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17241",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 11. Ortsbeiratssitzung am 7. Dezember 2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17263",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+      "number": "2",
+      "order": "2",
+      "name": "Der \"Windbergbahn e.V.\" - Perspektiven und Aufgaben in den kommenden Jahren",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+      "number": "3.1",
+      "order": "4",
+      "name": "Bebauungsplan Nr. 374, Dresden-Altstadt II/Plauen, Chemnitzer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5469",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+      "number": "4",
+      "order": "5",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+      "number": "4.1",
+      "order": "6",
+      "name": "Instandsetzung der Brücke Budapester Straße, Brückenzug C",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5693",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/17247",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1352",
+      "number": "5",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,53 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17141",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beschlusskontrolle für Stadtratsbeschlüsse auf dresden.de",
-  "shortName": "A0626/19",
   "reference": "A0626/19",
+  "date": "2019-06-12",
   "paperType": "Antrag Bürgerfraktion",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-06-11",
   "auxiliaryFile": [
-    "417159",
-    "417190"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/417159",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  Bürgerfraktion",
+      "fileName": "00417159.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00417159.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00417159.pdf",
+      "created": "2019-06-12T10:35:20+02:00",
+      "modified": "2019-06-20T07:04:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/417190",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag mit Unterschriften_§ 36 Abs. 5. Satz 1",
+      "fileName": "00417190.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00417190.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00417190.pdf",
+      "created": "2019-06-12T11:27:44+02:00",
+      "modified": "2019-06-20T07:04:09+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/129"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38009",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17141",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/118762",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7546",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7546",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-06-12T12:48:40+02:00",
+      "modified": "2019-07-17T10:14:36+02:00"
     }
   ],
-  "id": "17141"
+  "created": "2019-06-11T10:18:40+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

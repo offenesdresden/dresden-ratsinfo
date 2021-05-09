@@ -1,248 +1,277 @@
 {
-  "shortName": "WF/076/2013",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 18.07.2013 - 16:00-16:40 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "76. Sitzung des Ausschusses für Wirtschaftsförderung (Sondersitzung)",
   "start": "2013-07-18T16:00:00+02:00",
   "end": "2013-07-18T16:40:00+02:00",
-  "invitation": "137975",
-  "verbatimProtocol": "139328",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/57",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/95",
+    "http://oparl.dresden.de/bodies/0001/people/640"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/137975",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF_2013_07_18",
+    "fileName": "00137975.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-07-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00137975.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00137975.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Geschäftsbereich Finanzen und Liegenschaften",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/137975",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF_2013_07_18",
+      "fileName": "00137975.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-07-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00137975.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00137975.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlussvorlagen zu VOL-Vergaben",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 2013-4012-00010 Schultägliche Beförderung zur Schule für Körperbehinderte aus dem Stadtgebiet Dresden, südwestlicher und südöstlicher Bereich sowie aus der Umgebung Dresdens mit den Grundrichtungen Bannewitz und Heidenau/Pirna",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7352",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139289",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-4012-00022 Schultägliche Schülerbeförderung zur Schule für Hörgeschädigte Maxim-Gorki-Straße aus dem Stadtgebiet Dresden mit Begleitperson",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7353",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139288",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-4012-00026 Schultägliche Schülerbeförderung zum Förderzentrum Sprache, Fischhausstraße aus dem Stadtgebiet Dresden mit Grundrichtung Niedersedlitz",
-      "number": "Ö 1.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7354",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139287",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlussvorlagen zu VOB-Vergaben",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 5014/13 Umgestaltung/Neuordnung des Straßenraumes in Dresden-Prohlis 3. und 4. BA: Teile der Georg-Palitzsch-Straße und Senftenberger StraßeLos 1 - Straßen- und Tiefbau",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7355",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139286",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-65-0012565. Grundschule_Hortgebäude, Zschierener Straße 5, 01259 DresdenLos 1 - Tischlerarbeiten",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7356",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139284",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-65-00105 144. Grundschule Neubau + SporthalleMicktener Straße 10, 01139 DresdenTiefbau und Erschließung",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7358",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139283",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-65-00046 Umbau und Sanierung 56. Mittelschule + Neubau Zwei-Feld-SporthalleCottbuser Straße 34, 01129 DresdenRohbauarbeiten",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7359",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139282",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-65-00091Umbau und Sanierung 56. Mittelschule + Neubau Zwei-Feld-SporthalleCottbuser Str. 34, 01129 DresdenAbbrucharbeiten inkl. Abbruch Heizung-Lüftung-Sanitär (HLS)",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7360",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139281",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-65-00100 Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7 in 01069 DresdenLandschaftsbauarbeiten",
-      "number": "Ö 2.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7362",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139280",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer:2013-654-00030 Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7 in 01069 DresdenEstricharbeiten",
-      "number": "Ö 2.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7363",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139279",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2013-65-00121 Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7 in 01069 DresdenFachlos 38: Innenausstattung/Festeinbauten Naturwissenschaften und Informatik",
-      "number": "Ö 2.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7364",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "141477",
-      "result": "Vertagung"
-    },
-    {
-      "name": "Vergabenummer: 2013-65-00155 Festspielhaus Hellerau_Modernisierung_Kasernenflügel West, 2. BA, Karl-Liebknecht-Straße 56, 01109 DresdenFachlos 1 - Bauhauptleistungen und Trockenbau",
-      "number": "Ö 2.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7392",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "139278",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Offene Beschlussvorlagen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/139328",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_WF_2013_07_18",
+      "fileName": "00139328.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-07-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00139328.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00139328.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3143",
-  "participant": [
-    "26",
-    "36",
-    "266",
-    "61",
-    "84",
-    "91",
-    "967",
-    "57",
-    "51",
-    "55",
-    "640",
-    "95"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43418",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "",
+      "order": "1",
+      "name": "Geschäftsbereich Finanzen und Liegenschaften",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43420",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "1",
+      "order": "2",
+      "name": "Beschlussvorlagen zu VOL-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43421",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "1.1",
+      "order": "3",
+      "name": "Vergabenummer: 2013-4012-00010 Schultägliche Beförderung zur Schule für Körperbehinderte aus dem Stadtgebiet Dresden, südwestlicher und südöstlicher Bereich sowie aus der Umgebung Dresdens mit den Grundrichtungen Bannewitz und Heidenau/Pirna",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13493",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43422",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "1.2",
+      "order": "4",
+      "name": "Vergabenummer: 2013-4012-00022 Schultägliche Schülerbeförderung zur Schule für Hörgeschädigte Maxim-Gorki-Straße aus dem Stadtgebiet Dresden mit Begleitperson",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13494",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43423",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "1.3",
+      "order": "5",
+      "name": "Vergabenummer: 2013-4012-00026 Schultägliche Schülerbeförderung zum Förderzentrum Sprache Fischhausstraße aus dem Stadtgebiet Dresden mit Grundrichtung Niedersedlitz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13495",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43424",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2",
+      "order": "6",
+      "name": "Beschlussvorlagen zu VOB-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43425",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.1",
+      "order": "7",
+      "name": "Vergabenummer: 5014/13 Umgestaltung/Neuordnung des Straßenraumes in Dresden-Prohlis 3. und 4. BA: Teile der Georg-Palitzsch-Straße und Senftenberger Straße, Los 1 - Straßen- und Tiefbau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13496",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43426",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.2",
+      "order": "8",
+      "name": "Vergabenummer: 2013-65-00125 65. Grundschule_Hortgebäude, Zschierener Straße 5, 01259 Dresden, Los 1 - Tischlerarbeiten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13497",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43427",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.3",
+      "order": "9",
+      "name": "Vergabenummer: 2013-65-00105 144. Grundschule Neubau + Sporthalle, Micktener Straße 10, 01139 Dresden, Tiefbau und Erschließung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13499",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43428",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.4",
+      "order": "10",
+      "name": "Vergabenummer: 2013-65-00046 Umbau und Sanierung 56. Mittelschule + Neubau Zwei-Feld-Sporthalle, Cottbuser Straße 34, 01129 Dresden, Rohbauarbeiten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13500",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43429",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.5",
+      "order": "11",
+      "name": "Vergabenummer: 2013-65-00091 Umbau und Sanierung 56. Mittelschule + Neubau Zwei-Feld-Sporthalle, Cottbuser Str. 34, 01129 Dresden, Abbrucharbeiten inkl. Abbruch HLS",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13501",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43430",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.6",
+      "order": "12",
+      "name": "Vergabenummer: 2013-65-00100 Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7 in 01069 Dresden, Landschaftsbauarbeiten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13503",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43431",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.7",
+      "order": "13",
+      "name": "Vergabenummer:2013-654-00030 Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13504",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43432",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.8",
+      "order": "14",
+      "name": "Vergabenummer: 2013-65-00121 Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7 in 01069 Dresden, Fachlos 38: Innenausstattung/Festeinbauten Naturwissenschaften und Informatik",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13505",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "2.9",
+      "order": "15",
+      "name": "Vergabenummer: 2013-65-00155 Festspielhaus Hellerau_Modernisierung_Kasernenflügel West, 2 BA, Karl-Liebknecht-Straße 56, 01109 Dresden, Fachlos 1 - Bauhauptleistungen und Trockenbau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13555",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/43435",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3143",
+      "number": "3.2",
+      "order": "18",
+      "name": "Offene Beschlussvorlagen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

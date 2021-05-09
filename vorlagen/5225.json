@@ -1,53 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/5225",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Veränderungen im Finanzhaushalt 2012 des Umweltamtes - Schönborner Dorfbach",
-  "shortName": "V1414/11",
   "reference": "V1414/11",
+  "date": "2012-05-10",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2011-12-08",
   "auxiliaryFile": [
-    "101190",
-    "98507"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/98507",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00098507.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00098507.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00098507.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/101190",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V1414/11",
+      "fileName": "00101190.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00101190.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00101190.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/47"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/8447",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/5225",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/31168",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1801",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/3"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1801",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "5225"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

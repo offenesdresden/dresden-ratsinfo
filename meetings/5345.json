@@ -1,69 +1,138 @@
 {
-  "shortName": "OSR SB/028/2016",
-  "locality": "Landeshauptstadt Dresden, im Versammlungsraum im Bürgerhaus Schönborn, Seifersdorfer Straße 6, 01465 Schönborn",
-  "name": "Ortschaftsrat Schönborn - 17.08.2016 - 18:30-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5345",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "28. Sitzung des Ortschaftsrates Schönborn\r\n\r\nmit vorrangehender Ortsbegehung (Teil 2)\r\nTreffpunkt: 18:30 Uhr, Seifersdorfer Str. - Ortsausgang in Richtung Seifersdorfer Tal",
   "start": "2016-08-17T18:30:00+02:00",
   "end": "2016-08-17T20:30:00+02:00",
-  "invitation": "264065",
-  "verbatimProtocol": "266233",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/362",
+    "http://oparl.dresden.de/bodies/0001/people/1257",
+    "http://oparl.dresden.de/bodies/0001/people/1258"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/264065",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00264065.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-08-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00264065.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00264065.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/264065",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00264065.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00264065.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00264065.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Auswertung Ortsbegehung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Allgemeines",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Antrag des A 23 auf Verkauf einer Teilfläche des Flurstückes SB 14/5",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Besetzung Schiedsstelle",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "vote": {
-        "yes": 5,
-        "no": 1,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Organisatorisches",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/266233",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00266233.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00266233.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00266233.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5345",
-  "participant": [
-    "357",
-    "362",
-    "1258",
-    "359",
-    "355",
-    "1257"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/81464",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5345",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/81465",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5345",
+      "number": "2",
+      "order": "2",
+      "name": "Auswertung Ortsbegehung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/81466",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5345",
+      "number": "3",
+      "order": "3",
+      "name": "Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/82106",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5345",
+      "number": "3.1",
+      "order": "4",
+      "name": "Antrag des A 23 auf Verkauf einer Teilfläche des Flurstückes SB 14/5",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/82107",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5345",
+      "number": "3.2",
+      "order": "5",
+      "name": "Besetzung Schiedsstelle",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/82108",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5345",
+      "number": "3.3",
+      "order": "6",
+      "name": "Organisatorisches",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

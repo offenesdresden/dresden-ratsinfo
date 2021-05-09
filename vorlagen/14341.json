@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/14341",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2017-GB111-00080, Entwicklung Schulstandort Dresden-Pieschen, 01127 Dresden, Ecke Gehestraße/Erfurter Straße, Los VE 04 - Gerüstbauarbeiten",
-  "shortName": "V1992/17",
   "reference": "V1992/17",
+  "date": "2017-10-10",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2017-09-27",
   "auxiliaryFile": [
-    "320063"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/320063",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V1992/17_mU",
+      "fileName": "00320063.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00320063.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00320063.pdf",
+      "created": "2017-10-27T09:52:19+02:00",
+      "modified": "2017-10-27T09:52:20+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6271",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/30203",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/14341",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/95113",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6271",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2017-10-10T08:39:16+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "14341"
+  "created": "2017-09-27T12:50:43+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

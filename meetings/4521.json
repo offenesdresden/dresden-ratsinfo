@@ -1,153 +1,181 @@
 {
-  "shortName": "OBR Pl/006/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Plauen, Ratssaal,Nöthnitzer Straße 2, 01187 Dresden",
-  "name": "Ortsbeirat Plauen - 28.04.2015 - 17:30-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "6. Sitzung des Ortsbeirates Plauen",
   "start": "2015-04-28T17:30:00+02:00",
   "end": "2015-04-28T20:45:00+02:00",
-  "invitation": "203087",
-  "verbatimProtocol": "206439",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1840",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Nöthnitzer Straße 2",
+    "room": "Ortsamt Plauen, Ratssaal",
+    "postalCode": "01187",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:30+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/734",
+    "http://oparl.dresden.de/bodies/0001/people/736",
+    "http://oparl.dresden.de/bodies/0001/people/739",
+    "http://oparl.dresden.de/bodies/0001/people/1386",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/744",
+    "http://oparl.dresden.de/bodies/0001/people/752",
+    "http://oparl.dresden.de/bodies/0001/people/746",
+    "http://oparl.dresden.de/bodies/0001/people/750",
+    "http://oparl.dresden.de/bodies/0001/people/1192",
+    "http://oparl.dresden.de/bodies/0001/people/753",
+    "http://oparl.dresden.de/bodies/0001/people/914",
+    "http://oparl.dresden.de/bodies/0001/people/1377",
+    "http://oparl.dresden.de/bodies/0001/people/1375",
+    "http://oparl.dresden.de/bodies/0001/people/758",
+    "http://oparl.dresden.de/bodies/0001/people/762",
+    "http://oparl.dresden.de/bodies/0001/people/1374",
+    "http://oparl.dresden.de/bodies/0001/people/745"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/203087",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pl",
+    "fileName": "00203087.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-04-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00203087.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00203087.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/203087",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pl",
+      "fileName": "00203087.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-04-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00203087.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00203087.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Wahl der Friedensrichter/Friedensrichterinnen für die Schiedsstellen Plauen-Ost und Plauen-West; Wahl der Protokollführerin/des Protokollführers für die Schiedsstelle Plauen-West",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Schließung der Kindertageseinrichtung Oskar-Seyffert-Straße 11 in 01189 Dresden",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9472",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "229684",
-      "auxiliaryFile": [
-        "323077",
-        "260852",
-        "290182",
-        "305869",
-        "202409",
-        "201655",
-        "204772",
-        "195103",
-        "195104",
-        "228684"
-      ],
-      "result": "Ersetzung",
-      "vote": {
-        "yes": 16,
-        "no": 1,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 190, Dresden-Altstadt II Nr. 9, Verlängerung Bayrische Straßehier:\tAufhebung des Aufstellungsbeschlusses zum Bebauungsplan",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9561",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "201295",
-        "200954",
-        "196806",
-        "199140",
-        "199141",
-        "196809",
-        "196810",
-        "196811"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 6,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neufassung der Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9009",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "201298",
-        "200750",
-        "197716",
-        "180969",
-        "180967",
-        "180970",
-        "180971",
-        "180972",
-        "182616"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9668",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "199997",
-        "232126",
-        "251471",
-        "251472",
-        "268478",
-        "311859",
-        "356870"
-      ],
-      "resolutionFile": "220638",
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/206439",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00206439.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00206439.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00206439.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4521",
-  "participant": [
-    "36",
-    "739",
-    "734",
-    "1386",
-    "736",
-    "741",
-    "752",
-    "744",
-    "1192",
-    "746",
-    "750",
-    "1377",
-    "753",
-    "914",
-    "1375",
-    "758",
-    "762",
-    "1374",
-    "745"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64939",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "2",
+      "order": "2",
+      "name": "Wahl der Friedensrichter/Friedensrichterin für die Schiedsstellen Plauen-Ost und Plauen-West; Wahl",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64910",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64914",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "3.1",
+      "order": "4",
+      "name": "Schließung der Kindertageseinrichtung Oskar-Seyffert-Straße 11 in 01189 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18657",
+      "result": "Ersetzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64931",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "3.2",
+      "order": "5",
+      "name": "Bebauungsplan Nr. 190, Dresden-Altstadt II Nr. 9, Verlängerung Bayrische Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18847",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64913",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "4",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64976",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "4.1",
+      "order": "7",
+      "name": "Neufassung der Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19197",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/65145",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4521",
+      "number": "4.2",
+      "order": "8",
+      "name": "Öffnung von Schulsportanlagen zur freien sportlichen Nutzung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/19228",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

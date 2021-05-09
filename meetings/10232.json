@@ -1,86 +1,167 @@
 {
-  "shortName": "OSR MB/019/2021",
-  "locality": "Landeshauptstadt Dresden, im \"Dorfklub Mobschatz\", Sitzungssaal,Am Tummelsgrund 7 b, 01156 Dresden",
-  "name": "Ortschaftsrat Mobschatz - 15.04.2021 - 19:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "45"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "19. Sitzung des Ortschaftsrates Mobschatz",
   "start": "2021-04-15T19:30:00+02:00",
   "end": "2021-04-15T21:15:00+02:00",
-  "invitation": "537049",
-  "resultsProtocol": "539870",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/36",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Am Tummelsgrund 7 b",
+    "room": "Ortschaft Mobschatz, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/45"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/343",
+    "http://oparl.dresden.de/bodies/0001/people/344",
+    "http://oparl.dresden.de/bodies/0001/people/1255",
+    "http://oparl.dresden.de/bodies/0001/people/1964",
+    "http://oparl.dresden.de/bodies/0001/people/2184",
+    "http://oparl.dresden.de/bodies/0001/people/288",
+    "http://oparl.dresden.de/bodies/0001/people/1963",
+    "http://oparl.dresden.de/bodies/0001/people/1965",
+    "http://oparl.dresden.de/bodies/0001/people/2028"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/537049",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR MB",
+    "fileName": "00537049.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-04-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00537049.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00537049.pdf",
+    "created": "2021-04-07T12:40:38+02:00",
+    "modified": "2021-04-08T08:15:05+02:00"
+  },
   "auxiliaryFile": [
-    "539871"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/537049",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR MB",
+      "fileName": "00537049.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00537049.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00537049.pdf",
+      "created": "2021-04-07T12:40:38+02:00",
+      "modified": "2021-04-08T08:15:05+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/539870",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Mobschatz_V-MB0052/21_oU",
+      "fileName": "00539870.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00539870.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00539870.pdf",
+      "created": "2021-04-20T08:05:51+02:00",
+      "modified": "2021-04-21T04:45:20+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/539871",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Mobschatz_V-MB0053/21_oU",
+      "fileName": "00539871.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00539871.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00539871.pdf",
+      "created": "2021-04-20T08:09:05+02:00",
+      "modified": "2021-04-21T04:45:20+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146927",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+      "number": "1",
+      "order": "1",
       "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-19T10:09:19+01:00",
+      "modified": "2021-04-06T09:30:01+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146928",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+      "number": "2",
+      "order": "2",
       "name": "Bestätigung der Tagesordnung und der Niederschrift des Ortschaftsrates Mobschatz",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-19T10:09:19+01:00",
+      "modified": "2021-04-06T09:30:01+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147749",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+      "number": "3",
+      "order": "3",
       "name": "Beschaffung einer Sitzgruppe für den Standort am Ockerwitzer Weg in Merbitz",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21417",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "539966",
-      "auxiliaryFile": [
-        "536793"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48121",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2021-04-06T16:27:15+02:00",
+      "modified": "2021-04-23T09:58:10+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147750",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+      "number": "4",
+      "order": "4",
       "name": "Beschaffung eines Unterstandes (Wetterschutz) und Bereitstellung der finanziellen Mittel aus der Investitionspauschale des Ortschaftsrates Mobschatz",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21419",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "539968",
-      "auxiliaryFile": [
-        "536814"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48129",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2021-04-06T16:27:36+02:00",
+      "modified": "2021-04-23T10:00:39+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146935",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+      "number": "5",
+      "order": "5",
       "name": "Aktuelle Informationen der Ortschaft Mobschatz",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-19T10:09:20+01:00",
+      "modified": "2021-04-06T16:27:36+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146936",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+      "number": "6",
+      "order": "6",
       "name": "Anfragen der Ortschaftsräte",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-19T10:09:20+01:00",
+      "modified": "2021-04-06T16:27:36+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/146937",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10232",
+      "number": "7",
+      "order": "7",
       "name": "Anfragen der Bürger",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-19T10:09:20+01:00",
+      "modified": "2021-04-06T16:27:36+02:00"
     }
   ],
-  "id": "10232"
+  "created": "2020-11-02T13:16:46+01:00",
+  "modified": "2021-04-21T04:45:20+02:00"
 }

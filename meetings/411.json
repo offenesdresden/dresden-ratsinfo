@@ -1,75 +1,120 @@
 {
-  "shortName": "OBR Pi/008/2010",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Pieschen, Bürgersaal,Bürgerstraße 63, 01127 Dresden",
-  "name": "Ortsbeirat Pieschen - 15.06.2010 - 18:00-20:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "40"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/411",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Ortsbeirates Pieschen",
   "start": "2010-06-15T18:00:00+02:00",
   "end": "2010-06-15T20:00:00+02:00",
-  "invitation": "32342",
-  "verbatimProtocol": "33894",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/31",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bürgerstraße 63",
+    "room": "Ortsamt Pieschen, Bürgersaal",
+    "postalCode": "01127",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:24+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/40"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/32342",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pi",
+    "fileName": "00032342.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-06-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00032342.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00032342.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Ordnung und Sicherheit im Ortsamtsgebiet Pieschen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/32342",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pi",
+      "fileName": "00032342.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-06-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00032342.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00032342.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Mittelschule Dresden-Pieschen-Gemeinschaftsschule, Freiflächengestaltung Schulhof",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Hafencity - Modellprojekt CO2-neutraler Stadtteil",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1717",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "67836",
-      "auxiliaryFile": [
-        "52491",
-        "130768",
-        "166475",
-        "182685",
-        "213735",
-        "254307",
-        "299785",
-        "357782",
-        "25727"
-      ]
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen aus dem Ortsbeirat",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/33894",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00033894.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-06-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00033894.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00033894.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "411",
-  "participant": [
-    "298",
-    "670",
-    "672",
-    "675",
-    "402",
-    "679",
-    "681",
-    "683",
-    "685",
-    "687",
-    "689",
-    "909",
-    "694",
-    "696",
-    "678",
-    "692"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9877",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/411",
+      "number": "1",
+      "order": "1",
+      "name": "Ordnung und Sicherheit im Ortsamtsgebiet Pieschen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9201",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/411",
+      "number": "2",
+      "order": "2",
+      "name": "Mittelschule Dresden-Pieschen-Gemeinschaftsschule, Freiflächengestaltung Schulhof",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9566",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/411",
+      "number": "3",
+      "order": "3",
+      "name": "Hafencity - Modellprojekt CO2-neutraler Stadtteil",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2871",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9104",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/411",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen des Ortsamtsleiters",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/411",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen aus dem Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

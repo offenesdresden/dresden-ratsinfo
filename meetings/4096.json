@@ -1,130 +1,204 @@
 {
-  "shortName": "AB/005/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausländerbeirat - 28.04.2015 - 17:00-19:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "19"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4096",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Ausländerbeirates",
   "start": "2015-04-28T17:00:00+02:00",
   "end": "2015-04-28T19:55:00+02:00",
-  "invitation": "202082",
-  "verbatimProtocol": "209308",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/19"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1277",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/657",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/1483",
+    "http://oparl.dresden.de/bodies/0001/people/51",
+    "http://oparl.dresden.de/bodies/0001/people/421",
+    "http://oparl.dresden.de/bodies/0001/people/422",
+    "http://oparl.dresden.de/bodies/0001/people/424",
+    "http://oparl.dresden.de/bodies/0001/people/1271",
+    "http://oparl.dresden.de/bodies/0001/people/1272",
+    "http://oparl.dresden.de/bodies/0001/people/1274",
+    "http://oparl.dresden.de/bodies/0001/people/1275",
+    "http://oparl.dresden.de/bodies/0001/people/1276",
+    "http://oparl.dresden.de/bodies/0001/people/1278"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/202082",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB_2015_04_28",
+    "fileName": "00202082.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-04-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00202082.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00202082.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "207147",
-    "205531",
-    "205528",
-    "205529",
-    "209287"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/202082",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB_2015_04_28",
+      "fileName": "00202082.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-04-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00202082.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00202082.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/205528",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "TOP_2_Strategiepapier_Sucht",
+      "fileName": "00205528.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-04-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00205528.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00205528.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/205529",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "TOP_5_Faktenblatt_Asyl",
+      "fileName": "00205529.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-04-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00205529.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00205529.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/205531",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "TOP_1_Migrationsberatungsstellen_Dresden",
+      "fileName": "00205531.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-04-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00205531.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00205531.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/207147",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "TOP_1_Migrationsberatungsstellen_Tätigkeit",
+      "fileName": "00207147.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00207147.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00207147.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/209287",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antwort_Festlegung_AB_2015_04_28_Kleiner_Globus",
+      "fileName": "00209287.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00209287.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00209287.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/209308",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_AB_2015_04_28",
+      "fileName": "00209308.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-05-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00209308.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00209308.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
-      "name": "Lebenswelten von Flüchtlingen in Dresden Vorstellung ÖIZ Cabana (Migrationsberatungsstelle)",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64292",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4096",
+      "number": "1",
+      "order": "1",
+      "name": "Lebenswelten von Flüchtlingen in Dresden/Vorstellung ÖIZ Cabana (Migrationsberatungsstelle)",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64286",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4096",
+      "number": "2",
+      "order": "2",
       "name": "Strategiepapier zur Suchtprävention in Dresden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9514",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "215667",
-      "auxiliaryFile": [
-        "238847",
-        "357904",
-        "357905",
-        "200853",
-        "200410",
-        "199414",
-        "214959"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18959",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64285",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4096",
+      "number": "3",
+      "order": "3",
       "name": "Neufassung der Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9009",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "201298",
-        "200750",
-        "197716",
-        "180969",
-        "180967",
-        "180970",
-        "180971",
-        "180972",
-        "182616"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17193",
       "result": "Ablehnung",
-      "vote": {
-        "yes": 4,
-        "no": 4,
-        "neutral": 7,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64283",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4096",
+      "number": "4",
+      "order": "4",
       "name": "Medizinische Versorgung für AsylbewerberInnen verbessern - Krankenkassenversichertenkarte für AsylbewerberInnen einführen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9560",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "196825",
-        "222456",
-        "232740",
-        "260860",
-        "243063"
-      ],
-      "resolutionFile": "210051",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/18839",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/64284",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4096",
+      "number": "5",
+      "order": "5",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4096",
-  "participant": [
-    "1277",
-    "78",
-    "88",
-    "278",
-    "58",
-    "657",
-    "1190",
-    "1483",
-    "51",
-    "1271",
-    "1278",
-    "1276",
-    "422",
-    "1272",
-    "424",
-    "1275",
-    "421",
-    "1274"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

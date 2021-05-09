@@ -1,73 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/549",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Satzung zur Änderung der Straßenreinigungsgebührensatzung der Landeshauptstadt Dresden",
-  "shortName": "V0202/09",
   "reference": "V0202/09",
+  "date": "2010-11-01",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2009-09-16",
   "auxiliaryFile": [
-    "11511",
-    "8258",
-    "8145"
-  ],
-  "mainFile": "46408",
-  "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/8145",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 zur V0202",
+      "fileName": "00008145.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00008145.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00008145.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/8258",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 zur Vorlage V0202",
+      "fileName": "00008258.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-09-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00008258.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00008258.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "142",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/11511",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00011511.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-10-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00011511.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00011511.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "154",
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "161",
-      "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/46408",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V0202/09",
+      "fileName": "00046408.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-11-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00046408.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00046408.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "549"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/42"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/985",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/549",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/3735",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/161",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

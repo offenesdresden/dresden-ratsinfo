@@ -1,101 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/12352",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beauftragung der STESAD GmbH mit der Vorplanung kommunaler Wohnungsbaustandorte",
-  "shortName": "V1120/16",
   "reference": "V1120/16",
+  "date": "2016-04-18",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2016-04-15",
-  "mainFile": "250727",
   "auxiliaryFile": [
-    "250381",
-    "250384",
-    "250726"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/250381",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00250381.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250381.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250381.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/250384",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage zur V1120/16",
+      "fileName": "00250384.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250384.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250384.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/250726",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "bereits gefasster Beschluss - A0072/15",
+      "fileName": "00250726.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250726.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250726.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/250727",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V1120/16",
+      "fileName": "00250727.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250727.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250727.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/42"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/24845",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/12352",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/78440",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4939",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5496",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5570",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "4939",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "12352"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

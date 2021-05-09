@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15636",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung der Verfügungsmittel/ Investpauschale",
-  "shortName": "V-WX0054/18",
   "reference": "V-WX0054/18",
+  "date": "2018-09-12",
   "paperType": "Vorlage OS Weixdorf",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-08-15",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/362183",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Weixdorf",
+    "fileName": "00362183.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-09-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00362183.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00362183.pdf",
+    "created": "2018-08-15T11:53:19+02:00",
+    "modified": "2018-09-26T06:45:22+02:00"
+  },
   "auxiliaryFile": [
-    "362183",
-    "369796"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/369796",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0054/18_mU",
+      "fileName": "00369796.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00369796.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00369796.pdf",
+      "created": "2018-09-24T12:56:07+02:00",
+      "modified": "2018-09-26T06:45:22+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/383733",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung zu V-WX0054/18, Verfügungsmittel,Investpauschale",
+      "fileName": "00383733.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00383733.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00383733.pdf",
+      "created": "2018-12-05T07:48:42+01:00",
+      "modified": "2018-12-05T07:48:43+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/37"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6989",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/33920",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15636",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/106621",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6989",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-09-04T12:47:51+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15636"
+  "created": "2018-08-15T11:53:01+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,29 +1,44 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16769",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Essbares Blasewitz",
-  "shortName": "A-Bl0005/19",
   "reference": "A-Bl0005/19",
+  "date": "2019-09-25",
   "paperType": "Antrag SBR Blasewitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-04-03",
   "auxiliaryFile": [
-    "404609"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/404609",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "A-Bl0005/19_Orginal mit Unterschriften",
+      "fileName": "00404609.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00404609.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00404609.pdf",
+      "created": "2019-04-03T10:02:24+02:00",
+      "modified": "2019-09-25T13:56:29+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/120"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37259",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16769",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/121841",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8435",
       "organization": [
-        {
-          "name": "09.10.2019 Stadtbezirksbeirat Blasewitz",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/167"
       ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-09-25T09:17:57+02:00",
+      "modified": "2019-10-10T12:36:49+02:00"
     }
   ],
-  "id": "16769"
+  "created": "2019-04-03T09:58:50+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

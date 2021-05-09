@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16530",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln - Freundeskreis Eschdorf e. V. - Beschilderung Spielplatz Eschdorf",
-  "shortName": "V-SW0232/19",
   "reference": "V-SW0232/19",
+  "date": "2019-03-21",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/396277",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00396277.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-02-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00396277.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00396277.pdf",
+    "created": "2019-02-22T07:05:23+01:00",
+    "modified": "2019-03-21T13:35:21+01:00"
+  },
   "auxiliaryFile": [
-    "404917",
-    "396277"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/404917",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0232/19_mU",
+      "fileName": "00404917.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00404917.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00404917.pdf",
+      "created": "2019-04-04T09:09:24+02:00",
+      "modified": "2019-04-04T09:09:25+02:00"
+    }
   ],
-  "id": "16530",
-  "publishedDate": "2019-02-22",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7980",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36638",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16530",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/114164",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7980",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-02-22T08:24:50+01:00",
+      "modified": "2019-04-04T09:41:34+02:00"
     }
-  ]
+  ],
+  "created": "2019-02-22T07:04:41+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

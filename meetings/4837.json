@@ -1,84 +1,151 @@
 {
-  "shortName": "AB/008/2015",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Integrations- und Ausländerbeirat - 06.10.2015 - 17:00-19:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "148"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4837",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Integrations- und Ausländerbeirates",
   "start": "2015-10-06T17:00:00+02:00",
   "end": "2015-10-06T19:55:00+02:00",
-  "invitation": "223237",
-  "verbatimProtocol": "231400",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/148"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1276",
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/1366",
+    "http://oparl.dresden.de/bodies/0001/people/1367",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/1270",
+    "http://oparl.dresden.de/bodies/0001/people/429",
+    "http://oparl.dresden.de/bodies/0001/people/1271",
+    "http://oparl.dresden.de/bodies/0001/people/1272",
+    "http://oparl.dresden.de/bodies/0001/people/1274",
+    "http://oparl.dresden.de/bodies/0001/people/1275",
+    "http://oparl.dresden.de/bodies/0001/people/1278"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/223237",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB_2015_10_06",
+    "fileName": "00223237.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-09-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00223237.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00223237.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "231377"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/223237",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB_2015_10_06",
+      "fileName": "00223237.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-09-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00223237.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00223237.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/231377",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen_Antwort_Beiratsbudget_2015",
+      "fileName": "00231377.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-11-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00231377.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00231377.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/231400",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_AB_2015_10_06",
+      "fileName": "00231400.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00231400.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00231400.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70077",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4837",
+      "number": "1",
+      "order": "1",
       "name": "Situation der Asylsuchenden und Flüchtlinge in Dresden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zur Kenntnis genommen"
+      "public": true,
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70078",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4837",
+      "number": "2",
+      "order": "2",
       "name": "Unbegleitete minderjährige Flüchtlinge",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zur Kenntnis genommen"
+      "public": true,
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70837",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4837",
+      "number": "3",
+      "order": "3",
       "name": "Vorstellung des Oberbürgermeisters Dirk Hilbert",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zur Kenntnis genommen"
+      "public": true,
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "name": "Errichtung eines Wohnheims für besondere Bedarfsgruppen als öffentliche Einrichtung gemäß § 7 Abs. 4 Buchstabe I der Hauptsatzung i. V. m. § 10 Abs. 2 der SächsGemO (Sächsische Gemeindeordnung) im Objekt „Försterlingstraße 20“ in 01259 Dresden, Gemarkung Laubegast, Flurstück Nr. 513",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "10013",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "232757",
-      "auxiliaryFile": [
-        "258467",
-        "245646",
-        "218722",
-        "218129",
-        "209107",
-        "210687",
-        "245719"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4837",
+      "number": "4",
+      "order": "4",
+      "name": "Errichtung eines Wohnheims für besondere Bedarfsgruppen als öffentliche Einrichtung im Objekt „Försterlingstraße 20“ in 01259 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/20563",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/70417",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4837",
+      "number": "5",
+      "order": "5",
       "name": "Informationen und Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4837",
-  "participant": [
-    "1276",
-    "78",
-    "88",
-    "278",
-    "1367",
-    "1366",
-    "1190",
-    "1270",
-    "1271",
-    "1278",
-    "1272",
-    "1275",
-    "429",
-    "1274"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

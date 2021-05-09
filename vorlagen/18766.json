@@ -1,24 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18766",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln - Feuerwehrverein Zaschendorf e. V. - 22. Vogelschießen 2020",
-  "shortName": "V-SW0321/20",
   "reference": "V-SW0321/20",
+  "date": "2020-04-21",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-04-14",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/468473",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00468473.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-04-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468473.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468473.pdf",
+    "created": "2020-04-14T12:42:46+02:00",
+    "modified": "2020-04-21T08:37:46+02:00"
+  },
   "auxiliaryFile": [
-    "468473"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/472617",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0321/20",
+      "fileName": "00472617.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00472617.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00472617.pdf",
+      "created": "2020-05-07T11:37:47+02:00",
+      "modified": "2020-05-07T12:28:12+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/476391",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_OSR Schönfeld-Weißig_V-SW0321/20_2020-05-25_Abschlussbericht",
+      "fileName": "00476391.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00476391.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00476391.pdf",
+      "created": "2020-05-27T09:08:37+02:00",
+      "modified": "2020-05-27T09:08:38+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8931",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41871",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18766",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/130303",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8931",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-04-14T12:54:45+02:00",
+      "modified": "2020-05-07T12:27:58+02:00"
     }
   ],
-  "id": "18766"
+  "created": "2020-04-14T12:42:30+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

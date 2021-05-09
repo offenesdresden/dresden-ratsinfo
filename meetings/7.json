@@ -1,118 +1,205 @@
 {
-  "shortName": "OBR Neu/004/2009",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Neustadt, Bürgersaal, 2. Etage, Zi: 215Hoyerswerdaer Straße 3, 01099 Dresden",
-  "name": "Ortsbeirat Neustadt - 15.12.2009 - 17:30-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "36"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "4. Sitzung des Ortsbeirates Neustadt",
   "start": "2009-12-15T17:30:00+01:00",
   "end": "2009-12-15T21:00:00+01:00",
-  "invitation": "15071",
-  "verbatimProtocol": "18197",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/30",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hoyerswerdaer Straße 3",
+    "room": "Ortsamt Neustadt, Bürgersaal",
+    "postalCode": "01099",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/36"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/640",
+    "http://oparl.dresden.de/bodies/0001/people/642",
+    "http://oparl.dresden.de/bodies/0001/people/646",
+    "http://oparl.dresden.de/bodies/0001/people/650",
+    "http://oparl.dresden.de/bodies/0001/people/654",
+    "http://oparl.dresden.de/bodies/0001/people/656",
+    "http://oparl.dresden.de/bodies/0001/people/658",
+    "http://oparl.dresden.de/bodies/0001/people/660",
+    "http://oparl.dresden.de/bodies/0001/people/662",
+    "http://oparl.dresden.de/bodies/0001/people/666",
+    "http://oparl.dresden.de/bodies/0001/people/668",
+    "http://oparl.dresden.de/bodies/0001/people/645",
+    "http://oparl.dresden.de/bodies/0001/people/649",
+    "http://oparl.dresden.de/bodies/0001/people/653",
+    "http://oparl.dresden.de/bodies/0001/people/665"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/15071",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Neu_15.12.2009",
+    "fileName": "00015071.pdf",
+    "mimeType": "application/pdf",
+    "date": "2009-11-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015071.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015071.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/15071",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Neu_15.12.2009",
+      "fileName": "00015071.pdf",
+      "mimeType": "application/pdf",
+      "date": "2009-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00015071.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00015071.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Sanierungsgebiet Äußere Neustadt - 2. Fortschreibung des Städtebaulichen Erneuerungskonzeptes",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "459",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "7643",
-        "6706",
-        "6769",
-        "6708",
-        "6709",
-        "6779",
-        "6770",
-        "6771",
-        "6772"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen / Vorstellungen der Fachämter",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Erweiterung des Bewohnerparkbereiches Nr. 13 im Umfeld Bischofswerder Straße",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "erneute Beratung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sachstand zum Bau Kindertagesstätte \"Alaunpark\" und Außenspielfläche \"Hospitalstraße\"",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "erneute Beratung"
-    },
-    {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Kontrolle der Niederschriften",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Niederschrift der 1. Ortsbeiratssitzung am 06.10.09",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Niederschrift der 2. Ortsbeiratssitzung (nichtöffentlich) am 26.10.09",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Niederschrift der 3. Ortsbeiratssitzung am 03.11.2009",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/18197",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_OBR Neu_15.12.2009",
+      "fileName": "00018197.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018197.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018197.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "7",
-  "participant": [
-    "642",
-    "640",
-    "646",
-    "650",
-    "654",
-    "656",
-    "658",
-    "660",
-    "662",
-    "668",
-    "666",
-    "645",
-    "649",
-    "653",
-    "665"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3451",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "1",
+      "order": "1",
+      "name": "Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3452",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "1.1",
+      "order": "2",
+      "name": "Sanierungsgebiet Äußere Neustadt - 2. Fortschreibung des Städtebaulichen Erneuerungskonzeptes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1085",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3455",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "2",
+      "order": "3",
+      "name": "Informationen / Vorstellungen der Fachämter",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3456",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "2.1",
+      "order": "4",
+      "name": "Erweiterung des Bewohnerparkbereiches Nr. 13 im Umfeld Bischofswerder Straße",
+      "public": true,
+      "result": "erneute Beratung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4094",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "2.2",
+      "order": "5",
+      "name": "Sachstand zum Bau Kindertagesstätte \"Alaunpark\" und Außenspielfläche \"Hospitalstraße\"",
+      "public": true,
+      "result": "erneute Beratung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3453",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "3",
+      "order": "6",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4091",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "4",
+      "order": "7",
+      "name": "Kontrolle der Niederschriften",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3449",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "4.1",
+      "order": "8",
+      "name": "Niederschrift der 1. Ortsbeiratssitzung am 06.10.09",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4092",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "4.2",
+      "order": "9",
+      "name": "Niederschrift der 2. Ortsbeiratssitzung (nichtöffentlich) am 26.10.09",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4240",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "4.3",
+      "order": "10",
+      "name": "Niederschrift der 3. Ortsbeiratssitzung am 03.11.2009",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/3454",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7",
+      "number": "5",
+      "order": "11",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

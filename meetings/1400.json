@@ -1,81 +1,109 @@
 {
-  "shortName": "OBR Bl/019/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 28.09.2011 - 17:30-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1400",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "19. Sitzung des Ortsbeirates Blasewitz",
   "start": "2011-09-28T17:30:00+02:00",
   "end": "2011-09-28T19:30:00+02:00",
-  "invitation": "74278",
-  "verbatimProtocol": "75930",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/74278",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00074278.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-09-14",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074278.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074278.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 17. Ortsbeiratssitzung am 24.08.2011 Kontrolle der Niederschrift zur 18. Ortsbeiratssitzung am 13.09.2011",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/74278",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00074278.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-09-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00074278.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00074278.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorlagen zur Information an den Ortsbeirat",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Parkraumkonzept Blasewitz - Schillerplatz",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4276",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "73455",
-        "65557",
-        "65558",
-        "65559",
-        "65560",
-        "65561",
-        "65562",
-        "65563",
-        "65564",
-        "65565",
-        "65566",
-        "76011",
-        "65567",
-        "65568",
-        "66518",
-        "71824"
-      ]
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/75930",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00075930.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-10-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00075930.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00075930.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1400",
-  "participant": [
-    "704",
-    "706",
-    "420",
-    "701",
-    "703",
-    "699",
-    "708",
-    "710",
-    "712",
-    "714",
-    "717",
-    "718",
-    "722",
-    "720",
-    "724",
-    "727",
-    "726",
-    "408",
-    "730",
-    "888",
-    "698"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23124",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1400",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 17. Ortsbeiratssitzung am 24.08.2011Kontrolle der Niederschrift zur 18. Ortsbeiratssitzung am 13.09.2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23121",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1400",
+      "number": "2",
+      "order": "2",
+      "name": "Vorlagen zur Information an den Ortsbeirat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23119",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1400",
+      "number": "2.1",
+      "order": "3",
+      "name": "Parkraumkonzept Blasewitz - Schillerplatz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/6735",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/23122",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1400",
+      "number": "3",
+      "order": "5",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

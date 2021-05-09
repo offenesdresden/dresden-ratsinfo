@@ -1,91 +1,211 @@
 {
-  "shortName": "OSR LB/022/2016",
-  "locality": "Landeshauptstadt Dresden, in den kleinen Saal des Bürgerhauses Langebrück, Hauptstr. 4 (Eingang von der Badstr.) 01465 Langebrück",
-  "name": "Ortschaftsrat Langebrück - 12.04.2016 - 17:00-21:53 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "51"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "22. Sitzung des Ortschaftsrates Langebrück",
   "start": "2016-04-12T17:00:00+02:00",
   "end": "2016-04-12T21:53:00+02:00",
-  "invitation": "251047",
-  "resultsProtocol": "250296",
-  "auxiliaryFile": [
-    "250519"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/33",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weißiger Straße 5",
+    "room": "Ortschaft Langebrück, Verwaltungsstelle",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Langebrück",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:09+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
   ],
-  "verbatimProtocol": "253456",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/331",
+    "http://oparl.dresden.de/bodies/0001/people/332",
+    "http://oparl.dresden.de/bodies/0001/people/334",
+    "http://oparl.dresden.de/bodies/0001/people/1251",
+    "http://oparl.dresden.de/bodies/0001/people/1252",
+    "http://oparl.dresden.de/bodies/0001/people/338",
+    "http://oparl.dresden.de/bodies/0001/people/340",
+    "http://oparl.dresden.de/bodies/0001/people/1254"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/251047",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR LB",
+    "fileName": "00251047.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-04-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00251047.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00251047.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/250296",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Begleitbeschluss_zum_Fachplan_Kita_zur_Beteiligung_der_Ortschaft",
+    "fileName": "00250296.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-04-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250296.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250296.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/250296",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Begleitbeschluss_zum_Fachplan_Kita_zur_Beteiligung_der_Ortschaft",
+      "fileName": "00250296.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250296.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250296.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/250519",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Sicherung_Grundschulstandort_Langebrück",
+      "fileName": "00250519.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00250519.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00250519.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlusskontrollen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/251047",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR LB",
+      "fileName": "00251047.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00251047.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00251047.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Information des Ortsvorstehers",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017Vorstellung Planung des neuen Kinderzentrums LangebrückBE Frau Bibas, Leiterin Eigenbetrieb Kindertageseinrichtungen undBE Frau Dr. Buscher, Leiterin der Kommunalen Statistikstelle zum Beschluss der Ortschaft OR LB 67/2015 zur Sicherung des Kita- und Hortangebotes in der OS Langebrück",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11948",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259982",
-      "auxiliaryFile": [
-        "273674",
-        "248863",
-        "248524",
-        "247751",
-        "240583",
-        "258864",
-        "259259"
-      ],
-      "result": "Zustimmung mit Ergänzung"
-    },
-    {
-      "name": "Bericht zum Beschluss der Ortschaft Langebrück OR LB 68/2015 zur Sicherung des Grundschulstandortes Langebrück",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Ergänzung"
-    },
-    {
-      "name": "Fragen an den Ortschaftsrat",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Termine",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/253456",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00253456.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00253456.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00253456.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5317",
-  "participant": [
-    "331",
-    "332",
-    "1252",
-    "334",
-    "1251",
-    "338",
-    "340",
-    "1254"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "2",
+      "order": "2",
+      "name": "Eröffnung und Begrüßung durch den Ortsvorsteher",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77887",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "3",
+      "order": "3",
+      "name": "Bekanntgabe von Beschlüssen aus nichtöffentlicher Sitzung des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77888",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "4",
+      "order": "4",
+      "name": "Beschlusskontrollen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77889",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "5",
+      "order": "5",
+      "name": "Information des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77894",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "6",
+      "order": "6",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23803",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77895",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "7",
+      "order": "7",
+      "name": "Bericht zum Beschluss- NR: OR LB 68/2015 \"Sicherung des Grundschulstandortes Langebrück\"",
+      "public": true,
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77890",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "8",
+      "order": "8",
+      "name": "Fragen an den Ortschaftsrat",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77891",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "9",
+      "order": "9",
+      "name": "Termine",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77892",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5317",
+      "number": "10",
+      "order": "10",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

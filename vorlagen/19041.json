@@ -1,80 +1,72 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19041",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Haushaltssatzung der Landeshauptstadt Dresden für die Jahre 2021 und 2022 - zurückgezogen",
-  "shortName": "A0096/20",
   "reference": "A0096/20",
+  "date": "2020-06-09",
   "paperType": "Antrag Alternative für Deutschland",
-  "type": "https://oparl.org/schema/1.0/Paper",
   "auxiliaryFile": [
-    "478300"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/478300",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  AfD",
+      "fileName": "00478300.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00478300.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00478300.pdf",
+      "created": "2020-06-05T10:24:14+02:00",
+      "modified": "2020-06-08T14:57:56+02:00"
+    }
   ],
-  "id": "19041",
-  "publishedDate": "2020-06-02",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/97"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42550",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19041",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/134443",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8856",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8808",
-      "role": "1. Lesung",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "06.07.2020 Ausschuss für Finanzen",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-06-26T09:48:03+02:00",
+      "modified": "2020-07-17T19:40:29+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42550",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19041",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/136684",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8857",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-08-07T11:26:59+02:00",
+      "modified": "2020-09-04T05:52:30+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42550",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19041",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/137806",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8858",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-09-04T08:01:31+02:00",
+      "modified": "2020-09-24T14:18:55+02:00"
     }
-  ]
+  ],
+  "created": "2020-06-05T08:43:08+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

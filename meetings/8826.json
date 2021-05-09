@@ -1,253 +1,269 @@
 {
-  "shortName": "S/007/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, 2. Etage, Plenarsaal,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Seniorenbeirat - 14.09.2020 - 09:00-13:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "6"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "7. Sitzung des Seniorenbeirates",
   "start": "2020-09-14T09:00:00+02:00",
   "end": "2020-09-14T13:55:00+02:00",
-  "invitation": "495375",
-  "verbatimProtocol": "512933",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/6"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/1816",
+    "http://oparl.dresden.de/bodies/0001/people/406",
+    "http://oparl.dresden.de/bodies/0001/people/1297",
+    "http://oparl.dresden.de/bodies/0001/people/835",
+    "http://oparl.dresden.de/bodies/0001/people/1513",
+    "http://oparl.dresden.de/bodies/0001/people/2142",
+    "http://oparl.dresden.de/bodies/0001/people/402",
+    "http://oparl.dresden.de/bodies/0001/people/415",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/836",
+    "http://oparl.dresden.de/bodies/0001/people/841",
+    "http://oparl.dresden.de/bodies/0001/people/1443",
+    "http://oparl.dresden.de/bodies/0001/people/1446"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/495375",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_S",
+    "fileName": "00495375.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-09-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00495375.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00495375.pdf",
+    "created": "2020-09-01T12:20:10+02:00",
+    "modified": "2020-09-03T08:37:23+02:00"
+  },
   "auxiliaryFile": [
-    "498431"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/495375",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_S",
+      "fileName": "00495375.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00495375.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00495375.pdf",
+      "created": "2020-09-01T12:20:10+02:00",
+      "modified": "2020-09-03T08:37:23+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/498431",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge ö",
+      "fileName": "00498431.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-09-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00498431.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00498431.pdf",
+      "created": "2020-09-14T15:48:55+02:00",
+      "modified": "2020-12-03T11:14:47+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/512933",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00512933.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00512933.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00512933.pdf",
+      "created": "2020-11-17T08:15:47+01:00",
+      "modified": "2020-12-03T11:15:17+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137560",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "1",
+      "order": "1",
       "name": "Vorstellung - Landesseniorenbeauftragte von Sachsen",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-09-01T09:45:17+02:00",
+      "modified": "2020-09-01T09:51:59+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "2",
+      "order": "2",
       "name": "Berichte aus den Geschäftsbereichen/sonstige Berichte/Themen",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-09-01T09:52:29+02:00",
+      "modified": "2020-09-01T09:52:29+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137562",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "2.1",
+      "order": "3",
       "name": "Fortschreibung Fachplan Seniorenarbeit und Altenhilfe",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-09-01T09:56:05+02:00",
+      "modified": "2020-09-01T10:07:10+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "3",
+      "order": "4",
       "name": "Kontrolle der Festlegungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-09-01T10:00:47+02:00",
+      "modified": "2020-09-01T10:00:47+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137564",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "4",
+      "order": "5",
       "name": "Vorlagen/Anträge",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-09-01T10:01:55+02:00",
+      "modified": "2020-09-01T10:01:55+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137028",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "4.1",
+      "order": "6",
       "name": "Bibliotheksentwicklungsplan 2020 - 2025",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18435",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "507030",
-      "auxiliaryFile": [
-        "537312",
-        "472495",
-        "463712",
-        "461666",
-        "457803",
-        "459648",
-        "497776",
-        "483306",
-        "479769",
-        "485367",
-        "483312",
-        "497778",
-        "482353",
-        "503212",
-        "505843"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40936",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-08-18T09:30:20+02:00",
+      "modified": "2020-09-14T14:00:49+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/136757",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "4.2",
+      "order": "7",
       "name": "Fortschreibung Bankkonzept für das gesamte Stadtgebiet der Landeshauptstadt Dresden",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17835",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541468",
-      "auxiliaryFile": [
-        "460562",
-        "456836",
-        "443988",
-        "436569",
-        "436570",
-        "436571",
-        "436573",
-        "436574",
-        "436575",
-        "436576",
-        "436578",
-        "436580",
-        "436581",
-        "436588",
-        "436590",
-        "436592",
-        "436599",
-        "436601",
-        "455971",
-        "436616",
-        "484312",
-        "486041",
-        "530806",
-        "526785"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39625",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-08-11T10:47:58+02:00",
+      "modified": "2020-09-14T14:08:20+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137030",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "4.3",
+      "order": "8",
       "name": "Evaluierung der Richtlinie der Landeshauptstadt Dresden über die Förderung des Sportes (Sportförderrichtlinie)",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18891",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "516498",
-      "auxiliaryFile": [
-        "480489",
-        "478514",
-        "479011",
-        "479012",
-        "475036",
-        "472324",
-        "472321",
-        "472322",
-        "472323",
-        "472320",
-        "514385"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42652",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-08-18T09:33:20+02:00",
+      "modified": "2020-09-14T14:15:47+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137569",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "4.4",
+      "order": "9",
       "name": "Museen der Stadt Dresden - Entwicklungsplan 2020",
-      "number": "Ö 4.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17344",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519499",
-      "auxiliaryFile": [
-        "494103",
-        "493509",
-        "492076",
-        "492581",
-        "492582",
-        "424626",
-        "505809",
-        "510022"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40460",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-09-01T10:13:11+02:00",
+      "modified": "2020-09-14T14:17:10+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137568",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "4.5",
+      "order": "10",
       "name": "Veranstaltungsnetz Altmarkt - Umgestaltung für eine barrierefreie Leitungsführung/Herstellung einer funktionstüchtigen Platzdrainage",
-      "number": "Ö 4.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20347",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "507403",
-      "auxiliaryFile": [
-        "530960",
-        "495511",
-        "495251",
-        "511562",
-        "494027",
-        "492257",
-        "492258",
-        "492524",
-        "494026",
-        "492541",
-        "492542",
-        "492543",
-        "492810",
-        "504171",
-        "526085",
-        "505823",
-        "506142",
-        "511401",
-        "507418"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45525",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-09-01T10:11:03+02:00",
+      "modified": "2020-09-14T14:21:23+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137029",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "4.6",
+      "order": "11",
       "name": "Bau des Promenadenrings Süd zwischen Seestraße und Schulgasse",
-      "number": "Ö 4.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19030",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "537511",
-      "auxiliaryFile": [
-        "478277",
-        "478253",
-        "535300",
-        "534777"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42576",
+      "result": "Vertagung",
+      "created": "2020-08-18T09:31:46+02:00",
+      "modified": "2020-09-14T14:19:42+02:00"
     },
     {
-      "name": "Lebenslage Bericht 60+ - Sachstand",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137565",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "5",
+      "order": "12",
+      "name": "Lebenslage Bericht 60+",
+      "public": true,
+      "created": "2020-09-01T10:03:08+02:00",
+      "modified": "2020-09-01T10:13:11+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137566",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "6",
+      "order": "13",
       "name": "Sachstandsbericht zu Corona in der Landeshauptstadt Dresden",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-09-01T10:04:31+02:00",
+      "modified": "2020-09-01T10:13:11+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137567",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "7",
+      "order": "14",
       "name": "Öffentliche Toiletten - Fortsetzung der Meinungsbildung vom 18.06.2019",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-09-01T10:05:22+02:00",
+      "modified": "2020-09-01T10:13:11+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/136758",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8826",
+      "number": "8",
+      "order": "15",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-08-11T10:47:58+02:00",
+      "modified": "2020-09-01T10:13:11+02:00"
     }
   ],
-  "id": "8826"
+  "created": "2019-10-28T13:59:47+01:00",
+  "modified": "2021-02-10T07:42:31+01:00"
 }

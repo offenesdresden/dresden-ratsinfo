@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18851",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Aufstellung von Hundetoiletten inklusive Beutelspender in der Ortschaft Cossebaude",
-  "shortName": "A-CB0035/20",
   "reference": "A-CB0035/20",
+  "date": "2020-04-29",
   "paperType": "Antrag Ortschaft Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/470586",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Cossebaude",
+    "fileName": "00470586.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-04-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470586.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470586.pdf",
+    "created": "2020-04-28T07:53:52+02:00",
+    "modified": "2020-05-04T09:51:29+02:00"
+  },
   "auxiliaryFile": [
-    "475171",
-    "470586"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/475171",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Cossebaude_A-CB0035/20",
+      "fileName": "00475171.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00475171.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00475171.pdf",
+      "created": "2020-05-20T09:24:26+02:00",
+      "modified": "2020-05-20T12:09:37+02:00"
+    }
   ],
-  "id": "18851",
-  "publishedDate": "2020-04-28",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9205",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42041",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18851",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/131055",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9205",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-04-28T09:25:54+02:00",
+      "modified": "2020-05-20T12:23:39+02:00"
     }
-  ]
+  ],
+  "created": "2020-04-28T07:53:24+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

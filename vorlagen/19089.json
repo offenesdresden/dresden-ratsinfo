@@ -1,12 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19089",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Bestätigung der Sitzungstermine 2021",
-  "shortName": "V-LB0177/20",
   "reference": "V-LB0177/20",
+  "date": "2020-06-30",
   "paperType": "Vorlage OS Langebrück",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/479889",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Langebrück",
+    "fileName": "00479889.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-06-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00479889.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00479889.pdf",
+    "created": "2020-06-15T06:23:28+02:00",
+    "modified": "2020-07-21T12:13:22+02:00"
+  },
   "auxiliaryFile": [
-    "486708",
-    "479889"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/486708",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Langebrück V-LB0177/20",
+      "fileName": "00486708.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00486708.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00486708.pdf",
+      "created": "2020-07-14T09:33:18+02:00",
+      "modified": "2020-07-21T12:13:22+02:00"
+    }
   ],
-  "id": "19089"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/38"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42647",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19089",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/133684",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9319",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/51"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2020-06-15T06:25:45+02:00",
+      "modified": "2020-07-21T11:48:21+02:00"
+    }
+  ],
+  "created": "2020-06-15T06:23:12+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,24 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16737",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Förderung von Projekten durch den Stadtbezirksbeirat Cotta, hier: Projekt \"Gesundes Essen\" des Kinder- und Jugendhauses T 3",
-  "shortName": "V-Co0008/19",
   "reference": "V-Co0008/19",
+  "date": "2019-03-28",
   "paperType": "Vorlage STB Cotta",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-03-27",
   "auxiliaryFile": [
-    "403417"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/403417",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 - Projektdatenblatt T 3",
+      "fileName": "00403417.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00403417.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00403417.pdf",
+      "created": "2019-03-28T14:31:20+01:00",
+      "modified": "2019-04-10T09:39:04+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/410122",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Cotta_V-Co0008/19",
+      "fileName": "00410122.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00410122.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00410122.pdf",
+      "created": "2019-05-06T08:56:42+02:00",
+      "modified": "2019-11-27T10:43:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/446116",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Cotta_V-Co0008/19_2019_11_25_Abschlussbericht",
+      "fileName": "00446116.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00446116.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00446116.pdf",
+      "created": "2019-11-27T10:44:29+01:00",
+      "modified": "2019-11-27T10:44:30+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/121"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7909",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37168",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16737",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/116146",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7909",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/168"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-04-10T07:37:37+02:00",
+      "modified": "2019-05-08T05:37:09+02:00"
     }
   ],
-  "id": "16737"
+  "created": "2019-03-27T14:30:02+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

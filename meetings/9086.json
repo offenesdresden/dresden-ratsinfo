@@ -1,183 +1,239 @@
 {
-  "shortName": "OSR OW/007/2020",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 24.03.2020 - 18:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "7. Sitzung des Ortschaftsrates Oberwartha - ABGESAGT!",
   "start": "2020-03-24T18:30:00+01:00",
-  "invitation": "464631",
-  "agendaItem": [
+  "end": "2020-03-24T00:00:00+01:00",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/464631",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00464631.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-03-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464631.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464631.pdf",
+    "created": "2020-03-13T09:30:38+01:00",
+    "modified": "2020-03-13T09:35:30+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung  und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bestätigung der Tagesordnung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzmittelvergabe 2020",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beratung über Verfügungsbudget",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzzuschuss an den Freundeskreis \"Alte Feuerwehr Oberwartha e.V.\"",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18593",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "477431",
-      "auxiliaryFile": [
-        "463092",
-        "466806"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an den Freundeskreis \"Alte Feuerwehr Oberwartha e.V.\" für Vereinshaus",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. für Weihnachtsmarkt Oberwartha",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18595",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "477432",
-      "auxiliaryFile": [
-        "526367",
-        "463107",
-        "466809"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an Freundeskreis Heimatkunde Oberwartha",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18596",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "477433",
-      "auxiliaryFile": [
-        "526368",
-        "463125",
-        "466810"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an Freundeskreis Heimatkunde Oberwartha im Rahmen der Ortsverschönerung",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18597",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "463130",
-        "466811"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. für Sonnenwendfeier",
-      "number": "Ö 3.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18599",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "463137",
-        "466813"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an Seniorengruppe Oberwartha für Seniorenbusfahrten",
-      "number": "Ö 3.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18600",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "477437",
-      "auxiliaryFile": [
-        "526371",
-        "463142",
-        "466814"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an Kinder- und Jugendverein Oberwartha e.V.",
-      "number": "Ö 3.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18601",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "477438",
-      "auxiliaryFile": [
-        "526372",
-        "463158",
-        "466816"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. für Insektenhotel",
-      "number": "Ö 3.10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18602",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "463176",
-        "466817"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. zur Bewirtschaftung Blütenwiese",
-      "number": "Ö 3.11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18604",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "463188",
-        "466818"
-      ]
-    },
-    {
-      "name": "Finanzzuschuss für Gläserspülmaschine für Kulturraum Oberwartha",
-      "number": "Ö 3.12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Verfügungsmittel für die Anschaffung von Bänken für die Ortschaft Oberwartha",
-      "number": "Ö 3.13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18440",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "458034",
-        "462044"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/files/464631",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00464631.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00464631.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00464631.pdf",
+      "created": "2020-03-13T09:30:38+01:00",
+      "modified": "2020-03-13T09:35:30+01:00"
     }
   ],
-  "id": "9086"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128834",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung  und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2020-03-09T07:51:05+01:00",
+      "modified": "2020-03-09T07:51:43+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128835",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2020-03-09T07:52:27+01:00",
+      "modified": "2020-03-13T09:23:13+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128841",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3",
+      "order": "3",
+      "name": "Finanzmittelvergabe 2020",
+      "public": true,
+      "created": "2020-03-09T09:21:31+01:00",
+      "modified": "2020-03-13T09:23:18+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/129072",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.1",
+      "order": "4",
+      "name": "Beratung über Verfügungsbudget",
+      "public": true,
+      "created": "2020-03-13T09:27:13+01:00",
+      "modified": "2020-03-13T09:27:13+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.2",
+      "order": "5",
+      "name": "Finanzzuschuss an den Freundeskreis \"Alte Feuerwehr Oberwartha e.V.\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41437",
+      "created": "2020-03-06T09:17:23+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128798",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.3",
+      "order": "6",
+      "name": "Finanzzuschuss an den Freundeskreis \"Alte Feuerwehr Oberwartha e.V.\" für Vereinshaus",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41438",
+      "created": "2020-03-06T09:26:49+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128799",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.4",
+      "order": "7",
+      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. für Weihnachtsmarkt Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41439",
+      "created": "2020-03-06T09:47:37+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128800",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.5",
+      "order": "8",
+      "name": "Finanzzuschuss an Freundeskreis Heimatkunde Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41440",
+      "created": "2020-03-06T09:54:21+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128801",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.6",
+      "order": "9",
+      "name": "Finanzzuschuss an Freundeskreis Heimatkunde Oberwartha im Rahmen der Ortsverschönerung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41441",
+      "created": "2020-03-06T10:02:16+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128802",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.7",
+      "order": "10",
+      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. für Sonnenwendfeier",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41442",
+      "created": "2020-03-06T10:07:33+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128817",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.8",
+      "order": "11",
+      "name": "Finanzzuschuss an Seniorengruppe Oberwartha für Seniorenbusfahrten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41443",
+      "created": "2020-03-06T10:22:37+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128818",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.9",
+      "order": "12",
+      "name": "Finanzzuschuss an Kinder- und Jugendverein Oberwartha e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41449",
+      "created": "2020-03-06T10:27:34+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128822",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.10",
+      "order": "13",
+      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. für Insektenhotel",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41450",
+      "created": "2020-03-06T10:34:05+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/128823",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.11",
+      "order": "14",
+      "name": "Finanzzuschuss an Bürger- und Ortsverein Oberwartha e.V. zur Bewirtschaftung Blütenwiese",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41452",
+      "created": "2020-03-06T10:40:01+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/129052",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.12",
+      "order": "15",
+      "name": "Finanzzuschuss für Gläserspülmaschine für Kulturraum Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41545",
+      "created": "2020-03-12T12:46:42+01:00",
+      "modified": "2020-03-13T09:28:04+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/129074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9086",
+      "number": "3.13",
+      "order": "16",
+      "name": "Verfügungsmittel für die Anschaffung von Bänken für die Ortschaft Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/40950",
+      "created": "2020-03-13T09:28:24+01:00",
+      "modified": "2020-03-13T09:28:24+01:00"
+    }
+  ],
+  "created": "2019-12-05T15:12:04+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

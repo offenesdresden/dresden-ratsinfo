@@ -1,21 +1,12 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1989",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Margit Winkelmann",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Ortschaftsratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "51",
-      "startDate": "2019-08-19"
-    }
-  ],
-  "postalCode": "01465",
-  "locality": "Langebrück",
-  "streetAddress": "Bergstraße 11",
+  "familyName": "Winkelmann",
+  "givenName": "Margit",
+  "formOfAddress": "Frau",
+  "gender": "weiblich",
   "phone": [
     "035201/77967",
     "0176/22048263"
@@ -23,5 +14,20 @@
   "email": [
     "margit-winkelmann@web.de"
   ],
-  "id": "1989"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9537",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1989",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/51",
+      "role": "Ortschaftsratsmitglied",
+      "votingRight": true,
+      "startDate": "2019-08-19",
+      "created": "2019-08-19T09:41:16+02:00",
+      "modified": "2019-08-19T09:42:01+02:00"
+    }
+  ],
+  "created": "2019-07-24T13:22:00+02:00",
+  "modified": "2021-05-07T05:22:07+02:00",
+  "web": ""
 }

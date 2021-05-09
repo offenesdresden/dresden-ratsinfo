@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16351",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Antrag auf Umwifmung Fördermittel Heimatverein Schönborn 1997 e.V.",
-  "shortName": "V-SB0087/19",
   "reference": "V-SB0087/19",
+  "date": "2019-01-16",
   "paperType": "Vorlage OS Schönborn",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-01-21",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/390203",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönborn",
+    "fileName": "00390203.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-01-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00390203.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00390203.pdf",
+    "created": "2019-01-21T10:19:50+01:00",
+    "modified": "2019-01-25T12:11:40+01:00"
+  },
   "auxiliaryFile": [
-    "390203",
-    "391150"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/391150",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönborn V-SB0087/19_mU",
+      "fileName": "00391150.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00391150.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00391150.pdf",
+      "created": "2019-01-25T09:03:26+01:00",
+      "modified": "2019-01-25T12:11:40+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/39"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7942",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/36058",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16351",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/112694",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7942",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-01-21T07:59:31+01:00",
+      "modified": "2019-02-01T07:58:37+01:00"
     }
   ],
-  "id": "16351"
+  "created": "2019-01-21T10:19:22+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

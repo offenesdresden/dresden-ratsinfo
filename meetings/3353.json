@@ -1,97 +1,255 @@
 {
-  "shortName": "AB/002/2014",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausländerbeirat - 16.12.2014 - 17:00-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "19"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "2. Sitzung des Ausländerbeirates",
   "start": "2014-12-16T17:00:00+01:00",
   "end": "2014-12-16T20:30:00+01:00",
-  "invitation": "187152",
-  "verbatimProtocol": "194546",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/19"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/78",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/278",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/657",
+    "http://oparl.dresden.de/bodies/0001/people/1190",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/421",
+    "http://oparl.dresden.de/bodies/0001/people/422",
+    "http://oparl.dresden.de/bodies/0001/people/1271",
+    "http://oparl.dresden.de/bodies/0001/people/1272",
+    "http://oparl.dresden.de/bodies/0001/people/1274",
+    "http://oparl.dresden.de/bodies/0001/people/1276",
+    "http://oparl.dresden.de/bodies/0001/people/1277",
+    "http://oparl.dresden.de/bodies/0001/people/1278"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/187152",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB",
+    "fileName": "00187152.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187152.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187152.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "195186",
-    "190672",
-    "190673",
-    "190674",
-    "190671",
-    "194131",
-    "190675"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/187152",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB",
+      "fileName": "00187152.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187152.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187152.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/190671",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_Landesärztekammer_TOP1_AuslBR_für_16_12_2014",
+      "fileName": "00190671.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00190671.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00190671.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/190672",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_ARGE_TOP2_AuslBR_16_12_2014",
+      "fileName": "00190672.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00190672.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00190672.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/190673",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_GB2_TOP4_AuslBR_für_16_12_2014",
+      "fileName": "00190673.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00190673.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00190673.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/190674",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_GB5_TOP3_AuslBR_für_16_12_2014",
+      "fileName": "00190674.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00190674.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00190674.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/190675",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsi_TOP5_Umsetzung IK 2009_kurz",
+      "fileName": "00190675.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00190675.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00190675.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/194131",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Päsi_TOP3_Initiative_Krankenvers._Flüchtlinge",
+      "fileName": "00194131.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00194131.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00194131.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/194546",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00194546.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-01-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00194546.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00194546.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/195186",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "1.Teil_Antwort_Festlegungen_ABR_16.12.2014",
+      "fileName": "00195186.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-02-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00195186.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00195186.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
-      "name": "Bericht der Sächsischer Landesärztekammer zum Thema: Beschäftigung von Ärztinnen und Ärzte mit Migrationshintergrund und Ausbildung von medizinischen Fachangestellten mit Migrationshintergrund",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59773",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "1",
+      "order": "1",
+      "name": "Bericht der Sächsischer Landesärztekammer zum Thema: Beschäftigung von Ärztinnen und Ärzte mit Migrationshintergrund",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59774",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "2",
+      "order": "2",
       "name": "Projektvorstellung der Agentur für Arbeit \"Aktivierung der stillen Reserven\"",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59775",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "3",
+      "order": "3",
       "name": "Initiative Krankenversicherung für Flüchtlinge",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59776",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "4",
+      "order": "4",
       "name": "Bericht Haushalt, Schwerpunkt Integration, Migration und Flüchtlinge",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59777",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "5",
+      "order": "5",
       "name": "Bericht zum Stand \"Integrationskonzept\"",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59771",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "6",
+      "order": "6",
       "name": "Umbenennung des Ausländerbeirats / Änderung der Hauptsatzung",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "9004",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "180772"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17183",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59778",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "7",
+      "order": "7",
       "name": "Besetzung der Gremien BZI, LHP",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59772",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3353",
+      "number": "8",
+      "order": "8",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "3353",
-  "participant": [
-    "78",
-    "88",
-    "278",
-    "712",
-    "58",
-    "657",
-    "1190",
-    "1237",
-    "1271",
-    "1278",
-    "1276",
-    "422",
-    "1272",
-    "421",
-    "1277",
-    "1274"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

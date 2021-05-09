@@ -1,28 +1,104 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18845",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beschlussempfehlung über besondere regionale Ereignisse im Jahr 2021 gemäß § 8 Abs. 2 SächsLadÖffG",
-  "shortName": "V-Neu00032/20",
   "reference": "V-Neu00032/20",
+  "date": "2020-04-27",
   "paperType": "Vorlage STB Neustadt",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-04-27",
-  "mainFile": "470560",
   "auxiliaryFile": [
-    "470559",
-    "470367",
-    "470368",
-    "470558"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/470367",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 – Hausmitteilung vom 09.03.2020",
+      "fileName": "00470367.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470367.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470367.pdf",
+      "created": "2020-04-27T08:11:02+02:00",
+      "modified": "2020-04-28T07:44:21+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/470368",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 - SächsLadÖffG",
+      "fileName": "00470368.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470368.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470368.pdf",
+      "created": "2020-04-27T08:12:21+02:00",
+      "modified": "2020-04-28T07:44:21+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/470558",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Auswertung GB Umlauf V-Neu00032/20",
+      "fileName": "00470558.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470558.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470558.pdf",
+      "created": "2020-04-28T07:28:18+02:00",
+      "modified": "2020-04-28T07:44:21+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/470559",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage V-Neu00032/20 mit Unterschrift",
+      "fileName": "00470559.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470559.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470559.pdf",
+      "created": "2020-04-28T07:29:18+02:00",
+      "modified": "2020-04-28T07:44:21+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/470560",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V-Neu00032/20",
+      "fileName": "00470560.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470560.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470560.pdf",
+      "created": "2020-04-28T07:30:03+02:00",
+      "modified": "2020-04-28T07:44:21+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/473364",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Neustadt_V-Neu00032/20",
+      "fileName": "00473364.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00473364.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00473364.pdf",
+      "created": "2020-05-12T10:21:15+02:00",
+      "modified": "2020-05-12T10:21:15+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/125"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9124",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42032",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18845",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/131033",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9124",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/166"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-04-27T09:56:42+02:00",
+      "modified": "2020-05-12T10:22:15+02:00"
     }
   ],
-  "id": "18845"
+  "created": "2020-04-27T07:26:15+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,35 +1,76 @@
 {
-  "shortName": "JHA/067/2019",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 25.09.2019 - 18:00-18:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8601",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "67. Sitzung des Jugendhilfeausschusses (Sondersitzung)",
   "start": "2019-09-25T18:00:00+02:00",
   "end": "2019-09-25T18:10:00+02:00",
-  "invitation": "429659",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/429659",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH",
+    "fileName": "00429659.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-09-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00429659.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00429659.pdf",
+    "created": "2019-09-12T08:50:55+02:00",
+    "modified": "2019-09-13T09:58:19+02:00"
+  },
   "auxiliaryFile": [
-    "430239"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/429659",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH",
+      "fileName": "00429659.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00429659.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00429659.pdf",
+      "created": "2019-09-12T08:50:55+02:00",
+      "modified": "2019-09-13T09:58:19+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/430239",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JHA_mU",
+      "fileName": "00430239.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00430239.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00430239.pdf",
+      "created": "2019-09-16T06:34:56+02:00",
+      "modified": "2019-09-16T06:34:57+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/121327",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8601",
+      "number": "1",
+      "order": "1",
       "name": "Schulsozialarbeit an vier Schulen ab dem Schuljahr 2019/2020 - Etablierung neuer Angebote bzw. Trägerschaftswechsel",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17342",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "433118",
-      "auxiliaryFile": [
-        "461729",
-        "424102",
-        "429031",
-        "429030",
-        "423435"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38465",
+      "result": "Zustimmung",
+      "created": "2019-09-12T08:38:07+02:00",
+      "modified": "2019-09-30T11:09:55+02:00"
     }
   ],
-  "id": "8601"
+  "created": "2019-09-09T15:01:30+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

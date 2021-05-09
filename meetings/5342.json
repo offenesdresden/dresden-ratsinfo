@@ -1,104 +1,192 @@
 {
-  "shortName": "OSR SB/025/2016",
-  "locality": "Landeshauptstadt Dresden, im Versammlungsraum im Bürgerhaus Schönborn,Seifersdorfer Straße 6, 01465 Schönborn",
-  "name": "Ortschaftsrat Schönborn - 18.05.2016 - 19:30-22:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5342",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "25. Sitzung des Ortschaftsrates Schönborn",
   "start": "2016-05-18T19:30:00+02:00",
   "end": "2016-05-18T22:00:00+02:00",
-  "invitation": "253559",
-  "resultsProtocol": "255205",
-  "auxiliaryFile": [
-    "255200",
-    "255201"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
   ],
-  "verbatimProtocol": "254711",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/361",
+    "http://oparl.dresden.de/bodies/0001/people/362",
+    "http://oparl.dresden.de/bodies/0001/people/1257",
+    "http://oparl.dresden.de/bodies/0001/people/1258"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/253559",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00253559.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-05-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00253559.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00253559.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/255200",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung Jugendprojekt Buswartehalle",
+    "fileName": "00255200.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-05-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255200.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255200.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/253559",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00253559.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00253559.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00253559.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11948",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259982",
-      "auxiliaryFile": [
-        "273674",
-        "248863",
-        "248524",
-        "247751",
-        "240583",
-        "258864",
-        "259259"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/254711",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00254711.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00254711.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00254711.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Jugendprojekt: Innengestaltung Buswartehalle",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/255200",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Jugendprojekt Buswartehalle",
+      "fileName": "00255200.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255200.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255200.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verwendung Verfügungsmittel 2016 - Schönborner Advent",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/255201",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Mittel für Schönborner Advent",
+      "fileName": "00255201.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255201.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255201.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Erweiterung der Vereinbarung über die Nutzung kommunaler Grundstücke für das Bürgerhaus Schönborn",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Allgemeines",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/255205",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Erweiterung Vereinbarung Bürgerhaus",
+      "fileName": "00255205.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255205.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255205.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5342",
-  "participant": [
-    "362",
-    "1258",
-    "361",
-    "355",
-    "1257"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79086",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5342",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79087",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5342",
+      "number": "2",
+      "order": "2",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23806",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79195",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5342",
+      "number": "3",
+      "order": "3",
+      "name": "Jugendprojekt: Innengestaltung Buswartehalle",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24981",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5342",
+      "number": "4",
+      "order": "4",
+      "name": "Verwendung Verfügungsmittel 2016 - Schönborner Advent",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24976",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5342",
+      "number": "5",
+      "order": "5",
+      "name": "Erweiterung der Vereinbarung über die Nutzung kommunaler Grundstücke für das Bürgerhaus Schönborn",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24982",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79088",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5342",
+      "number": "6",
+      "order": "6",
+      "name": "Allgemeines",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/8432",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 5034/14 Umgestaltung Martin-Luther-Platz, Los 1 - Straßen- und Tiefbau",
-  "shortName": "V2879/14",
   "reference": "V2879/14",
+  "date": "2014-04-25",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2014-04-24",
   "auxiliaryFile": [
-    "170309"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/170309",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V2879/14_WF",
+      "fileName": "00170309.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-05-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00170309.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00170309.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "3455",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/15961",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/8432",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/53152",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3455",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "8432"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

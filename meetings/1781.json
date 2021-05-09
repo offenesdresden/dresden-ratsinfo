@@ -1,348 +1,388 @@
 {
-  "shortName": "WF/063/2012",
-  "locality": "Landeshauptstadt Dresden, im Haus An der Kreuzkirche, 4. Etage, Raum 412,An der Kreuzkirche 6, 01067 Dresden",
-  "name": "Ausschuss für Wirtschaftsförderung - 29.11.2012 - 16:00-22:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "12"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "63. Sitzung des Ausschusses für Wirtschaftsförderung",
   "start": "2012-11-29T16:00:00+01:00",
   "end": "2012-11-29T22:00:00+01:00",
-  "invitation": "116132",
-  "auxiliaryFile": [
-    "116135"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1906",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "An der Kreuzkirche 6",
+    "room": "Haus An der Kreuzkirche, Raum 412",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
   ],
-  "verbatimProtocol": "117701",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/26",
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/36",
+    "http://oparl.dresden.de/bodies/0001/people/61",
+    "http://oparl.dresden.de/bodies/0001/people/266",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/268",
+    "http://oparl.dresden.de/bodies/0001/people/72",
+    "http://oparl.dresden.de/bodies/0001/people/57",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/73"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/116132",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_WF_2012_11_29",
+    "fileName": "00116132.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-11-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00116132.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00116132.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/116135",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_WF_2012_11_29",
+    "fileName": "00116135.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-11-20",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00116135.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00116135.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Geschäftsbereich Finanzen und Liegenschaften",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/116132",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_WF_2012_11_29",
+      "fileName": "00116132.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00116132.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00116132.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlussvorlagen zu VOF-Vergaben",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/116135",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_WF_2012_11_29",
+      "fileName": "00116135.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-11-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00116135.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00116135.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vergabenummer: A0001/12 Ausbau der Borsbergstraße/Schandauer Straße von Anton-Graff-Straße bis Schlömilchstraße einschließlich 2-gleisiger Ausbau Ludwig-Hartmann-Straße Los 1 Bauoberleitung für das Gesamtprojekt in abschnittweiser Beauftragung (Leistungsphasen 8 und teilweise 9 der §§ 42, 46, 53 HOAI)",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6518",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117363",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: A0001/12 Ausbau der Borsbergstraße/Schandauer Straße von Anton-Graff-Straße bis Schlömilchstraße einschließlich 2-gleisiger Ausbau Ludwig-Hartmann-Straße Los 2 Örtliche Bauüberwachung für den 1. BA \"Ausbau der Borsbergstraße/Schandauer Straße von Anton-Graff-Straße bis Junghansstraße\" (Besondere Leistung nach HOAI)",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6520",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117364",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlussvorlagen zu VOL-Vergaben",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 2012-1043-00001 Bundesweite Beförderung und Zustellung von Briefsendungen für die Landeshauptstadt Dresden Lose: 1 und 2",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6522",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117365",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlussvorlagen zu VOB-Vergaben",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vergabenummer: 2012-56-00054 Zentrale Kälteanlage für Gebäude H-K-L-REigenbetrieb Krankenhaus Dresden-Friedrichstadt",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6523",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117366",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 5066/12 Borsbergstraße/Schandauer Straße, 1. BA zwischen Anton-Graff-Straße und JunghansstraßeLos 1 Straßenbau, Gleisbau und Versorgungsunternehmen",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6524",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117367",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 5074/12 Zeitvertrag 2012 - 2016 Verkehrssicherung",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6525",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117368",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 5082/12 Zeitvertrag 2013-2014 Tiefbauleistungen zur Errichtung von Straßenbeleuchtungsanlagen",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6533",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117369",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 5093/12 Bautzner Straße zwischen Hoyerswerdaer Straße und Martin-Luther-Straße (TA 1.1) (Ausschreibung durch DVB AG) Los 1 - Gleis- und Straßenbau, Erdbau und Ausrüstung für Versorgungsunternehmen",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6537",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117371",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-652-00054 MCG Umbau und Erweiterung Marie-Curie-GymnasiumZirkusstraße 7, 01069 DresdenLos 40 - Sanitärtechnik",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6526",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117372",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-652-00055MCG Umbau und Erweiterung Marie-Curie-GymnasiumZirkusstraße 7, 01069 DresdenLos 41 - Heizungstechnik",
-      "number": "Ö 3.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6527",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117373",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-652-00056 MCG Umbau und Erweiterung Marie-Curie-GymnasiumZirkusstaße 7, 01069 DresdenLos 42 - Raumlufttechnik",
-      "number": "Ö 3.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6528",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117375",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-652-00059 MCG Umbau und Erweiterung Marie-Curie-GymnasiumZirkusstraße 7, 01069 DresdenLos 44 - Elektrotechnik",
-      "number": "Ö 3.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6529",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117376",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-654-00147 MCG Umbau und Erweiterung Marie-Curie-GymnasiumZirkusstraße 7, 01069 DresdenInnere Erschließung",
-      "number": "Ö 3.10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6530",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117377",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-654-00137 Neubau Gymnasium Bürgerwiese mit 3-Feld-SporthalleParkstraße 4, 01069 DresdenLos 04 - Metallfassadenarbeiten und Sonnenschutz",
-      "number": "Ö 3.11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6531",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117378",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vergabenummer: 2012-655-00136 Neubau Kindertageseinrichtung Michelangelostraße 5a, 01217 DresdenLos 3 - Hoch- und Tiefbau",
-      "number": "Ö 3.12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6532",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117379",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Offene Beschlussvorlagen",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": ".",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Frühjahrsmarkt und Herbstmarkt 2013 - Festlegung der Anbietergruppen und des Verteilerschlüssels",
-      "number": "Ö 10 Nachtrag: 20.11.2012  Nummer 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6455",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "117299",
-      "auxiliaryFile": [
-        "125009",
-        "116069",
-        "115744",
-        "115745"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": ".",
-      "number": "Ö",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/117701",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_WF_2012_11_29",
+      "fileName": "00117701.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-12-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00117701.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00117701.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1781",
-  "participant": [
-    "30",
-    "26",
-    "36",
-    "266",
-    "290",
-    "61",
-    "84",
-    "91",
-    "268",
-    "72",
-    "57",
-    "44",
-    "55",
-    "73"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36197",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "",
+      "order": "1",
+      "name": "Geschäftsbereich Finanzen und Liegenschaften",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36198",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "1",
+      "order": "2",
+      "name": "Beschlussvorlagen zu VOF-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36356",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "1.1",
+      "order": "3",
+      "name": "Vergabenummer: A0001/12 Ausbau der Borsbergstraße/Schandauer Straße von Anton-Graff-Straße bis Schlömilchstraße einschl. 2-gleisiger Ausbau Ludwig-Hartmann-Straße, Los 1 Bauoberleitung für das Gesamtprojekt in abschnittsweiser Beauftragung (Leistungs",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11630",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36355",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "1.2",
+      "order": "4",
+      "name": "Vergabenummer: A0001/12 Ausbau der Borsbergstraße/Schandauer Straße von Anton-Graff-Straße bis Schlömilchstraße einsch. 2-gleisiger Ausbau Ludwig-Hartmann-Straße, Los 2 Örtliche Bauüberwachung für den 1. BA \"Ausbau der Borsbergstraße/Schandauer Str.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11633",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36201",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "2",
+      "order": "5",
+      "name": "Beschlussvorlagen zu VOL-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36354",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "2.1",
+      "order": "6",
+      "name": "Vergabenummer: 2012-1043-00001 Bundesweite Beförderung und Zustellung von Briefsendungen für die Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11636",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36202",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3",
+      "order": "7",
+      "name": "Beschlussvorlagen zu VOB-Vergaben",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36353",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.1",
+      "order": "8",
+      "name": "Vergabenummer: 2012-56-00054 Zentrale Kälteanlage für Gebäude H-K-L-R, Eigenbetrieb Krankenhaus Dresden-Friedrichstadt",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11637",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36352",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.2",
+      "order": "9",
+      "name": "Vergabenummer: 5066/12 Borsbergstraße/Schandauer Straße, 1. BA zwischen Anton-Graff-Straße und Junghansstraße, Los 1 Straßenbau, Gleisbau und Versorgungsunternehmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11638",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36351",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.3",
+      "order": "10",
+      "name": "Vergabenummer: 5074/12 Zeitvertrag 2012 - 2016 Verkehrssicherung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11639",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36343",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.4",
+      "order": "11",
+      "name": "Vergabenummer: 5082/12 Zeitvertrag 2013-2014 Tiefbauleistungen zur Errichtung von Straßenbeleuchtungsanlagen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11647",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36382",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.5",
+      "order": "12",
+      "name": "Vergabenummer: 5093/12 Bautzner Straße zwischen Hoyerswerdaer Straße und Martin-Luther-Straße (TA 1.1) (Ausschreibung durch DVB AG) Los 1 - Gleis- und Straßenbau, Erdbau und Ausrüstung für Versorgungsunternehmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11657",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36350",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.6",
+      "order": "13",
+      "name": "Vergabenummer: 2012-652-00054 MCG Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7, 01069 Dresden, Los 40 - Sanitärtechnik",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11640",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36349",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.7",
+      "order": "14",
+      "name": "Vergabenummer: 2012-652-00055 MCG Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7, 01069 Dresden, Los 41 - Heizungstechnik",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11641",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36348",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.8",
+      "order": "15",
+      "name": "Vergabenummer: 2012-652-00056 MCG Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstaße 7, 01069 Dresden, Los 42 - Raumlufttechnik",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11642",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36347",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.9",
+      "order": "16",
+      "name": "Vergabenummer: 2012-652-00059 MCG Umbau und Erweiterung Marie-Curie-Gymnasium, Zirkusstraße 7, 01069 Dresden, Los 44 - Elektrotechnik",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11643",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36346",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.10",
+      "order": "17",
+      "name": "Vergabenummer: 2012-654-00147 MCG Umbau und Erweiterung Marie-Curie Gymnasium, Zirkusstraße 7, 01069 Dresden, Innere Erschließung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11644",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36345",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.11",
+      "order": "19",
+      "name": "Vergabenummer: 2012-654-00137 Neubau Gymnasium Bürgerwiese mit 3-Feld-Sporthalle, Parkstraße 4, 01069 Dresden, Los 04 - Metallfassadenarbeiten und Sonnenschutz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11645",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36344",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "3.12",
+      "order": "21",
+      "name": "Vergabenummer: 2012-655-00136 Neubau Kindertageseinrichtung Michelangelostraße 5a, 01217 Dresden, Los 3 - Hoch- und Tiefbau",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11646",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36205",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "4.2",
+      "order": "24",
+      "name": "Offene Beschlussvorlagen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36882",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "",
+      "order": "32",
+      "name": ".",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36393",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "10",
+      "order": "33",
+      "name": "Frühjahrsmarkt und Herbstmarkt 2013 - Festlegung der Anbietergruppen und des Verteilerschlüssels",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11481",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/36886",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1781",
+      "number": "",
+      "order": "34",
+      "name": ".",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

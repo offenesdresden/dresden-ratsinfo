@@ -1,24 +1,42 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16741",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beschluss zum Antrag des Vereins Freunde und Förderer der Freiwilligen Feuerwehr Dresden-Gompitz e. V. auf Gewährung einer Zuwendung für das Feuerwehrfest am 01.05.2019",
-  "shortName": "V-GP0208/19",
   "reference": "V-GP0208/19",
+  "date": "2019-03-28",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "auxiliaryFile": [
-    "403287"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/403287",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Gompitz",
+    "fileName": "00403287.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-03-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00403287.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00403287.pdf",
+    "created": "2019-03-28T09:16:57+01:00",
+    "modified": "2019-04-05T15:33:54+02:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
   ],
-  "id": "16741",
-  "publishedDate": "2019-03-28",
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7921",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37176",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16741",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/115630",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7921",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-03-28T10:46:06+01:00",
+      "modified": "2019-04-29T09:24:44+02:00"
     }
-  ]
+  ],
+  "created": "2019-03-28T09:15:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

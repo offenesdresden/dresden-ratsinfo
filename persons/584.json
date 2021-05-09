@@ -1,27 +1,33 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/584",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Peter Heinze",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Ortsbeiratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "8",
-      "startDate": "2009-09-15",
-      "endDate": "2012-09-06"
-    }
-  ],
-  "status": [
-    "Ortsbeirat Altstadt"
-  ],
+  "familyName": "Heinze",
+  "givenName": "Peter",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0351/4 06 90 38"
   ],
   "email": [
     "peter-heinze.dd@web.de"
   ],
-  "id": "584"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/2584",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/584",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/8",
+      "role": "Ortsbeiratsmitglied",
+      "votingRight": true,
+      "startDate": "2009-09-15",
+      "endDate": "2012-09-06",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2019-12-06T09:25:02+01:00",
+  "web": ""
 }

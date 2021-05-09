@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17395",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-GB111-00082, Sanierung zum Auslagerungsobjekt für Schulen, Ginsterstraße 3, 01169 Dresden, Los 03 - Erweiterter Rohbau",
-  "shortName": "V3228/19",
   "reference": "V3228/19",
+  "date": "2019-08-06",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-06",
   "auxiliaryFile": [
-    "426726"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/426726",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V3228/19_mU",
+      "fileName": "00426726.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-08-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426726.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426726.pdf",
+      "created": "2019-08-22T08:23:44+02:00",
+      "modified": "2019-08-22T08:23:45+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7779",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38593",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17395",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/119898",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7779",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-08-07T09:39:53+02:00",
+      "modified": "2019-08-22T07:34:10+02:00"
     }
   ],
-  "id": "17395"
+  "created": "2019-08-06T13:37:12+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

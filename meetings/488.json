@@ -1,168 +1,246 @@
 {
-  "shortName": "OSR GP/018/2010",
-  "locality": "Landeshauptstadt Dresden, im Gemeindezentrum Gompitz, Gemeindesaal,Altnossener Straße 46 a, 01156 Dresden, OT Pennrich",
-  "name": "Ortschaftsrat Gompitz - 08.11.2010 - 19:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "9"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/488",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "18. Sitzung des Ortschaftsrates Gompitz",
   "start": "2010-11-08T19:30:00+01:00",
   "end": "2010-11-08T21:30:00+01:00",
-  "invitation": "46148",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/22",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Altnossener Straße 46 a",
+    "room": "Ortschaft Gompitz, Gemeindesaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/318",
+    "http://oparl.dresden.de/bodies/0001/people/320",
+    "http://oparl.dresden.de/bodies/0001/people/321",
+    "http://oparl.dresden.de/bodies/0001/people/322",
+    "http://oparl.dresden.de/bodies/0001/people/323",
+    "http://oparl.dresden.de/bodies/0001/people/324",
+    "http://oparl.dresden.de/bodies/0001/people/325",
+    "http://oparl.dresden.de/bodies/0001/people/326",
+    "http://oparl.dresden.de/bodies/0001/people/327",
+    "http://oparl.dresden.de/bodies/0001/people/328",
+    "http://oparl.dresden.de/bodies/0001/people/329",
+    "http://oparl.dresden.de/bodies/0001/people/330"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/46148",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR GP",
+    "fileName": "00046148.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-10-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00046148.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00046148.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Feststellung ordnungsgemäße Ladung/ Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen der Bürger",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss zur Verwendung der Verfügungsmittel 2010",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschluss zum Antrag der Kindertagesstätte Gompitzer Spatzennest e.V. auf finanziellen Zuschuss zum Tag der offenen Tür und zum Martinsumzug",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Stellungnahme zur Verordnung der Landeshauptstadt Dresden über die Ladenöffnungszeiten im Jahr 2011",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 4,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Antrag auf finanzielle Unterstützung des Bücherstübchen Ockerwitz für den Erwerb von neuem Lesematerial",
-      "number": "Ö 7.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Antrag des Schützenverein Gompitz e. V. auf finanzielle Unterstützung für Maibaumsetzen, Vogelschießen und Schießbude im Jahr 2010",
-      "number": "Ö 7.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Antrag der 74. Grundschule auf finanzielle Unterstützung zum Erwerb von Lesematerial",
-      "number": "Ö 7.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Antrag der Ortsgruppe Gompitz des Landesvereins Sächsischer Heimatschutz e. V. auf finanzielle Unterstützung für den Erwerb eines Ölgemäldes und den Kauf von Ansichtskartenalben",
-      "number": "Ö 7.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Problematik: Brücken im Zschonergrund",
-      "number": "Ö 7.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Schülerbeförderung für Kinder aus den Ortsteilen Unkersdorf, Steinbach, Roitzsch und Zöllmen",
-      "number": "Ö 7.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Information bzgl. Verhalten auf dem Parkplatz Ockerwitzer Allee",
-      "number": "Ö 7.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Antwort auf die Bürgeranfrage zur mangelnden Entwässerung Pennricher Höhe",
-      "number": "Ö 7.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Antwort auf den Bürgerantrag zur Geschwindigkeitsbegrenzung Altnossener Straße",
-      "number": "Ö 7.9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/46148",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR GP",
+      "fileName": "00046148.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-10-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00046148.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00046148.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "488",
-  "participant": [
-    "320",
-    "324",
-    "322",
-    "321",
-    "323",
-    "325",
-    "318",
-    "330",
-    "327",
-    "329",
-    "326",
-    "328"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14112",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "1",
+      "order": "1",
+      "name": "Feststellung ordnungsgemäße Ladung/ Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14105",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "2",
+      "order": "2",
+      "name": "Anfragen der Bürger",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14113",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "4",
+      "order": "4",
+      "name": "Beschluss zur Verwendung der Verfügungsmittel 2010",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4944",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14117",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "5",
+      "order": "5",
+      "name": "Beschluss zum Antrag der Kindertagesstätte Gompitzer Spatzennest e.V. auf finanziellen Zuschuss zum Tag der offenen Tür und zum Martinsumzug",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4945",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14128",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "6",
+      "order": "6",
+      "name": "Stellungnahme zur Verordnung der Landeshauptstadt Dresden über die Ladenöffnungszeiten im Jahr 2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4952",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14110",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7",
+      "order": "7",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14703",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.1",
+      "order": "8",
+      "name": "Antrag auf finanzielle Unterstützung des Bücherstübchen Ockerwitz für den Erwerb von neuem Lesematerial",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5075",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14704",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.2",
+      "order": "9",
+      "name": "Antrag des Schützenverein Gompitz e. V. auf finanzielle Unterstützung für Maibaumsetzen, Vogelschießen und Schießbude im Jahr 2010",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5050",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14705",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.3",
+      "order": "10",
+      "name": "Antrag der 74. Grundschule auf finanzielle Unterstützung zum Erwerb von Lesematerial",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5043",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14706",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.4",
+      "order": "11",
+      "name": "Antrag der Ortsgruppe Gompitz des Landesvereins Sächsischer Heimatschutz e. V. auf finanzielle Unterstützung für den Erwerb eines Ölgemäldes und den Kauf von Ansichtskartenalben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5076",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14710",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.5",
+      "order": "12",
+      "name": "Problematik: Brücken im Zschonergrund",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14711",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.6",
+      "order": "13",
+      "name": "Schülerbeförderung für Kinder aus den Ortsteilen Unkersdorf, Steinbach, Roitzsch und Zöllmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5077",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14760",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.7",
+      "order": "14",
+      "name": "Information bzgl. Verhalten auf dem Parkplatz Ockerwitzer Allee",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14761",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.8",
+      "order": "15",
+      "name": "Antwort auf die Bürgeranfrage zur mangelnden Entwässerung Pennricher Höhe",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14762",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/488",
+      "number": "7.9",
+      "order": "16",
+      "name": "Antwort auf den Bürgerantrag zur Geschwindigkeitsbegrenzung Altnossener Straße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

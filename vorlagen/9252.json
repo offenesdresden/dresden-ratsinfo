@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/9252",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Ortsbeirat Klotzsche: Nachbesetzung eines Stellvertretenden Mitglieds für die AfD",
-  "shortName": "A0013/14",
   "reference": "A0013/14",
+  "date": "2014-11-25",
   "paperType": "Antrag Alternative für Deutschland",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2014-11-24",
   "auxiliaryFile": [
-    "187353",
-    "191414"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/187353",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  AfD",
+      "fileName": "00187353.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00187353.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00187353.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/191414",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_A0013/14",
+      "fileName": "00191414.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-12-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00191414.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00191414.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/97"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "3375",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/17997",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/9252",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/59973",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3375",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "9252"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

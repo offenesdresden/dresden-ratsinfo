@@ -1,185 +1,228 @@
 {
-  "shortName": "OSR OW/013/2020",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 20.10.2020 - 18:30-21:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2020-10-20T18:30:00+02:00",
   "end": "2020-10-20T21:15:00+02:00",
-  "invitation": "503330",
-  "auxiliaryFile": [
-    "508381",
-    "507371"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
-  "resultsProtocol": "507361",
-  "verbatimProtocol": "508144",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/1654",
+    "http://oparl.dresden.de/bodies/0001/people/2030"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/503330",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00503330.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00503330.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00503330.pdf",
+    "created": "2020-10-01T09:17:37+02:00",
+    "modified": "2020-10-01T15:44:08+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/503330",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00503330.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00503330.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00503330.pdf",
+      "created": "2020-10-01T09:17:37+02:00",
+      "modified": "2020-10-01T15:44:08+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der Sitzung vom 15.09.2020",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/507361",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Oberwartha_V-OW0017/20_oU",
+      "fileName": "00507361.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00507361.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00507361.pdf",
+      "created": "2020-10-21T08:50:27+02:00",
+      "modified": "2020-10-28T05:30:11+01:00"
     },
     {
-      "name": "Verbesserung der ÖPNV-Qualität in den westlichen Dresdner Ortschaften",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19049",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "478319"
-      ],
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/507371",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Oberwartha_V-OW0021/20_oU",
+      "fileName": "00507371.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00507371.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00507371.pdf",
+      "created": "2020-10-21T09:01:30+02:00",
+      "modified": "2020-10-28T05:30:11+01:00"
     },
     {
-      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "464644",
-        "496854",
-        "537498"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/508144",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00508144.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508144.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508144.pdf",
+      "created": "2020-10-27T07:40:41+01:00",
+      "modified": "2021-02-11T13:10:15+01:00"
     },
     {
-      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20435",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "519587",
-      "auxiliaryFile": [
-        "500152",
-        "500855",
-        "500856",
-        "500854",
-        "514253",
-        "509310",
-        "509311",
-        "516772",
-        "516771",
-        "516774",
-        "517688",
-        "517690",
-        "517691",
-        "518632",
-        "500859",
-        "518837",
-        "500860",
-        "516922",
-        "518905",
-        "518967",
-        "518966"
-      ],
-      "result": "nachträglich für Gremium erledigt",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prioritätenliste Gehweg- und Straßenbau Oberwartha",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20400",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "508399",
-      "auxiliaryFile": [
-        "494475"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prioritätenliste Platzvergabe Kindertageseinrichtung \"Kleine Naturdetektive\" Oberwartha",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20611",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "508390",
-      "auxiliaryFile": [
-        "543158",
-        "503017"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzzuschuss für Gläserspülmaschine für Kulturraum Oberwartha",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20606",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "515590",
-      "auxiliaryFile": [
-        "526364",
-        "502912",
-        "519604"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorschläge zur Beschlusskontrolle vom 25.06.2020 Mehrbedarfsanmeldung Doppelhaushalt - 1. Lesung",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 4,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/508381",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Oberwartha_A0060/20_mU",
+      "fileName": "00508381.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508381.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508381.pdf",
+      "created": "2020-10-27T15:39:54+01:00",
+      "modified": "2021-02-11T13:10:15+01:00"
     }
   ],
-  "id": "9218"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138793",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2020-09-23T06:34:20+02:00",
+      "modified": "2020-09-23T06:34:20+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138794",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der Sitzung vom 15.09.2020",
+      "public": true,
+      "created": "2020-09-23T06:34:51+02:00",
+      "modified": "2020-09-23T06:34:52+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139391",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "3",
+      "order": "3",
+      "name": "Verbesserung der ÖPNV-Qualität in den westlichen Dresdner Ortschaften",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42587",
+      "result": "Vertagung",
+      "created": "2020-10-01T07:52:08+02:00",
+      "modified": "2020-10-21T06:18:53+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139211",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "4",
+      "order": "4",
+      "name": "Novelle der StVO in Dresden schnell umsetzen, Verkehrssicherheit erhöhen, Radverkehr fördern, Verkehrsberuhigung in Wohngebieten ermöglichen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/41577",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2020-09-29T08:54:32+02:00",
+      "modified": "2020-10-21T06:21:37+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139233",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "5",
+      "order": "5",
+      "name": "Haushaltssatzung 2021/2022 und Wirtschaftspläne der Eigenbetriebe 2021/2022",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45688",
+      "result": "nachträglich für Gremium erledigt",
+      "created": "2020-09-29T12:44:15+02:00",
+      "modified": "2020-12-01T10:13:34+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139244",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "6",
+      "order": "6",
+      "name": "Prioritätenliste Gehweg- und Straßenbau Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45474",
+      "result": "Zustimmung",
+      "created": "2020-09-29T14:58:27+02:00",
+      "modified": "2020-10-28T10:13:49+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139261",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "7",
+      "order": "7",
+      "name": "Prioritätenliste Platzvergabe Kindertageseinrichtung \"Kleine Naturdetektive\" Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46007",
+      "result": "Zustimmung",
+      "created": "2020-09-30T08:24:37+02:00",
+      "modified": "2020-10-28T10:15:28+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139243",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "8",
+      "order": "8",
+      "name": "Finanzzuschuss für Gläserspülmaschine für Kulturraum Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45998",
+      "result": "Vertagung",
+      "created": "2020-09-29T14:55:29+02:00",
+      "modified": "2020-10-21T06:29:02+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139262",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "9",
+      "order": "9",
+      "name": "Vorschläge zur Beschlusskontrolle vom 25.06.2020 Mehrbedarfsanmeldung Doppelhaushalt - 1. Lesung",
+      "public": true,
+      "result": "Vertagung",
+      "created": "2020-09-30T08:31:30+02:00",
+      "modified": "2020-10-21T06:29:18+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139263",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9218",
+      "number": "10",
+      "order": "10",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2020-09-30T08:31:47+02:00",
+      "modified": "2020-10-01T07:52:08+02:00"
+    }
+  ],
+  "created": "2019-12-19T07:32:50+01:00",
+  "modified": "2021-04-27T07:58:27+02:00"
 }

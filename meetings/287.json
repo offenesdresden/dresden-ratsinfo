@@ -1,105 +1,143 @@
 {
-  "shortName": "OBR Bl/004/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 27.01.2010 - 17:30-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/287",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "4. Sitzung des Ortsbeirates Blasewitz",
   "start": "2010-01-27T17:30:00+01:00",
   "end": "2010-01-27T20:15:00+01:00",
-  "invitation": "18697",
-  "verbatimProtocol": "22857",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/697",
+    "http://oparl.dresden.de/bodies/0001/people/699",
+    "http://oparl.dresden.de/bodies/0001/people/701",
+    "http://oparl.dresden.de/bodies/0001/people/703",
+    "http://oparl.dresden.de/bodies/0001/people/706",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/710",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/714",
+    "http://oparl.dresden.de/bodies/0001/people/716",
+    "http://oparl.dresden.de/bodies/0001/people/718",
+    "http://oparl.dresden.de/bodies/0001/people/720",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/724",
+    "http://oparl.dresden.de/bodies/0001/people/726",
+    "http://oparl.dresden.de/bodies/0001/people/728",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/730"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/18697",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung - OBR Bl",
+    "fileName": "00018697.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-01-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018697.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018697.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/18697",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung - OBR Bl",
+      "fileName": "00018697.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018697.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018697.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Erhalt des \"Blauen Wunders\" und Aufwertung des Schiller- und Körnerplatzes",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1001",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "14719",
-        "123870",
-        "146845",
-        "158502",
-        "166491",
-        "176855",
-        "198140",
-        "225320",
-        "248211",
-        "283131",
-        "331238",
-        "386956",
-        "457926"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 665, Dresden-Gruna, Fraunhofer-Institutszentrumhier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\t2. Grenzen des vorhabenbezogenen Bebauungsplanes",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "905",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "14956",
-        "14577",
-        "14578",
-        "14579"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 2,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen: Verkehrsinsel Barteldesplatz / Spielplatz Spenerstraße",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/22857",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00022857.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-02-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00022857.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00022857.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "287",
-  "participant": [
-    "706",
-    "420",
-    "697",
-    "701",
-    "703",
-    "699",
-    "708",
-    "710",
-    "712",
-    "714",
-    "716",
-    "718",
-    "722",
-    "720",
-    "724",
-    "726",
-    "408",
-    "728",
-    "730"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4940",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/287",
+      "number": "1",
+      "order": "1",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4942",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/287",
+      "number": "1.1",
+      "order": "2",
+      "name": "Erhalt des \"Blauen Wunders\" und Aufwertung des Schiller- und Körnerplatzes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1735",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4943",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/287",
+      "number": "1.2",
+      "order": "3",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 665, Dresden-Gruna, Fraunhofer-Institutszentrum",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1602",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4945",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/287",
+      "number": "2",
+      "order": "4",
+      "name": "Informationen: Verkehrsinsel Barteldesplatz / Spielplatz Speenerstraße",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/287",
+      "number": "3",
+      "order": "5",
+      "name": "Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

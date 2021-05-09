@@ -1,25 +1,68 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17493",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Festlegung der Wahlkommission zur Wahl des Ortsvorstehers und seiner Stellvertreter",
-  "shortName": "V-CB0003/19",
   "reference": "V-CB0003/19",
+  "date": "2019-08-22",
   "paperType": "Vorlage OS Cossebaude",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-21",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/426655",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Cossebaude",
+    "fileName": "00426655.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-08-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426655.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426655.pdf",
+    "created": "2019-08-21T12:34:07+02:00",
+    "modified": "2019-09-19T09:20:39+02:00"
+  },
   "auxiliaryFile": [
-    "426655",
-    "431259"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/431259",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Cossebaude_V-CB0003/19_mU",
+      "fileName": "00431259.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-09-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00431259.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00431259.pdf",
+      "created": "2019-09-19T09:20:30+02:00",
+      "modified": "2019-09-19T09:20:39+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/441556",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Cossebaude_A-CB0003/19_mU",
+      "fileName": "00441556.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00441556.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00441556.pdf",
+      "created": "2019-11-07T15:28:17+01:00",
+      "modified": "2019-11-07T15:28:19+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/34"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8478",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38853",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17493",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/120420",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8478",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-08-21T12:42:18+02:00",
+      "modified": "2019-09-19T08:46:40+02:00"
     }
   ],
-  "id": "17493"
+  "created": "2019-08-21T12:33:52+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

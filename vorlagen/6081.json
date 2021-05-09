@@ -1,56 +1,92 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/6081",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Veränderung im Ergebnishaushalt 2012 des Straßen- und Tiefbauamtes - Verwendung von Fördermitteln zur Beseitigung von Winterschäden",
-  "shortName": "V1777/12",
   "reference": "V1777/12",
+  "date": "2012-08-09",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2012-07-10",
   "auxiliaryFile": [
-    "107854",
-    "106770",
-    "104401",
-    "104402"
-  ],
-  "mainFile": "107264",
-  "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/104401",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "a) Anlage 1",
+      "fileName": "00104401.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-07-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00104401.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00104401.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/104402",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "b) Anlage 2_Zuwendungsbescheid",
+      "fileName": "00104402.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-07-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00104402.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00104402.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1803",
-      "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/106770",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00106770.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-08-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00106770.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00106770.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/107264",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V1777/12",
+      "fileName": "00107264.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-08-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00107264.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00107264.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/107854",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V1777/12",
+      "fileName": "00107854.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-08-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00107854.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00107854.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "6081"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/46"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/10595",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/6081",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/33436",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1803",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/3"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

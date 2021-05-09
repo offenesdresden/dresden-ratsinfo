@@ -1,105 +1,110 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16699",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Änderung der Satzung des Eigenbetriebes Kindertageseinrichtungen Dresden sowie der Satzung der Landeshauptstadt Dresden für das Jugendamt, beide zuletzt geändert durch Stadtratsbeschluss vom 24.11.2016",
-  "shortName": "A0592/19",
   "reference": "A0592/19",
+  "date": "2019-03-25",
   "paperType": "Antrag CDU",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-03-22",
   "auxiliaryFile": [
-    "402533",
-    "402030",
-    "402031"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/402030",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anderung Jugendamtssatzung - Anlage 1",
+      "fileName": "00402030.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00402030.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00402030.pdf",
+      "created": "2019-03-22T12:26:18+01:00",
+      "modified": "2019-04-03T09:33:34+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/402031",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Synopse - Anlage 2",
+      "fileName": "00402031.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00402031.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00402031.pdf",
+      "created": "2019-03-22T12:26:29+01:00",
+      "modified": "2019-04-03T09:33:34+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/402533",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  CDU",
+      "fileName": "00402533.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00402533.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00402533.pdf",
+      "created": "2019-03-25T16:54:05+01:00",
+      "modified": "2019-04-03T09:33:34+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/81"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37077",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16699",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/115394",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7734",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7734",
-      "role": "1. Lesung     (federführend)",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7755",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Unterausschuss Planung",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "Vorberatung für Jugendhilfeausschuss",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "16.05.2019 Jugendhilfeausschuss",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Stadtrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "1. Lesung         (federführend)",
+      "created": "2019-03-25T09:26:06+01:00",
+      "modified": "2019-04-18T17:58:40+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37080",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16699",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/116090",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7735",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
+      ],
+      "authoritative": true,
+      "role": "beratend             (federführend)",
+      "created": "2019-04-08T10:01:09+02:00",
+      "modified": "2019-06-03T06:07:06+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37080",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16699",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/117810",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7736",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
+      ],
+      "authoritative": true,
+      "role": "beratend             (federführend)",
+      "created": "2019-05-20T07:12:06+02:00",
+      "modified": "2019-06-21T06:05:24+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/37081",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16699",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/118940",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7546",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2019-06-18T15:09:47+02:00",
+      "modified": "2019-07-17T10:14:36+02:00"
     }
   ],
-  "id": "16699"
+  "created": "2019-03-22T12:16:45+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

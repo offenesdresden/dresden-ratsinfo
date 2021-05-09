@@ -1,33 +1,43 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1262",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Reinhard Vetters",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Ortschaftsratsmitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "48",
-      "startDate": "2014-09-04"
-    },
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "187",
-      "startDate": "2019-12-11"
-    }
-  ],
-  "id": "1262",
+  "familyName": "Vetters",
+  "givenName": "Reinhard",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0174/1 82 40 38"
   ],
   "email": [
     "reinhard.vetters@gruene-dresden.de"
-  ]
+  ],
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10637",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1262",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/187",
+      "role": "Mitglied",
+      "votingRight": true,
+      "startDate": "2019-12-11",
+      "created": "2019-12-11T14:38:22+01:00",
+      "modified": "2019-12-11T14:38:22+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/4542",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1262",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/48",
+      "role": "Ortschaftsratsmitglied",
+      "votingRight": true,
+      "startDate": "2014-09-04",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2019-11-25T10:22:03+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2021-01-13T12:51:26+01:00",
+  "web": ""
 }

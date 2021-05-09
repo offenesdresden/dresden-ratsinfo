@@ -1,97 +1,147 @@
 {
-  "shortName": "KG/026/2019",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 200, 3. Etage,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Kleingartenbeirat - 11.02.2019 - 16:00-18:04 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "22"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7815",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "26. Sitzung des Kleingartenbeirates",
   "start": "2019-02-11T16:00:00+01:00",
   "end": "2019-02-11T18:04:00+01:00",
-  "invitation": "390997",
-  "verbatimProtocol": "402035",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/2887",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "3/200",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/22"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/629",
+    "http://oparl.dresden.de/bodies/0001/people/1679",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/1270",
+    "http://oparl.dresden.de/bodies/0001/people/267",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/441",
+    "http://oparl.dresden.de/bodies/0001/people/443",
+    "http://oparl.dresden.de/bodies/0001/people/445",
+    "http://oparl.dresden.de/bodies/0001/people/446"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/390997",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_KG_2019_02_11",
+    "fileName": "00390997.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-01-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00390997.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00390997.pdf",
+    "created": "2019-01-24T10:19:53+01:00",
+    "modified": "2019-01-28T09:34:54+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung und Bericht des Vorsitzenden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/390997",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_KG_2019_02_11",
+      "fileName": "00390997.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00390997.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00390997.pdf",
+      "created": "2019-01-24T10:19:53+01:00",
+      "modified": "2019-01-28T09:34:54+01:00"
     },
     {
-      "name": "Kultur- und Nachbarschaftszentren vor Ort",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15383",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "417095",
-      "auxiliaryFile": [
-        "455358",
-        "512454",
-        "352067",
-        "388494",
-        "401948"
-      ],
-      "result": "Ersetzung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 6,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Umgang mit Kleingärten im Abflussbereich der Elbe - Fortschreibung des Förderprogramms einschließlich Aktualisierung der Zielstellungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15725",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "407318",
-      "auxiliaryFile": [
-        "434304",
-        "520217",
-        "366230",
-        "397696"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorbereitung Kleingärtnertag am 16. März 2019",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bebauungsplan Nr. 3028, Dresden-Trachau Nr. 6, Hufewiesen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information und Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/402035",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_KG_2019_02_11",
+      "fileName": "00402035.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-03-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00402035.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00402035.pdf",
+      "created": "2019-03-22T12:44:42+01:00",
+      "modified": "2019-04-04T09:26:55+02:00"
     }
   ],
-  "id": "7815",
-  "participant": [
-    "290",
-    "84",
-    "629",
-    "1679",
-    "60",
-    "1270",
-    "409",
-    "441",
-    "445",
-    "446",
-    "443",
-    "267"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7815",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung und Bericht des Vorsitzenden",
+      "public": true,
+      "created": "2018-11-22T09:18:10+01:00",
+      "modified": "2019-01-24T10:04:53+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110812",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7815",
+      "number": "2",
+      "order": "2",
+      "name": "Kultur- und Nachbarschaftszentren vor Ort",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/33125",
+      "result": "Ersetzung",
+      "created": "2018-11-22T09:18:25+01:00",
+      "modified": "2019-03-25T13:42:21+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110819",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7815",
+      "number": "3",
+      "order": "3",
+      "name": "Umgang mit Kleingärten im Abflussbereich der Elbe - Fortschreibung des Förderprogramms einschließlich Aktualisierung der Zielstellungen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/34156",
+      "result": "Zustimmung",
+      "created": "2018-11-22T09:45:23+01:00",
+      "modified": "2019-03-25T13:42:21+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112933",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7815",
+      "number": "4",
+      "order": "4",
+      "name": "Vorbereitung Kleingärtnertag am 16. März 2019",
+      "public": true,
+      "created": "2019-01-24T10:01:21+01:00",
+      "modified": "2019-03-25T13:42:21+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/112936",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7815",
+      "number": "5",
+      "order": "5",
+      "name": "Bebauungsplan Nr. 3028, Dresden-Trachau Nr. 6, Hufewiesen",
+      "public": true,
+      "created": "2019-01-24T10:08:12+01:00",
+      "modified": "2019-03-25T13:42:21+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/110817",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7815",
+      "number": "6",
+      "order": "6",
+      "name": "Information und Sonstiges",
+      "public": true,
+      "created": "2018-11-22T09:39:24+01:00",
+      "modified": "2019-03-25T13:42:21+01:00"
+    }
+  ],
+  "created": "2018-10-09T16:02:55+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

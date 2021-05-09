@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18544",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln - Bürgervereinigung Schullwitz e. V. - Dorf-/Kinderfest/Teichmeisterschaft/Feuerwehrwettkampf 2020",
-  "shortName": "V-SW0318/20",
   "reference": "V-SW0318/20",
+  "date": "2020-03-05",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-03-02",
-  "auxiliaryFile": [
-    "461846"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/461846",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00461846.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-03-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00461846.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00461846.pdf",
+    "created": "2020-03-02T13:57:36+01:00",
+    "modified": "2020-03-05T14:46:48+01:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8929",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41290",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18544",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/128551",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8929",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2020-03-02T14:02:01+01:00",
+      "modified": "2020-04-14T09:38:29+02:00"
     }
   ],
-  "id": "18544"
+  "created": "2020-03-02T13:57:20+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

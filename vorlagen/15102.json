@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15102",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2018-4012-00001, Unterhalts- und Grundreinigung 93. Grundschule, Dobritzer Weg 1, 01237 Dresden",
-  "shortName": "V2336/18",
   "reference": "V2336/18",
+  "date": "2018-04-16",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-04-12",
   "auxiliaryFile": [
-    "346381"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/346381",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2336/18_mU",
+      "fileName": "00346381.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00346381.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00346381.pdf",
+      "created": "2018-05-04T09:34:33+02:00",
+      "modified": "2018-05-04T09:34:34+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6647",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/32390",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15102",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/101611",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6647",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-04-16T07:01:12+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "15102"
+  "created": "2018-04-12T07:45:52+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,133 +1,182 @@
 {
-  "shortName": "SBR Co/046/2019",
-  "locality": "Landeshauptstadt Dresden, im Stadtbezirksamt Cotta, großer Sitzungssaal, 2. Etage, Raum 201,Lübecker Straße 121, 01157 Dresden",
-  "name": "Stadtbezirksbeirat Cotta - 20.06.2019 - 18:00-19:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "168"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "46. Sitzung des Stadtbezirksbeirates Cotta",
   "start": "2019-06-20T18:00:00+02:00",
   "end": "2019-06-20T19:00:00+02:00",
-  "auxiliaryFile": [
-    "419930"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3247",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Stadtbezirksamt Cotta, großer Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-06T08:49:39+02:00",
+    "modified": "2018-09-06T08:50:16+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/168"
   ],
-  "verbatimProtocol": "420385",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/763",
+    "http://oparl.dresden.de/bodies/0001/people/766",
+    "http://oparl.dresden.de/bodies/0001/people/768",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/771",
+    "http://oparl.dresden.de/bodies/0001/people/1403",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/776",
+    "http://oparl.dresden.de/bodies/0001/people/1413",
+    "http://oparl.dresden.de/bodies/0001/people/1613",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/1023",
+    "http://oparl.dresden.de/bodies/0001/people/1721",
+    "http://oparl.dresden.de/bodies/0001/people/1421",
+    "http://oparl.dresden.de/bodies/0001/people/1422",
+    "http://oparl.dresden.de/bodies/0001/people/822",
+    "http://oparl.dresden.de/bodies/0001/people/1428",
+    "http://oparl.dresden.de/bodies/0001/people/1132",
+    "http://oparl.dresden.de/bodies/0001/people/1683"
+  ],
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Festellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/419930",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Stadtbezirksbeirat Cotta_A0589_19_mU",
+      "fileName": "00419930.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00419930.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00419930.pdf",
+      "created": "2019-06-24T13:00:59+02:00",
+      "modified": "2019-06-24T13:01:00+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat Cotta",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Cotta; hier: Projekt \"Miteinander gemeinsam Neues lernen\" des Omse e. V.",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16746",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "419931",
-      "auxiliaryFile": [
-        "440415",
-        "409131"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Begrünungssatzung für die Landeshauptstadt Dresden",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16694",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "453370",
-      "auxiliaryFile": [
-        "491144",
-        "402526",
-        "403839",
-        "401972",
-        "447290"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 20,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Information",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Förderung von Kleinprojekten durch den Stadtbezirksbeirat Cottahier: Stadtteilfest zum 70. Geburtstag der Kita \"Briesnitzer Spatzenvilla\"  Anfertigung und Verleihung von \"Dankeschön-Blumen\"",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16900",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "419933",
-      "auxiliaryFile": [
-        "427236",
-        "410900",
-        "410889"
-      ],
-      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie"
-    },
-    {
-      "name": "Förderung von Kleinprojekten durch den Stadtbezirksrat Cottahier: 100. Konzert in der Friedhofskapell Dölzschen",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16947",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "419411",
-      "auxiliaryFile": [
-        "419934",
-        "421925",
-        "411411",
-        "410908"
-      ],
-      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie"
-    },
-    {
-      "name": "Ergebnisse der Meinungsumfrage zum Klimawandel in Dresden 2017",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16936",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "415927",
-        "415559",
-        "410332",
-        "410732",
-        "410736"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/420385",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00420385.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00420385.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00420385.pdf",
+      "created": "2019-06-26T06:48:36+02:00",
+      "modified": "2019-11-05T11:23:28+01:00"
     }
   ],
-  "id": "7910"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118185",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Festellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2019-05-29T13:33:26+02:00",
+      "modified": "2019-05-29T13:33:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beschlussfassung durch den Stadtbezirksbeirat Cotta",
+      "public": true,
+      "created": "2019-05-29T13:33:59+02:00",
+      "modified": "2019-05-29T13:34:06+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118187",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "2.1",
+      "order": "3",
+      "name": "Förderung von Projekten durch den Stadtbezirksbeirat Cotta; hier: Projekt \"Miteinander gemeinsam Neues lernen\" des Omse e. V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37188",
+      "result": "Zustimmung",
+      "created": "2019-05-29T13:34:25+02:00",
+      "modified": "2019-06-27T05:13:57+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118188",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "3",
+      "order": "4",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2019-05-29T13:35:00+02:00",
+      "modified": "2019-06-04T13:10:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "3.1",
+      "order": "5",
+      "name": "Begrünungssatzung für die Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37050",
+      "result": "Zustimmung mit Änderung",
+      "created": "2019-05-29T13:36:42+02:00",
+      "modified": "2019-06-24T07:56:21+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/118189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "4",
+      "order": "6",
+      "name": "Information",
+      "public": true,
+      "created": "2019-05-29T13:35:27+02:00",
+      "modified": "2019-06-04T13:10:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119029",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "4.1",
+      "order": "7",
+      "name": "Förderung von Kleinprojekten durch den Stadtbezirksbeirat Cotta",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37557",
+      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie",
+      "created": "2019-06-21T07:42:58+02:00",
+      "modified": "2019-06-27T05:14:22+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119030",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "4.2",
+      "order": "8",
+      "name": "Förderung von Kleinprojekten durch den Stadtbezirksrat Cotta",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37647",
+      "result": "Zustimmung über elektronisches Verfahren entsprechend Ziffer 8 Stadtbezirksförderrichtlinie",
+      "created": "2019-06-21T07:43:12+02:00",
+      "modified": "2019-06-27T05:14:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/119031",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7910",
+      "number": "4.3",
+      "order": "9",
+      "name": "Ergebnisse der Meinungsumfrage zum Klimawandel in Dresden 2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37628",
+      "result": "zur Kenntnis genommen",
+      "created": "2019-06-21T07:43:22+02:00",
+      "modified": "2019-06-21T07:47:01+02:00"
+    }
+  ],
+  "created": "2018-10-16T14:08:23+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

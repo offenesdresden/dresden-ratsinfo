@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/19143",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2020-6615-00015, 01217 Dresden, Verkehrszug Südhöhe/Caspar-David-Friedrich-Straße zwischen Münzmeisterstraße und Schurichtstraße , Los 1 - Straßenbau und Tiefbau Versorgungsunternehmen",
-  "shortName": "V0460/20",
   "reference": "V0460/20",
+  "date": "2020-06-25",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-06-24",
   "auxiliaryFile": [
-    "485583"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/485583",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V0460/20_mU",
+      "fileName": "00485583.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00485583.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00485583.pdf",
+      "created": "2020-07-09T07:54:56+02:00",
+      "modified": "2020-07-09T07:54:57+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8722",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42776",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/19143",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/134322",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8722",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-06-25T12:09:34+02:00",
+      "modified": "2020-07-09T07:28:18+02:00"
     }
   ],
-  "id": "19143"
+  "created": "2020-06-24T08:23:37+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

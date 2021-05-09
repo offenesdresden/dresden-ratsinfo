@@ -1,24 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18835",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Zuarbeit zur Planung Doppelhaushalt 2021/2022 - Personalmehrbedarf Sachbearbeiter/in für Ordnung und Sicherheit in der Verwaltungsstelle Gompitz",
-  "shortName": "V-GP0020/20",
   "reference": "V-GP0020/20",
+  "date": "2020-04-24",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-04-23",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/470000",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Gompitz",
+    "fileName": "00470000.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-04-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00470000.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00470000.pdf",
+    "created": "2020-04-23T10:37:34+02:00",
+    "modified": "2020-04-24T11:15:02+02:00"
+  },
   "auxiliaryFile": [
-    "470000"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/473150",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0020/20",
+      "fileName": "00473150.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00473150.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00473150.pdf",
+      "created": "2020-05-11T13:30:40+02:00",
+      "modified": "2020-05-12T05:20:44+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/519112",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Gompitz_V-GP0020/20_GB1_Zwischenbericht_11.12.2020",
+      "fileName": "00519112.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-12-17",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00519112.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00519112.pdf",
+      "created": "2020-12-17T16:42:29+01:00",
+      "modified": "2021-01-27T09:30:49+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/523675",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_Ortschaftsrat Gompitz_V-GP0020/20_GB 1_Abschlussbericht_15.01.2021",
+      "fileName": "00523675.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-01-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00523675.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00523675.pdf",
+      "created": "2021-01-27T09:28:47+01:00",
+      "modified": "2021-01-27T09:28:47+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9301",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41999",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18835",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/130924",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9301",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-04-23T14:05:09+02:00",
+      "modified": "2020-05-12T14:30:59+02:00"
     }
   ],
-  "id": "18835"
+  "created": "2020-04-23T10:37:29+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

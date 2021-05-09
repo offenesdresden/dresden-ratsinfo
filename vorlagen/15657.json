@@ -1,120 +1,106 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15657",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verkauf des Grundstücks Pirnaer Landstraße, Ecke Sporbitzer Ring",
-  "shortName": "V2611/18",
   "reference": "V2611/18",
+  "date": "2018-10-10",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-08-22",
   "auxiliaryFile": [
-    "374415",
-    "372719",
-    "363324",
-    "370381"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/363324",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "b) Anlage 2 Lageplan_öffentlich",
+      "fileName": "00363324.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-08-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00363324.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00363324.pdf",
+      "created": "2018-08-22T09:13:12+02:00",
+      "modified": "2018-10-24T12:22:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/370381",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "c) Anlage 3_Finanzielle Auswirkungen_öffentlich",
+      "fileName": "00370381.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-09-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00370381.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00370381.pdf",
+      "created": "2018-09-26T08:21:50+02:00",
+      "modified": "2018-10-24T12:22:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/372719",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00372719.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00372719.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00372719.pdf",
+      "created": "2018-10-15T10:11:47+02:00",
+      "modified": "2018-10-24T12:22:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/374415",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V2611/18 - ohne Anlage 1",
+      "fileName": "00374415.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-10-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00374415.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00374415.pdf",
+      "created": "2018-10-24T12:22:24+02:00",
+      "modified": "2018-11-27T14:03:34+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/384260",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_WF_V2611/18_ff",
+      "fileName": "00384260.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00384260.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00384260.pdf",
+      "created": "2018-12-07T10:12:34+01:00",
+      "modified": "2018-12-07T10:12:35+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/112"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34370",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15657",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/109014",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7593",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/170"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6562",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7593",
-      "role": "beratend",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Wirtschaftsförderung",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend       (federführend)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ausschuss für Stadtentwicklung, Bau, Verkehr und Liegenschaften",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beratend",
+      "created": "2018-11-05T07:36:42+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34033",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15657",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/111649",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7719",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/157"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2018-12-14T09:54:40+01:00",
+      "modified": "2019-01-10T11:09:47+01:00"
     }
   ],
-  "id": "15657"
+  "created": "2018-08-22T08:35:24+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

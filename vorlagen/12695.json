@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/12695",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: A01/16 Fortsetzung Sanierung Neues Rathaus, Dr.-Külz-Ring 19, 01067 Dresden, Fachplanungsleistungen für Technische Ausrüstung HLS gemäß HOAI 2013 § 53 ff., Anlagengruppen 1-3 und 7-8, Leistungsphasen 2 bis 9",
-  "shortName": "V1279/16",
   "reference": "V1279/16",
+  "date": "2016-07-21",
   "paperType": "Vorlage VOF",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2016-07-14",
   "auxiliaryFile": [
-    "264674"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/264674",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V1279_16_mU",
+      "fileName": "00264674.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-08-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00264674.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00264674.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5388",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/25695",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/12695",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/81163",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5388",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "12695"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

@@ -1,115 +1,164 @@
 {
-  "shortName": "OBR Alt/010/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ortsbeirat Altstadt - 21.06.2010 - 17:30-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "8"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/323",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "10. Sitzung des Ortsbeirates Altstadt",
   "start": "2010-06-21T17:30:00+02:00",
   "end": "2010-06-21T20:30:00+02:00",
-  "invitation": "33224",
-  "verbatimProtocol": "35876",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/8"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/567",
+    "http://oparl.dresden.de/bodies/0001/people/569",
+    "http://oparl.dresden.de/bodies/0001/people/571",
+    "http://oparl.dresden.de/bodies/0001/people/573",
+    "http://oparl.dresden.de/bodies/0001/people/575",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/579",
+    "http://oparl.dresden.de/bodies/0001/people/581",
+    "http://oparl.dresden.de/bodies/0001/people/582",
+    "http://oparl.dresden.de/bodies/0001/people/584",
+    "http://oparl.dresden.de/bodies/0001/people/587",
+    "http://oparl.dresden.de/bodies/0001/people/593",
+    "http://oparl.dresden.de/bodies/0001/people/595",
+    "http://oparl.dresden.de/bodies/0001/people/597",
+    "http://oparl.dresden.de/bodies/0001/people/586",
+    "http://oparl.dresden.de/bodies/0001/people/590",
+    "http://oparl.dresden.de/bodies/0001/people/592"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/33224",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Alt_21.06.2010",
+    "fileName": "00033224.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-06-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00033224.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00033224.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Informationen der Fachämter",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/33224",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Alt_21.06.2010",
+      "fileName": "00033224.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-06-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00033224.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00033224.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung der Entwurfsplanung Wettiner Platz",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fahrradfreundliche Innenstadt Dresden - Radverkehrskonzept 26er Ring",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "798",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "32463",
-        "114162",
-        "143062",
-        "165974",
-        "195128",
-        "236190",
-        "25980",
-        "25981",
-        "25982",
-        "25983",
-        "25984",
-        "25985",
-        "25986",
-        "31965",
-        "25988",
-        "13974"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Postplatz weiter denken - von der Idee zur Identität",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2090",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "30829",
-        "155605"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 5,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Kontrolle der Niederschrift zur 9. Ortsbeiratssitzung am 27.05.10",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/35876",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00035876.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-07-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00035876.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00035876.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "323",
-  "participant": [
-    "893",
-    "567",
-    "569",
-    "571",
-    "573",
-    "575",
-    "577",
-    "581",
-    "579",
-    "582",
-    "584",
-    "587",
-    "593",
-    "595",
-    "597",
-    "586",
-    "590",
-    "592"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9847",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/323",
+      "number": "2",
+      "order": "2",
+      "name": "Informationen der Fachämter",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9708",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/323",
+      "number": "2.1",
+      "order": "3",
+      "name": "Vorstellung der Entwurfsplanung Wettiner Platz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9803",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/323",
+      "number": "3",
+      "order": "4",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9796",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/323",
+      "number": "3.1",
+      "order": "5",
+      "name": "Fahrradfreundliche Innenstadt Dresden - Radverkehrskonzept 26er Ring",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1402",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9802",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/323",
+      "number": "3.2",
+      "order": "6",
+      "name": "Postplatz weiter denken - von der Idee zur Identität",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3393",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9266",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/323",
+      "number": "4",
+      "order": "7",
+      "name": "Kontrolle der Niederschrift zur 9. Ortsbeiratssitzung am 27.05.10",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9273",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/323",
+      "number": "5",
+      "order": "8",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

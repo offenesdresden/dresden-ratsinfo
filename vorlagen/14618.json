@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/14618",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2017-56-00038, Liefervertrag über medizinischen, flüssigen Sauerstoff für das Städtische Klinikum Dresden vom 1. Februar 2018 bis 31. Januar 2023",
-  "shortName": "V2109/17",
   "reference": "V2109/17",
+  "date": "2017-12-05",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2017-12-04",
   "auxiliaryFile": [
-    "327737"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/327737",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V2109/17_mU",
+      "fileName": "00327737.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-20",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00327737.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00327737.pdf",
+      "created": "2017-12-20T13:00:16+01:00",
+      "modified": "2017-12-20T13:00:17+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6274",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/30871",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/14618",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/97148",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6274",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2017-12-05T10:20:41+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "14618"
+  "created": "2017-12-04T08:59:28+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

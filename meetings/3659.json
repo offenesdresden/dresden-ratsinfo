@@ -1,142 +1,168 @@
 {
-  "shortName": "OBR Pl/037/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Plauen, Ratssaal,Nöthnitzer Straße 2, 01187 Dresden",
-  "name": "Ortsbeirat Plauen - 11.03.2014 - 17:30-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "42"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "37. Sitzung des Ortsbeirates Plauen",
   "start": "2014-03-11T17:30:00+01:00",
   "end": "2014-03-11T21:00:00+01:00",
-  "invitation": "161793",
-  "verbatimProtocol": "164162",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1840",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Nöthnitzer Straße 2",
+    "room": "Ortsamt Plauen, Ratssaal",
+    "postalCode": "01187",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:30+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/42"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/732",
+    "http://oparl.dresden.de/bodies/0001/people/734",
+    "http://oparl.dresden.de/bodies/0001/people/736",
+    "http://oparl.dresden.de/bodies/0001/people/738",
+    "http://oparl.dresden.de/bodies/0001/people/739",
+    "http://oparl.dresden.de/bodies/0001/people/741",
+    "http://oparl.dresden.de/bodies/0001/people/743",
+    "http://oparl.dresden.de/bodies/0001/people/744",
+    "http://oparl.dresden.de/bodies/0001/people/746",
+    "http://oparl.dresden.de/bodies/0001/people/748",
+    "http://oparl.dresden.de/bodies/0001/people/750",
+    "http://oparl.dresden.de/bodies/0001/people/752",
+    "http://oparl.dresden.de/bodies/0001/people/754",
+    "http://oparl.dresden.de/bodies/0001/people/758",
+    "http://oparl.dresden.de/bodies/0001/people/760",
+    "http://oparl.dresden.de/bodies/0001/people/762",
+    "http://oparl.dresden.de/bodies/0001/people/1150"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/161793",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pl",
+    "fileName": "00161793.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-02-26",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00161793.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00161793.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/161793",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pl",
+      "fileName": "00161793.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-02-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00161793.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00161793.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Neubau einer Zweifeldschulsporthalle an der 117. Grundschule \"Ludwig Reichenbach\", Reichenbachstraße 12 in 01069 Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7970",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "168373",
-      "auxiliaryFile": [
-        "211035",
-        "168513",
-        "177504",
-        "190598",
-        "242349",
-        "249960",
-        "164736",
-        "161676",
-        "161289",
-        "155617",
-        "167666",
-        "167667"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Konzept zur Verwendung der Gagfah-Mittel für soziale Projekte",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8052",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "157544",
-        "191441",
-        "180788"
-      ],
-      "resolutionFile": "176445",
-      "result": "punktweise Abstimmung mit Ergänzung",
-      "vote": {
-        "yes": 10,
-        "no": 3,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Wiederaufnahme der Planungen für einen „Süd-Park“",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8140",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "160041"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 15,
-        "no": 1,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Standort Bayrische Straße zum Fernbusbahnhof ausbauen",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8137",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "160039",
-        "182686",
-        "190605",
-        "173787"
-      ],
-      "resolutionFile": "174374",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 3,
-        "no": 12,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/164162",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00164162.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-03-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00164162.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00164162.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3659",
-  "participant": [
-    "732",
-    "739",
-    "738",
-    "736",
-    "743",
-    "741",
-    "744",
-    "746",
-    "748",
-    "754",
-    "752",
-    "760",
-    "762",
-    "1150"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51030",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51031",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51035",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+      "number": "2.1",
+      "order": "3",
+      "name": "Neubau einer Zweifeldschulsporthalle an der 117. Grundschule \"Ludwig Reichenbach\", Reichenbachstraße 12 in 01069 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/14836",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51032",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+      "number": "2.2",
+      "order": "4",
+      "name": "Konzept zur Verwendung der Gagfah-Mittel für soziale Projekte",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15057",
+      "result": "punktweise Abstimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51034",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+      "number": "2.3",
+      "order": "5",
+      "name": "Wiederaufnahme der Planungen für einen „Süd-Park“",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15321",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51033",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+      "number": "2.4",
+      "order": "6",
+      "name": "Standort Bayrische Straße zum Fernbusbahnhof ausbauen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15304",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/51036",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3659",
+      "number": "3",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

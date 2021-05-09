@@ -1,142 +1,278 @@
 {
-  "shortName": "JHA/013/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Jugendhilfeausschuss - 02.12.2010 - 18:00-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "10"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/718",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "13. Sitzung des Jugendhilfeausschusses",
   "start": "2010-12-02T18:00:00+01:00",
   "end": "2010-12-02T20:15:00+01:00",
-  "invitation": "48469",
-  "resultsProtocol": "50177",
-  "auxiliaryFile": [
-    "50176",
-    "50199",
-    "50200",
-    "50202",
-    "50204"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/10"
   ],
-  "verbatimProtocol": "51150",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/7",
+    "http://oparl.dresden.de/bodies/0001/people/93",
+    "http://oparl.dresden.de/bodies/0001/people/58",
+    "http://oparl.dresden.de/bodies/0001/people/280",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/435",
+    "http://oparl.dresden.de/bodies/0001/people/453",
+    "http://oparl.dresden.de/bodies/0001/people/457",
+    "http://oparl.dresden.de/bodies/0001/people/460",
+    "http://oparl.dresden.de/bodies/0001/people/461",
+    "http://oparl.dresden.de/bodies/0001/people/918",
+    "http://oparl.dresden.de/bodies/0001/people/28",
+    "http://oparl.dresden.de/bodies/0001/people/472",
+    "http://oparl.dresden.de/bodies/0001/people/479",
+    "http://oparl.dresden.de/bodies/0001/people/481",
+    "http://oparl.dresden.de/bodies/0001/people/898",
+    "http://oparl.dresden.de/bodies/0001/people/928",
+    "http://oparl.dresden.de/bodies/0001/people/931",
+    "http://oparl.dresden.de/bodies/0001/people/92",
+    "http://oparl.dresden.de/bodies/0001/people/289",
+    "http://oparl.dresden.de/bodies/0001/people/485",
+    "http://oparl.dresden.de/bodies/0001/people/890"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/48469",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_JH_2010_12_02",
+    "fileName": "00048469.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-11-19",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00048469.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00048469.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/50176",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V0757/10",
+    "fileName": "00050176.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-12-06",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050176.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050176.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Fotoausstellung \"Frühe Hilfen bieten Perspektiven - Pro Kind in Sachsen\"",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/48469",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_JH_2010_12_02",
+      "fileName": "00048469.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00048469.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00048469.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Kontrolle der Niederschrift vom 14.10.2010",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/50176",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V0757/10",
+      "fileName": "00050176.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050176.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050176.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen/Fragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/50177",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_A0301/10",
+      "fileName": "00050177.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050177.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050177.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorstellung des Projektes \"KiNET - Netzwerk für Frühprävention, Sozialisation und Familie 2005 - 2010\"",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/50199",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 zu A0301/10-Förderkonzept",
+      "fileName": "00050199.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050199.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050199.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Planungsbericht Inobhutnahme 2009",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2873",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "45454",
-        "43997",
-        "122830"
-      ],
-      "resolutionFile": "42161",
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/50200",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 2 zu A0301/10-Schaubild Ortsämter",
+      "fileName": "00050200.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050200.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050200.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Förderung der Träger der freien Jugendhilfe im Haushaltsjahr 2010 - Investive Maßnahmen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2875",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "45458",
-        "45245"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/50202",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 3 zu A0301/10-Schaubild stadtweit",
+      "fileName": "00050202.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050202.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050202.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwendungen gegen den Entwurf der Haushaltssatzung 2011/2012 gemäß § 76 SächsGemO",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 3,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/50204",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage zu V0757/10",
+      "fileName": "00050204.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050204.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050204.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Konzeption zur Umsetzung des § 74 SGB VIII zur Förderung der freien Jugendhilfe 2011 (kurz: Förderkonzept)",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3225",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "48446",
-        "48445",
-        "48444"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Berichte aus den Unterausschüssen",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/51150",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_JH_2010_12_02",
+      "fileName": "00051150.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00051150.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00051150.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "718",
-  "participant": [
-    "7",
-    "93",
-    "58",
-    "280",
-    "46",
-    "461",
-    "457",
-    "918",
-    "435",
-    "453",
-    "460",
-    "898",
-    "479",
-    "931",
-    "481",
-    "28",
-    "928",
-    "472",
-    "890",
-    "289",
-    "485",
-    "92"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14810",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Fotoausstellung \"Frühe Hilfen bieten Perspektiven - Pro Kind in Sachsen\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14066",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "2",
+      "order": "2",
+      "name": "Kontrolle der Niederschrift vom 14.10.2010",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14075",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "3",
+      "order": "3",
+      "name": "Informationen/Fragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14683",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "4",
+      "order": "4",
+      "name": "Vorstellung des Projektes \"KiNET - Netzwerk für Frühprävention, Sozialisation und Familie 2005 - 2010\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14072",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "5",
+      "order": "5",
+      "name": "Planungsbericht Inobhutnahme 2009",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4579",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14073",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "6",
+      "order": "6",
+      "name": "Förderung der Träger der freien Jugendhilfe im Haushaltsjahr 2010 - Investive Maßnahmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/4584",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14666",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "7",
+      "order": "7",
+      "name": "Einwendungen gegen den Entwurf der Haushaltssatzung 2011/2012 gemäß § 76 SächsGemO",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5029",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14701",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "8",
+      "order": "8",
+      "name": "Konzeption zur Umsetzung des § 74 SGB VIII zur Förderung der freien Jugendhilfe 2011 (kurz: Förderkonzept)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5147",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/14074",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/718",
+      "number": "9",
+      "order": "9",
+      "name": "Berichte aus den Unterausschüssen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

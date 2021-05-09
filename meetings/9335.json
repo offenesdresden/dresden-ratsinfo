@@ -1,68 +1,165 @@
 {
-  "shortName": "OSR SB/011/2020",
-  "locality": "Landeshauptstadt Dresden, im Versammlungsraum im Bürgerhaus Schönborn, Seifersdorfer Str. 6 in 01465 Schönborn",
-  "name": "Ortschaftsrat Schönborn - 08.07.2020 - 19:30-22:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "50"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "11. Sitzung des Ortschaftsrates Schönborn",
   "start": "2020-07-08T19:30:00+02:00",
   "end": "2020-07-08T22:00:00+02:00",
-  "invitation": "483814",
-  "resultsProtocol": "486182",
-  "verbatimProtocol": "486029",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/21",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Seifersdorfer Straße 6",
+    "room": "Ortschaft Schönborn, Beratungsraum",
+    "postalCode": "01465",
+    "subLocality": "",
+    "locality": "Schönborn",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-05-07T08:10:23+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/50"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/357",
+    "http://oparl.dresden.de/bodies/0001/people/355",
+    "http://oparl.dresden.de/bodies/0001/people/359",
+    "http://oparl.dresden.de/bodies/0001/people/1257",
+    "http://oparl.dresden.de/bodies/0001/people/1258",
+    "http://oparl.dresden.de/bodies/0001/people/1967",
+    "http://oparl.dresden.de/bodies/0001/people/1978",
+    "http://oparl.dresden.de/bodies/0001/people/1986",
+    "http://oparl.dresden.de/bodies/0001/people/1991"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/483814",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SB",
+    "fileName": "00483814.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-07-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00483814.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00483814.pdf",
+    "created": "2020-07-02T06:15:44+02:00",
+    "modified": "2020-07-02T09:03:32+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/483814",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SB",
+      "fileName": "00483814.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00483814.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00483814.pdf",
+      "created": "2020-07-02T06:15:44+02:00",
+      "modified": "2020-07-02T09:03:32+02:00"
     },
     {
-      "name": "Niederschrift der letzten Sitzung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/486029",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00486029.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00486029.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00486029.pdf",
+      "created": "2020-07-10T08:48:37+02:00",
+      "modified": "2020-07-16T07:09:10+02:00"
     },
     {
-      "name": "Vorstellung Flurbereinigungsverfahren Schönborn",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Beschluss über Sitzungstermine 2021",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19175",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "486699",
-      "auxiliaryFile": [
-        "483519"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Beschlusskontrollen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen Ortsvorsteher",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/486182",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönborn V-SB0123/29_oU",
+      "fileName": "00486182.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00486182.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00486182.pdf",
+      "created": "2020-07-13T06:56:20+02:00",
+      "modified": "2020-07-14T12:39:37+02:00"
     }
   ],
-  "id": "9335"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/133948",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung durch den Ortsvorsteher, Feststellung der ordnungsgemäßen Ladung, Anwesenheit und Beschlussfähigkeit",
+      "public": true,
+      "created": "2020-06-19T06:54:35+02:00",
+      "modified": "2020-06-30T12:17:05+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/133949",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "number": "2",
+      "order": "2",
+      "name": "Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2020-06-19T06:54:52+02:00",
+      "modified": "2020-06-30T12:17:05+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/133951",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "number": "3",
+      "order": "3",
+      "name": "Vorstellung Flurbereinigungsverfahren Schönborn",
+      "public": true,
+      "created": "2020-06-19T06:56:43+02:00",
+      "modified": "2020-07-01T12:28:26+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/134552",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "number": "4",
+      "order": "4",
+      "name": "Beschluss über Sitzungstermine 2021",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42865",
+      "result": "Zustimmung mit Änderung",
+      "created": "2020-06-30T12:17:00+02:00",
+      "modified": "2020-07-14T14:28:23+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/133950",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "number": "5",
+      "order": "5",
+      "name": "Beschlusskontrollen",
+      "public": true,
+      "created": "2020-06-19T06:55:06+02:00",
+      "modified": "2020-07-02T08:40:20+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/133952",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen Ortsvorsteher",
+      "public": true,
+      "created": "2020-06-19T06:58:34+02:00",
+      "modified": "2020-07-02T08:40:20+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/133953",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9335",
+      "number": "7",
+      "order": "7",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2020-06-19T06:58:48+02:00",
+      "modified": "2020-07-02T08:40:20+02:00"
+    }
+  ],
+  "created": "2020-02-04T08:56:39+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

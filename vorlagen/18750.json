@@ -1,39 +1,101 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18750",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Petition/e-Petition gegen den Standort des Neubaus des LEO-Gymnasiums",
-  "shortName": "P0023/20",
   "reference": "P0023/20",
+  "date": "2020-04-09",
   "paperType": "Petition",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "id": "18750",
-  "publishedDate": "2020-04-09",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/468258",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Petition",
+    "fileName": "00468258.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-04-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468258.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468258.pdf",
+    "created": "2020-04-09T10:53:36+02:00",
+    "modified": "2020-04-09T11:28:54+02:00"
+  },
   "auxiliaryFile": [
-    "468258",
-    "468265"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/468265",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Petition_P0023/20_öffentlich",
+      "fileName": "00468265.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-04-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00468265.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00468265.pdf",
+      "created": "2020-04-09T11:27:21+02:00",
+      "modified": "2020-05-19T08:04:00+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/473909",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "e-Petition_P0023/20_öffentlich",
+      "fileName": "00473909.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00473909.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00473909.pdf",
+      "created": "2020-05-14T12:20:36+02:00",
+      "modified": "2020-05-19T08:03:51+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/476215",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_P_P0023/20_mU",
+      "fileName": "00476215.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00476215.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00476215.pdf",
+      "created": "2020-05-26T12:03:16+02:00",
+      "modified": "2020-05-26T12:03:17+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/478368",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antwort_P0023/20_2020_06_03_öffentlich",
+      "fileName": "00478368.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-06-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00478368.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00478368.pdf",
+      "created": "2020-06-05T12:11:47+02:00",
+      "modified": "2020-06-05T12:11:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/519621",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_P_0023/20_2020_12_21_Abschlussbericht",
+      "fileName": "00519621.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-12-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00519621.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00519621.pdf",
+      "created": "2020-12-22T14:07:49+01:00",
+      "modified": "2020-12-22T14:07:49+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8780",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41837",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18750",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/131370",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8781",
       "organization": [
-        {
-          "name": "Ausschuss für Petitionen und Bürgerbeteiligung",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/158"
       ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-05-05T06:27:22+02:00",
+      "modified": "2020-05-26T13:28:36+02:00"
     }
-  ]
+  ],
+  "created": "2020-04-09T10:52:38+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

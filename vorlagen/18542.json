@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18542",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-2735-00019, Rahmenvereinbarung für den Kauf von Dienst- und Schutzbekleidung des Regiebetriebes Zentrale Technische Dienstleistungen",
-  "shortName": "V0279/20",
   "reference": "V0279/20",
+  "date": "2020-03-04",
   "paperType": "Vorlage VOL",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-03-02",
   "auxiliaryFile": [
-    "465666"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/465666",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V0279/20_mU",
+      "fileName": "00465666.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-03-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00465666.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00465666.pdf",
+      "created": "2020-03-19T09:55:21+01:00",
+      "modified": "2020-03-19T09:55:23+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8717",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/41288",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18542",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/128638",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8717",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-03-04T12:59:07+01:00",
+      "modified": "2020-03-19T09:45:12+01:00"
     }
   ],
-  "id": "18542"
+  "created": "2020-03-02T13:20:45+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

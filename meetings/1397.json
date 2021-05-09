@@ -1,134 +1,156 @@
 {
-  "shortName": "OBR Bl/015/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Blasewitz, Ratssaal,Naumannstraße 5, 01309 Dresden",
-  "name": "Ortsbeirat Blasewitz - 18.05.2011 - 17:30-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "39"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1397",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ortsbeirates Blasewitz",
   "start": "2011-05-18T17:30:00+02:00",
   "end": "2011-05-18T21:00:00+02:00",
-  "invitation": "62817",
-  "verbatimProtocol": "65611",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/26",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Naumannstraße 5",
+    "room": "Ortsamt Blasewitz, Ratsaal",
+    "postalCode": "01309",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:42+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/39"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/704",
+    "http://oparl.dresden.de/bodies/0001/people/420",
+    "http://oparl.dresden.de/bodies/0001/people/697",
+    "http://oparl.dresden.de/bodies/0001/people/699",
+    "http://oparl.dresden.de/bodies/0001/people/701",
+    "http://oparl.dresden.de/bodies/0001/people/703",
+    "http://oparl.dresden.de/bodies/0001/people/706",
+    "http://oparl.dresden.de/bodies/0001/people/708",
+    "http://oparl.dresden.de/bodies/0001/people/710",
+    "http://oparl.dresden.de/bodies/0001/people/712",
+    "http://oparl.dresden.de/bodies/0001/people/717",
+    "http://oparl.dresden.de/bodies/0001/people/722",
+    "http://oparl.dresden.de/bodies/0001/people/724",
+    "http://oparl.dresden.de/bodies/0001/people/727",
+    "http://oparl.dresden.de/bodies/0001/people/728",
+    "http://oparl.dresden.de/bodies/0001/people/408",
+    "http://oparl.dresden.de/bodies/0001/people/730",
+    "http://oparl.dresden.de/bodies/0001/people/719",
+    "http://oparl.dresden.de/bodies/0001/people/904"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/62817",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Bl",
+    "fileName": "00062817.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-05-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00062817.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00062817.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/62817",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Bl",
+      "fileName": "00062817.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-05-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00062817.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00062817.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorplanung Schandauer Straße - Wehlener Straße zwischen Lauensteiner Straße und Schlömilchstraße",
-      "number": "Ö 1.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3833",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "67831",
-      "auxiliaryFile": [
-        "60436",
-        "210184",
-        "256387",
-        "304863",
-        "329462",
-        "139793",
-        "166489",
-        "175864",
-        "189875",
-        "58462",
-        "58463",
-        "58464",
-        "58465",
-        "58466",
-        "58467",
-        "60591"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 18,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bericht zum Busnetz 2010 und Linienänderungen 2011",
-      "number": "Ö 1.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3661",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "69580",
-      "auxiliaryFile": [
-        "62080",
-        "118064",
-        "60861",
-        "55909"
-      ],
-      "result": "punktweise Abstimmung"
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2011/2012",
-      "number": "Ö 1.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "3658",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "69531",
-      "auxiliaryFile": [
-        "57939",
-        "57541",
-        "57542",
-        "57543",
-        "55817",
-        "55819",
-        "55820",
-        "55821",
-        "55822",
-        "55823",
-        "58114"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 19,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Kontrolle der Niederschrift zur 14. Ortsbeiratssitzung am 20.04.2011",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/65611",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00065611.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-06-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00065611.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00065611.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1397",
-  "participant": [
-    "704",
-    "706",
-    "420",
-    "697",
-    "701",
-    "703",
-    "699",
-    "708",
-    "710",
-    "712",
-    "717",
-    "722",
-    "724",
-    "727",
-    "408",
-    "728",
-    "730",
-    "904",
-    "719"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19592",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1397",
+      "number": "1",
+      "order": "1",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19595",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1397",
+      "number": "1.1",
+      "order": "2",
+      "name": "Vorplanung Schandauer Straße - Wehlener Straße zwischen Lauensteiner Straße und Schlömilchstraße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5919",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19594",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1397",
+      "number": "1.2",
+      "order": "3",
+      "name": "Bericht zum Busnetz 2010 und Linienänderungen 2011",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5698",
+      "result": "punktweise Abstimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19593",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1397",
+      "number": "1.3",
+      "order": "4",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2011/2012",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/5672",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19590",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1397",
+      "number": "2",
+      "order": "5",
+      "name": "Kontrolle der Niederschrift zur 14. Ortsbeiratssitzung am 20.04.2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/19597",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1397",
+      "number": "3",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

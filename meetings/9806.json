@@ -1,169 +1,168 @@
 {
-  "shortName": "AB/008/2021",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Integrations- und Ausländerbeirat - 24.03.2021 - 17:00-19:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "148"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Integrations- und Ausländerbeirates",
   "start": "2021-03-24T17:00:00+01:00",
   "end": "2021-03-24T19:35:00+01:00",
-  "invitation": "529771",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/18",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "Plenarsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/148"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1277",
+    "http://oparl.dresden.de/bodies/0001/people/2159",
+    "http://oparl.dresden.de/bodies/0001/people/1927",
+    "http://oparl.dresden.de/bodies/0001/people/1950",
+    "http://oparl.dresden.de/bodies/0001/people/1297",
+    "http://oparl.dresden.de/bodies/0001/people/1929",
+    "http://oparl.dresden.de/bodies/0001/people/1938",
+    "http://oparl.dresden.de/bodies/0001/people/422",
+    "http://oparl.dresden.de/bodies/0001/people/1276",
+    "http://oparl.dresden.de/bodies/0001/people/1902",
+    "http://oparl.dresden.de/bodies/0001/people/2175",
+    "http://oparl.dresden.de/bodies/0001/people/2176",
+    "http://oparl.dresden.de/bodies/0001/people/2177",
+    "http://oparl.dresden.de/bodies/0001/people/282"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/527400",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_AB",
+    "fileName": "00527400.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-02-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00527400.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00527400.pdf",
+    "created": "2021-02-22T08:47:42+01:00",
+    "modified": "2021-03-02T07:06:05+01:00"
+  },
   "auxiliaryFile": [
-    "527400"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/527400",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB",
+      "fileName": "00527400.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-02-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00527400.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00527400.pdf",
+      "created": "2021-02-22T08:47:42+01:00",
+      "modified": "2021-03-02T07:06:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/529771",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_AB_2021_03_24_mU",
+      "fileName": "00529771.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00529771.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00529771.pdf",
+      "created": "2021-03-04T06:23:48+01:00",
+      "modified": "2021-03-04T06:23:49+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145799",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+      "number": "1",
+      "order": "1",
       "name": "Neufassung Satzung der Landeshauptstadt Dresden für die Unterbringung besonderer Bedarfsgruppen (Unterbringungssatzung)",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20340",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "528601",
-        "527526",
-        "521199",
-        "521193",
-        "521192",
-        "521191",
-        "492180",
-        "492188",
-        "492189",
-        "492190",
-        "492191",
-        "492192",
-        "535477",
-        "543381"
-      ],
-      "resolutionFile": "492187",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45276",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2021-02-24T12:32:55+01:00",
+      "modified": "2021-04-27T10:12:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145234",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+      "number": "2",
+      "order": "2",
       "name": "Konzept Kulturelle Bildung in Dresden 2020",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20697",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "541463",
-      "auxiliaryFile": [
-        "521119",
-        "520251",
-        "520542",
-        "507899",
-        "508150",
-        "508594",
-        "534619",
-        "532307",
-        "535470",
-        "535301",
-        "534782",
-        "536561"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46245",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 4,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2021-02-15T11:38:23+01:00",
+      "modified": "2021-04-27T10:12:25+02:00"
     },
     {
-      "name": "Aufhebung der Satzung der Landeshauptstadt Dresden für die Unterbringung von leistungsberechtigten Personen nach dem Asylbewerberleistungsgesetz (Unterbringungssatzung Asyl) vom 15. Dezember 2016",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20999",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "528604",
-        "527521",
-        "521210",
-        "527060",
-        "521205",
-        "521206",
-        "521207",
-        "521208",
-        "521209",
-        "535475",
-        "543383"
-      ],
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145801",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+      "number": "3",
+      "order": "3",
+      "name": "Aufhebung der Satzung der Landeshauptstadt Dresden für die Unterbringung von leistungsberechtigten Personen nach dem Asylbewerberleistungsgesetz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47022",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2021-02-24T12:38:10+01:00",
+      "modified": "2021-04-27T10:12:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145236",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+      "number": "4",
+      "order": "4",
       "name": "Konzept zur Schaffung eines Vernetzungs- und Beteiligungszentrums in der inneren Altstadt",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20689",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "506896",
-        "535462",
-        "535966"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46266",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 2,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2021-02-15T11:38:23+01:00",
+      "modified": "2021-04-27T10:12:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145800",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+      "number": "5",
+      "order": "5",
       "name": "An die Opfer gruppenbezogener Menschenfeindlichkeit erinnern. Gewaltprophylaxe systematisch betreiben.",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20979",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "520688",
-        "535460",
-        "535965"
-      ],
-      "result": "punktweise Abstimmung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47014",
+      "result": "punktweise Abstimmung",
+      "created": "2021-02-24T12:34:34+01:00",
+      "modified": "2021-04-27T10:12:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/145237",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+      "number": "6",
+      "order": "6",
       "name": "Informationen/Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-02-15T11:38:23+01:00",
+      "modified": "2021-04-27T10:12:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148908",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9806",
+      "number": "7",
+      "order": "7",
       "name": "Bericht zur Umsetzung des Konzeptes zur Integration von Menschen mit Migrationshintergrund 2015 bis 2020 (Berichtszeitraum 2017 bis 2020)",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20507",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "509654",
-        "506846",
-        "504025",
-        "500242"
-      ],
-      "resolutionFile": "499561",
-      "result": "zur Kenntnis genommen"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45701",
+      "result": "zur Kenntnis genommen",
+      "created": "2021-04-27T10:12:15+02:00",
+      "modified": "2021-04-29T06:16:33+02:00"
     }
   ],
-  "id": "9806"
+  "created": "2020-09-10T12:18:51+02:00",
+  "modified": "2021-03-31T10:23:28+02:00"
 }

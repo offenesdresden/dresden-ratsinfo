@@ -1,29 +1,32 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/2050",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Stefan Rother",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied Stadtbezirksbeirat",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "170",
-      "startDate": "2019-09-27"
-    }
-  ],
-  "postalCode": "01259",
-  "locality": "Dresden",
-  "streetAddress": "Tronitzer Straße 13",
-  "status": [
-    "CDU"
-  ],
+  "familyName": "Rother",
+  "givenName": "Stefan",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "phone": [
     "0176/56637080"
   ],
   "email": [
     "s.rother60@gmail.com"
   ],
-  "id": "2050"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/10149",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2050",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/170",
+      "role": "Mitglied Stadtbezirksbeirat",
+      "votingRight": true,
+      "startDate": "2019-09-27",
+      "created": "2019-09-30T09:13:02+02:00",
+      "modified": "2019-09-30T09:13:02+02:00"
+    }
+  ],
+  "created": "2019-09-04T09:41:20+02:00",
+  "modified": "2021-05-06T10:07:51+02:00",
+  "web": ""
 }

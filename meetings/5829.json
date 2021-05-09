@@ -1,66 +1,154 @@
 {
-  "shortName": "KT/038/2017",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 2, 2. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Kultur und Tourismus - 06.06.2017 - 16:00-20:25 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "152"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5829",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "38. Sitzung des Ausschusses für Kultur und Tourismus",
   "start": "2017-06-06T16:00:00+02:00",
   "end": "2017-06-06T20:25:00+02:00",
-  "invitation": "301059",
-  "auxiliaryFile": [
-    "301377",
-    "302745",
-    "302747",
-    "302912"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/16",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "2/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/152"
   ],
-  "verbatimProtocol": "302835",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/1232",
+    "http://oparl.dresden.de/bodies/0001/people/1233",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/1378",
+    "http://oparl.dresden.de/bodies/0001/people/1237",
+    "http://oparl.dresden.de/bodies/0001/people/46",
+    "http://oparl.dresden.de/bodies/0001/people/91",
+    "http://oparl.dresden.de/bodies/0001/people/1385"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/301059",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_KT_2017_06_06_oU",
+    "fileName": "00301059.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-05-23",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00301059.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00301059.pdf",
+    "created": "2017-05-23T07:48:14+02:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/302745",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_KT_V1675/17_ff",
+    "fileName": "00302745.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-06-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302745.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302745.pdf",
+    "created": "2017-06-07T06:28:51+02:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kommunale Kulturförderung - Projektförderung zweites Halbjahr 2017",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13657",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "302905",
-      "auxiliaryFile": [
-        "328554",
-        "298217",
-        "298105",
-        "296955",
-        "294322",
-        "295716"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/301059",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_KT_2017_06_06_oU",
+      "fileName": "00301059.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-05-23",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00301059.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00301059.pdf",
+      "created": "2017-05-23T07:48:14+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/301377",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_KT_2017_06_06_mU",
+      "fileName": "00301377.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00301377.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00301377.pdf",
+      "created": "2017-05-24T09:24:49+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/302745",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_KT_V1675/17_ff",
+      "fileName": "00302745.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302745.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302745.pdf",
+      "created": "2017-06-07T06:28:51+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/302747",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_KT_V1717/17_ff",
+      "fileName": "00302747.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302747.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302747.pdf",
+      "created": "2017-06-07T06:31:26+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/302835",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift ö_KT_2017_06_06",
+      "fileName": "00302835.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302835.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302835.pdf",
+      "created": "2017-06-07T09:10:56+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/302912",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Festlegungen und Aufträge nö_KT_2017_06_06_V1631/17",
+      "fileName": "00302912.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-06-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00302912.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00302912.pdf",
+      "created": "2017-06-07T11:54:00+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5829",
-  "participant": [
-    "287",
-    "298",
-    "290",
-    "83",
-    "87",
-    "271",
-    "1232",
-    "1240",
-    "1233",
-    "44",
-    "284",
-    "1378",
-    "55",
-    "1237",
-    "46",
-    "1385",
-    "91"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/90748",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5829",
+      "number": "1",
+      "order": "1",
+      "name": "Kommunale Kulturförderung - Projektförderung zweites Halbjahr 2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/28169",
+      "result": "Zustimmung mit Änderung",
+      "created": "2017-05-18T09:08:52+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

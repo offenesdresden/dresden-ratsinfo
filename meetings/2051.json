@@ -1,150 +1,290 @@
 {
-  "shortName": "OSR CB/031/2012",
-  "locality": "Landeshauptstadt Dresden, im Bürgersaal der Verwaltungsstelle Cossebaude,Dresdner Straße 3, 01156 Dresden",
-  "name": "Ortschaftsrat Cossebaude - 10.09.2012 - 18:30-21:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "46"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "31. Sitzung des Ortschaftsrates Cossebaude",
   "start": "2012-09-10T18:30:00+02:00",
   "end": "2012-09-10T21:30:00+02:00",
-  "invitation": "107842",
-  "auxiliaryFile": [
-    "109141",
-    "109176",
-    "109217",
-    "109209",
-    "109168"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/413",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dresdner Straße 3",
+    "room": "Ortschaft Cossebaude, Bürgersaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/46"
   ],
-  "resultsProtocol": "109187",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1073",
+    "http://oparl.dresden.de/bodies/0001/people/307",
+    "http://oparl.dresden.de/bodies/0001/people/308",
+    "http://oparl.dresden.de/bodies/0001/people/309",
+    "http://oparl.dresden.de/bodies/0001/people/310",
+    "http://oparl.dresden.de/bodies/0001/people/311",
+    "http://oparl.dresden.de/bodies/0001/people/1070",
+    "http://oparl.dresden.de/bodies/0001/people/314",
+    "http://oparl.dresden.de/bodies/0001/people/394"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/107842",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR CB",
+    "fileName": "00107842.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-08-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00107842.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00107842.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/109141",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschluss Finanzzuschuss Bibliothek",
+    "fileName": "00109141.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-09-11",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109141.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109141.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/107842",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR CB",
+      "fileName": "00107842.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-08-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00107842.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00107842.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung am 9.7.2012",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/109141",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschluss Finanzzuschuss Bibliothek",
+      "fileName": "00109141.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109141.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109141.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwohnerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/109168",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Zuschuss an HVV zu Wandertafeln",
+      "fileName": "00109168.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109168.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109168.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschlüsse zu Finanzmitteln 2012",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/109176",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung Finanzzuschuss Sanierung Bismarckturm",
+      "fileName": "00109176.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109176.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109176.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzzuschuss für Bibliothek Cossebaude",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/109187",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung - Finanzmittel Infoblatt Oktober 2012",
+      "fileName": "00109187.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109187.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109187.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzzuschuss für Instandsetzung von Wandertafeln - Heimat-und Verschönerungsverein Cossebaude e.V.",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/109209",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung STN z. Vorg.-Nr.:1154-08",
+      "fileName": "00109209.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109209.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109209.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Finanzmittel zur Sanierung des Bismarckturmes Cossebaude",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel zur Herstellung Infoblatt Cossebaude - Oktober 2012",
-      "number": "Ö 4.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzzuschuss für Reparatur Kunstrasenplatz  - TSV Cossebaude e.V.",
-      "number": "Ö 4.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Weitere Anwendung der Gehölzschutzsatzung vom 16. Juni 1995 bei kommunalen Vorhaben",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5945",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "121603",
-      "auxiliaryFile": [
-        "100850"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 2,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Gesetz über die Ladenöffnungszeiten zu besonderen Anlässen und Ereignissen für 2013",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/109217",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung STN Vorg.:-Nr.3243-09",
+      "fileName": "00109217.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00109217.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00109217.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2051",
-  "participant": [
-    "1073",
-    "309",
-    "308",
-    "310",
-    "311",
-    "307",
-    "1070",
-    "314",
-    "394"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33547",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33548",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung am 9.7.2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33549",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "3",
+      "order": "3",
+      "name": "Einwohnerfragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33550",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "4",
+      "order": "4",
+      "name": "Beschlüsse zu Finanzmitteln 2012",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33561",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "4.1",
+      "order": "5",
+      "name": "Finanzzuschuss für Bibliothek Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10894",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33562",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "4.2",
+      "order": "6",
+      "name": "Finanzzuschuss für Instandsetzung von Wandertafeln - Heimat-und Verschönerungsverein Cossebaude e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10895",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33579",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "4.3",
+      "order": "7",
+      "name": "Finanzmittel zur Sanierung des Bismarckturmes Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10899",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33820",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "4.4",
+      "order": "8",
+      "name": "Finanzmittel zur Herstellung Infoblatt Cossebaude - Oktober 2012",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10942",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33821",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "4.5",
+      "order": "9",
+      "name": "Finanzzuschuss für Reparatur Kunstrasenplatz  - TSV Cossebaude e.V.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10943",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33563",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "5",
+      "order": "10",
+      "name": "Weitere Anwendung der Gehölzschutzsatzung vom 16. Juni 1995 bei kommunalen Vorhaben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10309",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33564",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "6",
+      "order": "11",
+      "name": "Gesetz über die Ladenöffnungszeiten zu besonderen Anlässen und Ereignissen für 2013",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/33565",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2051",
+      "number": "7",
+      "order": "12",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

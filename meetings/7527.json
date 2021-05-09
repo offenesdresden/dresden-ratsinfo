@@ -1,118 +1,187 @@
 {
-  "shortName": "OSR OW/055/2019",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 16.04.2019 - 18:30-20:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "55. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2019-04-16T18:30:00+02:00",
   "end": "2019-04-16T20:50:00+02:00",
-  "invitation": "404287",
-  "auxiliaryFile": [
-    "408523",
-    "408524"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
-  "verbatimProtocol": "410553",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/1256",
+    "http://oparl.dresden.de/bodies/0001/people/1654"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/404287",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00404287.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-04-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00404287.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00404287.pdf",
+    "created": "2019-04-02T11:59:22+02:00",
+    "modified": "2019-04-02T15:51:28+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/404287",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00404287.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00404287.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00404287.pdf",
+      "created": "2019-04-02T11:59:22+02:00",
+      "modified": "2019-04-02T15:51:28+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.03.2019",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/408523",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha_A0555/19_mU",
+      "fileName": "00408523.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00408523.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00408523.pdf",
+      "created": "2019-04-24T12:18:05+02:00",
+      "modified": "2019-05-17T07:48:27+02:00"
     },
     {
-      "name": "Auswertung Winterdienst 2018/2019 - Bericht vom Fachamt",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/408524",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha-V2864/19_mU",
+      "fileName": "00408524.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00408524.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00408524.pdf",
+      "created": "2019-04-24T12:19:35+02:00",
+      "modified": "2019-05-17T07:48:27+02:00"
     },
     {
-      "name": "Informationen zu geplanten und anfinanzierten Baumaßnahmen in der Ortschaft Oberwartha durch das Fachamt der Stadt Dresden",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2019/2020",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16332",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "422155",
-      "auxiliaryFile": [
-        "452062",
-        "399035",
-        "396537",
-        "391977",
-        "391978",
-        "394309",
-        "395049",
-        "420109"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Prüfung und Einrichtung von weiteren Aktivitätspunkten mit Sportgeräten im öffentlichen Bereich",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16377",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "433962",
-      "auxiliaryFile": [
-        "476287",
-        "530007",
-        "391754",
-        "400128",
-        "421331",
-        "432746"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Finanzmittel",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/410553",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00410553.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00410553.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00410553.pdf",
+      "created": "2019-05-07T11:45:30+02:00",
+      "modified": "2019-05-17T07:48:27+02:00"
     }
   ],
-  "id": "7527",
-  "participant": [
-    "354",
-    "351",
-    "350",
-    "1256"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115149",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2019-03-19T15:09:32+01:00",
+      "modified": "2019-04-02T15:30:57+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115150",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 14.03.2019",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2019-03-19T15:10:04+01:00",
+      "modified": "2019-05-07T08:16:50+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115146",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "3",
+      "order": "3",
+      "name": "Auswertung Winterdienst 2018/2019 - Bericht vom Fachamt",
+      "public": true,
+      "created": "2019-03-19T15:07:07+01:00",
+      "modified": "2019-04-02T15:30:57+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115811",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen zu geplanten und anfinanzierten Baumaßnahmen in der Ortschaft Oberwartha durch das Fachamt der Stadt Dresden",
+      "public": true,
+      "created": "2019-04-02T15:30:24+02:00",
+      "modified": "2019-04-02T15:30:57+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115148",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "5",
+      "order": "5",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2019/2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/36006",
+      "result": "Zustimmung",
+      "created": "2019-03-19T15:09:12+01:00",
+      "modified": "2019-04-18T07:47:23+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115147",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "6",
+      "order": "6",
+      "name": "Prüfung und Einrichtung von weiteren Aktivitätspunkten mit Sportgeräten im öffentlichen Bereich",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/36245",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2019-03-19T15:08:58+01:00",
+      "modified": "2019-04-18T07:48:33+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115151",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "7",
+      "order": "7",
+      "name": "Finanzmittel",
+      "public": true,
+      "created": "2019-03-19T15:10:20+01:00",
+      "modified": "2019-04-02T15:30:25+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/115152",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7527",
+      "number": "8",
+      "order": "8",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2019-03-19T15:10:35+01:00",
+      "modified": "2019-04-02T15:30:25+02:00"
+    }
+  ],
+  "created": "2018-09-03T10:03:15+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

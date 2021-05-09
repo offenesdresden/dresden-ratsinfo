@@ -1,160 +1,337 @@
 {
-  "shortName": "OSR AF/003/2014",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 10.11.2014 - 19:00-21:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "3. Sitzung des Ortschaftsrates Altfranken",
   "start": "2014-11-10T19:00:00+01:00",
   "end": "2014-11-10T21:10:00+01:00",
-  "invitation": "184502",
-  "resultsProtocol": "185986",
-  "auxiliaryFile": [
-    "185980",
-    "185979",
-    "185993",
-    "185996",
-    "186001",
-    "186002"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
   ],
-  "verbatimProtocol": "186008",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/305",
+    "http://oparl.dresden.de/bodies/0001/people/1242",
+    "http://oparl.dresden.de/bodies/0001/people/1243"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/184502",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00184502.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-10-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00184502.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00184502.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/185979",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V-AF0012/14",
+    "fileName": "00185979.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-11-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185979.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185979.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Information zum Bearbeitungsstand - Neubau Kita Altfranken",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/184502",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00184502.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-10-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00184502.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00184502.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Beschluss zur Verwendung der Investitionspauschale 2014",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/185979",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0012/14",
+      "fileName": "00185979.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185979.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185979.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Stellungnahme zum Stadtratsbeschluss A0714/13 - Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/185980",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0010/14",
+      "fileName": "00185980.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185980.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185980.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Umsetzung des Stadtratsbeschlusses A0714/13 - Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "erledigt"
+      "id": "http://oparl.dresden.de/bodies/0001/files/185986",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0008/14",
+      "fileName": "00185986.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185986.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185986.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Aufhebung des Beschlusses V-AF0064/13",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/185993",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0013/14",
+      "fileName": "00185993.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185993.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185993.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Nutzung des Ortschaftszentrums für die Seniorengruppe Altfranken",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/185996",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0014/14",
+      "fileName": "00185996.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00185996.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00185996.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Zuwendung aus dem Kulturfonds für den Verein \"Interessengemeinschaft Historisches Altfranken\"",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/186001",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0015/14",
+      "fileName": "00186001.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186001.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186001.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Kinderfest in Altfranken gem. Antrag vom 01.10.2014 (MB 500405976)",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/186002",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0016/14",
+      "fileName": "00186002.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186002.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186002.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Haushaltssatzung 2015/2016 (Vorlage V0025/14) Ergänzung zur Beschlussempfehlung des Ortschaftsrates Altfranken vom 13.10.2014",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 6,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Auswertung des Besuches der Oberbürgermeisterin in der Ortschaft Altfranken",
-      "number": "Ö 9.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorschläge zur Verwendung der finanziellen Mittel des Ortschaftsrates",
-      "number": "Ö 9.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bürgeranfragen",
-      "number": "Ö 9.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information zur Anfrage an die DVB zur Haltestelle Altfranken",
-      "number": "Ö 9.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/186008",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00186008.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00186008.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00186008.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3685",
-  "participant": [
-    "300",
-    "1242",
-    "302",
-    "305",
-    "301",
-    "1243"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "1",
+      "order": "1",
+      "name": "Information zum Bearbeitungsstand - Neubau Kita Altfranken",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58843",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "2",
+      "order": "2",
+      "name": "Beschluss zur Verwendung der Investitionspauschale 2014",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17701",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "3",
+      "order": "3",
+      "name": "Stellungnahme zum Stadtratsbeschluss A0714/13 - Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17508",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/60185",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "3.1",
+      "order": "4",
+      "name": "Umsetzung des Stadtratsbeschlusses A0714/13 - Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16248",
+      "result": "erledigt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "4",
+      "order": "5",
+      "name": "Aufhebung des Beschlusses V-AF0064/13",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17309",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "5",
+      "order": "6",
+      "name": "Nutzung des Ortschaftszentrums für die Seniorengruppe Altfranken",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17302",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58741",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "6",
+      "order": "7",
+      "name": "Zuwendung aus dem Kulturfonds für den Verein \"Interessengemeinschaft Historisches Altfranken\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17698",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58844",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "7",
+      "order": "8",
+      "name": "Kinderfest in Altfranken gem. Antrag vom 01.10.2014 (MB 500405976)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17700",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59538",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "8",
+      "order": "9",
+      "name": "Haushaltssatzung 2015/2016 (Vorlage V0025/14) Ergänzung zur Beschlussempfehlung des Ortschaftsrates Altfranken",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/17803",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/58620",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "9",
+      "order": "10",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59843",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "9.1",
+      "order": "11",
+      "name": "Auswertung des Besuches der Oberbürgermeisterin in der Ortschaft Altfranken",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59844",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "9.2",
+      "order": "12",
+      "name": "Vorschläge zur Verwendung der finanziellen Mittel des Ortschaftsrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59909",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "9.3",
+      "order": "13",
+      "name": "Bürgeranfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/59910",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3685",
+      "number": "9.4",
+      "order": "14",
+      "name": "Information zur Anfrage an die DVB zur Haltestelle Altfranken",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

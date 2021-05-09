@@ -1,12 +1,55 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/21259",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Beschluss im Umlaufverfahren- Neuausschreibung der \"Weixdorfer Nachrichten\"",
-  "shortName": "V-WX0116/21",
   "reference": "V-WX0116/21",
+  "date": "2021-05-04",
   "paperType": "Vorlage OS Weixdorf",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/530614",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Weixdorf",
+    "fileName": "00530614.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-04-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00530614.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00530614.pdf",
+    "created": "2021-03-09T07:27:17+01:00",
+    "modified": "2021-05-04T06:30:47+02:00"
+  },
   "auxiliaryFile": [
-    "530614",
-    "530688"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/530688",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage1- Ausschreibung Weixdorfer Nachrichten",
+      "fileName": "00530688.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-03-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00530688.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00530688.pdf",
+      "created": "2021-03-09T08:23:31+01:00",
+      "modified": "2021-05-04T06:30:47+02:00"
+    }
   ],
-  "id": "21259"
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/37"
+  ],
+  "consultation": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/47787",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/21259",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/146364",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/10210",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+      ],
+      "role": "beschließend",
+      "created": "2021-03-09T08:25:03+01:00",
+      "modified": "2021-04-19T11:31:03+02:00"
+    }
+  ],
+  "created": "2021-03-09T07:27:02+01:00",
+  "modified": "2021-05-04T06:30:47+02:00"
 }

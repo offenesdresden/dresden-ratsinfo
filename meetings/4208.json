@@ -1,47 +1,129 @@
 {
-  "shortName": "OSR AF/015/2015",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 14.12.2015 - 19:00-20:10 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/4208",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ortschaftsrates Altfranken",
   "start": "2015-12-14T19:00:00+01:00",
   "end": "2015-12-14T20:10:00+01:00",
-  "invitation": "233683",
-  "resultsProtocol": "235062",
-  "verbatimProtocol": "235290",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/1242",
+    "http://oparl.dresden.de/bodies/0001/people/1243"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/233683",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00233683.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-12-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00233683.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00233683.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/235062",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V-AF0032/15",
+    "fileName": "00235062.pdf",
+    "mimeType": "application/pdf",
+    "date": "2015-12-15",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00235062.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00235062.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung des Kinder- und Jugendhauses \"Alte Feuerwehr\" Cossebaude",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/233683",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00233683.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00233683.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00233683.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bereitstellung von Finanzmitteln für Ersatzbeschaffung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/235062",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V-AF0032/15",
+      "fileName": "00235062.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00235062.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00235062.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/235290",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00235290.pdf",
+      "mimeType": "application/pdf",
+      "date": "2015-12-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00235290.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00235290.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "4208",
-  "participant": [
-    "300",
-    "1242",
-    "302",
-    "301",
-    "1243"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73911",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4208",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung des Kinder- und Jugendhauses \"Alte Feuerwehr\" Cossebaude",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73977",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4208",
+      "number": "2",
+      "order": "2",
+      "name": "Bereitstellung von Finanzmitteln für Ersatzbeschaffung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23158",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/73968",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/4208",
+      "number": "3",
+      "order": "3",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

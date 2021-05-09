@@ -1,125 +1,110 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/4743",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Aufstellung eines Bebauungsplanes, Dresden-Altstadt I, Neumarkt, Quartier V-1",
-  "shortName": "A0451/11",
   "reference": "A0451/11",
+  "date": "2011-08-29",
   "paperType": "Antrag BürgerBündnis / Freie Bürger",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2011-08-29",
   "auxiliaryFile": [
-    "85029",
-    "72567",
-    "72478"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/72478",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Ausschnitt Gestaltungskonzept Quartier V-1",
+      "fileName": "00072478.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00072478.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00072478.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/72567",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Antrag  BürgerBündnis / Freie Bürger Fraktion",
+      "fileName": "00072567.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-08-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00072567.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00072567.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/85029",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_A0451/11_SB",
+      "fileName": "00085029.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-01-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00085029.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00085029.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/86"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/7405",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/4743",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/22959",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1259",
       "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/8"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1259",
-      "role": "beratend",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1209",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beratend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1226",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/7397",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/4743",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/23970",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1209",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1730",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/7397",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/4743",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/24801",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1226",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/7397",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/4743",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/25639",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1730",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "4743"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

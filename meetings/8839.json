@@ -1,106 +1,241 @@
 {
-  "shortName": "KG/008/2020",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Festsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Kleingartenbeirat - 17.11.2020 - 16:00-18:07 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "22"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "8. Sitzung des Kleingartenbeirates",
   "start": "2020-11-17T16:00:00+01:00",
   "end": "2020-11-17T18:07:00+01:00",
-  "invitation": "508311",
-  "verbatimProtocol": "514918",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/6",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Rathausplatz 1",
+    "room": "Festsaal",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2021-03-04T16:11:30+01:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/22"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/290",
+    "http://oparl.dresden.de/bodies/0001/people/1940",
+    "http://oparl.dresden.de/bodies/0001/people/1936",
+    "http://oparl.dresden.de/bodies/0001/people/1679",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/441",
+    "http://oparl.dresden.de/bodies/0001/people/445",
+    "http://oparl.dresden.de/bodies/0001/people/446"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/508311",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_KG_2020_11_17",
+    "fileName": "00508311.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508311.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508311.pdf",
+    "created": "2020-10-27T13:09:24+01:00",
+    "modified": "2020-11-02T13:49:01+01:00"
+  },
   "auxiliaryFile": [
-    "514829",
-    "514831",
-    "514827",
-    "514828"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/508311",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_KG_2020_11_17",
+      "fileName": "00508311.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508311.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508311.pdf",
+      "created": "2020-10-27T13:09:24+01:00",
+      "modified": "2020-11-02T13:49:01+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/514827",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation_TOP 4_KG_2020_11_17_A0118/20",
+      "fileName": "00514827.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514827.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514827.pdf",
+      "created": "2020-11-27T09:28:13+01:00",
+      "modified": "2021-04-12T12:46:43+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/514828",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation_TOP 5_KG_2020_11_17",
+      "fileName": "00514828.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514828.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514828.pdf",
+      "created": "2020-11-27T09:28:14+01:00",
+      "modified": "2021-04-12T12:46:35+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/514829",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation_TOP 2_KG_2020_11_17",
+      "fileName": "00514829.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514829.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514829.pdf",
+      "created": "2020-11-27T09:28:14+01:00",
+      "modified": "2021-04-12T12:46:25+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/514831",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Präsentation_TOP 3_KG_2020_11_17_V0486/20",
+      "fileName": "00514831.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514831.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514831.pdf",
+      "created": "2020-11-27T09:28:17+01:00",
+      "modified": "2021-04-12T12:46:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/514918",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_KG_2020_11_17",
+      "fileName": "00514918.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514918.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514918.pdf",
+      "created": "2020-11-27T12:27:55+01:00",
+      "modified": "2021-02-01T13:18:11+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137294",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "1",
+      "order": "1",
       "name": "Eröffnung der Sitzung und Bericht des Vorsitzenden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-08-25T13:47:34+02:00",
+      "modified": "2020-09-03T13:21:24+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140532",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "2",
+      "order": "2",
       "name": "Bebauungsplan Nr. 3043, Dresden-Seidnitz Nr. 3, Sport- und Bildungscampus Dresden-Ost, Bodenbacher Straße - Entfall und Ersatz von Kleingärten",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "auxiliaryFile": [
-        "514818"
-      ]
-    },
-    {
-      "name": "Bebauungsplan Nr. 398.B, Dresden-Reick/Strehlen, Wissenschaftsstandort Dresden-Ost, Teilbereich 1.Bhier:1. Änderungsbeschluss Bebauungsplan2. Grenze des Bebauungsplanes3. Billigung des Entwurfs zum Bebauungsplan4. Billigung der Begründung zum Bebauungsplan-Entwurf5. Öffentliche Auslegung des Entwurfs zum Bebauungsplan",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "19244",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "522161",
-      "auxiliaryFile": [
-        "493450",
-        "492544",
-        "486342",
-        "486343",
-        "486344",
-        "486347",
-        "514832"
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/514818",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "Präsentation_TOP 2_KG_2020_11_17",
+          "fileName": "00514818.pdf",
+          "mimeType": "application/pdf",
+          "date": "2020-11-27",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00514818.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00514818.pdf",
+          "created": "2020-11-27T09:25:58+01:00",
+          "modified": "2020-11-27T09:26:01+01:00"
+        }
       ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-27T08:45:17+01:00",
+      "modified": "2020-11-27T09:26:04+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137728",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "3",
+      "order": "3",
+      "name": "Bebauungsplan Nr. 398.B, Dresden-Reick/Strehlen, Wissenschaftsstandort Dresden-Ost, Teilbereich 1.B",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42993",
+      "result": "Zustimmung",
+      "created": "2020-09-03T13:20:56+02:00",
+      "modified": "2020-11-19T07:41:03+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/137729",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "4",
+      "order": "4",
       "name": "Umsetzung qualitativer Nachbesserungen für die Ersatzflächen im Kleingartenpark Strehlen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20312",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "515949",
-      "auxiliaryFile": [
-        "536193",
-        "493449",
-        "514825"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45182",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 3,
-        "no": 1,
-        "neutral": 3,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-09-03T13:21:12+02:00",
+      "modified": "2020-11-19T07:42:41+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140537",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "5",
+      "order": "5",
       "name": "Grünschnittentsorgung in Kleingartenanlagen bei Einschränkung Wertstoffbetrieb (Corona) - Fazit und Ausblick",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
+      "public": true,
       "auxiliaryFile": [
-        "513336"
-      ]
+        {
+          "id": "http://oparl.dresden.de/bodies/0001/files/513336",
+          "type": "https://schema.oparl.org/1.1/File",
+          "name": "Präsentation_KG_TOP 5_2020_11_17",
+          "fileName": "00513336.pdf",
+          "mimeType": "application/pdf",
+          "date": "2020-11-19",
+          "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00513336.pdf",
+          "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00513336.pdf",
+          "created": "2020-11-19T11:33:00+01:00",
+          "modified": "2020-11-19T11:33:00+01:00"
+        }
+      ],
+      "created": "2020-10-27T09:16:53+01:00",
+      "modified": "2020-11-19T11:33:03+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140538",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "6",
+      "order": "6",
       "name": "Informationen und Sonstiges",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-10-27T09:18:02+01:00",
+      "modified": "2020-10-27T09:18:02+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140539",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "6.1",
+      "order": "7",
       "name": "Verlegung der 25-Jahr-Feier des Kleingartenbeirates",
-      "number": "Ö 6.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-10-27T09:18:56+01:00",
+      "modified": "2020-10-27T09:23:29+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140541",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8839",
+      "number": "6.2",
+      "order": "8",
       "name": "Fahrt zur Bundesgartenschau 2021",
-      "number": "Ö 6.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-10-27T09:19:19+01:00",
+      "modified": "2020-10-27T09:19:19+01:00"
     }
   ],
-  "id": "8839"
+  "created": "2019-10-29T07:55:11+01:00",
+  "modified": "2021-02-01T13:17:56+01:00"
 }

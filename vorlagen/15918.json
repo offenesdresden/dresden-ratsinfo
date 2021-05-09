@@ -1,90 +1,80 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/15918",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Mehrbedarf Personalaufwand 2018",
-  "shortName": "V2722/18",
   "reference": "V2722/18",
+  "date": "2018-11-07",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-10-12",
-  "mainFile": "378562",
   "auxiliaryFile": [
-    "378404"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/378404",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00378404.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00378404.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00378404.pdf",
+      "created": "2018-11-12T11:20:54+01:00",
+      "modified": "2018-11-13T07:53:59+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/378562",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V2722/18",
+      "fileName": "00378562.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-11-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00378562.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00378562.pdf",
+      "created": "2018-11-13T07:53:52+01:00",
+      "modified": "2018-11-13T07:53:59+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/384033",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_F_V2722/18",
+      "fileName": "00384033.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-12-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00384033.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00384033.pdf",
+      "created": "2018-12-06T10:18:59+01:00",
+      "modified": "2018-12-06T10:19:00+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/394090",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_F_V2722/18_2019_02_07_Abschlussbericht",
+      "fileName": "00394090.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-02-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00394090.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00394090.pdf",
+      "created": "2019-02-11T07:43:56+01:00",
+      "modified": "2019-02-11T07:44:37+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/110"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/34866",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/15918",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/109314",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6587",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/156"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6716",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6587",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-11-12T11:12:43+01:00",
+      "modified": "2018-12-21T07:57:44+01:00"
     }
   ],
-  "id": "15918"
+  "created": "2018-10-12T12:42:14+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

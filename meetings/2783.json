@@ -1,242 +1,230 @@
 {
-  "shortName": "OBR Co/036/2013",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Cotta, kleiner Sitzungssaal, 1. Etage, Raum 103,Lübecker Straße 121, 01157 Dresden",
-  "name": "Ortsbeirat Cotta - 12.09.2013 - 18:00-21:00 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "37"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "36. Sitzung des Ortsbeirates Cotta",
   "start": "2013-09-12T18:00:00+02:00",
   "end": "2013-09-12T21:00:00+02:00",
-  "invitation": "140303",
-  "verbatimProtocol": "144690",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/27",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Ortsamt Cotta, kleiner Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:54+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/37"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/766",
+    "http://oparl.dresden.de/bodies/0001/people/768",
+    "http://oparl.dresden.de/bodies/0001/people/763",
+    "http://oparl.dresden.de/bodies/0001/people/765",
+    "http://oparl.dresden.de/bodies/0001/people/771",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/776",
+    "http://oparl.dresden.de/bodies/0001/people/778",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/1023",
+    "http://oparl.dresden.de/bodies/0001/people/410",
+    "http://oparl.dresden.de/bodies/0001/people/782",
+    "http://oparl.dresden.de/bodies/0001/people/786",
+    "http://oparl.dresden.de/bodies/0001/people/790",
+    "http://oparl.dresden.de/bodies/0001/people/791",
+    "http://oparl.dresden.de/bodies/0001/people/774"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/140303",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Co",
+    "fileName": "00140303.pdf",
+    "mimeType": "application/pdf",
+    "date": "2013-09-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00140303.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00140303.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/140303",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Co",
+      "fileName": "00140303.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00140303.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00140303.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4864",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "190527",
-        "133484",
-        "132956",
-        "127793",
-        "109571"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999hier:\t1. Billigung der Abwägung über die Stellungnahmen aus der frühzeitigen Beteiligung2. Billigung des Entwurfes des Flächennutzungsplanes3. Billigung der Begründung mit Umweltbericht zum Entwurf des Flächennutzungsplanes4. Öffentliche Auslegung des Entwurfes des Flächennutzungsplanes",
-      "number": "Ö 2.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6164",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "175398",
-      "auxiliaryFile": [
-        "182374",
-        "206715",
-        "228917",
-        "132554",
-        "132516",
-        "106470",
-        "266493",
-        "109725"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 6,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vorbeugender Hochwasserschutz braucht Vorrang: Nachhaltigen Hochwasserschutz gewährleisten",
-      "number": "Ö 2.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7316",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "136722",
-        "140180",
-        "136718",
-        "136719",
-        "136721"
-      ],
-      "resolutionFile": "159557",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 3,
-        "no": 9,
-        "neutral": 5,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bauplanungen in hochwassergefährdeten Gebieten überprüfen - Hochwasservorsorge ernst nehmen",
-      "number": "Ö 2.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7332",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "137276",
-        "158918",
-        "157042",
-        "158850"
-      ],
-      "resolutionFile": "159556",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 7,
-        "no": 8,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Auswertung Hochwasserereignisse Juni 2013",
-      "number": "Ö 2.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7333",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "137277"
-      ],
-      "resolutionFile": "159558",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 2,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Ausgereichte Unterlagen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Prioritätenprogramm zum Bau von Gehwegen im Dresdner Straßennetz",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "6989",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "138818",
-      "auxiliaryFile": [
-        "330214",
-        "285136",
-        "172286",
-        "191385",
-        "236202",
-        "135000",
-        "134543",
-        "128933",
-        "128934",
-        "128935",
-        "128936",
-        "128937",
-        "128938",
-        "128939",
-        "128940",
-        "134105",
-        "128941",
-        "128942"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Stadtbahn 2020, Straßenbahn-Neubaustrecke Löbtau - Südvorstadt - Strehlen, Teilstrecke 1.2: Nossener Brücke - Nürnberger Straße, Variantenvoruntersuchung",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7139",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "140168",
-        "139860",
-        "135407",
-        "132260",
-        "132261",
-        "132263"
-      ],
-      "resolutionFile": "132262",
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Zentralhaltestelle Kesselsdorfer StraßeInformation zum Planungsstand",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "7268",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "136768",
-        "136561",
-        "136043",
-        "136044",
-        "136045",
-        "136047",
-        "136048"
-      ],
-      "resolutionFile": "136046",
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/144690",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00144690.pdf",
+      "mimeType": "application/pdf",
+      "date": "2013-09-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00144690.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00144690.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "2783",
-  "participant": [
-    "401",
-    "766",
-    "768",
-    "763",
-    "765",
-    "771",
-    "409",
-    "776",
-    "778",
-    "780",
-    "1023",
-    "782",
-    "410",
-    "786",
-    "791",
-    "790",
-    "774"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44636",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44637",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44643",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "2.1",
+      "order": "3",
+      "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10834",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44641",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "2.2",
+      "order": "4",
+      "name": "Entwurf zum Flächennutzungsplan der Landeshauptstadt Dresden in den Stadtgrenzen vom 1. Januar 1999",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/10783",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44638",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "2.3",
+      "order": "5",
+      "name": "Vorbeugender Hochwasserschutz braucht Vorrang: Nachhaltigen Hochwasserschutz gewährleisten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13345",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44639",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "2.4",
+      "order": "6",
+      "name": "Bauplanungen in hochwassergefährdeten Gebieten überprüfen - Hochwasservorsorge ernst nehmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13432",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44640",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "2.5",
+      "order": "7",
+      "name": "Auswertung Hochwasserereignisse Juni 2013",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13454",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44646",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "3",
+      "order": "8",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/45021",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "4",
+      "order": "9",
+      "name": "Ausgereichte Unterlagen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44642",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "4.1",
+      "order": "10",
+      "name": "Prioritätenprogramm zum Bau von Gehwegen im Dresdner Straßennetz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12628",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44644",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "4.2",
+      "order": "11",
+      "name": "Stadtbahn 2020, Straßenbahn-Neubaustrecke Löbtau - Südvorstadt - Strehlen, Teilstrecke 1.2: Nossener Brücke - Nürnberger Straße, Variantenvoruntersuchung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12986",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/44645",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2783",
+      "number": "4.3",
+      "order": "12",
+      "name": "Zentralhaltestelle Kesselsdorfer Straße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/13251",
+      "result": "zur Kenntnis genommen",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

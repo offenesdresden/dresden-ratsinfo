@@ -1,39 +1,94 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18046",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Priorisierung von örtlichen Straßenbaumaßnahmen im Stadtbezirk Loschwitz",
-  "shortName": "V-Lo00007/19",
   "reference": "V-Lo00007/19",
+  "date": "2019-11-19",
   "paperType": "Vorlage STB Loschwitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-11-19",
   "auxiliaryFile": [
-    "444601"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/444601",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage V-Lo00007/19 alt",
+      "fileName": "00444601.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00444601.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00444601.pdf",
+      "created": "2019-11-19T15:45:23+01:00",
+      "modified": "2020-01-21T16:28:44+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/454684",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage V-Lo00007/19 mit Unterschrift",
+      "fileName": "00454684.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-01-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00454684.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00454684.pdf",
+      "created": "2020-01-21T16:28:07+01:00",
+      "modified": "2020-01-21T16:28:44+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/458153",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SBR Loschwitz_V-Lo00007/19",
+      "fileName": "00458153.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-02-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00458153.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00458153.pdf",
+      "created": "2020-02-11T08:11:53+01:00",
+      "modified": "2020-02-11T08:11:54+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/484409",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlusskontrolle_SBR Lo_V-Lo00007/19_2020_07_02_Abschlussbericht",
+      "fileName": "00484409.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-07-06",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00484409.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00484409.pdf",
+      "created": "2020-07-06T05:13:21+02:00",
+      "modified": "2020-07-06T05:13:21+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/124"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8433",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40020",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18046",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/124644",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8433",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/171"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-11-19T14:38:23+01:00",
+      "modified": "2019-12-04T22:17:41+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40020",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18046",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/126088",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9109",
       "organization": [
-        {
-          "name": "05.02.2020 Stadtbezirksbeirat Loschwitz",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/171"
       ],
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-01-07T14:55:09+01:00",
+      "modified": "2020-02-11T12:05:13+01:00"
     }
   ],
-  "id": "18046"
+  "created": "2019-11-19T09:10:57+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

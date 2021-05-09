@@ -1,28 +1,61 @@
 {
-  "shortName": "KB/011/2012",
-  "locality": "Landeshauptstadt Dresden, im Kulturrathaus, Beratungsraum, 2. Etage,Königstraße 15, 01097 Dresden",
-  "name": "Kulturbeirat - 18.06.2012 - 18:00-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "21"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1856",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "11. Sitzung des Kulturbeirates",
   "start": "2012-06-18T18:00:00+02:00",
   "end": "2012-06-18T20:30:00+02:00",
-  "invitation": "100673",
-  "agendaItem": [
-
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/23",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Königsstraße 15",
+    "room": "Kulturrathaus, Beratungsraum",
+    "postalCode": "01097",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/21"
   ],
-  "id": "1856",
   "participant": [
-    "868",
-    "968",
-    "874",
-    "880",
-    "872",
-    "879",
-    "870",
-    "877",
-    "876",
-    "871"
-  ]
+    "http://oparl.dresden.de/bodies/0001/people/868",
+    "http://oparl.dresden.de/bodies/0001/people/870",
+    "http://oparl.dresden.de/bodies/0001/people/871",
+    "http://oparl.dresden.de/bodies/0001/people/872",
+    "http://oparl.dresden.de/bodies/0001/people/874",
+    "http://oparl.dresden.de/bodies/0001/people/876",
+    "http://oparl.dresden.de/bodies/0001/people/877",
+    "http://oparl.dresden.de/bodies/0001/people/879",
+    "http://oparl.dresden.de/bodies/0001/people/880",
+    "http://oparl.dresden.de/bodies/0001/people/968"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/100673",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_KB",
+    "fileName": "00100673.pdf",
+    "mimeType": "application/pdf",
+    "date": "2012-06-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00100673.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00100673.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/100673",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_KB",
+      "fileName": "00100673.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00100673.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00100673.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

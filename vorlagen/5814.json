@@ -1,36 +1,79 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/5814",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Jugendhilfeausschuss",
-  "shortName": "V1665/12",
   "reference": "V1665/12",
+  "date": "2012-05-09",
   "paperType": "EILT-Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2012-05-04",
   "auxiliaryFile": [
-    "102930",
-    "97352",
-    "97353"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/97352",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00097352.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00097352.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00097352.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/97353",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Schreiben Caritasverband",
+      "fileName": "00097353.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00097353.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00097353.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/102930",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V1665/12",
+      "fileName": "00102930.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-06-26",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00102930.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00102930.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1884",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/9985",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/5814",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/30521",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1884",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1885",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/9985",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/5814",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/31213",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1885",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "5814"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

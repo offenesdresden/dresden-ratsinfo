@@ -1,199 +1,249 @@
 {
-  "shortName": "SBR Alt/023/2021",
-  "locality": "Landeshauptstadt Dresden, Landeshauptstadt Dresden, im Neuen Rathaus, Plenarsaal,Rathausplatz 1, 01067 Dresden",
-  "name": "Stadtbezirksbeirat Altstadt - 11.05.2021 - 17:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "165"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "23. Sitzung des Stadtbezirksbeirates Altstadt",
   "start": "2021-05-11T17:30:00+02:00",
-  "invitation": "542802",
+  "end": "2021-05-11T00:00:00+02:00",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/3242",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Theaterstraße 11",
+    "room": "Stadtbezirksamt Altstadt, Raum 100",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2018-09-03T12:35:06+02:00",
+    "modified": "2018-09-06T08:48:21+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/165"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/542181",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_SBR Alt",
+    "fileName": "00542181.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-04-29",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00542181.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00542181.pdf",
+    "created": "2021-04-29T11:06:41+02:00",
+    "modified": "2021-05-03T13:42:01+02:00"
+  },
   "auxiliaryFile": [
-    "542181"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/542181",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Alt",
+      "fileName": "00542181.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-04-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00542181.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00542181.pdf",
+      "created": "2021-04-29T11:06:41+02:00",
+      "modified": "2021-05-03T13:42:01+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/542802",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_SBR Altstadt/023/2021",
+      "fileName": "00542802.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-05-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00542802.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00542802.pdf",
+      "created": "2021-05-03T13:42:32+02:00",
+      "modified": "2021-05-03T13:42:33+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148183",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "1",
+      "order": "1",
       "name": "Medizinstrategische und bauliche Entwicklung des Städtischen Klinikums Dresden",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21128",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "533919",
-        "525549",
-        "531905",
-        "531508",
-        "531509",
-        "531510",
-        "531511",
-        "525574"
-      ],
-      "resolutionFile": "525573"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47451",
+      "created": "2021-04-14T08:22:06+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147483",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "2",
+      "order": "2",
       "name": "Vorlagen und Anträge zur Beschlussfassung durch den Stadtbezirksbeirat",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-29T12:03:30+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148432",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "2.1",
+      "order": "3",
       "name": "Förderung von Projekten durch den Stadtbezirksbeirat Altstadt hier: Makroprojekt (Nr. Alt-008/21) 26. Stadtteilfest Friedrichstadt",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21403",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "535944",
-        "540837",
-        "540834",
-        "535951",
-        "535960",
-        "535953",
-        "535954"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48094",
+      "created": "2021-04-20T12:32:37+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147484",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3",
+      "order": "4",
       "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-29T12:03:30+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148182",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3.1",
+      "order": "5",
       "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2021/2022",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20960",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "538552",
-        "536835",
-        "533288",
-        "528724"
-      ],
-      "resolutionFile": "524562"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47325",
+      "created": "2021-04-14T08:21:46+02:00",
+      "modified": "2021-04-28T08:51:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148181",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3.2",
+      "order": "6",
       "name": "Umsetzung des Maßnahmenkonzeptes für die Herstellung und den Bau eines Touristischen Fußgängerleitsystems",
-      "number": "Ö 3.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20620",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "512942",
-        "511334",
-        "508259",
-        "508260",
-        "503593",
-        "534618",
-        "532722",
-        "535299",
-        "534781"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46383",
+      "created": "2021-04-14T08:21:29+02:00",
+      "modified": "2021-04-28T08:51:25+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148184",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3.3",
+      "order": "7",
       "name": "Sonderregelungen bei Eintritt von Fällen höherer Gewalt wie Pandemielagen für den Striezelmarkt 2021",
-      "number": "Ö 3.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21204",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "538555",
-        "536842"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47658",
+      "created": "2021-04-14T08:22:28+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
-      "name": "Ausschreibung von Dienstleistungskonzessionen für die Organisation und Durchführung von Thematischen Weihnachtsmärkten, einer Thematischen Weihnachtsveranstaltung sowie einer Jahreswechselveranstaltung in den Jahren 2022 bis 2024 einschließlich einer Verlängerungsoption bis 2026; Änderung der Satzung der Landeshauptstadt Dresden zur Nutzung öffentlicher Flächen für Jahr- und Spezialmärkte (Jahr- und Spezialmarktsatzung)",
-      "number": "Ö 3.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21249",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "539860",
-        "537817",
-        "536970",
-        "536972",
-        "536973",
-        "536978",
-        "536979",
-        "537120",
-        "536985",
-        "536990",
-        "536991",
-        "536992",
-        "530209"
-      ]
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148185",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3.4",
+      "order": "8",
+      "name": "Ausschreibung von Dienstleistungskonzessionen für die Organisation und Durchführung von Thematischen Weihnachtsmärkten, einer Thematischen Weihnachtsveranstaltung sowie einer Jahreswechselveranstaltung in den Jahren 2022 bis 2024 einschließlich einer",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/47758",
+      "created": "2021-04-14T08:22:44+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3.5",
+      "order": "9",
       "name": "Verlängerung des 587. Striezelmarktes im Jahr 2021",
-      "number": "Ö 3.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21426",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "537248"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48145",
+      "created": "2021-04-14T08:22:56+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148187",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3.6",
+      "order": "10",
       "name": "Verlängerung der thematischen Weihnachtsmärkte Dresdens im Jahr 2021",
-      "number": "Ö 3.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "21427",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "537254"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/48151",
+      "created": "2021-04-14T08:23:04+02:00",
+      "modified": "2021-04-23T08:53:00+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/149145",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "3.7",
+      "order": "11",
       "name": "Neuordnung der Fahrspuren auf der Güntzstraße im Kreuzungsbereich zur Pillnitzer Straße und Striesener Straße",
-      "number": "Ö 3.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "18878",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "471293"
-      ]
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/42125",
+      "result": "Vertagung",
+      "created": "2021-04-29T11:06:11+02:00",
+      "modified": "2021-05-07T09:09:15+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147482",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "4",
+      "order": "12",
       "name": "Bestätigung der Niederschriften",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-29T12:03:30+02:00",
+      "modified": "2021-04-29T11:06:12+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148262",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "4.1",
+      "order": "13",
       "name": "Bestätigung der Niederschrift zur 20. Sitzung des Stadtbezirksbeirates am 17.03.2021",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-04-16T05:24:22+02:00",
+      "modified": "2021-04-29T11:06:12+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148189",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "4.2",
+      "order": "14",
       "name": "Bestätigung der Niederschrift zur 21. Sitzung des Stadtbezirksbeirates am 14.04.2021",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-04-14T08:24:25+02:00",
+      "modified": "2021-04-29T11:06:12+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/148433",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "4.3",
+      "order": "15",
       "name": "Bestätigung der Niederschrift zur 22. Sitzung des Stadtbezirksbeirates am 27.04.2021",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-04-20T12:33:29+02:00",
+      "modified": "2021-04-29T11:06:12+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/147489",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9907",
+      "number": "5",
+      "order": "16",
       "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2021-03-29T12:03:30+02:00",
+      "modified": "2021-04-29T11:06:12+02:00"
     }
   ],
-  "id": "9907"
+  "created": "2020-10-05T08:10:29+02:00",
+  "modified": "2021-05-05T05:25:33+02:00"
 }

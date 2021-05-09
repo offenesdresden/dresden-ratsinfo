@@ -1,74 +1,98 @@
 {
-  "shortName": "OBR Lo/003/2010",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Loschwitz, Beratungsraum, 2. Etage,Grundstraße 3, 01326 Dresden",
-  "name": "Ortsbeirat Loschwitz - 20.01.2010 - 17:00-18:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "38"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/297",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "3. Sitzung des Ortsbeirates Loschwitz",
   "start": "2010-01-20T17:00:00+01:00",
   "end": "2010-01-20T18:45:00+01:00",
-  "verbatimProtocol": "22037",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/29",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Grundstraße 3",
+    "room": "Ortsamt Loschwitz, Beratungsraum",
+    "postalCode": "01326",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:11+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/38"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/619",
+    "http://oparl.dresden.de/bodies/0001/people/621",
+    "http://oparl.dresden.de/bodies/0001/people/623",
+    "http://oparl.dresden.de/bodies/0001/people/625",
+    "http://oparl.dresden.de/bodies/0001/people/627",
+    "http://oparl.dresden.de/bodies/0001/people/629",
+    "http://oparl.dresden.de/bodies/0001/people/631",
+    "http://oparl.dresden.de/bodies/0001/people/633",
+    "http://oparl.dresden.de/bodies/0001/people/635",
+    "http://oparl.dresden.de/bodies/0001/people/637",
+    "http://oparl.dresden.de/bodies/0001/people/638"
+  ],
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle der Niederschrift zur 2. Ortsbeiratssitzung am 02.12.2009",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Erhalt des \"Blauen Wunders\" und Aufwertung des Schiller- und Körnerplatzes",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1001",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "14719",
-        "123870",
-        "146845",
-        "158502",
-        "166491",
-        "176855",
-        "198140",
-        "225320",
-        "248211",
-        "283131",
-        "331238",
-        "386956",
-        "457926"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/22037",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00022037.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-02-18",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00022037.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00022037.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "297",
-  "participant": [
-    "621",
-    "619",
-    "623",
-    "625",
-    "627",
-    "629",
-    "631",
-    "635",
-    "633",
-    "637",
-    "638"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4954",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/297",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle der Niederschrift zur 2. Ortsbeiratssitzung am 02.12.2009",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4956",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/297",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4957",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/297",
+      "number": "2.1",
+      "order": "3",
+      "name": "Erhalt des \"Blauen Wunders\" und Aufwertung des Schiller- und Körnerplatzes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1736",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4959",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/297",
+      "number": "3",
+      "order": "4",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

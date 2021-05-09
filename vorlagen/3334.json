@@ -1,63 +1,82 @@
 {
-  "name": "Vorhabenbezogener Bebauungsplan Nr. 6000, Dresden-Strehlen, Villa Elsa-Brändström-Straße hier:\t1. Aufstellungsbeschluss vorhabenbezogener Bebauungsplan\t2. Grenzen des vorhabenbezogenen Bebauungsplanes",
-  "shortName": "V0879/10",
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/3334",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
+  "name": "Vorhabenbezogener Bebauungsplan Nr. 6000, Dresden-Strehlen, Villa Elsa-Brändström-Straße",
   "reference": "V0879/10",
+  "date": "2010-12-16",
   "paperType": "Vorlage B-/VB-Pläne/FNP-Änderungen",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2010-12-10",
   "auxiliaryFile": [
-    "51172",
-    "50798",
-    "50799"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/50798",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "a) Anlage 1-Geltungsbereich",
+      "fileName": "00050798.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050798.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050798.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/50799",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "b) Anlage 2-Übersichtsplan",
+      "fileName": "00050799.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00050799.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00050799.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/51172",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00051172.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-12-15",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00051172.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00051172.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/46"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/5295",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/3334",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/15537",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1284",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/41"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1284",
-      "role": "beratend",
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "1029",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beratend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/5296",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/3334",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/15609",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1029",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/11"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "3334"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

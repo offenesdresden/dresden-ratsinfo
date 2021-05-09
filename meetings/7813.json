@@ -1,123 +1,168 @@
 {
-  "shortName": "B/031/2019",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Beirat für Menschen mit Behinderungen - 29.10.2019 - 16:30-19:05 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "147"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "31. Sitzung des Beirates für Menschen mit Behinderungen",
   "start": "2019-10-29T16:30:00+01:00",
   "end": "2019-10-29T19:05:00+01:00",
-  "invitation": "435407",
-  "auxiliaryFile": [
-    "440033"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/147"
   ],
-  "verbatimProtocol": "444060",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/858",
+    "http://oparl.dresden.de/bodies/0001/people/1648",
+    "http://oparl.dresden.de/bodies/0001/people/271",
+    "http://oparl.dresden.de/bodies/0001/people/1037",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/864",
+    "http://oparl.dresden.de/bodies/0001/people/1452",
+    "http://oparl.dresden.de/bodies/0001/people/62"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/435407",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_B_2019_10_29",
+    "fileName": "00435407.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-10-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00435407.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00435407.pdf",
+    "created": "2019-10-10T12:30:13+02:00",
+    "modified": "2019-10-14T09:37:58+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kontrolle über die Festlegungen der vergangenen Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/435407",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_B_2019_10_29",
+      "fileName": "00435407.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00435407.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00435407.pdf",
+      "created": "2019-10-10T12:30:13+02:00",
+      "modified": "2019-10-14T09:37:58+02:00"
     },
     {
-      "name": "Veranstaltungsnetz Altmarkt - Umgestaltung für eine barrierefreie Leitungsführung/Herstellung einer funktionstüchtigen Platzdrainage",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17456",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "450118",
-      "auxiliaryFile": [
-        "476330",
-        "432142",
-        "431872",
-        "427852",
-        "427853",
-        "426370",
-        "428392",
-        "440059",
-        "449526",
-        "447849"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 6,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/440033",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_B_V3268/19_Anlage",
+      "fileName": "00440033.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00440033.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00440033.pdf",
+      "created": "2019-11-04T10:44:15+01:00",
+      "modified": "2020-01-30T09:15:02+01:00"
     },
     {
-      "name": "Änderung und Neufassung der Richtlinie zur Gewährung des Dresden-Passes für Einwohnerinnen und Einwohner der Landeshauptstadt Dresden mit geringem Einkommen - Erweiterung des anspruchsberechtigten Personenkreises und des Leistungsumfanges",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "17237",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "453579",
-      "auxiliaryFile": [
-        "464083",
-        "528280",
-        "426390",
-        "425205",
-        "424758",
-        "424870",
-        "420930",
-        "420931",
-        "420933",
-        "420934",
-        "433495",
-        "442403",
-        "449230",
-        "449507",
-        "441655"
-      ],
-      "result": "Zustimmung mit Ergänzung",
-      "vote": {
-        "yes": 7,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Sozialen Wohnungsbau mit ökologisch und städtebaulich innovativem Quartier voranbringen - Aufstellungsbeschluss für Globus-Markt am Leipziger Bahnhof aufheben",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "16749",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "403615",
-        "443811",
-        "444869"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Berichterstattung zum Stand der Umsetzung des Konzeptes \"Inklusion in der Dresdner Kindertagesbetreuung\"",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Berichterstattung der Beauftragten für Menschen mit Behinderungen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Sonstiges",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/444060",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00444060.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00444060.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00444060.pdf",
+      "created": "2019-11-19T06:13:09+01:00",
+      "modified": "2020-01-30T09:15:02+01:00"
     }
   ],
-  "id": "7813"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122514",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+      "number": "1",
+      "order": "1",
+      "name": "Kontrolle über die Festlegungen der vergangenen Sitzung",
+      "public": true,
+      "created": "2019-10-09T13:40:14+02:00",
+      "modified": "2019-10-09T13:42:16+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122520",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+      "number": "2",
+      "order": "2",
+      "name": "Veranstaltungsnetz Altmarkt - Umgestaltung für eine barrierefreie Leitungsführung/Herstellung einer funktionstüchtigen Platzdrainage",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/39448",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2019-10-09T13:42:00+02:00",
+      "modified": "2019-10-30T10:58:21+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122517",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+      "number": "3",
+      "order": "3",
+      "name": "Änderung und Neufassung der Richtlinie zur Gewährung des Dresden-Passes für Einwohnerinnen und Einwohner der Landeshauptstadt Dresden mit geringem Einkommen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/38780",
+      "result": "Zustimmung mit Ergänzung",
+      "created": "2019-10-09T13:40:14+02:00",
+      "modified": "2019-10-30T12:29:30+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122516",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+      "number": "4",
+      "order": "4",
+      "name": "Sozialen Wohnungsbau mit ökologisch und städtebaulich innovativem Quartier voranbringen - Aufstellungsbeschluss für Globus-Markt am Leipziger Bahnhof aufheben",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/37211",
+      "result": "Zustimmung mit Änderung",
+      "created": "2019-10-09T13:40:14+02:00",
+      "modified": "2019-10-30T12:43:07+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122521",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+      "number": "5",
+      "order": "5",
+      "name": "Berichterstattung zum Stand der Umsetzung des Konzeptes \"Inklusion in der Dresdner Kindertagesbetreuung\"",
+      "public": true,
+      "created": "2019-10-09T13:44:34+02:00",
+      "modified": "2019-11-12T14:48:59+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122515",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+      "number": "6",
+      "order": "6",
+      "name": "Berichterstattung der Beauftragten für Menschen mit Behinderungen",
+      "public": true,
+      "created": "2019-10-09T13:40:14+02:00",
+      "modified": "2019-10-09T13:45:00+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/122518",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7813",
+      "number": "7",
+      "order": "7",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2019-10-09T13:40:14+02:00",
+      "modified": "2019-10-09T13:44:34+02:00"
+    }
+  ],
+  "created": "2018-10-09T15:59:41+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

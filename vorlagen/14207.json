@@ -1,83 +1,77 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/14207",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Umbesetzung im Jugendhilfeausschuss",
-  "shortName": "V1944/17",
   "reference": "V1944/17",
+  "date": "2017-08-30",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2017-08-25",
   "auxiliaryFile": [
-    "317751",
-    "314134",
-    "313961",
-    "311974"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/311974",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "bereits gefasste Beschlüsse_V1878/17",
+      "fileName": "00311974.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-08-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00311974.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00311974.pdf",
+      "created": "2017-08-25T13:58:32+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/313961",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00313961.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-09-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00313961.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00313961.pdf",
+      "created": "2017-09-11T09:17:07+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/314134",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V1944/17 - ohne Anlage",
+      "fileName": "00314134.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-09-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00314134.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00314134.pdf",
+      "created": "2017-09-12T06:00:27+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/317751",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_SR_V1944/17",
+      "fileName": "00317751.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-10-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00317751.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00317751.pdf",
+      "created": "2017-10-12T14:47:28+02:00",
+      "modified": "2017-10-12T14:47:35+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/29902",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/14207",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/93861",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5765",
       "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung des Oberbürgermeisters",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "zur Information",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Ältestenrat",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5765",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2017-08-31T08:20:27+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "14207"
+  "created": "2017-08-25T13:50:37+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

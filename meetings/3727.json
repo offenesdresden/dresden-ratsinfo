@@ -1,147 +1,245 @@
 {
-  "shortName": "OSR WX/001/2014",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 15.09.2014 - 19:00-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "1. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2014-09-15T19:00:00+02:00",
   "end": "2014-09-15T21:45:00+02:00",
-  "invitation": "179263",
-  "resultsProtocol": "180478",
-  "verbatimProtocol": "180127",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/66",
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/381",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/1264",
+    "http://oparl.dresden.de/bodies/0001/people/1265",
+    "http://oparl.dresden.de/bodies/0001/people/391",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/388",
+    "http://oparl.dresden.de/bodies/0001/people/390",
+    "http://oparl.dresden.de/bodies/0001/people/1266"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/179263",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00179263.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-09-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00179263.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00179263.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/180478",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung",
+    "fileName": "00180478.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-09-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00180478.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00180478.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/179263",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00179263.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-09-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00179263.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00179263.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/180127",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00180127.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-09-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00180127.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00180127.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Feststellung, ob Hinderungsgründe im Ergebnis der Ortschaftsratswahl nach § 18 Abs. 1 SächsGemO und § 32 Abs. 1 SächsGemO vorliegen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "einstimmig",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Feststellung der Mitglieder des Ortschaftsrates und der Ersatzpersonen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verpflichtung des Ortschaftsrates",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "gewählt"
-    },
-    {
-      "name": "Festlegung der Wahlkommission/ Wahl des Ortsvorstehers",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "gewählt",
-      "vote": {
-        "yes": 10,
-        "no": 1,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Feststellung der Anzahl der Stellvertreter des Ortsvorstehers und Wahl der / des Stellvertreter(s) des Ortsvorstehers",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "gewählt"
-    },
-    {
-      "name": "Festlegung der Anzahl und Aufgaben der beratenden Ausschüsse und deren Besetzung",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "einstimmig",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Haushaltssatzung 2015/2016",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8835",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "190728",
-      "auxiliaryFile": [
-        "190166",
-        "190159",
-        "283546",
-        "199462",
-        "211163",
-        "217898",
-        "262335",
-        "242649",
-        "178551",
-        "180900",
-        "180899",
-        "180248",
-        "191549",
-        "191627",
-        "191628",
-        "191626"
-      ]
-    },
-    {
-      "name": "Sonstiges Ergebnisse und Konsequenzen der Eingemeindungen in die Landeshauptstadt Dresden",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/180478",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung",
+      "fileName": "00180478.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-09-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00180478.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00180478.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3727",
-  "participant": [
-    "298",
-    "1265",
-    "381",
-    "66",
-    "383",
-    "1264",
-    "391",
-    "1266",
-    "388",
-    "386",
-    "390"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56215",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56216",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56306",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "3",
+      "order": "3",
+      "name": "Feststellung, ob Hinderungsgründe",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16818",
+      "result": "einstimmig",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56307",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "4",
+      "order": "4",
+      "name": "Feststellung der Mitglieder des Ortschaftsrates",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16824",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56308",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "5",
+      "order": "5",
+      "name": "Verpflichtung des Ortschaftsrates",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16825",
+      "result": "gewählt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56435",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "6",
+      "order": "6",
+      "name": "Festlegung der Wahlkommission/",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16837",
+      "result": "gewählt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56436",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "7",
+      "order": "7",
+      "name": "Feststellung der Anzahl der Stellvertreter",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16838",
+      "result": "gewählt",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56437",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "8",
+      "order": "8",
+      "name": "Festlegung der Anzahl und Aufgaben der beratenden Ausschüsse",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16839",
+      "result": "einstimmig",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "9",
+      "order": "9",
+      "name": "Haushaltssatzung 2015/2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16725",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56498",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "10",
+      "order": "10",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56222",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "11",
+      "order": "11",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/56223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3727",
+      "number": "12",
+      "order": "12",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

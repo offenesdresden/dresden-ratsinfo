@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17667",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmittel - Stadtteilfeuerwehr Weißig - Instandsetzung historische Handdruckspritze",
-  "shortName": "V-SW0277/19",
   "reference": "V-SW0277/19",
+  "date": "2019-09-19",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/430619",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00430619.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-09-17",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00430619.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00430619.pdf",
+    "created": "2019-09-17T12:19:40+02:00",
+    "modified": "2019-09-19T07:44:49+02:00"
+  },
   "auxiliaryFile": [
-    "434148",
-    "430619"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/434148",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0277/19_mU",
+      "fileName": "00434148.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-10-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00434148.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00434148.pdf",
+      "created": "2019-10-07T08:13:21+02:00",
+      "modified": "2019-10-07T08:13:21+02:00"
+    }
   ],
-  "id": "17667",
-  "publishedDate": "2019-09-17",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8462",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39222",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17667",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/121445",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8462",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-09-17T12:23:32+02:00",
+      "modified": "2019-10-08T09:06:59+02:00"
     }
-  ]
+  ],
+  "created": "2019-09-17T12:11:43+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

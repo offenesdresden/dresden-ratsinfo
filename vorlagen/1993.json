@@ -1,66 +1,104 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/1993",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Auswahlverfahren Spezialmärkte",
-  "shortName": "V0574/10",
   "reference": "V0574/10",
+  "date": "2010-05-11",
   "paperType": "Vorlage",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2010-05-04",
   "auxiliaryFile": [
-    "30488",
-    "30365",
-    "30185",
-    "30187",
-    "30186",
-    "29746"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/29746",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "V2753-SR76-08",
+      "fileName": "00029746.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00029746.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00029746.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/30185",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Hinweis GLB zu V0574",
+      "fileName": "00030185.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00030185.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00030185.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/30186",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Stellungnahme FB zu V0574",
+      "fileName": "00030186.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00030186.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00030186.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/30187",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Stellungnahme BMB zu V0574",
+      "fileName": "00030187.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00030187.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00030187.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/30365",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Anlage 1 Richtlinie Spezialmärkte",
+      "fileName": "00030365.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00030365.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00030365.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/30488",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorlage Gremien",
+      "fileName": "00030488.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00030488.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00030488.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/47"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/3293",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/1993",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/8913",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/527",
       "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/1"
       ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "organization": [
-        {
-          "name": "Dienstberatung der Oberbürgermeisterin",
-          "type": "https://oparl.org/schema/1.0/Organization"
-        }
-      ],
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "603",
-      "role": "beratend",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "527",
-      "role": "beschließend",
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "1993"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

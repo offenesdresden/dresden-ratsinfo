@@ -1,49 +1,123 @@
 {
-  "shortName": "OBR Kl/018/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 04.04.2016 - 18:30-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5247",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "18. Sitzung des Ortsbeirates Klotzsche",
   "start": "2016-04-04T18:30:00+02:00",
   "end": "2016-04-04T19:30:00+02:00",
-  "invitation": "247403",
-  "verbatimProtocol": "249000",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1062",
+    "http://oparl.dresden.de/bodies/0001/people/1348",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/610",
+    "http://oparl.dresden.de/bodies/0001/people/1345",
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/612",
+    "http://oparl.dresden.de/bodies/0001/people/613",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/617",
+    "http://oparl.dresden.de/bodies/0001/people/604",
+    "http://oparl.dresden.de/bodies/0001/people/1458"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/247403",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00247403.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-03-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00247403.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00247403.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "248976"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/247403",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00247403.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-03-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00247403.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00247403.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/248976",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "2016-04-04_Vorstellung_Heim_Karl-marx-Str_Hochbau",
+      "fileName": "00248976.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00248976.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00248976.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/249000",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00249000.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-04-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00249000.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00249000.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77653",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5247",
+      "number": "1",
+      "order": "1",
       "name": "Information des Hochbauamtes zur baulichen Umsetzung der Unterkunft für Asylbewerber an der Karl-Marx-Straße",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77654",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5247",
+      "number": "2",
+      "order": "2",
       "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/77655",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5247",
+      "number": "3",
+      "order": "3",
       "name": "Anfragen und Anregungen",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "5247",
-  "participant": [
-    "1062",
-    "1348",
-    "601",
-    "607",
-    "610",
-    "1345",
-    "612",
-    "611",
-    "613",
-    "1136",
-    "617",
-    "604",
-    "1458"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

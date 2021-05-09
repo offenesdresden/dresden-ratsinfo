@@ -1,85 +1,175 @@
 {
-  "shortName": "OSR MB/005/2009",
-  "locality": "Landeshauptstadt Dresden, im \"Dorfklub Mobschatz\", SitzungssaalAm Tummelsgrund 7 b, 01156 Dresden",
-  "name": "Ortschaftsrat Mobschatz - 10.12.2009 - 19:35-20:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "45"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/70",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "5. Sitzung des Ortschaftsrates Mobschatz",
   "start": "2009-12-10T19:35:00+01:00",
   "end": "2009-12-10T20:45:00+01:00",
-  "resultsProtocol": "18331",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/36",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Am Tummelsgrund 7 b",
+    "room": "Ortschaft Mobschatz, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/45"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/813",
+    "http://oparl.dresden.de/bodies/0001/people/341",
+    "http://oparl.dresden.de/bodies/0001/people/342",
+    "http://oparl.dresden.de/bodies/0001/people/343",
+    "http://oparl.dresden.de/bodies/0001/people/344",
+    "http://oparl.dresden.de/bodies/0001/people/345",
+    "http://oparl.dresden.de/bodies/0001/people/346",
+    "http://oparl.dresden.de/bodies/0001/people/347",
+    "http://oparl.dresden.de/bodies/0001/people/348",
+    "http://oparl.dresden.de/bodies/0001/people/349"
+  ],
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/18331",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_V-MB0016/09",
+    "fileName": "00018331.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-01-13",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018331.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018331.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bestätigung der Tagesordnung und Bestätigung der Niederschrift",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anträge und Vorlagen des Ortschaftsrates Mobschatz zur Beschlussfassung",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Stellungnahme des Ortschaftsrates Mobschatz zum Flächennutzungsplan - in der Phase der frühzeitigen Beteiligung zum Vorentwurf in der Fassung vom 26.11.2008",
-      "number": "Ö 3.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen zur Grünanlagensatzung",
-      "number": "Ö 4.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information über die Wünsche-Box",
-      "number": "Ö 4.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Information über den Entdeckungspfad \"Zschonergrund\"",
-      "number": "Ö 4.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einschätzung neues Buskonzept - Linienführung und Haltestellen",
-      "number": "Ö 4.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Bürgeranfragen",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/18331",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V-MB0016/09",
+      "fileName": "00018331.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-01-13",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00018331.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00018331.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "70",
-  "participant": [
-    "813",
-    "342",
-    "341",
-    "344",
-    "343",
-    "349",
-    "347",
-    "348",
-    "345",
-    "346"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4477",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4478",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung und Bestätigung der Niederschrift",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4479",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "3",
+      "order": "3",
+      "name": "Anträge und Vorlagen des Ortschaftsrates Mobschatz zur Beschlussfassung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4510",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "3.1",
+      "order": "4",
+      "name": "Stellungnahme des Ortschaftsrates Mobschatz zum Flächennutzungsplan - in der Phase der frühzeitigen Beteiligung zum Vorentwurf in der Fassung vom 26.11.2008",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/1891",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4474",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "4",
+      "order": "5",
+      "name": "Aktuelle Informationen der Ortschaft Mobschatz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4511",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "4.1",
+      "order": "6",
+      "name": "Informationen zur Grünanlagensatzung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "4.2",
+      "order": "7",
+      "name": "Information über die Wünsche-Box",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/5246",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "4.3",
+      "order": "8",
+      "name": "Information über den Entdeckungspfad \"Zschonergrund\"",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4512",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "4.4",
+      "order": "9",
+      "name": "Einschätzung neues Buskonzept - Linienführung und Haltestellen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/4475",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/70",
+      "number": "5",
+      "order": "10",
+      "name": "Bürgeranfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

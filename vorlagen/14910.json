@@ -1,21 +1,30 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/14910",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Finanzmittel für Ortschaften zur Planung des Doppelhaushaltes 2019/2020",
-  "shortName": "V-GP0160/18",
   "reference": "V-GP0160/18",
+  "date": "2018-02-27",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2018-02-27",
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
+  ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "6961",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/31815",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/14910",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/99837",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6961",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2018-02-27T12:28:56+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "14910"
+  "created": "2018-02-27T12:24:46+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

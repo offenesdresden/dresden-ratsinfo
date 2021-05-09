@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17891",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2019-65-00245, 120. Grundschule, Trattendorfer Straße 1, 01239 Dresden, Ersatzneubau erweiterte Einfeld-Sporthalle inkl. Freianlagen, Los 11 - Rohbauarbeiten",
-  "shortName": "V0092/19",
   "reference": "V0092/19",
+  "date": "2019-10-30",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-10-24",
   "auxiliaryFile": [
-    "443227"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/443227",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V0092/19",
+      "fileName": "00443227.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-11-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00443227.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00443227.pdf",
+      "created": "2019-11-14T13:38:24+01:00",
+      "modified": "2019-11-14T13:38:24+01:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7782",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/39766",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17891",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/123699",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7782",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-10-30T11:23:59+01:00",
+      "modified": "2019-11-15T07:03:48+01:00"
     }
   ],
-  "id": "17891"
+  "created": "2019-10-24T08:26:57+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

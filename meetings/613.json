@@ -1,98 +1,152 @@
 {
-  "shortName": "K/015/2010",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Kultur - 08.06.2010 - 16:00-22:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "14"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/613",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ausschusses für Kultur",
   "start": "2010-06-08T16:00:00+02:00",
   "end": "2010-06-08T22:30:00+02:00",
-  "invitation": "31921",
-  "resultsProtocol": "33072",
-  "auxiliaryFile": [
-    "33099"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/14"
   ],
-  "verbatimProtocol": "37128",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/8",
+    "http://oparl.dresden.de/bodies/0001/people/270",
+    "http://oparl.dresden.de/bodies/0001/people/273",
+    "http://oparl.dresden.de/bodies/0001/people/291",
+    "http://oparl.dresden.de/bodies/0001/people/287",
+    "http://oparl.dresden.de/bodies/0001/people/294",
+    "http://oparl.dresden.de/bodies/0001/people/44",
+    "http://oparl.dresden.de/bodies/0001/people/284",
+    "http://oparl.dresden.de/bodies/0001/people/55",
+    "http://oparl.dresden.de/bodies/0001/people/73",
+    "http://oparl.dresden.de/bodies/0001/people/60",
+    "http://oparl.dresden.de/bodies/0001/people/290"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/31921",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_K_2010_06_08",
+    "fileName": "00031921.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-05-27",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00031921.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00031921.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/33072",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung V0507/10",
+    "fileName": "00033072.pdf",
+    "mimeType": "application/pdf",
+    "date": "2010-06-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00033072.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00033072.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Kommunale Kulturförderung - Projektförderung 2. Halbjahr 2010",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "2093",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "31631",
-        "30871",
-        "30872",
-        "30950",
-        "31562",
-        "31616",
-        "31617"
-      ],
-      "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 10,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/31921",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_K_2010_06_08",
+      "fileName": "00031921.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-05-27",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00031921.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00031921.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vergabe des Medienkunstpreises der Landeshauptstadt Dresden für Kinder und Jugendliche",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1716",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "29949",
-        "30086",
-        "30340",
-        "26551"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/33072",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V0507/10",
+      "fileName": "00033072.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-06-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00033072.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00033072.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Jury zur Verleihung des Dresdner Lyrikpreises 2010",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "1741",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "29430",
-        "26208",
-        "26209",
-        "27227",
-        "28505"
-      ],
-      "result": "Vertagung"
+      "id": "http://oparl.dresden.de/bodies/0001/files/33099",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung V0597/10",
+      "fileName": "00033099.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-06-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00033099.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00033099.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/37128",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich_K_2010_06_08",
+      "fileName": "00037128.pdf",
+      "mimeType": "application/pdf",
+      "date": "2010-08-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00037128.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00037128.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "613",
-  "participant": [
-    "8",
-    "273",
-    "291",
-    "270",
-    "287",
-    "294",
-    "44",
-    "284",
-    "55",
-    "73",
-    "60",
-    "290"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9296",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/613",
+      "number": "1",
+      "order": "1",
+      "name": "Kommunale Kulturförderung - Projektförderung 2. Halbjahr 2010",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/3403",
+      "result": "Zustimmung mit Änderung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9284",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/613",
+      "number": "2",
+      "order": "2",
+      "name": "Vergabe des Medienkunstpreises der Landeshauptstadt Dresden für Kinder und Jugendliche",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2866",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/9285",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/613",
+      "number": "3",
+      "order": "3",
+      "name": "Jury zur Verleihung des Dresdner Lyrikpreises 2010",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/2929",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

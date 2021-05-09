@@ -1,232 +1,441 @@
 {
-  "shortName": "OSR SW/023/2016",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,Bautzner Landstraße 291, 01328 Dresden",
-  "name": "Ortschaftsrat Schönfeld-Weißig - 23.05.2016 - 19:35-21:55 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "48"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "23. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "start": "2016-05-23T19:35:00+02:00",
   "end": "2016-05-23T21:55:00+02:00",
-  "invitation": "253710",
-  "resultsProtocol": "255468",
-  "auxiliaryFile": [
-    "255475",
-    "255402",
-    "255456",
-    "255414",
-    "255419",
-    "255424",
-    "255428",
-    "255434",
-    "255452"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/34",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bautzner Landstraße 291",
+    "room": "Ortschaft Schönfed-Weißig, Ratssaal",
+    "postalCode": "01328",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
   ],
-  "verbatimProtocol": "258673",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/1227",
+    "http://oparl.dresden.de/bodies/0001/people/363",
+    "http://oparl.dresden.de/bodies/0001/people/364",
+    "http://oparl.dresden.de/bodies/0001/people/367",
+    "http://oparl.dresden.de/bodies/0001/people/369",
+    "http://oparl.dresden.de/bodies/0001/people/371",
+    "http://oparl.dresden.de/bodies/0001/people/372",
+    "http://oparl.dresden.de/bodies/0001/people/1149",
+    "http://oparl.dresden.de/bodies/0001/people/1261",
+    "http://oparl.dresden.de/bodies/0001/people/375",
+    "http://oparl.dresden.de/bodies/0001/people/1262",
+    "http://oparl.dresden.de/bodies/0001/people/376",
+    "http://oparl.dresden.de/bodies/0001/people/1263"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/253710",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SW",
+    "fileName": "00253710.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-05-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00253710.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00253710.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/255402",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung SW23/04/2016",
+    "fileName": "00255402.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-05-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255402.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255402.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bericht der Ortsvorsteherin",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/253710",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SW",
+      "fileName": "00253710.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00253710.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00253710.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bürgerfragestunde",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/255402",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/04/2016",
+      "fileName": "00255402.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255402.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255402.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Einwendungen zur Niederschrift der 21. Sitzung vom 16.03.2016 sowie der Niederschrift der 22. Sitzung vom 11.04.2016",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/255414",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/12/2016",
+      "fileName": "00255414.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255414.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255414.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Bekanntgabe nicht öffentlich gefasster Beschlüsse der 22. Sitzung vom 11.04.2016",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/255419",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/13/2016",
+      "fileName": "00255419.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255419.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255419.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "11948",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "259982",
-      "auxiliaryFile": [
-        "273674",
-        "248863",
-        "248524",
-        "247751",
-        "240583",
-        "258864",
-        "259259"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/255424",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/14/2016",
+      "fileName": "00255424.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255424.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255424.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Straßenbaumaßnahme S177 Pirna/Wilsdruff Ortsumfahrung Wünschendorf/Eschdorf Information zum Verkehrsführungskonzept während der Bauzeit Anschluss S161 an S177 (neu) BE: Vertreter Landesamt für Straßenbau und Verkehr, NL Meißen/Planungsbüro EIBS GmbH",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/255428",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/15/2016",
+      "fileName": "00255428.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255428.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255428.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Haushaltsplanung Doppelhaushalt 2017/2018",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 3,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/255434",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/16/2016",
+      "fileName": "00255434.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255434.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255434.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Antrag OR Herr Kubista über den TOP nicht abzustimmen",
-      "number": "Ö 7.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 3,
-        "no": 11,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/255452",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/17/2016",
+      "fileName": "00255452.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255452.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255452.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "OR Herr Kubista beantragt, den Beschlussvorschlag der Ortsvorsteherin schriftlich vorzulegen",
-      "number": "Ö 7.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 3,
-        "no": 11,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/255456",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/05/2016-SW23/11/2016neu",
+      "fileName": "00255456.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255456.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255456.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Aktueller Sachstand zur Oberschule Weißig",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/255468",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/02/2016neu",
+      "fileName": "00255468.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255468.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255468.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Heimat- und Traditionspflege",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/255475",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung SW23/03/2016",
+      "fileName": "00255475.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00255475.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00255475.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Verwendung von Verfügungsmitteln zur Heimat- und Traditionspflege",
-      "number": "Ö 9.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung"
-    },
-    {
-      "name": "Neujahrsempfang - Anpassung Dauerbeschluss SW03/03/2008",
-      "number": "Ö 9.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "20. Hochlandfest vom 9.-11.09.2016",
-      "number": "Ö 9.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Rückforderung von Investitionsmitteln zur Wartehalle in Reitzendorf (bitte Unterlagen vom 11.04.2016 mitbringen)",
-      "number": "Ö 9.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 3,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bürgervereinigung Schullwitz - aktueller Stand zur Nutzung der Räume des Bürgerhauses in Schullwitz (Bienertschule)",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 3,
-        "neutral": 0,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Vertagung der nächsten OR-Sitzung vom 20.06. auf den 27.06.2016",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 2,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Antrag OR Walzog, die OR-Sitzung zu beenden.",
-      "number": "Ö 12.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 4,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/258673",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00258673.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-06-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00258673.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00258673.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5330",
-  "participant": [
-    "1227",
-    "363",
-    "371",
-    "367",
-    "372",
-    "1261",
-    "364",
-    "1149",
-    "369",
-    "375",
-    "1262",
-    "376",
-    "1263"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79169",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "1",
+      "order": "1",
+      "name": "Bericht der Ortsvorsteherin",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79170",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "2",
+      "order": "2",
+      "name": "Bürgerfragestunde",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79281",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "3",
+      "order": "3",
+      "name": "Einwendungen zur Niederschrift der 21. Sitzung vom 16.03.2016 sowie der Niederschrift der 22. Sitzung vom 11.04.2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79172",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "4",
+      "order": "4",
+      "name": "Bekanntgabe nicht öffentlich gefasster Beschlüsse der 22. Sitzung vom 11.04.2016",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79182",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "5",
+      "order": "5",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2016/2017",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/23807",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79278",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "6",
+      "order": "6",
+      "name": "Straßenbaumaßnahme S177 Pirna/Wilsdruff Ortsumfahrung Wünschendorf/Eschdorf Information zum Verkehrsführungskonzept während der Bauzeit Anschluss S161 an S177 (neu) BE: Vertreter Landesamt für Straßenbau und Verkehr, NL Meißen/Planungsbüro EIBS GmbH",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79301",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "7",
+      "order": "7",
+      "name": "Haushaltsplanung Doppelhaushalt 2017/2018",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25069",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79634",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "7.1",
+      "order": "8",
+      "name": "Antrag OR Herr Kubista über den TOP nicht abzustimmen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25185",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79635",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "7.2",
+      "order": "9",
+      "name": "OR Herr Kubista beantragt, den Beschlussvorschlag der Ortsvorsteherin schriftlich vorzulegen",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25186",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79302",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "8",
+      "order": "10",
+      "name": "Aktueller Sachstand zur Oberschule Weißig",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79303",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "9",
+      "order": "11",
+      "name": "Verwendung von Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Heimat- und Traditionspflege",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79304",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "9.1",
+      "order": "12",
+      "name": "Verwendung von Verfügungsmitteln zur Heimat- und Traditionspflege",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25058",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79305",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "9.2",
+      "order": "13",
+      "name": "Neujahrsempfang - Anpassung Dauerbeschluss SW03/03/2008",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25059",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79307",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "9.3",
+      "order": "14",
+      "name": "20. Hochlandfest vom 9.-11.09.2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25061",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79279",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "9.4",
+      "order": "15",
+      "name": "Rückforderung von Investitionsmitteln zur Wartehalle in Reitzendorf (bitte Unterlagen vom 11.04.2016 mitbringen)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/24649",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79288",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "10",
+      "order": "16",
+      "name": "Bürgervereinigung Schullwitz - aktueller Stand zur Nutzung der Räume des Bürgerhauses in Schullwitz (Bienertschule)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25057",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79308",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "11",
+      "order": "17",
+      "name": "Vertagung der nächsten OR-Sitzung vom 20.06. auf den 27.06.2016",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25062",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "12",
+      "order": "18",
+      "name": "Informationen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/79632",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5330",
+      "number": "12.1",
+      "order": "19",
+      "name": "Antrag OR Walzog, die OR-Sitzung zu beenden.",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25181",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

@@ -1,194 +1,263 @@
 {
-  "shortName": "OSR OW/044/2018",
-  "locality": "Landeshauptstadt Dresden, in der Ortschaft Oberwartha, Versammlungsraum,Max-Schwan-Straße 4, 01156 Dresden",
-  "name": "Ortschaftsrat Oberwartha - 19.04.2018 - 18:30-21:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "52"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "44. Sitzung des Ortschaftsrates Oberwartha",
   "start": "2018-04-19T18:30:00+02:00",
   "end": "2018-04-19T21:45:00+02:00",
-  "invitation": "341805",
-  "auxiliaryFile": [
-    "344998",
-    "352992",
-    "344997",
-    "344994",
-    "344995"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/414",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Max-Schwan-Straße 4",
+    "room": "Ortschaft Oberwartha, Versammlungsraum",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
-  "resultsProtocol": "344974",
-  "verbatimProtocol": "346194",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/354",
+    "http://oparl.dresden.de/bodies/0001/people/350",
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/1256",
+    "http://oparl.dresden.de/bodies/0001/people/1654"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/341805",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR OW",
+    "fileName": "00341805.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-04-05",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00341805.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00341805.pdf",
+    "created": "2018-04-05T15:37:33+02:00",
+    "modified": "2018-04-10T12:00:38+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/344974",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0104/18_oU",
+    "fileName": "00344974.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-04-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344974.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344974.pdf",
+    "created": "2018-04-24T14:41:10+02:00",
+    "modified": "2018-06-13T04:57:23+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/341805",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR OW",
+      "fileName": "00341805.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00341805.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00341805.pdf",
+      "created": "2018-04-05T15:37:33+02:00",
+      "modified": "2018-04-10T12:00:38+02:00"
     },
     {
-      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 20.03.2018",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/344974",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0104/18_oU",
+      "fileName": "00344974.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344974.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344974.pdf",
+      "created": "2018-04-24T14:41:10+02:00",
+      "modified": "2018-06-13T04:57:23+02:00"
     },
     {
-      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2018/2019",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14702",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "369985",
-      "auxiliaryFile": [
-        "387363",
-        "452155",
-        "338171",
-        "337715",
-        "335154",
-        "329340",
-        "329341",
-        "340211",
-        "367310"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/344994",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha_V2155/18_mU",
+      "fileName": "00344994.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344994.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344994.pdf",
+      "created": "2018-04-24T16:48:27+02:00",
+      "modified": "2018-05-03T15:59:23+02:00"
     },
     {
-      "name": "Ersatzneubau der Brücke über die DB-Anlagen im Zuge der Talstraße (K6240) in Dresden-Cossebaude",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14624",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "369957",
-      "auxiliaryFile": [
-        "411361",
-        "485006",
-        "333513",
-        "333041",
-        "352115",
-        "340671",
-        "325732",
-        "325735",
-        "325736",
-        "363338",
-        "350060",
-        "360935",
-        "360934"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 5,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/344995",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Oberwartha_A-OW0101/18_mU",
+      "fileName": "00344995.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344995.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344995.pdf",
+      "created": "2018-04-24T16:50:11+02:00",
+      "modified": "2018-05-03T15:59:23+02:00"
     },
     {
-      "name": "Bebauungsplan Nr. 3033, Dresden-Cossebaude Nr. 11, Albertplatz (CB)hier:1. Aufstellungsbeschluss Bebauungsplan2. Grenzen des räumlichen Geltungsbereichs des Bebauungsplanes3. Entfallen des frühzeitigen Beteiligungsverfahrens",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14689",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "346126",
-      "auxiliaryFile": [
-        "365903",
-        "337274",
-        "336831",
-        "328207",
-        "328208",
-        "331920",
-        "328210",
-        "328211",
-        "350035"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/344997",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha_V2150/17_mU",
+      "fileName": "00344997.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344997.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344997.pdf",
+      "created": "2018-04-24T16:52:20+02:00",
+      "modified": "2018-05-03T15:59:23+02:00"
     },
     {
-      "name": "Satzung der Landeshauptstadt Dresden über Stellplätze und Garagen sowie Abstellplätze für Fahrräder (Stellplatz-, Garagen- und Fahrradabstellplatzsatzung – StGaFaS)",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13908",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "356488",
-      "auxiliaryFile": [
-        "357708",
-        "356482",
-        "356172",
-        "333563",
-        "339672",
-        "333060",
-        "332763",
-        "328669",
-        "329961",
-        "339662",
-        "353625",
-        "355757"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/344998",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha_V1782/17_mU",
+      "fileName": "00344998.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-04-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00344998.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00344998.pdf",
+      "created": "2018-04-24T16:53:03+02:00",
+      "modified": "2018-05-03T15:59:23+02:00"
     },
     {
-      "name": "Finanzmittel zum Kauf von Ersatzteilen für Festzelt der Ortschaft Oberwartha",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15090",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "341815"
-      ],
-      "resolutionFile": "346316",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/346194",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00346194.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00346194.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00346194.pdf",
+      "created": "2018-05-03T11:40:04+02:00",
+      "modified": "2018-05-03T15:59:23+02:00"
     },
     {
-      "name": "Informationen und Anfragen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Straßenreinigungsgebührensatzung 2019/2020",
-      "number": "Ö 8.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/352992",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Oberwartha_V2113/17_mU",
+      "fileName": "00352992.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-06-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00352992.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00352992.pdf",
+      "created": "2018-06-12T15:14:04+02:00",
+      "modified": "2018-06-12T15:14:53+02:00"
     }
   ],
-  "id": "6951",
-  "participant": [
-    "354",
-    "351",
-    "350",
-    "1256"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101298",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung und Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2018-04-05T08:02:08+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101299",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "2",
+      "order": "2",
+      "name": "Bestätigung der Tagesordnung für die Sitzung sowie der Niederschrift der Sitzung vom 20.03.2018",
+      "public": true,
+      "created": "2018-04-05T08:02:48+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101301",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "3",
+      "order": "3",
+      "name": "Fortschreibung Fachplan Kindertageseinrichtungen und Kindertagespflege für das Schuljahr 2018/2019",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31218",
+      "result": "Zustimmung",
+      "created": "2018-04-05T08:03:40+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101297",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "4",
+      "order": "4",
+      "name": "Ersatzneubau der Brücke über die DB-Anlagen im Zuge der Talstraße (K6240) in Dresden-Cossebaude",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32241",
+      "result": "Ablehnung",
+      "created": "2018-04-05T08:00:53+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101300",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "5",
+      "order": "5",
+      "name": "Bebauungsplan Nr. 3033, Dresden-Cossebaude Nr. 11, Albertplatz (CB)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32240",
+      "result": "Zustimmung",
+      "created": "2018-04-05T08:02:59+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101302",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "6",
+      "order": "6",
+      "name": "Satzung der Landeshauptstadt Dresden über Stellplätze und Garagen sowie Abstellplätze für Fahrräder (Stellplatz-, Garagen- und Fahrradabstellplatzsatzung – StGaFaS)",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31163",
+      "result": "Zustimmung",
+      "created": "2018-04-05T08:05:29+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101334",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "7",
+      "order": "7",
+      "name": "Finanzmittel zum Kauf von Ersatzteilen für Festzelt der Ortschaft Oberwartha",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32310",
+      "result": "Zustimmung",
+      "created": "2018-04-05T16:03:11+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101303",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "8",
+      "order": "8",
+      "name": "Informationen und Anfragen",
+      "public": true,
+      "created": "2018-04-05T08:05:47+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101307",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6951",
+      "number": "8.1",
+      "order": "9",
+      "name": "Straßenreinigungsgebührensatzung 2019/2020",
+      "public": true,
+      "created": "2018-04-05T08:26:19+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2017-10-16T13:08:04+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

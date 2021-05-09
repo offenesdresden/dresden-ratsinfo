@@ -1,116 +1,190 @@
 {
-  "shortName": "OBR Co/022/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Cotta, großer Sitzungssaal, 2. Etage, Raum 201,Lübecker Straße 121, 01157 Dresden",
-  "name": "Ortsbeirat Cotta - 02.02.2017 - 19:00-21:20 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "37"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "22. Sitzung des Ortsbeirates Cotta",
   "start": "2017-02-02T19:00:00+01:00",
   "end": "2017-02-02T21:20:00+01:00",
-  "invitation": "285102",
-  "auxiliaryFile": [
-    "285285"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1965",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Lübecker Straße 121",
+    "room": "Ortsamt Cotta, großer Sitzungssaal",
+    "postalCode": "01157",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:48+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/37"
   ],
-  "verbatimProtocol": "287890",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/401",
+    "http://oparl.dresden.de/bodies/0001/people/763",
+    "http://oparl.dresden.de/bodies/0001/people/766",
+    "http://oparl.dresden.de/bodies/0001/people/768",
+    "http://oparl.dresden.de/bodies/0001/people/769",
+    "http://oparl.dresden.de/bodies/0001/people/771",
+    "http://oparl.dresden.de/bodies/0001/people/409",
+    "http://oparl.dresden.de/bodies/0001/people/776",
+    "http://oparl.dresden.de/bodies/0001/people/778",
+    "http://oparl.dresden.de/bodies/0001/people/1613",
+    "http://oparl.dresden.de/bodies/0001/people/780",
+    "http://oparl.dresden.de/bodies/0001/people/1023",
+    "http://oparl.dresden.de/bodies/0001/people/1176",
+    "http://oparl.dresden.de/bodies/0001/people/1421",
+    "http://oparl.dresden.de/bodies/0001/people/1422",
+    "http://oparl.dresden.de/bodies/0001/people/822",
+    "http://oparl.dresden.de/bodies/0001/people/1428",
+    "http://oparl.dresden.de/bodies/0001/people/1132",
+    "http://oparl.dresden.de/bodies/0001/people/1593",
+    "http://oparl.dresden.de/bodies/0001/people/770"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/285102",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Co",
+    "fileName": "00285102.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285102.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285102.pdf",
+    "created": "2017-01-20T08:24:04+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/285285",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_OBR Co",
+    "fileName": "00285285.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285285.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285285.pdf",
+    "created": "2017-01-24T09:05:40+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/285102",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Co",
+      "fileName": "00285102.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285102.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285102.pdf",
+      "created": "2017-01-20T08:24:04+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/285285",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_OBR Co",
+      "fileName": "00285285.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00285285.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00285285.pdf",
+      "created": "2017-01-24T09:05:40+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Namensgebung des Gymnasiums Dresden Süd-West, Leutewitzer Ring 141 in 01169 Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13018",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "292204",
-      "auxiliaryFile": [
-        "437757",
-        "303468",
-        "279630",
-        "279087",
-        "273833",
-        "273834",
-        "273835"
-      ],
-      "result": "Ersetzung",
-      "vote": {
-        "yes": 11,
-        "no": 5,
-        "neutral": 4,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Mündliche Information des Sächsischen Umschulungs- und Fortbildungswerk zum Projekt \"Betreutes Wohnen von unbegleiteten minderjährigen Flüchtlingen\"",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Mündliche Information zum Bauvorhaben \"Gymnasium Cotta, Umbau der alten Sporthalle zu Mensa und Aula\"",
-      "number": "Ö 4 Nachtrag: 24.01.2017",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13017",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293717",
-      "auxiliaryFile": [
-        "306563",
-        "356554",
-        "424928",
-        "279629",
-        "279086",
-        "278226",
-        "277117",
-        "273800",
-        "275160",
-        "286708",
-        "289760"
-      ],
-      "result": "zur Kenntnis genommen"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen - aktuelle Informationen zum Thema Asyl",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/287890",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00287890.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-02-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00287890.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00287890.pdf",
+      "created": "2017-02-09T15:35:49+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "6027",
-  "participant": [
-    "763",
-    "766",
-    "771",
-    "768",
-    "769",
-    "409",
-    "776",
-    "778",
-    "1613",
-    "780",
-    "1023",
-    "1176",
-    "1422",
-    "1421",
-    "822",
-    "1428",
-    "1132",
-    "1593",
-    "793",
-    "770"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86654",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit und Bestätigung der Tagesordnung",
+      "public": true,
+      "created": "2017-01-12T14:45:47+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86655",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2017-01-12T14:45:47+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86658",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+      "number": "2.1",
+      "order": "3",
+      "name": "Namensgebung des Gymnasiums Dresden Süd-West, Leutewitzer Ring 141 in 01169 Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26609",
+      "result": "Ersetzung",
+      "created": "2017-01-12T14:46:23+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86659",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+      "number": "3",
+      "order": "4",
+      "name": "Mündliche Information des Sächsischen Umschulungs- und Fortbildungswerkes zum Projekt des betreuten Wohnen von unbegleiteten minderjährigen Flüchtlingen",
+      "public": true,
+      "created": "2017-01-12T14:53:47+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87026",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+      "number": "4",
+      "order": "5",
+      "name": "Mündliche Information zum Bauvorhaben \"Gymnasium Cotta, Umbau der alten Sporthalle zu Mensa und Aula\"",
+      "public": true,
+      "created": "2017-01-24T08:56:34+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/87443",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+      "number": "5",
+      "order": "6",
+      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26586",
+      "result": "zur Kenntnis genommen",
+      "created": "2017-02-06T09:56:29+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86657",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6027",
+      "number": "6",
+      "order": "7",
+      "name": "Informationen, Hinweise und Anfragen - aktuelle Informationen zum Thema Asyl",
+      "public": true,
+      "created": "2017-01-12T14:45:47+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

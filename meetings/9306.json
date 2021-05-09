@@ -1,244 +1,338 @@
 {
-  "shortName": "OSR GP/015/2020",
-  "locality": "Landeshauptstadt Dresden, im Gemeindezentrum Gompitz, Gemeindesaal,Altnossener Straße 46 a, 01156 Dresden, OT Pennrich Hinweis: Die erforderlichen Hygiene- und Abstandsregeln sind einzuhalten. Es steht nur eine begrenzte Platzkapazität zur Verfügung.",
-  "name": "Ortschaftsrat Gompitz - 02.11.2020 - 19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "9"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "15. Sitzung des Ortschaftsrates Gompitz",
   "start": "2020-11-02T19:30:00+01:00",
-  "invitation": "507565",
-  "resultsProtocol": "510219",
+  "end": "2020-11-02T00:00:00+01:00",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/22",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Altnossener Straße 46 a",
+    "room": "Ortschaft Gompitz, Gemeindesaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/318",
+    "http://oparl.dresden.de/bodies/0001/people/321",
+    "http://oparl.dresden.de/bodies/0001/people/1250",
+    "http://oparl.dresden.de/bodies/0001/people/317",
+    "http://oparl.dresden.de/bodies/0001/people/319",
+    "http://oparl.dresden.de/bodies/0001/people/326",
+    "http://oparl.dresden.de/bodies/0001/people/327",
+    "http://oparl.dresden.de/bodies/0001/people/328",
+    "http://oparl.dresden.de/bodies/0001/people/329",
+    "http://oparl.dresden.de/bodies/0001/people/1247",
+    "http://oparl.dresden.de/bodies/0001/people/1248",
+    "http://oparl.dresden.de/bodies/0001/people/1249",
+    "http://oparl.dresden.de/bodies/0001/people/2042",
+    "http://oparl.dresden.de/bodies/0001/people/2173"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/507565",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR GP",
+    "fileName": "00507565.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00507565.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00507565.pdf",
+    "created": "2020-10-22T07:23:51+02:00",
+    "modified": "2020-10-23T13:32:37+02:00"
+  },
   "auxiliaryFile": [
-    "510536",
-    "510542",
-    "510551",
-    "510559",
-    "510564",
-    "510572",
-    "510576",
-    "510568"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/507565",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR GP",
+      "fileName": "00507565.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00507565.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00507565.pdf",
+      "created": "2020-10-22T07:23:51+02:00",
+      "modified": "2020-10-23T13:32:37+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510219",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0040/20",
+      "fileName": "00510219.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510219.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510219.pdf",
+      "created": "2020-11-04T15:49:11+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510536",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0041/20",
+      "fileName": "00510536.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510536.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510536.pdf",
+      "created": "2020-11-05T15:33:43+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510542",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0042/20",
+      "fileName": "00510542.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510542.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510542.pdf",
+      "created": "2020-11-05T15:42:00+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510551",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0043/20",
+      "fileName": "00510551.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510551.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510551.pdf",
+      "created": "2020-11-05T16:00:19+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510559",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0044/20",
+      "fileName": "00510559.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510559.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510559.pdf",
+      "created": "2020-11-05T16:35:27+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510564",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0046/20",
+      "fileName": "00510564.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510564.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510564.pdf",
+      "created": "2020-11-05T16:51:11+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510568",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0049/20",
+      "fileName": "00510568.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510568.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510568.pdf",
+      "created": "2020-11-05T16:54:49+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510572",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0047/20",
+      "fileName": "00510572.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510572.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510572.pdf",
+      "created": "2020-11-05T16:57:50+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/510576",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Gompitz_V-GP0048/20",
+      "fileName": "00510576.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00510576.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00510576.pdf",
+      "created": "2020-11-05T17:00:11+01:00",
+      "modified": "2020-11-12T08:37:05+01:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140240",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "1",
+      "order": "1",
       "name": "Anfragen der Bürgerinnen und Bürger",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-10-20T15:22:55+02:00",
+      "modified": "2020-10-22T07:13:28+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140398",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "2",
+      "order": "2",
       "name": "Information Änderung des Sächsischen Straßengesetzes bezüglich der Aufnahme von Straßen, Wegen und Plätzen in die Bestandsverzeichnisse der öffentlichen Straßen der Landeshauptstadt Dresden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-10-22T04:45:20+02:00",
+      "modified": "2020-10-23T13:31:58+02:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140399",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "3",
+      "order": "3",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln anlässlich des 75-jährigen Bestehens der Freiwilligen Feuerwehr Gompitz",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20574",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "519110",
-        "500665"
-      ],
-      "resolutionFile": "511839",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46291",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T04:52:08+02:00",
+      "modified": "2020-11-17T06:21:23+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140400",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "4",
+      "order": "4",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln für Lesematerial im Bücherstübchen Ockerwitz",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20715",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511842",
-      "auxiliaryFile": [
-        "526495",
-        "507527"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46292",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T04:59:57+02:00",
+      "modified": "2020-11-17T06:25:16+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140401",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "5",
+      "order": "5",
       "name": "Beschluss zum Antrag des Geflügelzuchtvereins Elbtal Dresden 1903 e. V. auf Gewährung einer Zuwendung für die Ausstellung am 24.10.-25.10.2020",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20716",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511843",
-      "auxiliaryFile": [
-        "519423",
-        "507530"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46293",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 2,
-        "neutral": 1,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T05:04:23+02:00",
+      "modified": "2020-11-17T06:28:40+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140402",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "6",
+      "order": "6",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln für die Erneuerung der Finnhütte an der Birke (Unkersdorf, Abzweig Roitzsch)",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20717",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511844",
-      "auxiliaryFile": [
-        "541162",
-        "507533"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46294",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 12,
-        "no": 0,
-        "neutral": 2,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T05:09:10+02:00",
+      "modified": "2020-11-17T06:33:27+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140410",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "7",
+      "order": "7",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln für die Ersatzbeschaffung von Festzeltgarnituren",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20718",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511845",
-      "auxiliaryFile": [
-        "519422",
-        "507536"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46295",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T07:26:57+02:00",
+      "modified": "2020-11-17T06:36:19+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140412",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "8",
+      "order": "8",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln für die Anfertigung Wandbilder der Ortschaft Gompitz",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "zurückgestellt"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46296",
+      "result": "zurückgestellt",
+      "created": "2020-10-22T07:27:15+02:00",
+      "modified": "2020-11-06T14:15:26+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140405",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "9",
+      "order": "9",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln für die Ersatzpflanzung am Denkmal in Ockerwitz",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20720",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511846",
-      "auxiliaryFile": [
-        "526500",
-        "507541"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46297",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T05:33:08+02:00",
+      "modified": "2020-11-17T06:38:24+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/141116",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "10",
+      "order": "10",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln für den Bauhof Gompitz",
-      "number": "Ö 10",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20777",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511847",
-      "auxiliaryFile": [
-        "526506",
-        "509370"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46470",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-11-05T16:53:46+01:00",
+      "modified": "2020-11-17T06:40:30+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140413",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "11",
+      "order": "11",
       "name": "Beschluss zur Bereitstellung von Verfügungsmitteln der Ortschaft Gompitz für den Straßenbau Altnossener Straße",
-      "number": "Ö 11",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20721",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511848",
-      "auxiliaryFile": [
-        "529016",
-        "507547"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46298",
       "result": "Zustimmung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T07:28:27+02:00",
+      "modified": "2020-11-17T06:42:38+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140407",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "12",
+      "order": "12",
       "name": "Beschluss zur Bereitstellung von Investitionsmitteln der Ortschaft Gompitz für den Straßenbau Altnossener Straße",
-      "number": "Ö 12",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20722",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511849",
-      "auxiliaryFile": [
-        "529018",
-        "507556"
-      ],
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46300",
       "result": "Zustimmung mit Änderung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "created": "2020-10-22T06:25:37+02:00",
+      "modified": "2020-11-17T06:44:26+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140245",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9306",
+      "number": "13",
+      "order": "13",
       "name": "Sonstiges",
-      "number": "Ö 13",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2020-10-20T15:22:56+02:00",
+      "modified": "2020-11-05T16:53:46+01:00"
     }
   ],
-  "id": "9306"
+  "created": "2020-02-04T07:25:29+01:00",
+  "modified": "2021-04-26T09:21:21+02:00"
 }

@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18909",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2020-52Pl-00010, Sportanlage Saalhausener Straße, Sanierung Kunstrasen und Neubau Außenanlage, Williamstraße 12, 01159 Dresden",
-  "shortName": "V0389/20",
   "reference": "V0389/20",
+  "date": "2020-05-15",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-05-11",
   "auxiliaryFile": [
-    "477053"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/477053",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_WF_V0389/20_mU",
+      "fileName": "00477053.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-05-29",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00477053.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00477053.pdf",
+      "created": "2020-05-29T12:00:36+02:00",
+      "modified": "2020-05-29T12:00:37+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8720",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/42244",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18909",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/132065",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8720",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-05-15T09:19:57+02:00",
+      "modified": "2020-05-28T14:03:18+02:00"
     }
   ],
-  "id": "18909"
+  "created": "2020-05-11T11:39:34+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

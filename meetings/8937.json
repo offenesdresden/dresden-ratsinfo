@@ -1,272 +1,410 @@
 {
-  "shortName": "OSR SW/014/2020",
-  "locality": "Landeshauptstadt Dresden, in der Verwaltungsstelle Schönfeld-Weißig, Ratssaal, 2. Etage, Raum 208/209,Bautzner Landstraße 291, 01328 Dresden",
-  "name": "Ortschaftsrat Schönfeld-Weißig - 09.11.2020 - 19:30-21:35 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "48"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "14. Sitzung des Ortschaftsrates Schönfeld-Weißig",
   "start": "2020-11-09T19:30:00+01:00",
   "end": "2020-11-09T21:35:00+01:00",
-  "invitation": "508506",
-  "auxiliaryFile": [
-    "511603",
-    "511333",
-    "511329",
-    "511339",
-    "511342",
-    "511336",
-    "511344",
-    "511317",
-    "525560"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/34",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Bautzner Landstraße 291",
+    "room": "Ortschaft Schönfed-Weißig, Ratssaal",
+    "postalCode": "01328",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
   ],
-  "resultsProtocol": "511324",
-  "verbatimProtocol": "512042",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/377",
+    "http://oparl.dresden.de/bodies/0001/people/1262",
+    "http://oparl.dresden.de/bodies/0001/people/2100",
+    "http://oparl.dresden.de/bodies/0001/people/364",
+    "http://oparl.dresden.de/bodies/0001/people/369",
+    "http://oparl.dresden.de/bodies/0001/people/371",
+    "http://oparl.dresden.de/bodies/0001/people/372",
+    "http://oparl.dresden.de/bodies/0001/people/1149",
+    "http://oparl.dresden.de/bodies/0001/people/1260",
+    "http://oparl.dresden.de/bodies/0001/people/1985",
+    "http://oparl.dresden.de/bodies/0001/people/1987",
+    "http://oparl.dresden.de/bodies/0001/people/2015",
+    "http://oparl.dresden.de/bodies/0001/people/375",
+    "http://oparl.dresden.de/bodies/0001/people/2029",
+    "http://oparl.dresden.de/bodies/0001/people/380",
+    "http://oparl.dresden.de/bodies/0001/people/1263",
+    "http://oparl.dresden.de/bodies/0001/people/2009"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/508506",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR SW",
+    "fileName": "00508506.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-10-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508506.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508506.pdf",
+    "created": "2020-10-28T08:14:55+01:00",
+    "modified": "2020-10-29T13:13:39+01:00"
+  },
+  "resultsProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/525560",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Niederschrift-14.Sitzung_2020-11-09-öffentlich_mU",
+    "fileName": "00525560.pdf",
+    "mimeType": "application/pdf",
+    "date": "2021-02-09",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00525560.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00525560.pdf",
+    "created": "2021-02-09T12:16:46+01:00",
+    "modified": "2021-02-09T12:17:26+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Begrüßung, Feststellung der Beschlussfähigkeit",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/508506",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR SW",
+      "fileName": "00508506.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-10-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00508506.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00508506.pdf",
+      "created": "2020-10-28T08:14:55+01:00",
+      "modified": "2020-10-29T13:13:39+01:00"
     },
     {
-      "name": "Bericht der Ortsvorsteherin",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/511317",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0358/20_oU",
+      "fileName": "00511317.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511317.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511317.pdf",
+      "created": "2020-11-10T08:31:54+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Bürgerfragestunde",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/511324",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0351/20_oU",
+      "fileName": "00511324.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511324.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511324.pdf",
+      "created": "2020-11-10T08:58:05+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Einwendungen zur öffentlichen Niederschrift der 13. Sitzung vom 05.10.2020",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/511329",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0353/20_oU",
+      "fileName": "00511329.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511329.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511329.pdf",
+      "created": "2020-11-10T09:01:26+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Vorstellung Projekt \"Talenteförderung\" - Verein zur Förderung der Jugend e. V.",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/511333",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0352/20_oU",
+      "fileName": "00511333.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511333.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511333.pdf",
+      "created": "2020-11-10T09:04:31+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Erhalt Bürger- und Vereinszentrum Pappritz bzw. Ersatzschaffung",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20643",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "517326",
-      "auxiliaryFile": [
-        "504849",
-        "508139",
-        "513263"
-      ],
-      "result": "Vertagung auf Geschäftsordnungsantrag"
+      "id": "http://oparl.dresden.de/bodies/0001/files/511336",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0356/20_oU",
+      "fileName": "00511336.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511336.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511336.pdf",
+      "created": "2020-11-10T09:07:02+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20557",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "542623",
-      "auxiliaryFile": [
-        "502778",
-        "521485"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 11,
-        "no": 0,
-        "neutral": 6,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/511339",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0354/20_oU",
+      "fileName": "00511339.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511339.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511339.pdf",
+      "created": "2020-11-10T09:10:55+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Verwendung von Investitions- und Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/511342",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0355/20_oU",
+      "fileName": "00511342.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511342.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511342.pdf",
+      "created": "2020-11-10T09:13:58+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Verwendung von Investitionsmitteln - Freundeskreis Eschdorf e. V. - Pavillon Mühlengetriebe Eschdorf",
-      "number": "Ö 8.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20752",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511604",
-      "auxiliaryFile": [
-        "515203",
-        "508497"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/511344",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Schönfeld-Weißig_V-SW0357/20_oU",
+      "fileName": "00511344.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-10",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511344.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511344.pdf",
+      "created": "2020-11-10T09:15:56+01:00",
+      "modified": "2020-11-11T10:03:05+01:00"
     },
     {
-      "name": "Verwendung von Verfügungsmitteln - Freundeskreis Eschdorf e. V. - Betriebskostenzuschuss 2021",
-      "number": "Ö 8.2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20668",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511605",
-      "auxiliaryFile": [
-        "515196",
-        "506034"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 0,
-        "neutral": 3,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/511603",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Schönfeld-Weißig_A0131/20_mU",
+      "fileName": "00511603.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00511603.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00511603.pdf",
+      "created": "2020-11-11T06:55:32+01:00",
+      "modified": "2021-02-09T12:17:26+01:00"
     },
     {
-      "name": "Verwendung von Verfügungsmitteln - SG Weißig e. V. - Fußball Mini-Tore und Tellerfüße",
-      "number": "Ö 8.3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20670",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511606",
-      "auxiliaryFile": [
-        "515200",
-        "506068"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/512042",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00512042.pdf",
+      "mimeType": "application/pdf",
+      "date": "2020-11-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00512042.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00512042.pdf",
+      "created": "2020-11-12T13:37:09+01:00",
+      "modified": "2021-02-09T12:17:26+01:00"
     },
     {
-      "name": "Verwendung von Verfügungsmitteln - Seniorengruppe Schönfeld - Weihnachtsfeier 2020",
-      "number": "Ö 8.4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20669",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511607",
-      "auxiliaryFile": [
-        "515201",
-        "506042"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verwendung von Verfügungsmitteln - Dorfklub Pappritz e. V. - Informationstafeln Pappritz",
-      "number": "Ö 8.5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20739",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511608",
-      "auxiliaryFile": [
-        "515197",
-        "508059"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 17,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verwendung von Verfügungsmitteln - Sport- und Freizeittreff Gönnsdorf e. V. - Betriebskostenzuschuss 2019",
-      "number": "Ö 8.6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20736",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511609",
-      "auxiliaryFile": [
-        "515199",
-        "508034"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 8,
-        "no": 7,
-        "neutral": 2,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verwendung von Verfügungsmitteln - Sport- und Freizeittreff Gönnsdorf e. V. - Betriebskostenzuschuss 2020",
-      "number": "Ö 8.7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20737",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511610",
-      "auxiliaryFile": [
-        "515198",
-        "508043"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 10,
-        "no": 4,
-        "neutral": 3,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Verwendung von Verfügungsmitteln - Bürgervereinigung Schullwitz e. V. - Tischtennisplatten",
-      "number": "Ö 8.8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "20740",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "511675",
-      "auxiliaryFile": [
-        "515202",
-        "508072"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 0,
-        "neutral": 0,
-        "biased": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/525560",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift-14.Sitzung_2020-11-09-öffentlich_mU",
+      "fileName": "00525560.pdf",
+      "mimeType": "application/pdf",
+      "date": "2021-02-09",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00525560.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00525560.pdf",
+      "created": "2021-02-09T12:16:46+01:00",
+      "modified": "2021-02-09T12:17:26+01:00"
     }
   ],
-  "id": "8937"
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138639",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "1",
+      "order": "1",
+      "name": "Begrüßung, Feststellung der Beschlussfähigkeit",
+      "public": true,
+      "created": "2020-09-21T13:49:56+02:00",
+      "modified": "2020-09-21T13:49:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138640",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "2",
+      "order": "2",
+      "name": "Bericht der Ortsvorsteherin",
+      "public": true,
+      "created": "2020-09-21T13:49:56+02:00",
+      "modified": "2020-09-21T13:49:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138641",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "3",
+      "order": "3",
+      "name": "Bürgerfragestunde",
+      "public": true,
+      "created": "2020-09-21T13:49:56+02:00",
+      "modified": "2020-09-21T13:49:58+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138642",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "4",
+      "order": "4",
+      "name": "Einwendungen zur öffentlichen Niederschrift der 13. Sitzung vom 05.10.2020",
+      "public": true,
+      "created": "2020-09-21T13:49:56+02:00",
+      "modified": "2020-09-28T12:15:20+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139714",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "5",
+      "order": "5",
+      "name": "Vorstellung Projekt \"Talenteförderung\" - Verein zur Förderung der Jugend e. V.",
+      "public": true,
+      "created": "2020-10-08T11:54:56+02:00",
+      "modified": "2020-10-26T13:10:39+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139715",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "6",
+      "order": "6",
+      "name": "Erhalt Bürger- und Vereinszentrum Pappritz bzw. Ersatzschaffung",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46114",
+      "result": "Vertagung auf Geschäftsordnungsantrag",
+      "created": "2020-10-08T13:00:10+02:00",
+      "modified": "2020-11-10T08:24:25+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139902",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "7",
+      "order": "7",
+      "name": "Wiedereinführung der Möglichkeit von Bargeldzahlungen in den Bürgerbüros der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/45855",
+      "result": "Zustimmung",
+      "created": "2020-10-15T06:29:38+02:00",
+      "modified": "2020-11-10T08:24:49+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/138644",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8",
+      "order": "8",
+      "name": "Verwendung von Investitions- und Verfügungsmitteln der Ortschaft Schönfeld-Weißig zur Traditions- und Heimatpflege",
+      "public": true,
+      "created": "2020-09-21T13:49:56+02:00",
+      "modified": "2020-10-28T07:14:02+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140596",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.1",
+      "order": "9",
+      "name": "Verwendung von Investitionsmitteln - Freundeskreis Eschdorf e. V. - Pavillon Mühlengetriebe Eschdorf",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46426",
+      "result": "Zustimmung",
+      "created": "2020-10-28T08:09:22+01:00",
+      "modified": "2020-11-11T07:00:46+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139930",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.2",
+      "order": "10",
+      "name": "Verwendung von Verfügungsmitteln - Freundeskreis Eschdorf e. V. - Betriebskostenzuschuss 2021",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46171",
+      "result": "Zustimmung",
+      "created": "2020-10-15T08:31:06+02:00",
+      "modified": "2020-11-11T07:02:08+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139935",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.3",
+      "order": "11",
+      "name": "Verwendung von Verfügungsmitteln - SG Weißig e. V. - Fußball Mini-Tore und Tellerfüße",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46173",
+      "result": "Zustimmung",
+      "created": "2020-10-15T08:51:07+02:00",
+      "modified": "2020-11-11T07:03:06+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/139934",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.4",
+      "order": "12",
+      "name": "Verwendung von Verfügungsmitteln - Seniorengruppe Schönfeld - Weihnachtsfeier 2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46172",
+      "result": "Zustimmung",
+      "created": "2020-10-15T08:40:23+02:00",
+      "modified": "2020-11-11T07:03:57+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140520",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.5",
+      "order": "13",
+      "name": "Verwendung von Verfügungsmitteln - Dorfklub Pappritz e. V. - Informationstafeln Pappritz",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46373",
+      "result": "Zustimmung",
+      "created": "2020-10-26T14:17:10+01:00",
+      "modified": "2020-11-11T07:04:49+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140507",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.6",
+      "order": "14",
+      "name": "Verwendung von Verfügungsmitteln - Sport- und Freizeittreff Gönnsdorf e. V. - Betriebskostenzuschuss 2019",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46355",
+      "result": "Zustimmung",
+      "created": "2020-10-26T13:28:26+01:00",
+      "modified": "2020-11-11T07:05:41+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140519",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.7",
+      "order": "15",
+      "name": "Verwendung von Verfügungsmitteln - Sport- und Freizeittreff Gönnsdorf e. V. - Betriebskostenzuschuss 2020",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46356",
+      "result": "Zustimmung",
+      "created": "2020-10-26T14:09:20+01:00",
+      "modified": "2020-11-11T07:06:32+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/140521",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8937",
+      "number": "8.8",
+      "order": "16",
+      "name": "Verwendung von Verfügungsmitteln - Bürgervereinigung Schullwitz e. V. - Tischtennisplatten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/46374",
+      "result": "Zustimmung",
+      "created": "2020-10-26T14:31:29+01:00",
+      "modified": "2020-11-11T09:53:51+01:00"
+    }
+  ],
+  "created": "2019-11-06T09:18:35+01:00",
+  "modified": "2021-02-09T12:17:26+01:00"
 }

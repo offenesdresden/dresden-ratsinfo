@@ -1,24 +1,42 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/17475",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Ergänzung zum Beschluss V-GP0214/19 Gratulation zu Geburtstagen",
-  "shortName": "V-GP0223/19",
   "reference": "V-GP0223/19",
+  "date": "2019-08-22",
   "paperType": "Vorlage OS Gompitz",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-08-21",
-  "auxiliaryFile": [
-    "426430"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/426430",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Gompitz",
+    "fileName": "00426430.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-08-21",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00426430.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00426430.pdf",
+    "created": "2019-08-21T05:25:18+02:00",
+    "modified": "2019-09-09T12:15:02+02:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/36"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "8458",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/38816",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/17475",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/120321",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/8458",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-08-21T05:36:39+02:00",
+      "modified": "2019-09-10T08:49:11+02:00"
     }
   ],
-  "id": "17475"
+  "created": "2019-08-21T05:24:16+02:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

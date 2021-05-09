@@ -1,147 +1,154 @@
 {
-  "shortName": "OBR Alt/055/2014",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 1, 1. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ortsbeirat Altstadt - 18.06.2014 - 17:30-20:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "8"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3506",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "55. Sitzung des Ortsbeirates Altstadt",
   "start": "2014-06-18T17:30:00+02:00",
   "end": "2014-06-18T20:30:00+02:00",
-  "invitation": "171707",
-  "verbatimProtocol": "177850",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/15",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "1/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/8"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/893",
+    "http://oparl.dresden.de/bodies/0001/people/567",
+    "http://oparl.dresden.de/bodies/0001/people/569",
+    "http://oparl.dresden.de/bodies/0001/people/571",
+    "http://oparl.dresden.de/bodies/0001/people/1183",
+    "http://oparl.dresden.de/bodies/0001/people/1202",
+    "http://oparl.dresden.de/bodies/0001/people/577",
+    "http://oparl.dresden.de/bodies/0001/people/581",
+    "http://oparl.dresden.de/bodies/0001/people/582",
+    "http://oparl.dresden.de/bodies/0001/people/412",
+    "http://oparl.dresden.de/bodies/0001/people/1105",
+    "http://oparl.dresden.de/bodies/0001/people/587",
+    "http://oparl.dresden.de/bodies/0001/people/589",
+    "http://oparl.dresden.de/bodies/0001/people/591",
+    "http://oparl.dresden.de/bodies/0001/people/593",
+    "http://oparl.dresden.de/bodies/0001/people/595",
+    "http://oparl.dresden.de/bodies/0001/people/597"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/171707",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Alt_18.06.2014",
+    "fileName": "00171707.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-06-02",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00171707.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00171707.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Vorstellung der Freiraumgestaltungsstudie Postplatz",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/171707",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Alt_18.06.2014",
+      "fileName": "00171707.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-06-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00171707.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00171707.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 6021, Dresden-Altstadt I, An der Herzogin Gartenhier:1. Abwägungsbeschluss2. Satzungsbeschluss sowie Billigung der Begründung",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8539",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "176406",
-      "auxiliaryFile": [
-        "190753",
-        "179624",
-        "172159",
-        "171926",
-        "171072",
-        "171075",
-        "171076",
-        "171077",
-        "171078",
-        "171079",
-        "171080",
-        "171081",
-        "171083",
-        "171084"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Parkraumkonzept Johannstadt-Nord",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8331",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "188216",
-      "auxiliaryFile": [
-        "210082",
-        "256903",
-        "304111",
-        "169564",
-        "169302",
-        "167480",
-        "173988",
-        "164980",
-        "165810"
-      ],
-      "result": "Ersetzung",
-      "vote": {
-        "yes": 8,
-        "no": 1,
-        "neutral": 7,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Ereignisanalyse zu den Hochwasserereignissen im Mai und Juni 2013 und zusätzliche Maßnahmen zur Verbesserung der Hochwasservorsorge",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "8174",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "176459",
-      "auxiliaryFile": [
-        "194279",
-        "218662",
-        "244420",
-        "268243",
-        "290192",
-        "335976",
-        "397077",
-        "464092",
-        "168719",
-        "163137",
-        "185007",
-        "162852",
-        "162451",
-        "162452",
-        "162453",
-        "162454",
-        "160930",
-        "175946"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 1,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Kontrolle der Niederschrift zur 54. Ortsbeiratssitzung am 07.05.2014",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/177850",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00177850.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-08-11",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00177850.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00177850.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "3506",
-  "participant": [
-    "567",
-    "1183",
-    "569",
-    "571",
-    "1202",
-    "577",
-    "581",
-    "582",
-    "412",
-    "1105",
-    "587",
-    "589",
-    "591",
-    "593",
-    "595",
-    "597"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53477",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3506",
+      "number": "1",
+      "order": "1",
+      "name": "Vorstellung der Freiraumgestaltungsstudie Postplatz",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/54173",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3506",
+      "number": "2",
+      "order": "2",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 6021, Dresden-Altstadt I, An der Herzogin Garten",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/16168",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53402",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3506",
+      "number": "3",
+      "order": "3",
+      "name": "Parkraumkonzept Johannstadt-Nord",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15708",
+      "result": "Ersetzung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53649",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3506",
+      "number": "4",
+      "order": "4",
+      "name": "Ereignisanalyse zu den Hochwasserereignissen im Mai und Juni 2013 und zusätzliche Maßnahmen zur Verbesserung der Hochwasservorsorge",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/15975",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53388",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3506",
+      "number": "5",
+      "order": "5",
+      "name": "Kontrolle der Niederschrift zur 54. Ortsbeiratssitzung am 07.05.2014",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/53391",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3506",
+      "number": "6",
+      "order": "6",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

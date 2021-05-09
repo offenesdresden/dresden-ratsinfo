@@ -1,174 +1,193 @@
 {
-  "shortName": "OBR Pro/020/2011",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Prohlis, Bürgersaal,Prohliser Allee 10, 01239 Dresden",
-  "name": "Ortsbeirat Prohlis - 05.12.2011 - 17:00-20:50 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "41"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortsbeirates Prohlis",
   "start": "2011-12-05T17:00:00+01:00",
   "end": "2011-12-05T20:50:00+01:00",
-  "invitation": "81314",
-  "verbatimProtocol": "84925",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1791",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Prohliser Allee 10",
+    "room": "Ortsamt Prohlis, Bürgersaal",
+    "postalCode": "01239",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:35+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/41"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/87",
+    "http://oparl.dresden.de/bodies/0001/people/403",
+    "http://oparl.dresden.de/bodies/0001/people/533",
+    "http://oparl.dresden.de/bodies/0001/people/535",
+    "http://oparl.dresden.de/bodies/0001/people/536",
+    "http://oparl.dresden.de/bodies/0001/people/538",
+    "http://oparl.dresden.de/bodies/0001/people/545",
+    "http://oparl.dresden.de/bodies/0001/people/546",
+    "http://oparl.dresden.de/bodies/0001/people/935",
+    "http://oparl.dresden.de/bodies/0001/people/552",
+    "http://oparl.dresden.de/bodies/0001/people/554",
+    "http://oparl.dresden.de/bodies/0001/people/557",
+    "http://oparl.dresden.de/bodies/0001/people/559",
+    "http://oparl.dresden.de/bodies/0001/people/561",
+    "http://oparl.dresden.de/bodies/0001/people/563",
+    "http://oparl.dresden.de/bodies/0001/people/543",
+    "http://oparl.dresden.de/bodies/0001/people/566"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/81314",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Pro",
+    "fileName": "00081314.pdf",
+    "mimeType": "application/pdf",
+    "date": "2011-11-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00081314.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00081314.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Feststellung der Beschlussfähigkeit und Abstimmung über die weitere Tagesordnung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/81314",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Pro",
+      "fileName": "00081314.pdf",
+      "mimeType": "application/pdf",
+      "date": "2011-11-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00081314.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00081314.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Kontrolle der Niederschrift zur 19. Ortsbeiratssitzung am 07.11.2011",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Vorhabenbezogener Bebauungsplan Nr. 698, Dresden-Nickern, Ansiedlung Fachmarkt für Motorradzubehörhier:\t1. Änderung des Geltungsbereiches\t2. Umbenennung des vorhabenbezogenen Bebauungsplanes \t3. Billigung des Entwurfs zum vorhabenbezogenen Bebauungsplan\t4. Billigung der Begründung zum vorhabenbezogenen Bebauungsplan-Entwurf\t5. Öffentliche Auslegung des Entwurfs zum vorhabenbezogenen Bebauungsplan",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5123",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "85019",
-      "auxiliaryFile": [
-        "81268",
-        "80931",
-        "80241",
-        "80243",
-        "80244",
-        "80245",
-        "80246",
-        "80248"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 16,
-        "no": 1,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Bebauungsplan Nr. 348, Dresden-Großluga Nr. 4, Dohnaer Straße - Wohngebiet Großlugahier:\t1. Aufstellungsbeschluss Bebauungsplan\t2. Grenzen des räumlichen Geltungsbereiches des Bebauungsplanes",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5129",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "85024",
-      "auxiliaryFile": [
-        "81267",
-        "80946",
-        "80478",
-        "80479"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 13,
-        "no": 2,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Flächennutzungsplan-Änderung Nr. 49, Ortsamt Prohlis, Teilbereich Leubnitz-Neuostra/Am Pfaffenberghier:\t1. Beschluss über Stellungnahmen aus dem frühzeitigen Beteiligungsverfahren\t2. Beschluss über Stellungnahmen aus der öffentlichen Auslegung \t3. Abschließender Beschluss zur 49. Änderung des Flächennutzungsplanes und \tBilligung der Begründung mit Umweltbericht zur Flächennutzungsplan-Änderung\tsowie der zusammenfassenden Erklärung nach § 6 Abs. 5 BauGB",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "5137",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "86367",
-      "auxiliaryFile": [
-        "81266",
-        "80950",
-        "80595",
-        "80596",
-        "80597",
-        "80598",
-        "80603",
-        "80604",
-        "80605",
-        "80606",
-        "80610",
-        "80611",
-        "80612",
-        "80613"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "erneute Beratung einer modifizierten Vorlage"
-    },
-    {
-      "name": "Verkauf des Grundstücks Urnenstraße 22",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4387",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "74028",
-        "71653",
-        "67670",
-        "71774"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 0,
-        "no": 15,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Namensvorschläge zur Umbenennung der mehrfach vorhandenen Straßennamen in Dresden - Erfüllung des Stadtratsbeschlusses A0743-SR82-09",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Vertagung",
-      "vote": {
-        "yes": 14,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen",
-      "number": "Ö 9",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/84925",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00084925.pdf",
+      "mimeType": "application/pdf",
+      "date": "2012-01-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00084925.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00084925.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "1292",
-  "participant": [
-    "895",
-    "535",
-    "533",
-    "87",
-    "538",
-    "403",
-    "536",
-    "545",
-    "546",
-    "935",
-    "554",
-    "552",
-    "559",
-    "557",
-    "563",
-    "561",
-    "543",
-    "566"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25010",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "1",
+      "order": "1",
+      "name": "Feststellung der Beschlussfähigkeit und Abstimmung über die weitere Tagesordnung",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25002",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "2",
+      "order": "2",
+      "name": "Kontrolle der Niederschrift zur 19. Ortsbeiratssitzung am 07.11.2011",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25007",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "3",
+      "order": "3",
+      "name": "Vorhabenbezogener Bebauungsplan Nr. 698, Dresden-Nickern, Ansiedlung Fachmarkt für Motorradzubehör",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8121",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25177",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "4",
+      "order": "4",
+      "name": "Bebauungsplan Nr. 348, Dresden-Großluga Nr. 4, Dohnaer Straße - Wohngebiet Großluga, hier: 1. Aufstellungsbeschluss Bebauungsplan, 2. Grenzen des räumlichen Geltungsbereiches des Bebauungsplanes",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8136",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25178",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "5",
+      "order": "5",
+      "name": "Flächennutzungsplan-Änderung Nr. 49, Ortsamt Prohlis, Teilbereich Leubnitz-Neuostra/Am Pfaffenberg",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/8149",
+      "result": "Zustimmung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25005",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "6",
+      "order": "6",
+      "name": "Fortschreibung der Schulnetzplanung, Planteile Grundschulen, Mittelschulen, Gymnasien, berufsbildende Schulen, Schulen des zweiten Bildungsweges und Schulen in nicht kommunaler Trägerschaft",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7499",
+      "result": "erneute Beratung einer modifizierten Vorlage",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25006",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "7",
+      "order": "7",
+      "name": "Verkauf des Grundstücks Urnenstraße 22",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7544",
+      "result": "Ablehnung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25013",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "8",
+      "order": "8",
+      "name": "Namensvorschläge zur Umbenennung der mehrfach vorhandenen Straßennamen in Dresden - Erfüllung des Stadtratsbeschlusses A0743-SR82-09",
+      "public": true,
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/25009",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/1292",
+      "number": "9",
+      "order": "9",
+      "name": "Informationen, Hinweise und Anfragen",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

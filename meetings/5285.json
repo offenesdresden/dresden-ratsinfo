@@ -1,87 +1,138 @@
 {
-  "shortName": "OBR Leu/020/2016",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Leuben, Bürgersaal,Hertzstraße 23, 01257 Dresden",
-  "name": "Ortsbeirat Leuben - 07.12.2016 - 19:00-21:40 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "44"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5285",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "20. Sitzung des Ortsbeirates Leuben",
   "start": "2016-12-07T19:00:00+01:00",
   "end": "2016-12-07T21:40:00+01:00",
-  "invitation": "278882",
-  "verbatimProtocol": "279040",
-  "agendaItem": [
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/28",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Hertzstraße 23",
+    "room": "Ortsamt Leuben, Bürgersaal",
+    "postalCode": "01257",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:46:04+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/44"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/895",
+    "http://oparl.dresden.de/bodies/0001/people/508",
+    "http://oparl.dresden.de/bodies/0001/people/510",
+    "http://oparl.dresden.de/bodies/0001/people/1349",
+    "http://oparl.dresden.de/bodies/0001/people/1350",
+    "http://oparl.dresden.de/bodies/0001/people/1352",
+    "http://oparl.dresden.de/bodies/0001/people/516",
+    "http://oparl.dresden.de/bodies/0001/people/517",
+    "http://oparl.dresden.de/bodies/0001/people/521",
+    "http://oparl.dresden.de/bodies/0001/people/1075",
+    "http://oparl.dresden.de/bodies/0001/people/1118",
+    "http://oparl.dresden.de/bodies/0001/people/1357",
+    "http://oparl.dresden.de/bodies/0001/people/887",
+    "http://oparl.dresden.de/bodies/0001/people/70",
+    "http://oparl.dresden.de/bodies/0001/people/69",
+    "http://oparl.dresden.de/bodies/0001/people/519"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/278882",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Leu",
+    "fileName": "00278882.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-11-28",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00278882.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00278882.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Eröffnung der Sitzung, Feststellung der frist- und ordnungsgemäßen Ladung, Feststellung der Beschlussfähigkeit, Kontrolle der Niederschrift zur 19. Ortsbeiratssitzung am 09.11.2016",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/278882",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Leu",
+      "fileName": "00278882.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-11-28",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00278882.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00278882.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12664",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293251",
-      "auxiliaryFile": [
-        "293716",
-        "309032",
-        "356861",
-        "406008",
-        "500924",
-        "273919",
-        "273804",
-        "265662",
-        "265663",
-        "260552",
-        "261625",
-        "288956",
-        "286704",
-        "290087",
-        "289759"
-      ],
-      "result": "Vertagung",
-      "vote": {
-        "yes": 15,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Änderung der Einfriedung am Kleinzschachwitzer Ufer innerhalb des VE-Plan 6002 Dresden-Kleinzschachwitz, Kleinzschachwitzer Ufer",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters zum Geschehen im Ortsamtsgebiet",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/279040",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00279040.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00279040.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00279040.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5285",
-  "participant": [
-    "1349",
-    "1350",
-    "508",
-    "510",
-    "1352",
-    "516",
-    "517",
-    "521",
-    "1075",
-    "1118",
-    "1357",
-    "887",
-    "70",
-    "69",
-    "519"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85362",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5285",
+      "number": "1",
+      "order": "1",
+      "name": "Eröffnung der Sitzung, Feststellung der frist- und ordnungsgemäßen Ladung, Feststellung der Beschlussfähigkeit, Kontrolle der Niederschrift zur . Ortsbeiratssitzung am",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85365",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5285",
+      "number": "2",
+      "order": "2",
+      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25604",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85441",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5285",
+      "number": "3",
+      "order": "3",
+      "name": "Änderung der Einfriedung am Kleinschachwitzer Ufer innerhalb des VE-Plan 6002 Dresden-Kleinschachwitz, Kleinschachwitzer Ufer",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85363",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5285",
+      "number": "4",
+      "order": "4",
+      "name": "Informationen, Hinweise und Anfragen der Ortsbeiräte",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/85364",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5285",
+      "number": "5",
+      "order": "5",
+      "name": "Informationen des Ortsamtsleiters zum Geschehen im Ortsamtsgebiet",
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

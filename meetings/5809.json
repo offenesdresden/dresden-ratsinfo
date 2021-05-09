@@ -1,91 +1,200 @@
 {
-  "shortName": "OSR AF/037/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortschaftszentrum Altfranken, Sitzungssaal,Otto-Harzer-Straße 2 b, 01156 Dresden",
-  "name": "Ortschaftsrat Altfranken - 11.12.2017 - 19:00-19:45 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "49"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "37. Sitzung des Ortschaftsrates Altfranken",
   "start": "2017-12-11T19:00:00+01:00",
   "end": "2017-12-11T19:45:00+01:00",
-  "invitation": "325259",
-  "resultsProtocol": "326738",
-  "auxiliaryFile": [
-    "326743",
-    "327212",
-    "327213"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/1750",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Otto-Harzer-Straße 2 b",
+    "room": "Ortschaft Altfranken, Sitzungssaal",
+    "postalCode": "01156",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/49"
   ],
-  "verbatimProtocol": "327610",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/300",
+    "http://oparl.dresden.de/bodies/0001/people/301",
+    "http://oparl.dresden.de/bodies/0001/people/302",
+    "http://oparl.dresden.de/bodies/0001/people/1242",
+    "http://oparl.dresden.de/bodies/0001/people/1243"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/325259",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR AF",
+    "fileName": "00325259.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-11-30",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00325259.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00325259.pdf",
+    "created": "2017-11-30T10:51:07+01:00",
+    "modified": "2017-12-01T09:27:30+01:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/326738",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0059/17_oU",
+    "fileName": "00326738.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-12-12",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00326738.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00326738.pdf",
+    "created": "2017-12-12T11:18:32+01:00",
+    "modified": "2017-12-14T11:24:28+01:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bereitstellung finanzieller Mittel für die Seniorengruppe Altfranken",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14564",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "323984"
-      ],
-      "resolutionFile": "327217",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/325259",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR AF",
+      "fileName": "00325259.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-11-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00325259.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00325259.pdf",
+      "created": "2017-11-30T10:51:07+01:00",
+      "modified": "2017-12-01T09:27:30+01:00"
     },
     {
-      "name": "Bereitstellung finanzieller Mittel für die Interessengemeinschaft \"Historisches Altfranken\"",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14565",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "323972"
-      ],
-      "resolutionFile": "327218",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 5,
-        "no": 0,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/326738",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0059/17_oU",
+      "fileName": "00326738.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00326738.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00326738.pdf",
+      "created": "2017-12-12T11:18:32+01:00",
+      "modified": "2017-12-14T11:24:28+01:00"
     },
     {
-      "name": "Stellungnahme zum Bebauungsplan Nr. 172.8, Dresden-Altfranken Nr. 2, Gewerbegebiet Kesselsdorfer Straße",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/326743",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0060/17_oU",
+      "fileName": "00326743.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-12",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00326743.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00326743.pdf",
+      "created": "2017-12-12T11:21:14+01:00",
+      "modified": "2017-12-14T11:24:28+01:00"
     },
     {
-      "name": "Beteiligungsverfahren im Rahmen der 2. Gesamtfortschreibung des Regionalplanes \"Oberes Elbtal/Osterzgebirge\"",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/327212",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0059/17_mU",
+      "fileName": "00327212.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00327212.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00327212.pdf",
+      "created": "2017-12-14T10:22:49+01:00",
+      "modified": "2018-01-09T08:37:21+01:00"
     },
     {
-      "name": "Sonstiges",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/327213",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Altfranken_V-AF0060/17_mU",
+      "fileName": "00327213.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-14",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00327213.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00327213.pdf",
+      "created": "2017-12-14T10:23:05+01:00",
+      "modified": "2018-01-09T08:37:21+01:00"
     },
     {
-      "name": "Beleuchtung des Verbindungsweges Haufes Berg zur Altfrankener Dorfstraße",
-      "number": "Ö 5.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/327610",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00327610.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-12-19",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00327610.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00327610.pdf",
+      "created": "2017-12-19T11:21:40+01:00",
+      "modified": "2018-01-09T08:37:21+01:00"
     }
   ],
-  "id": "5809",
-  "participant": [
-    "300",
-    "1242",
-    "302",
-    "301",
-    "1243"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/96818",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+      "number": "1",
+      "order": "1",
+      "name": "Bereitstellung finanzieller Mittel für die Seniorengruppe Altfranken",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30732",
+      "result": "Zustimmung",
+      "created": "2017-11-24T10:19:17+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/96819",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+      "number": "2",
+      "order": "2",
+      "name": "Bereitstellung finanzieller Mittel für die Interessengemeinschaft \"Historisches Altfranken\"",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/30699",
+      "result": "Zustimmung",
+      "created": "2017-11-24T10:19:32+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/96899",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+      "number": "3",
+      "order": "3",
+      "name": "Stellungnahme zum Bebauungsplan Nr. 172.8, Dresden-Altfranken Nr. 2, Gewerbegebiet Kesselsdorfer Straße",
+      "public": true,
+      "created": "2017-11-28T09:08:50+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/96813",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+      "number": "4",
+      "order": "4",
+      "name": "Beteiligungsverfahren im Rahmen der 2. Gesamtfortschreibung des Regionalplanes \"Oberes Elbtal/Osterzgebirge\"",
+      "public": true,
+      "created": "2017-11-24T07:36:07+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/97631",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+      "number": "5",
+      "order": "5",
+      "name": "Sonstiges",
+      "public": true,
+      "created": "2017-12-19T11:21:10+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/96814",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5809",
+      "number": "5.1",
+      "order": "6",
+      "name": "Beleuchtung des Verbindungsweges Haufes Berg zur Altfrankener Dorfstraße",
+      "public": true,
+      "created": "2017-11-24T07:36:07+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

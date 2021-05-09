@@ -1,41 +1,51 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/people/1351",
+  "type": "https://schema.oparl.org/1.1/Person",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Peter Miersch",
-  "type": "https://oparl.org/schema/1.0/Person",
-  "membership": [
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "10",
-      "startDate": "2019-09-10"
-    },
-    {
-      "role": "",
-      "type": "https://oparl.org/schema/1.0/Membership"
-    },
-    {
-      "role": "Stellvertretendes Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "44",
-      "startDate": "2014-10-16",
-      "endDate": "2018-09-30"
-    },
-    {
-      "role": "Stellvertretendes Mitglied",
-      "type": "https://oparl.org/schema/1.0/Membership",
-      "organization": "170",
-      "startDate": "2018-09-14",
-      "endDate": "2019-10-09"
-    }
-  ],
-  "status": [
-    "CDU"
-  ],
+  "familyName": "Miersch",
+  "givenName": "Peter",
+  "formOfAddress": "Herr",
+  "gender": "männlich",
   "email": [
     "miersch@dresden-cdu.de"
   ],
-  "id": "1351"
+  "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/9953",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1351",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/10",
+      "role": "Mitglied",
+      "votingRight": true,
+      "startDate": "2019-09-10",
+      "created": "2019-09-10T12:40:58+02:00",
+      "modified": "2019-10-14T09:03:10+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/8953",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1351",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/170",
+      "role": "Stellvertretendes Mitglied",
+      "startDate": "2018-09-14",
+      "endDate": "2019-10-09",
+      "created": "2018-09-13T12:07:07+02:00",
+      "modified": "2019-09-30T09:09:02+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/5293",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/1351",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/44",
+      "role": "Stellvertretendes Mitglied",
+      "startDate": "2014-10-16",
+      "endDate": "2018-09-30",
+      "created": "2016-12-21T09:06:34+01:00",
+      "modified": "2018-12-20T09:14:08+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:34+01:00",
+  "modified": "2021-04-07T09:05:21+02:00",
+  "web": ""
 }

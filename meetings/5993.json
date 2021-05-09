@@ -1,118 +1,183 @@
 {
-  "shortName": "OBR Kl/026/2017",
-  "locality": "Landeshauptstadt Dresden, im Ortsamt Klotzsche, Bürgersaal,Kieler Straße 52, 01109 Dresden",
-  "name": "Ortsbeirat Klotzsche - 09.01.2017 - 18:30-20:42 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "43"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "26. Sitzung des Ortsbeirates Klotzsche",
   "start": "2017-01-09T18:30:00+01:00",
   "end": "2017-01-09T20:42:00+01:00",
-  "invitation": "282438",
-  "auxiliaryFile": [
-    "282929"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/674",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Kieler Straße 52",
+    "room": "Ortsamt Klotzsche, Bürgersaal",
+    "postalCode": "01109",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2018-09-11T06:45:59+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/43"
   ],
-  "verbatimProtocol": "283796",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/599",
+    "http://oparl.dresden.de/bodies/0001/people/601",
+    "http://oparl.dresden.de/bodies/0001/people/1062",
+    "http://oparl.dresden.de/bodies/0001/people/1348",
+    "http://oparl.dresden.de/bodies/0001/people/607",
+    "http://oparl.dresden.de/bodies/0001/people/610",
+    "http://oparl.dresden.de/bodies/0001/people/1345",
+    "http://oparl.dresden.de/bodies/0001/people/611",
+    "http://oparl.dresden.de/bodies/0001/people/612",
+    "http://oparl.dresden.de/bodies/0001/people/613",
+    "http://oparl.dresden.de/bodies/0001/people/1136",
+    "http://oparl.dresden.de/bodies/0001/people/617",
+    "http://oparl.dresden.de/bodies/0001/people/1458"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/282438",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OBR Kl",
+    "fileName": "00282438.pdf",
+    "mimeType": "application/pdf",
+    "date": "2016-12-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282438.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282438.pdf",
+    "created": "2016-12-22T06:27:26+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/282929",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Nachtrag_OBR Kl",
+    "fileName": "00282929.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-01-03",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282929.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282929.pdf",
+    "created": "2017-01-03T12:32:48+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Informationen des Wilschdorfer Heimatvereines zu den Vorbereitungen der 775 Jahrfeier von Wilschdorf in 2017",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/282438",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OBR Kl",
+      "fileName": "00282438.pdf",
+      "mimeType": "application/pdf",
+      "date": "2016-12-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282438.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282438.pdf",
+      "created": "2016-12-22T06:27:26+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/282929",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Nachtrag_OBR Kl",
+      "fileName": "00282929.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00282929.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00282929.pdf",
+      "created": "2017-01-03T12:32:48+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     },
     {
-      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
-      "number": "Ö 2.1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "12664",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293251",
-      "auxiliaryFile": [
-        "293716",
-        "309032",
-        "356861",
-        "406008",
-        "500924",
-        "273919",
-        "273804",
-        "265662",
-        "265663",
-        "260552",
-        "261625",
-        "288956",
-        "286704",
-        "290087",
-        "289759"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 4,
-        "neutral": 0,
-        "biased": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
-    },
-    {
-      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Informationen des Amtes für Stadtgrün und Abfallwirtschaft zum geplanten Spielplatz in Wilschdorf",
-      "number": "Ö 5 Nachtrag: 03.01.2017  Nummer 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "13017",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "293717",
-      "auxiliaryFile": [
-        "306563",
-        "356554",
-        "424928",
-        "279629",
-        "279086",
-        "278226",
-        "277117",
-        "273800",
-        "275160",
-        "286708",
-        "289760"
-      ],
-      "result": "zur Kenntnis genommen"
+      "id": "http://oparl.dresden.de/bodies/0001/files/283796",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00283796.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-01-16",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00283796.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00283796.pdf",
+      "created": "2017-01-11T08:40:58+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
     }
   ],
-  "id": "5993",
-  "participant": [
-    "1062",
-    "599",
-    "1348",
-    "601",
-    "607",
-    "610",
-    "1345",
-    "612",
-    "611",
-    "613",
-    "1136",
-    "617",
-    "1458"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86194",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+      "number": "1",
+      "order": "1",
+      "name": "Informationen des Wilschdorfer Heimatvereines zu den Vorbereitungen der 775 Jahrfeier von Wilschdorf in 2017",
+      "public": true,
+      "created": "2016-12-22T06:27:06+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86190",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+      "number": "2",
+      "order": "2",
+      "name": "Anträge und Vorlagen zur Beratung und Berichterstattung an die Gremien des Stadtrates",
+      "public": true,
+      "created": "2016-12-22T06:25:51+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86193",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+      "number": "2.1",
+      "order": "3",
+      "name": "Radverkehrskonzept der Landeshauptstadt Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/25610",
+      "result": "Zustimmung",
+      "created": "2016-12-22T06:26:23+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86191",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+      "number": "3",
+      "order": "4",
+      "name": "Informationen des Ortsamtsleiters, unter anderem aktuelle Informationen zur Schaffung zusätzlicher Unterbringungskapazitäten für besondere Bedarfsgruppen im Ortsamtsbereich",
+      "public": true,
+      "created": "2016-12-22T06:25:51+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86192",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+      "number": "4",
+      "order": "5",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2016-12-22T06:25:51+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86385",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+      "number": "5",
+      "order": "6",
+      "name": "Informationen des Amtes für Stadtgrün und Abfallwirtschaft zum geplanten Spielplatz in Wilschdorf",
+      "public": true,
+      "created": "2017-01-03T12:28:46+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/86495",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5993",
+      "number": "6",
+      "order": "7",
+      "name": "Einrichtung intermodaler Mobilitätspunkte in Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/26587",
+      "result": "zur Kenntnis genommen",
+      "created": "2017-01-09T09:00:30+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

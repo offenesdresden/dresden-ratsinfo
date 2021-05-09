@@ -1,51 +1,113 @@
 {
-  "shortName": "UK/062/2014",
-  "locality": "Landeshauptstadt Dresden, im Neuen Rathaus, Beratungsraum 4, 4. Etage, Raum 13,Dr.-Külz-Ring 19, 01067 Dresden",
-  "name": "Ausschuss für Umwelt und Kommunalwirtschaft - 03.02.2014 - 16:30-19:30 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "13"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/3287",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "62. Sitzung des Ausschusses für Umwelt und Kommunalwirtschaft",
   "start": "2014-02-03T16:30:00+01:00",
   "end": "2014-02-03T19:30:00+01:00",
-  "invitation": "158148",
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/17",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Dr.-Külz-Ring 19",
+    "room": "4/13",
+    "postalCode": "01067",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-19T13:27:18+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/13"
+  ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/30",
+    "http://oparl.dresden.de/bodies/0001/people/83",
+    "http://oparl.dresden.de/bodies/0001/people/88",
+    "http://oparl.dresden.de/bodies/0001/people/263",
+    "http://oparl.dresden.de/bodies/0001/people/84",
+    "http://oparl.dresden.de/bodies/0001/people/282",
+    "http://oparl.dresden.de/bodies/0001/people/267",
+    "http://oparl.dresden.de/bodies/0001/people/967",
+    "http://oparl.dresden.de/bodies/0001/people/285",
+    "http://oparl.dresden.de/bodies/0001/people/276",
+    "http://oparl.dresden.de/bodies/0001/people/70",
+    "http://oparl.dresden.de/bodies/0001/people/291"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/158148",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_UK",
+    "fileName": "00158148.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-01-22",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00158148.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00158148.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/159392",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussempfehlung_A0794_13_UK",
+    "fileName": "00159392.pdf",
+    "mimeType": "application/pdf",
+    "date": "2014-02-04",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00159392.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00159392.pdf",
+    "created": "2016-12-21T09:06:30+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "159392"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/158148",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_UK",
+      "fileName": "00158148.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-01-22",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00158148.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00158148.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/159392",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_A0794_13_UK",
+      "fileName": "00159392.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-02-04",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00159392.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00159392.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "agendaItem": [
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49694",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3287",
+      "number": "1",
+      "order": "1",
       "name": "Entwurf Landschaftsplan Dresden in der Fassung vom April 2013",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "4864",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "auxiliaryFile": [
-        "190527",
-        "133484",
-        "132956",
-        "127793",
-        "109571"
-      ],
-      "result": "Vertagung"
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/7569",
+      "result": "Vertagung",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/49700",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3287",
+      "number": "7",
+      "order": "7",
       "name": "Informationen/Sonstiges",
-      "number": "N 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "public": true,
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "3287",
-  "participant": [
-    "30",
-    "83",
-    "263",
-    "84",
-    "967",
-    "267",
-    "285",
-    "276",
-    "291"
-  ]
+  "created": "2016-12-21T09:06:53+01:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

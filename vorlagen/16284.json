@@ -1,25 +1,56 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/16284",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Verwendung von Verfügungsmitteln - IG Cunnersdorfer Dorfleben - Kinderfasching 2019",
-  "shortName": "V-SW0216/19",
   "reference": "V-SW0216/19",
+  "date": "2019-01-30",
   "paperType": "Vorlage OS Schönfeld-Weißig",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2019-01-08",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/388223",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Vorlage Schönfeld-Weißig",
+    "fileName": "00388223.pdf",
+    "mimeType": "application/pdf",
+    "date": "2019-01-08",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00388223.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00388223.pdf",
+    "created": "2019-01-08T13:26:39+01:00",
+    "modified": "2019-01-30T09:24:54+01:00"
+  },
   "auxiliaryFile": [
-    "392139",
-    "388223"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/392139",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Schönfeld-Weißig_V-SW0216/19_mU",
+      "fileName": "00392139.pdf",
+      "mimeType": "application/pdf",
+      "date": "2019-01-30",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00392139.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00392139.pdf",
+      "created": "2019-01-30T09:18:14+01:00",
+      "modified": "2019-01-30T09:24:54+01:00"
+    }
+  ],
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/40"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "7978",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/35866",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/16284",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/112191",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/7978",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/48"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2019-01-08T13:23:27+01:00",
+      "modified": "2019-01-30T09:39:14+01:00"
     }
   ],
-  "id": "16284"
+  "created": "2019-01-08T13:02:03+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

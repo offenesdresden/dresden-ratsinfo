@@ -1,126 +1,240 @@
 {
-  "shortName": "OSR WX/042/2018",
-  "locality": "Landeshauptstadt Dresden, im Rathaus Weixdorf, Sitzungssaal,Weixdorfer Rathausplatz 2, 01108 Dresden",
-  "name": "Ortschaftsrat Weixdorf - 14.05.2018 - 19:00-20:15 Uhr",
-  "type": "https://oparl.org/schema/1.0/Meeting",
-  "organization": [
-    "47"
-  ],
+  "id": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "name": "42. Sitzung des Ortschaftsrates Weixdorf",
   "start": "2018-05-14T19:00:00+02:00",
   "end": "2018-05-14T20:15:00+02:00",
-  "invitation": "346536",
-  "auxiliaryFile": [
-    "350013",
-    "350002",
-    "350014",
-    "350015"
+  "location": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/35",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "Weixdorfer Rathausplatz 2",
+    "room": "Ortschaft Weixdorf, Sitzungssaal",
+    "postalCode": "01108",
+    "subLocality": "",
+    "locality": "Dresden",
+    "created": "2016-12-21T09:06:29+01:00",
+    "modified": "2017-10-06T08:38:51+02:00"
+  },
+  "organization": [
+    "http://oparl.dresden.de/bodies/0001/organizations/gr/47"
   ],
-  "resultsProtocol": "349916",
-  "verbatimProtocol": "348054",
-  "agendaItem": [
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/298",
+    "http://oparl.dresden.de/bodies/0001/people/382",
+    "http://oparl.dresden.de/bodies/0001/people/383",
+    "http://oparl.dresden.de/bodies/0001/people/1264",
+    "http://oparl.dresden.de/bodies/0001/people/1265",
+    "http://oparl.dresden.de/bodies/0001/people/391",
+    "http://oparl.dresden.de/bodies/0001/people/386",
+    "http://oparl.dresden.de/bodies/0001/people/388",
+    "http://oparl.dresden.de/bodies/0001/people/1266"
+  ],
+  "invitation": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/346536",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Einladung_OSR WX",
+    "fileName": "00346536.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-05-07",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00346536.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00346536.pdf",
+    "created": "2018-05-07T06:55:52+02:00",
+    "modified": "2018-05-08T15:04:20+02:00"
+  },
+  "verbatimProtocol": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/349916",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0047/18_oU",
+    "fileName": "00349916.pdf",
+    "mimeType": "application/pdf",
+    "date": "2018-05-24",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00349916.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00349916.pdf",
+    "created": "2018-05-24T13:17:27+02:00",
+    "modified": "2018-05-28T13:57:44+02:00"
+  },
+  "auxiliaryFile": [
     {
-      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
-      "number": "Ö 1",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/346536",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Einladung_OSR WX",
+      "fileName": "00346536.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-07",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00346536.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00346536.pdf",
+      "created": "2018-05-07T06:55:52+02:00",
+      "modified": "2018-05-08T15:04:20+02:00"
     },
     {
-      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
-      "number": "Ö 2",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/348054",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Niederschrift öffentlich",
+      "fileName": "00348054.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00348054.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00348054.pdf",
+      "created": "2018-05-15T15:43:21+02:00",
+      "modified": "2018-06-21T12:56:02+02:00"
     },
     {
-      "name": "Einrichtung von Fußgängerüberwegen („Zebrastreifen\") im Stadtgebiet von Dresden",
-      "number": "Ö 3",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "14814",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "370006",
-      "auxiliaryFile": [
-        "369806",
-        "484640",
-        "333862",
-        "337817",
-        "333444",
-        "366738",
-        "369065",
-        "369066"
-      ],
-      "result": "Ablehnung",
-      "vote": {
-        "yes": 1,
-        "no": 6,
-        "neutral": 2,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/349916",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0047/18_oU",
+      "fileName": "00349916.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-24",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00349916.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00349916.pdf",
+      "created": "2018-05-24T13:17:27+02:00",
+      "modified": "2018-05-28T13:57:44+02:00"
     },
     {
-      "name": "Stellungnahme zur Erarbeitung der Straßenreinigungsgebührensatzung (SRGS) 2019/20",
-      "number": "Ö 4",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/350002",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_Ortschaftsrat Weixdorf_V-WX0047/18_mU",
+      "fileName": "00350002.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00350002.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00350002.pdf",
+      "created": "2018-05-25T06:35:16+02:00",
+      "modified": "2018-06-21T12:56:02+02:00"
     },
     {
-      "name": "Stellungnahme des Ortschaftsrates über besondere regionale Ereignisse nach SächsLadÖffG",
-      "number": "Ö 5",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/350013",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_Ortschaftsrat Weixdorf_A0404/18_mU",
+      "fileName": "00350013.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00350013.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00350013.pdf",
+      "created": "2018-05-25T07:04:36+02:00",
+      "modified": "2018-06-21T12:56:02+02:00"
     },
     {
-      "name": "Vereinsförderung 2018",
-      "number": "Ö 6",
-      "type": "https://oparl.org/schema/1.0/AgendaItem",
-      "consultation": {
-        "paper": "15194",
-        "type": "https://oparl.org/schema/1.0/Consultation"
-      },
-      "resolutionFile": "350003",
-      "auxiliaryFile": [
-        "346238",
-        "347968"
-      ],
-      "result": "Zustimmung",
-      "vote": {
-        "yes": 9,
-        "no": 0,
-        "neutral": 0,
-        "type": "https://oparl.org/schema/1.0/VoteResult"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/files/350014",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Hausmitteilung u.a. Zuarbeit zur Vorlagenerstellg. TOP4_mU",
+      "fileName": "00350014.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00350014.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00350014.pdf",
+      "created": "2018-05-25T07:11:47+02:00",
+      "modified": "2018-06-21T12:56:02+02:00"
     },
     {
-      "name": "Informationen des Ortsvorstehers",
-      "number": "Ö 7",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
-    },
-    {
-      "name": "Anfragen und Anregungen",
-      "number": "Ö 8",
-      "type": "https://oparl.org/schema/1.0/AgendaItem"
+      "id": "http://oparl.dresden.de/bodies/0001/files/350015",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Hausmitteilung u.a.Zuarbeit zur Vorlagenerstellg. TOP5_mU",
+      "fileName": "00350015.pdf",
+      "mimeType": "application/pdf",
+      "date": "2018-05-25",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00350015.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00350015.pdf",
+      "created": "2018-05-25T07:15:47+02:00",
+      "modified": "2018-06-21T12:56:02+02:00"
     }
   ],
-  "id": "6974",
-  "participant": [
-    "298",
-    "382",
-    "1265",
-    "383",
-    "1264",
-    "391",
-    "1266",
-    "388",
-    "386"
-  ]
+  "agendaItem": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101220",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "1",
+      "order": "1",
+      "name": "Bestätigung der Tagesordnung und Niederschrift der letzten Sitzung",
+      "public": true,
+      "created": "2018-04-04T09:40:55+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101221",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "2",
+      "order": "2",
+      "name": "Bekanntgabe der in nicht öffentlicher Sitzung gefassten Beschlüsse und Beschlusskontrolle",
+      "public": true,
+      "created": "2018-04-04T09:40:55+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/102186",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "3",
+      "order": "3",
+      "name": "Einrichtung von Fußgängerüberwegen („Zebrastreifen\") im Stadtgebiet von Dresden",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/31572",
+      "result": "Ablehnung",
+      "created": "2018-05-02T10:53:54+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101227",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "4",
+      "order": "4",
+      "name": "Stellungnahme zur Erarbeitung der Straßenreinigungsgebührensatzung (SRGS) 2019/20",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2018-04-04T09:43:33+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101800",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "5",
+      "order": "5",
+      "name": "Stellungnahme des Ortschaftsrates über besondere regionale Ereignisse nach SächsLadÖffG",
+      "public": true,
+      "result": "Zustimmung",
+      "created": "2018-04-17T11:17:01+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/102325",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "6",
+      "order": "6",
+      "name": "Vereinsförderung 2018",
+      "public": true,
+      "consultation": "http://oparl.dresden.de/bodies/0001/consultations/32574",
+      "result": "Zustimmung",
+      "created": "2018-05-03T14:19:08+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101223",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "7",
+      "order": "7",
+      "name": "Informationen des Ortsvorstehers",
+      "public": true,
+      "created": "2018-04-04T09:40:55+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/agendaitems/101224",
+      "type": "https://schema.oparl.org/1.1/AgendaItem",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/6974",
+      "number": "8",
+      "order": "8",
+      "name": "Anfragen und Anregungen",
+      "public": true,
+      "created": "2018-04-04T09:40:55+02:00",
+      "modified": "2018-12-20T09:14:20+01:00"
+    }
+  ],
+  "created": "2017-10-16T13:28:08+02:00",
+  "modified": "2020-12-04T08:34:10+01:00"
 }

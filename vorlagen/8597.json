@@ -1,24 +1,41 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/8597",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Vergabenummer: 2014-65-00032 55_Umnutzung Kinderheim in Kindertageseinrichtung und Ganztagsbetreuung, Maxim-Gorki-Straße 4, 01129 Dresden, Fachlos 43 - Starkstromanlagen",
-  "shortName": "V2966/14",
   "reference": "V2966/14",
+  "date": "2014-06-12",
   "paperType": "Vorlage VOB",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2014-06-11",
   "auxiliaryFile": [
-    "175274"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/175274",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_V2966_14_WF",
+      "fileName": "00175274.pdf",
+      "mimeType": "application/pdf",
+      "date": "2014-07-02",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00175274.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00175274.pdf",
+      "created": "2016-12-21T09:06:30+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "3457",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/16307",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/8597",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/54732",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/3457",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/12"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2016-12-21T09:06:54+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
   ],
-  "id": "8597"
+  "created": "2016-12-21T09:06:54+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

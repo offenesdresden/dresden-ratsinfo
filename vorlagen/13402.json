@@ -1,44 +1,79 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/13402",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Historischer Dorfanger Strehlen",
-  "shortName": "P0078/17",
   "reference": "P0078/17",
+  "date": "2017-02-01",
   "paperType": "Petition",
-  "type": "https://oparl.org/schema/1.0/Paper",
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/286338",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Petition",
+    "fileName": "00286338.pdf",
+    "mimeType": "application/pdf",
+    "date": "2017-02-01",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00286338.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00286338.pdf",
+    "created": "2017-02-01T09:36:43+01:00",
+    "modified": "2017-10-06T08:38:47+02:00"
+  },
   "auxiliaryFile": [
-    "286338",
-    "294492"
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/286355",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Petition_Historischer_Dorfanger_Strehlen_ö",
+      "fileName": "00286355.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-02-01",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00286355.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00286355.pdf",
+      "created": "2017-02-01T09:50:33+01:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/294492",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_P_P0078_17_mU",
+      "fileName": "00294492.pdf",
+      "mimeType": "application/pdf",
+      "date": "2017-04-03",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00294492.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00294492.pdf",
+      "created": "2017-04-03T06:21:12+02:00",
+      "modified": "2017-10-06T08:38:47+02:00"
+    }
   ],
-  "id": "13402",
-  "publishedDate": "2017-02-01",
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5850",
-      "role": "1. Lesung    (beschließendes Gremium)",
-      "agendaItem": {
-        "public": false,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/27496",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/13402",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/87652",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5851",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/133"
+      ],
+      "authoritative": true,
+      "role": "beschließend",
+      "created": "2017-02-14T10:20:50+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     },
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5851",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/27496",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/13402",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/88420",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/5852",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/133"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
-    },
-    {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "5852",
       "role": "beschließend",
-      "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "created": "2017-03-10T08:23:35+01:00",
+      "modified": "2018-12-20T09:14:20+01:00"
     }
-  ]
+  ],
+  "created": "2017-02-01T09:34:12+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }

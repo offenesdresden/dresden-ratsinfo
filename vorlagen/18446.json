@@ -1,24 +1,42 @@
 {
+  "id": "http://oparl.dresden.de/bodies/0001/papers/vo/18446",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "body": "http://oparl.dresden.de/bodies/0001",
   "name": "Fortführung des Gehweges Gustav-Vogt-Straße - S-Kurve",
-  "shortName": "A-OW0017/20",
   "reference": "A-OW0017/20",
+  "date": "2020-06-16",
   "paperType": "Antrag Ortschaft Oberwarha",
-  "type": "https://oparl.org/schema/1.0/Paper",
-  "publishedDate": "2020-02-10",
-  "auxiliaryFile": [
-    "458082"
+  "mainFile": {
+    "id": "http://oparl.dresden.de/bodies/0001/files/458082",
+    "type": "https://schema.oparl.org/1.1/File",
+    "name": "Antrag Ortschaft Oberwartha",
+    "fileName": "00458082.pdf",
+    "mimeType": "application/pdf",
+    "date": "2020-02-10",
+    "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00458082.pdf",
+    "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00458082.pdf",
+    "created": "2020-02-10T12:14:52+01:00",
+    "modified": "2020-06-16T13:04:28+02:00"
+  },
+  "underDirectionOf": [
+    "http://oparl.dresden.de/bodies/0001/organizations/at/35"
   ],
   "consultation": [
     {
-      "type": "https://oparl.org/schema/1.0/Consultation",
-      "meeting": "9215",
-      "role": "beschließend",
+      "id": "http://oparl.dresden.de/bodies/0001/consultations/40956",
+      "type": "https://schema.oparl.org/1.1/Consultation",
+      "paper": "http://oparl.dresden.de/bodies/0001/papers/vo/18446",
+      "agendaItem": "http://oparl.dresden.de/bodies/0001/agendaitems/133004",
+      "meeting": "http://oparl.dresden.de/bodies/0001/meetings/9215",
+      "organization": [
+        "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
+      ],
       "authoritative": true,
-      "agendaItem": {
-        "public": true,
-        "type": "https://oparl.org/schema/1.0/AgendaItem"
-      }
+      "role": "beschließend",
+      "created": "2020-06-02T15:38:07+02:00",
+      "modified": "2020-06-17T06:30:26+02:00"
     }
   ],
-  "id": "18446"
+  "created": "2020-02-10T12:14:35+01:00",
+  "modified": "2020-12-04T08:34:13+01:00"
 }
