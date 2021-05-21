@@ -5,30 +5,30 @@
   "start": "2013-02-04T19:30:00+01:00",
   "end": "2013-02-04T20:25:00+01:00",
   "location": {
-    "id": "http://oparl.dresden.de/bodies/0001/locations/rn/22",
+    "id": "http://oparl.dresden.de/bodies/0001/locations/rm/22",
     "type": "https://schema.oparl.org/1.1/Location",
-    "streetAddress": "Altnossener Straße 46 a",
+    "streetAddress": "",
     "room": "Ortschaft Gompitz, Gemeindesaal",
-    "postalCode": "01156",
+    "postalCode": "",
     "subLocality": "",
-    "locality": "Dresden",
-    "created": "2016-12-21T09:06:29+01:00",
-    "modified": "2017-10-06T08:38:51+02:00"
+    "locality": "",
+    "created": "2016-12-21T10:06:35+01:00",
+    "modified": "2016-12-21T10:06:35+01:00"
   },
   "organization": [
     "http://oparl.dresden.de/bodies/0001/organizations/gr/9"
   ],
   "participant": [
-    "http://oparl.dresden.de/bodies/0001/people/318",
-    "http://oparl.dresden.de/bodies/0001/people/319",
     "http://oparl.dresden.de/bodies/0001/people/320",
     "http://oparl.dresden.de/bodies/0001/people/321",
     "http://oparl.dresden.de/bodies/0001/people/323",
     "http://oparl.dresden.de/bodies/0001/people/325",
+    "http://oparl.dresden.de/bodies/0001/people/319",
     "http://oparl.dresden.de/bodies/0001/people/1133",
-    "http://oparl.dresden.de/bodies/0001/people/326",
+    "http://oparl.dresden.de/bodies/0001/people/318",
     "http://oparl.dresden.de/bodies/0001/people/327",
     "http://oparl.dresden.de/bodies/0001/people/329",
+    "http://oparl.dresden.de/bodies/0001/people/326",
     "http://oparl.dresden.de/bodies/0001/people/330"
   ],
   "invitation": {
@@ -40,8 +40,8 @@
     "date": "2013-01-25",
     "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00121496.pdf",
     "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00121496.pdf",
-    "created": "2016-12-21T09:06:30+01:00",
-    "modified": "2017-10-06T08:38:47+02:00"
+    "created": "2016-12-21T10:06:30+01:00",
+    "modified": "2017-10-06T10:38:47+02:00"
   },
   "verbatimProtocol": {
     "id": "http://oparl.dresden.de/bodies/0001/files/122602",
@@ -52,143 +52,105 @@
     "date": "2013-02-05",
     "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00122602.pdf",
     "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00122602.pdf",
-    "created": "2016-12-21T09:06:30+01:00",
-    "modified": "2017-10-06T08:38:47+02:00"
+    "created": "2016-12-21T10:06:30+01:00",
+    "modified": "2017-10-06T10:38:47+02:00"
   },
-  "auxiliaryFile": [
-    {
-      "id": "http://oparl.dresden.de/bodies/0001/files/121496",
-      "type": "https://schema.oparl.org/1.1/File",
-      "name": "Einladung_OSR GP",
-      "fileName": "00121496.pdf",
-      "mimeType": "application/pdf",
-      "date": "2013-01-25",
-      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00121496.pdf",
-      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00121496.pdf",
-      "created": "2016-12-21T09:06:30+01:00",
-      "modified": "2017-10-06T08:38:47+02:00"
-    },
-    {
-      "id": "http://oparl.dresden.de/bodies/0001/files/122602",
-      "type": "https://schema.oparl.org/1.1/File",
-      "name": "Beschlussausfertigung_V-GP0177/12",
-      "fileName": "00122602.pdf",
-      "mimeType": "application/pdf",
-      "date": "2013-02-05",
-      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00122602.pdf",
-      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00122602.pdf",
-      "created": "2016-12-21T09:06:30+01:00",
-      "modified": "2017-10-06T08:38:47+02:00"
-    },
-    {
-      "id": "http://oparl.dresden.de/bodies/0001/files/122644",
-      "type": "https://schema.oparl.org/1.1/File",
-      "name": "Beschlussausfertigung_V-GP0180/13",
-      "fileName": "00122644.pdf",
-      "mimeType": "application/pdf",
-      "date": "2013-02-05",
-      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00122644.pdf",
-      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00122644.pdf",
-      "created": "2016-12-21T09:06:30+01:00",
-      "modified": "2017-10-06T08:38:47+02:00"
-    }
-  ],
   "agendaItem": [
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38074",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "1",
-      "order": "1",
+      "order": 1,
       "name": "Nachrücken eines Ersatzmitgliedes in den Ortschaftsrat Gompitz, Mandat der CDU",
       "public": true,
       "consultation": "http://oparl.dresden.de/bodies/0001/consultations/11895",
       "result": "Zustimmung",
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38075",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "2",
-      "order": "2",
+      "order": 2,
       "name": "Verpflichtung des Ersatzmitgliedes gemäß §§ 19 und 37 Abs. 2 SächsGemO",
       "public": true,
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38076",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "3",
-      "order": "3",
+      "order": 3,
       "name": "Feststellung ordnungsgemäße Ladung/ Beschlussfähigkeit",
       "public": true,
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38065",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "4",
-      "order": "4",
+      "order": 4,
       "name": "Anfragen der Bürger",
       "public": true,
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38069",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "5",
-      "order": "5",
+      "order": 5,
       "name": "Jugendhilfeplanung für die Leistungsbereiche \"Kinder-, Jugend- und Familienarbeit\" und \"Andere Aufgaben/Jugendgerichtshilfe\" (§§ 11 bis 14, 16 und 52 SGB VIII i. V. m. JGG) für den Zeitraum 2013 bis 2016",
       "public": true,
       "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12009",
       "result": "zur Kenntnis genommen",
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38161",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "6",
-      "order": "6",
+      "order": 6,
       "name": "Beschluss zum Antrag der Kindertagesstätte Gompitzer Spatzennest e. V. auf finanziellen Zuschuss für Faschingsveranstaltungen am 12.02.2013",
       "public": true,
       "consultation": "http://oparl.dresden.de/bodies/0001/consultations/12105",
       "result": "Zustimmung",
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38172",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "7",
-      "order": "7",
+      "order": 7,
       "name": "Ortsentwässerung Pennrich (Regenrückhaltebecken Podemuser Straße)",
       "public": true,
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/38072",
       "type": "https://schema.oparl.org/1.1/AgendaItem",
       "meeting": "http://oparl.dresden.de/bodies/0001/meetings/2989",
       "number": "8",
-      "order": "8",
+      "order": 8,
       "name": "Sonstiges",
       "public": true,
-      "created": "2016-12-21T09:06:54+01:00",
-      "modified": "2018-12-20T09:14:20+01:00"
+      "created": "2016-12-21T10:06:54+01:00",
+      "modified": "2018-12-20T10:14:20+01:00"
     }
   ],
-  "created": "2016-12-21T09:06:53+01:00",
-  "modified": "2020-12-04T08:34:10+01:00"
+  "created": "2016-12-21T10:06:53+01:00",
+  "modified": "2020-12-04T09:34:10+01:00"
 }
