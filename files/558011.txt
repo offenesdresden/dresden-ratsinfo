@@ -1,0 +1,2812 @@
+Anlage 1
+
+PRODUKTVERGLEICH VON SYSTEMEN
+ZUR ELEKTRONISCHEN
+AKTENFÜHRUNG UND
+VORGANGSBEARBEITUNG
+Für
+
+LANDESHAUPTSTADT DRESDEN
+EIGENBETRIEB IT-DIENSTLEISTUNGEN
+
+Digitale
+Transformation
+Sicher. Einfach.
+Menschlich.
+
+PROJEKTNUMMER: 20-60
+
+26.03.2021 | VERSION 1.0 | FINAL | 80 SEITEN
+
+IMTB Consulting GmbH | info@imtb.de | www.imtb.de
+Schumannstraße 14b | 10117 Berlin | Tel. +49 30 440 483 24 | Fax +49 30 440 483 25
+REVISION 2.0
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Dokumentenhistorie
+Datum
+
+Bearbeiter
+
+Version/Status
+
+Änderungsvermerk
+
+16.02.2021
+
+Herrmann
+
+0.1
+
+Initiale Erstellung
+
+25.02.2021
+
+Herrmann,
+Krömer,
+Sander, Apitz
+
+0.2
+
+Erstellung Kapitel 2 und 3
+
+26.02.2021
+
+Herrmann
+
+0.3
+
+Erstellung erster vollständiger
+Entwurf
+
+09.03.2021
+
+Herrmann,
+Krömer,
+Sander, Apitz
+
+0.4
+
+Überarbeitung und Ergänzung
+
+23.03.2021
+
+Scholz
+
+0.5
+
+24.03.2021
+
+Apitz
+
+1.0
+
+Finalisierung
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Inhaltsverzeichnis
+1.
+1.1
+1.2
+2.
+2.1
+2.1.1
+2.1.2
+2.1.3
+2.1.4
+2.1.5
+2.1.6
+2.1.7
+2.1.8
+2.1.9
+2.1.10
+2.1.11
+2.1.12
+2.1.13
+2.1.14
+2.1.15
+2.1.16
+2.2
+2.2.1
+2.2.2
+2.3
+2.3.1
+2.4
+3.
+3.1
+3.2
+3.3
+3.4
+
+Inhalt und Ziel des Dokumentes ............................................................ 9
+Inhalt des Dokumentes..........................................................................9
+Ziele und Zielgruppe des Dokumentes .......................................................9
+Funktionaler Produktvergleich ............................................................ 10
+Kriterienhauptgruppe A - Software ......................................................... 10
+A 1 – Gesamtsystem ........................................................................... 10
+A 2 – Eingang .................................................................................... 12
+A 3 - Registrieren in der Software .......................................................... 16
+A 4 – Erstellen von Objekten ................................................................. 19
+A 5 - Workflows/Geschäftsgänge/Benachrichtigungsdienst ............................ 22
+A 6 – Mobilität .................................................................................. 28
+A 7 – Nachvollziehbarkeit..................................................................... 31
+A 8 – Recherche, Wiedervorlage und Terminverwaltung................................ 33
+A 9 – Objekt- und Ablagestruktur ........................................................... 43
+A 10 – Ausgang .................................................................................. 45
+A 11 – Langzeitspeicherung und Aussonderung ........................................... 48
+A 12 – Administration.......................................................................... 50
+A 13 – Infrastruktur ............................................................................ 52
+A 14 – Technische Systemanforderungen .................................................. 54
+A 15 – Ergonomie und Barrierefreiheit ..................................................... 56
+A 16 – Anbindung von Drittsystemen, Normen und Standards ......................... 59
+Kriterienhauptgruppe B – Wartung und Pflege............................................ 62
+B 1 – Softwarepflege .......................................................................... 62
+B 1 – Softwarewartung ........................................................................ 63
+Kriterienhauptgruppe C – Dienstleistung .................................................. 66
+C 1 – Dienstleistung ............................................................................ 66
+Zusammenfassung ............................................................................. 70
+Monetärer Produktvergleich ............................................................... 72
+Kalkulationsgrundlagen ....................................................................... 72
+VIS ................................................................................................ 72
+d.3 ................................................................................................ 72
+Doxis ............................................................................................. 73
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildungsverzeichnis
+Abbildung 1: VIS-Portfolio............................................................................... 10
+Abbildung 2: Registrieren der Eingänge im DMS – oben WebClient, unten SmartClient ..... 12
+Abbildung 3: Importoptionen für die E-Mailübernahme in VIS.................................... 13
+Abbildung 4: Erfassung gescannter Dokumente mit d.velop inbound scan ..................... 14
+Abbildung 5: d.3one in Microsoft Outlook ............................................................ 14
+Abbildung 6: Erfassungsmöglichkeiten am Arbeitsplatz für Dokumente im Doxis4 winCube 15
+Abbildung 7: Übernahme von E-Mails mit Doxis4 SmartOutlook.................................. 15
+Abbildung 8: Fristenübersicht „fällig am“ ........................................................... 16
+Abbildung 9: VIS-Admin-Client Metadatenprofilierung............................................. 17
+Abbildung 10: Aktenplanverknüpfung in d.3 ......................................................... 18
+Abbildung 11: Aktenplanansicht ....................................................................... 19
+Abbildung 12: Aufbewahrungsfristen.................................................................. 19
+Abbildung 13: Sicht auf den Viewer-Modus Kompaktansicht – hier für eine Word-Datei .... 20
+Abbildung 14: Start der PDF/A-Wandlung – hier über die Ribbonbar des SmartClients ...... 20
+Abbildung 15: d.3ecm-Standardviewer d.3 view.................................................... 21
+Abbildung 16: Anzeige einer .csv Datei ............................................................... 21
+Abbildung 17: Dokumentvorschau (rechts) innerhalb einer Trefferliste ........................ 22
+Abbildung 18: Zusätzliche PDF-Repräsentation ..................................................... 22
+Abbildung 19: Übersicht Aufgaben/Workflow ....................................................... 23
+Abbildung 20: Zeichnungsverfahren ................................................................... 23
+Abbildung 21: Kennzeichnung Dringlichkeit ......................................................... 24
+Abbildung 22: Workflowinitiierung .................................................................... 25
+Abbildung 23: Mitzeichnungsworkflow ................................................................ 25
+Abbildung 24: Protokoll der Mitzeichnung am Vorgang ............................................ 26
+Abbildung 25: Postkorbansicht ......................................................................... 26
+Abbildung 26: Aufgabenlist und Prozesssicht ........................................................ 27
+Abbildung 27: Aufgabenliste ............................................................................ 27
+Abbildung 28: Abonnement als E-Mail ................................................................ 28
+Abbildung 29: Mobil Client von VIS „Aktentasche“ ................................................. 28
+Abbildung 30: Remoteverbindung zum Smart-Client ............................................... 29
+Abbildung 31: d.3 smart mobile ....................................................................... 30
+Abbildung 32: Aktenexport in d.3 ..................................................................... 30
+Abbildung 33: Doxis 4 mobileCube .................................................................... 31
+Abbildung 34: Beispiel der Protokollierung/ Historisierung auf Aktenebene in VIS........... 32
+Abbildung 35: Doxis Audit Trail ........................................................................ 33
+Abbildung 36: Volltextrecherche inkl. Facettierung in VIS........................................ 34
+Abbildung 37: Filter in der Aufgabenliste ohne „Registrierung“ in VIS ......................... 34
+Abbildung 38: Suche nach „Rechnung“ und Highlighting des Treffers „Rechnung“ in der
+gewählten Primärdatei in VIS ..................................................................... 35
+Abbildung 39: Suchmuster abspeichern und Eigentümer wählen ................................ 35
+Abbildung 40: Suchmuster auf Startseite von VIS zur Auswahl ................................... 36
+Abbildung 41: Dialog Zyklusauswahl in VIS ........................................................... 36
+Abbildung 42: Erledigung der Wiedervorlage in Stellvertretung in VIS ......................... 36
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 43: Einfeldsuche („einfache Suche“) in d.3 ............................................ 37
+Abbildung 44: Suche nach Metadaten in d.3 ......................................................... 37
+Abbildung 45: Fehlersensitive Suche von d.3 ........................................................ 38
+Abbildung 46: Anpassung der Ergebnisliste in d.3 .................................................. 38
+Abbildung 47: Ergebnisliste mit Facettierung in d.3 ............................................... 38
+Abbildung 48: Suchvorlagen in d.3 .................................................................... 39
+Abbildung 49: Suchdialog in Doxis4 mit integrierter Volltextsuche ............................. 40
+Abbildung 50: Fehlerhafte Suche in Doxis4 - Ausgleich von Rechtschreibfehlern mit „~“Operator .............................................................................................. 40
+Abbildung 51: Suche mit Hilfe von vordefinierten Wertelisten in Doxis4 ...................... 41
+Abbildung 52: Beispiel einer gruppierten Trefferliste in Doxis4 ................................. 41
+Abbildung 53: Volltextsuche und Hervorhebung in der Trefferliste und in der
+Dokumentvorschau in Doxis4...................................................................... 42
+Abbildung 54: Individuelle Favoriten im Doxis4 winCube ......................................... 42
+Abbildung 55: Wiedervorlagen in Doxis4 anlegen ................................................... 43
+Abbildung 56: Benennung eines Stellvertreters in Doxis .......................................... 43
+Abbildung 57: Objekthierarchie in VIS ................................................................ 44
+Abbildung 58: Optionen zum Mailversand aus der VIS-Suite (hier Funktion in der Ribbonbar)
+......................................................................................................... 45
+Abbildung 59: Rückspeicherung einer versandten Mail in den Vorgang und Setzen des
+Auslaufdatums ....................................................................................... 46
+Abbildung 60: E-Mail-Ausgang per Microsoft Outlook in d.3 ...................................... 46
+Abbildung 61: Ablage von E-Mails per Drag & Drop direkt im Vorgang .......................... 47
+Abbildung 62: Dokument versenden per E-Mail in Doxis4 ......................................... 48
+Abbildung 63: Akten- oder Vorgangszuordnungen .................................................. 48
+Abbildung 64: Abschließen in VIS ...................................................................... 49
+Abbildung 65: Bewertung von Akten in d.3 .......................................................... 49
+Abbildung 66: d.3-Berechtigungskonzept ............................................................ 51
+Abbildung 67: VIS als Hochverfügbarkeitslösung .................................................... 52
+Abbildung 68: n-Tier Architektur von d.3 ............................................................ 53
+Abbildung 69: Großer Doxis Mandant ................................................................. 54
+Abbildung 70: Systemarchitektur VIS mit Docker ................................................... 54
+Abbildung 71: Mehrschichtenarchitektur von d.3 ................................................... 55
+Abbildung 72: Speicherverwaltung in Doxis .......................................................... 56
+Abbildung 73: Übersicht Schnellerledigung von Aufgaben ........................................ 57
+Abbildung 74: Erklärung der Funktion mittels Mouseover ......................................... 57
+Abbildung 75: Übersicht Onlinehilfe .................................................................. 58
+Abbildung 76: Einfeldsuche ............................................................................. 58
+Abbildung 77: Eingabehilfe ............................................................................. 59
+Abbildung 78: Integrationsschnittstelle VIS .......................................................... 60
+Abbildung 79: FV Schnittstellen zu VIS ............................................................... 60
+Abbildung 80: Auszug angebundener Fachverfahren d.3 .......................................... 61
+Abbildung 81: Doxis ERP Connection Service ........................................................ 61
+Abbildung 82: Webportal PDV .......................................................................... 64
+Abbildung 83: Prioritätenmatrix VIS................................................................... 64
+Abbildung 84: OTRS Ticketsystem als Webanwendung für Kundenzugänge von d.velop..... 65
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung
+Abbildung
+Abbildung
+Abbildung
+
+85: Prioritätenmatrix Doxis ................................................................ 66
+86: Vorgehenskonzept zur Einführung eines d.3ecm .................................. 68
+87: Agile Customizing der SER ............................................................ 69
+88: Matrix funktionaler Produktvergleich ............................................... 70
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Management Summary
+Die Landeshauptstadt Dresden (LHD) hat das Projekt „E-Akte“ initiiert, um stadtweit die
+elektronische Aktenführung und Vorgangsbearbeitung einzuführen.
+Voraussetzung für die Einführung der E-Akte in der LHD ist die Auswahl eines geeigneten
+Produktes und leistungsfähigen Dienstleisters auf Basis der erhobenen Anforderungen der
+LHD. Ableitend daraus, erfolgt die Durchführung eines Produktvergleiches von drei im
+Bereich der Kommunalverwaltung führenden Produkten. Dieser Produktvergleich orientiert
+sich dabei an der Standardausführung mit dem Ziel, eine Entscheidungsgrundlage
+dahingehend zu schaffen, ob „VIS Suite“ die Anforderungen der LHD erfüllt und die
+Beschaffung über den Rahmenvertrag des Freistaates wirtschaftlich ist.
+Im vorliegenden Dokument werden die drei folgenden Standardprodukte anhand der 19
+funktionalen und nicht-funktionalen Kriteriengruppen (vgl. Kapitel 2.1 - 2.3) des
+Anforderungskataloges sowie aus monetärer Sicht (vgl. Kapitel 3) miteinander verglichen:
+•
+•
+•
+
+VIS Suite von PDV
+d.3 von d.velop
+Doxis von SER
+
+Das Ergebnis des funktionalen und nicht funktionalen Produktvergleiches gestaltet sich wie
+folgt:
+
+Die Anforderungen der
+Kriteriengruppe werden
+von dem Produkt ohne
+Einschränkungen erfüllt.
+
+Die Anforderungen der
+Kriteriengruppe werden
+grundsätzlich erfüllt. Es
+gibt einzelne
+Einschränkungen.
+
+Die Anforderungen dieser
+Kriteriengruppe werden
+nicht erfüllt bzw. es gibt
+eine Vielzahl von
+Einschränkungen.
+
+VIS
+(PDV)
+
+9
+
+10
+
+-
+
+d.3
+(d.velop)
+
+10
+
+9
+
+-
+
+Doxis
+(SER)
+
+9
+
+10
+
+-
+
+Im Hinblick auf den monetären Produktvergleich ergibt sich folgendes Ergebnis:
+
+VIS (PDV)
+
+d.3 (d.velop)
+
+Doxis (SER)
+
+Marktpreis
+€
+Gesamtkosten
+
+Marktpreis
+
+Marktpreis
+€
+
+KISA RV
+
+€
+
+€
+Zusammenfassend ist ersichtlich, dass alle drei Softwareprodukte die Anforderungen an ein
+E-Akte-System für den Einsatz in der LHD zur elektronischen Aktenführung und
+Vorgangsbearbeitung erfüllen. Zudem ist erkennbar, dass jedes Produkt seine
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+unterschiedlichen Schwerpunkte und Stärken aufweist. Keines der betrachteten
+Softwareprodukte erhielt eine negative Bewertung bei einer Kriteriengruppe.
+Im Ergebnis können demnach nur geringe Unterschiede zwischen den Produkten festgestellt
+werden, die eher im funktionalen Bereich der Software liegen. Hierbei handelt es sich um
+folgende Kriteriengruppen:
+•
+•
+•
+•
+•
+•
+
+Eingangsbearbeitung
+Erstellen von Objekten,
+Mobilität
+Recherche
+Objekt- und Ablagestruktur
+Infrastruktur
+
+In den nicht-funktionalen Bereichen der Softwarepflege und Wartung sowie der
+Dienstleistung konnte hingegen kein Unterschied zwischen den Produkten bzw. Herstellern
+herausgearbeitet werden.
+Im Hinblick auf die finanzielle Bewertung ist ein deutlicher Unterschied zwischen VIS (PDV)
+sowie d.3 (d.velop) und Doxis (SER) erkennbar. Doxis (SER) ist mit Abstand zu den anderen
+beiden Produkten die preisintensivste Variante.
+Durch die Nutzung der Rahmenvereinbarung des Freistaates Sachsen mit der KISA ist es
+möglich, VIS zu günstigeren Konditionen als am Markt zu beschaffen. Auch durch die Nutzung
+dieser Rahmenvereinbarung wird VIS insgesamt zur günstigsten und damit auch
+wirtschaftlichen Alternative.
+Abschließend kann die Schlussfolgerung gezogen werden, dass es sich bei allen drei
+betrachteten Produkten um eine geeignete E-Akte-Lösung für die LHD handelt. Die Vor- und
+Nachteile der einzelnen Produkte im Hinblick auf die funktionalen Anforderungen heben sich
+über den gesamten Anforderungskatalog gesehen weitestgehend auf. Der größte Unterschied
+zwischen den Produkten bzw. Herstellern liegt demnach in der Kostenposition.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+1. Inhalt und Ziel des Dokumentes
+1.1
+
+Inhalt des Dokumentes
+
+Die Landeshauptstadt Dresden (LHD) hat sich für die elektronische Vorgangsbearbeitung und
+Aktenführung entschieden. Hierfür wurde das Projekt „E-Akte“ ins Leben gerufen, welches
+die stadtweite Einführung eines Systems zur elektronischen Aktenführung und
+Vorgangsbearbeitung zum Ziel hat. Gesucht wird ein geeignetes Produkt und ein
+leistungsfähiger Dienstleister zur Einführung und Betreuung des Systems. Dafür war ein
+Produktvergleich von mehreren gleichwertigen Produkten zu erstellen.
+Das vorliegende Dokument gibt nun den Vergleich dreier Standardprodukte zur
+elektronischen Vorgangsbearbeitung und Aktenführung wieder. Es schafft eine fundierte
+Grundlage für eine Entscheidung zur Nutzung von „VIS Suite“ als E-Akte-System für die LHD
+unter Nutzung des Rahmenvertrages des Freistaat Sachsen hinsichtlich der Erfüllung von
+Anforderungen und einer Wirtschaftlichkeitsbetrachtung.
+Es werden die drei folgenden Standardprodukte verglichen:
+•
+•
+•
+
+1.2
+
+VIS Suite von PDV
+d.3 von d.velop
+Doxis von SER
+
+Ziele und Zielgruppe des Dokumentes
+
+Der vorliegende Produktvergleich soll der Landeshauptstadt Dresden die Auswahl eines
+leistungsstarten und den Anforderungen vollumfänglich gerecht werdenden Systems
+ermöglichen. Er ist im Sinne einer Markterkundung als vorbereitendes Dokument eines
+Vergabeverfahrens zu verstehen. Basis des Vergleichs bildet der Anforderungskatalog der
+LHD. Der Vergleich erfolgt auf Ebene der Kriterienhauptgruppen und wird neben den
+funktionalen Anforderungen durch eine monetäre Betrachtung ergänzt. In den Vergleich
+wurden die drei Produkte VIS Suite der Firma PDV, d.3 der Firma d.veleop und Doxis der
+Firma SER einbezogen. Die Bewertung der Umsetzung der Kriteriengruppen kennt folgende
+drei Aussagen:
+
+Die Anforderungen der Kriteriengruppe werden von dem Produkt ohne
+Einschränkungen erfüllt.
+
+Die Anforderungen der Kriteriengruppe werden grundsätzlich erfüllt. Es gibt
+einzelne Einschränkungen.
+
+Die Anforderungen dieser Kriteriengruppe werden nicht erfüllt bzw. es gibt eine
+Vielzahl von Einschränkungen.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+2. Funktionaler Produktvergleich
+Der funktionale Produktvergleich nimmt eine Gegenüberstellung der drei ausgewählten
+DMS/VBS Standardprodukte – VIS Suite, d.3 und Doxis - entsprechend des
+Anforderungskataloges der LHD vor. Der Vergleich erfolgt auf Ebene der Kriteriengruppen (z.
+B. A 2 Eingang).
+
+2.1
+
+Kriterienhauptgruppe A - Software
+
+2.1.1
+
+A 1 – Gesamtsystem
+VIS
+
+2.1.1.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+VIS von PDV ist komponentenorientiert und modular aufgebaut und verfolgt eine MultiClient-Strategie. Folgende Clients stehen bei PDV bspw. zur Auswahl:
+• den browserbasierten vollfunktionalen »WebClient«,
+• den windowsbasierten vollfunktionalen »SmartClient«,
+• den »TaskClient« als browserbasiertes Schnellerledigungswerkzeug,
+• den »MobileClient« für iOS, Android und Windows (online und offline) und
+• den »Admin-Client« für die fachliche Administration der Lösung.
+
+Abbildung 1: VIS-Portfolio
+
+Wie in der Abbildung dargestellt, verfügt PDV sowohl über einen browserbasierten WebClient
+als auch einen windowsbasierten SmartClient. Ein Funktionsunterschied liegt u. a. darin,
+dass die Funktion zur Reorganisation des Schriftguts sowie die Funktionen zur Aussonderung
+und Archivierung nur im VIS-WebClient zur Verfügung stehen. Der WebClient entspricht
+optisch und technisch nicht mehr dem Stand der Technik. Eine Weiterentwicklung ist derzeit
+nicht geplant.
+2.1.1.2
+
+d.3
+
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+d.3 von d.velop ist komponentenorientiert und modular aufgebaut und verfolgt eine MultiKomponenten-Strategie. Grundsätzlich unterscheidet d.velop zwischen
+•
+•
+
+den vollfunktionalen Web-Client »d.3one webclient« und
+den vollfunktionalen Windows-Fat-Client »d.3smart explorer«.
+
+Zu beachten ist hierbei, dass es zwischen dem Windows-Fat-Client und Web-Client
+verschiedene Funktionsdifferenzen zu Gunsten des Web-Clients gibt, wie z. B. im Rahmen
+•
+•
+•
+
+der Bearbeitung eines Workflows (ergänzen, ändern, speichern, delegieren)
+der Abbildung von eigenen Aktenstrukturen innerhalb der Favoriten
+der Integration in IBM Notes.
+
+d.3 verfügt über native Apps für iOS und Android und erlaubt aufgrund der HTML5
+Technologie des d.3 one Weblient eine nahtlose Integration in zahlreiche Drittsysteme (z. B.
+SAP, SharePoint). Der deutliche Schwerpunkt der Weiterentwicklung liegt im Web-Client.
+2.1.1.3
+
+Doxis
+
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+Doxis von SER ist komponentenorientiert und modular aufgebaut und verfolgt eine MultiKomponenten-Strategie. Grundsätzlich unterscheidet SER zwischen
+•
+•
+
+den webbasierten vollfunktionalen ECM-Client »Doxis4 webCube« und
+den windowsbasierten vollfunktionalen »Doxis4 winCube«.
+
+Zu beachten ist hierbei, dass es zwischen dem Doxis4 winCube und Doxis4 webCube
+verschiedene Funktionsdifferenzen zu Gunsten des windowsbasierten Cube gibt. Bspw.
+•
+•
+
+kann keine Anbindung einer Hardware an einen Browser erfolgen, sofern diese einen
+Treiber (z. B. Scanner mit Treibern wie ISIS oder TWAIN) benötigt.
+wird der direkte Zugriff von einem Browser auf das Filesystem bzw. lokale
+Applikationen durch den Browser nicht unterstützt. Dazu zählen Funktionen wie die
+Nutzung von Vorlagen (z. B. MS-Wordvorlagen) oder die Einbindung von
+Signaturkarten.
+
+Zur Überbrückung der einzelnen Funktionseinschränkungen kann der Doxis4 smartCube
+genutzt werden, der als Brücke zwischen Doxis4 webCube und dem Betriebssystem fungiert.
+Bzgl. der Weiterentwicklung liegt bei SER der Schwerpunkt auf dem webCube, insbesondere
+auch aufgrund der Anforderungen des internationalen Marktes.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+2.1.2
+
+A 2 – Eingang
+VIS
+
+2.1.2.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+Mit VIS-Scan stellt VIS Funktionalitäten bereit, die eine Digitalisierung von
+Papierdokumenten, sowie die strukturierte Übernahme ins E-Akte-System unterstützen. Die
+Registrierung der Eingänge im DMS erfolgt systemseitig automatisch anhand der erkannten
+Metadaten direkt im Geschäftsobjekt des Mandanten bzw. anhand der erkannten
+Dokumentenklasse in einer definierten Posteingangsablage.
+
+Abbildung 2: Registrieren der Eingänge im DMS – oben WebClient, unten SmartClient
+
+Für die Übernahme von E-Mails ins E-Akte-System stehen verschiede Möglichkeiten zur
+Verfügung. So kann der Nutzer beispielsweise wählen, ob er nur den Mailinhalt, nur die
+Mailanlagen oder beides ablegen möchte. Die Übernahme kann per „Drag & Drop“, mittels
+„speichern unter“ oder als automatischer Import erfolgen. Eine direkte Integration in den EMail-Client existiert dagegen nicht.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 3: Importoptionen für die E-Mailübernahme in VIS
+
+Wahlweise kann auch das Originalformat der E-Mail (HTM- oder MSG-Datei) gespeichert
+werden. Die gewählte Einstellung kann als Voreinstellung gespeichert und bei Bedarf
+geändert werden.
+Gegenüber den anderen Systemen bietet VIS an dieser Stelle keine direkte Integration in den
+E-Mail-Client, womit die direkte und intuitive Nutzung verwehrt bleibt.
+2.1.2.2
+
+d.3
+
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+Mit d.velop inbound scan bietet d.3 verschiedene Services und Module, die zusammen
+interagieren. So können unterschiedliche Eingangsformate entgegengenommen werden, zu
+welchen unterschiedliche Bearbeitungsoptionen angeboten werden. Je nach eingesetzter
+Lösung für die Weiterverarbeitung können die Dokumente dann an verschiedene Zielsysteme
+übergeben werden.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 4: Erfassung gescannter Dokumente mit d.velop inbound scan
+
+Das d.3ecm-System bietet die Möglichkeit der einfachen clientbasierten Ablage von E-Mails
+aus E-Mail-Programmen wie Microsoft Outlook oder IBM Notes über den d.3 import an. Dabei
+können alle Importmöglichkeiten vom Anwender frei gewählt werden.
+
+Abbildung 5: d.3one in Microsoft Outlook
+
+Mittels kontextintensiver Suche bietet d.3one die automatisierte Ermittlung der Zielakte
+bzw. des Zielordners auf Basis hinterlegter Suchvorlagen an. Somit wird der Anwender
+frühzeitig bei der Veraktung des elektronischen Eingangs unterstützt.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+2.1.2.3
+
+Doxis
+
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+Doxis4 winCube unterstützt neben einer zentralen Erfassung in der Poststelle auch das
+dezentrale Erfassen von Dokumenten. Über standardisierte Schnittstellen (Twain, ISIS,
+Verzeichnisscanner) können verschiedene Scanner eingebunden werden. Hier wird das
+Dokument über Scan2Mail oder Scan2File digitalisiert und anschließend erfolgt die manuelle
+Archivierung.
+
+Abbildung 6: Erfassungsmöglichkeiten am Arbeitsplatz für Dokumente im Doxis4 winCube
+
+So können Dokumente flexibel erfasst und Vorgängen, Prozessen, Akten und anderen
+Ablagestrukturen in Doxis4 hinzugefügt werden.
+Die Übernahme elektronischer Eingänge wird mittels Doxis4 Smart Outlook Plus realisiert.
+Die Anwender profitieren dabei von der Ablage und der Übernahme ihrer Korrespondenz und
+E-Mail-Anlagen im zentralen Doxis4 System, ohne dass sie hierfür die vertraute MS OutlookUmgebung verlassen müssen. Neben der Ablage der gesamten E-Mail ist es auch möglich, nur
+die Anlagen einer E-Mail (auch in verschiedenen Formaten) abzulegen.
+
+Abbildung 7: Übernahme von E-Mails mit Doxis4 SmartOutlook
+
+Die Outlook Integration ermöglicht dem Anwender DMS/ECM Funktionen ohne langwierige
+Unterweisungen einfach, direkt und intuitiv zu nutzen
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+2.1.3
+
+A 3 - Registrieren in der Software
+VIS
+
+2.1.3.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+Die Aktenzeichenbildungsregeln können frei konfiguriert werden. Ebenfalls können
+Aktenzeichen aus bestehenden Fachverfahren über eine VAPI-Schnittstelle an VIS übergeben
+werden. Berechtigungen können ebenfalls auf Ebene der Aktenplanposition vergeben
+werden. Objekte (Akte, Vorgang, Dokument) können mit beliebig vielen bzw.
+unterschiedlichen Fristen/Wiedervorlagen belegt werden. Neben Aktenplänen können
+weitere Teilaktenpläne verwaltet werden.
+
+Abbildung 8: Fristenübersicht „fällig am“
+
+Im Rahmen der Registrierung können zum Standard-Metadatensatz auch weitere individuelle
+benötigte Metadatenfelder angelegt werden. Diese können an Objekttypen geknüpft
+werden, so dass für spezielle Dokumententypen (z. B. Rechnungen) spezifische
+Metadatenfelder verfügbar sind. Die Verwaltung wird im VIS-Admin-Client abgewickelt.
+Eine Übernahme der Dokumenteneigenschaften aus PDF-Dateien ist in der VIS-Suite noch
+nicht umgesetzt.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 9: VIS-Admin-Client Metadatenprofilierung
+
+Metadaten können ebenfalls bei elektronischen Eingängen sowie mittels zentralen
+Posteingangsscannen automatisch übernommen werden.
+Eine Kennzeichnung, ob es sich um eine Hybridakte, Papierakte (nur Metadaten im DMS) oder
+elektronische Akte handelt, kann in den Eigenschaften eingestellt werden.
+Eine Verschlagwortung kann in VIS vorgenommen werden. Ob diese automatisch erfolgen
+kann, ist nicht vollumfänglich zu beantworten.
+Einschränkungen gegenüber den anderen Systemen bestehen hier im Bereich der Übernahme
+von Dokumenteneigenschaften aus PDF-Dateien, welche mit VIS Suite nicht möglich ist,
+jedoch von Doxis auch nur unzureichend beantwortet werden kann. Ebenfalls kann die
+Möglichkeit der automatischen Verschlagwortung von beiden Systemen nicht vollumfänglich
+beantwortet werden.
+2.1.3.2
+
+d.3
+
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+Es kann verwaltungsweit eine Aktenverwaltung nach frei wählbaren Aktenplänen wie z. B.
+Einheitsaktenplan mit Bezeichnern für verschiedene Gliederungsebenen wie z. B.
+Hauptgruppe, Gruppe, Untergruppe, Sachgruppe und einer projektspezifisch definierbaren
+Aktenzeichensystematik ermöglicht werden. Aktenpläne können konfiguriert und individuell
+eingerichtet werden.
+Es gibt die Möglichkeit, Aktenplanmetadaten aus der Betreffseinheit bzw. Sachgruppe in
+entsprechend angelegte bzw. eingeordnete Sach- und Fachakten zu übernehmen.
+Aussonderungsrelevante Metadaten wie z. B. Aufbewahrungsfrist, Transferfrist oder
+Aussonderungsart können im Aktenplan hinterlegt bzw. verwaltet werden. Inwieweit
+unterschiedliche Fristen belegt werden können, kann abschließend nicht erläutert werden.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 10: Aktenplanverknüpfung in d.3
+
+Die Definition von verpflichtenden Metadaten kann je Dokumentart festgelegt werden Hier
+kann ebenfalls individuell und unbegrenzt festgelegt werden, welche Metadaten als
+Pflichtfelder gelten.
+Beim manuellen Importieren von Dokumenten ist es möglich, den Dateinamen (unabhängig
+vom Dateiformat) sowie den Zeitstempel der Datei als Metadaten zu übertragen. Ebenfalls
+können Dokumenteigenschaften ausgelesen werden und zur Verschlagwortung genutzt
+werden. Zudem kann über eine Dokumentenklassifizierung spezifische Dokumententypen
+erzeugt und abgelegt werden.
+2.1.3.3
+
+Doxis
+
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+In Doxis können Akten einem Aktenplan zugeordnet werden. Grundsätzlich können in Doxis
+verschiedene (Teil-)Aktenpläne definiert und gepflegt sowie erweitert werden. Die
+Sichtbarkeit des Aktenplans kann auf Grundlage des Berechtigungskonzepts auf ausgewählte
+Aktenplanbereiche eingeschränkt werden.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 11: Aktenplanansicht
+
+In Doxis können für alle Ebenen der Schriftgutobjekte Pflichtfelder für Metadaten definiert
+werden. Metadaten können jederzeit erweitert werden.
+Mit der Registrierung können Dateieigenschaften automatisch übernommen werden.
+Zusätzlich können in den MS-Office Produkten weitere Eigenschaften definiert werden, die
+auch von Doxis4 ausgelesen werden können. Eine explizite Aussage zur Unterstützung der
+Übernahme von PDF-Dateieigenschaften kann nicht getroffen werden.
+Grundsätzlich kann jedem Objekt eine Frist (Aufbewahrungsfrist) zugewiesen werden. Es
+können mehrere Fristen an einem Schriftgutobjekt (Akte, Vorgang, Dokument) angelegt
+werden.
+
+Abbildung 12: Aufbewahrungsfristen
+
+In Doxis 4 können auch Fristen an Versionen von Dokumenten definiert werden.
+Der Katalog der Schlagworte kann entsprechend den Anforderungen mitarbeiterbezogenen,
+organisationseinheitsbezogenen und/oder behördenweit definiert werden. Ebenso kann eine
+Verschlagwortung in Doxis vorgenommen werden. Ob diese automatisch erfolgen kann, ist
+nicht vollumfänglich zu beantworten.
+
+2.1.4
+
+A 4 – Erstellen von Objekten
+VIS
+
+d.3
+
+Doxis
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+2.1.4.1
+
+VIS
+
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+Mit Outside In steht in VIS ein Multiformatviewer zur Verfügung, der mehr als 200
+Dokumentenformate visualisieren kann. Somit wird insbesondere das schnelle Sichten von
+Posteingängen oder Aufgaben ermöglicht. Ein weiterer Vorteil ist das schnelle Navigieren
+innerhalb der Dokumenten-, Vorgangs- und Aktenverzeichnisse.
+
+Abbildung 13: Sicht auf den Viewer-Modus Kompaktansicht – hier für eine Word-Datei
+
+Die VIS-Suite ist in der Lage, eine Formatneutralisierung zum langzeitspeicherfähigen
+Datenformat PDF/A durchzuführen. Durch die Konvertierung ist die Unveränderbarkeit der
+Inhalte sowie die Lesbarkeit der Dokumente gewährleistet. Zudem bietet der Viewer eine
+schnelle Vorschau.
+
+Abbildung 14: Start der PDF/A-Wandlung – hier über die Ribbonbar des SmartClients
+
+Das konfigurierbare PDF/A-Plug-In erstellt alle gängigen archivwürdigen PDF/A-Formate und
+legt die Ergebnisse regelbasiert ab, beispielweise neben der Originaldatei im gleichen
+Geschäftsobjekt. Neben der PDF/A-Konvertierung stehen weitere konfigurierbare Dienste
+zur Verfügung, insbesondere die Validierung des PDF/A-Formates.
+2.1.4.2
+
+d.3
+
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Mit dem Standardviewer d.3 view ist es möglich, gleichzeitig mehrere Dokumente oder eine
+ganze Akte anzeigen zu können. Hierfür können sequenziell Dokumente geöffnet und in den
+Viewer geladen werden. Ebenso ist das Entfernen einzelner Seiten möglich, als auch die
+Anzeige einzelner oder verschiedener Seiten eines Dokuments.
+
+Abbildung 15: d.3ecm-Standardviewer d.3 view
+
+Aus der Ergebnisliste des d.3 smart explorers können einzelne und mehrere Dokumente oder
+auch Akteninhalte per Mehrfachauswahl in den Standardviewer d.3 view geladen werden.
+Der d.ecs rendition service von d.3 konvertiert Dokumente verschiedener druckbarer
+Anwendungs- bzw. Eingangsformate in Ausgangs- bzw. Zielformate wie PDF oder PDF/A.
+Dabei wird die Sekundärinformation PDF/A als sogenannte abhängige Datei neben der
+Primärinformation (Anwendungsdatei) zum Dokument abgelegt.
+
+Abbildung 16: Anzeige einer .csv Datei
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+2.1.4.3
+
+Doxis
+
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+Der im Doxis4 winCube Client integrierte Viewer ist in der Lage, über 250 Formate
+darzustellen. So können auch Dokumente angezeigt werden, für die der Anwender nicht das
+geeignete Anwendungsprogramm installiert hat.
+
+Abbildung 17: Dokumentvorschau (rechts) innerhalb einer Trefferliste
+
+Zu einer Trefferliste kann eine Dokumentvorschau zugeschaltet werden, so dass eine
+Darstellung ohne Wechsel des Fensters möglich wird. Zudem können die Dokumente auch
+mit der verknüpften Originalapplikation angezeigt werden.
+Für die serverseitige Wandlung von Dokumenten in das PDF-Format steht der Doxis4
+Rendition Server zur Verfügung. Dieser stellt die Konvertierung von Eingangs- und
+Ausgangsdokumenten in verschiedene Langzeitformate sicher.
+
+Abbildung 18: Zusätzliche PDF-Repräsentation
+
+Eine zusätzliche Repräsentation des Dokuments wird erzeugt und am Content Objekt
+gespeichert.
+
+2.1.5
+
+A 5 - Workflows/Geschäftsgänge/Benachrichtigungsdienst
+VIS
+
+2.1.5.1
+
+d.3
+
+VIS
+
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+
+Doxis
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+VIS bietet die Möglichkeit, ad hoc Workflows für alle Ebenen der Schriftgutobjekte (Akte,
+Vorgang, Dokument) zu initiieren. Die Aufgaben (z. B. Bitte um Bearbeitung) können parallel
+(mehrere Benutzer erhalten gleichzeitig die Aufgabe) oder sequenziell angelegt werden.
+Aufgaben können vom Erlassenden oder seinem Stellvertreter angepasst werden,
+vorausgesetzt die Aufgabe ist noch nicht erledigt. Zudem können bereits strukturierte
+Workflows im E-Akte-System hinterlegt und abgerufen werden. Diese sogenannten Muster
+sind bei Bedarf erweiter- und änderbar. Es besteht zudem die Möglichkeit, Notizfelder für
+Mitteilungen zu nutzen.
+
+Abbildung 19: Übersicht Aufgaben/Workflow
+
+Weiterhin
+können
+mehrstufige
+Zeichnungsverfahren
+abgebildet
+werden.
+Zeichnungsverfügungen wie auch Geschäftsgangverfügungen können beliebig definiert
+werden. Mittels Erledigung von Geschäftsgangverfügungen oder Zeichnungsverfügungen
+können Folgeaktionen ausgelöst werden, wie z. B. anbringen einer qualifiziert
+elektronischen Signatur.
+
+Abbildung 20: Zeichnungsverfahren
+
+Einer einzelnen Datei kann kein Workflow zugeordnet werden, sondern immer nur der
+Dokumentenhülle.
+VIS ermöglicht die Integration einer BPMN-Engine (Business Process Model and Notation).
+Sofern extern modellierte Prozesse nach dem Standard BPMN 2.0 modelliert sind und auf
+XML basieren, können diese in VIS abgebildet werden. Während der Bearbeitung eines
+Geschäftsfalles können bspw. an definierten Stellen vordefinierte Workflows angestoßen und
+automatisiert ausgeführt werden.
+Für dringliche Angelegenheiten können Kennzeichnungen angebracht werden. Der
+Empfänger der Aufgabe sieht die Dringlichkeit in Form eines Ausrufezeichens.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 21: Kennzeichnung Dringlichkeit
+
+Nach Abschluss eines Workflows können Schreibrechte entzogen und den am Workflow
+Beteiligten dauerhaft Leserechte eingeräumt oder Rechte gänzlich entzogen werden. Dies
+ist konfigurativ einstellbar.
+Aufgaben gehen in VIS über die Aufgabenkörbe der Benutzer oder über Gruppenarbeitskörbe
+oder rollenspezifische Aufgabenkörbe ein. Es kann per E-Mail eine Benachrichtigung über
+den Eingang im Aufgabenkorb eingerichtet werden.
+Der Verfügungslauf ist immer am entsprechenden Objekt nachvollziehbar. Bei der
+Anwendung der Verfügungen an Dokumentobjekten mit mehreren Dateien legt der
+Bearbeitende fest, auf welche dieser Primärinformationen sich die Verfügung bezieht. Über
+diese Festlegung wird die Protokollierung des Verfahrens gesteuert.
+Einschränkungen weist VIS im Bereich der Workflows auf. Somit können beispielsweise
+Workflows im Gegensatz zu den anderen beiden Systemen nicht auf Dateiebene gestartet
+werden.
+2.1.5.2
+
+d.3
+
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+d.3 bietet eine integriertes Workflow-Management-System zur Vorgangsbearbeitung mit ad
+hoc und strukturierten Workflows. Workflows können entweder ohne Dokumente oder in
+Verbindung mit Container-Objekten - Akten und Vorgängen - und Dokumentenobjekten
+abgewickelt werden. Es können sämtliche Geschäfts- und Genehmigungsprozesse im System
+abgebildet werden. Es ist zudem möglich, Notizfelder für Mitteilungen zu nutzen.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 22: Workflowinitiierung
+
+Im Gegensatz zu VIS können in d.3 Workflows auf Dateiebene gestartet werden.
+Weiterhin
+können
+ebenfalls
+Musterworkflows
+organisationseinheitsspezifisch,
+mandantenweit sowie auf Nutzerebene hinterlegt werden. Workflows können spezifisch und
+individuell erstellt und hinterlegt werden. Mittels Erledigung von Geschäftsgangverfügungen
+oder Zeichnungsverfügungen können auch in VIS Folgeaktionen ausgelöst werden, wie z. B.
+das Anbringen einer qualifizierten elektronischen Signatur.
+
+Abbildung 23: Mitzeichnungsworkflow
+
+Zur Nachvollziehbarkeit wird nach Abschluss des Laufweges automatisch ein
+Laufwegprotokoll/Mitzeichnungsprotokoll erstellt und mit dem Objekt (Akte, Vorgang
+und/oder Dokument) verknüpft.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 24: Protokoll der Mitzeichnung am Vorgang
+
+In d.3 besteht derzeit keine Möglichkeit, externe BPMN-Prozesse als Workflow zu
+importieren. Gleichwohl ist eine Modellierung (nach BPMN2.0) von Abläufen im E-AkteSystem über ein entsprechendes Modul realisierbar. Die Modellierung kann jedoch technisch
+nicht direkt umgesetzt werden; sie dient lediglich als Grundlage für die technische
+Modellierung und Konfiguration.
+Der Entzug von Berechtigungen nach Abschluss eines Workflows ist möglich; auch kann
+weiterhin ein lesender Zugriff gewährleistet werden.
+Eine Benachrichtigungsfunktion über neue Eingänge im Aufgabenkorb ist sichergestellt.
+Vertretungen können bei geplanter Abwesenheit vom Benutzer in einem entsprechenden
+Dialog gesetzt werden. Bei ungeplanter Abwesenheit kann durch den Vorgesetzten eine
+Vertretungsregelung erfolgen.
+
+Abbildung 25: Postkorbansicht
+
+2.1.5.3
+
+Doxis
+
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+Doxis bietet die Möglichkeit, Workflows für alle Ebenen der Schriftgutobjekte (Akte,
+Vorgang, Dokument) zu initiieren. Bearbeitungsschritte können ebenfalls parallel (oder
+sequenziell angelegt werden. Zudem können bereits strukturierte Workflows im E-AkteSystem als Musterworkflows hinterlegt und abgerufen werden. Es stehen zudem Notizfelder
+für Mitteilungen zur Verfügung.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 26: Aufgabenlist und Prozesssicht
+
+Fristen werden überwacht und bei Überschreiten wird der Bearbeiter benachrichtigt.
+Am Dokument selbst kann nachvollzogen werden, welche Aufgaben noch anstehen bzw.
+welche bereits erledigt wurden. So können Verlinkungen zu Akten, Vorgängen und anderen
+Dokumenten nachvollzogen werden wie auch die Zuordnung zu Workflows, Fristen und
+Änderungen am Dokument selbst. Zudem können auch Workflows protokolliert werden, dies
+ist individuell konfigurierbar.
+
+Abbildung 27: Aufgabenliste
+
+Die Software ermöglicht die Durchführung von mehrstufigen Zeichnungsverfahren
+(Workflows), die dokumenten- und objektbezogen durchgeführt werden können.
+
+Im Gegensatz zu VIS können in Doxis Workflows auf Dateiebene gestartet werden.
+Grundsätzlich lassen sich BPMN-Prozess als Workflows in Doxis übernehmen. Jedoch werden
+nicht alle Elemente importiert, sondern nur diejenigen, die auch ausführbar sind.
+Doxis ermöglicht Workflow-abhängige Berechtigungen. Besonders in Doxis ist, dass für jeden
+Vorgangstypen automatisch eine virtuelle Gruppe „Vorgangsbearbeiter“ eingerichtet wird.
+Jedem Benutzer, dem eine Aufgabe im Vorgang zur Bearbeitung zugewiesen wurde, ist
+automatisch Mitglied dieser Gruppe und wird nach Erledigung der Aufgabe aus der Gruppe
+entfernt. Nach Beendigung der Workflows können dauerhafte Leseberechtigungen
+eingeräumt werden.
+In Doxis können ebenfalls für Benutzer Benachrichtigungen für Ereignisse an den
+Schriftgutobjekten eingerichtet werden.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 28: Abonnement als E-Mail
+
+Aufgaben können in Doxis im eigenen Aufgabenkorb und/oder im Gruppenarbeitskorb
+eingehen. Der Zugriff auf Gruppenpostkörbe sowie fremde Postkörbe (Stellvertretung) kann
+entsprechend berechtigt werden.
+
+2.1.6
+
+A 6 – Mobilität
+VIS
+
+2.1.6.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+VIS verfügt über einen sog. Mobil-Client für iOS und Android Endgeräte. Der Mobil-Client
+fungiert dabei als „offline“ Aktentasche, deren Inhalte im Vorfeld manuell ausgewählt und
+synchronisiert werden müssen.
+
+Abbildung 29: Mobil Client von VIS „Aktentasche“
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Eine „only online“ Bearbeitung ist derzeit nur durch eine Remoteverbindung mit dem SmartClient möglich, wobei dann der volle Funktionsumfang zur Verfügung steht, die Oberfläche
+aber nicht touchoptimiert ist.
+
+Abbildung 30: Remoteverbindung zum Smart-Client
+
+Der Export von Akten ist über einen selektiven Druck möglich.
+Der Nachteil im Bereich der Mobilität besteht darin, dass die only-online Bearbeitung derzeit
+nur durch eine Remoteverbindung mit dem Smart-Client realisierbar ist. Auch müssen bei
+Arbeit mit dem Mobile Client auf mobilen Endgeräten die zu bearbeitenden Inhalte im
+Vorhinein manuell ausgewählt und synchronisiert werden.
+2.1.6.2
+
+d.3
+
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+d.3 verfügt über eine native App für iOS und Android mit eingeschränktem Funktionsumfang
+für die mobile Bearbeitung (z. B. Suche, Anzeige, Workflowbearbeitung, offline Funktionen).
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 31: d.3 smart mobile
+
+Darüber hinaus stellt d.3 mit d.3 sync und d.3 one eine Aktentaschenfunktion sowie einen
+vollwertigen browserbasierten Client zur Verfügung.
+Der Export von Dokumenten, Vorgängen und Akten ist möglich. Die Ausgabe einer gesamten
+Akte erfolgt inkl. Inhaltsverzeichnis und Paginierung.
+
+Abbildung 32: Aktenexport in d.3
+
+2.1.6.3
+
+Doxis
+
+Die Anforderungen werden von Doxis ohne Einschränkungen erfüllt.
+Doxis verfügt über eine native App für iOS und Android, den sog. Doxis4 mobileCube.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 33: Doxis 4 mobileCube
+
+SER stellt weiterhin einen vollwertigen Web-Client, den Doxis4 webCube zur Verfügung, der
+auf den Browser von mobilen Endgeräten, wie auch Laptops den vollen Funktionsumfang
+bietet.
+Der Export von ganzen Akten inkl. Paginierung ist ebenfalls im Standardfunktionsumfang von
+Doxis enthalten.
+
+2.1.7
+
+A 7 – Nachvollziehbarkeit
+VIS
+
+2.1.7.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+In VIS erfolgt standardmäßig eine umfangreiche fachliche und technische Protokollierung (u.
+a. der Rechtevergabe, von Änderungen in der Aufbauorganisation, Objektaktionen,
+Verfügungsabläufen und von Zugriffen) sowie Historisierung. Die Protokolldaten (Logging)
+sind vollständig konfigurierbar und werden historienbezogen gespeichert. Bei erhöhten
+Sicherheitsanforderungen (z. B. aufgrund datenschutzrechtlicher Aspekte) werden die Daten
+auf einen separaten Protokollierungsserver weitergeleitet. Im Rahmen des Loggings der
+Administrationstätigkeiten sind sowohl die Inhalte (geloggte Aktivitäten) als auch die
+Löschfristen der Logs konfigurierbar.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 34: Beispiel der Protokollierung/ Historisierung auf Aktenebene in VIS
+
+VIS ermöglicht die automatische Archivierung von Dokumenten mit qualifizierter
+elektronischer Signatur. Die DMS-Lösung unterstützt zudem unterschiedliche Signatur-Level.
+Für die Anbringung von qualifizierten elektronischen Signaturen sind verschiedene
+Softwareprodukte von Drittherstellern über Signatur-Konnektoren integriert (u. a.
+Governikus Signer und proDesk).
+2.1.7.2
+
+d.3
+
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+Für die Protokollierung stehen verschiedene sowohl technische als auch fachliche
+Protokollierungsfunktionalitäten zur Verfügung (u. a. Protokollierung und Logging der
+einzelnen d.3 Prozesse und Dienste, Audit-Log für administrative Stammdaten- und
+Kenndatenänderung, Protokollierungsmechanismen hinsichtlich der Anlage und Bearbeitung
+von einzelnen d.3ecm-Objekten auf Anwenderebene). Der Versionsverlauf und die
+Versionshistorie sowie Attributhistorie können zum jeweiligen d.3-Objekt angezeigt bzw.
+aufgeführt werden. Administrative Bearbeitungs- und Protokollinformationen werden als
+Audit-Trail in entsprechenden Datenbanktabellen des d.3 gehalten und können über
+administrative Abfragen ausgewertet werden. Das d.3 System verfügt im Standard nicht über
+administrative Werkzeuge und Tools zur statistischen personenbezogenen Auswertung.
+Im d.3-Standard sind verschiedene Signaturverfahren zur Signaturerstellung und -verifikation
+integrierbar bzw. können standardisiert eingebunden werden (u. a. Governikus - Signer und
+LZA, procilon - proDESK und proGOV). Mit Hilfe einer verfügbaren generischen
+Signaturschnittstelle können weitere Signaturverfahren eingebunden werden. Auch
+fortgeschrittene sowie qualifizierte Signaturen, Siegel und Fernsignaturen sind im d.3System abbildbar (entsprechender Signaturclient vorausgesetzt).
+2.1.7.3
+
+Doxis
+
+Die Anforderungen werden von Doxis ohne Einschränkungen erfüllt.
+Alle schreibenden Objektveränderungen sind durch eine Transaktionsklammer gesichert. Für
+eine genaue und nachvollziehbare Protokollierung von Ereignissen sowie Versions- bzw.
+Historienführung steht innerhalb Doxis ein umfangreich konfigurierbarer Audit Trail Service
+zur Verfügung. Dieser generiert Protokolleinträge über alle zugelassenen Aktionen im Doxis,
+die durch Tätigkeiten der Fachadministratoren oder Anwender entstehen. Nicht gewünschte
+Einträge können durch eine einfache Administration ausgeschlossen werden (z. B.
+Durchlaufzeiten in Arbeitskörben).
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 35: Doxis Audit Trail
+
+Mit Doxis können elektronische Signaturen für Dokumente erstellt und die Unverfälschtheit
+des Dokumentes zum Zeitpunkt der Signierung bestätigt werden. Dabei werden
+fortgeschrittene elektronische Signaturen auf Basis der MS Crypto API genauso unterstützt,
+wie qualifizierte elektronische Signaturen. Doxis bietet mit BatchSign zudem eine eigene
+eIDAS-konforme elektronische Signaturlösung.
+
+2.1.8
+
+A 8 – Recherche, Wiedervorlage und Terminverwaltung
+VIS
+
+2.1.8.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+VIS bietet sowohl eine Volltext- als auch eine Metadatenrecherche an, die miteinander
+kombiniert werden können und über verschiedene Eingangswege (z. B. Akten-, Mappen- und
+Aufgabenrecherche) erreichbar sind.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 36: Volltextrecherche inkl. Facettierung in VIS
+
+In allen Suchfeldern können verschiedene Suchbedingungen eingesetzt werden, wie z. B.
+•
+•
+•
+•
+•
+•
+
+logischen Operatoren
+Ersetzungszeichen
+Textphrasen
+Zeiträume
+Intervallgrenzen
+unscharfe Suche
+
+Eine fehlersensitive Suche stellt VIS nicht zur Verfügung.
+Die Ergebnisse der Recherche werden in VIS in Form von Listen angezeigt, die entsprechend
+sortierbar und filterbar sind. Für die Darstellung der Treffer in Primärdateien kommt der in
+VIS integrierte Viewer zum Einsatz. Die von VIS erzeugte Trefferliste ist exportierbar.
+
+Abbildung 37: Filter in der Aufgabenliste ohne „Registrierung“ in VIS
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 38: Suche nach „Rechnung“ und Highlighting des Treffers „Rechnung“ in der gewählten Primärdatei
+in VIS
+
+Die Anzeige der Ergebnisliste sowie dessen Zugriff orientiert sich dabei am hinterlegten
+Rechte- und Rollenkonzept.
+VIS bietet zudem die Möglichkeit, Suchabfragen zu speichern und sogenannte Suchmuster zu
+erstellen. Diese können zu einem späteren Zeitpunkt wiederverwendet werden. Dabei ist es
+möglich, neben den Suchkriterien auch den dazugehörigen Aufbau der Trefferliste zu
+konfigurieren und als separates Suchmuster abzuspeichern. Grundsätzlich können
+persönliche, organisations- oder behördenweite Suchmuster erstellt werden.
+
+Abbildung 39: Suchmuster abspeichern und Eigentümer wählen
+
+Die persönlich abgespeicherten (oder auch zentral vergebenen) Suchmuster stehen den
+Anwendern für eine schnelle Bearbeitung u. a. auf der Startseite von VIS zur Verfügung.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 40: Suchmuster auf Startseite von VIS zur Auswahl
+
+VIS verfügt über eine Wiedervorlagenverwaltung für die in VIS beinhalteten
+Schriftgutobjekte. Prinzipiell können einmalige und zyklische Wiedervorlagen eingerichtet
+werden.
+
+Abbildung 41: Dialog Zyklusauswahl in VIS
+
+VIS bietet die Möglichkeit, Stellvertretungen zur Übernahme und Bearbeitung von
+Aufgaben/Wiedervorlagen einzurichten. Die Erledigung einer Aufgabe/Wiedervorlage in
+Stellvertretung wird in den Geschäftsgangverfügungen dokumentiert, so dass klar ersichtlich
+ist, dass die Erledigung der Aufgabe nicht durch den ursprünglich dafür vorgesehenen
+Bearbeiter, sondern durch seinen Stellvertreter erfolgte. Für einen Bearbeiter können
+mehrere Vertreter angegeben werden. In VIS wird die Stellvertretung an den Aufgaben des
+zu Vertretenden festgemacht.
+
+Abbildung 42: Erledigung der Wiedervorlage in Stellvertretung in VIS
+
+Im Bereich der Recherchefunktionen ist fest zu halten, dass VIS gegenüber den anderen
+Systemen keine fehlersensitive Suche zur Verfügung stellt.
+2.1.8.2
+
+d.3
+
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+d.3 bietet sowohl eine Volltext- als auch eine Metadatenrecherche an, die grundsätzlich
+miteinander kombiniert werden können.
+
+Abbildung 43: Einfeldsuche („einfache Suche“) in d.3
+
+Abbildung 44: Suche nach Metadaten in d.3
+
+Darüber hinaus werden u. a. folgende Funktionalitäten zur Recherche in den verschiedenen
+Suchabfragefunktionen bereitgestellt:
+•
+•
+•
+•
+•
+•
+
+Teilsuche mit Trunkierung und Beliebigkeitssuche
+Logische Verknüpfung von Suchkriterien
+Vergleichsoperatoren
+Angabe eines Zeitraums
+phonetische Suche
+Stichwortsuche
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 45: Fehlersensitive Suche von d.3
+
+Die Ergebnisse der Recherche werden den Anwendern in Form von Listen in d.3 angezeigt.
+Diese Listenansicht ist filterbar sowie konfigurierbar, so dass beliebige Metainformationen
+bzw. Attribute der dargestellten Objekte als Spalteneinträge angezeigt werden können. Die
+von d.3 erzeugte Ergebnisliste ist exportierbar.
+
+Abbildung 46: Anpassung der Ergebnisliste in d.3
+
+Ferner besteht über eine Filterfunktion die Möglichkeit, die Ergebnisliste in Form einer
+Facettensuche zu konkretisieren (z. B. Facettensuche nach inhaltlicher Relevanz und
+weiteren gemeinsamen Hauptbegriffen).
+
+Abbildung 47: Ergebnisliste mit Facettierung in d.3
+
+Die Anzeige der Ergebnisliste sowie dessen Zugriff orientiert sich dabei am hinterlegten
+Rechte- und Rollenkonzept.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+d.3 bietet zudem die Möglichkeit, Suchabfragen zu speichern und damit sogenannte
+Suchvorlagen zu erstellen. Diese können zu einem späteren Zeitpunkt wiederverwendet
+werden.
+
+Abbildung 48: Suchvorlagen in d.3
+
+Ferner ist d.3 so ausgestaltet, dass Suchabfragen während einer laufenden Sitzung
+automatisch gespeichert und listenartig in einem Dialogfenster dargestellt werden.
+Zusätzlich werden die Suchabfragen verschiedener d.3 Sitzungen in einer hierarchischen
+Baumstruktur unter „Verlauf“ gespeichert. Die Anzahl der gespeicherten Sitzungen sowie
+Aufbewahrungszeit für Suchanfragen können konfiguriert werden.
+d.3 verfügt ebenfalls über die Möglichkeit Wiedervorlagen zu erstellen und zu bearbeiten.
+Die Einrichtung von Stellvertretungen ist möglich. Hierbei kann eine geplante Vertretung
+durch den zu Vertretenden aktiviert werden. Dies ist ebenso bei einer Notvertretung ad-hoc
+durch einen gemäß d.3-Organisationsstruktur berechtigten Benutzer, wie z. B. den
+Vorgesetzten, möglich. Von einem Vertreter abgeschlossene Aufgaben werden durch ein
+entsprechendes Attributfeld gekennzeichnet, welches anzeigt, von welchem Vertreter diese
+Aufgabe abgeschlossen wurde.
+2.1.8.3
+
+Doxis
+
+Die Anforderungen werden von Doxis ohne Einschränkungen erfüllt.
+Doxis bietet sowohl eine Volltext- als auch eine Indexrecherche an, wobei beide
+Suchverfahren grundsätzlich miteinander kombiniert werden können. Die Index- und
+Volltestrecherche wird über Suchdialoge realisiert, die im Vorfeld im Doxis4 cubeDesigner
+konfiguriert werden.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 49: Suchdialog in Doxis4 mit integrierter Volltextsuche
+
+Doxis stellt im Hinblick auf die Recherche weitere Suchabfragefunktionen zur Verfügung, wie
+bspw.:
+•
+•
+•
+•
+•
+•
+•
+
+Wortstammsuche
+Stoppwörter
+Platzhaltersuche
+Unscharfe Suche
+Phrasensuche
+Suche mit reservierten Zeichen
+Suche mit vordefinierten Wertelisten oder Vorschlagslisten
+
+Abbildung 50: Fehlerhafte Suche in Doxis4 - Ausgleich von Rechtschreibfehlern mit „~“-Operator
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 51: Suche mit Hilfe von vordefinierten Wertelisten in Doxis4
+
+Die Suchergebnisse werden in Doxis4 in Form von Trefferlisten dargestellt, die – ähnlich wie
+in einer Tabellenkalkulation – sortiert, gruppiert und gefiltert werden können. Die Abbildung
+der Treffer ist auch als Thumbnails möglich (z. B. als Übersicht vorhandener Bilder oder
+Dokumente). Doxis ermöglicht ferner, dass die Treffer hierarchisch gruppiert sowie farblich
+hervorgehoben werden können. Zudem können Indexdaten auch für mehrere Treffer direkt
+aus der Trefferliste geändert werden. Die von Doxis erzeugte Trefferliste ist exportierbar.
+
+Abbildung 52: Beispiel einer gruppierten Trefferliste in Doxis4
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 53: Volltextsuche und Hervorhebung in der Trefferliste und in der Dokumentvorschau in Doxis4
+
+Die Anzeige der Ergebnisliste sowie dessen Zugriff orientiert sich am hinterlegten Rechteund Rollenkonzept.
+Doxis verfügt über die Möglichkeit, Suchabfragen zu speichern und wiederzuverwenden, in
+dem die Trefferlisten von Suchen als Muster in den Favoriten hinterlegt werden.
+
+Abbildung 54: Individuelle Favoriten im Doxis4 winCube
+
+Für Aufgaben bzw. Prozesse sowie Akten, Vorgänge und Dokumente können jederzeit in
+Doxis4 Wiedervorlagen mit Terminen, Fristen bzw. Erinnerungen (auch in fremden
+Postkörben) definiert werden.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 55: Wiedervorlagen in Doxis4 anlegen
+
+Jeder Anwender kann in Doxis einen Vertreter bestimmen, der in Zeiten der Abwesenheit als
+Stellvertreter fungiert. In der Workflow-Historie wird protokolliert, wer eine Aufgabe
+erledigt hat, so dass jederzeit nachvollziehbar ist, ob eine Aufgabe vom Verantwortlichen
+selbst oder von seinem Stellvertreter durchgeführt wurde.
+
+Abbildung 56: Benennung eines Stellvertreters in Doxis
+
+2.1.9
+
+A 9 – Objekt- und Ablagestruktur
+VIS
+
+2.1.9.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+In VIS wird Schriftgut grundsätzlich in Ablagen („virtuelle Aktenschränke“) strukturiert. Im
+System kann eine beliebige Anzahl verschiedener Ablagen und somit auch Ablagestrukturen
+durch den Fachadministrator angelegt und eingerichtet werden (u. a. Gruppenablagen und
+private Ablagen).
+VIS setzt eine Schriftgutstruktur (bestehend aus Akte, Vorgang, VIS-Dokument und Datei)
+um. Darüber hinaus wird die Möglichkeit geboten, eigene Objektklassen zu definieren. Durch
+solch ein generisches Schriftgutobjekt wird die dreistufige Objekthierarchie erweitert.
+Vorgänge und Akten können aufgrund der Anforderungen der Aktenmäßigkeit in der VIS-Suite
+nicht ohne Bezug zum Aktenplan gepflegt werden.
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Abbildung 57: Objekthierarchie in VIS
+
+Innerhalb des Systems können unterschiedliche Metadaten je Objekttyp definiert werden.
+Dies ist an allen Schriftgutobjekten (Akte, Vorgang, Dokument) möglich.
+Das System ermöglicht die Erzeugung beliebiger Querverweise bzw. Referenzen (Bezüge)
+zwischen einzelnen Geschäftsobjekten.
+2.1.9.2
+
+d.3
+
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+Die Ablagestruktur innerhalb d.3 orientiert sich an DOMEA bzw. an dem aktuellen
+Organisationskonzept des Bundes und besteht in der Regel aus den Objektebenen „Akte –
+Teilakte bzw. Vorgang – Dokument“, die bezeichnungsspezifisch gestaltbar sind. Akten
+können zudem unabhängig vom Aktenplan nach anderen Kriterien abgelegt werden. Es
+können zudem jederzeit weitere Aktenstrukturen (z. B. zur Trennung von Sach- und
+Fallakten) hinzugefügt werden.
+In d.3 gibt es keine Systembegrenzung hinsichtlich der Anzahl definierbarer Metadaten- bzw.
+Attributfelder. Es können jedoch für eine Objektart (Akten- und Dokumentart) neben den
+Systemattributen insgesamt nur 89 Attributfelder angelegt werden.
+Referenzen zwischen Schriftgutobjekten werden im d.3-Kontext als „Verknüpfungen“
+bezeichnet.
+Verknüpfungen zwischen Schriftgutobjekten werden entweder auf der Basis von
+Aktenplanregeln oder manuell per Drag & Drop-Funktionalität durch einen berechtigten
+Benutzer erstellt.
+2.1.9.3
+
+Doxis
+
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+Schriftgutobjekte werden in Doxis als sog. „Klassen“ geführt. Doxis bietet im Standard sechs
+Objektklassen (Akte/Vorgang, Dokument, Suche, Ablage, Trefferliste, Dokument). Je Klasse
+können beliebig viele Metadaten definiert werden. Auch können je Akteninstanz
+unterschiedliche Metadaten genutzt werden. Akten können zudem unabhängig vom
+Aktenplan nach anderen Kriterien abgelegt werden. Über den Doxis cubeDesigner können
+zudem mehrere vollständig voneinander unabhängige Ablagestrukturen (z. B. Trennung von
+Sach- und Fallakten) definiert werden.
+Für
+Referenzen
+zwischen
+Schriftgutobjekten
+stehen
+in
+Doxis
+der
+sog.
+„Verwendungsnachweis“ (Dokumente werden nicht selbst zu einer Akte hinzugefügt,
+sondern als Verweis in der Akte hinterlegt) und die „Verknüpfung“ (Verknüpfungen sind
+Querverweise auf andere Dokumente oder Akten) zur Verfügung.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+2.1.10 A 10 – Ausgang
+VIS
+
+d.3
+
+Doxis
+
+2.1.10.1 VIS
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+Der Versand von elektronischen Dokumenten per E-Mail direkt aus einem Schriftgutobjekt
+der VIS-Suite ist einfach und ergonomisch möglich. Über die Funktion in der Ribbonbar oder
+das Kontextmenü stehen dem Nutzer die Möglichkeiten „als Anlage“, „mit Vorlage“ oder „als
+Verknüpfung“ senden zur Verfügung. Die Funktion „als Verknüpfung“ setzt hier voraus, dass
+der Empfänger ebenfalls die VIS-Suite nutzt.
+Analog erfolgt der Versand von E-Mails aus einem Geschäftsobjekt, beispielweise direkt aus
+einem Vorgang oder Dokument.
+
+Abbildung 58: Optionen zum Mailversand aus der VIS-Suite (hier Funktion in der Ribbonbar)
+
+Soll ein Geschäftsobjekt direkt nach dem Ausgang im Vorgang abgelegt werden, besteht die
+Möglichkeit, mittels einer integrierten VAPI-WebService-Schnittstelle den Nutzer frühzeitig
+bei der Veraktung zu unterstützen. Die wesentlichen Funktionen, um beispielsweise
+Geschäftsobjekte inkl. Metadaten von anderen Anwendungen oder Diensten gesteuert im
+System anzulegen bzw. abzulegen, sind hier enthalten.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 59: Rückspeicherung einer versandten Mail in den Vorgang und Setzen des Auslaufdatums
+
+Bei der Veraktung von E-Mails werden die Metadaten der E-Mail automatisch in die Metadaten
+des Geschäftsobjektes in der elektronischen Akte übernommen.
+Im Bereich der Kriterienhauptgruppe Ausgang weist
+Einschränkungen gegenüber den anderen Systemen auf.
+
+VIS
+
+keine
+
+nennenswerten
+
+2.1.10.2 d.3
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+Der Versand von Dokumenten per E-Mail ist durch verschiedene Funktionen im d.3 smart
+explorer möglich. Es können dabei einzelne oder mehrere Dokumente oder gesamte
+Container-Objekte (Akten und Vorgänge) aus der Trefferliste als Anlage mit dem
+konfigurierten E-Mailprogramm wie z. B. Microsoft Outlook versandt werden.
+Dabei ist generell einstellbar oder individuell wählbar, ob die Primärinformation
+(Anwendungsdatei) oder die Sekundärinformation (PDF/A-Datei) verwendet wird. Als
+Dateiname der jeweiligen Mailanlage wird der Dokumenttitel (vordefinierte Caption aus den
+Dokumentattributen) verwendet.
+
+Abbildung 60: E-Mail-Ausgang per Microsoft Outlook in d.3
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+Analog dazu erfolgt der Versand von E-Mails direkt aus einem Vorgang heraus.
+Für die Ablage einer Mail direkt in einem Vorgang bietet das d.3ecm System zwei Optionen:
+•
+•
+
+Ablage in Outlook in den jeweiligen Vorgang (mittels Integration des d.3one in
+Microsoft Outlook) oder
+Ablage in den jeweiligen Vorgang im Aktenbaum des d.3 smart explorers per Drag &
+Drop.
+
+Des Weiteren kann mit der Windows-Anwendung „Speichern unter“ der d.3 Import direkt
+angesprochen und die jeweilige E-Mail im Vorgang ablegt werden.
+
+Abbildung 61: Ablage von E-Mails per Drag & Drop direkt im Vorgang
+
+2.1.10.3 Doxis
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+In Doxis4 können Dokumente unproblematisch und ergonomisch per E-Mail versendet
+werden. Der Nutzer kann hier entscheiden, ob Dokumente als Originalformat, als PDF/ADatei oder mittels Link zum Objekt versendet werden.
+Die Funktionen stehen zum einen auf Ebene des Dokumentes (Doxis4 Viewer) zur Verfügung
+oder direkt aus der Trefferliste.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 62: Dokument versenden per E-Mail in Doxis4
+
+Gesendete E-Mails können zudem über eine Senden&Ablegen-Funktion automatisch im
+jeweiligen Vorgang abgelegt werden. Ausgangsdokumente können direkt über die Metadaten
+des Dokumentes bei der Ablage dem Vorgang zugewiesen werden. Ebenfalls ist die Zuordnung
+zu Akten oder auch Vorgängen möglich.
+
+Abbildung 63: Akten- oder Vorgangszuordnungen
+
+So können alle E-Mails, die in einen Ordner in Outlook gelegt werden, automatisiert in eine
+Akte oder einen Vorgang abgelegt werden. Die Übertragung erfolgt komplett im Hintergrund.
+
+2.1.11 A 11 – Langzeitspeicherung und Aussonderung
+VIS
+
+d.3
+
+Doxis
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+
+Anlage 1
+
+VERSION 1.0 | FINAL
+
+2.1.11.1 VIS
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+Die Objekte Akte und Vorgang können in VIS abgeschlossen werden und die hinterlegten
+Fristen fangen an zu laufen.
+
+Abbildung 64: Abschließen in VIS
+
+Bis zum Ablauf der Transferfrist können Vorgänge wiederaufleben.
+Nach Ablauf der Aufbewahrungsfrist ist eine Aussonderung entsprechend XDOMEA möglich.
+Die Anbindung an eine TR-ESOR konforme Middleware (z. B. Governikus LZA) ist möglich.
+2.1.11.2 d.3
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+Durch das Setzen des zdA-Status wird in d.3 der Vorgang bzw. die Akte geschlossen und somit
+ist nur noch ein lesender Zugriff möglich. Das Wiederaufleben eines Vorgangs ist bis zum
+Ablauf der Transferfrist gewährleistet.
+Die Aussonderung erfolgt entsprechend XDOMEA.
+
+Abbildung 65: Bewertung von Akten in d.3
+
+Für die beweiswerterhaltende Langzeitspeicherung kann über die S4 Schnittstelle eine TRESOR konforme Middleware angebunden werden.
+2.1.11.3 Doxis
+Die Anforderungen werden in Doxis ohne Einschränkungen erfüllt.
+
+Anlage 1
+
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Der Abschluss von Akten und Vorgängen ist möglich, so dass eine weitere Bearbeitung
+ausgeschlossen ist. Ein Wiederaufleben eines Vorgangs ist während der gesamten
+Aufbewahrungsdauer möglich.
+Fristen können bei Doxis nicht nur an Akten und Vorgängen, sondern auch für Dokumente
+definiert werden.
+Die Aussonderung erfolgt nach XDOMEA.
+Die Anbindung an eine TR-ESOR konforme Middleware ist möglich.
+
+2.1.12 A 12 – Administration
+VIS
+
+d.3
+
+Doxis
+
+2.1.12.1 VIS
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+Das System bietet umfangreiche Administrationsmöglichkeiten der Aktenplan-, Objekt- und
+Ablagenverwaltung. Im Rahmen der Aktenplanverwaltung können z. B. bestehende
+Aktenpläne einfach importiert, sowie mehrere unabhängige bzw. Teilaktenpläne gebildet
+werden. Für die Prozessverwaltung steht ein Werkzeug zur Gestaltung von
+wiederverwendbaren Musterworkflows (persönlich, organisationsspezifisch, mandantenweit)
+zur Verfügung. Darüber hinaus können mithilfe von „Aufgaben“ ad-hoc-workflows abgebildet
+werden.
+Für die Rechteverwaltung können unterschiedliche Verzeichnisdienste eingebunden werden
+(u. a. Active Directory, OID, eDirectory, etc.). Die VIS-Suite kann im Standard mit LDAPkonformen Verzeichnisdiensten gekoppelt werden. Ein Single-Sign-On wird ebenfalls
+gewährleistet.
+VIS verwaltet den Zugriff auf Schriftgutobjekte wie z. B. Akten, Vorgänge, generisches
+Schriftgut, Segmente, Mappen und Dokumente über ein mehrstufiges Berechtigungskonzept.
+Für die Vergabe von Objektrechten können sogenannte Ablagen definiert werden. Jedes
+Schriftgutobjekt, welches im Weiteren in einer entsprechenden Ablage erzeugt oder
+verschoben wird, erhält die über diese Ablage definierte Rechtekonstellation. Darüber
+hinaus können die Rechte an den konkreten Objekten beliebig erweitert oder eingeschränkt
+werden.
+Neben der Berechtigung auf Schriftgutobjekte und Strukturen verfügt VIS noch über weitere
+Berechtigungen auf Werkzeuge und interne Anwendungen (z. B. Aktenplanrecherche,
+Ablagenexplorer, Posteingangsbuch). Werkzeugberechtigungen können Nutzern und/oder
+Gruppen direkt zugeordnet werden.
+Darüber hinaus bestehen in VIS umfangreiche Stellvertreterfunktionen (z. B. bei einer
+geplanten Vertretung und bei ungeplanter Abwesenheit eines Benutzers) zur Verfügung.
+VIS bietet eine eigene Dokumentenvorlagenverwaltung zur Erzeugung neuer Dateien im
+System. Zusätzlich können z. B. Standardvorlagen aus Office-Produkten direkt verwendet
+oder Dateien einfach kopiert werden.
+Das Umprotokollieren von Objekten ist auf Ablagenebene möglich.
+2.1.12.2 d.3
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Das System bietet umfangreiche Administrationsmöglichkeiten der Aktenplan-, Objekt- und
+Ablagenverwaltung. Mit dem integrierten Aktenplanmodul können z. B. bestehende
+Aktenpläne einfach importiert sowie mehrere unabhängige bzw. Teilaktenpläne gebildet
+werden. Die Systemlösung bietet zudem umfangreiche Möglichkeiten zur Überwachung,
+Steuerung und Gestaltung von Workflows (ad hoc und regelbasiert).
+Die Benutzerverwaltung im d.3-System kann vollständig in einem bestehenden LDAPVerzeichnisdienst abgebildet werden. Mit der API via Webservice oder COM API lassen sich
+Nutzereinrichtung und Nutzeränderungen zudem per Skript steuern. Ein Single-Sign-On wird
+ebenfalls gewährleistet.
+Im d.3 können Zugriffsrechte sowohl bezogen auf Objekte zur Regelung des Zugriffs auf
+Akten, Teilakten, Vorgänge und Dokumente als auch bezogen auf Systemfunktionen wie
+Workflowverfügungen (Zeichnung etc.) und Systemwerkzeuge (Vollzugriff auf Aktenplan,
+Administrationswerkzeuge) vergeben werden.
+
+Abbildung 66: d.3-Berechtigungskonzept
+
+Darüber hinaus stehen im d.3-System umfangreiche Stellvertreterfunktionen (z. B. bei einer
+geplanten Vertretung und bei ungeplanter Abwesenheit eines Benutzers) zur Verfügung.
+Interne Office-Vorlagen (Microsoft Word und Excel) können über ein entsprechendes
+Integrationsmodul erstellt, abgelegt und verwaltet werden.
+Umprotokollierungen bzw. Umschreibungen von d.3 Objekten können sowohl über eine
+Benutzerfunktion „Eigenschaften ändern“ (für einzelne oder mehrere markierte Elemente
+einer Ergebnisliste) als auch rekursiv (Umprotokollieren bzw. Umschreiben von Akten und
+darunterliegenden Objektstrukturen einer ganzen Betreffseinheit bzw. einem Aktenplanast
+im Aktenplan) mit dem administrativen Tool „Akten-Reorganisation“ vorgenommen werden.
+2.1.12.3 Doxis
+Die Anforderungen werden von Doxis ohne Einschränkungen erfüllt.
+Das System bietet mit dem Doxis cubeDesigner ein Tool mit umfangreichen Möglichkeiten
+zur Administration der Aktenplan-, Objekt- und Ablagenverwaltung. Die Systemlösung bietet
+zudem umfangreiche Möglichkeiten zur Überwachung, Steuerung und Gestaltung von
+Workflows.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Da alle Clients über eine API arbeiten, können die vollen Benutzer- und Rechteverwaltungen
+in Doxis über eine System-API erfolgen. Zudem können über den Doxis LDAP Konnektor die
+Daten im AD ausgelesen und für die Benutzerverwaltung unter Doxis genutzt werden. Ein
+Single-Sign-On wird ebenfalls gewährleistet.
+Die Vergabe von Rechten für Objekte kann in Doxis auf Gruppen, Rollen oder einzelnen
+Benutzern erfolgen. Der Zugriff auf interne Anwendungen ist nur für autorisierte Benutzer
+möglich. Die einzelnen Funktionen und Klassen der Doxis iECM-Suite können alle mit
+Berechtigungen versehen werden. Der Zugriff auf Funktionen des Doxis cubeDesigner kann
+ebenfalls mit Rechten geregelt werden.
+
+2.1.13 A 13 – Infrastruktur
+VIS
+
+d.3
+
+Doxis
+
+2.1.13.1 VIS
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+VIS kann als Hochverfügbarkeitslösung ausgelegt und durch die LHD betrieben werden.
+
+Abbildung 67: VIS als Hochverfügbarkeitslösung
+
+VIS ist skalierbar und an die Speichersysteme der LHD anbindbar.
+Der browserbasierte VIS Web-Client ist in den Browsern Internet Explorer, Microsoft Edge
+auf Chromium Basis und Mozilla Firefox nutzbar. Für einige Spezialfunktionen (z. B.
+Drag&Drop) ist eine Erweiterung durch Drittprodukte (z. B. Java WebStart, ActiveXControl
+und BHO) nicht zu vermeiden.
+Eine Integration in IBM Notes ist vorhanden.
+An dieser Stelle ist in der VIS Suite, wie auch bei Doxis von SER, eine Erweiterung durch
+Drittprodukte, wie beispielsweise Java WebStart oder ActiceXControl von Nöten, um den
+vollen Funktionsumfang zu erhalten.
+2.1.13.2 d.3
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Die Hochverfügbarkeit und Skalierung von d.3 ist gegeben. d.3 basiert auf einer
+Mehrschichtenarchitektur.
+
+Abbildung 68: n-Tier Architektur von d.3
+
+Für die Anbindung der LHD Speichersysteme ist der d.ecs storage manager notwendig.
+Aktuell werden seitens d.3 nachfolgend genannte Browser für die Nutzung des d.3one
+Webclients empfohlen:
+•
+•
+•
+•
+
+Internet Explorer 11
+Google Chrome 71
+Safari 12
+Mozilla Firefox 65
+
+Der d.3one Webclient erlaubt eine vollständige Integration in IBM Notes.
+2.1.13.3 Doxis
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+Zur Umsetzung einer Hochverfügbarkeit bietet Doxis verschiedene Elemente (z. B. LoadBalancing und Fail-Over, Replikationsmechanismen und Warm Stand-by, Redundanz von
+Server und Speicher) an. Die Speichersysteme der LHD können genutzt werden und die
+Einrichtung eines Hierarchischen Speichermanagement wird unterstützt.
+Folgende Browser werden unterstützt:
+•
+•
+•
+•
+•
+
+Microsoft Internet Explorer 11
+Microsoft Edge
+Google Chrome 67 oder höher
+Safari 11
+Mozilla Firefox 60 (aktuelle ESR-Version) oder höher
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 69: Großer Doxis Mandant
+
+Auf den Client Rechnern ist eine Installation von JRE, OpenJDK, JavaWebstart, ActiveXKomponenten, PlugIns oder sonstiger Drittsoftware notwendig, wenn der vollständige
+Funktionsumfang gewünscht ist.
+
+2.1.14 A 14 – Technische Systemanforderungen
+VIS
+
+d.3
+
+Doxis
+
+2.1.14.1 VIS
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+VIS besteht aus mehreren Komponenten inklusive containerisierten Applikations- und
+Dienste-Servern, sowie Anbindungen an Persistenzschichten. Die skalierungsrelevanten
+Komponenten, Dienste- und Anwendungsserver können als Docker-Container inklusive
+Dockerfile für jedes Container-Image bereitgestellt werden.
+
+Abbildung 70: Systemarchitektur VIS mit Docker
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+VIS bietet zwei verschiedene Ablagemöglichkeiten der Sekundärdaten angeboten:
+•
+•
+
+Speicherung der Metadaten in einer Datenbank (wahlweise MS SQL Server oder
+Oracle) und die Speicherung der Sekundärdaten in einem Filesystem (wahlweise
+NFS, Storagesysteme, EMC-Langzeit Storagesystem, etc.)
+Speicherung der Meta- und Sekundärdaten in der Datenbank (nur Oracle), dabei
+werden die Sekundärdaten als BLOB direkt in der Datenbank gespeichert.
+
+Es wird Apache Tomcat 7 als Anwendungsserver auf Windows und Linux Betriebssystemen
+unterstützt. Oracle WebLogic Server 12.1.3 als Anwendungsserver läuft auf Oracle Linux /
+Red Hat Enterprise Linux 6 / 7.
+TLS1.2, SAML 2 und Kerberos werden unterstützt.
+VIS ist zudem mandantenfähig.
+2.1.14.2 d.3
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+d.3-Clients kommunizieren mit den d.3-DMS-Prozessen, die auf mehreren Servern - auch
+redundant – betrieben werden können z. B. d.3 gateway, d.3 server, d.3 search, d.ecs
+storage manager sowie diverse weitere d.3-DMS-Prozesse. Nur die d.3-DMS-Prozesse haben
+Zugriff auf die Datenbasis, d. h. Zugriff auf die Datenbanken, den Fileserver und die StorageSysteme.
+
+Abbildung 71: Mehrschichtenarchitektur von d.3
+
+Als Datenbanken werden MS SQL, Oracle und IBM DB2 unterstützt. Die zu einem Dokument
+zugehörige(n) Datei(en) werden auf einem Fileserver in einer d.3-eigenen VerzeichnisStruktur abgelegt.
+Docker wird von d.3 unterstützt, ebenso Kerberos und TLS1.2.
+d.3. ist mandantenfähig, besitzt jedoch keine SAML Unterstützung.
+2.1.14.3 Doxis
+Die Anforderungen werden von Doxis ohne Einschränkungen erfüllt.
+Docker Container stehen für ausgewählte Doxis Komponenten zur Verfügung.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Die Datenhaltung in Doxis4 erfolgt getrennt. Metadaten werden in der Datenbank
+vorgehalten, Dokumentdateien werden im Dateisystem oder auf sonstigen Speichermedien
+abgelegt.
+
+Abbildung 72: Speicherverwaltung in Doxis
+
+Folgende Anwendungsserver werden von Doxis unterstützt:
+•
+•
+•
+•
+
+JBoss 7.1 oder 7.2 EAP
+WildFly 10 (10.0 erlaubt, 10.1 empfohlen) oder 15 (ab 15.0.1)
+IBM WebSphere Application Server - 9 (mindestens mit Fix Pack 1)
+Apache Tomcat 8.5 oder 9
+
+Doxis unterstützt Kerberos, SAML und TLS 1.2 und ist zudem mandantenfähig.
+
+2.1.15 A 15 – Ergonomie und Barrierefreiheit
+VIS
+
+d.3
+
+Doxis
+
+2.1.15.1 VIS
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+VIS erfüllt die Anforderungen der DIN EN ISO 9241 (Teile 11 und 16 sowie 110 und 143) sowie
+der Arbeitsstättenverordnung (ArbStättV) und entspricht den Bestimmungen der
+Bildschirmarbeitsplatzverordnung.
+Lediglich die Verwendung von Dokumentenhüllen erfüllt nicht vollständig vorhersehbaren
+Benutzerbelangen sowie dem erwartbaren Kenntnisstand der Anwendenden (in der WindowsUmgebung ist eine Datei gleichzusetzen mit einem Dokument).
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 73: Übersicht Schnellerledigung von Aufgaben
+
+Abbildung 74: Erklärung der Funktion mittels Mouseover
+
+VIS setzt die Regelungen der BITV 2.0 um. Die Zertifizierung hat einen BITV 2.0-Punktwert
+von 92 ergeben. Zusätzlich wurde bei der Prüfung der VIS-Suite nach BITinklusiv für
+Windowsanwendungen ein Ergebnis von 91% erreicht (Zertifizierung).
+Benutzerspezifische Anpassungen bspw. Größe, Farbgestaltung, Zahl sichtbarer Menüpunkte,
+etc. können in VIS vorgenommen werden.
+VIS bietet neben einer Online-Hilfe weitere Hilfefunktionen an; z. B. Tooltipps,
+Brotkrumenleiste und Tastaturbedienung.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 75: Übersicht Onlinehilfe
+
+Ein Sprachsteuerung steht aktuell nicht zur Verfügung, wird aber mit der Version 6
+weiterentwickelt.
+Die VIS-Suite unterstützt Vergrößerungssoftware (z. B. SuperNova) sowie die Integration von
+Braillezeilen und Screenreadern (z. B. Cobra).
+Im Bereich der Ergonomie und Barrierefreiheit weist VIS von PDV keine wesentlichen
+Einschränkungen gegenüber den anderen Systemen auf. Hervorzuheben ist an dieser Stelle,
+dass VIS die Regelungen der BITV 2.0 vollständig umsetzt.
+2.1.15.2 d.3
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+d.3 orientiert sich im Rahmen ergonomischer Gesichtspunkte an der DIN EN ISO 9241 Teil 110
+„Ergonomie der Mensch-System-Interaktion“. Menüpunkte und Hilfetexte sind in deutscher
+Sprache. Es wird dabei eine kontextsensitive Hilfefunktion geboten.
+
+Abbildung 76: Einfeldsuche
+
+Es liegen keine externen Zertifikate oder Ergebnisse
+Softwarefunktionen entsprechen jedoch dem W3C-Standard.
+
+von
+
+Prüfungen
+
+vor.
+
+Die
+
+Mittels angeschlossener Braille-Zeile oder Sprachausgabe auf Grundlage von Screenreaders
+wie z. B. Bindows® oder JAWS können Inhalte wiedergegeben werden.
+Die benutzerspezifischen d.3-Clienteinstellungen können entweder vom Benutzer selbst oder
+Login-abhängig in den sogenannten d.3-Profileinstellung für individuelle Benutzer und
+Benutzergruppen zentral administriert und gespeichert werden.
+Ein Sprachsteuerung steht aktuell nicht zur Verfügung,
+2.1.15.3 Doxis
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+SER orientiert sich an den generellen Standards und befolgt diese im Rahmen der
+Cliententwicklung. (Orientierung an DIN EN ISO 9241).
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 77: Eingabehilfe
+
+Doxis setzt grundsätzlich die Regelungen der BITV 2.0 um, jedoch nicht in vollem Umfang.
+Menschen mit Behinderung können das System nutzen. Jedoch scheint dies mit einem
+erhöhtem Customizing-Aufwand verbunden zu sein.
+Doxis wird nach dem BaNu Prüfkatalog (nach Standards EN 301549 und ISO 9241-171) geprüft.
+Die Ergebnisse dieser Prüfung sind jedoch derzeit nicht bekannt. Zudem liegt keine
+Zertifizierung vor.
+Benutzter spezifische Anpassungen (Farben, layouts etc.) sind möglich und stehen
+loginbasiert zur Verfügung. Zudem verfügen die Clients im Standard über alle relevanten
+Hilfefunktionen.
+Ein Sprachsteuerung steht jedoch derzeit nicht zur Verfügung.
+Doxis orientiert sich bei der Entwicklung an den Richtlinien, die für ergonomische Softwareentwicklung freigegeben werden. So unterstützt Doxis die Arbeitsstättenverordnung (DGUVInformation 215–410 „Bildschirm- und Büroarbeitsplätze“) für eine Berücksichtigung
+ergonomischer Grundsätze (gemäß DIN EN ISO 9241-110) bei der Entwicklung von Software.
+
+2.1.16 A 16 – Anbindung von Drittsystemen, Normen und Standards
+VIS
+
+d.3
+
+Doxis
+
+Die Anforderungen werden von VIS grundsätzlich erfüllt.
+VIS stellt verschiedene Konnektoren (z. B. CMIS, VAPI, REST, SOAP, XDOMEA) für die
+Anbindung von Fachverfahren zur Verfügung und besitzt darüber hinaus einen eigenen
+Enterprise Service Bus zur Anbindung von Drittsystemen. Ob alle LHD-spezifischen
+Fachverfahren und Anwendungen bereits über etablierte Schnittstellen zu VIS verfügen, kann
+nicht zugesichert werden. Wesentliche Schnittstellen zu MS Office, IBM Notes oder
+weitverbreiteten Fachverfahren existieren.
+VIS unterstützt die Umsetzung der Anforderungen der DSGVO.
+Es ist möglich mit VIS eine Personalakte und eine Vertragsakte umzusetzen.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 78: Integrationsschnittstelle VIS
+
+Folgende FV-Schnittstellen hat VIS im Standard integriert.
+
+Abbildung 79: FV Schnittstellen zu VIS
+
+Auch im Bereich der Anbindung von Fachverfahren weist VIS keine Nachteile gegenüber den
+anderen Systemen auf. Es kann jedoch nicht zugesichert werden, dass alle LHD-spezifischen
+Fachverfahren und Anwendungen bereits über etablierte Schnittstellen zu VIS verfügen.
+2.1.16.1 d.3
+Die Anforderungen werden von d.3 grundsätzlich erfüllt.
+d.3 verfügt über eine Vielzahl von Schnittstellen zu kommunalen Fachverfahren und
+allgemeiner Bürokommunikation. Die Umsetzung basiert dabei auf der produktspezifischen
+API (d.3 Cold, d.3 Import, d.3 API, d.3 Webservice API) bzw. marktüblichen
+Standardschnittstellen (z. B. CMIS, XDOMEA). Auch hier ist anzumerken, dass bestimmte LHD
+spezifische Fachverfahren bisher nicht von d.3 angebunden wurden (z. B.DBOrg).
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 80: Auszug angebundener Fachverfahren d.3
+
+Auch bei der Einrichtung besonderer Nutzerrollen werden die Anforderungen der DSGVO in
+d.3 umgesetzt.
+d.3 verfügt über eigenständige Module, die ein vorkonfektionierte Personalakte und
+Vertragsakte bereitstellen.
+2.1.16.2 Doxis
+Die Anforderungen werden von Doxis grundsätzlich erfüllt.
+Auch Doxis verfügt über zahlreiche Schnittstellen zur Anbindung von Fachverfahren (z. B.
+WebService, COM- und Java-API, ArchiveLink, Doxis4 REST). Die Anzahl der bisher bereits
+eingebundenen kommunalen Fachverfahren ist geringer als bei d.3 oder VIS.
+
+Abbildung 81: Doxis ERP Connection Service
+
+Die Anforderungen der DSGVO können mit Doxis umgesetzt werden.
+Doxis verfügt über eigene Module zur Umsetzung von Personal- und Verwaltungsakte.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+2.2
+
+Kriterienhauptgruppe B – Wartung und Pflege
+
+2.2.1
+
+B 1 – Softwarepflege
+VIS
+
+2.2.1.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+Das Releasemanagement von VIS ist wie folgt aufgebaut:
+•
+•
+•
+•
+•
+
+Major – Releases I alle 2-3 Jahre (wesentliche Erweiterungen/Veränderungen in der
+Software)
+Minor Releases I ca. 2 pro Jahr (Funktionserweiterungen, Unterstützung neuer
+Versionen der Basissoftware)
+Patch-Sets I ca. 2 pro Jahr (Zusammenfassung von Fehlerbehebungen, kleine
+Funktionsanpassungen und Unterstützung neuer Versionen der Basissoftware)
+Hotfixes I bei Notwendigkeit
+Einzel-Fehlerbehebungen
+
+2.2.1.2
+
+d.3
+
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+d.velop gibt im Rhythmus von 12 bis 15 Monaten für die d.3-Software ein Minor-Release
+heraus. Ein Major-Release-Wechsel für d.3 erfolgt alle 4 bis 5 Jahre. Zwischen zwei MinorReleases werden im halbjährigen Rhythmus Servicepacks als abgestimmte Patch- bzw.
+Hotfix-Sammlungen und Kompatibilitätsfreigaben zu neuen Betriebssystem- und
+Datenbankversionen herausgebracht.
+Die Vorgehensweise beim Einspielen neuer Softwareversionen ist davon abhängig, ob es sich
+um ein neues Release bzw. Servicepack von d.3 oder um einen neuen Meilenstein bei der
+Entwicklung integrierter Akten- und Prozesslösungen handelt. Bei einer neuen
+Softwareversion (Major- oder Minor-Release) sowie eines Servicepacks von d.3, werden diese
+zunächst auf dem Testsystem, das vom Softwarestand ein identisches Spiegelbild des d.3Produktivsystems darstellt, eingespielt und nach einem Testplan in Abhängigkeit der
+implementierten Lösungen intensiv getestet. Nach erfolgreichem Testlauf erfolgt die
+Installation auf dem Produktivsystem.
+Patches, Servicepacks und Bugfixes können bei d.3 im Allgemeinen durch den Kunden oder
+alternativ mit Unterstützung von d.velop per Fernzugriff (Teleservice) auf den d.3Kundensystemen (Test-, Produktiv- und ggf. Entwicklungssystem) eingespielt werden.
+2.2.1.3
+
+Doxis
+
+Die Anforderungen werden von Doxis ohne Einschränkungen erfüllt.
+Die SER verfolgt für eine einzelne Produktgeneration soweit möglich das Modell von
+inkrementellen Release-Zyklen. Dieses Modell ist weniger vergleichbar mit den großen
+Release-Sprüngen, die es z. B. beim Windows Server 2016 & 2019 noch gibt, sondern folgt
+eher kleineren Releases.
+Der typische Release-Zyklus beträgt 9-12 Monate. SER prüft einmal im Quartal, welche
+Patches in das Kundensystem eingespielt werden können und übernehmen auf Wunsch
+ebenfalls die Implementierung. Dabei wird dahingehend differenziert, ob die Patches für
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+den Systembetrieb zwingend erforderlich sind oder es sich hierbei um optionale Patches
+handelt.
+Da SER ein langfristiges und inkrementelles Modell von Software-Releases verwendet,
+unterscheidet SER zwischen dem Software-Produkt bzw. der Softwareproduktgeneration und
+den einzelnen Versionen (= Releases) des Produktes. Ein Software-Produkt wird von der SER
+über viele Releases in Form von Major- und Minor-Versionen gepflegt und weiterentwickelt.
+Das Software-Produkt ist somit auch Gegenstand eines Wartungsvertrags und nicht eine
+einzelne Version.
+Eine Version des Software-Produkts stellt ein konkretes Release des Software-Produkts dar.
+Hierbei wird die folgende Differenzierung getroffen:
+•
+•
+•
+•
+
+Patch-Release
+Hotfix
+Minor-Releas
+Major-Release
+
+2.2.2
+
+B 1 – Softwarewartung
+VIS
+
+2.2.2.1
+
+d.3
+
+Doxis
+
+VIS
+
+Die Anforderungen werden von VIS ohne Einschränkungen erfüllt.
+PDV stellt einen Hotline-Service zur Verfügung, welcher als zentrales Element des Fehlerund Problem-Managements fungiert. Er besteht aus dem Steuerungselement „User Help
+Desk“ (UHD) und den unterstützenden Tools. Bei den unterstützenden Tools handelt es sich
+um Folgende:
+•
+•
+
+das PDV-eigene Supportsystem
+die Drittsoftware für eine mögliche Fernwartung (Teleservicevereinbarung
+vorausgesetzt)
+Der Hotline-Service ist im Rahmen der Servicebereitschaftszeiten (Mo-Fr I 07:00 bis 18:00
+Uhr) erreichbar ist. Gängige Sprache ist Deutsch.
+Ein wichtiger Bestandteil des Supports ist das so genannte 24/7-Ticket-System. Es dient zur
+Aufnahme, Dokumentation und Verfolgung von Anfragen, die durch Kunden an das SupportTeam der PDV gestellt werden. Um auf das Portal zuzugreifen, werden Mitarbeiter des
+Kunden/Auftraggebers im Webportal registriert (sofern ein gültiger Wartungsvertrag
+vorliegt).
+Die PDV stellt über das Webportal aktuelle Informationen zum Unternehmen und seinen
+Produkten bereit. Wichtiger Bestandteil des Portals ist das »Support - Center«, in dem sich
+neben Downloads aktueller Produkt-Releases und -Hotfixes auch eine Knowledge-Base zu
+bekannten Problemen im Zusammenhang mit VIS sowie ein Forum befinden.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 82: Webportal PDV
+
+Der 1st-Level Support inbound von PDV reagiert innerhalb von 10 min nach Eingang des
+Tickets mit einer Klassifizierung des Tickets (z. B. Incident oder Serviceanfrage). Daraus wird
+ein Folgeticket mit Benachrichtigung an den Kunden inkl. Ticketnummer erstellt und es
+erfolgt der Übergang von Reaktionszeit in Analysezeit, die am Ticket hinterlegt wird. Der
+Kunde legt die Auswirkung und die Dringlichkeit des Calls fest. Die Supportmitarbeiter
+verfügen über eine Matrix, die die Priorität des Tickets errechnet und automatisch setzt.
+
+Abbildung 83: Prioritätenmatrix VIS
+
+2.2.2.2
+
+d.3
+
+Die Anforderungen werden von d.3 ohne Einschränkungen erfüllt.
+d.velop stellt eine Hotline zur Verfügung, die innerhalb der Servicebereitschaftszeiten (MoFr I 08:00 bis 18:00 Uhr) erreichbar ist. Der Hotline-Service ist der telefonische ServiceAnlaufpunkt für Störungs- und Problemmeldungen vom Auftraggeber. Er beinhaltet die
+telefonische Beratung und Unterstützung zur Analyse der Ursachen der gemeldeten Störung
+sowie Erarbeitung von Lösungen zur Behebung von Störungen und Problemen an der
+Vertragssoftware. Gängige Sprache ist Deutsch.
+Bei der Störungs- und Problemdokumentation setzt d.velop das Ticketsystem „Open Ticket
+Request System“ (OTRS) für die Ticket-Verwaltung und zur Einhaltung der vertraglich
+vereinbarten Service-Level-Agreements (SLA) ein. Alle telefonisch oder elektronisch
+eingehenden Anfragen, Störungs- und Fehlerfälle werden von der Meldung bis zur
+abschließenden Lösung im OTRS detailliert dokumentiert.
+Tickets werden dabei je nach Fehlerklasse priorisiert. Die Priorität wird bei Bedarf im Verlauf
+der Ticketbearbeitung hochgestuft.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 84: OTRS Ticketsystem als Webanwendung für Kundenzugänge von d.velop
+
+Fernwartungsmöglichkeiten werden seitens d.velop ebenfalls angeboten. d.velop stellt dafür
+eine Software für Fernwartungssitzungen über die Homepage zum Download bereit. Es ist
+jedoch möglich, eine andere Fernwartungssoftware einzusetzen. Dies ist im EVB-IT ServiceVertrag entsprechend festzulegen.
+d.velop stellt sämtliche Softwareprodukte und Produktupdates wie neue Releases,
+Servicepacks und Hotfixe sowie Dokumentationen über das für alle Kunden zugängliche
+Service-Portal bereit. Den Produkten zugehörige Sicherheits- und Produktupdates werden
+ebenfalls unmittelbar nach deren Veröffentlichung über das Serviceportal bereitgestellt.
+Folgende Reaktionszeiten werden im Standard, bei den folgenden Fehlerkategorien, durch
+den Hot-line-Service geboten:
+•
+•
+•
+
+Leichte Fehler – 4 Stunden
+Betriebsbehindernde Fehler – 2 Stunden
+Betriebsverhindernde Fehler bzw. Systemstillstand – 1 Stunde
+
+Darüber hinaus können im Wartungsvertrag weitere Service Level Agreements (SLA)
+vereinbart werden.
+2.2.2.3
+
+Doxis
+
+Die Anforderungen werden von Doxis ohne Einschränkungen erfüllt.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Der Support kann über das Telefon, per E-Mail, über das Ticketsystem Zammad bzw. durch
+den Einsatz von Remote-Diagnose-Tools innerhalb der üblichen Servicebereitschaftszeiten
+(Mo-Fr von 08:00 bis 18:00 Uhr; Standard) erfolgen. Gängige Sprache im SERviceDesk ist
+Deutsch.
+Der Remote-Zugriff kann über verschiedene Wege durchgeführt werden, wie z. B.
+•
+•
+
+Remote via Token-Verfahren
+Remote via Teamviewer (o.ä.)
+
+Sollte ein weiterer Service vor Ort nötig sein, können diese Tage beauftragt werden (sollten
+sie nicht in einem Vertrag vereinbart worden sein).
+Im Rahmen der Software-Pflege wird die Software durch die Bereitstellung von Bugfixes,
+Patches, ServicePacks und Updates auf dem jeweils neuesten Stand gehalten. Die
+Übernahme dieser Pro-grammstände liegt in Kundenverantwortung. Auf Wunsch können die
+Updates durch Mitarbeiter der SER oder Mitarbeiter des Kunden eingespielt werden.
+Grundsätzlich erhält der Kunde Zugang zu einem eigenen Download-Bereich. Dort stehen alle
+aktuellen Versionen der erworbenen Software-Produkte 24/7 zum Download bereit.
+SER bietet ihren Kunden eine standardmäßige Reaktionszeit von 8 Stunden an (eine
+Verkürzung der Reaktionszeit wäre gegen Aufpreis möglich). Die Bearbeitung der
+eingehenden Calls wird nach dem Schweregrad des Fehlers differenziert. Die Bearbeitung
+erfolgt auf Basis einer Prioritätenmatrix.
+
+Abbildung 85: Prioritätenmatrix Doxis
+
+SER verpflichtet sich, innerhalb der vereinbarten Reaktionszeit mit der Serviceleistung zu
+beginnen. Der Abschluss der Instandsetzungsmaßnahmen innerhalb der Reaktionszeit ist
+nicht geschuldet.
+
+2.3
+2.3.1
+
+Kriterienhauptgruppe C – Dienstleistung
+C 1 – Dienstleistung
+VIS
+
+d.3
+
+Doxis
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+2.3.1.1
+
+VIS
+
+Die Anforderungen werden von VIS/PDV ohne Einschränkungen erfüllt.
+Die Projektorganisation orientiert sich an modernen Standards. Die eingesetzten Mitarbeiter
+verfügen über umfangreiche Erfahrungen und Kenntnisse. PDV wendet professionelle und
+etablierte Projektmanagementmethoden an (z. B. Prince2) und forciert im Rahmen der
+Implementierung grundsätzlich ein agiles Projektvorgehen.
+PDV bietet umfangreiche Schulungsmodelle und –vorgehen an. Dabei wird i. d. R. nach den
+folgenden vier Anwendergruppen differenziert:
+•
+•
+•
+•
+
+Anwender des Dokumentenmanagements- und Vorgangsbearbeitungssystems VIS,
+unterteilt in Führungskräfte und Mitarbeitende
+Anwender der VIS-Scansoftware zur zentralen Posteingangsbearbeitung
+Fachadministratoren zur Administration der VIS-Mandanten
+Systemadministratoren zur Administration des VIS-Systems
+
+Aufgrund der fachlichen Komplexität bietet PDV ein zweistufiges Schulungsmodell an. In der
+ersten Stufe erhalten die Schulungsteilnehmer/innen eine halbtätige Frontalschulung. An die
+Frontalschulung schließt sich die interaktive VIS-Anwenderschulung an. Diese baut auf einer
+Standardschulung auf und schließt die jeweils beim Auftraggeber mit VIS realisierten
+Arbeitsabläufe ein. Darüber hinaus wird grundsätzlich auch E-Learning (Bereitstellung von
+digitalen Lernmedien zum Selbststudium) angeboten.
+Im Rahmen der Einführung werden durch PDV (in Abstimmung mit dem Auftraggeber) i. d.
+R. ein Infrastrukturkonzept (Betrieb des VIS-Systems), ein Konfigurationskonzept (Anpassung
+des VIS-Systems), ein Rollen- und Rechtekonzept sowie ein Fachfeinkonzept (Analyse der mit
+VIS zu realisierenden Arbeitsabläufe) erstellt.
+Zur Testunterstützung bzw. -automation können keine Aussagen getroffen werden.
+2.3.1.2
+
+d.3
+
+Die Anforderungen werden von d.3/d.velop ohne Einschränkungen erfüllt.
+Die Projektorganisation orientiert sich an modernen Standards. Die eingesetzten Mitarbeiter
+verfügen über umfangreiche Erfahrungen und Know-How. d.velop wendet insbesondere in
+der Entwicklungs- und Testphase agile Methoden wie z. B. SCRUM zur Lösungsoptimierung
+an.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Abbildung 86: Vorgehenskonzept zur Einführung eines d.3ecm
+
+Die Schulungen erfolgen i. d. R. „inhouse“ nach einem gemeinsam mit dem Auftraggeber
+abgestimmten Schulungskonzept. Dazu stehen verschiedene Online-Tutorials im ServicePortal der d.velop zur Verfügung.
+Der Aufbau und die Inhalte der in der Regel durchgeführten d.3-Schulungen für die
+Einführung sind nachfolgend kurz beschrieben:
+•
+•
+•
+
+Basisschulung des Projektteams für Projektleitung, Multiplikatoren, Key-User und
+Administratoren sowie Endanwender
+Administratorenschulung für Fachadministratoren und Systembetreuer
+Fachspezifische Basisschulung für Endanwender und Scan-Mitarbeiter
+
+In der Regel werden folgende Konzeptpapiere neben den jeweiligen fachlichen
+Feinkonzepten in Abhängigkeit des Projektumfangs im Rahmen der systemtechnischen d.3Konzeption erarbeitet:
+•
+•
+•
+•
+•
+•
+
+Systeminfrastruktur und -integrationskonzept
+Konfigurationskonzept für zentrale d.3-Systemkomponenten
+Rollout-Konzept mit Einführungsstrategie
+Betriebsführungs- und Datensicherungskonzept
+IT-Sicherheitskonzept zur Einhaltung datenschutzrechtlicher Auflagen
+Testkonzepte in den einzelnen Projektphasen
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+•
+
+Konzepte zum digitalen und analogen Dokumenteneingang
+
+Zur Testunterstützung bzw. -automation können keine Aussagen getroffen werden.
+2.3.1.3
+
+Doxis
+
+Die Anforderungen werden von Doxis/SER ohne Einschränkungen erfüllt.
+Die Projektorganisation orientiert sich an modernen Standards. Die eingesetzten Mitarbeiter
+verfügen über umfangreiche Erfahrungen und Know-How. Das Standardvorgehensmodell der
+SER heißt „Agile Customizing“ und basiert auf agilen Modellen wie Scrum, Rapid Prototyping
+und dem Manifest für agile Softwareentwicklung.
+
+Abbildung 87: Agile Customizing der SER
+
+Für die Durchführung von Schulungen hat SER einen modularen Aufbau mit zwei
+Hauptkategorien etabliert. Dabei werden zum einen Schulungen vor Ort angeboten, die im
+Rahmen von Projekteinführungsprojekten gehalten werden. Diese Schulungen werden im
+Rahmen der Train-the-Trainer Methodik abgehalten und orientieren sich an den
+ausgebildeten Themen des jeweiligen Kunden. Zusätzlich zu den Schulungen vor Ort werden
+Standardschulungen, die im Haus SER an verschiedenen Schulungsstandorten durchgeführt
+werden, angeboten.
+In der Regel werden für die detaillierte Ausarbeitung von Feinkonzepten folgende
+Themenbereiche beleuchtet:
+•
+•
+
+IT-Infrastruktur,
+Aktenplan,
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+• Fachanwendungen,
+• Berechtigungskonzept,
+• Benutzerführung,
+• Fachapplikation Doxis,
+• Projektmanagement
+Zur Testunterstützung bzw. -automation können keine Aussagen getroffen werden.
+
+2.4
+
+Zusammenfassung
+
+Die nachfolgende Grafik zeigt den funktionalen Produktvergleich noch einmal im Überblick.
+Kriteriengruppe
+
+VIS von PDV
+
+d.3 von d.velop
+
+A1
+Gesamtsystem
+A2
+Eingang
+A3
+Registrieren
+A4
+Erstellen
+A5
+Workflow
+A6
+Mobilität
+A7
+Nachvollziehbarkeit
+A8
+Recherche
+A9
+Objekt- und Ablagestr.
+A10
+Ausgang
+A11
+Langzeitspeicherung
+A12
+Administration
+A13
+Techn. Systemanf.
+A14
+Infrastruktur
+A15
+Ergonomie
+A16
+Anb. Drittsysteme
+B1
+SW-Pflege
+B2
+SW-Wartung
+C1
+Dienstleistung
+Abbildung 88: Matrix funktionaler Produktvergleich
+
+Doxis von SER
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+Alle drei Softwareprodukte erfüllen die Anforderungen für den Einsatz in der LHD zur
+elektronischen Aktenführung und Vorgangsbearbeitung. Keines der ausgewählten
+Softwareprodukte erhielt eine negative Bewertung bei einer Kriteriengruppe.
+In den Bereichen Softwarepflege und Wartung sowie Dienstleistung konnte kein Unterschied
+zwischen den Produkten bzw. Herstellern herausgearbeitet werden.
+Die geringen Unterschiede zwischen den Produkten liegen eher im funktionalen Bereich der
+Software bei der Eingangsbearbeitung, dem Erstellen von Objekten, Mobilität, Recherche,
+Objekt- und Ablagestruktur sowie Infrastruktur. Die Vor- und Nachteile der einzelnen
+Produkte heben sich über den gesamten Anforderungskatalog gesehen weitestgehend auf.
+Alle drei Produkte erscheinen für den Einsatz in der LHD als geeignete Lösungen.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+3. Monetärer Produktvergleich
+Der monetäre Produktvergleich basiert auf geschätzten Abnahmemengen der LHD sowie den
+Marktkenntnissen und Erfahrungen der IMTB bei der Durchführung vergleichbarer
+Beschaffungsvorgänge. Die monetäre Betrachtung unterscheidet grundsätzlich zwischen
+Lizenzkosten und Dienstleistungskosten.
+Bei den Preisen handelt es sich um Netto-Preise.
+
+3.1
+
+Kalkulationsgrundlagen
+
+Folgende Abnahmemengen bei einer Laufzeit von 48 Monaten wurden geschätzt:
+LFD. NR.
+1
+2
+3
+4
+5
+
+3.2
+
+KOSTENPOSITION
+Lizenzen DMS/VBS Standardprodukt
+Lizenzen Scansoftware
+Jährliche Pflege DMS/VBS Standardprodukt
+Jährliche Pflege Scansoftware
+Dienstleistungen in Personentage
+
+GESCHÄTZTE ABNAHMEMENGE
+
+VIS
+
+Die nachfolgende Tabelle zeigt zu erwartende Marktpreise bei der Durchführung eines EUweiten Vergabeverfahrens.
+LFD. NR.
+
+KOSTENPOSITION
+
+1
+
+Lizenzen
+DMS/VBS
+Standardprodukt
+Lizenzen Scansoftware
+Jährliche Pflege DMS/VBS
+Standardprodukt
+Jährliche
+Pflege
+Scansoftware
+Dienstleistungen
+in
+Personentage
+
+2
+3
+4
+5
+
+GESCHÄTZTE
+ABNAHMEMENGE
+
+EINZELPREISE
+
+SUMME
+
+€
+
+€
+€
+
+€
+
+€
+
+€
+€
+
+€
+
+€
+
+€
+€
+
+Die nachfolgende Tabelle zeigt die aus dem KISA Rahmenvertrag mit PDV erhobenen Preise.
+LFD. NR.
+
+KOSTENPOSITION
+
+1
+
+Lizenzen
+DMS/VBS
+Standardprodukt
+Lizenzen Scansoftware
+Jährliche Pflege DMS/VBS
+Standardprodukt
+Jährliche
+Pflege
+Scansoftware
+Dienstleistungen
+in
+Personentage
+
+2
+3
+4
+5
+
+GESCHÄTZTE
+ABNAHMEMENGE
+
+EINZELPREISE
+
+SUMME
+
+€
+€
+
+€
+
+€
+€
+
+€
+
+€
+
+€
+
+€
+
+€
+€
+
+3.3
+
+d.3
+
+Die nachfolgende Tabelle zeigt zu erwartende Marktpreise bei der Durchführung eines EUweiten Vergabeverfahrens.
+
+Anlage 1
+LANDESHAUPTSTADT DRESDEN – PRODUKTVERGLEICH E-AKTE
+VERSION 1.0 | FINAL
+
+LFD. NR.
+
+KOSTENPOSITION
+
+1
+
+Lizenzen
+DMS/VBS
+Standardprodukt
+Lizenzen Scansoftware
+Jährliche Pflege DMS/VBS
+Standardprodukt
+Jährliche
+Pflege
+Scansoftware
+Dienstleistungen
+in
+Personentage
+
+2
+3
+4
+5
+
+3.4
+
+GESCHÄTZTE
+ABNAHMEMENGE
+
+EINZELPREISE
+
+SUMME
+
+€
+
+€
+
+€
+
+€
+
+€
+
+€
+€
+
+€
+
+€
+
+€
+€
+
+Doxis
+
+Die nachfolgende Tabelle zeigt zu erwartende Marktpreise bei der Durchführung eines EUweiten Vergabeverfahrens.
+LFD. NR.
+
+KOSTENPOSITION
+
+1
+
+Lizenzen
+DMS/VBS
+Standardprodukt
+Lizenzen Scansoftware
+Jährliche Pflege DMS/VBS
+Standardprodukt
+Jährliche
+Pflege
+Scansoftware
+Dienstleistungen
+in
+Personentage
+
+2
+3
+4
+5
+
+GESCHÄTZTE
+ABNAHMEMENGE
+
+EINZELPREISE
+
+SUMME
+
+€
+
+€
+€
+
+€
+
+€
+
+€
+€
+
+€
+€
+
+€
+€
+
+
