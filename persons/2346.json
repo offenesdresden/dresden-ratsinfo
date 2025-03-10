@@ -7,7 +7,29 @@
   "givenName": "Marcel",
   "formOfAddress": "Herr",
   "gender": "männlich",
+  "location": "http://oparl.dresden.de/bodies/0001/locations/pe/2346",
+  "locationObject": {
+    "id": "http://oparl.dresden.de/bodies/0001/locations/pe/2346",
+    "type": "https://schema.oparl.org/1.1/Location",
+    "streetAddress": "",
+    "postalCode": "",
+    "subLocality": "",
+    "locality": "",
+    "created": "2024-12-16T10:37:09+01:00",
+    "modified": "2024-12-16T10:37:40+01:00"
+  },
   "membership": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/memberships/13943",
+      "type": "https://schema.oparl.org/1.1/Membership",
+      "person": "http://oparl.dresden.de/bodies/0001/people/2346",
+      "organization": "http://oparl.dresden.de/bodies/0001/organizations/gr/147",
+      "role": "Mitglied",
+      "votingRight": true,
+      "startDate": "2024-11-26",
+      "created": "2024-11-26T15:02:30+01:00",
+      "modified": "2024-12-16T10:36:52+01:00"
+    },
     {
       "id": "http://oparl.dresden.de/bodies/0001/memberships/11432",
       "type": "https://schema.oparl.org/1.1/Membership",
@@ -22,6 +44,6 @@
     }
   ],
   "created": "2022-02-22T14:55:10+01:00",
-  "modified": "2024-04-04T10:53:52+02:00",
+  "modified": "2024-12-19T08:49:53+01:00",
   "web": ""
 }
