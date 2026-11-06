@@ -18,6 +18,11 @@
   "organization": [
     "http://oparl.dresden.de/bodies/0001/organizations/gr/52"
   ],
+  "participant": [
+    "http://oparl.dresden.de/bodies/0001/people/351",
+    "http://oparl.dresden.de/bodies/0001/people/2854",
+    "http://oparl.dresden.de/bodies/0001/people/2625"
+  ],
   "invitation": {
     "id": "http://oparl.dresden.de/bodies/0001/files/911906",
     "type": "https://schema.oparl.org/1.1/File",
@@ -31,6 +36,18 @@
     "modified": "2026-10-07T11:25:04+02:00"
   },
   "auxiliaryFile": [
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/915607",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussausfertigung_OSR Oberwartha_V-OW0048/26_oU",
+      "fileName": "00915607.pdf",
+      "mimeType": "application/pdf",
+      "date": "2026-10-21",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00915607.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00915607.pdf",
+      "created": "2026-10-21T13:56:19+02:00",
+      "modified": "2026-11-05T17:54:45+01:00"
+    },
     {
       "id": "http://oparl.dresden.de/bodies/0001/files/916246",
       "type": "https://schema.oparl.org/1.1/File",
@@ -54,6 +71,42 @@
       "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00916247.pdf",
       "created": "2026-10-26T11:36:30+01:00",
       "modified": "2026-10-26T11:36:30+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/919130",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Vorschläge-Hinweise-Anfrage an OB_OSR Oberwartha_Hydranten_mU",
+      "fileName": "00919130.pdf",
+      "mimeType": "application/pdf",
+      "date": "2026-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00919130.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00919130.pdf",
+      "created": "2026-11-05T17:33:52+01:00",
+      "modified": "2026-11-05T17:33:52+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/919131",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Oberwartha_V0972/26_mU",
+      "fileName": "00919131.pdf",
+      "mimeType": "application/pdf",
+      "date": "2026-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00919131.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00919131.pdf",
+      "created": "2026-11-05T17:34:26+01:00",
+      "modified": "2026-11-05T17:34:26+01:00"
+    },
+    {
+      "id": "http://oparl.dresden.de/bodies/0001/files/919132",
+      "type": "https://schema.oparl.org/1.1/File",
+      "name": "Beschlussempfehlung_OSR Oberwartha_V0753/26_mU",
+      "fileName": "00919132.pdf",
+      "mimeType": "application/pdf",
+      "date": "2026-11-05",
+      "accessUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/a/00919132.pdf",
+      "downloadUrl": "http://oparl.dresden.de/bodies/0001/downloadfiles/00919132.pdf",
+      "created": "2026-11-05T17:34:56+01:00",
+      "modified": "2026-11-05T17:34:56+01:00"
     }
   ],
   "agendaItem": [
@@ -90,7 +143,13 @@
       "consultation": "http://oparl.dresden.de/bodies/0001/consultations/69448",
       "result": "Zustimmung",
       "created": "2026-09-29T14:34:44+02:00",
-      "modified": "2026-10-21T11:58:18+02:00"
+      "modified": "2026-10-21T11:58:18+02:00",
+      "vote": {
+        "yes": 4,
+        "no": 0,
+        "neutral": 0,
+        "recused": 0
+      }
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/245673",
@@ -103,7 +162,13 @@
       "consultation": "http://oparl.dresden.de/bodies/0001/consultations/71036",
       "result": "Ablehnung",
       "created": "2026-09-29T14:34:24+02:00",
-      "modified": "2026-10-21T12:02:03+02:00"
+      "modified": "2026-10-21T12:02:03+02:00",
+      "vote": {
+        "yes": 0,
+        "no": 3,
+        "neutral": 1,
+        "recused": 0
+      }
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/245725",
@@ -116,7 +181,13 @@
       "consultation": "http://oparl.dresden.de/bodies/0001/consultations/71930",
       "result": "Zustimmung",
       "created": "2026-10-05T13:55:38+02:00",
-      "modified": "2026-10-21T13:52:14+02:00"
+      "modified": "2026-10-21T13:52:14+02:00",
+      "vote": {
+        "yes": 4,
+        "no": 0,
+        "neutral": 0,
+        "recused": 0
+      }
     },
     {
       "id": "http://oparl.dresden.de/bodies/0001/agendaitems/245671",
@@ -131,5 +202,5 @@
     }
   ],
   "created": "2025-10-16T14:52:08+02:00",
-  "modified": "2026-10-23T08:02:41+02:00"
+  "modified": "2026-11-05T17:54:44+01:00"
 }
